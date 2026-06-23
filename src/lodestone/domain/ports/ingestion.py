@@ -1,76 +1,24 @@
-"""Inbound & outbound ports for the ingestion pipeline (hexagonal core).
+"""Driven (outbound) ports the ingestion pipeline depends on.
 
-Ports are Protocols: the application depends on these abstractions, and the
-adapters/ layer provides concrete implementations (HTTP fetcher, LLM
-extractor, Neo4j writer, ...). This is what lets us swap KAG/OpenSPG for a
-plain LangChain + Neo4j stack without touching application logic.
+These are the only EXTERNAL resources the current pipeline consumes (no API,
+no graph store yet). Defined by intent, not by technology — an adapter binds a
+concrete model (OpenAI/DeepSeek/Ollama/...) without the core knowing which.
 """
 
 from __future__ import annotations
 
-from typing import Protocol, runtime_checkable
-
-from lodestone.domain.models.document import (
-    Chunk,
-    Entity,
-    IngestionResult,
-    RawDocument,
-    SourceRef,
-    Triple,
-)
-
-# --------------------------------------------------------------------------- #
-# Inbound port — what the outside world (API, queue worker) calls.
-# --------------------------------------------------------------------------- #
+from typing import Protocol
 
 
-@runtime_checkable
-class IngestDocumentUseCase(Protocol):
-    """Driving port: ingest a single document identified by a source URL."""
+class LanguageModelPort(Protocol):
+    """A chat/completion model. Consumed by the extractor (NER/std/triple) and,
+    if used, the semantic splitter. Given a rendered prompt, return the reply."""
 
-    async def ingest(self, source: SourceRef) -> IngestionResult: ...
-
-
-# --------------------------------------------------------------------------- #
-# Outbound ports — what the pipeline needs from the outside.
-# --------------------------------------------------------------------------- #
+    def complete(self, prompt: str, **kwargs) -> str: ...
 
 
-@runtime_checkable
-class DocumentSourcePort(Protocol):
-    """Fetches the document content from its URL. Transient: no persistence."""
+class EmbeddingModelPort(Protocol):
+    """A text-embedding model. Consumed by the vectorizer.
+    Maps a batch of texts to their vectors."""
 
-    async def fetch(self, source: SourceRef) -> RawDocument: ...
-
-
-@runtime_checkable
-class ChunkerPort(Protocol):
-    """Splits a document into retrieval-sized, provenance-tagged chunks."""
-
-    def split(self, document: RawDocument) -> list[Chunk]: ...
-
-
-@runtime_checkable
-class EmbedderPort(Protocol):
-    """Generates vector embeddings for chunks (batch)."""
-
-    async def embed(self, chunks: list[Chunk]) -> list[Chunk]: ...
-
-
-@runtime_checkable
-class EntityExtractorPort(Protocol):
-    """LLM-driven extraction of entities and SPO triples from a chunk."""
-
-    async def extract(self, chunk: Chunk) -> tuple[list[Entity], list[Triple]]: ...
-
-
-@runtime_checkable
-class KnowledgeGraphPort(Protocol):
-    """Writes chunks (text + vector) and graph (entities/triples) to storage.
-
-    The single sink that hides Neo4j / OpenSPG / KAG behind one interface.
-    """
-
-    async def write_chunks(self, chunks: list[Chunk]) -> None: ...
-
-    async def write_graph(self, entities: list[Entity], triples: list[Triple]) -> None: ...
+    def embed(self, texts: list[str]) -> list[list[float]]: ...

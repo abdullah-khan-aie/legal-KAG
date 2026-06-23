@@ -1,3 +1,22 @@
+[project]
+name = "lodestone-graphrag"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx",              # OpenAI-compatible model/embedding HTTP adapters (src)
+    "pydantic>=2",        # settings models (src/config)
+    "pydantic-settings>=2",  # env-driven configuration (src/config)
+    "pyyaml",             # local schema client reads YAML (kag/schema)
+    "tenacity",           # retry decorators in extractors/vectorizer (kag)
+    "pandas",             # table extractor (kag)
+    "markdown",           # table extractor (kag)
+    "pdfminer.six",       # PDF reader (kag)
+    "PyPDF2",             # PDF reader (kag)
+]
+
+[project.optional-dependencies]
+dev = ["ruff", "pytest"]
+
 [tool.ruff]
 line-length = 100
 target-version = "py313"
