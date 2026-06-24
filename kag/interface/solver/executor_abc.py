@@ -4,8 +4,9 @@ from abc import ABC, abstractmethod
 from typing import Any
 
 from docstring_parser import parse
-from kag_extracted.common.registry import Registrable
-from kag_extracted.interface.solver.context import Context
+
+from kag.common.registry import Registrable
+from kag.interface.solver.context import Context
 
 
 class ExecutorResponse(Registrable, ABC):

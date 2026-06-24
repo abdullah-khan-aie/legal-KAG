@@ -6,8 +6,9 @@ import tarfile
 
 import numpy as np
 import requests
-from kag_extracted.common.rate_limiter import RATE_LIMITER_MANGER
-from kag_extracted.common.registry import Registrable
+
+from kag.common.rate_limiter import RATE_LIMITER_MANGER
+from kag.common.registry import Registrable
 
 logger = logging.getLogger()
 

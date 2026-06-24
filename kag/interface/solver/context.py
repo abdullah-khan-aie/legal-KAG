@@ -1,8 +1,9 @@
 from collections import OrderedDict
 
 import networkx as nx
-from kag_extracted.interface.solver.model.one_hop_graph import KgGraph
-from kag_extracted.interface.solver.planner_abc import Task
+
+from kag.interface.solver.model.one_hop_graph import KgGraph
+from kag.interface.solver.planner_abc import Task
 
 
 class Context:

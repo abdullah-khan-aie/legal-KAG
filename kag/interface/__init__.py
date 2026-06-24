@@ -231,6 +231,34 @@ class PostProcessorABC:
         raise NotImplementedError
 
 
+# --- kag.interface.AlignerABC (minimal) ------------------------------------ #
+class AlignerABC:
+    def __init__(self, **kwargs):
+        for k, v in kwargs.items():
+            setattr(self, k, v)
+
+    @classmethod
+    def register(cls, name=None, *args, **kwargs):
+        def _decorator(target):
+            return target
+
+        return _decorator
+
+    @property
+    def input_types(self):
+        return None
+
+    @property
+    def output_types(self):
+        return None
+
+    def invoke(self, input, **kwargs) -> list[Output]:
+        return self._invoke(input, **kwargs)
+
+    def _invoke(self, input, **kwargs) -> list[Output]:
+        raise NotImplementedError
+
+
 # --- vector search seam (replaces knext.search.client.SearchClient) --------- #
 class SearchClientABC:
     """Bindable similarity-search seam for entity linking.
@@ -312,21 +340,30 @@ class SparseVectorizeModelABC(VectorizeModelABC):
 # Mirrors `from kag.interface import ToolABC, RetrieverABC, ...`. Imported at the
 # end so the minimal ABCs above are defined first (the bases import from submodules
 # directly, not from this package, so there is no import cycle).
-from kag_extracted.interface.common.model.retriever_data import (  # noqa: E402
+from kag.interface.common.model.retriever_data import (  # noqa: E402
     ChunkData,  # noqa: F401
     DocData,  # noqa: F401
     EntityData,  # noqa: F401
     KgGraph,  # noqa: F401
     OneHopGraphData,  # noqa: F401
+    Prop,  # noqa: F401
     RelationData,  # noqa: F401
 )
-from kag_extracted.interface.common.rerank_model import RerankModelABC  # noqa: E402, F401
-from kag_extracted.interface.common.tools import ToolABC  # noqa: E402, F401
-from kag_extracted.interface.solver.context import Context  # noqa: E402, F401
-from kag_extracted.interface.solver.executor_abc import ExecutorABC  # noqa: E402, F401
-from kag_extracted.interface.solver.model.schema_utils import SchemaUtils  # noqa: E402, F401
-from kag_extracted.interface.solver.planner_abc import Task  # noqa: E402, F401
-from kag_extracted.interface.solver.retriever_abc import (  # noqa: E402
+from kag.interface.common.rerank_model import RerankModelABC  # noqa: E402, F401
+from kag.interface.common.tools import ToolABC  # noqa: E402, F401
+from kag.interface.solver.context import Context  # noqa: E402, F401
+from kag.interface.solver.executor_abc import (  # noqa: E402
+    ExecutorABC,  # noqa: F401
+    ExecutorResponse,  # noqa: F401
+)
+from kag.interface.solver.generator_abc import GeneratorABC  # noqa: E402, F401
+from kag.interface.solver.model.schema_utils import SchemaUtils  # noqa: E402, F401
+from kag.interface.solver.pipeline_abc import SolverPipelineABC  # noqa: E402, F401
+from kag.interface.solver.planner_abc import (  # noqa: E402
+    PlannerABC,  # noqa: F401
+    Task,  # noqa: F401
+)
+from kag.interface.solver.retriever_abc import (  # noqa: E402
     RetrieverABC,  # noqa: F401
     RetrieverOutput,  # noqa: F401
     RetrieverOutputMerger,  # noqa: F401
