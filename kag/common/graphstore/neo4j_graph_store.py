@@ -5,10 +5,11 @@ import time
 from abc import ABCMeta
 
 import schedule
-from kag_extracted.common import escape_single_quotes
-from kag_extracted.common.graphstore.graph_store import GraphStore
-from kag_extracted.schema.client import IndexTypeEnum
 from neo4j import GraphDatabase
+
+from kag.common import escape_single_quotes
+from kag.common.graphstore.graph_store import GraphStore
+from kag.schema.client import IndexTypeEnum
 
 logger = logging.getLogger(__name__)
 

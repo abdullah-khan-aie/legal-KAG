@@ -1,14 +1,15 @@
 import logging
 
-import kag_extracted.common.cache
-from kag_extracted.common.conf import KAGConfigAccessor, KAGConstants
-from kag_extracted.interface import LLMClient, PromptABC, ToolABC
-from kag_extracted.interface.solver.base_model import SPOEntity
-from kag_extracted.solver.utils import init_prompt_with_fallback
 from tenacity import retry, stop_after_attempt
 
+import kag.common.cache
+from kag.common.conf import KAGConfigAccessor, KAGConstants
+from kag.interface import LLMClient, PromptABC, ToolABC
+from kag.interface.solver.base_model import SPOEntity
+from kag.solver.utils import init_prompt_with_fallback
+
 logger = logging.getLogger()
-ner_tool_cache = kag_extracted.common.cache.LinkCache(maxsize=100, ttl=300)
+ner_tool_cache = kag.common.cache.LinkCache(maxsize=100, ttl=300)
 
 
 @ToolABC.register("ner")

@@ -1,8 +1,9 @@
 import numpy as np
-from kag_extracted.common.conf import KAG_CONFIG
-from kag_extracted.common.text_sim_by_vector import TextSimilarity, cosine_similarity
-from kag_extracted.interface import RerankModelABC, ToolABC, VectorizeModelABC
-from kag_extracted.interface.solver.model.one_hop_graph import ChunkData
+
+from kag.common.conf import KAG_CONFIG
+from kag.common.text_sim_by_vector import TextSimilarity, cosine_similarity
+from kag.interface import RerankModelABC, ToolABC, VectorizeModelABC
+from kag.interface.solver.model.one_hop_graph import ChunkData
 
 
 def _flat_passages_set(passages_set: list[list[ChunkData]]):

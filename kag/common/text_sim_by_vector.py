@@ -1,8 +1,9 @@
 import logging
 
 import numpy as np
-from kag_extracted.common.conf import KAGConfigAccessor, KAGConstants
-from kag_extracted.interface import VectorizeModelABC as Vectorizer
+
+from kag.common.conf import KAGConfigAccessor, KAGConstants
+from kag.interface import VectorizeModelABC as Vectorizer
 
 logger = logging.getLogger()
 
