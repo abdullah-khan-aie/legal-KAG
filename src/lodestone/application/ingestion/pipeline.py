@@ -1,6 +1,6 @@
 """The ingestion pipeline (application core).
 
-Composes the dependency-free kag compute stages into:
+Composes the dependency-free kag_extracted compute stages into:
 
     read -> split -> extract -> vectorize -> postprocess(filter)  ->  SubGraph
 
@@ -10,7 +10,7 @@ no API. The pipeline is built once (loads schema + prompt templates) and reused.
 
 Concurrency: the IO-bound file read runs in a worker thread (``asyncio.to_thread``)
 and the per-chunk extractions run concurrently (``asyncio.gather``). The model
-HTTP calls themselves are issued synchronously *inside* kag, which we
+HTTP calls themselves are issued synchronously *inside* kag_extracted, which we
 treat as frozen, so they block the loop for their duration — a known limitation
 to address at the adapter boundary if needed.
 """
@@ -19,6 +19,9 @@ from __future__ import annotations
 
 import asyncio
 
+from kag.builder.component.extractor.schema_constraint_extractor import (
+    SchemaConstraintExtractor,
+)
 from kag.builder.component.extractor.schema_free_extractor import (
     SchemaFreeExtractor,
 )
@@ -30,6 +33,11 @@ from kag.builder.component.splitter.length_splitter import LengthSplitter
 from kag.builder.component.vectorizer.batch_vectorizer import BatchVectorizer
 from kag.builder.model.chunk import Chunk
 from kag.builder.model.sub_graph import SubGraph
+from kag.builder.prompt.spg_prompt import (
+    SPGEntityPrompt,
+    SPGEventPrompt,
+    SPGRelationPrompt,
+)
 
 # vendored compute library
 from kag.interface import LLMClient, VectorizeModelABC
@@ -45,6 +53,7 @@ class IngestionPipeline:
         language: str = "en",
         split_length: int = 500,
         window_length: int = 100,
+        extraction_mode: str = "schema_constraint",
     ) -> None:
         # bind the ports into the library's seams (call/vectorize)
         self._llm = LLMClient(call=lambda prompt, **_: llm.complete(prompt))
@@ -55,11 +64,32 @@ class IngestionPipeline:
         self._splitter = LengthSplitter(
             split_length=split_length, window_length=window_length, language=language
         )
-        self._extractor = SchemaFreeExtractor(
-            llm=self._llm, schema_path=schema_path, language=language
-        )
+        self._extractor = self._build_extractor(extraction_mode, schema_path, language)
         self._vectorizer = BatchVectorizer(vectorize_model=self._embed, schema_path=schema_path)
         self._postprocessor = KAGPostProcessor(schema_path=schema_path)  # filter-only
+
+    def _build_extractor(self, mode: str, schema_path: str, language: str):
+        """Build the extractor for the requested mode.
+
+        ``schema_constraint`` mirrors the server: the SPG entity/relation/event
+        prompts inject the schema (types, properties, constraints) so the LLM
+        extracts conforming entities and typed relations. ``schema_free`` keeps
+        the open-IE NER + triple extraction (type vocabulary only).
+        """
+        if mode == "schema_free":
+            return SchemaFreeExtractor(llm=self._llm, schema_path=schema_path, language=language)
+        if mode == "schema_constraint":
+            return SchemaConstraintExtractor(
+                llm=self._llm,
+                schema_path=schema_path,
+                language=language,
+                ner_prompt=SPGEntityPrompt(language=language, schema_path=schema_path),
+                relation_prompt=SPGRelationPrompt(language=language, schema_path=schema_path),
+                event_prompt=SPGEventPrompt(language=language, schema_path=schema_path),
+            )
+        raise ValueError(
+            f"unknown extraction_mode {mode!r}; expected 'schema_constraint' or 'schema_free'"
+        )
 
     async def ingest(self, source: str) -> SubGraph:
         """Ingest a document (a file path or raw text) into a SubGraph."""
