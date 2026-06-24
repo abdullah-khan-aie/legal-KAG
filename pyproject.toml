@@ -7,17 +7,17 @@ dependencies = [
     "httpx",                 # OpenAI-compatible model/embedding HTTP adapters
     "pydantic>=2",           # settings models (src/config)
     "pydantic-settings>=2",  # env-driven configuration (src/config)
-    # --- ingestion (kag_extracted builder) ---
+    # --- ingestion (kag builder) ---
     "pyyaml",                # local YAML schema client
     "tenacity",              # retry decorators in extractors/vectorizer/retrievers
     "pandas",                # table extractor
     "markdown",              # table extractor
     "pdfminer.six",          # PDF reader
     "PyPDF2",                # PDF reader
-    # --- graph store (kag_extracted graphstore) ---
+    # --- graph store (kag graphstore) ---
     "neo4j",                 # Neo4j graph store driver
     "schedule",              # periodic constraint/pagerank refresh in Neo4jClient
-    # --- retriever / solver foundation (kag_extracted) ---
+    # --- retriever / solver foundation (kag) ---
     "networkx",              # solver Context graph
     "numpy",                 # rerank / vector math / utils
     "jinja2",                # prompt/templating utils
@@ -25,6 +25,11 @@ dependencies = [
     "docstring_parser",      # tool/executor schema generation
     "aiolimiter",            # async rate limiting in utils
     "cachetools",            # LinkCache (query/one-hop caches)
+    # --- solver (kag solver: planner/executor/generator/pipeline) ---
+    "openai",                # OpenAI-compatible LLM client
+    "ollama",                # local Ollama LLM client
+    "pyhocon",               # solver pipeline config (.conf/.yaml) parsing
+    "mcp",                   # MCP executor (external tool servers)
 ]
 
 [project.optional-dependencies]
