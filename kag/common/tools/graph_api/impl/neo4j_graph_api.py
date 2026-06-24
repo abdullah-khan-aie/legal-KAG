@@ -18,10 +18,10 @@
 
 import logging
 
-from kag_extracted.common.tools.graph_api.graph_api_abc import GraphApiABC
-from kag_extracted.common.tools.graph_api.model.table_model import TableData
-from kag_extracted.interface.solver.base_model import SPOEntity
-from kag_extracted.interface.solver.model.one_hop_graph import (
+from kag.common.tools.graph_api.graph_api_abc import GraphApiABC
+from kag.common.tools.graph_api.model.table_model import TableData
+from kag.interface.solver.base_model import SPOEntity
+from kag.interface.solver.model.one_hop_graph import (
     EntityData,
     OneHopGraphData,
     Prop,

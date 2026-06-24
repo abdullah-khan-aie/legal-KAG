@@ -12,7 +12,7 @@
 # "__labels__": [...]}, "score": ...} — identical to idx_record_to_dict's output —
 # so this client is a faithful delegation, not a reimplementation.
 
-from kag_extracted.interface import SearchClientABC
+from kag.interface import SearchClientABC
 
 
 class Neo4jSearchClient(SearchClientABC):

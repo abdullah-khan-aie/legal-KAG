@@ -2,12 +2,12 @@ import logging
 import time
 from concurrent.futures import ThreadPoolExecutor
 
-from kag_extracted.common.config import LogicFormConfiguration
-from kag_extracted.common.tools.algorithm_tool.ner import Ner
-from kag_extracted.common.tools.graph_api.graph_api_abc import GraphApiABC
-from kag_extracted.common.tools.search_api.search_api_abc import SearchApiABC
-from kag_extracted.common.utils import get_recall_node_label
-from kag_extracted.interface import (
+from kag.common.config import LogicFormConfiguration
+from kag.common.tools.algorithm_tool.ner import Ner
+from kag.common.tools.graph_api.graph_api_abc import GraphApiABC
+from kag.common.tools.search_api.search_api_abc import SearchApiABC
+from kag.common.utils import get_recall_node_label
+from kag.interface import (
     ChunkData,
     EntityData,
     LLMClient,
@@ -16,7 +16,7 @@ from kag_extracted.interface import (
     SchemaUtils,
     VectorizeModelABC,
 )
-from kag_extracted.schema.client import CHUNK_TYPE
+from kag.schema.client import CHUNK_TYPE
 
 logger = logging.getLogger()
 

@@ -3,7 +3,7 @@
 #   - dropped SplitterABC base -> plain class
 #   - Chunk from local module
 
-from kag_extracted.builder.model.chunk import Chunk
+from kag.builder.model.chunk import Chunk
 
 
 class BaseTableSplitter:

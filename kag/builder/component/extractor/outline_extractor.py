@@ -1,10 +1,10 @@
 import logging
 
-from kag_extracted.builder.model.chunk import Chunk, ChunkTypeEnum
-from kag_extracted.builder.model.sub_graph import SubGraph
-from kag_extracted.common import Input, Output
-from kag_extracted.interface import ExtractorABC
-from kag_extracted.schema.client import CHUNK_TYPE, TABLE_TYPE
+from kag.builder.model.chunk import Chunk, ChunkTypeEnum
+from kag.builder.model.sub_graph import SubGraph
+from kag.common import Input, Output
+from kag.interface import ExtractorABC
+from kag.schema.client import CHUNK_TYPE, TABLE_TYPE
 
 logger = logging.getLogger(__name__)
 

@@ -2,7 +2,7 @@ import itertools
 import json
 import re
 
-from kag_extracted.common.registry import Registrable
+from kag.common.registry import Registrable
 
 
 class Identifier:

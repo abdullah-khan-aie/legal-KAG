@@ -1,6 +1,6 @@
 from abc import abstractmethod
 
-from kag_extracted.common.registry import Registrable
+from kag.common.registry import Registrable
 
 
 class SearchApiABC(Registrable):

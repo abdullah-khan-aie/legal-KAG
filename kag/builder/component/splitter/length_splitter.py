@@ -1,5 +1,5 @@
-from kag_extracted.builder.model.chunk import Chunk, ChunkTypeEnum
-from kag_extracted.common import generate_hash_id
+from kag.builder.model.chunk import Chunk, ChunkTypeEnum
+from kag.common import generate_hash_id
 
 
 class LengthSplitter:

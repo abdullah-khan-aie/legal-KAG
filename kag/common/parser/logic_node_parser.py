@@ -1,8 +1,8 @@
 import logging
 import re
 
-from kag_extracted.common.utils import extract_content_target
-from kag_extracted.interface.solver.base_model import (
+from kag.common.utils import extract_content_target
+from kag.interface.solver.base_model import (
     Identifier,
     LFNodeData,
     LogicNode,
@@ -11,7 +11,7 @@ from kag_extracted.interface.solver.base_model import (
     SPORelation,
     TypeInfo,
 )
-from kag_extracted.interface.solver.model.schema_utils import SchemaUtils
+from kag.interface.solver.model.schema_utils import SchemaUtils
 
 logger = logging.getLogger(__name__)
 

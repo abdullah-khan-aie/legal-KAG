@@ -2,9 +2,9 @@ import logging
 import os
 import urllib.parse  # Import for URL decoding
 
-from kag_extracted.builder.model.chunk import Chunk
-from kag_extracted.common import Input, Output, generate_hash_id
-from kag_extracted.interface import ReaderABC
+from kag.builder.model.chunk import Chunk
+from kag.common import Input, Output, generate_hash_id
+from kag.interface import ReaderABC
 
 logger = logging.getLogger(__name__)
 

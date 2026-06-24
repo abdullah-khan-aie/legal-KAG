@@ -1,7 +1,7 @@
 import json
 from string import Template
 
-from kag_extracted.interface import PromptABC
+from kag.interface import PromptABC
 
 
 @PromptABC.register("default_ner")

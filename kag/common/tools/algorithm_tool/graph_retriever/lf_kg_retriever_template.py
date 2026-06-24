@@ -1,18 +1,18 @@
 import logging
 import time
 
-from kag_extracted.common.conf import KAGGlobalConf
-from kag_extracted.common.config import LogicFormConfiguration
-from kag_extracted.common.parser.logic_node_parser import GetSPONode, ParseLogicForm
-from kag_extracted.common.parser.schema_std import StdSchema
-from kag_extracted.common.tools.algorithm_tool.graph_retriever.path_select.path_select import (
+from kag.common.conf import KAGGlobalConf
+from kag.common.config import LogicFormConfiguration
+from kag.common.parser.logic_node_parser import GetSPONode, ParseLogicForm
+from kag.common.parser.schema_std import StdSchema
+from kag.common.tools.algorithm_tool.graph_retriever.path_select.path_select import (
     PathSelect,
 )
-from kag_extracted.common.utils import resolve_instance
-from kag_extracted.interface import Context, SchemaUtils
-from kag_extracted.interface.solver.base_model import LogicNode, SPOEntity
-from kag_extracted.interface.solver.model.one_hop_graph import EntityData, KgGraph
-from kag_extracted.interface.solver.reporter_abc import ReporterABC
+from kag.common.utils import resolve_instance
+from kag.interface import Context, SchemaUtils
+from kag.interface.solver.base_model import LogicNode, SPOEntity
+from kag.interface.solver.model.one_hop_graph import EntityData, KgGraph
+from kag.interface.solver.reporter_abc import ReporterABC
 
 logger = logging.getLogger()
 

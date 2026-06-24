@@ -1,6 +1,6 @@
-from kag_extracted.builder.model.chunk import Chunk
-from kag_extracted.common import Input, Output
-from kag_extracted.interface import ReaderABC
+from kag.builder.model.chunk import Chunk
+from kag.common import Input, Output
+from kag.interface import ReaderABC
 
 
 @ReaderABC.register("dict")

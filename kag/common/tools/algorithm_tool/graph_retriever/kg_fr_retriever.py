@@ -1,23 +1,23 @@
 import logging
 import time
 
-from kag_extracted.common.config import get_default_chat_llm_config
-from kag_extracted.common.parser.schema_std import StdSchema
-from kag_extracted.common.tools.algorithm_tool.chunk_retriever.ppr_chunk_retriever import (
+from kag.common.config import get_default_chat_llm_config
+from kag.common.parser.schema_std import StdSchema
+from kag.common.tools.algorithm_tool.chunk_retriever.ppr_chunk_retriever import (
     PprChunkRetriever,
 )
-from kag_extracted.common.tools.algorithm_tool.graph_retriever.entity_linking import (
+from kag.common.tools.algorithm_tool.graph_retriever.entity_linking import (
     EntityLinking,
 )
-from kag_extracted.common.tools.algorithm_tool.graph_retriever.lf_kg_retriever_template import (
+from kag.common.tools.algorithm_tool.graph_retriever.lf_kg_retriever_template import (
     KgRetrieverTemplate,
     get_std_logic_form_parser,
     std_logic_node,
 )
-from kag_extracted.common.tools.algorithm_tool.graph_retriever.path_select.path_select import (
+from kag.common.tools.algorithm_tool.graph_retriever.path_select.path_select import (
     PathSelect,
 )
-from kag_extracted.interface import Context, LLMClient, RetrieverABC, RetrieverOutput
+from kag.interface import Context, LLMClient, RetrieverABC, RetrieverOutput
 
 logger = logging.getLogger()
 

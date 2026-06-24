@@ -1,6 +1,6 @@
 import math
 
-from kag_extracted.interface import (
+from kag.interface import (
     ChunkData,
     KgGraph,
     RetrieverOutput,

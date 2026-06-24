@@ -4,7 +4,7 @@
 from enum import Enum
 from typing import Any
 
-from kag_extracted.common import generate_hash_id
+from kag.common import generate_hash_id
 
 
 class ChunkTypeEnum(str, Enum):  # noqa: UP042

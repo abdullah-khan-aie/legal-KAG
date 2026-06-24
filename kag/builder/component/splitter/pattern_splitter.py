@@ -9,8 +9,8 @@
 import re
 from typing import Type, List, Union
 
-from kag_extracted.builder.model.chunk import Chunk
-from kag_extracted.common import generate_hash_id, Input, Output
+from kag.builder.model.chunk import Chunk
+from kag.common import generate_hash_id, Input, Output
 
 
 class PatternSplitter:

@@ -9,10 +9,10 @@
 import logging
 import re
 
-from kag_extracted.builder.model.chunk import Chunk
-from kag_extracted.builder.prompt.semantic_seg_prompt import SemanticSegPrompt
-from kag_extracted.common import Input, Output, generate_hash_id
-from kag_extracted.interface import LLMClient
+from kag.builder.model.chunk import Chunk
+from kag.builder.prompt.semantic_seg_prompt import SemanticSegPrompt
+from kag.common import Input, Output, generate_hash_id
+from kag.interface import LLMClient
 
 logger = logging.getLogger(__name__)
 

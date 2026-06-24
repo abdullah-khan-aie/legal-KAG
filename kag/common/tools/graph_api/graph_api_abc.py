@@ -1,9 +1,9 @@
 from abc import abstractmethod
 
-from kag_extracted.common.registry import Registrable
-from kag_extracted.common.tools.graph_api.model.table_model import TableData
-from kag_extracted.interface.solver.base_model import SPOBase, SPOEntity
-from kag_extracted.interface.solver.model.one_hop_graph import (
+from kag.common.registry import Registrable
+from kag.common.tools.graph_api.model.table_model import TableData
+from kag.interface.solver.base_model import SPOBase, SPOEntity
+from kag.interface.solver.model.one_hop_graph import (
     EntityData,
     OneHopGraphData,
 )

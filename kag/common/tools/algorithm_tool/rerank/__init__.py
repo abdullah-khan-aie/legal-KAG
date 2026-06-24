@@ -1,1 +1,1 @@
-import kag_extracted.common.tools.algorithm_tool.rerank.rerank_by_vector  # noqa: F401
+import kag.common.tools.algorithm_tool.rerank.rerank_by_vector  # noqa: F401

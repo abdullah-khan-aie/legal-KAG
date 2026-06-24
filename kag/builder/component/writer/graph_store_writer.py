@@ -30,8 +30,8 @@ import json
 import logging
 from collections import defaultdict
 
-from kag_extracted.builder.model.sub_graph import SubGraph
-from kag_extracted.common.graphstore.graph_store import GraphStore
+from kag.builder.model.sub_graph import SubGraph
+from kag.common.graphstore.graph_store import GraphStore
 
 logger = logging.getLogger(__name__)
 

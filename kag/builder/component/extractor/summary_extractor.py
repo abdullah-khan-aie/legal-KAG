@@ -1,10 +1,10 @@
 import logging
 
-from kag_extracted.builder.model.chunk import Chunk, ChunkTypeEnum
-from kag_extracted.builder.model.sub_graph import SubGraph
-from kag_extracted.common import Input, Output
-from kag_extracted.interface import ExtractorABC, LLMClient, PromptABC
-from kag_extracted.schema.client import CHUNK_TYPE, TABLE_TYPE
+from kag.builder.model.chunk import Chunk, ChunkTypeEnum
+from kag.builder.model.sub_graph import SubGraph
+from kag.common import Input, Output
+from kag.interface import ExtractorABC, LLMClient, PromptABC
+from kag.schema.client import CHUNK_TYPE, TABLE_TYPE
 
 logger = logging.getLogger(__name__)
 
@@ -19,7 +19,7 @@ class SummaryExtractor(ExtractorABC):
     ):
         super().__init__(**kwargs)
         self.llm_module = llm_module
-        from kag_extracted.builder.prompt.chunk_summary_prompt import ChunkSummaryPrompt
+        from kag.builder.prompt.chunk_summary_prompt import ChunkSummaryPrompt
 
         self.chunk_summary_prompt = chunk_summary_prompt or ChunkSummaryPrompt(self.language)
 

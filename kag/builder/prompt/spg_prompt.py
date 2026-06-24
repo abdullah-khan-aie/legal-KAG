@@ -3,8 +3,8 @@ import copy
 import json
 import logging
 
-from kag_extracted.interface import PromptABC
-from kag_extracted.schema.client import (
+from kag.interface import PromptABC
+from kag.schema.client import (
     OTHER_TYPE,
     ConstraintTypeEnum,
     SchemaClient,

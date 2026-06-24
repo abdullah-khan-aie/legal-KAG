@@ -1,11 +1,11 @@
 import asyncio
 import logging
 
-import kag_extracted.common.cache
-from kag_extracted.common.config import LogicFormConfiguration
-from kag_extracted.common.tools.graph_api.graph_api_abc import GraphApiABC
-from kag_extracted.common.tools.search_api.search_api_abc import SearchApiABC
-from kag_extracted.interface import (
+import kag.common.cache
+from kag.common.config import LogicFormConfiguration
+from kag.common.tools.graph_api.graph_api_abc import GraphApiABC
+from kag.common.tools.search_api.search_api_abc import SearchApiABC
+from kag.interface import (
     ChunkData,
     Context,
     EntityData,
@@ -16,11 +16,11 @@ from kag_extracted.interface import (
     Task,
     VectorizeModelABC,
 )
-from kag_extracted.interface.solver.model.schema_utils import SchemaUtils
-from kag_extracted.schema.client import CHUNK_TYPE, TABLE_TYPE
+from kag.interface.solver.model.schema_utils import SchemaUtils
+from kag.schema.client import CHUNK_TYPE, TABLE_TYPE
 
 logger = logging.getLogger()
-chunk_cached_by_query_map = kag_extracted.common.cache.LinkCache(maxsize=100, ttl=300)
+chunk_cached_by_query_map = kag.common.cache.LinkCache(maxsize=100, ttl=300)
 
 
 @RetrieverABC.register("atomic_query_chunk_retriever")

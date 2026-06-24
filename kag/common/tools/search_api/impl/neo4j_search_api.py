@@ -7,7 +7,7 @@
 # {"node": {..., "__labels__": [...]}, "score": ...} -- identical to what the
 # server returned. This impl is therefore a faithful delegation, not a new search.
 
-from kag_extracted.common.tools.search_api.search_api_abc import SearchApiABC
+from kag.common.tools.search_api.search_api_abc import SearchApiABC
 
 
 @SearchApiABC.register("neo4j_search_api")

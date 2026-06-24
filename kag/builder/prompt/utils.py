@@ -1,6 +1,6 @@
 import logging
 
-from kag_extracted.interface import PromptABC
+from kag.interface import PromptABC
 
 logger = logging.getLogger(__name__)
 

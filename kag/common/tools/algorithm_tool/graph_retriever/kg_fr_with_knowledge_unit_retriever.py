@@ -1,30 +1,30 @@
 import logging
 import time
 
-from kag_extracted.common.config import (
+from kag.common.config import (
     LogicFormConfiguration,
     get_default_chat_llm_config,
 )
-from kag_extracted.common.parser.logic_node_parser import GetSPONode
-from kag_extracted.common.parser.schema_std import StdSchema
-from kag_extracted.common.tools.algorithm_tool.chunk_retriever.ppr_chunk_retriever import (
+from kag.common.parser.logic_node_parser import GetSPONode
+from kag.common.parser.schema_std import StdSchema
+from kag.common.tools.algorithm_tool.chunk_retriever.ppr_chunk_retriever import (
     PprChunkRetriever,
 )
-from kag_extracted.common.tools.algorithm_tool.graph_retriever.entity_linking import (
+from kag.common.tools.algorithm_tool.graph_retriever.entity_linking import (
     EntityLinking,
 )
-from kag_extracted.common.tools.algorithm_tool.graph_retriever.lf_kg_retriever_template import (
+from kag.common.tools.algorithm_tool.graph_retriever.lf_kg_retriever_template import (
     KgRetrieverTemplate,
     get_std_logic_form_parser,
     std_logic_node,
 )
-from kag_extracted.common.tools.algorithm_tool.graph_retriever.path_select.path_select import (
+from kag.common.tools.algorithm_tool.graph_retriever.path_select.path_select import (
     PathSelect,
 )
-from kag_extracted.common.tools.graph_api.graph_api_abc import GraphApiABC
-from kag_extracted.common.tools.search_api.search_api_abc import SearchApiABC
-from kag_extracted.common.utils import get_recall_node_label
-from kag_extracted.interface import (
+from kag.common.tools.graph_api.graph_api_abc import GraphApiABC
+from kag.common.tools.search_api.search_api_abc import SearchApiABC
+from kag.common.utils import get_recall_node_label
+from kag.interface import (
     Context,
     EntityData,
     KgGraph,
@@ -34,7 +34,7 @@ from kag_extracted.interface import (
     SchemaUtils,
     VectorizeModelABC,
 )
-from kag_extracted.interface.solver.base_model import SPOBase
+from kag.interface.solver.base_model import SPOBase
 
 logger = logging.getLogger()
 

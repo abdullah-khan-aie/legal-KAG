@@ -4,9 +4,9 @@ import csv
 import json
 from collections import defaultdict
 
-from kag_extracted.common.config import LogicFormConfiguration
-from kag_extracted.reasoner.client import ReasonerClient
-from kag_extracted.schema.client import Property
+from kag.common.config import LogicFormConfiguration
+from kag.reasoner.client import ReasonerClient
+from kag.schema.client import Property
 
 
 class SchemaUtils:

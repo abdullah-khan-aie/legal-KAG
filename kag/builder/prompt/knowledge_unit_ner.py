@@ -1,8 +1,8 @@
 import json
 from string import Template
 
-from kag_extracted.builder.prompt.util import load_NER_data
-from kag_extracted.interface import PromptABC
+from kag.builder.prompt.util import load_NER_data
+from kag.interface import PromptABC
 
 
 @PromptABC.register("knowledge_unit_ner")

@@ -1,15 +1,15 @@
 import logging
 
-import kag_extracted.common.cache
-from kag_extracted.common.conf import KAGConfigAccessor, KAGConstants
-from kag_extracted.common.config import LogicFormConfiguration
-from kag_extracted.common.tools.search_api.search_api_abc import SearchApiABC
-from kag_extracted.interface import ToolABC, VectorizeModelABC
-from kag_extracted.interface.solver.model.schema_utils import SchemaUtils
-from kag_extracted.schema.client import CHUNK_TYPE
+import kag.common.cache
+from kag.common.conf import KAGConfigAccessor, KAGConstants
+from kag.common.config import LogicFormConfiguration
+from kag.common.tools.search_api.search_api_abc import SearchApiABC
+from kag.interface import ToolABC, VectorizeModelABC
+from kag.interface.solver.model.schema_utils import SchemaUtils
+from kag.schema.client import CHUNK_TYPE
 
 logger = logging.getLogger()
-chunk_cached_by_query_map = kag_extracted.common.cache.LinkCache(maxsize=100, ttl=300)
+chunk_cached_by_query_map = kag.common.cache.LinkCache(maxsize=100, ttl=300)
 
 
 @ToolABC.register("vector_chunk_retriever_legacy")

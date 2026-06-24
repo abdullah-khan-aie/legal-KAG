@@ -2,8 +2,8 @@ import json
 import logging
 import re
 
-from kag_extracted.interface.solver.base_model import Identifier
-from kag_extracted.interface.solver.model.schema_utils import SchemaUtils
+from kag.interface.solver.base_model import Identifier
+from kag.interface.solver.model.schema_utils import SchemaUtils
 
 logger = logging.getLogger()
 

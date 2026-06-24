@@ -1,6 +1,6 @@
 import json
 
-from kag_extracted.interface import PromptABC
+from kag.interface import PromptABC
 
 
 @PromptABC.register("default_std")

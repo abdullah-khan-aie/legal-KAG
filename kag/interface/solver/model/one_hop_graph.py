@@ -1,4 +1,4 @@
 # -*- coding: utf-8 -*-
 # flake8: noqa
 
-from kag_extracted.interface.common.model.retriever_data import *
+from kag.interface.common.model.retriever_data import *

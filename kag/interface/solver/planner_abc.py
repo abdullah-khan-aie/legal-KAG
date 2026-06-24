@@ -1,7 +1,7 @@
 import uuid
 from enum import Enum
 
-from kag_extracted.common.registry import Registrable
+from kag.common.registry import Registrable
 
 
 class TaskStatus(Enum):

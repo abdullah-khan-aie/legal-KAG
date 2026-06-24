@@ -1,6 +1,6 @@
-from kag_extracted.common.parser.logic_node_parser import GetSPONode
-from kag_extracted.interface import ToolABC
-from kag_extracted.interface.solver.model.one_hop_graph import EntityData, RelationData
+from kag.common.parser.logic_node_parser import GetSPONode
+from kag.interface import ToolABC
+from kag.interface.solver.model.one_hop_graph import EntityData, RelationData
 
 
 @ToolABC.register("path_select")

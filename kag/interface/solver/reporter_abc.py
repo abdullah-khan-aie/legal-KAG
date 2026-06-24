@@ -3,7 +3,7 @@ import logging
 import time
 from concurrent.futures import Future, ThreadPoolExecutor
 
-from kag_extracted.common.registry import Registrable
+from kag.common.registry import Registrable
 
 logger = logging.getLogger()
 

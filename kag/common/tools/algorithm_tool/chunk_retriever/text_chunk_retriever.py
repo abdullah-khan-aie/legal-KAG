@@ -1,10 +1,10 @@
 import logging
 
-from kag_extracted.common.config import LogicFormConfiguration
-from kag_extracted.common.tools.search_api.search_api_abc import SearchApiABC
-from kag_extracted.interface import ChunkData, RetrieverABC, RetrieverOutput
-from kag_extracted.interface.solver.model.schema_utils import SchemaUtils
-from kag_extracted.schema.client import CHUNK_TYPE
+from kag.common.config import LogicFormConfiguration
+from kag.common.tools.search_api.search_api_abc import SearchApiABC
+from kag.interface import ChunkData, RetrieverABC, RetrieverOutput
+from kag.interface.solver.model.schema_utils import SchemaUtils
+from kag.schema.client import CHUNK_TYPE
 
 logger = logging.getLogger()
 

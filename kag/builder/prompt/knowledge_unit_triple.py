@@ -1,5 +1,5 @@
-from kag_extracted.builder.prompt.util import load_SPO_data
-from kag_extracted.interface import PromptABC
+from kag.builder.prompt.util import load_SPO_data
+from kag.interface import PromptABC
 
 
 @PromptABC.register("knowledge_unit_triple")

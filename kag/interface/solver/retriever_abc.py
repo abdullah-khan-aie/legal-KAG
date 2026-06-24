@@ -1,13 +1,13 @@
 import asyncio
 
-from kag_extracted.common.conf import KAGConfigAccessor, KAGConstants
-from kag_extracted.interface.common.model.retriever_data import (
+from kag.common.conf import KAGConfigAccessor, KAGConstants
+from kag.interface.common.model.retriever_data import (
     ChunkData,
     DocData,
     KgGraph,
 )
-from kag_extracted.interface.common.tools import ToolABC
-from kag_extracted.interface.solver.planner_abc import Task
+from kag.interface.common.tools import ToolABC
+from kag.interface.solver.planner_abc import Task
 
 
 class RetrieverOutput:

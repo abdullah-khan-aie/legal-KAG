@@ -1,29 +1,29 @@
 import logging
 import time
 
-from kag_extracted.common.conf import KAGConfigAccessor, KAGConstants
-from kag_extracted.common.config import LogicFormConfiguration
-from kag_extracted.common.parser.logic_node_parser import GetSPONode
-from kag_extracted.common.text_sim_by_vector import TextSimilarity
-from kag_extracted.common.tools.algorithm_tool.graph_retriever.path_select.path_select import (
+from kag.common.conf import KAGConfigAccessor, KAGConstants
+from kag.common.config import LogicFormConfiguration
+from kag.common.parser.logic_node_parser import GetSPONode
+from kag.common.text_sim_by_vector import TextSimilarity
+from kag.common.tools.algorithm_tool.graph_retriever.path_select.path_select import (
     PathSelect,
 )
-from kag_extracted.common.tools.algorithm_tool.graph_retriever.path_select.path_utils import (
+from kag.common.tools.algorithm_tool.graph_retriever.path_select.path_utils import (
     generate_gql_spo_element,
     run_gql,
 )
-from kag_extracted.common.tools.graph_api.graph_api_abc import (
+from kag.common.tools.graph_api.graph_api_abc import (
     GraphApiABC,
 )
-from kag_extracted.common.tools.search_api.search_api_abc import SearchApiABC
-from kag_extracted.interface import VectorizeModelABC
-from kag_extracted.interface.solver.model.one_hop_graph import (
+from kag.common.tools.search_api.search_api_abc import SearchApiABC
+from kag.interface import VectorizeModelABC
+from kag.interface.solver.model.one_hop_graph import (
     EntityData,
     OneHopGraphData,
     RelationData,
     parse_attribute_relation,
 )
-from kag_extracted.interface.solver.model.schema_utils import SchemaUtils
+from kag.interface.solver.model.schema_utils import SchemaUtils
 
 logger = logging.getLogger()
 
