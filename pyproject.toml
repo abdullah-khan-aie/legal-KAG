@@ -3,15 +3,28 @@ name = "lodestone-graphrag"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
-    "httpx",              # OpenAI-compatible model/embedding HTTP adapters (src)
-    "pydantic>=2",        # settings models (src/config)
+    # --- application layer (src) ---
+    "httpx",                 # OpenAI-compatible model/embedding HTTP adapters
+    "pydantic>=2",           # settings models (src/config)
     "pydantic-settings>=2",  # env-driven configuration (src/config)
-    "pyyaml",             # local schema client reads YAML (kag/schema)
-    "tenacity",           # retry decorators in extractors/vectorizer (kag)
-    "pandas",             # table extractor (kag)
-    "markdown",           # table extractor (kag)
-    "pdfminer.six",       # PDF reader (kag)
-    "PyPDF2",             # PDF reader (kag)
+    # --- ingestion (kag_extracted builder) ---
+    "pyyaml",                # local YAML schema client
+    "tenacity",              # retry decorators in extractors/vectorizer/retrievers
+    "pandas",                # table extractor
+    "markdown",              # table extractor
+    "pdfminer.six",          # PDF reader
+    "PyPDF2",                # PDF reader
+    # --- graph store (kag_extracted graphstore) ---
+    "neo4j",                 # Neo4j graph store driver
+    "schedule",              # periodic constraint/pagerank refresh in Neo4jClient
+    # --- retriever / solver foundation (kag_extracted) ---
+    "networkx",              # solver Context graph
+    "numpy",                 # rerank / vector math / utils
+    "jinja2",                # prompt/templating utils
+    "requests",              # rerank model + utils HTTP
+    "docstring_parser",      # tool/executor schema generation
+    "aiolimiter",            # async rate limiting in utils
+    "cachetools",            # LinkCache (query/one-hop caches)
 ]
 
 [project.optional-dependencies]
