@@ -1,10 +1,11 @@
 import logging
 
-from kag_extracted.builder.model.sub_graph import SubGraph
-from kag_extracted.common import KAGConstants, get_vector_field_name
-from kag_extracted.interface import ExternalGraphLoaderABC, PostProcessorABC, SearchClientABC
-from kag_extracted.schema.client import OTHER_TYPE, SchemaClient
 from tenacity import retry, stop_after_attempt
+
+from kag.builder.model.sub_graph import SubGraph
+from kag.common import KAGConstants, get_vector_field_name
+from kag.interface import ExternalGraphLoaderABC, PostProcessorABC, SearchClientABC
+from kag.schema.client import OTHER_TYPE, SchemaClient
 
 logger = logging.getLogger()
 

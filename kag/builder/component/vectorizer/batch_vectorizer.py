@@ -1,15 +1,16 @@
 import asyncio
 from collections import defaultdict
 
-from kag_extracted.builder.model.sub_graph import SubGraph
-from kag_extracted.common import Input, Output, get_sparse_vector_field_name, get_vector_field_name
-from kag_extracted.interface import (
+from tenacity import retry, stop_after_attempt
+
+from kag.builder.model.sub_graph import SubGraph
+from kag.common import Input, Output, get_sparse_vector_field_name, get_vector_field_name
+from kag.interface import (
     SparseVectorizeModelABC,
     VectorizeModelABC,
     VectorizerABC,
 )
-from kag_extracted.schema.client import IndexTypeEnum, SchemaClient
-from tenacity import retry, stop_after_attempt
+from kag.schema.client import IndexTypeEnum, SchemaClient
 
 
 class EmbeddingVectorPlaceholder:

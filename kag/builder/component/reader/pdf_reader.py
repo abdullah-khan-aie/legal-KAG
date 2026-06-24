@@ -5,16 +5,17 @@ import re
 import pdfminer  # noqa
 import pdfminer.layout  # noqa
 import PyPDF2
-from kag_extracted.builder.component.splitter.length_splitter import LengthSplitter
-from kag_extracted.builder.model.chunk import Chunk
-from kag_extracted.builder.model.sub_graph import Edge, Node, SubGraph
-from kag_extracted.builder.prompt.outline_prompt import OutlinePrompt
-from kag_extracted.common import Input, Output, generate_hash_id
-from kag_extracted.interface import LLMClient, ReaderABC
 from pdfminer.high_level import extract_pages
 from pdfminer.layout import LTPage, LTTextContainer
 from pdfminer.pdfdocument import PDFDocument
 from pdfminer.pdfparser import PDFParser
+
+from kag.builder.component.splitter.length_splitter import LengthSplitter
+from kag.builder.model.chunk import Chunk
+from kag.builder.model.sub_graph import Edge, Node, SubGraph
+from kag.builder.prompt.outline_prompt import OutlinePrompt
+from kag.common import Input, Output, generate_hash_id
+from kag.interface import LLMClient, ReaderABC
 
 logger = logging.getLogger(__name__)
 

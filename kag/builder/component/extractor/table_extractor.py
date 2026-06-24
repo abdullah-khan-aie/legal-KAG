@@ -3,11 +3,12 @@ from io import StringIO
 
 import markdown
 import pandas as pd
-from kag_extracted.builder.model.chunk import Chunk, ChunkTypeEnum
-from kag_extracted.builder.model.sub_graph import Edge, Node, SubGraph
-from kag_extracted.common import Input, Output
-from kag_extracted.interface import ExtractorABC, LLMClient, PromptABC
 from tenacity import retry, stop_after_attempt
+
+from kag.builder.model.chunk import Chunk, ChunkTypeEnum
+from kag.builder.model.sub_graph import Edge, Node, SubGraph
+from kag.common import Input, Output
+from kag.interface import ExtractorABC, LLMClient, PromptABC
 
 logger = logging.getLogger(__name__)
 

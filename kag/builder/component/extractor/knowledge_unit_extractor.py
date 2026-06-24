@@ -2,18 +2,19 @@ import asyncio
 import copy
 import logging
 
-from kag_extracted.builder.model.chunk import Chunk
-from kag_extracted.builder.model.sub_graph import SubGraph
-from kag_extracted.common import Input, Output, generate_hash_id, processing_phrases, to_camel_case
-from kag_extracted.interface import ExternalGraphLoaderABC, ExtractorABC, LLMClient, PromptABC
-from kag_extracted.schema.client import (  # noqa: F401
+from tenacity import retry, stop_after_attempt, wait_exponential
+
+from kag.builder.model.chunk import Chunk
+from kag.builder.model.sub_graph import SubGraph
+from kag.common import Input, Output, generate_hash_id, processing_phrases, to_camel_case
+from kag.interface import ExternalGraphLoaderABC, ExtractorABC, LLMClient, PromptABC
+from kag.schema.client import (  # noqa: F401
     BASIC_TYPES,
     CHUNK_TYPE,
     OTHER_TYPE,
     SchemaClient,
     SpgTypeEnum,
 )
-from tenacity import retry, stop_after_attempt, wait_exponential
 
 logger = logging.getLogger(__name__)
 
@@ -346,7 +347,7 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
                 tmp_properties.pop(prop_name)
                 continue
             if prop_name in spg_type.properties:
-                from kag_extracted.schema.client import Property
+                from kag.schema.client import Property
 
                 prop: Property = spg_type.properties.get(prop_name)
                 o_label = prop.object_type_name_en

@@ -2,18 +2,19 @@ import asyncio
 import copy
 import logging
 
-from kag_extracted.builder.model.chunk import Chunk, ChunkTypeEnum
-from kag_extracted.builder.model.sub_graph import SubGraph
-from kag_extracted.common import Input, Output, processing_phrases, to_camel_case
-from kag_extracted.interface import ExternalGraphLoaderABC, ExtractorABC, LLMClient, PromptABC
-from kag_extracted.schema.client import (
+from tenacity import retry, stop_after_attempt, wait_exponential
+
+from kag.builder.model.chunk import Chunk, ChunkTypeEnum
+from kag.builder.model.sub_graph import SubGraph
+from kag.common import Input, Output, processing_phrases, to_camel_case
+from kag.interface import ExternalGraphLoaderABC, ExtractorABC, LLMClient, PromptABC
+from kag.schema.client import (
     BASIC_TYPES,
     CHUNK_TYPE,
     OTHER_TYPE,
     SchemaClient,
     SpgTypeEnum,
 )
-from tenacity import retry, stop_after_attempt, wait_exponential
 
 logger = logging.getLogger(__name__)
 
@@ -59,11 +60,11 @@ class SchemaFreeExtractor(ExtractorABC):
         type_names = [
             name for name, value in self.schema.items() if value.spg_type_enum != SpgTypeEnum.Index
         ]
-        from kag_extracted.builder.prompt.ner import OpenIENERPrompt
-        from kag_extracted.builder.prompt.std import (
+        from kag.builder.prompt.ner import OpenIENERPrompt
+        from kag.builder.prompt.std import (
             OpenIEEntitystandardizationdPrompt,
         )
-        from kag_extracted.builder.prompt.triple import OpenIETriplePrompt
+        from kag.builder.prompt.triple import OpenIETriplePrompt
 
         self.ner_prompt = ner_prompt or OpenIENERPrompt(self.language, schema=type_names)
         self.std_prompt = std_prompt or OpenIEEntitystandardizationdPrompt(self.language)
@@ -266,7 +267,7 @@ class SchemaFreeExtractor(ExtractorABC):
                     tmp_properties.pop(prop_name)
                     continue
                 if prop_name in spg_type.properties:
-                    from kag_extracted.schema.client import Property
+                    from kag.schema.client import Property
 
                     prop: Property = spg_type.properties.get(prop_name)
                     o_label = prop.object_type_name_en

@@ -2,12 +2,13 @@ import asyncio
 import copy
 import logging
 
-from kag_extracted.builder.model.chunk import Chunk
-from kag_extracted.builder.model.sub_graph import SubGraph
-from kag_extracted.common import Input, Output, processing_phrases, to_camel_case
-from kag_extracted.interface import ExternalGraphLoaderABC, ExtractorABC, LLMClient, PromptABC
-from kag_extracted.schema.client import BASIC_TYPES, CHUNK_TYPE, SchemaClient, SpgTypeEnum
 from tenacity import retry, stop_after_attempt, wait_exponential
+
+from kag.builder.model.chunk import Chunk
+from kag.builder.model.sub_graph import SubGraph
+from kag.common import Input, Output, processing_phrases, to_camel_case
+from kag.interface import ExternalGraphLoaderABC, ExtractorABC, LLMClient, PromptABC
+from kag.schema.client import BASIC_TYPES, CHUNK_TYPE, SchemaClient, SpgTypeEnum
 
 logger = logging.getLogger(__name__)
 
@@ -47,8 +48,8 @@ class SchemaConstraintExtractor(ExtractorABC):
         type_names = [
             name for name, value in self.schema.items() if value.spg_type_enum != SpgTypeEnum.Index
         ]
-        from kag_extracted.builder.prompt.ner import OpenIENERPrompt
-        from kag_extracted.builder.prompt.std import OpenIEEntitystandardizationdPrompt
+        from kag.builder.prompt.ner import OpenIENERPrompt
+        from kag.builder.prompt.std import OpenIEEntitystandardizationdPrompt
 
         self.ner_prompt = ner_prompt or OpenIENERPrompt(self.language, schema=type_names)
         self.std_prompt = std_prompt or OpenIEEntitystandardizationdPrompt(self.language)
