@@ -10,9 +10,10 @@ OpenSPG-based variant of Lodestone.
 ## Dev setup
 
 ```bash
-python3.13 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements-dev.txt
-pip install -r requirements.txt
-pre-commit install
+uv sync
+uv run pre-commit install
 ```
+
+Dependencies are managed with [uv](https://docs.astral.sh/uv/): `pyproject.toml`
+declares them and `uv.lock` pins exact versions. `uv sync` creates the `.venv` and
+installs everything, including the `dev` dependency group (ruff, pytest, pre-commit).

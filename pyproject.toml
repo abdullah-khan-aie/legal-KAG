@@ -32,8 +32,8 @@ dependencies = [
     "mcp",                   # MCP executor (external tool servers)
 ]
 
-[project.optional-dependencies]
-dev = ["ruff", "pytest"]
+[dependency-groups]
+dev = ["ruff", "pytest", "pre-commit"]
 
 [tool.ruff]
 line-length = 100
