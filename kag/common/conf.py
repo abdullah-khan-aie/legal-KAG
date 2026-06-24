@@ -16,11 +16,19 @@ class KAGConstants:
 
 class KAGGlobalConf:
     def __init__(self, **kwargs):
+        import os
+
         self.namespace = kwargs.get("namespace", "")
-        self.project_id = kwargs.get("project_id", None)
+        # dummy project id: verbatim kag does int(project_id); host_addr stays
+        # None so server-detection (needs both id+addr) still resolves server-free.
+        self.project_id = kwargs.get("project_id", "1")
         self.host_addr = kwargs.get("host_addr", None)
         self.language = kwargs.get("language", "en")
         self.biz_scene = kwargs.get("biz_scene", "default")
+        # server-free schema source for SchemaUtils (read via ReasonerClient).
+        # Set this (or INGEST_SCHEMA_PATH) to the local YAML schema so the solver
+        # / retrievers build their SchemaUtils without the OpenSPG reasoner server.
+        self.schema_path = kwargs.get("schema_path", os.environ.get("INGEST_SCHEMA_PATH", ""))
         for k, v in kwargs.items():
             setattr(self, k, v)
 
