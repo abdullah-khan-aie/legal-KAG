@@ -30,12 +30,7 @@ class MCPPipeline(SolverPipelineABC):
         self.max_iteration = max_iteration
 
     def select_mcp_server(self, mcp_server_name: str):
-        """Select executor instance by name from available executors.
-        Args:
-            mcp_server_name: The server name to retrieve
-        Returns:
-            Matching executor instance, or None if not found
-        """
+        """Return the MCP server entry matching the name, or None if absent."""
         mcp_schema_data = self.executor.schema()
 
         for server in mcp_schema_data.get("available_servers", []):
@@ -45,15 +40,14 @@ class MCPPipeline(SolverPipelineABC):
 
     @retry(stop=stop_after_attempt(3), reraise=True)
     async def planning(self, query, context, **kwargs):
-        """Generates task plan through LLM-based planning with automatic retry.
+        """Plan the task DAG for the query via the planner.
 
         Args:
-            query: Original user query
-            context: Execution context containing previous task results
-            **kwargs: Additional planning parameters
+            query: The user query to plan for.
+            context: Execution context holding prior task results.
 
         Returns:
-            List[Task]: Planned task sequence in DAG format
+            The planned tasks forming the execution DAG.
         """
         tasks = await self.planner.ainvoke(
             query,
@@ -65,13 +59,12 @@ class MCPPipeline(SolverPipelineABC):
 
     @retry(stop=stop_after_attempt(3), reraise=True)
     async def execute_task(self, query, task, context, **kwargs):
-        """Executes single task with query rewriting and executor invocation.
+        """Run a single task, rewriting its arguments first when required.
 
         Args:
-            query: Original user query
-            task: Task instance to execute
-            context: Execution context for dependency resolution
-            **kwargs: Additional execution parameters
+            query: The user query being processed.
+            task: The task to execute.
+            context: Execution context for dependency resolution.
         """
         if self.planner.check_require_rewrite(task):
             task.update_memory("origin_arguments", task.arguments)
@@ -83,19 +76,13 @@ class MCPPipeline(SolverPipelineABC):
             logger.warn(f"Executor not  found for task {task}")
 
     async def ainvoke(self, query, **kwargs):
-        """Orchestrates full problem-solving workflow asynchronously.
-
-        Execution flow:
-        1. Generate initial task DAG
-        2. Execute tasks in parallel batches
-        3. Generate final answer from execution context
+        """Plan, execute the task DAG, and return the generated answer.
 
         Args:
-            query: User query to solve
-            **kwargs: Additional execution parameters
+            query: The user query to solve.
 
         Returns:
-            Final generated answer from the execution context
+            The generated answer, or ``"UNKNOWN"`` when none could be produced.
         """
         context: Context = Context()
         tasks = await self.planning(query, context, **kwargs)

@@ -28,14 +28,7 @@ class IndexPipeline(SolverPipelineABC):
         self.max_iteration = max_iteration
 
     def select_executor(self, executor_name: str):
-        """Select executor instance by name from available executors.
-
-        Args:
-            executor_name: Name of the executor to retrieve
-
-        Returns:
-            Matching executor instance, or None if not found
-        """
+        """Return the executor whose schema name matches, or None if absent."""
         for executor in self.executors:
             schema = executor.schema()
             if executor_name == schema["name"]:
@@ -44,29 +37,13 @@ class IndexPipeline(SolverPipelineABC):
 
     @retry(stop=stop_after_attempt(3), reraise=True)
     async def planning(self, query, context, **kwargs):
-        """Generates task plan through LLM-based planning with automatic retry.
-
-        Args:
-            query: Original user query
-            context: Execution context containing previous task results
-            **kwargs: Additional planning parameters
-
-        Returns:
-            List[Task]: Planned task sequence in DAG format
-        """
+        """Build the task plan, a single retrieval task for the query."""
 
         return [Task(executor="Retriever", arguments={"query": query})]
 
     @retry(stop=stop_after_attempt(3), reraise=True)
     async def execute_task(self, query, task, context, **kwargs):
-        """Executes single task with query rewriting and executor invocation.
-
-        Args:
-            query: Original user query
-            task: Task instance to execute
-            context: Execution context for dependency resolution
-            **kwargs: Additional execution parameters
-        """
+        """Run a single task by dispatching it to its matching executor."""
         executor = self.select_executor(task.executor)
         if executor:
             await executor.ainvoke(query, task, context, **kwargs)
@@ -74,19 +51,16 @@ class IndexPipeline(SolverPipelineABC):
             logger.warn(f"Executor not  found for task {task}")
 
     async def ainvoke(self, query, **kwargs):
-        """Orchestrates full problem-solving workflow asynchronously.
+        """Run the full pipeline and return the generated answer.
 
-        Execution flow:
-        1. Generate initial task DAG
-        2. Execute tasks in parallel batches
-        3. Generate final answer from execution context
+        Plans the tasks, executes them in dependency-ordered parallel batches,
+        and generates the final answer from the accumulated context.
 
         Args:
-            query: User query to solve
-            **kwargs: Additional execution parameters
+            query: The user query to solve.
 
         Returns:
-            Final generated answer from the execution context
+            The generated answer.
         """
         context: Context = Context()
         tasks = await self.planning(query, context, **kwargs)

@@ -111,30 +111,23 @@ class KAGHybridRetrievalExecutor(ExecutorABC):
         start_time = time.time()
         reporter: ReporterABC | None = kwargs.get("reporter", None)
 
-        # Step 1: Group retrievers by their 'priority' attribute.
-        # This allows us to execute them in priority order.
         priority_groups = defaultdict(list)
         for retriever in self.retrievers:
-            # Default to priority 1 if not explicitly set
             priority = getattr(retriever, "priority", 1)
             priority_groups[priority].append(retriever)
 
-        # Step 2: Sort the priorities in ascending order (lower number = higher priority)
         sorted_priorities = sorted(priority_groups.keys())
 
         retrieved_data = RetrieverOutput()
 
-        # Step 3: Process each group in order of increasing priority
         for priority in sorted_priorities:
             group = priority_groups[priority]
             logger.debug(f"Executing retrievers with priority={priority}")
 
-            outputs = []  # To collect output from each retriever
-            # Use a thread pool executor to run all retrievers in this group concurrently
+            outputs = []
             with ThreadPoolExecutor(max_workers=len(group)) as executor:
                 futures = []
                 for retriever in group:
-                    # Report the beginning of each sub-retriever execution
                     self.report_content(
                         reporter,
                         tag_id,
@@ -144,7 +137,6 @@ class KAGHybridRetrievalExecutor(ExecutorABC):
                         component_name=retriever.name,
                     )
 
-                    # Prepare function and submit to thread pool
                     func = partial(
                         retriever.invoke,
                         task,
@@ -155,13 +147,11 @@ class KAGHybridRetrievalExecutor(ExecutorABC):
                     future = executor.submit(func)
                     futures.append((future, retriever))
 
-                # Collect results from each future
                 for future, retriever in futures:
                     try:
-                        output = future.result()  # Wait for result
+                        output = future.result()
                         outputs.append(output)
 
-                        # Log data report after successful execution
                         self.do_data_report(
                             output,
                             reporter,
@@ -170,13 +160,11 @@ class KAGHybridRetrievalExecutor(ExecutorABC):
                             "retrieved_info_digest",
                         )
 
-                        # Extract SPOs (Subject-Predicate-Object triples) from output graphs
                         spos = []
                         for graph in output.graphs:
                             spos += graph.get_all_spo()
-                        spos = list(set(spos))  # Deduplicate
+                        spos = list(set(spos))
 
-                        # Add report line if there are any SPOs
                         if reporter and spos:
                             reporter.add_report_line(
                                 tag_id,
@@ -196,14 +184,12 @@ class KAGHybridRetrievalExecutor(ExecutorABC):
                 retrieved_data = outputs[0]
             else:
                 retrieved_data = RetrieverOutput()
-            # judge is break
             if (
                 (retrieved_data.graphs and retrieved_data.graphs[0].get_all_spo())
                 or retrieved_data.chunks
                 or retrieved_data.docs
             ):
                 break
-        # Log total cost time for all retrievers
         logger.debug(f"kag hybrid retrieval {task_query} retriever cost={time.time() - start_time}")
 
         self.do_data_report(retrieved_data, reporter, tag_id, "kag_merger", "kag_merger_digest")
@@ -221,7 +207,6 @@ class KAGHybridRetrievalExecutor(ExecutorABC):
     ):
         if not self.enable_summary:
             return retrieved_data
-        # summary
         selected_rel = []
         for graph in retrieved_data.graphs:
             selected_rel += list(set(graph.get_all_spo()))
@@ -321,10 +306,10 @@ class KAGHybridRetrievalExecutor(ExecutorABC):
         return retrieved_data
 
     def schema(self) -> dict:
-        """Function schema definition for OpenAI Function Calling
+        """Return the executor's function-calling schema.
 
         Returns:
-            dict: Schema definition in OpenAI Function format
+            The schema describing this executor in OpenAI function-call format.
         """
         return {
             "name": "Retriever",

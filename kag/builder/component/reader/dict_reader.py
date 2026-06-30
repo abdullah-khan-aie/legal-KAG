@@ -6,26 +6,21 @@ from kag.interface import ReaderABC
 @ReaderABC.register("dict")
 @ReaderABC.register("dict_reader")
 class DictReader(ReaderABC):
-    """
-    A class for reading dictionaries into Chunk objects.
-
-    This class inherits from ReaderABC and provides the functionality to convert dictionary inputs
-    into a list of Chunk objects.
+    """Read a dictionary into a Chunk.
 
     Attributes:
-        id_col (str): The key in the input dictionary that corresponds to the chunk's ID.
-        name_col (str): The key in the input dictionary that corresponds to the chunk's name.
-        content_col (str): The key in the input dictionary that corresponds to the chunk's content.
+        id_col: Dictionary key mapped to the chunk's id.
+        name_col: Dictionary key mapped to the chunk's name.
+        content_col: Dictionary key mapped to the chunk's content.
     """
 
     def __init__(self, id_col: str = "id", name_col: str = "name", content_col: str = "content"):
-        """
-        Initializes the DictReader with the specified column names.
+        """Initialize the reader with the dictionary keys to map onto the chunk.
 
         Args:
-            id_col (str): The key in the input dictionary that corresponds to the chunk's ID. Defaults to "id".
-            name_col (str): The key in the input dictionary that corresponds to the chunk's name. Defaults to "name".
-            content_col (str): The key in the input dictionary that corresponds to the chunk's content. Defaults to "content".
+            id_col: Dictionary key mapped to the chunk's id.
+            name_col: Dictionary key mapped to the chunk's name.
+            content_col: Dictionary key mapped to the chunk's content.
         """
         super().__init__()
         self.id_col = id_col
@@ -37,15 +32,10 @@ class DictReader(ReaderABC):
         return dict
 
     def _invoke(self, input: Input, **kwargs) -> list[Output]:
-        """
-        Converts the input dictionary into a list of Chunk objects.
+        """Convert the input dictionary into a single-element list of one Chunk.
 
         Args:
-            input (Input): The input dictionary containing the data to be parsed.
-            **kwargs: Additional keyword arguments, currently unused but kept for potential future expansion.
-
-        Returns:
-            List[Output]: A list containing a single Chunk object created from the input dictionary.
+            input: The dictionary to convert.
         """
         chunk_id = input.get(self.id_col)
         chunk_name = input.get(self.name_col)

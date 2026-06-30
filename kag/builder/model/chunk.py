@@ -1,6 +1,3 @@
-# Vendored Chunk model from kag/interface/common/model/chunk.py (openspg-kag
-# 0.8.0, Apache-2.0). Faithful copy; only the generate_hash_id import is local.
-
 from enum import Enum
 from typing import Any
 

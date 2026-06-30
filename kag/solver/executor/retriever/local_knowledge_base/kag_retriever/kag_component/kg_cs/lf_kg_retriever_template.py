@@ -17,12 +17,7 @@ logger = logging.getLogger()
 
 
 def _store_lf_node_structure(kg_graph: KgGraph, logic_node: GetSPONode):
-    """Store logical node structure in knowledge graph
-
-    Args:
-        kg_graph (KgGraph): Knowledge graph instance
-        logic_node (GetSPONode): Current logical node
-    """
+    """Record a logical node's subject-predicate-object structure in the graph."""
     predicate = logic_node.p.alias_name
     kg_graph.query_graph[predicate] = {
         "s": logic_node.s.alias_name,
@@ -32,11 +27,9 @@ def _store_lf_node_structure(kg_graph: KgGraph, logic_node: GetSPONode):
 
 
 def _find_entities(kg_graph: KgGraph, symbol_entity: SPOEntity, query: str, el):
-    # Try existing entities in knowledge graph
     entities = kg_graph.get_entity_by_alias_without_attr(symbol_entity.alias_name)
     if entities:
         return entities
-    # Perform entity linking if possible
     if symbol_entity.entity_name:
         entities = el.invoke(
             query,
@@ -64,17 +57,15 @@ class KgRetrieverTemplate:
 
     @retry(stop=stop_after_attempt(3), reraise=True)
     def generate_sub_answer(self, question: str, knowledge_graph: [], history_qa=[], **kwargs):
-        """
-        Generates a sub-answer based on the given question, knowledge graph, documents, and history.
+        """Generate a sub-answer from the question and supporting knowledge graph.
 
-        Parameters:
-        question (str): The main question to answer.
-        knowledge_graph (list): A list of knowledge graph data.
-        docs (list): A list of documents related to the question.
-        history (list, optional): A list of previous query-answer pairs. Defaults to an empty list.
+        Args:
+            question: The question to answer.
+            knowledge_graph: Knowledge graph data supporting the answer.
+            history_qa: Previous question-answer pairs for context.
 
         Returns:
-        str: The generated sub-answer.
+            The generated answer, or an empty string when the model is unsure.
         """
         if not knowledge_graph:
             return "I don't know"
@@ -133,7 +124,6 @@ class KgRetrieverTemplate:
                     if select_rel:
                         if kwargs.get("is_exact_match", False):
                             logic_node.get_fl_node_result().summary = str(select_rel)
-                            # updated alias with spo
                             kg_graph.add_answered_alias(
                                 logic_node.s.alias_name.alias_name, select_rel
                             )
@@ -194,26 +184,18 @@ class KgRetrieverTemplate:
         return selected_relations
 
     def _find_tail_entities(self, kg_graph: KgGraph, logic_node: GetSPONode) -> list[EntityData]:
-        """Find tails entities for path selection
-
-        Args:
-            kg_graph (KgGraph): Current knowledge graph
-            logic_node (GetSPONode): Current logical node
+        """Resolve the tail entities of a logical node for path selection.
 
         Returns:
-            List[EntityData]: List of found entities or None
+            The matching entities, or an empty list when none are found.
         """
         return _find_entities(kg_graph, logic_node.o, logic_node.sub_query, self.entity_linking)
 
     def _find_head_entities(self, kg_graph: KgGraph, logic_node: GetSPONode) -> list[EntityData]:
-        """Find heads entities for path selection
-
-        Args:
-            kg_graph (KgGraph): Current knowledge graph
-            logic_node (GetSPONode): Current logical node
+        """Resolve the head entities of a logical node for path selection.
 
         Returns:
-            List[EntityData]: List of found entities or None
+            The matching entities, or an empty list when none are found.
         """
         if isinstance(logic_node.s, SPOEntity):
             return _find_entities(kg_graph, logic_node.s, logic_node.sub_query, self.entity_linking)

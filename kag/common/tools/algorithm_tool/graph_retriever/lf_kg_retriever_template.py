@@ -54,11 +54,11 @@ def std_logic_node(
 
 
 def _store_lf_node_structure(kg_graph: KgGraph, logic_node: GetSPONode):
-    """Store logical node structure in knowledge graph
+    """Record the SPO structure of a logical node into the query graph.
 
     Args:
-        kg_graph (KgGraph): Knowledge graph instance
-        logic_node (GetSPONode): Current logical node
+        kg_graph: Knowledge graph to update.
+        logic_node: Logical node whose subject/predicate/object aliases are stored.
     """
     predicate = logic_node.p.alias_name
     kg_graph.query_graph[predicate] = {
@@ -191,26 +191,26 @@ class KgRetrieverTemplate:
         return selected_relations
 
     def _find_tail_entities(self, kg_graph: KgGraph, logic_node: GetSPONode) -> list[EntityData]:
-        """Find tails entities for path selection
+        """Resolve the tail (object) entities used for path selection.
 
         Args:
-            kg_graph (KgGraph): Current knowledge graph
-            logic_node (GetSPONode): Current logical node
+            kg_graph: Current knowledge graph.
+            logic_node: Logical node whose object is resolved.
 
         Returns:
-            List[EntityData]: List of found entities or None
+            Matching tail entities, or an empty list if none are found.
         """
         return _find_entities(kg_graph, logic_node.o, logic_node.sub_query, self.entity_linking)
 
     def _find_head_entities(self, kg_graph: KgGraph, logic_node: GetSPONode) -> list[EntityData]:
-        """Find heads entities for path selection
+        """Resolve the head (subject) entities used for path selection.
 
         Args:
-            kg_graph (KgGraph): Current knowledge graph
-            logic_node (GetSPONode): Current logical node
+            kg_graph: Current knowledge graph.
+            logic_node: Logical node whose subject is resolved.
 
         Returns:
-            List[EntityData]: List of found entities or None
+            Matching head entities, or an empty list if none are found.
         """
         if isinstance(logic_node.s, SPOEntity):
             return _find_entities(kg_graph, logic_node.s, logic_node.sub_query, self.entity_linking)

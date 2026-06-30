@@ -18,19 +18,10 @@ from kag.interface import AlignerABC
 
 @AlignerABC.register("kag")
 class KAGAligner(AlignerABC):
-    """
-    A class that extends the AlignerABC base class. It is responsible for aligning and merging subgraphs.
-
-    This class provides methods to handle the alignment and merging of subgraphs, as well as properties to define the input and output types.
-    """
+    """Align and merge subgraphs into a single deduplicated subgraph."""
 
     def __init__(self, **kwargs):
-        """
-        Initializes the KAGAligner instance.
-
-        Args:
-            **kwargs: Arbitrary keyword arguments passed to the parent class constructor.
-        """
+        """Initialize the aligner, forwarding keyword arguments to the base class."""
         super().__init__(**kwargs)
 
     @property
@@ -42,15 +33,10 @@ class KAGAligner(AlignerABC):
         return SubGraph
 
     def invoke(self, input: list[SubGraph], **kwargs) -> SubGraph:
-        """
-        Merges a list of subgraphs into a single subgraph.
+        """Merge subgraphs into one, skipping duplicate nodes and edges.
 
         Args:
-            input (List[SubGraph]): A list of subgraphs to be merged.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            SubGraph: The merged subgraph containing all nodes and edges from the input subgraphs.
+            input: The subgraphs to merge.
         """
         merged_sub_graph = SubGraph(nodes=[], edges=[])
         for sub_graph in input:
@@ -63,14 +49,10 @@ class KAGAligner(AlignerABC):
         return merged_sub_graph
 
     def _handle(self, input: Sequence[dict]) -> dict:
-        """
-        Handles the input by converting it to the appropriate type, invoking the aligner, and converting the output back to a dictionary.
+        """Deserialize subgraph dicts, merge them, and serialize the result.
 
         Args:
-            input (Sequence[Dict]): A sequence of dictionaries representing subgraphs.
-
-        Returns:
-            Dict: A dictionary representing the merged subgraph.
+            input: Dictionaries representing subgraphs.
         """
         _input = [self.input_types.from_dict(i) for i in input]
         _output = self.invoke(_input)

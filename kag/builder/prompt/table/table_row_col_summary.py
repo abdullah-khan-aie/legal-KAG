@@ -6,9 +6,7 @@ from kag.interface import PromptABC
 
 @PromptABC.register("table_row_col_summary")
 class TableRowColSummaryPrompt(PromptABC):
-    """
-    矩阵型表格索引信息提取
-    """
+    """Prompt for summarizing each row and column of a matrix-style table."""
 
 
     template_en = """

@@ -1,31 +1,3 @@
-"""Server-free SubGraph writer.
-
-``KGWriter`` (kag/builder/component/writer/kg_writer.py) persists a SubGraph by
-POSTing it to the OpenSPG Java server via ``GraphClient.write_graph``; the server
-then maps the SubGraph onto graph-store ``upsert_nodes`` / ``upsert_relationships``
-calls. That mapping is the only part of the write path that lives in Java rather
-than Python.
-
-This writer reproduces it against the (server-free) ``GraphStore`` interface,
-following the actual server source rather than guessing:
-
-  * ``format_label`` / ``standarlize_graph`` are copied verbatim from ``KGWriter``
-    (kag/builder/component/writer/kg_writer.py) — label namespacing + JSON-
-    serialization of non-string properties. The only difference is that
-    ``namespace`` is supplied to ``__init__`` instead of read from
-    ``KAG_PROJECT_CONF``.
-  * ``_write_nodes`` / ``_write_edges`` mirror ``Neo4jSinkWriter.writeNode`` /
-    ``writeEdge`` (openspg builder/runner/local .../sink/impl/Neo4jSinkWriter.java)
-    — skip blank id/name/label, merge id+name into properties, then
-    ``upsertVertex`` / ``upsertEdge`` (== ``upsert_nodes`` / ``upsert_relationships``).
-  * the server ``write_graph`` REST call is replaced by direct
-    ``GraphStore.initialize_schema`` + upsert calls — the work the Java server
-    did on receipt of the POST.
-
-Everything else (the GraphStore / Neo4jClient implementation) is the extracted
-kag code, unchanged.
-"""
-
 import json
 import logging
 from collections import defaultdict
@@ -56,9 +28,7 @@ class GraphStoreWriter:
 
     # --- verbatim from KGWriter (namespace now an attribute) ---------------- #
     def format_label(self, label: str):
-        """
-        Formats the label by adding the project namespace if it is not already present.
-        """
+        """Prefix the label with the project namespace if not already present."""
         namespace = self.namespace
         if not namespace:
             return label

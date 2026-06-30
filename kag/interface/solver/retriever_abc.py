@@ -71,13 +71,11 @@ class RetrieverOutput:
         )
 
     def to_dict(self):
-        """Converts retrieval results to structured dictionary format.
+        """Convert retrieval results to a structured dictionary.
 
         Returns:
-            Dictionary containing three keys:
-            - 'graphs': List of dictionaries from KgGraph objects
-            - 'chunks': List of dictionaries from ChunkData objects
-            - 'docs': List of dictionaries from DocData objects
+            Dictionary holding the serialized graphs, chunks, and docs along with
+            the retriever method, summary, error message, and task.
         """
         return {
             "graphs": [str(x.get_all_spo()) for x in self.graphs],

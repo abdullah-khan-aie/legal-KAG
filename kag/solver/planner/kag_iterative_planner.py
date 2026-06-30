@@ -15,12 +15,7 @@ from kag.interface import Context, LLMClient, PlannerABC, PromptABC, Task
 
 @PlannerABC.register("kag_iterative_planner")
 class KAGIterativePlanner(PlannerABC):
-    """Iterative planner that uses LLM to generate task plans based on context and available executors.
-
-    Args:
-        llm (LLMClient): Language model client for plan generation
-        plan_prompt (PromptABC): Prompt template for planning requests
-    """
+    """Plan one task at a time with the LLM, conditioned on prior task results."""
 
     def __init__(self, llm: LLMClient, plan_prompt: PromptABC, **kwargs):
         super().__init__(**kwargs)
@@ -29,16 +24,8 @@ class KAGIterativePlanner(PlannerABC):
 
     @staticmethod
     def format_context(context: Context = None):
-        """Formats execution context into a structured list of previous task results.
-
-        Args:
-            context (Context, optional): Execution context containing task history
-
-        Returns:
-            list: Structured representation of previous tasks with actions and results
-        """
+        """Format the context's task history into action/result entries."""
         formatted_context = []
-        # get all prvious tasks from context.
         if context and isinstance(context, Context):
             for task in context.gen_task():
                 formatted_context.append(
@@ -54,16 +41,17 @@ class KAGIterativePlanner(PlannerABC):
         return formatted_context
 
     def invoke(self, query, **kwargs) -> list[Task]:
-        """Synchronously generates task plan using LLM.
+        """Generate the next task for the query with the LLM.
 
         Args:
-            query: User query to generate plan for
-            **kwargs: Additional parameters including:
-                - context (Context): Execution context
-                - executors (list): Available executors for task planning
+            query: The user query to plan for.
+
+        Keyword Args:
+            context: Execution context with prior task results.
+            executors: Available executors the plan may target.
 
         Returns:
-            List[Task]: Generated task sequence
+            The planned tasks.
         """
         num_iteration = kwargs.get("num_iteration", 0)
         return self.llm.invoke(
@@ -82,16 +70,17 @@ class KAGIterativePlanner(PlannerABC):
         return False
 
     async def ainvoke(self, query, **kwargs) -> list[Task]:
-        """Asynchronously generates task plan using LLM.
+        """Asynchronously generate the next task for the query with the LLM.
 
         Args:
-            query: User query to generate plan for
-            **kwargs: Additional parameters including:
-                - context (Context): Execution context
-                - executors (list): Available executors for task planning
+            query: The user query to plan for.
+
+        Keyword Args:
+            context: Execution context with prior task results.
+            executors: Available executors the plan may target.
 
         Returns:
-            List[Task]: Generated task sequence
+            The planned tasks.
         """
         num_iteration = kwargs.get("num_iteration", 0)
         return await self.llm.ainvoke(

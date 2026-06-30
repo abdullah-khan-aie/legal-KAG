@@ -136,7 +136,6 @@ class KagMerger(FlowComponent):
                     else "kag_merger_digest_failed"
                 ),
             )
-        # summary
         formatted_docs = []
         for doc in limited_merged_chunks:
             formatted_docs.append(f"{doc.content}")

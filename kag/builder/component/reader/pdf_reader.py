@@ -23,12 +23,7 @@ logger = logging.getLogger(__name__)
 @ReaderABC.register("pdf")
 @ReaderABC.register("pdf_reader")
 class PDFReader(ReaderABC):
-    """
-    A class for reading PDF files into a list of text chunks, inheriting from `ReaderABC`.
-
-    This class is responsible for parsing PDF files and converting them into a list of Chunk objects.
-    It inherits from `ReaderABC` and overrides the necessary methods to handle PDF-specific operations.
-    """
+    """Read a PDF file into Chunk objects, optionally guided by its outline."""
 
     def __init__(
         self,
@@ -363,18 +358,17 @@ class PDFReader(ReaderABC):
         remove_footnote: bool = False,
         remove_lists: list[str] = None,
     ) -> list:
-        """
-        Processes a single page of text, removing headers, footnotes, watermarks, and specified lists.
+        """Clean a single page's text, stripping watermarks and optional headers/footers.
 
         Args:
-            page (str): The text content of a single page.
-            watermark (str): The watermark text to be removed.
-            remove_header (bool): Whether to remove the header. Default is False.
-            remove_footnote (bool): Whether to remove the footnote. Default is False.
-            remove_lists (List[str]): A list of strings to be removed. Default is None.
+            page: The text content of a single page.
+            watermark: Watermark text to remove.
+            remove_header: Whether to drop the first line.
+            remove_footnote: Whether to drop the last line.
+            remove_lists: Additional substrings to strip from each line.
 
         Returns:
-            list: A list of processed text lines.
+            The cleaned text lines.
         """
         lines = page.split("\n")
         if remove_header and len(lines) > 0:
@@ -393,14 +387,10 @@ class PDFReader(ReaderABC):
 
     @staticmethod
     def _extract_text_from_page(page_layout: LTPage) -> str:
-        """
-        Extracts text from a given page layout.
+        """Concatenate the text of all text containers in a page layout.
 
         Args:
-            page_layout (LTPage): The layout of the page containing text elements.
-
-        Returns:
-            str: The extracted text.
+            page_layout: The page layout to extract text from.
         """
         text = ""
         for element in page_layout:
@@ -409,17 +399,17 @@ class PDFReader(ReaderABC):
         return text
 
     def _invoke(self, input: Input, **kwargs) -> tuple[list[Output], SubGraph]:
-        """
-        Processes a PDF file and returns its content as structured chunks and a graph representation.
+        """Read the PDF and return its content as chunks.
+
+        When an outline is available the chunks follow the document structure;
+        otherwise the PDF is chunked page by page.
 
         Args:
-            input (Input): The path to the PDF file.
-            **kwargs: Additional keyword arguments.
+            input: The path to the PDF file.
 
-        Returns:
-            Tuple[List[Output], SubGraph]: A tuple containing:
-                - A list of processed content chunks
-                - A SubGraph representation of the document structure
+        Raises:
+            ValueError: If the input is not a .pdf path.
+            FileNotFoundError: If the file does not exist.
         """
         if not input.endswith(".pdf"):
             raise ValueError(f"Please provide a pdf file, got {input}")
@@ -509,6 +499,5 @@ if __name__ == "__main__":
     pdf_path = os.path.join(
         os.path.dirname(__file__), "../../../../tests/unit/builder/data/aiwen.pdf"
     )
-    # pdf_path = "/Users/zhangxinhong.zxh/Downloads/toaz.info-5dsm-5-pr_56e68a629dc4fe62699960dd5afbe362.pdf"
     chunk = pdf_reader.invoke(pdf_path)
     a = 1

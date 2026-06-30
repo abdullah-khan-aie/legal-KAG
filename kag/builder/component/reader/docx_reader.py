@@ -24,14 +24,13 @@ from kag.interface import LLMClient, ReaderABC
 
 class DocxNode:
     def __init__(self, title: str, level: int, content: str = "", node_type: str = "heading"):
-        """
-        Initialize a DocxNode.
+        """Initialize a node in the document tree.
 
         Args:
-            title (str): The title/text of the node
-            level (int): The hierarchical level
-            content (str): The content text
-            node_type (str): Type of node ("heading", "list", "paragraph", etc.)
+            title: The title or text of the node.
+            level: The hierarchical level.
+            content: The content text.
+            node_type: The node type, e.g. "heading", "list", or "paragraph".
         """
         self.title = title
         self.display_title = (
@@ -64,12 +63,7 @@ class DocxNode:
 @ReaderABC.register("docx")
 @ReaderABC.register("docx_reader")
 class DocxReader(ReaderABC):
-    """
-    A class for reading Docx files into Chunk objects.
-
-    This class inherits from ReaderABC and provides the functionality to process Docx files,
-    extract their text content, and convert it into a list of Chunk objects.
-    """
+    """Read a Docx file into Chunk objects following its heading hierarchy."""
 
     def __init__(
         self,
@@ -78,13 +72,12 @@ class DocxReader(ReaderABC):
         length_splitter: LengthSplitter = None,
         **kwargs,
     ):
-        """
-        Initializes the DocxReader with an optional LLMClient instance.
+        """Initialize the reader with optional LLM, cut depth, and length splitter.
 
         Args:
-            llm (LLMClient): An optional LLMClient instance used for generating outlines. Defaults to None.
-            cut_depth (int): The heading level at which to cut the document into chunks. Defaults to 5.
-            length_splitter (LengthSplitter): An optional LengthSplitter instance for splitting long chunks. Defaults to None.
+            llm: LLM client used for generating outlines.
+            cut_depth: Heading level at which to cut the document into chunks.
+            length_splitter: Splitter used to break up over-long chunks.
         """
         super().__init__(**kwargs)
         self.llm = llm
@@ -93,15 +86,11 @@ class DocxReader(ReaderABC):
         self.length_splitter = length_splitter
 
     def outline_chunk(self, chunk: Chunk | list[Chunk], basename) -> list[Chunk]:
-        """
-        Generates outlines for the given chunk(s) and separates the content based on these outlines.
+        """Generate outlines via the LLM and split the content by them.
 
         Args:
-            chunk (Union[Chunk, List[Chunk]]): A single Chunk object or a list of Chunk objects.
-            basename: The base name used for generating chunk IDs and names.
-
-        Returns:
-            List[Chunk]: A list of Chunk objects separated by the generated outlines.
+            chunk: A chunk or list of chunks to outline.
+            basename: Base name used for generated chunk ids and names.
         """
         if isinstance(chunk, Chunk):
             chunk = [chunk]
@@ -115,16 +104,12 @@ class DocxReader(ReaderABC):
 
     @staticmethod
     def sep_by_outline(content, outlines, basename):
-        """
-        Separates the content based on the provided outlines.
+        """Split content into chunks at the positions of the given outlines.
 
         Args:
-            content (str): The content to be separated.
-            outlines (List[str]): A list of outlines used to separate the content.
-            basename: The base name used for generating chunk IDs and names.
-
-        Returns:
-            List[Chunk]: A list of Chunk objects separated by the provided outlines.
+            content: The content to split.
+            outlines: Outlines marking where to split the content.
+            basename: Base name used for generated chunk ids and names.
         """
         position_check = []
         for outline in outlines:
@@ -148,16 +133,14 @@ class DocxReader(ReaderABC):
 
     @staticmethod
     def _get_heading_level(paragraph: Paragraph) -> tuple[int, bool]:
-        """
-        Get the heading level of a paragraph and determine if it's a real heading.
+        """Determine a paragraph's heading level and whether it is a true heading.
 
         Args:
-            paragraph (Paragraph): The paragraph to check.
+            paragraph: The paragraph to inspect.
 
         Returns:
-            Tuple[int, bool]: A tuple containing:
-                - The heading level (1-6) if the paragraph is a heading, 0 otherwise
-                - Boolean indicating if this is a real heading (based on styles) or just formatted text
+            A tuple of (heading level 1-6, or 0 if not a heading; whether it is a
+            real style-based heading rather than merely formatted text).
         """
         # 1. Check for built-in heading styles - Most reliable method
         if paragraph.style and paragraph.style.name:
@@ -220,14 +203,10 @@ class DocxReader(ReaderABC):
 
     @staticmethod
     def _extract_run_text(run) -> str:
-        """
-        Extract text from a run, including any special characters, symbols, and fields.
+        """Extract text from a run, including special characters, symbols, and fields.
 
         Args:
-            run: A run object from python-docx
-
-        Returns:
-            str: The extracted text
+            run: A python-docx run object.
         """
         text = run.text
 
@@ -263,14 +242,10 @@ class DocxReader(ReaderABC):
         return text
 
     def _extract_paragraph_text(self, paragraph: Paragraph) -> str:
-        """
-        Extract text from a paragraph, preserving formatting and special characters.
+        """Extract a paragraph's text with markdown-style formatting indicators.
 
         Args:
-            paragraph: A paragraph object from python-docx
-
-        Returns:
-            str: The extracted text with formatting indicators
+            paragraph: A python-docx paragraph object.
         """
         text_parts = []
 
@@ -349,14 +324,10 @@ class DocxReader(ReaderABC):
         return f"[Comment by {comment.author} at {comment.date}: {comment.text}]"
 
     def _extract_table_text(self, table) -> str:
-        """
-        Extract text from a table, preserving structure.
+        """Extract a table's text as a markdown table.
 
         Args:
-            table: A table object from python-docx
-
-        Returns:
-            str: The extracted table text in a structured format
+            table: A python-docx table object.
         """
         table_text = []
         for i, row in enumerate(table.rows):
@@ -380,15 +351,11 @@ class DocxReader(ReaderABC):
         return "\n".join(table_text)
 
     def _extract_list_text(self, paragraph: Paragraph, list_style: str = None) -> str:
-        """
-        Extract text from a list item, preserving list formatting.
+        """Extract a list item's text with markdown bullet or numbered formatting.
 
         Args:
-            paragraph: A paragraph object from python-docx
-            list_style: The style of the list (bullet or number)
-
-        Returns:
-            str: The extracted list item text
+            paragraph: A python-docx paragraph object.
+            list_style: The list style (bullet or number).
         """
         text = self._extract_paragraph_text(paragraph)
 
@@ -406,14 +373,13 @@ class DocxReader(ReaderABC):
         return f"{'    ' * level}* {text}"
 
     def _build_document_tree(self, doc: Document) -> DocxNode:
-        """
-        Build a tree structure from the document with improved content extraction.
+        """Build a hierarchical node tree from the document's headings and content.
 
         Args:
-            doc (Document): The document to process.
+            doc: The document to process.
 
         Returns:
-            DocxNode: The root node of the document tree.
+            The root node of the document tree.
         """
         root = DocxNode("root", 0, node_type="root")
         stack = [root]
@@ -746,21 +712,14 @@ class DocxReader(ReaderABC):
         return outputs, node_chunk_map, SubGraph(nodes=nodes, edges=edges)
 
     def _invoke(self, input: Input, **kwargs) -> tuple[list[Output], SubGraph]:
-        """
-        Processes the input Docx file, extracts its text content, and generates Chunk objects.
+        """Read the Docx file and return chunks following its title hierarchy.
 
         Args:
-            input (Input): The file path of the Docx file to be processed.
-            **kwargs: Additional keyword arguments, not used in the current implementation.
-
-        Returns:
-            Tuple[List[Output], SubGraph]: A tuple containing:
-                - A list of Chunk objects based on the document structure
-                - A SubGraph representing the document's title hierarchy
+            input: The path to the Docx file to process.
 
         Raises:
             ValueError: If the input is empty.
-            IOError: If the file cannot be read or the text extraction fails.
+            IOError: If the file cannot be read.
         """
         if not input:
             raise ValueError("Input cannot be empty")

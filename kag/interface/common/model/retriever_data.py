@@ -17,18 +17,16 @@ class RetrievedData:
 
 
 def find_and_extra_prop_objects(text):
-    """
-    Extracts and parses serialized objects from the given text.
+    """Extract and parse serialized property objects from the given text.
 
-    This function searches for all strings in the provided text that match the serialized format,
-    then parses each found serialized string to extract object properties,
-    and finally stores the parsed objects as dictionaries in a list which is returned.
+    Scans the text for substrings matching the serialized object format,
+    parses each into its name, id, and type, and collects the results.
 
-    Parameters:
-    text (str): The text containing serialized objects.
+    Args:
+        text: The text containing serialized objects.
 
     Returns:
-    list: A list of dictionaries representing the parsed objects.
+        A list of dictionaries, each with "id", "name", and "type" keys.
     """
 
     pattern = re.compile(r"\001(.*?)\003")
@@ -232,8 +230,6 @@ class EntityData:
                 )
         return spo_list
 
-    # def __repr__(self):
-    #     return f"({self.name} [{self.type}] ({self.biz_id}) {self.description}"
     def __repr__(self):
         return f"{self.name} [{self.type}]"
 
@@ -315,7 +311,6 @@ class RelationData:
         spo_list = []
         rel = {"s": self.from_entity.name, "p": self.type, "o": self.end_entity.name}
         spo_list.append(json.dumps(rel, ensure_ascii=False))
-        # prop
         if self.prop is not None:
             for prop_key in self.prop.origin_prop_map.keys():
                 spo_list.append(
@@ -418,7 +413,6 @@ class OneHopGraphData:
         return self.schema.attr_en_zh.get(k)
 
     def get_s_all_attribute_spo(self):
-        # spo_list = []
         attr_name_set_map = {}
         if self.s.prop is None:
             return attr_name_set_map
@@ -498,7 +492,6 @@ class OneHopGraphData:
         return relation_value_set
 
     def _prase_attribute_relation(self, std_p: str, attr_value: str):
-        # new a RelationData
         prop_entity = EntityData()
         prop_entity.biz_id = attr_value
         prop_entity.name = attr_value
@@ -565,7 +558,6 @@ class OneHopGraphData:
         return self.schema.edge_en_zh.get(k, k)
 
     def get_s_all_relation_spo(self, with_prop, language):
-        # spo_list = []
         relation_name_set_map = {}
         if len(self.in_relations) > 0:
             for k in self.in_relations.keys():
@@ -1081,7 +1073,6 @@ def parse_entity_relation(one_graph, std_p: str, o_value: EntityData):
 
 
 def parse_attribute_relation(one_graph, std_p: str, attr_value: str):
-    # new a RelationData
     prop_entity = EntityData()
     prop_entity.biz_id = attr_value
     prop_entity.name = attr_value

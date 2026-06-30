@@ -65,11 +65,10 @@ def _get_task_dep(index, logic_node, dep_task):
 
 @PlannerABC.register("kag_model_planner")
 class KAGModelPlanner(PlannerABC):
-    """Iterative planner that uses LLM to generate task plans based on context and available executors.
+    """Plan a task DAG by prompting the model to emit logical forms.
 
-    Args:
-        llm (LLMClient): Language model client for plan generation
-        plan_prompt (PromptABC): Prompt template for planning requests
+    Parses the model's logical-form output into dependent tasks and supports
+    rewriting a task's query against its dependencies' results.
     """
 
     def __init__(
@@ -90,28 +89,20 @@ class KAGModelPlanner(PlannerABC):
 
     @staticmethod
     def check_require_rewrite(task: Task):
-        """Determines if query rewriting is needed based on parameter patterns.
-
-        Args:
-            task (Task): Task to check for rewrite requirements
-
-        Returns:
-            bool: True if query contains dynamic parameter references (e.g., {{1.output}})
-        """
+        """Return whether the task is flagged as needing query rewriting."""
         return task.arguments.get("is_need_rewrite", False)
 
     async def query_rewrite(self, task: Task, **kwargs):
-        """Performs asynchronous query rewriting using LLM and context.
+        """Rewrite a task's query against its dependencies' results.
 
         Args:
-            task (Task): Task containing the query to rewrite
+            task: The task whose query should be rewritten.
 
         Returns:
-            str: Rewritten query with resolved dynamic references
+            Updated task arguments carrying the rewritten query.
         """
         query = task.arguments["query"]
         tag_id = f"{query}_begin_task"
-        # print(f"Old query: {query}")
         deps_context = format_task_dep_context(task.parents)
         generate_context = {
             "target question": kwargs.get("query"),
@@ -137,21 +128,19 @@ class KAGModelPlanner(PlannerABC):
                 "query": new_query,
                 "logic_form_node": logic_form_node,
             }
-        # print(f"query rewrite context = {context}")
-        # print(f"New query: {new_query}")
         return {"query": new_query}
 
     async def ainvoke(self, query, **kwargs) -> list[Task]:
-        """Asynchronously generates task plan using LLM.
+        """Plan a task DAG by parsing the model's logical-form output.
 
         Args:
-            query: User query to generate plan for
-            **kwargs: Additional parameters including:
-                - context (Context): Execution context
-                - executors (list): Available executors for task planning
+            query: The user query to plan for.
+
+        Keyword Args:
+            context: Execution context; its message history is updated in place.
 
         Returns:
-            List[Task]: Generated task sequence
+            The planned tasks, chained by dependency order.
         """
         context: Context | None = kwargs.get("context", None)
         messages = context.kwargs.get("messages", [])

@@ -33,10 +33,10 @@ def convert_result_2_md(result, is_top=False):
 
 @ExecutorABC.register("kag_output_executor")
 class KagOutputExecutor(ExecutorABC):
-    """Hybrid knowledge graph retrieval executor combining multiple strategies.
+    """Produce a final answer for a task from resolved aliases or LLM summarization.
 
-    Combines entity linking, path selection, and text chunk retrieval using
-    knowledge graph and LLM capabilities to answer complex queries.
+    Collects answered aliases for the task's get node and, when none are
+    available, summarizes the dependent tasks' context with the LLM.
     """
 
     def __init__(self, llm_module: LLMClient = None, summary_prompt: PromptABC = None, **kwargs):
@@ -51,7 +51,7 @@ class KagOutputExecutor(ExecutorABC):
 
     @property
     def output_types(self):
-        """Output type specification for executor responses"""
+        """Return the type produced by this executor's output."""
         return str
 
     def invoke(self, query: str, task: Any, context: Context, **kwargs):
@@ -107,10 +107,10 @@ class KagOutputExecutor(ExecutorABC):
         task.update_result(result)
 
     def schema(self) -> dict:
-        """Function schema definition for OpenAI Function Calling
+        """Return the executor's function-calling schema.
 
         Returns:
-            dict: Schema definition in OpenAI Function format
+            The schema describing this executor in OpenAI function-call format.
         """
         return {
             "name": "Output",

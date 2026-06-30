@@ -17,13 +17,13 @@ logger = logging.getLogger()
 class RerankModelABC(Registrable):
     """Abstract base class for reranking models with rate limiting capabilities.
 
-    This class provides core functionality for model downloading and reranking
-    operations, including rate limiting and error handling for index computation.
+    Provides core functionality for model downloading and reranking operations,
+    including rate limiting and error handling for index computation.
 
     Args:
-        name (str): Identifier for the rate limiter
-        max_rate (float, optional): Maximum allowed requests per time period. Defaults to 1000.
-        time_period (float, optional): Time window for rate limiting in seconds. Defaults to 1.
+        name: Identifier for the rate limiter.
+        max_rate: Maximum allowed requests per time period.
+        time_period: Time window for rate limiting, in seconds.
     """
 
     def __init__(
@@ -35,17 +35,16 @@ class RerankModelABC(Registrable):
         self.limiter = RATE_LIMITER_MANGER.get_rate_limiter(name, max_rate, time_period)
 
     def _download_model(self, path, url):
-        """Downloads and extracts a model archive from the specified URL.
+        """Download and extract a model archive from the specified URL.
 
         Verifies the presence of a valid config.json file in the extracted contents.
-        Uses streaming download with in-memory extraction to minimize disk usage.
 
         Args:
-            path (str): Destination directory path for extraction
-            url (str): Source URL of the model archive
+            path: Destination directory for extraction.
+            url: Source URL of the model archive.
 
         Raises:
-            RuntimeError: If config.json is missing in the extracted contents
+            RuntimeError: If config.json is missing from the extracted contents.
         """
         logger.info(f"download model from:\n{url} to:\n{path}")
         res = requests.get(url)
@@ -60,35 +59,35 @@ class RerankModelABC(Registrable):
             raise RuntimeError(message)
 
     def compute_index(self, query: str, passages: list[str]):
-        """Abstract method to compute reranked passage indices for a query.
+        """Compute reranked passage indices for a query.
 
         Must be implemented by subclasses to provide the actual reranking logic.
 
         Args:
-            query (str): Search query string
-            passages (List[str]): List of document passages to rerank
+            query: Search query string.
+            passages: Document passages to rerank.
 
         Returns:
-            List[int]: Reranked passage indices in descending relevance order
+            Passage indices in descending order of relevance.
 
         Raises:
-            NotImplementedError: If not overridden by subclasses
+            NotImplementedError: If not overridden by subclasses.
         """
         message = "abstract method compute_index is not implemented"
         raise NotImplementedError(message)
 
     def rerank(self, queries: list[str], passages: list[str]):
-        """Performs multi-query reranking of passages with error recovery.
+        """Rerank passages across multiple queries with error recovery.
 
-        Combines reranking results from multiple queries using reciprocal rank fusion.
-        Handles compute_index failures by falling back to original rankings.
+        Combines reranking results from multiple queries using reciprocal rank fusion,
+        falling back to the original ranking if compute_index fails.
 
         Args:
-            queries (List[str]): Multiple query strings for reranking
-            passages (List[str]): List of passages to rerank
+            queries: Query strings to rerank against.
+            passages: Passages to rerank.
 
         Returns:
-            List[str]: Reranked passages in descending order of combined scores
+            Passages in descending order of combined scores.
         """
         rank_scores = np.array([1 / (1 + i) for i in range(len(passages))])
         passage_scores = np.zeros(len(passages)) + rank_scores
@@ -111,16 +110,16 @@ class RerankModelABC(Registrable):
         return new_passages
 
     async def arerank(self, queries: list[str], passages: list[str]):
-        """Asynchronous version of rerank with rate limiting.
+        """Asynchronously rerank passages with rate limiting.
 
-        Uses async rate limiting and runs the rerank operation in a threadpool.
+        Applies rate limiting and runs the synchronous rerank call in a thread.
 
         Args:
-            queries (List[str]): Multiple query strings for reranking
-            passages (List[str]): List of passages to rerank
+            queries: Query strings to rerank against.
+            passages: Passages to rerank.
 
         Returns:
-            List[str]: Reranked passages in descending order of combined scores
+            Passages in descending order of combined scores.
         """
         async with self.limiter:
             return await asyncio.to_thread(lambda: self.rerank(queries, passages))

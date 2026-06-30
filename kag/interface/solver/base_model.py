@@ -147,22 +147,19 @@ class SPORelation(SPOBase):
 
     @staticmethod
     def parse_logic_form(input_str):
-        """
-        Parses the logic form from the given input string and constructs a relation object.
+        """Parse a logic-form string into a relation object.
 
-        Parameters:
-            input_str (str): The input string containing alias and entity types separated by ':'.
+        Args:
+            input_str: String containing an alias and entity types separated by ':'.
 
         Returns:
-            SPORelation: A relation object with alias name and associated type set.
+            A relation object with the alias name and associated type set.
         """
 
         rel_type_set = []
 
-        # Split the input string into alias and entity_type_set parts
         split_input = input_str.split(":", 1)
         alias = split_input[0]
-        # If entity_type_set exists, process it further
         if len(split_input) > 1:
             entity_type_part = split_input[1]
 
@@ -241,21 +238,17 @@ class SPOEntity(SPOBase):
 
     @staticmethod
     def parse_logic_form(input_str):
-        # # parse the input string with a regex
         match = re.match(r"([^:]+):?([^\[]+)?(\[[^\[]*\])?(\[[^\[]*\])?", input_str)
         if not match:
             return None
 
-        # extract and destructure the matched components
         alias = match.group(1)
         entity_type_raw = match.group(2)
         entity_name_raw = match.group(3)
         entity_id_raw = match.group(4)
 
-        # handle entity_type_set
         entity_type_set = parse_entity(entity_type_raw)
 
-        # parse entity_name and entity_id_set
         entity_name = entity_name_raw.strip("][") if entity_name_raw else None
         entity_name = entity_name.strip("`") if entity_name else None
         entity_id_set = parse_entity(entity_id_raw.strip("][")) if entity_id_raw else []

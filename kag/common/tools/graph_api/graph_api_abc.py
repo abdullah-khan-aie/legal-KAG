@@ -28,18 +28,15 @@ class GraphApiABC(Registrable):
     def calculate_pagerank_scores(
         self, target_vertex_type, start_nodes: list[dict], top_k=10
     ) -> dict:
-        """
-        Calculate and retrieve PageRank scores for the given starting nodes.
+        """Compute personalized PageRank scores from the given starting nodes.
 
-        Parameters:
-        target_vertex_type (str): Return target vectex type ppr score
-        start_nodes (list): A list containing document fragment IDs to be used as starting nodes for the PageRank algorithm.
+        Args:
+            target_vertex_type: Vertex type whose PageRank scores are returned.
+            start_nodes: Starting nodes (e.g. document fragment IDs) seeding the
+                PageRank walk.
+            top_k: Maximum number of scored vertices to return.
 
         Returns:
-        ppr_doc_scores (dict): A dictionary containing each document fragment ID and its corresponding PageRank score.
-
-        This method uses the PageRank algorithm in the graph store to compute scores for document fragments. If `start_nodes` is empty,
-        it returns an empty dictionary. Otherwise, it attempts to retrieve PageRank scores from the graph store and converts the result
-        into a dictionary format where keys are document fragment IDs and values are their respective PageRank scores. Any exceptions,
-        such as failures in running `run_pagerank_igraph_chunk`, are logged.
+            Mapping of vertex ID to its PageRank score. Empty when no start
+            nodes are provided.
         """

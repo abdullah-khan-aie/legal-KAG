@@ -16,12 +16,14 @@ def cosine_similarity(vector1, vector2):
 
 
 def split_list(input_list, max_length=30):
-    """
-    Splits a list into multiple sublists where each sublist has a maximum length of max_length.
+    """Split a list into sublists of at most ``max_length`` items each.
 
-    :param input_list: The original list to be split
-    :param max_length: The maximum length of each sublist
-    :return: A list containing multiple sublists
+    Args:
+        input_list: The original list to be split.
+        max_length: The maximum length of each sublist.
+
+    Returns:
+        A list of sublists covering the input in order.
     """
     return [input_list[i : i + max_length] for i in range(0, len(input_list), max_length)]
 
@@ -72,8 +74,12 @@ class TextSimilarity:
     def text_sim_result(
         self, mention, candidates: list[str], topk=1, low_score=0.63, is_cached=False
     ):
-        """
-        output: [(candi_name, candi_score),...]
+        """Return the candidates most similar to ``mention`` by cosine score.
+
+        Returns:
+            A list of ``(candidate_name, candidate_score)`` pairs sorted by
+            descending score, limited to ``topk`` and to scores at or above
+            ``low_score``.
         """
         if mention is None:
             return []
@@ -97,8 +103,11 @@ class TextSimilarity:
         return candis
 
     def text_type_sim(self, mention, candidates, topk=1):
-        """
-        output: [(candi_name, candi_score),...]
+        """Return type candidates similar to ``mention``, defaulting to Entity.
+
+        Returns:
+            A list of ``(candidate_name, candidate_score)`` pairs; falls back to
+            ``[("Entity", 1.0)]`` when no candidate meets the threshold.
         """
         res = self.text_sim_result(mention, candidates, topk)
         if len(res) == 0:

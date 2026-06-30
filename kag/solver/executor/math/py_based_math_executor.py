@@ -24,9 +24,7 @@ from kag.interface.solver.reporter_abc import ReporterABC
 
 
 def run_py_code(python_code: str, **kwargs):
-    # Default timeout in seconds
     default_timeout = 5
-    # Allow timeout to be passed via kwargs if needed for more flexibility
     timeout_duration = kwargs.get("timeout", default_timeout)
 
     with tempfile.NamedTemporaryFile(delete=False, suffix=".py") as temp_file:
@@ -42,18 +40,18 @@ def run_py_code(python_code: str, **kwargs):
             [python_executable, temp_file_path],
             capture_output=True,
             text=True,
-            timeout=timeout_duration,  # Added timeout
+            timeout=timeout_duration,
         )
         stdout_value = result.stdout
         stderr_value = result.stderr
     except subprocess.TimeoutExpired as e:
         stderr_value = f"Code execution timed out after {timeout_duration} seconds: {e}"
-    except Exception as e:  # Catch other potential errors during subprocess.run
+    except Exception as e:
         stderr_value = f"An unexpected error occurred during code execution: {e}"
     finally:
         os.remove(temp_file_path)
 
-    if stderr_value:  # If there's any error (timeout or other execution error)
+    if stderr_value:
         return None, stderr_value, python_code
     return stdout_value, None, python_code
 
@@ -99,7 +97,6 @@ class PyBasedMathExecutor(ExecutorABC):
             try:
                 content_l = re.findall("`(.*?)`", content)
             except Exception:
-                # breakpoint()
                 content_l = []
             contents = []
             for c in content_l:

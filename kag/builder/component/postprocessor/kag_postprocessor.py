@@ -13,10 +13,9 @@ logger = logging.getLogger()
 @PostProcessorABC.register("base", as_default=True)
 @PostProcessorABC.register("kag_post_processor")
 class KAGPostProcessor(PostProcessorABC):
-    """
-    A class that extends the PostProcessorABC base class.
-    It provides methods to handle various post-processing tasks on subgraphs
-    including filtering, entity linking based on similarity, and linking based on an external graph.
+    """Post-process subgraphs: filter invalid data and link entities.
+
+    Linking is done by vector similarity and, optionally, against an external graph.
     """
 
     def __init__(
@@ -25,12 +24,12 @@ class KAGPostProcessor(PostProcessorABC):
         external_graph: ExternalGraphLoaderABC = None,
         **kwargs,
     ):
-        """
-        Initializes the KAGPostProcessor instance.
+        """Initialize the post-processor and its similarity search client.
 
         Args:
-            similarity_threshold (float, optional): The similarity threshold for entity linking. Defaults to 0.9.
-            external_graph (ExternalGraphLoaderABC, optional): An instance of ExternalGraphLoaderABC for external graph-based linking. Defaults to None.
+            similarity_threshold: Minimum score for entity linking; ``None``
+                disables similarity linking (filter-only).
+            external_graph: External graph loader for external-graph-based linking.
         """
         super().__init__(**kwargs)
         self.namespace = kwargs.get("namespace", "")
@@ -42,14 +41,10 @@ class KAGPostProcessor(PostProcessorABC):
         self._search_client = kwargs.get("search_client") or SearchClientABC()
 
     def format_label(self, label: str):
-        """
-        Formats the label by adding the project namespace if it is not already present.
+        """Prefix the label with the project namespace if not already present.
 
         Args:
-            label (str): The label to be formatted.
-
-        Returns:
-            str: The formatted label.
+            label: The label to format.
         """
         namespace = self.namespace
         if label.split(".")[0] == namespace:
@@ -61,14 +56,10 @@ class KAGPostProcessor(PostProcessorABC):
         self._search_client = SearchClientABC()
 
     def filter_invalid_data(self, graph: SubGraph):
-        """
-        Filters out invalid nodes and edges from the subgraph.
+        """Drop nodes/edges missing required fields and normalize unknown labels.
 
         Args:
-            graph (SubGraph): The subgraph to be filtered.
-
-        Returns:
-            SubGraph: The filtered subgraph.
+            graph: The subgraph to filter.
         """
         valid_nodes = []
         valid_edges = []
@@ -77,9 +68,6 @@ class KAGPostProcessor(PostProcessorABC):
                 continue
             if node.label not in self.schema:
                 node.label = self.format_label(OTHER_TYPE)
-            # for k in node.properties.keys():
-            #     if k not in self.schema[node.label]:
-            #         continue
             valid_nodes.append(node)
         for edge in graph.edges:
             if edge.label:
@@ -88,13 +76,12 @@ class KAGPostProcessor(PostProcessorABC):
 
     @retry(stop=stop_after_attempt(3), reraise=True)
     def _entity_link(self, graph: SubGraph, property_key: str = "name", labels: list[str] = None):
-        """
-        Performs entity linking based on the given property key and labels.
+        """Link nodes to similar existing nodes via vector search.
 
         Args:
-            graph (SubGraph): The subgraph to perform entity linking on.
-            property_key (str, optional): The property key to use for linking. Defaults to "name".
-            labels (List[str], optional): The labels to consider for linking. Defaults to None.
+            graph: The subgraph to link entities in.
+            property_key: The property whose vector is used for linking.
+            labels: Labels to search within; ``None`` uses each node's own label.
         """
         vector_field_name = get_vector_field_name(property_key)
         for node in graph.nodes:
@@ -126,22 +113,22 @@ class KAGPostProcessor(PostProcessorABC):
                         )
 
     def similarity_based_link(self, graph: SubGraph, property_key: str = "name"):
-        """
-        Performs entity linking based on similarity.
+        """Link entities to similar nodes within the same label.
 
         Args:
-            graph (SubGraph): The subgraph to perform entity linking on.
-            property_key (str, optional): The property key to use for linking. Defaults to "name".
+            graph: The subgraph to link entities in.
+            property_key: The property whose vector is used for linking.
         """
         self._entity_link(graph, property_key, None)
 
     def external_graph_based_link(self, graph: SubGraph, property_key: str = "name"):
-        """
-        Performs entity linking based on the user provided external graph.
+        """Link entities to nodes restricted to the external graph's allowed labels.
+
+        Does nothing if no external graph is configured.
 
         Args:
-            graph (SubGraph): The subgraph to perform entity linking on.
-            property_key (str, optional): The property key to use for linking. Defaults to "name".
+            graph: The subgraph to link entities in.
+            property_key: The property whose vector is used for linking.
         """
         if not self.external_graph:
             return
@@ -149,14 +136,10 @@ class KAGPostProcessor(PostProcessorABC):
         self._entity_link(graph, property_key, labels)
 
     def _invoke(self, input, **kwargs):
-        """
-        Invokes the post-processing pipeline on the input subgraph.
+        """Filter the subgraph and, when a threshold is set, link its entities.
 
         Args:
-            input: The input subgraph to be processed.
-
-        Returns:
-            List[SubGraph]: A list containing the processed subgraph.
+            input: The subgraph to process.
         """
         origin_num_nodes = len(input.nodes)
         origin_num_edges = len(input.edges)

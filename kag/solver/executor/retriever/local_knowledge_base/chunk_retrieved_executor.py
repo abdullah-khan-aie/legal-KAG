@@ -21,7 +21,7 @@ class ChunkRetrievedExecutor(ExecutorABC):
 
     @property
     def output_types(self):
-        """Output type specification for executor responses"""
+        """Return the type produced by this executor's output."""
         return KAGRetrievedResponse
 
     def invoke(self, query: str, task: Any, context: dict, **kwargs):
@@ -29,7 +29,6 @@ class ChunkRetrievedExecutor(ExecutorABC):
         task_query = task.arguments["query"]
         kag_response = initialize_response(task)
 
-        # Log the start of the retrieval process
         logger.info(f"Starting retrieval process for query: {task_query}")
         start_time = time.time()
 
@@ -43,7 +42,6 @@ class ChunkRetrievedExecutor(ExecutorABC):
         )
         retrieved_result = self.retriever.invoke(task, context=context, **kwargs)
 
-        # Log the retrieved results
         logger.debug(f"Retrieved results: {retrieved_result}")
 
         self.report_content(
@@ -62,21 +60,20 @@ class ChunkRetrievedExecutor(ExecutorABC):
             "FINISH",
         )
 
-        # Log the end of the retrieval process and calculate the duration
-        end_time = time.time()  # End time logging
+        end_time = time.time()
         logger.info(
             f"Finished retrieval process for query: {task_query}. Duration: {end_time - start_time} bytes"
         )
         task.update_result(retrieved_result)
 
     def schema(self) -> dict:
-        """Function schema definition for OpenAI Function Calling
+        """Return the executor's function-calling schema.
 
         Returns:
-            dict: Schema definition in OpenAI Function format
+            The schema describing this executor in OpenAI function-call format.
         """
         return {
-            "name": "ChunkRetriever",  # Changed from "Retriever"
+            "name": "ChunkRetriever",
             "description": "Retrieve relevant knowledge from the local knowledge base.",
             "parameters": {
                 "query": {

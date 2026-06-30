@@ -21,17 +21,15 @@ logger = logging.getLogger(__name__)
 
 @ExtractorABC.register("knowledge_unit_extractor")
 class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
-    """
-    A class for extracting knowledge graph subgraphs from text using a large language model (LLM).
-    Inherits from the Extractor base class.
+    """Extract knowledge-unit subgraphs from text using an LLM.
 
     Attributes:
-        llm (LLMClient): The large language model client used for text processing.
-        schema (SchemaClient): The schema client used to load the schema for the project.
-        ner_prompt (PromptABC): The prompt used for named entity recognition.
-        std_prompt (PromptABC): The prompt used for named entity standardization.
-        triple_prompt (PromptABC): The prompt used for triple extraction.
-        external_graph (ExternalGraphLoaderABC): The external graph loader used for additional NER.
+        llm: The large language model client used for text processing.
+        schema: The schema client loaded for the project.
+        ner_prompt: Prompt used for named entity recognition.
+        kn_prompt: Prompt used for knowledge-unit extraction.
+        triple_prompt: Prompt used for triple extraction.
+        external_graph: External graph loader used for additional NER.
     """
 
     def __init__(
@@ -43,15 +41,14 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         external_graph: ExternalGraphLoaderABC = None,
         **kwargs,
     ):
-        """
-        Initializes the KAGExtractor with the specified parameters.
+        """Initialize the extractor with the LLM and per-task prompts.
 
         Args:
-            llm (LLMClient): The large language model client.
-            ner_prompt (PromptABC, optional): The prompt for named entity recognition. Defaults to None.
-            std_prompt (PromptABC, optional): The prompt for named entity standardization. Defaults to None.
-            triple_prompt (PromptABC, optional): The prompt for triple extraction. Defaults to None.
-            external_graph (ExternalGraphLoaderABC, optional): The external graph loader. Defaults to None.
+            llm: The large language model client.
+            ner_prompt: Prompt for named entity recognition.
+            kn_prompt: Prompt for knowledge-unit extraction.
+            triple_prompt: Prompt for triple extraction.
+            external_graph: External graph loader for additional NER.
         """
         super().__init__()
         self.llm = llm
@@ -62,14 +59,8 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         self.external_graph = external_graph
 
         self.SCHEMA_DICT = {
-            # "Person",
             "Geographic Location": "GeoLocation",
             "Location": "GeoLocation",
-            # "Event",
-            # "Organization",
-            # "Finance",
-            # "Healthcare",
-            # "Education",
             "Science and Technology": "ScienceAndTechnology",
             "Culture and Entertainment": "CulturalAndEntertainment",
             "Policy and Regulation": "PolicyAndRegulation",
@@ -79,9 +70,6 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
             "Technology": "ScienceAndTechnology",
             "Entertainment": "CulturalAndEntertainment",
             "Regulation": "PolicyAndRegulation",
-            # "Creature",
-            # "Time",
-            # "Others"
         }
 
     def get_stand_schema(self, type_name):
@@ -154,12 +142,10 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         reraise=True,
     )
     def named_entity_recognition(self, passage: str):
-        """
-        Performs named entity recognition on a given text passage.
+        """Recognize named entities in a text passage.
+
         Args:
-            passage (str): The text to perform named entity recognition on.
-        Returns:
-            The result of the named entity recognition operation.
+            passage: The text to run named entity recognition on.
         """
         ner_result = self._named_entity_recognition_llm(passage)
         ner_parse_rst = self._named_entity_recognition_process(passage, ner_result)
@@ -173,12 +159,10 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         reraise=True,
     )
     async def anamed_entity_recognition(self, passage: str):
-        """
-        Performs named entity recognition on a given text passage.
+        """Recognize named entities in a text passage.
+
         Args:
-            passage (str): The text to perform named entity recognition on.
-        Returns:
-            The result of the named entity recognition operation.
+            passage: The text to run named entity recognition on.
         """
         ner_result = await self._anamed_entity_recognition_llm(passage)
 
@@ -190,15 +174,11 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         reraise=True,
     )
     def knowledge_unit_extra(self, passage: str, entities: list[dict]):
-        """
-        Standardizes named entities.
+        """Extract knowledge units from the passage given its named entities.
 
         Args:
-            passage (str): The input text passage.
-            entities (List[Dict]): A list of recognized named entities.
-
-        Returns:
-            Standardized entity information.
+            passage: The source text passage.
+            entities: The recognized named entities.
         """
         return self.llm.invoke(
             {"input": passage, "named_entities": entities},
@@ -213,15 +193,11 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         reraise=True,
     )
     async def aknowledge_unit_extra(self, passage: str, entities: list[dict]):
-        """
-        Standardizes named entities.
+        """Extract knowledge units from the passage given its named entities.
 
         Args:
-            passage (str): The input text passage.
-            entities (List[Dict]): A list of recognized named entities.
-
-        Returns:
-            Standardized entity information.
+            passage: The source text passage.
+            entities: The recognized named entities.
         """
         return self.llm.invoke(
             {"input": passage, "named_entities": entities},
@@ -236,13 +212,11 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         reraise=True,
     )
     def triples_extraction(self, passage: str, entities: list[dict]):
-        """
-        Extracts triples (subject-predicate-object structures) from a given text passage based on identified entities.
+        """Extract subject-predicate-object triples from a text passage.
+
         Args:
-            passage (str): The text to extract triples from.
-            entities (List[Dict]): A list of entities identified in the text.
-        Returns:
-            The result of the triples extraction operation.
+            passage: The text to extract triples from.
+            entities: Entities identified in the text.
         """
         return self.llm.invoke(
             {"input": passage, "entity_list": entities},
@@ -257,13 +231,11 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         reraise=True,
     )
     async def atriples_extraction(self, passage: str, entities: list[dict]):
-        """
-        Extracts triples (subject-predicate-object structures) from a given text passage based on identified entities.
+        """Extract subject-predicate-object triples from a text passage.
+
         Args:
-            passage (str): The text to extract triples from.
-            entities (List[Dict]): A list of entities identified in the text.
-        Returns:
-            The result of the triples extraction operation.
+            passage: The text to extract triples from.
+            entities: Entities identified in the text.
         """
 
         return await self.llm.ainvoke(
@@ -380,20 +352,18 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         sub_graph.add_node(id=s_id, name=s_name, label=s_label, properties=record["properties"])
 
     def assemble_sub_graph_with_spg_records(self, entities: list[dict]):
-        """
-        Assembles a subgraph using SPG records.
+        """Build a subgraph from SPG records, expanding object-typed properties into nodes.
 
         Args:
-            entities (List[Dict]): A list of entities to be used for subgraph assembly.
+            entities: Entities to assemble into the subgraph.
 
         Returns:
-            The assembled subgraph and the updated list of entities.
+            A tuple of (assembled subgraph, updated entities).
         """
         sub_graph = SubGraph([], [])
         for record in entities:
             s_name = record.get("name", "")
             s_label = record.get("category", "")
-            # s_id = generate_hash_id(f"{s_name}_{s_label}")
 
             self.assemble_sub_graph_with_spg_properties(sub_graph, s_name, s_name, s_label, record)
         return sub_graph, entities
@@ -402,15 +372,16 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
     def assemble_sub_graph_with_triples(
         sub_graph: SubGraph, entities: list[dict], triples: list[list]
     ):
-        """
-        Assembles edges in the subgraph based on a list of triples and entities.
-        Args:
-            sub_graph (SubGraph): The subgraph to add edges to.
-            entities (List[Dict]): A list of entities, for looking up category information.
-            triples (List[list]): A list of triples, each representing a relationship to be added to the subgraph.
-        Returns:
-            The constructed subgraph.
+        """Add edges to the subgraph for each 4-element triple.
 
+        Args:
+            sub_graph: The subgraph to add edges to.
+            entities: Entities used to look up category information.
+            triples: Triples to add, each a [subject, predicate, object, condition]
+                list.
+
+        Returns:
+            The updated subgraph.
         """
 
         def get_category_and_name(entities_data, entity_name):
@@ -455,13 +426,15 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
 
     @staticmethod
     def assemble_sub_graph_with_chunk(sub_graph: SubGraph, entities: list[dict], chunk: Chunk):
-        """
-        Associates a Chunk object with the subgraph, adding it as a node and connecting it with existing nodes.
+        """Add the chunk as a node and link the given entities to it as their source.
+
         Args:
-            sub_graph (SubGraph): The subgraph to add the chunk information to.
-            chunk (Chunk): The chunk object containing the text and metadata.
+            sub_graph: The subgraph to add the chunk information to.
+            entities: Entities to link to the chunk.
+            chunk: The chunk providing the text and metadata.
+
         Returns:
-            The constructed subgraph.
+            The updated subgraph.
         """
         for entity in entities:
             # to chunk.id,
@@ -493,15 +466,16 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         entities: list[dict],
         triples: list[list],
     ):
-        """
-        Integrates entity and triple information into a subgraph, and associates it with a chunk of text.
+        """Integrate triples and the chunk into the subgraph.
+
         Args:
-            sub_graph (SubGraph): The subgraph to be assembled.
-            chunk (Chunk): The chunk of text the subgraph is about.
-            entities (List[Dict]): A list of entities identified in the chunk.
-            triples (List[list]): A list of triples representing relationships between entities.
+            sub_graph: The subgraph to assemble into.
+            chunk: The chunk the subgraph is about.
+            entities: Entities identified in the chunk.
+            triples: Triples representing relationships between entities.
+
         Returns:
-            The constructed subgraph.
+            The assembled subgraph.
         """
         self.assemble_sub_graph_with_triples(sub_graph, entities, triples)
         self.assemble_sub_graph_with_chunk(sub_graph, entities, chunk)
@@ -579,15 +553,10 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         return knowledge_unit_nodes
 
     def _invoke(self, input: Input, **kwargs) -> list[Output]:
-        """
-        Invokes the semantic extractor to process input data.
+        """Extract entities, knowledge units, and triples from the chunk into a subgraph.
 
         Args:
-            input (Input): Input data containing name and content.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            List[Output]: A list of processed results, containing subgraph information.
+            input: The chunk to process.
         """
 
         title = input.name
@@ -610,15 +579,10 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         return out
 
     async def _ainvoke(self, input: Input, **kwargs) -> list[Output]:
-        """
-        Invokes the semantic extractor to process input data.
+        """Extract entities, knowledge units, and triples from the chunk into a subgraph.
 
         Args:
-            input (Input): Input data containing name and content.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            List[Output]: A list of processed results, containing subgraph information.
+            input: The chunk to process.
         """
         title = input.name
         passage = title.split("_split_")[0] + "\n" + input.content

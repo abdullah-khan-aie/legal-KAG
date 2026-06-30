@@ -1,4 +1,3 @@
-#
 import copy
 import json
 import logging
@@ -13,22 +12,19 @@ from kag.schema.client import (
     SPGTypeName,
 )
 
-# original: from kag.builder.model.spg_record import SPGRecord (server record).
-# Used only in return-type hints below; aliased to dict to drop the server dep.
 SPGRecord = dict
 
 logger = logging.getLogger(__name__)
 
 
 class SPGPrompt(PromptABC):
-    """
-    Base class for generating SPG schema-based entity/event extraction prompts.
+    """Base class for generating SPG schema-based entity/event extraction prompts.
 
     Attributes:
-        ignored_types (List[str]): List of SPG types to be ignored.
-        ignored_properties (List[str]): List of properties to be ignored.
-        default_properties (Dict[str, str]): Default properties for SPG types.
-        ignored_relations (List[str]): List of relations to be ignored.
+        ignored_types: SPG types to exclude from the prompt schema.
+        ignored_properties: Properties to exclude from the prompt schema.
+        default_properties: Properties applied to every SPG type by default.
+        ignored_relations: Relations to exclude from the prompt schema.
     """
 
     ignored_types: ClassVar[list[str]] = ["Chunk"]
@@ -51,13 +47,12 @@ class SPGPrompt(PromptABC):
         language: str = "",
         **kwargs,
     ):
-        """
-        Initializes the SPGPrompt instance.
+        """Initialize the prompt, loading the schema for the given SPG type names.
 
         Args:
-            spg_type_names (List[SPGTypeName], optional): List of SPG type names. Defaults to [].
-            language (str, optional): Language for the prompt. Defaults to "".
-            **kwargs: Additional keyword arguments.
+            spg_type_names: SPG type names to restrict the prompt schema to; empty
+                uses the full schema.
+            language: Language for the prompt.
         """
         super().__init__(**kwargs)
         self.schema = SchemaClient(schema_path=kwargs.get("schema_path")).load()
@@ -67,26 +62,15 @@ class SPGPrompt(PromptABC):
         else:
             self.spg_types = {k: v for k, v in self.schema.items() if k in spg_type_names}
         self.create_prompt_schema()
-        # self._init_render_variables()
 
     @property
     def template_variables(self) -> list[str]:
-        """
-        Returns the list of template variables used in the prompt.
-
-        Returns:
-            List[str]: List of template variables.
-        """
+        """Return the template variables used in the prompt."""
         return ["schema", "input"]
 
     @staticmethod
     def get_accept_types():
-        """
-        Returns the list of accepted SPG types.
-
-        Returns:
-            List[SpgTypeEnum]: List of accepted SPG types.
-        """
+        """Return the SPG type enums this prompt extracts."""
         return [
             SpgTypeEnum.Entity,
             SpgTypeEnum.Concept,
@@ -94,14 +78,10 @@ class SPGPrompt(PromptABC):
         ]
 
     def build_prompt(self, variables: dict[str, str]) -> str:
-        """
-        Builds the prompt using the provided variables.
+        """Build the prompt text from the given input variables and prompt schema.
 
         Args:
-            variables (Dict[str, str]): Dictionary of variables to be used in the prompt.
-
-        Returns:
-            str: The built prompt.
+            variables: Input variables to render into the prompt.
         """
         return super().build_prompt(
             {
@@ -112,13 +92,10 @@ class SPGPrompt(PromptABC):
 
     @staticmethod
     def process_property_name(name: str):
-        """
-        Process property name by removing descriptions enclosed in parentheses.
-        Args:
-            name (dict):  property names (possibly containing descriptions in parentheses)
+        """Strip a parenthesized description from a property name.
 
-        Returns:
-            str: A new string having the descriptions in parentheses removed.
+        Args:
+            name: A property name, possibly with a parenthesized description.
 
         Example:
             >>> name = 'authors(authors of work, such as director, actor, lyricist, composer and singer)'
@@ -129,22 +106,15 @@ class SPGPrompt(PromptABC):
         return name.split("(")[0]
 
     def process_property_names(self, properties: dict):
-        """
-        Process property names by removing descriptions enclosed in parentheses.
-
-        This method iterates through the given dictionary of properties, removes any
-        descriptions enclosed in parentheses from the property names, and returns a new
-        dictionary with the processed names. If a property value is itself a dictionary,
-        this method will recursively process it.
+        """Strip parenthesized descriptions from all property names, recursing into nested dicts.
 
         Args:
-            properties (dict): A dictionary where keys are property names (possibly containing
-                               descriptions in parentheses) and values are either property values
-                               or nested dictionaries.
+            properties: Properties keyed by name (possibly with parenthesized
+                descriptions); values may be plain values or nested dicts.
 
         Returns:
-            dict: A new dictionary with the same structure as the input, but with all property
-                  names having their descriptions in parentheses removed.
+            A new dict with the same structure but cleaned property names.
+
         Example:
             >>> input_properties = {
             ...     "authors(authors of work, such as director, actor, lyricist, composer and singer)": "John Doe"
@@ -162,15 +132,10 @@ class SPGPrompt(PromptABC):
         return output
 
     def parse_response(self, response: str, **kwargs) -> list[SPGRecord]:
-        """
-        Parses the response string into a list of SPG records.
+        """Parse the model response into a list of SPG records.
 
         Args:
-            response (str): The response string to be parsed.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            List[SPGRecord]: List of parsed SPG records.
+            response: The raw model response (JSON string or already-parsed object).
         """
         rsp = response
         if isinstance(rsp, str):
@@ -192,9 +157,7 @@ class SPGPrompt(PromptABC):
         return outputs
 
     def create_prompt_schema(self):
-        """
-        Creates the schema for extraction prompt based on the project schema.
-        """
+        """Build the prompt schema (types, properties, relations) from the project schema."""
         prompt_schema = []
         accept_types = self.get_accept_types()
         for type_name, spg_type in self.spg_types.items():
@@ -399,26 +362,17 @@ class SPGRelationPrompt(SPGPrompt):
 
     @staticmethod
     def get_accept_types():
-        """
-        Returns the list of accepted SPG types.
-
-        Returns:
-            List[SpgTypeEnum]: List of accepted SPG types.
-        """
+        """Return the SPG type enums this prompt extracts."""
         return [
             SpgTypeEnum.Entity,
             SpgTypeEnum.Concept,
         ]
 
     def build_prompt(self, variables: dict[str, str]) -> str:
-        """
-        Builds the prompt using the provided variables.
+        """Build the prompt text from the given input variables and prompt schema.
 
         Args:
-            variables (Dict[str, str]): Dictionary of variables to be used in the prompt.
-
-        Returns:
-            str: The built prompt.
+            variables: Input variables to render into the prompt.
         """
         schema = []
         for item in self.prompt_schema:
@@ -431,15 +385,10 @@ class SPGRelationPrompt(SPGPrompt):
         )
 
     def parse_response(self, response: str, **kwargs) -> list[SPGRecord]:
-        """
-        Parses the response string into a list of SPG records.
+        """Parse the model response into a list of SPG records.
 
         Args:
-            response (str): The response string to be parsed.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            List[SPGRecord]: List of parsed SPG records.
+            response: The raw model response (JSON string or already-parsed object).
         """
         rsp = response
         if isinstance(rsp, str):

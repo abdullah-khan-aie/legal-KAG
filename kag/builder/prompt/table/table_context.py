@@ -6,9 +6,7 @@ from kag.interface import PromptABC
 
 @PromptABC.register("table_context")
 class TableContextPrompt(PromptABC):
-    """
-    extract table context
-    """
+    """Prompt for extracting a table's name, description, and keywords from context."""
 
 
     template_en = """

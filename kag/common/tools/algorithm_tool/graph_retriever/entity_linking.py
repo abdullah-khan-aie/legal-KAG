@@ -26,14 +26,15 @@ class EntityLinking(ToolABC):
         exclude_types: list[str] = None,
         **kwargs,
     ):
-        """Initialize entity linking components with default configurations
+        """Initialize entity linking components, falling back to default configs.
+
         Args:
-            vectorize_model: Text vectorization model for similarity calculation
-            graph_api: Graph database access interface
-            search_api: Search engine interface for vector/text search
-            recognition_threshold: Minimum score threshold for valid matches
-            top_k: Maximum number of results to return
-            exclude_types: exclude types for entity
+            vectorize_model: Text vectorization model for similarity calculation.
+            graph_api: Graph database access interface.
+            search_api: Search engine interface for vector/text search.
+            recognition_threshold: Minimum score for a match to be considered valid.
+            top_k: Maximum number of results to return.
+            exclude_types: Entity types to exclude from results.
         """
         super().__init__()
         task_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
@@ -61,12 +62,14 @@ class EntityLinking(ToolABC):
 
     # Re-rank the nodes based on semantic type matching if the query type is not an entity
     def rerank_sematic_type(self, candis_nodes: list, sematic_type: str):
-        """Re-rank candidate nodes based on semantic type similarity
+        """Re-rank candidate nodes by similarity to a target semantic type.
+
         Args:
-            candis_nodes: List of candidate nodes with scores
-            sematic_type: Target semantic type for matching
+            candis_nodes: Candidate nodes with recall scores.
+            sematic_type: Target semantic type to match against.
+
         Returns:
-            Re-ranked list of nodes prioritized by type match scores
+            The top-k nodes ordered by their type-match score.
         """
         sematic_type_list = []
         for candis in candis_nodes:
@@ -190,15 +193,18 @@ class EntityLinking(ToolABC):
             return []
 
     def invoke(self, query, name, type_name, topk_k=None, **kwargs) -> list[EntityData]:
-        """Perform entity linking by combining vector and text search strategies
+        """Link a mention to knowledge-graph entities via vector and text search.
+
         Args:
-            query: Original text context containing the entity
-            name: Entity name to link
-            type_name: Entity type (e.g., Person, Location)
-            topk_k: Maximum number of results to return
-            recognition_threshold: Minimum score threshold (default 0.8)
+            query: Original text context containing the entity.
+            name: Entity name (or list of names) to link.
+            type_name: Entity type or types to constrain the search.
+            topk_k: Maximum number of results to return; defaults to ``self.top_k``.
+            **kwargs: Optional ``recognition_threshold`` overriding the configured
+                minimum match score.
+
         Returns:
-            List of matched entities with scores and metadata
+            Matched entities with scores and metadata, ordered by score.
         """
         # Implementation logic with detailed steps:
         # 1. Determine query type and adjust parameters

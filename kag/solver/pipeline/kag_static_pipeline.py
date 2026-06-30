@@ -26,13 +26,10 @@ logger = logging.getLogger(__name__)
 
 @SolverPipelineABC.register("kag_static_pipeline")
 class KAGStaticPipeline(SolverPipelineABC):
-    """Pipeline implementing static planning and execution workflow with iterative task processing.
+    """Plan all tasks up front, execute them, and synthesize a final answer.
 
-    Args:
-        planner (PlannerABC): Task planning component for generating execution plans
-        executors (List[ExecutorABC]): Available executor instances for task execution
-        generator (GeneratorABC): Result generation component for final answer synthesis
-        max_iteration (int): Maximum allowed execution iterations (default: 10)
+    Generates a static task DAG, runs it in dependency-ordered parallel batches,
+    and optionally retries planning until the answer is judged complete.
     """
 
     def __init__(
@@ -49,14 +46,7 @@ class KAGStaticPipeline(SolverPipelineABC):
         self.max_iteration = max_iteration
 
     def select_executor(self, executor_name: str):
-        """Select executor instance by name from available executors.
-
-        Args:
-            executor_name: Name of the executor to retrieve
-
-        Returns:
-            Matching executor instance, or None if not found
-        """
+        """Return the executor whose schema name matches, or None if absent."""
         for executor in self.executors:
             schema = executor.schema()
             if executor_name == schema["name"]:
@@ -65,15 +55,14 @@ class KAGStaticPipeline(SolverPipelineABC):
 
     @retry(stop=stop_after_attempt(3), reraise=True)
     async def planning(self, query, context, **kwargs):
-        """Generates task plan through LLM-based planning with automatic retry.
+        """Plan the task DAG for the query via the planner.
 
         Args:
-            query: Original user query
-            context: Execution context containing previous task results
-            **kwargs: Additional planning parameters
+            query: The user query to plan for.
+            context: Execution context holding prior task results.
 
         Returns:
-            List[Task]: Planned task sequence in DAG format
+            The planned tasks forming the execution DAG.
         """
         tasks = await self.planner.ainvoke(
             query,
@@ -85,13 +74,12 @@ class KAGStaticPipeline(SolverPipelineABC):
 
     @retry(stop=stop_after_attempt(3), reraise=True)
     async def execute_task(self, query, task, context, **kwargs):
-        """Executes single task with query rewriting and executor invocation.
+        """Run a single task, rewriting its arguments first when required.
 
         Args:
-            query: Original user query
-            task: Task instance to execute
-            context: Execution context for dependency resolution
-            **kwargs: Additional execution parameters
+            query: The user query being processed.
+            task: The task to execute.
+            context: Execution context for dependency resolution.
         """
         if hasattr(self.planner, "check_require_rewrite") and self.planner.check_require_rewrite(
             task
@@ -108,19 +96,17 @@ class KAGStaticPipeline(SolverPipelineABC):
             logger.warn(f"Executor not  found for task {task}")
 
     async def ainvoke(self, query, **kwargs):
-        """Orchestrates full problem-solving workflow asynchronously.
+        """Plan, execute, and answer the query, retrying until judged complete.
 
-        Execution flow:
-        1. Generate initial task DAG
-        2. Execute tasks in parallel batches
-        3. Generate final answer from execution context
+        Each attempt builds a task DAG, runs it in dependency-ordered parallel
+        batches, and generates an answer; planning repeats up to the iteration
+        limit while the answer is judged unfinished.
 
         Args:
-            query: User query to solve
-            **kwargs: Additional execution parameters
+            query: The user query to solve.
 
         Returns:
-            Final generated answer from the execution context
+            The generated answer.
         """
         num_retry = self.max_iteration - 1
         finished = False

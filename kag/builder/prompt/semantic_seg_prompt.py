@@ -1,7 +1,3 @@
-# Vendored from kag/builder/prompt/semantic_seg_prompt.py (openspg-kag 0.8.0,
-# Apache-2.0). VERBATIM (template_en + parse_response); only
-# `from kag.interface import PromptABC` -> local interface import.
-
 import json
 
 from kag.interface import PromptABC

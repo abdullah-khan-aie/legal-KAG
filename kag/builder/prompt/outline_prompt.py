@@ -1,7 +1,3 @@
-# Vendored from kag/builder/prompt/outline_prompt.py (openspg-kag 0.8.0, Apache-2.0).
-# VERBATIM (template_en, examples, parse_response). Only change:
-#   `from kag.interface import PromptABC` -> local interface import.
-
 import ast
 
 from kag.interface import PromptABC

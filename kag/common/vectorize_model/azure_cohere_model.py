@@ -35,7 +35,8 @@ class AzureCohereVectorizeModel(VectorizeModelABC):
         max_rate: float = 1000,
         time_period: float = 1,
     ):
-        """
+        """Initialize the Azure-hosted Cohere embedding client.
+
         Args:
             endpoint: The Azure AI Foundry serverless/managed Cohere endpoint URL.
             api_key: The key for the endpoint.

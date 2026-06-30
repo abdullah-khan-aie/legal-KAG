@@ -1,10 +1,3 @@
-# Dependency-free vendoring of kag/builder/component/splitter/semantic_splitter.py
-# (openspg-kag 0.8.0, Apache-2.0). Splitting logic (parse_llm_output,
-# semantic_chunk, _invoke) VERBATIM except:
-#   - dropped SplitterABC base + @register -> plain class
-#   - Chunk/generate_hash_id/Input/Output, LLMClient, SemanticSegPrompt from local
-# Uses an LLM (YOUR model, bound via LLMClient) — never the OpenSPG server.
-
 import logging
 import re
 

@@ -30,25 +30,19 @@ class ChunkExtractor(ExtractorABC):
         return ["chunk_index"]
 
     def _invoke(self, input: Input, **kwargs) -> list[Output]:
-        """
-        Invokes the semantic extractor to process input data.
+        """Wrap a text chunk into a single-node ``Chunk`` subgraph.
+
+        Non-text chunks are skipped and yield an empty result.
 
         Args:
-            input (Input): Input data containing name and content.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            List[Output]: A list of processed results, containing subgraph information.
+            input: The chunk to process.
         """
         text_chunk: Chunk = input
         if text_chunk.type != ChunkTypeEnum.Text:
             # only process text
             return []
 
-        # if "/" not in input.name:
         outline_name = input.name
-        # else:
-        #     outline_name = input.name.split("/")[-1]
 
         if "_split" in outline_name:
             outline_name = outline_name[: outline_name.find("_split")]

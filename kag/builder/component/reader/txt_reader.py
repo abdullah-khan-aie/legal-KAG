@@ -12,41 +12,25 @@ logger = logging.getLogger(__name__)
 @ReaderABC.register("txt")
 @ReaderABC.register("txt_reader")
 class TXTReader(ReaderABC):
-    """
-    A class for parsing text files or text content into Chunk objects.
-
-    This class inherits from ReaderABC and provides the functionality to read text content,
-    whether it is from a file or directly provided as a string, and convert it into a list of Chunk objects.
-    """
+    """Read a text file (or raw text) into a single Chunk."""
 
     def _invoke(self, input: Input, **kwargs) -> list[Output]:
-        """
-        The main method for processing text reading. This method reads the content of the input
-        (which can be a file path or text content) and converts it into chunks.
-
-        Optionally performs URL decoding on the input path if it's treated as a path.
+        """Read the input as a file path or raw text and return it as one Chunk.
 
         Args:
-            input (Input): The input string, which can be the path to a text file or direct text content.
-            **kwargs:
-                perform_url_decode (bool, optional): Whether to perform URL (percent) decoding
-                    on the input string if it's treated as a path. Defaults to True.
-
-        Returns:
-            List[Output]: A list containing Chunk objects, each representing a piece of text read.
+            input: A path to a text file or direct text content.
+            **kwargs: ``perform_url_decode`` (bool): percent-decode the input when
+                treated as a path; defaults to False.
 
         Raises:
             ValueError: If the input is empty.
-            IOError: If there is an issue reading the file specified by the input.
+            IOError: If the file cannot be read.
         """
         if not input:
             raise ValueError("Input cannot be empty")
 
-        # --- Get the flag from kwargs, default to True ---
         perform_url_decode = kwargs.get("perform_url_decode", False)
-        # -----------------------------------------------
 
-        # --- Added URL decoding logic (conditionally) ---
         path_str = input
         if not isinstance(path_str, str):
             try:
@@ -56,7 +40,6 @@ class TXTReader(ReaderABC):
 
         original_input_repr = repr(path_str)
 
-        # --- Conditionally perform URL decoding ---
         if perform_url_decode:
             try:
                 # Attempt to decode percent-encoding (URL encoding)
@@ -73,9 +56,7 @@ class TXTReader(ReaderABC):
                 path_str = original_input_repr
         else:
             print(f"DEBUG: URL decoding skipped for input: {original_input_repr}")
-        # --- End of conditional decoding ---
 
-        # The rest of the code uses path_str, which is now potentially decoded
         print(f"DEBUG: Processing file path: '{path_str}'")
 
         is_file = os.path.isfile(path_str)

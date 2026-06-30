@@ -31,9 +31,7 @@ logger = logging.getLogger()
 
 @Registrable.register("vectorize_model")
 class VectorizeModelABC(Registrable):
-    """
-    An abstract base class that defines the interface for converting text into embedding vectors.
-    """
+    """Abstract base class defining the interface for converting text into embedding vectors."""
 
     _instances: ClassVar[dict] = {}
     _lock = threading.Lock()
@@ -55,25 +53,26 @@ class VectorizeModelABC(Registrable):
         max_rate: float = 1000,
         time_period: float = 1,
     ):
-        """
-        Initializes the VectorizeModelABC instance.
+        """Initialize the vectorize model.
 
         Args:
-            vector_dimensions (int, optional): The number of dimensions for the embedding vectors. Defaults to None.
+            name: Identifier used for the shared rate limiter.
+            vector_dimensions: Number of dimensions for the embedding vectors.
+            max_rate: Maximum allowed requests per time period.
+            time_period: Time window for rate limiting, in seconds.
         """
         self._vector_dimensions = vector_dimensions
         self.limiter = RATE_LIMITER_MANGER.get_rate_limiter(name, max_rate, time_period)
 
     def _download_model(self, path, url):
-        """
-        Downloads a model from a specified URL and extracts it to a given path.
+        """Download a model archive from the given URL and extract it to a path.
 
         Args:
-            path (str): The directory path to save the downloaded model.
-            url (str): The URL from which to download the model.
+            path: Directory to extract the downloaded model into.
+            url: URL of the model archive.
 
         Raises:
-            RuntimeError: If the model configuration file is not found at the specified path.
+            RuntimeError: If the model configuration file is missing after extraction.
         """
         logger.info(f"download model from:\n{url} to:\n{path}")
         res = requests.get(url)
@@ -88,11 +87,7 @@ class VectorizeModelABC(Registrable):
             raise RuntimeError(message)
 
     def get_vector_dimensions(self):
-        """
-        Retrieves the dimension of the generated embedding vectors.
-
-        Returns:
-            int: The number of dimensions for the embedding vectors.
+        """Return the dimension of the generated embedding vectors.
 
         Raises:
             RuntimeError: If the embedding service is not available.
@@ -115,14 +110,13 @@ class VectorizeModelABC(Registrable):
 
     @retry(stop=stop_after_attempt(3), reraise=True)
     def vectorize(self, texts: str | Iterable[str]) -> EmbeddingVector | Iterable[EmbeddingVector]:
-        """
-        Vectorizes text(s) into embedding vector(s).
+        """Vectorize one or more texts into embedding vectors.
 
         Args:
-            texts (Union[str, Iterable[str]]): The text or texts to vectorize.
+            texts: A single text or an iterable of texts to vectorize.
 
         Returns:
-            Union[EmbeddingVector, Iterable[EmbeddingVector]]: The embedding vector(s) of the text(s).
+            The embedding vector(s) for the input text(s).
 
         Raises:
             NotImplementedError: This method must be implemented by subclasses.
@@ -134,17 +128,15 @@ class VectorizeModelABC(Registrable):
     async def avectorize(
         self, texts: str | Iterable[str]
     ) -> EmbeddingVector | Iterable[EmbeddingVector]:
-        """
-        Vectorizes text(s) into embedding vector(s).
+        """Asynchronously vectorize one or more texts into embedding vectors.
+
+        Applies rate limiting and runs the synchronous vectorize call in a thread.
 
         Args:
-            texts (Union[str, Iterable[str]]): The text or texts to vectorize.
+            texts: A single text or an iterable of texts to vectorize.
 
         Returns:
-            Union[EmbeddingVector, Iterable[EmbeddingVector]]: The embedding vector(s) of the text(s).
-
-        Raises:
-            NotImplementedError: This method must be implemented by subclasses.
+            The embedding vector(s) for the input text(s).
         """
 
         async with self.limiter:
@@ -153,9 +145,7 @@ class VectorizeModelABC(Registrable):
 
 @Registrable.register("sparse_vectorize_model")
 class SparseVectorizeModelABC(Registrable):
-    """
-    An abstract base class that defines the interface for converting text into sparse embedding vectors.
-    """
+    """Abstract base class defining the interface for converting text into sparse embedding vectors."""
 
     _instances: ClassVar[dict] = {}
     _lock = threading.Lock()
@@ -176,21 +166,24 @@ class SparseVectorizeModelABC(Registrable):
         max_rate: float = 1000,
         time_period: float = 1,
     ):
-        """
-        Initializes the SparseVectorizeModelABC instance.
+        """Initialize the sparse vectorize model.
+
+        Args:
+            name: Identifier used for the shared rate limiter.
+            max_rate: Maximum allowed requests per time period.
+            time_period: Time window for rate limiting, in seconds.
         """
         self.limiter = RATE_LIMITER_MANGER.get_rate_limiter(name, max_rate, time_period)
 
     def _download_model(self, path, url):
-        """
-        Downloads a model from a specified URL and extracts it to a given path.
+        """Download a model archive from the given URL and extract it to a path.
 
         Args:
-            path (str): The directory path to save the downloaded model.
-            url (str): The URL from which to download the model.
+            path: Directory to extract the downloaded model into.
+            url: URL of the model archive.
 
         Raises:
-            RuntimeError: If the model configuration file is not found at the specified path.
+            RuntimeError: If the model configuration file is missing after extraction.
         """
         logger.info(f"download model from:\n{url} to:\n{path}")
         res = requests.get(url)
@@ -212,14 +205,13 @@ class SparseVectorizeModelABC(Registrable):
     def vectorize(
         self, texts: str | Iterable[str]
     ) -> SparseEmbeddingVector | Iterable[SparseEmbeddingVector]:
-        """
-        Vectorizes text(s) into sparse embedding vector(s).
+        """Vectorize one or more texts into sparse embedding vectors.
 
         Args:
-            texts (Union[str, Iterable[str]]): The text or texts to vectorize.
+            texts: A single text or an iterable of texts to vectorize.
 
         Returns:
-            Union[SparseEmbeddingVector, Iterable[SparseEmbeddingVector]]: The sparse embedding vector(s) of the text(s).
+            The sparse embedding vector(s) for the input text(s).
 
         Raises:
             NotImplementedError: This method must be implemented by subclasses.
@@ -231,17 +223,15 @@ class SparseVectorizeModelABC(Registrable):
     async def avectorize(
         self, texts: str | Iterable[str]
     ) -> SparseEmbeddingVector | Iterable[SparseEmbeddingVector]:
-        """
-        Vectorizes text(s) into sparse embedding vector(s).
+        """Asynchronously vectorize one or more texts into sparse embedding vectors.
+
+        Applies rate limiting and runs the synchronous vectorize call in a thread.
 
         Args:
-            texts (Union[str, Iterable[str]]): The text or texts to vectorize.
+            texts: A single text or an iterable of texts to vectorize.
 
         Returns:
-            Union[SparseEmbeddingVector, Iterable[SparseEmbeddingVector]]: The sparse embedding vector(s) of the text(s).
-
-        Raises:
-            NotImplementedError: This method must be implemented by subclasses.
+            The sparse embedding vector(s) for the input text(s).
         """
 
         async with self.limiter:

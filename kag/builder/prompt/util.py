@@ -98,7 +98,6 @@ def load_SPO_data(respond):
             return rst
         else:
             return []
-            # raise ValueError("the output SPO str is invalid: " + respond)
 
     except:  # noqa: E722
         matches = re.findall(r"\[([^[\[\]].*)\]", extract_ret_str)
@@ -146,11 +145,9 @@ def load_SPO_data(respond):
                     return rst
                 else:
                     return []
-                    # raise ValueError("the output SPO str is invalid: " + respond)
 
 
 def modify_knowledge_unit(text, lang="zh"):
-    # define the regex pattern
     if lang == "zh":
         pattern = r'"knowledge unit \d+ Name"\s*:\s*"([^"]+)"\s*,'
     else:
@@ -200,7 +197,6 @@ def check_data(line, data_type="knowIE", language="zh"):
                 >= 6
             ):
                 check_data[name] = info[name]
-            # elif language == "en" and "knowledge unit" not in name and lsn(set(info[name].keys()) & set([ "Name","Type", "Domain Ontology", "Description","Standard Name", "Synonyms"])) >=6:
             elif language == "en" and isinstance(info[name], dict):
                 if (
                     "knowledge unit" not in name
@@ -273,7 +269,6 @@ def check_data(line, data_type="knowIE", language="zh"):
         if not isinstance(info, list):
             return None
         check_data = []
-        # print(info)
         valid = {}
         for spo in info:
             try:

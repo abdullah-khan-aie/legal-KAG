@@ -7,14 +7,13 @@ from kag.interface.solver.model.one_hop_graph import ChunkData
 
 
 def _flat_passages_set(passages_set: list[list[ChunkData]]):
-    """
-    Flattens the passages set and scores each passage based on its position.
+    """Flatten passage lists and rank passages by reciprocal rank position.
 
-    Parameters:
-    passages_set (list): A list of passage sets.
+    Args:
+        passages_set: Per-query passage lists to merge.
 
     Returns:
-    list: A list of passages sorted by their scores.
+        Unique passages sorted by aggregated position score, highest first.
     """
     chunk_id_maps = {}
     score_map = {}

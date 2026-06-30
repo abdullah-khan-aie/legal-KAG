@@ -1,18 +1,6 @@
-# Local, dependency-free replacement for knext.schema.client.SchemaClient.
-#
-# The server SchemaClient.load() does a REST call and returns {type_name: SpgType}.
-# This one reads a LOCAL YAML file and returns the same shape, so the extractor
-# (and the NER prompt) get their type vocabulary without any OpenSPG server.
-#
-# The objects expose exactly what the extractor uses:
-#   - SpgType.spg_type_enum   (to filter out Index types in the NER prompt)
-#   - SpgType.properties      (dict: prop_name -> Property)
-#   - Property.object_type_name_en   (the property's value type, e.g. "Text"/"Person")
-
 import os
 from enum import Enum
 
-# ---- constants (from knext.schema.client) --------------------------------- #
 CHUNK_TYPE = "Chunk"
 TABLE_TYPE = "Table"
 OTHER_TYPE = "Others"
@@ -84,15 +72,15 @@ _TYPE_ALIASES = {
 
 
 class Property:
-    """Mirrors the knext Property fields the SPG prompts + constraint extractor read.
+    """Mirror the knext Property fields the SPG prompts and constraint extractor read.
 
-    Fields consumed downstream:
-      - name                  property name
-      - object_type_name      value/target type (spg_prompt uses .split('.')[-1])
-      - object_type_name_en   short value type (extractor compares vs BASIC_TYPES)
-      - constraint            list of ConstraintTypeEnum values (e.g. "MULTI_VALUE")
-      - desc                  optional description (rendered into the prompt)
-      - index_type            index config for the vectorizer / graph store
+    Attributes:
+        name: Property name.
+        object_type_name: Value/target type (spg_prompt uses ``.split('.')[-1]``).
+        object_type_name_en: Short value type (extractor compares vs BASIC_TYPES).
+        constraint: List of ConstraintTypeEnum values (e.g. "MULTI_VALUE").
+        desc: Optional description (rendered into the prompt).
+        index_type: Index config for the vectorizer / graph store.
     """
 
     def __init__(
@@ -113,7 +101,7 @@ class Property:
 
 
 class Relation:
-    """Mirrors the knext Relation fields spg_prompt.create_prompt_schema reads."""
+    """Mirror the knext Relation fields spg_prompt.create_prompt_schema reads."""
 
     def __init__(self, name: str, object_type_name: str, desc: str = ""):
         self.name = name
@@ -141,7 +129,7 @@ class SpgType:
 
 
 class SchemaClient:
-    """Reads a local YAML schema file and exposes it like the server client.
+    """Read a local YAML schema file and expose it like the server client.
 
     YAML format:
         namespace: LegalKB

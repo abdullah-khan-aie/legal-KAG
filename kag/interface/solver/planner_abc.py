@@ -33,17 +33,15 @@ class Task(Registrable):
         id: str = None,
         **kwargs,
     ):
-        """Represents an executable task that can be processed by an executor.
+        """Initialize a task.
 
-        Attributes:
-            executor (str): Name of the executor responsible for running this task.
-            arguments (dict): Parameters required for task execution.
-            status (TaskStatus): Current execution status of the task (PENDING by default).
-            id (str): Unique identifier.
-            parents (List[Task]): List of predecessor tasks that must complete before execution.
-            children (List[Task]): List of successor tasks that depend on this task's completion.
-            memory (dict): Storage for intermediate execution data.
-            result (Any): Final output of the task execution.
+        Args:
+            executor: Name of the executor responsible for running this task.
+            arguments: Parameters required for task execution.
+            parents: Predecessor tasks that must complete before this one. Defaults to none.
+            children: Successor tasks that depend on this task's completion. Defaults to none.
+            id: Unique identifier. A UUID is generated when omitted.
+            **kwargs: Additional options such as ``thought`` and ``name``.
         """
         super().__init__(**kwargs)
         self.executor = executor
@@ -275,15 +273,14 @@ class PlannerABC(Registrable):
 
 
 def format_task_dep_context(tasks: list[Task], is_recu=True):
-    """Formats parent task execution context into a structured dictionary.
+    """Format tasks and their parent execution context into a list of strings.
 
     Args:
-        task (Task): Current task whose parent context needs formatting
+        tasks: Task or list of tasks whose context needs formatting.
+        is_recu: If True, recursively include parent task context.
 
     Returns:
-        dict: Mapping of parent task IDs to their execution details containing:
-            - action: Executor and arguments used
-            - result: Execution result of the parent task
+        List of formatted context strings, deduplicated, in dependency order.
     """
 
     def to_str(context):
@@ -298,7 +295,6 @@ def format_task_dep_context(tasks: list[Task], is_recu=True):
     if isinstance(tasks, Task):
         tasks = [tasks]
     for task in tasks:
-        # get all prvious tasks from context.
         if is_recu:
             parent_res = format_task_dep_context(task.parents, is_recu)
             for p in parent_res:

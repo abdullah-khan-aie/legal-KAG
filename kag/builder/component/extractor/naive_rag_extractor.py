@@ -11,13 +11,11 @@ logger = logging.getLogger(__name__)
 
 @ExtractorABC.register("naive_rag_extractor")
 class NaiveRagExtractor(ExtractorABC):
-    """
-    A class for extracting knowledge graph subgraphs from text using a large language model (LLM).
-    Inherits from the Extractor base class.
+    """Extract chunk-only subgraphs for naive RAG, optionally delegating tables.
 
     Attributes:
-        external_graph (ExternalGraphLoaderABC): The external graph loader used for additional named entity recognition.
-        table_extractor (ExtractorABC): The extractor used for processing table data.
+        external_graph: External graph loader used for additional NER.
+        table_extractor: Extractor used to process table chunks.
     """
 
     def __init__(
@@ -25,12 +23,11 @@ class NaiveRagExtractor(ExtractorABC):
         external_graph: ExternalGraphLoaderABC = None,
         table_extractor: ExtractorABC = None,
     ):
-        """
-        Initializes the NaiveRagExtractor with the specified parameters.
+        """Initialize the extractor with optional external graph and table extractor.
 
         Args:
-            external_graph (ExternalGraphLoaderABC, optional): The external graph loader for additional named entity recognition. Defaults to None.
-            table_extractor (ExtractorABC, optional): The extractor for processing table data. Defaults to None.
+            external_graph: External graph loader for additional NER.
+            table_extractor: Extractor for processing table chunks.
         """
         super().__init__()
         self.external_graph = external_graph
@@ -50,13 +47,14 @@ class NaiveRagExtractor(ExtractorABC):
 
     @staticmethod
     def assemble_sub_graph_with_chunk(sub_graph: SubGraph, chunk: Chunk):
-        """
-        Associates a Chunk object with the subgraph, adding it as a node and connecting it with existing nodes.
+        """Add the chunk as a node and link every existing node to it as its source.
+
         Args:
-            sub_graph (SubGraph): The subgraph to add the chunk information to.
-            chunk (Chunk): The chunk object containing the text and metadata.
+            sub_graph: The subgraph to add the chunk information to.
+            chunk: The chunk providing the text and metadata.
+
         Returns:
-            The constructed subgraph.
+            The updated subgraph.
         """
         for node in sub_graph.nodes:
             sub_graph.add_edge(node.id, node.label, "source", chunk.id, CHUNK_TYPE)
@@ -75,17 +73,11 @@ class NaiveRagExtractor(ExtractorABC):
         return sub_graph
 
     def _invoke(self, input: Input, **kwargs) -> list[Output]:
-        """
-        Invokes the semantic extractor to process input data.
+        """Build a chunk-only subgraph, delegating table chunks to the table extractor.
 
         Args:
-            input (Input): Input data containing name and content.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            List[Output]: A list of processed results, containing subgraph information.
+            input: The chunk to process.
         """
-
         if self.table_extractor is not None and input.type == ChunkTypeEnum.Table:
             return self.table_extractor._invoke(input)
 

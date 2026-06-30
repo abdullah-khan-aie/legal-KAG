@@ -1,16 +1,3 @@
-# Dependency-free vendoring of kag/interface/common/model/sub_graph.py
-# (openspg-kag 0.8.0, Apache-2.0).
-#
-# Logic is VERBATIM except:
-#   - removed `from kag.builder.model.spg_record import SPGRecord`
-#   - removed `from knext.schema.client import BASIC_TYPES`
-#   - removed `from knext.schema.model.base import BaseSpgType`
-#   - removed the three `from_spg_record(...)` classmethods that used them
-#     (these convert a server SPGRecord into nodes/edges; readers never call them)
-#   - `generate_hash_id` now imported from the local base
-# Everything the readers use — Node(), Edge(), SubGraph(), add_node/add_edge,
-# .nodes/.edges, to_dict — is unchanged.
-
 import copy
 import pprint
 from typing import Any, ClassVar

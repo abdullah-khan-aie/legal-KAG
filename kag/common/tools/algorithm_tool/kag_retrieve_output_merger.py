@@ -11,12 +11,12 @@ from kag.interface import (
 
 @RetrieverOutputMerger.register("kag_merger")
 class KAGRetrieverOutputMerger(RetrieverOutputMerger):
-    """A custom merger implementation for combining retrieved chunks from multiple retrievers.
+    """Merge retrieved chunks from multiple retrievers into a unified result.
 
     Attributes:
-        name (str): Identifier for the merger instance.
-        merge_method (str): Method used for merging results ("rrf" or "weightd").
-        score_normalizer (callable): Normalization function based on merge_method.
+        name: Identifier for the merger instance.
+        merge_method: Method used for merging results ("rrf" or "weightd").
+        score_normalizer: Normalization function selected from merge_method.
     """
 
     def __init__(
@@ -24,10 +24,10 @@ class KAGRetrieverOutputMerger(RetrieverOutputMerger):
         merge_method: str = "rrf",
         **kwargs,
     ):
-        """Initializes the merger with specified normalization strategy.
+        """Initialize the merger with the given normalization strategy.
 
         Args:
-            merge_method: Method for score normalization ("rrf" for reciprocal rank fusion
+            merge_method: Score normalization method ("rrf" for reciprocal rank fusion
                 or "weightd" for min-max normalization). Defaults to "rrf".
             **kwargs: Additional keyword arguments for base class initialization.
         """
@@ -40,13 +40,10 @@ class KAGRetrieverOutputMerger(RetrieverOutputMerger):
 
     @staticmethod
     def min_max_normalize(chunks: list[ChunkData]):
-        """Normalizes chunk scores using min-max scaling.
+        """Normalize chunk scores in-place using min-max scaling.
 
         Args:
-            chunks: List of ChunkData objects to normalize.
-
-        Returns:
-            None: Modifies chunks in-place by updating their score attributes.
+            chunks: Chunks whose score attributes are updated in-place.
         """
         if len(chunks) == 0:
             return []
@@ -63,13 +60,10 @@ class KAGRetrieverOutputMerger(RetrieverOutputMerger):
 
     @staticmethod
     def rrf_normalize(chunks: list[ChunkData]):
-        """Normalizes scores using reciprocal rank fusion (RRF) method.
+        """Normalize scores in-place using reciprocal rank fusion (RRF).
 
         Args:
-            chunks: List of ChunkData objects to normalize.
-
-        Returns:
-            None: Modifies chunks in-place by updating their score attributes.
+            chunks: Chunks whose score attributes are updated in-place.
         """
         if len(chunks) == 0:
             return []
@@ -79,14 +73,14 @@ class KAGRetrieverOutputMerger(RetrieverOutputMerger):
 
     @staticmethod
     def chunk_merge(chunk_lists: list[list[ChunkData]], score_normalizer):
-        """Merges multiple chunk lists into a unified ranked list.
+        """Merge multiple chunk lists into a unified ranked list.
 
         Args:
-            chunk_lists: Multiple lists of ChunkData from different retrievers.
+            chunk_lists: Chunk lists from different retrievers.
             score_normalizer: Normalization function to apply before merging.
 
         Returns:
-            List[ChunkData]: Merged and sorted list of chunks with aggregated scores.
+            Merged chunks sorted by aggregated score, highest first.
         """
         merged = {}
         chunk_map = {}
@@ -119,15 +113,16 @@ class KAGRetrieverOutputMerger(RetrieverOutputMerger):
     def invoke(
         self, task: Task, retrieve_outputs: list[RetrieverOutput], **kwargs
     ) -> RetrieverOutput:
-        """Main entry point for merging retriever outputs.
+        """Merge retriever outputs into a single unified output.
 
         Args:
             task: Current processing task containing context information.
-            retrieve_outputs: List of outputs from different retrievers.
-            **kwargs: Additional keyword arguments for future extensibility.
+            retrieve_outputs: Outputs from the different retrievers to merge.
+            **kwargs: Additional keyword arguments; may include ``retrieved_chunks``
+                to extend with the merged chunk contents.
 
         Returns:
-            RetrieverOutput: Final merged output containing unified chunk list.
+            Merged output containing the unified chunk list and graph.
         """
         retrieved_chunks = kwargs.get("retrieved_chunks", None)
         chunk_lists = [x.chunks for x in retrieve_outputs]

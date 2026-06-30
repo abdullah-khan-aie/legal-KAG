@@ -54,8 +54,10 @@ def run_cmd(cmd, catch_stdout=True, catch_stderr=True, shell=False):
 
 
 def append_python_path(path: str) -> bool:
-    """
-    Append the given path to `sys.path`.
+    """Append the given path to ``sys.path``.
+
+    Returns:
+        True if the path was added, False if it was already present.
     """
     path = Path(path).resolve()
     path = str(path)
@@ -140,15 +142,17 @@ def flatten_2d_list(nested_list):
 
 
 def split_module_class_name(name: str, text: str) -> Tuple[str, str]:
-    """
-    Split `name` as module name and class name pair.
+    """Split a fully qualified name into module name and class name.
 
-    :param name: fully qualified class name, e.g. ``foo.bar.MyClass``
-    :type name: str
-    :param text: describe the kind of the class, used in the exception message
-    :type text: str
-    :rtype: Tuple[str, str]
-    :raises RuntimeError: if `name` is not a fully qualified class name
+    Args:
+        name: Fully qualified class name, e.g. ``foo.bar.MyClass``.
+        text: Describes the kind of class; used in the exception message.
+
+    Returns:
+        A ``(module_name, class_name)`` pair.
+
+    Raises:
+        RuntimeError: If ``name`` is not a fully qualified class name.
     """
     i = name.rfind(".")
     if i == -1:
@@ -160,16 +164,19 @@ def split_module_class_name(name: str, text: str) -> Tuple[str, str]:
 
 
 def dynamic_import_class(name: str, text: str):
-    """
-    Import the class specified by `name` dyanmically.
+    """Dynamically import the class specified by ``name``.
 
-    :param name: fully qualified class name, e.g. ``foo.bar.MyClass``
-    :type name: str
-    :param text: describe the kind of the class, use in the exception message
-    :type text: str
-    :raises RuntimeError: if `name` is not a fully qualified class name, or
-                          the class is not in the module specified by `name`
-    :raises ModuleNotFoundError: the module specified by `name` is not found
+    Args:
+        name: Fully qualified class name, e.g. ``foo.bar.MyClass``.
+        text: Describes the kind of class; used in the exception message.
+
+    Returns:
+        The imported class object.
+
+    Raises:
+        RuntimeError: If ``name`` is not a fully qualified class name, or the
+            class is not found in the module specified by ``name``.
+        ModuleNotFoundError: If the module specified by ``name`` is not found.
     """
     module_name, class_name = split_module_class_name(name, text)
     module = importlib.import_module(module_name)
@@ -240,17 +247,16 @@ def split_list_into_n_parts(lst, n):
 
 
 def generate_hash_id(value):
-    """
-    Generates a hash ID and an abstracted version of the input value.
+    """Generate a stable SHA-256 hash ID for the input value.
 
-    If the input value is a dictionary, it sorts the dictionary items and abstracts the dictionary.
-    If the input value is not a dictionary, it abstracts the value directly.
+    Dictionaries are hashed by their sorted items so the result is independent
+    of key order; other values are hashed by their string representation.
 
     Args:
-        value: The input value to be hashed and abstracted.
+        value: The input value to be hashed.
 
     Returns:
-        str: A hash ID generated from the input value.
+        The hex digest of the SHA-256 hash.
     """
     if isinstance(value, dict):
         sorted_items = sorted(value.items())
@@ -269,18 +275,17 @@ def generate_hash_id(value):
 
 @retry(stop=stop_after_attempt(3), reraise=True)
 def download_from_http(url: str, dest: str = None) -> str:
-    """Downloads a file from an HTTP URL and saves it to a temporary directory.
+    """Download a file from an HTTP URL and save it locally.
 
-    This function uses the requests library to download a file from the specified
-    HTTP URL and saves it to the system's temporary directory. After the download
-    is complete, it returns the local path of the downloaded file.
+    The file is streamed to ``dest`` if given, otherwise to a file of the same
+    base name in the system temporary directory.
 
     Args:
-        url (str): The HTTP URL of the file to be downloaded.
+        url: The HTTP URL of the file to download.
+        dest: Optional destination path; defaults to the temp directory.
 
     Returns:
-        str: The local path of the downloaded file.
-
+        The local path of the downloaded file.
     """
 
     # Send an HTTP GET request to download the file
@@ -381,14 +386,13 @@ def node_2_doc(node: dict):
 
 
 def extract_content_target(input_string):
-    """
-    Extract the content and target parts from the input string.
+    """Extract the content and target parts from the input string.
 
     Args:
-        input_string (str): A string containing content and target.
+        input_string: A string containing content and target sections.
 
     Returns:
-        dict: A dictionary containing 'content' and 'target'. If not found, the corresponding value is None.
+        A ``(content, target)`` pair; either element is None if not found.
     """
     # Define regex patterns
     # Content may contain newlines and special characters, so use non-greedy mode

@@ -1,4 +1,3 @@
-# Minimal data-holder stand-in for knext.reasoner.rest.models.ref_doc_set.RefDocSet
 class RefDocSet:
     def __init__(self, **kwargs):
         for k, v in kwargs.items():

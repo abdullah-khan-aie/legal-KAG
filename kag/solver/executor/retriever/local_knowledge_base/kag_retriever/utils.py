@@ -48,16 +48,15 @@ def get_chunks(input_data: list[RetrievedData]) -> list[ChunkData]:
 
 
 def get_all_docs_by_id(doc_ids: list[tuple[str, float]], graph_api, schema_helper):
-    """
-    Retrieve a list of documents based on their IDs.
+    """Fetch chunk documents for the given document IDs.
 
-    Parameters:
-    - queries (list of str): The query string for text matching.
-    - doc_ids (list): A list of document IDs to retrieve documents.
-    - top_k (int): The maximum number of documents to return.
+    Args:
+        doc_ids: Document IDs paired with their relevance scores.
+        graph_api: Graph API used to look up chunk properties.
+        schema_helper: Helper for resolving schema labels.
 
     Returns:
-    - list: A list of matched documents.
+        The matched chunk documents.
     """
     matched_docs = []
     hits_docs = []  # noqa: F841

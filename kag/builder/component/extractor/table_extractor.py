@@ -15,12 +15,10 @@ logger = logging.getLogger(__name__)
 
 @ExtractorABC.register("table_extractor")
 class TableExtractor(ExtractorABC):
-    """
-    A class for extracting knowledge graph subgraphs from table using a large language model (LLM).
-    Inherits from the Extractor base class.
+    """Extract knowledge graph subgraphs from table chunks using an LLM.
 
     Attributes:
-        llm (LLMClient): The large language model client used for text processing.
+        llm: The large language model client used for text processing.
     """
 
     def __init__(
@@ -31,14 +29,14 @@ class TableExtractor(ExtractorABC):
         extract_type: str = "chunk",
         **kwargs,
     ):
-        """
-        Initializes the KAGExtractor with the specified parameters.
+        """Initialize the extractor with the LLM, prompts, and extraction mode.
 
         Args:
-            llm (LLMClient): The large language model client.
-            table_context_prompt: prompt for extract table context
-            table_row_col_summary_prompt: prompt for get row and column summary info
-            extract_type: can be 'chunk', 'row_col', 'row_col_cell_graph'
+            llm: The large language model client.
+            table_context_prompt: Prompt for extracting table context.
+            table_row_col_summary_prompt: Prompt for row and column summaries.
+            extract_type: Extraction mode; one of 'chunk', 'row_col', or
+                'row_col_cell_graph'.
         """
         super().__init__(**kwargs)
         self.llm = llm
@@ -56,15 +54,12 @@ class TableExtractor(ExtractorABC):
         return SubGraph
 
     def _invoke(self, input: Input, **kwargs) -> list[Output]:
-        """
-        Invokes the semantic extractor to process input data.
+        """Extract a subgraph from a table chunk according to the configured mode.
+
+        Non-table chunks are skipped and yield an empty result.
 
         Args:
-            input (Input): Input data containing name and content.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            List[Output]: A list of processed results, containing subgraph information.
+            input: The table chunk to process.
         """
         table_chunk: Chunk = input
         if table_chunk.type != ChunkTypeEnum.Table:
@@ -187,8 +182,6 @@ class TableExtractor(ExtractorABC):
                     },
                 )
                 rst_list.append(sub_graph)
-                # subgraphs = self.schema_free_extractor._invoke(chunk)
-                # rst_list.extend(subgraphs)
             return rst_list
         subgraph = self._gen_subgraph(
             input_table=input_table,
@@ -309,7 +302,6 @@ class TableExtractor(ExtractorABC):
         # TableRow nodes
         if len(row_summary_list) > 1:
             for i, row_summary in enumerate(row_summary_list):
-                # content = f"doc: {doc_name}\ntable: {table_name}\ntable_row_summary: {row_summary.summary}\n{row_summary.content}"
                 content = row_summary.content
                 chunk = Chunk(
                     id=f"table_{table_id}_row_{i}",
@@ -321,7 +313,6 @@ class TableExtractor(ExtractorABC):
         # TableColumn nodes
         if len(col_summary_list) > 1:
             for i, col_summary in enumerate(col_summary_list):
-                # content = f"doc: {doc_name}\ntable: {table_name}\ntable_column_summary: {col_summary.summary}\n{col_summary.content}"
                 content = col_summary.content
                 chunk = Chunk(
                     id=f"table_{table_id}_col_{i}",
@@ -352,9 +343,7 @@ class TableExtractor(ExtractorABC):
         row_summary_list,
         col_summary_list,
     ):
-        """
-        generate subgraph
-        """
+        """Build a subgraph of table, keyword, row, and column nodes with their edges."""
         nodes = []
         edges = []
 
@@ -474,9 +463,7 @@ class TableExtractor(ExtractorABC):
 
 
 class TableDefaultInfo:
-    """
-    Default parsing results for table data
-    """
+    """Parsed metadata for a table: name, description, and keywords."""
 
     def __init__(self, name, desc, keywords):
         self.name = name
@@ -485,9 +472,7 @@ class TableDefaultInfo:
 
 
 class TableRowSummary:
-    """
-    Table row summary info
-    """
+    """Summary and content for a single table row."""
 
     def __init__(self, summary, content):
         self.summary = summary
@@ -495,9 +480,7 @@ class TableRowSummary:
 
 
 class TableColSummary:
-    """
-    Table column summary info
-    """
+    """Summary and content for a single table column."""
 
     def __init__(self, summary, content):
         self.summary = summary

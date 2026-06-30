@@ -76,17 +76,15 @@ class KAGGetSpoLF(KAGLFRewriter):
 
     @retry(stop=stop_after_attempt(3), reraise=True)
     def _trans_query_to_logic_form(self, query: str, context: str, reporter) -> list[GetSPONode]:
-        """Convert user query to logical form (SPO nodes)
+        """Translate a query into logical-form SPO nodes via the LLM.
 
         Args:
-            query (str): User input query text
-            context (str): Context for this question
+            query: The user query to translate.
+            context: Surrounding context for the query.
+            reporter: Reporter used to surface intermediate progress.
 
         Returns:
-            List[GetSPONode]: List of logical nodes representing SPO triples
-
-        Note:
-            Method is currently unimplemented and returns empty list
+            The parsed logical nodes representing the query's SPO triples.
         """
         sub_queries, lf_nodes_str = self.llm_client.invoke(
             {"question": query, "context": context},
@@ -102,7 +100,6 @@ class KAGGetSpoLF(KAGLFRewriter):
     def _parse_lf(self, question, sub_queries, logic_forms) -> list[GetSPONode]:
         if sub_queries is None:
             sub_queries = []
-        # process sub query
         sub_queries = [_process_output_query(question, q) for q in sub_queries]
         if len(sub_queries) != len(logic_forms):
             raise RuntimeError(

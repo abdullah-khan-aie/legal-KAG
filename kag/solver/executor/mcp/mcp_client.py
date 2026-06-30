@@ -26,11 +26,12 @@ logger = logging.getLogger(__name__)
 
 class MCPClient:
     def __init__(self, llm: LLMClient, prompt: PromptABC = None):
-        """Initialize the MCP client
+        """Initialize the MCP client.
 
         Args:
-            llm: LLMClient instance for language model interactions
-            prompt: Optional PromptABC instance for prompt management (defaults to default_mcp_tool_call config)
+            llm: Language model client used for tool-call interactions.
+            prompt: Prompt used to build tool-call messages; defaults to the
+                ``default_mcp_tool_call`` configuration when omitted.
         """
         self.llm = llm
         self.prompt = prompt or PromptABC.from_config({"type": "default_mcp_tool_call"})
@@ -39,16 +40,16 @@ class MCPClient:
         self.exit_stack = AsyncExitStack()
 
     async def connect_to_server(self, server_script_path: str, env: dict):
-        """Establish connection to an MCP server instance
+        """Connect to an MCP server and initialize a communication session.
+
+        Starts the server script, opens a session, and lists its available tools.
 
         Args:
-            server_script_path: Path to server script (.py or .js)
-            env: Environment variables dictionary for server execution
+            server_script_path: Path to the server script (``.py`` or ``.js``).
+            env: Environment variables passed to the server process.
 
         Raises:
-            ValueError: If script is not a Python or JavaScript file
-
-        Connects to the server, initializes communication session, and prints available tools
+            ValueError: If the script is not a Python or JavaScript file.
         """
         is_python = server_script_path.endswith(".py")
         is_js = server_script_path.endswith(".js")
@@ -71,18 +72,17 @@ class MCPClient:
             await self.cleanup()
             raise
 
-        # List available tools
         tools = await self.list_tools()
         print("\nConnected to server with tools:", [tool.name for tool in tools])
 
     async def list_tools(self):
-        """List available tools from the server.
+        """List the tools exposed by the connected server.
 
         Returns:
-            A list of available tools.
+            The tools advertised by the server.
 
         Raises:
-            RuntimeError: If the server is not initialized.
+            RuntimeError: If the server session is not initialized.
         """
         if not self.session:
             raise RuntimeError("Server not initialized")
@@ -92,20 +92,16 @@ class MCPClient:
         return tools
 
     async def process_query(self, query: str) -> str:
-        """Process user query using LLM and available tools
+        """Answer a query by letting the LLM call the server's tools.
+
+        Builds the prompt, exposes the server tools to the LLM, executes any
+        requested tool calls, and feeds their results back for a final response.
 
         Args:
-            query: User input query string
+            query: The user query to answer.
 
         Returns:
-            Processed response from the LLM after tool interactions
-
-        Handles:
-            - Prompt construction
-            - Tool availability check
-            - LLM response handling with tool calls
-            - Tool execution/result integration
-            - Final LLM response generation
+            The LLM's final response after any tool interactions.
         """
         messages = self.prompt.build_prompt(query)
         response = await self.session.list_tools()
@@ -127,7 +123,6 @@ class MCPClient:
         if hasattr(self.llm, "stream"):
             self.llm.stream = stream
         print(f"responses = {response}")
-        # process tool call
         if not isinstance(response, str) and response.tool_calls:
             tool_calls_message = response.model_dump()
             messages.append(tool_calls_message)

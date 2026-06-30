@@ -40,25 +40,17 @@ class SummaryExtractor(ExtractorABC):
         return ["Summary"]
 
     def _invoke(self, input: Input, **kwargs) -> list[Output]:
-        """
-        Invokes the semantic extractor to process input data.
+        """Summarize the chunk via the LLM and build a Summary subgraph.
 
         Args:
-            input (Input): Input data containing name and content.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            List[Output]: A list of processed results, containing subgraph information.
+            input: The chunk to summarize.
         """
         if input.type == ChunkTypeEnum.Text:
             o_label = CHUNK_TYPE
         else:
             o_label = TABLE_TYPE
 
-        # if "/" not in input.name:
         summary_name = input.name
-        # else:
-        #     summary_name = input.name.split("/")[-1]
 
         index = summary_name.find("_split")
         if index != -1:

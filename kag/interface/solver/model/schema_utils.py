@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 import csv
 import json
 from collections import defaultdict
@@ -100,7 +98,6 @@ class SchemaUtils:
         for attribute in attributes:
             if not attribute:
                 continue
-            # print('attribute:', attribute)
             attribute = json.loads(attribute)
             if (
                 "constraints" in attribute
@@ -202,7 +199,6 @@ class SchemaUtils:
 
         reader = csv.reader(f)
         next(reader)
-        # next(reader)
         node_attributes = {}
         for row in reader:
             obj, name_zh, name_en, father_en, _, attributes = (
@@ -216,12 +212,10 @@ class SchemaUtils:
             if "nodeType/edgeType" in obj:
                 continue
             name_en = name_en.replace(self.prefix, "")
-            # if name_en in ['Event', 'ProductTaxon']:
             if father_en and father_en in node_attributes:
                 attributes += node_attributes[father_en]
             node_attributes[name_en] = attributes
             if obj not in ["edge", "inputEdge"]:
-                # if name_zh in ['Encyclopedia Entity', 'Hot Event', 'Event']:
                 if name_zh in ["Encyclopedia Entity"]:
                     continue
                 self.nodes.add(name_zh)
@@ -238,7 +232,6 @@ class SchemaUtils:
 
             elif obj == "edge":
                 s, p, o = name_zh.split("_")
-                # if s in ['Encyclopedia Entity', 'Hot Event', 'Event'] or o in ['Encyclopedia Entity', 'Hot Event', 'Event']:
                 if s in ["Encyclopedia Entity"] or o in ["Encyclopedia Entity"]:
                     continue
                 if name_zh not in self.spo:
@@ -292,7 +285,10 @@ class SchemaUtils:
 
 
 def generate_nodes_edges_hetero(schema):
-    """
+    """Print the heterogeneous node and edge feature definitions for a schema.
+
+    The output has the following structure::
+
     nodes {
         hetero {
             "CommonSenseKG.Person" {

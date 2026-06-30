@@ -3,7 +3,7 @@ from kag.interface import PlannerABC, Task
 
 @PlannerABC.register("mcp_planner")
 class MCPPlanner(PlannerABC):
-    """mcp planner that generates task plans"""
+    """Planner that emits a single MCP task for the query, without an LLM."""
 
     def __init__(
         self,
@@ -12,16 +12,7 @@ class MCPPlanner(PlannerABC):
         super().__init__(**kwargs)
 
     async def ainvoke(self, query, **kwargs) -> list[Task]:
-        """Asynchronously generates task plan without LLM.
-
-        Args:
-            query: User query to generate plan for
-            **kwargs: Additional parameters including:
-                - executors (list): Available executors for task planning
-
-        Returns:
-            List[Task]: Generated task sequence
-        """
+        """Build the task plan, a single MCP task for the query."""
         task = Task("mcp", arguments={"query": query})
         return [task]
 

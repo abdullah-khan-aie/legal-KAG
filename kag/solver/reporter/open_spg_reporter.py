@@ -145,12 +145,14 @@ class SilentUndefined(Undefined):
 
 
 def render_jinja2_template(template_str, context):
-    """
-    Render a Jinja2 template string using the provided context dictionary.
+    """Render a Jinja2 template string against the given context.
 
-    :param template_str: A Jinja2 template in string format.
-    :param context: A dictionary containing variables used for rendering the template.
-    :return: The rendered string after applying the template, or the original string if rendering fails.
+    Args:
+        template_str: The Jinja2 template to render.
+        context: Variables made available to the template.
+
+    Returns:
+        The rendered string, or the original template when rendering fails.
     """
     try:
         template = Template(template_str, undefined=SilentUndefined)
@@ -490,7 +492,6 @@ Rewritten question:\n{content}
         content, status_enum, metrics = self.generate_report_data()
 
         request = TaskStreamRequest(task_id=self.task_id, content=content, status_enum=status_enum)
-        # logging.info(f"do_report:{request}")
         try:
             ret = self.client.reasoner_dialog_report_completions_post(task_stream_request=request)
             if self.last_report is None:

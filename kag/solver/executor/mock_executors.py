@@ -109,16 +109,18 @@ print(s)
         return output
 
     async def ainvoke(self, query: str, task: Task, context: Context, **kwargs):
-        """Asynchronous wrapper for synchronous invocation (runs in default threadpool).
+        """Evaluate the task's expression, falling back to generated Python code.
+
+        Tries to evaluate the expression directly; on failure, asks the LLM to
+        generate Python code and runs it instead.
 
         Args:
-            query: Original mathematical query
-            task: Task containing the mathematical expression
-            context: Execution context
-            **kwargs: Additional execution parameters
+            query: The original query.
+            task: Task whose arguments hold the expression to evaluate.
+            context: Execution context.
 
         Returns:
-            Result from synchronous invocation
+            The evaluated result, or ``None`` when the code-generation path runs.
         """
         try:
             math_expr = task.arguments["query"]
@@ -188,16 +190,18 @@ print(s)
         return output
 
     async def ainvoke(self, query: str, task: Task, context: Context, **kwargs):
-        """Asynchronous wrapper for synchronous invocation (runs in default threadpool).
+        """Evaluate the task's expression, falling back to generated Python code.
+
+        Tries to evaluate the expression directly; on failure, asks the LLM to
+        generate Python code and runs it instead.
 
         Args:
-            query: Original mathematical query
-            task: Task containing the mathematical expression
-            context: Execution context
-            **kwargs: Additional execution parameters
+            query: The original query.
+            task: Task whose arguments hold the expression to evaluate.
+            context: Execution context.
 
         Returns:
-            Result from synchronous invocation
+            The evaluated result, or ``None`` when the code-generation path runs.
         """
         try:
             math_expr = task.arguments["query"]

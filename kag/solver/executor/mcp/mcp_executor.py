@@ -44,16 +44,17 @@ class McpExecutor(ExecutorABC):
         self.kag_project_config = kag_config.global_config
 
     def download_data(self, input: str, **kwargs):
-        """
-        Downloads data from a given input URL or returns the input directly if it is not a URL.
+        """Resolve the MCP server source to a local path.
+
+        Downloads the resource when ``input`` is an HTTP(S) URL; otherwise
+        returns the input unchanged.
 
         Args:
-            input (Input): The input source, which can be a URL (starting with "http://" or "https://") or a local path.
-            **kwargs: Additional keyword arguments (currently unused).
+            input: A URL or local path identifying the MCP server script.
 
         Returns:
-            List[Output]: A list containing the local file path if the input is a URL, or the input itself if it is not a URL.
-
+            The local file path of the downloaded resource, or the original
+            input when it is not a URL.
         """
         if input.startswith("http://") or input.startswith("https://"):
             from kag.common.utils import download_from_http
@@ -83,10 +84,10 @@ class McpExecutor(ExecutorABC):
 
 
 def schema(self, func_name: str = None) -> dict:
-    """Function schema definition for OpenAI Function Calling
+    """Return the executor's function-calling schema.
 
     Returns:
-        dict: Schema definition in OpenAI Function format
+        The schema describing this executor in OpenAI function-call format.
     """
     return {
         "name": self.name,

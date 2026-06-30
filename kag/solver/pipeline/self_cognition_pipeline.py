@@ -28,11 +28,7 @@ logger = logging.getLogger(__name__)
 
 @SolverPipelineABC.register("self_cognition_pipeline")
 class SelfCognitionPipeline(SolverPipelineABC):
-    """Pipeline self cognition pipeline.
-    Args:
-        executors (List[ExecutorABC]): Available executor instances for task execution
-        generator (GeneratorABC): Result generation component for final answer synthesis
-    """
+    """Answer self-cognition queries (questions about the assistant itself)."""
 
     def __init__(
         self,
@@ -45,16 +41,7 @@ class SelfCognitionPipeline(SolverPipelineABC):
 
     @retry(stop=stop_after_attempt(3))
     async def planning(self, query, context, **kwargs):
-        """Generates task plan through LLM-based planning with automatic retry.
-
-        Args:
-            query: Original user query
-            context: Execution context containing previous task results
-            **kwargs: Additional planning parameters
-
-        Returns:
-            List[Task]: Planned task sequence in DAG format
-        """
+        """Build the task plan, a single self-cognition task for the query."""
         tasks_dep = {}
         tasks_dep[0] = {
             "executor": "SelfCognition",
@@ -64,14 +51,7 @@ class SelfCognitionPipeline(SolverPipelineABC):
         return Task.create_tasks_from_dag(tasks_dep)
 
     async def execute_task(self, query, task, context, **kwargs):
-        """Executes single task with query rewriting and executor invocation.
-
-        Args:
-            query: Original user query
-            task: Task instance to execute
-            context: Execution context for dependency resolution
-            **kwargs: Additional execution parameters
-        """
+        """Set the task result to the self-cognition documents."""
         task.update_result(self.self_cogn_tool.get_docs())
 
     async def ainvoke(self, query, **kwargs):

@@ -16,13 +16,7 @@ from kag.interface import LLMClient, PlannerABC, PromptABC, Task
 
 @PlannerABC.register("kag_static_planner")
 class KAGStaticPlanner(PlannerABC):
-    """Static planner that generates task plans using LLM with query rewriting capability.
-
-    Args:
-        llm (LLMClient): Language model client for plan generation
-        plan_prompt (PromptABC): Prompt template for initial planning requests
-        rewrite_prompt (PromptABC): Prompt template for query rewriting operations
-    """
+    """Plan the full task DAG up front with the LLM, with query rewriting support."""
 
     def __init__(
         self,
@@ -38,18 +32,8 @@ class KAGStaticPlanner(PlannerABC):
 
     @staticmethod
     def format_context(task: Task):
-        """Formats parent task execution context into a structured dictionary.
-
-        Args:
-            task (Task): Current task whose parent context needs formatting
-
-        Returns:
-            dict: Mapping of parent task IDs to their execution details containing:
-                - action: Executor and arguments used
-                - result: Execution result of the parent task
-        """
+        """Map each parent task's id to its query and result output."""
         formatted_context = {}
-        # get all prvious tasks from context.
         for parent_task in task.parents:
             formatted_context[parent_task.id] = {
                 "query": parent_task.arguments["query"],
@@ -59,14 +43,7 @@ class KAGStaticPlanner(PlannerABC):
 
     @staticmethod
     def check_require_rewrite(task: Task):
-        """Determines if query rewriting is needed based on parameter patterns.
-
-        Args:
-            task (Task): Task to check for rewrite requirements
-
-        Returns:
-            bool: True if query contains dynamic parameter references (e.g., {{1.output}})
-        """
+        """Return whether the task references a dependency output (e.g. ``{{1.output}}``)."""
         query = task.arguments
         pattern = r"\{\{\d+\.output\}\}"
         return bool(re.search(pattern, str(query)))
@@ -87,8 +64,7 @@ class KAGStaticPlanner(PlannerABC):
                 return False
             return True
         except Exception as e:
-            # import logging # Make sure logging is imported if not already at the top of the file
-            logger = logging.getLogger(__name__)  # Get a logger instance
+            logger = logging.getLogger(__name__)
             logger.warning(
                 f"LLM call failed in finish_judger for query '{query}'. Error: {e}",
                 exc_info=True,
@@ -96,16 +72,15 @@ class KAGStaticPlanner(PlannerABC):
             return False  # Treat as potentially bad answer
 
     async def query_rewrite(self, task: Task, **kwargs):
-        """Performs asynchronous query rewriting using LLM and context.
+        """Rewrite the task's query, resolving references to parent results.
 
         Args:
-            task (Task): Task containing the query to rewrite
+            task: The task whose query should be rewritten.
 
         Returns:
-            str: Rewritten query with resolved dynamic references
+            The rewritten query.
         """
         query = task.arguments
-        # print(f"Old query: {query}")
         context = self.format_context(task)
         new_query = await self.llm.ainvoke(
             {
@@ -118,20 +93,19 @@ class KAGStaticPlanner(PlannerABC):
             with_json_parse=self.rewrite_prompt.is_json_format(),
             **kwargs,
         )
-        # print(f"query rewrite context = {context}")
-        # print(f"New query: {new_query}")
         return new_query
 
     def invoke(self, query, **kwargs) -> list[Task]:
-        """Synchronously generates task plan using LLM.
+        """Generate the full task plan for the query with the LLM.
 
         Args:
-            query: User query to generate plan for
-            **kwargs: Additional parameters including:
-                - executors (list): Available executors for task planning
+            query: The user query to plan for.
+
+        Keyword Args:
+            executors: Available executors the plan may target.
 
         Returns:
-            List[Task]: Generated task sequence
+            The planned tasks.
         """
         num_iteration = kwargs.get("num_iteration", 0)
 
@@ -148,15 +122,16 @@ class KAGStaticPlanner(PlannerABC):
         )
 
     async def ainvoke(self, query, **kwargs) -> list[Task]:
-        """Asynchronously generates task plan using LLM.
+        """Asynchronously generate the full task plan for the query with the LLM.
 
         Args:
-            query: User query to generate plan for
-            **kwargs: Additional parameters including:
-                - executors (list): Available executors for task planning
+            query: The user query to plan for.
+
+        Keyword Args:
+            executors: Available executors the plan may target.
 
         Returns:
-            List[Task]: Generated task sequence
+            The planned tasks.
         """
         num_iteration = kwargs.get("num_iteration", 0)
         return await self.llm.ainvoke(

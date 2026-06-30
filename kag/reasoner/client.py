@@ -1,19 +1,5 @@
-# Server-free stand-in for knext.reasoner.client.ReasonerClient.
-#
-# The real ReasonerClient is a REST client to OpenSPG's (Scala) reasoner engine.
-# SchemaUtils calls get_reason_schema() from get_schema_from_spg() (the default
-# schema_file_name=="" path). To keep SchemaUtils 100% verbatim AND run without
-# the server, this stand-in returns the schema built from the LOCAL YAML schema
-# (the same file the ingestion pipeline uses), shaped exactly as the verbatim
-# get_schema_from_spg expects (objects with name_en/name_zh/name/parent_type_name/
-# properties/relations, properties exposing to_dict()). The YAML path comes from
-# KAG_PROJECT_CONF.schema_path (or the INGEST_SCHEMA_PATH env var); if no schema
-# is found, an empty schema is returned so SchemaUtils still constructs (identity
-# label maps) rather than failing.
-
-
 class _Attr:
-    """Property/attribute view shaped for SchemaUtils._convert_spg_attr_set."""
+    """Provide a property/attribute view shaped for SchemaUtils._convert_spg_attr_set."""
 
     def __init__(self, name, name_zh, constraint):
         self._name = name

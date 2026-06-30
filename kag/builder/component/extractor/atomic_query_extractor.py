@@ -42,12 +42,10 @@ class AtomicQueryExtractor(ExtractorABC):
         reraise=True,
     )
     async def aextract(self, passage: str):
-        """
-        Performs named entity recognition on a given text passage.
+        """Extract atomic queries from a text passage via the LLM.
+
         Args:
-            passage (str): The text to perform named entity recognition on.
-        Returns:
-            The result of the named entity recognition operation.
+            passage: The text to extract atomic queries from.
         """
         atomic_queries = await self.llm.ainvoke(
             {"content": passage}, self.prompt, with_except=False
@@ -56,27 +54,20 @@ class AtomicQueryExtractor(ExtractorABC):
         return atomic_queries
 
     def extract(self, passage: str):
-        """
-        Performs named entity recognition on a given text passage.
+        """Extract atomic queries from a text passage via the LLM.
+
         Args:
-            passage (str): The text to perform named entity recognition on.
-        Returns:
-            The result of the named entity recognition operation.
+            passage: The text to extract atomic queries from.
         """
         atomic_queries = self.llm.invoke({"content": passage}, self.prompt, with_except=False)
 
         return atomic_queries
 
     async def _ainvoke(self, input: Chunk, **kwargs) -> list[SubGraph]:
-        """
-        Invokes the semantic extractor to process input data.
+        """Extract atomic queries from the chunk and link them to it in a subgraph.
 
         Args:
-            input (Input): Input data containing name and content.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            List[Output]: A list of processed results, containing subgraph information.
+            input: The chunk to process.
         """
         if input.type == ChunkTypeEnum.Text:
             o_label = CHUNK_TYPE
@@ -113,15 +104,10 @@ class AtomicQueryExtractor(ExtractorABC):
         return [subgraph]
 
     def _invoke(self, input: Chunk, **kwargs) -> list[SubGraph]:
-        """
-        Invokes the semantic extractor to process input data.
+        """Extract atomic queries from the chunk and link them to it in a subgraph.
 
         Args:
-            input (Input): Input data containing name and content.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            List[Output]: A list of processed results, containing subgraph information.
+            input: The chunk to process.
         """
         if input.type == ChunkTypeEnum.Text:
             o_label = CHUNK_TYPE

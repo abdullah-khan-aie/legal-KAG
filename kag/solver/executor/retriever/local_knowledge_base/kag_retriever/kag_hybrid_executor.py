@@ -79,11 +79,10 @@ def to_reference_list(prefix_id, retrieved_datas: list[RetrievedData]):
 
 
 class KAGRetrievedResponse(ExecutorResponse):
-    """Response object containing retrieved data from knowledge graph processing.
+    """Hold the data retrieved while answering a task.
 
-    Attributes:
-        sub_retrieved_set (List[SubRetrievedData]): List of processed sub-question results
-        retrieved_task (str): Original task description
+    Bundles the original task description, per-sub-question results, graph data,
+    retrieved chunks, and the generated summary.
     """
 
     def __init__(self):
@@ -109,24 +108,24 @@ class KAGRetrievedResponse(ExecutorResponse):
         return res
 
     def to_reference_list(self):
+        """Build reference entries for the retrieved chunks and graph data.
+
+        Each entry has the shape::
+
+            {
+                "id": "1-1",
+                "content": "...",
+                "document_id": "53052eb0f40b11ef817442010a8a0006",
+                "document_name": "test.txt"
+            }
         """
-        {
-            "id": "1-1",
-            "content": "于谦（1398年5月13日－1457年2月16日），字廷益，号节庵，浙江杭州府钱塘县（今杭州市上城区）人。明朝政治家、军事家、民族英雄。",
-            "document_id": "53052eb0f40b11ef817442010a8a0006",
-            "document_name": "test.txt"
-        }"""
         return to_reference_list(
             self.task_id,
             self.chunk_datas + ([self.graph_data] if self.graph_data else []),
         )
 
     def to_string(self) -> str:
-        """Convert response to human-readable string format
-
-        Returns:
-            str: Formatted string containing task description and sub-question results
-        """
+        """Serialize the response to a JSON string of task and results."""
         refer_docs = self.to_reference_list()
         for doc in refer_docs:
             doc.pop("document_id")
@@ -144,7 +143,7 @@ class KAGRetrievedResponse(ExecutorResponse):
         return json.dumps(response_str, ensure_ascii=False)
 
     def to_dict(self):
-        """Convert response to dictionary format"""
+        """Return the response as a serializable dictionary."""
         return {
             "retrieved_task": self.retrieved_task,
             "sub_question": [item.to_dict() for item in self.sub_retrieved_set],
@@ -157,14 +156,7 @@ class KAGRetrievedResponse(ExecutorResponse):
 
 
 def initialize_response(task) -> KAGRetrievedResponse:
-    """Create and initialize response container
-
-    Args:
-        task: Task configuration object containing description
-
-    Returns:
-        KAGRetrievedResponse: Initialized response object
-    """
+    """Create a response container initialized from the given task."""
     response = KAGRetrievedResponse()
     response.retrieved_task = str(task)
     response.task_id = task.id
@@ -172,12 +164,7 @@ def initialize_response(task) -> KAGRetrievedResponse:
 
 
 def store_results(task, response: KAGRetrievedResponse):
-    """Store final results in task context
-
-    Args:
-        task: Task configuration object
-        response (KAGRetrievedResponse): Processed results
-    """
+    """Persist the retrieval response and its chunks onto the task."""
     task.update_memory("response", response)
     task.update_memory("chunks", response.chunk_datas)
     task.update_result(response)
@@ -207,22 +194,21 @@ class KagHybridExecutor(ExecutorABC):
 
     @property
     def output_types(self):
-        """Output type specification for executor responses"""
+        """Return the type produced by this executor's output."""
         return KAGRetrievedResponse
 
     @retry(stop=stop_after_attempt(3))
     def generate_answer(self, tag_id, question: str, docs: [], history_qa=[], **kwargs):
-        """
-        Generates a sub-answer based on the given question, knowledge graph, documents, and history.
+        """Generate an answer for a question from supporting documents.
 
-        Parameters:
-        question (str): The main question to answer.
-        knowledge_graph (list): A list of knowledge graph data.
-        docs (list): A list of documents related to the question.
-        history (list, optional): A list of previous query-answer pairs. Defaults to an empty list.
+        Args:
+            tag_id: Reporting segment identifier for this step.
+            question: The question to answer.
+            docs: Documents supporting the answer.
+            history_qa: Previous question-answer pairs for context.
 
         Returns:
-        str: The generated sub-answer.
+            The generated answer, or ``"I don't know"`` when the model is unsure.
         """
         prompt = self.solve_question_without_spo_prompt
         params = {
@@ -258,9 +244,8 @@ class KagHybridExecutor(ExecutorABC):
         task_query = task.arguments["query"]
         logic_node = task.arguments.get("logic_form_node", None)
         logger.info(f"{task_query} begin kag hybrid executor")
-        # 1. Initialize response container
         logger.info(f"Initializing response container for task: {task_query}")
-        start_time = time.time()  # 添加开始时间记录
+        start_time = time.time()
         kag_response = initialize_response(task)
         tag_id = f"{task_query}_begin_task"
         flow_query = logic_node.sub_query if logic_node else task_query
@@ -270,9 +255,8 @@ class KagHybridExecutor(ExecutorABC):
                 f"Response container initialized in {time.time() - start_time:.2f} seconds for task: {task_query}"
             )
 
-            # 2. Convert query to logical form
             logger.info(f"Converting query to logical form for task: {task_query}")
-            start_time = time.time()  # 添加开始时间记录
+            start_time = time.time()
             self.report_content(
                 reporter,
                 "thinker",
@@ -323,7 +307,7 @@ class KagHybridExecutor(ExecutorABC):
             )
 
             logger.info(f"Processing logic nodes for task: {task_query}")
-            start_time = time.time()  # 添加开始时间记录
+            start_time = time.time()
             for lf_node in logic_nodes:
                 kag_response.sub_retrieved_set.append(lf_node.get_fl_node_result())
             logger.info(
@@ -337,7 +321,6 @@ class KagHybridExecutor(ExecutorABC):
                 **kwargs,
             )
             logger.info(f"Summary Question {task_query} : {kag_response.summary}")
-            # 8. Final storage
             logger.info(f"Storing results for task: {task_query}")
             if logic_node and isinstance(logic_node, GetSPONode):
                 context.variables_graph.add_answered_alias(
@@ -350,7 +333,7 @@ class KagHybridExecutor(ExecutorABC):
                     logic_node.o.alias_name.alias_name, kag_response.summary
                 )
 
-            start_time = time.time()  # 添加开始时间记录
+            start_time = time.time()
             store_results(task, kag_response)
             logger.info(
                 f"Results stored in {time.time() - start_time:.2f} seconds for task: {task_query}"
@@ -383,15 +366,7 @@ class KagHybridExecutor(ExecutorABC):
         logger.info(f"{task_query} end kag hybrid executor")
 
     def _convert_to_logical_form(self, query: str, task, reporter) -> list[LogicNode]:
-        """Convert task description to logical nodes
-
-        Args:
-            query (str): User input query
-            task: Task configuration object
-
-        Returns:
-            List[GetSPONode]: Logical nodes derived from task description
-        """
+        """Rewrite the query into logical nodes using the task's dependency context."""
         dep_tasks = task.parents
         context = []
         for dep_task in dep_tasks:
@@ -401,10 +376,10 @@ class KagHybridExecutor(ExecutorABC):
         return self.lf_rewriter.rewrite(query=query, context=context, reporter=reporter)
 
     def schema(self) -> dict:
-        """Function schema definition for OpenAI Function Calling
+        """Return the executor's function-calling schema.
 
         Returns:
-            dict: Schema definition in OpenAI Function format
+            The schema describing this executor in OpenAI function-call format.
         """
         return {
             "name": "Retriever",

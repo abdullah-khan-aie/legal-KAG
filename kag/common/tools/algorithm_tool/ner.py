@@ -37,35 +37,31 @@ class Ner(ToolABC):
 
     @retry(stop=stop_after_attempt(3), reraise=True)
     def named_entity_recognition(self, query: str):
-        """
-        Perform named entity recognition.
+        """Perform named entity recognition on the query.
 
-        This method invokes the pre-configured service client (self.llm) to process the input query,
-        using the named entity recognition (NER) prompt (self.ner_prompt).
+        Invokes the configured LLM with the NER prompt to extract entities.
 
-        Parameters:
-        query (str): The text input provided by the user or system for named entity recognition.
+        Args:
+            query: Text to analyze for named entities.
 
         Returns:
-        The result returned by the service client, with the type and format depending on the used service.
+            The recognized entities as returned by the LLM client.
         """
         return self.llm_module.invoke({"input": query}, self.ner_prompt, with_json_parse=True)
 
     @retry(stop=stop_after_attempt(3), reraise=True)
     def named_entity_standardization(self, query: str, entities: list[dict]):
-        """
-        Entity standardization function.
+        """Standardize named entities to unify their representations.
 
-        This function calls a remote service to process the input query and named entities,
-        standardizing the entities. This is useful for unifying different representations of the same entity in text,
-        improving the performance of natural language processing tasks.
+        Invokes the LLM with the standardization prompt to map varying
+        mentions of the same entity to a canonical form.
 
-        Parameters:
-        - query: A string containing the query with named entities.
-        - entities: A list of dictionaries, each containing information about named entities.
+        Args:
+            query: Query text containing the named entities.
+            entities: Named entities to standardize.
 
         Returns:
-        - The result of the remote service call, typically standardized named entity information.
+            The standardized entity information as returned by the LLM client.
         """
         return self.llm_module.invoke(
             {"input": query, "named_entities": entities},
@@ -75,13 +71,12 @@ class Ner(ToolABC):
 
     @staticmethod
     def append_official_name(source_entities: list[dict], entities_with_official_name: list[dict]):
-        """
-        Appends official names to entities.
+        """Copy official names onto matching source entities in-place.
 
-        Parameters:
-        source_entities (List[Dict]): A list of source entities.
-        entities_with_official_name (List[Dict]): A list of entities with official names.
-
+        Args:
+            source_entities: Entities to be annotated with official names.
+            entities_with_official_name: Entities carrying the official names,
+                matched by category and name.
         """
         tmp_dict = {}
         for tmp_entity in entities_with_official_name:

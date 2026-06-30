@@ -10,6 +10,7 @@
 # or implied.
 
 # Standard library imports
+# Standard library imports
 import io
 import logging
 import os
@@ -35,11 +36,6 @@ from kag.interface.builder.base import BuilderComponentData
 logger = logging.getLogger(__name__)
 
 
-# ============================================================================
-# Data Models
-# ============================================================================
-
-
 class MarkdownNode:
     """Represents a node in the markdown document tree structure."""
 
@@ -51,26 +47,19 @@ class MarkdownNode:
         self.tables: list[dict] = []  # Store table data
 
 
-# ============================================================================
-# SubGraph Conversion Functions
-# ============================================================================
-
 
 def convert_to_subgraph(
     root: MarkdownNode, chunks: list[Chunk], node_chunk_map: dict[MarkdownNode, Chunk]
 ) -> tuple[SubGraph, dict]:
-    """
-    Convert a MarkdownNode tree and its corresponding chunks into a SubGraph structure.
+    """Convert a markdown node tree and its chunks into a subgraph plus statistics.
 
     Args:
-        root: The root MarkdownNode of the document tree
-        chunks: List of Chunk objects representing the document content
-        node_chunk_map: Mapping between MarkdownNode objects and their corresponding Chunk objects
+        root: Root of the markdown document tree.
+        chunks: Chunks representing the document content.
+        node_chunk_map: Mapping from markdown nodes to their chunks.
 
     Returns:
-        Tuple[SubGraph, dict]: A tuple containing:
-            - SubGraph: A graph representation of the document structure
-            - dict: Comprehensive statistics about the graph structure
+        A tuple of (subgraph of the document structure, graph statistics).
     """
     nodes = []
     edges = []
@@ -183,14 +172,10 @@ def convert_to_subgraph(
 
 
 def get_graph_statistics(subgraph: SubGraph) -> dict:
-    """
-    Collect comprehensive statistics about the graph structure.
+    """Collect node, edge, and connectivity statistics for a subgraph.
 
     Args:
-        subgraph: The SubGraph to analyze
-
-    Returns:
-        dict: A dictionary containing detailed statistics about nodes, edges and connectivity
+        subgraph: The subgraph to analyze.
     """
     stats = {
         "nodes": {"total": len(subgraph.nodes), "by_type": {}, "examples": {}},
@@ -274,25 +259,11 @@ def get_graph_statistics(subgraph: SubGraph) -> dict:
     return stats
 
 
-# ============================================================================
-# Main Reader Classes
-# ============================================================================
-
 
 @ReaderABC.register("md")
 @ReaderABC.register("md_reader")
 class MarkDownReader(ReaderABC):
-    """
-    A class for reading MarkDown files and converting them into structured chunks.
-
-    This reader parses markdown content, extracts hierarchical structure,
-    and creates chunks based on heading levels and content organization.
-
-    Args:
-        cut_depth (int): The depth of cutting, determining the level of detail in parsing. Default is 3.
-        reserve_meta (bool): Whether to preserve metadata in chunks. Default is False.
-        length_splitter (LengthSplitter): Optional splitter for handling long content.
-    """
+    """Read a Markdown file into structured chunks based on its heading hierarchy."""
 
     # Class constants
     ALL_LEVELS: ClassVar[list[str]] = [f"h{x}" for x in range(1, 7)]
@@ -323,16 +294,15 @@ class MarkDownReader(ReaderABC):
     def solve_content(
         self, id: str, title: str, content: str, **kwargs
     ) -> tuple[list[Output], SubGraph]:
-        """
-        Process markdown content and convert it to structured chunks and subgraph.
+        """Convert raw markdown into chunks and a structure subgraph.
 
         Args:
-            id: Unique identifier for the content
-            title: Title of the content
-            content: Raw markdown content
+            id: Unique identifier for the content.
+            title: Title of the content.
+            content: Raw markdown content.
 
         Returns:
-            Tuple containing processed chunks and subgraph representation
+            A tuple of (chunks, subgraph).
         """
         # Preprocess content
         content = self._preprocess_markdown_content(content)
@@ -879,15 +849,10 @@ class MarkDownReader(ReaderABC):
         return node_chunk_map
 
     def _invoke(self, input: Input, **kwargs) -> list[Output]:
-        """
-        Process a Markdown file and return its content as structured chunks.
+        """Read a Markdown file (or chunk) and return its content as chunks.
 
         Args:
-            input: The path to the Markdown file or Chunk object
-            **kwargs: Additional keyword arguments
-
-        Returns:
-            List[Output]: A list of processed content chunks
+            input: The path to the Markdown file, or a Chunk.
         """
         # Parse input
         content, basename, id = self._parse_input(input)
@@ -975,34 +940,20 @@ class MarkDownReader(ReaderABC):
         logger.info(f"  Extra large chunks (>5000): {len(length_categories['extra_large'])}")
 
 
-# ============================================================================
-# Specialized Readers
-# ============================================================================
-
 
 @ReaderABC.register("yuque")
 @ReaderABC.register("yuque_reader")
 class YuequeReader(MarkDownReader):
-    """
-    A specialized reader for parsing Yueque documents into Chunk objects.
-
-    This class inherits from MarkDownReader and provides functionality to process
-    Yueque documents by fetching content via API and converting it to structured chunks.
-    """
+    """Read a Yuque document into chunks by fetching it via the Yuque API."""
 
     def _invoke(self, input: Input, **kwargs) -> list[Output]:
-        """
-        Process a Yueque document and convert it into chunks.
+        """Fetch a Yuque document and convert it into chunks.
 
         Args:
-            input: String containing Yueque token and URL in format "token@url"
-            **kwargs: Additional keyword arguments
-
-        Returns:
-            List[Output]: A list of Chunk objects representing the parsed content
+            input: A "token@url" string holding the Yuque auth token and URL.
 
         Raises:
-            HTTPError: If the request to the Yueque URL fails
+            HTTPError: If the request to the Yuque URL fails.
         """
         # Parse token and URL
         token, url = input.split("@", 1)
@@ -1022,10 +973,6 @@ class YuequeReader(MarkDownReader):
         chunks, subgraph = self.solve_content(str(doc_id), title, content)
         return chunks
 
-
-# ============================================================================
-# Main Execution
-# ============================================================================
 
 if __name__ == "__main__":
     reader = ReaderABC.from_config(

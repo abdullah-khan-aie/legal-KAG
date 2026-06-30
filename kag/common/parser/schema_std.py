@@ -49,17 +49,14 @@ class StdSchema(Registrable):
         self.text_similarity = TextSimilarity(vectorize_model)
 
     def retrieval_entity(self, mention_entity: SPOEntity, **kwargs) -> list[EntityData]:
-        """
-        Retrieve related entities based on the given entity mention.
+        """Retrieve the most relevant entities for an entity mention.
 
-        This function aims to retrieve the most relevant entities from storage or an index based on the provided entity name.
-
-        Parameters:
-            entity_mention (str): The name of the entity to retrieve.
-            kwargs: additional optional parameters
+        Args:
+            mention_entity: The entity mention to resolve against the schema.
+            **kwargs: Additional optional parameters.
 
         Returns:
-            list of EntityData
+            The matching entities.
         """
 
 

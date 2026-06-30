@@ -56,19 +56,19 @@ class PprChunkRetriever(RetrieverABC):
         self.pagerank_weight = pagerank_weight
 
     def calculate_pagerank_scores(self, start_nodes: list[EntityData], top_k):
-        """
-        Calculate and retrieve PageRank scores for the given starting nodes.
+        """Compute PageRank scores for chunks seeded from the given nodes.
 
-        Parameters:
-        start_nodes (list): A list containing document fragment IDs to be used as starting nodes for the PageRank algorithm.
+        Runs PageRank in the graph store using the start nodes as seeds.
+        Returns an empty result when there are no usable seeds, and logs any
+        failure during the graph-store call.
+
+        Args:
+            start_nodes: Entities used as PageRank seeds; chunk-typed,
+                unnamed, or untyped nodes are skipped.
+            top_k: Maximum number of scored chunks to return.
 
         Returns:
-        ppr_doc_scores (dict): A dictionary containing each document fragment ID and its corresponding PageRank score.
-
-        This method uses the PageRank algorithm in the graph store to compute scores for document fragments. If `start_nodes` is empty,
-        it returns an empty dictionary. Otherwise, it attempts to retrieve PageRank scores from the graph store and converts the result
-        into a dictionary format where keys are document fragment IDs and values are their respective PageRank scores. Any exceptions,
-        such as failures in running `run_pagerank_igraph_chunk`, are logged.
+            Mapping of chunk ID to its PageRank score.
         """
         scores = dict()
         if len(start_nodes) != 0:
@@ -100,16 +100,15 @@ class PprChunkRetriever(RetrieverABC):
         return scores
 
     def get_all_docs_by_id(self, queries: list[str], doc_ids: list, top_k: int):
-        """
-        Retrieve a list of documents based on their IDs.
+        """Retrieve chunk documents by ID and merge in a text-match hit.
 
-        Parameters:
-        - queries (list of str): The query string for text matching.
-        - doc_ids (list): A list of document IDs to retrieve documents.
-        - top_k (int): The maximum number of documents to return.
+        Args:
+            queries: Query strings used for the text-match fallback.
+            doc_ids: Document IDs (optionally paired with scores) to retrieve.
+            top_k: Maximum number of documents to retrieve.
 
         Returns:
-        - list: A list of matched documents.
+            The matched chunk documents.
         """
         matched_docs = []
         hits_docs = []

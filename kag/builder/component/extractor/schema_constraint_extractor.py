@@ -16,9 +16,10 @@ logger = logging.getLogger(__name__)
 @ExtractorABC.register("schema_constraint")
 @ExtractorABC.register("schema_constraint_extractor")
 class SchemaConstraintExtractor(ExtractorABC):
-    """
-    Perform knowledge extraction for enforcing schema constraints, including entities, events and their edges.
-    The types of entities and events, along with their respective attributes, are automatically inherited from the project's schema.
+    """Extract entities, events, and relations constrained by the project schema.
+
+    Entity and event types, along with their attributes, are inherited from the
+    project's schema.
     """
 
     def __init__(
@@ -31,16 +32,15 @@ class SchemaConstraintExtractor(ExtractorABC):
         external_graph: ExternalGraphLoaderABC = None,
         **kwargs,
     ):
-        """
-        Initializes the SchemaBasedExtractor instance.
+        """Initialize the extractor with the LLM and per-task prompts.
 
         Args:
-            llm (LLMClient): The language model client used for extraction.
-            ner_prompt (PromptABC, optional): The prompt for named entity recognition. Defaults to None.
-            std_prompt (PromptABC, optional): The prompt for named entity standardization. Defaults to None.
-            relation_prompt (PromptABC, optional): The prompt for relation extraction. Defaults to None.
-            event_prompt (PromptABC, optional): The prompt for event extraction. Defaults to None.
-            external_graph (ExternalGraphLoaderABC, optional): The external graph loader for additional data. Defaults to None.
+            llm: The language model client used for extraction.
+            ner_prompt: Prompt for named entity recognition; defaults to a built-in.
+            std_prompt: Prompt for entity standardization; defaults to a built-in.
+            relation_prompt: Prompt for relation extraction.
+            event_prompt: Prompt for event extraction.
+            external_graph: External graph loader for additional data.
         """
         super().__init__(**kwargs)
         self.llm = llm
@@ -113,12 +113,10 @@ class SchemaConstraintExtractor(ExtractorABC):
         reraise=True,
     )
     def named_entity_recognition(self, passage: str):
-        """
-        Performs named entity recognition on a given text passage.
+        """Recognize named entities in a text passage.
+
         Args:
-            passage (str): The text to perform named entity recognition on.
-        Returns:
-            The result of the named entity recognition operation.
+            passage: The text to run named entity recognition on.
         """
         ner_result = self._named_entity_recognition_llm(passage)
         return self._named_entity_recognition_process(passage, ner_result)
@@ -129,12 +127,10 @@ class SchemaConstraintExtractor(ExtractorABC):
         reraise=True,
     )
     async def anamed_entity_recognition(self, passage: str):
-        """
-        Performs named entity recognition on a given text passage.
+        """Recognize named entities in a text passage.
+
         Args:
-            passage (str): The text to perform named entity recognition on.
-        Returns:
-            The result of the named entity recognition operation.
+            passage: The text to run named entity recognition on.
         """
         ner_result = await self._anamed_entity_recognition_llm(passage)
         return self._named_entity_recognition_process(passage, ner_result)
@@ -145,15 +141,11 @@ class SchemaConstraintExtractor(ExtractorABC):
         reraise=True,
     )
     def named_entity_standardization(self, passage: str, entities: list[dict]):
-        """
-        Performs named entity standardization on a given text passage and entities.
+        """Standardize recognized entities against the text passage.
 
         Args:
-            passage (str): The text passage.
-            entities (List[Dict]): The list of entities to standardize.
-
-        Returns:
-            The result of the named entity standardization operation.
+            passage: The source text passage.
+            entities: The entities to standardize.
         """
         return self.llm.invoke(
             {"input": passage, "named_entities": entities},
@@ -167,15 +159,11 @@ class SchemaConstraintExtractor(ExtractorABC):
         reraise=True,
     )
     async def anamed_entity_standardization(self, passage: str, entities: list[dict]):
-        """
-        Performs named entity standardization on a given text passage and entities.
+        """Standardize recognized entities against the text passage.
 
         Args:
-            passage (str): The text passage.
-            entities (List[Dict]): The list of entities to standardize.
-
-        Returns:
-            The result of the named entity standardization operation.
+            passage: The source text passage.
+            entities: The entities to standardize.
         """
         return await self.llm.ainvoke(
             {"input": passage, "named_entities": entities},
@@ -189,15 +177,13 @@ class SchemaConstraintExtractor(ExtractorABC):
         reraise=True,
     )
     def relations_extraction(self, passage: str, entities: list[dict]):
-        """
-        Performs relation extraction on a given text passage and entities.
+        """Extract relations between entities from a text passage.
+
+        Returns an empty list when no relation prompt is configured.
 
         Args:
-            passage (str): The text passage.
-            entities (List[Dict]): The list of entities.
-
-        Returns:
-            The result of the relation extraction operation.
+            passage: The source text passage.
+            entities: The entities to relate.
         """
         if self.relation_prompt is None:
             logger.debug("Relation extraction prompt not configured, skip.")
@@ -215,15 +201,13 @@ class SchemaConstraintExtractor(ExtractorABC):
         reraise=True,
     )
     async def arelations_extraction(self, passage: str, entities: list[dict]):
-        """
-        Performs relation extraction on a given text passage and entities.
+        """Extract relations between entities from a text passage.
+
+        Returns an empty list when no relation prompt is configured.
 
         Args:
-            passage (str): The text passage.
-            entities (List[Dict]): The list of entities.
-
-        Returns:
-            The result of the relation extraction operation.
+            passage: The source text passage.
+            entities: The entities to relate.
         """
         if self.relation_prompt is None:
             logger.debug("Relation extraction prompt not configured, skip.")
@@ -241,14 +225,12 @@ class SchemaConstraintExtractor(ExtractorABC):
         reraise=True,
     )
     def event_extraction(self, passage: str):
-        """
-        Performs event extraction on a given text passage.
+        """Extract events from a text passage.
+
+        Returns an empty list when no event prompt is configured.
 
         Args:
-            passage (str): The text passage.
-
-        Returns:
-            The result of the event extraction operation.
+            passage: The source text passage.
         """
         if self.event_prompt is None:
             logger.debug("Event extraction prompt not configured, skip.")
@@ -261,14 +243,12 @@ class SchemaConstraintExtractor(ExtractorABC):
         reraise=True,
     )
     async def aevent_extraction(self, passage: str):
-        """
-        Performs event extraction on a given text passage.
+        """Extract events from a text passage.
+
+        Returns an empty list when no event prompt is configured.
 
         Args:
-            passage (str): The text passage.
-
-        Returns:
-            The result of the event extraction operation.
+            passage: The source text passage.
         """
         if self.event_prompt is None:
             logger.debug("Event extraction prompt not configured, skip.")
@@ -276,14 +256,14 @@ class SchemaConstraintExtractor(ExtractorABC):
         return await self.llm.ainvoke({"input": passage}, self.event_prompt, with_except=False)
 
     def parse_nodes_and_edges(self, entities: list[dict], category: str = None):
-        """
-        Parses nodes and edges from a list of entities.
+        """Parse entities into graph nodes and edges, expanding object-typed properties.
 
         Args:
-            entities (List[Dict]): The list of entities.
+            entities: The entities to parse.
+            category: Fallback category for entities lacking one.
 
         Returns:
-            Tuple[List[Node], List[Edge]]: The parsed nodes and edges.
+            A tuple of (root nodes, all nodes, all edges).
         """
         graph = SubGraph([], [])
         entities = copy.deepcopy(entities)
@@ -361,15 +341,16 @@ class SchemaConstraintExtractor(ExtractorABC):
 
     @staticmethod
     def add_relations_to_graph(sub_graph: SubGraph, entities: list[dict], relations: list[list]):
-        """
-        Add edges to the subgraph based on a list of relations and entities.
-        Args:
-            sub_graph (SubGraph): The subgraph to add edges to.
-            entities (List[Dict]): A list of entities, for looking up category information.
-            relations (List[list]): A list of relations, each representing a relationship to be added to the subgraph.
-        Returns:
-            The constructed subgraph.
+        """Add edges to the subgraph for each relation.
 
+        Args:
+            sub_graph: The subgraph to add edges to.
+            entities: Entities used to look up category information.
+            relations: Relations to add, each a [subject, subj_type, predicate,
+                object, obj_type] list.
+
+        Returns:
+            The updated subgraph.
         """
 
         for rel in relations:
@@ -387,13 +368,14 @@ class SchemaConstraintExtractor(ExtractorABC):
 
     @staticmethod
     def add_chunk_to_graph(sub_graph: SubGraph, chunk: Chunk):
-        """
-        Associates a Chunk object with the subgraph, adding it as a node and connecting it with existing nodes.
+        """Add the chunk as a node and link every existing node to it as its source.
+
         Args:
-            sub_graph (SubGraph): The subgraph to add the chunk information to.
-            chunk (Chunk): The chunk object containing the text and metadata.
+            sub_graph: The subgraph to add the chunk information to.
+            chunk: The chunk providing the text and metadata.
+
         Returns:
-            The constructed subgraph.
+            The updated subgraph.
         """
         for node in sub_graph.nodes:
             sub_graph.add_edge(node.id, node.label, "source", chunk.id, CHUNK_TYPE)
@@ -418,16 +400,16 @@ class SchemaConstraintExtractor(ExtractorABC):
         relations: list[list],
         events: list[dict],
     ):
-        """
-        Assembles a subgraph from the given chunk, entities, events, and relations.
+        """Assemble a subgraph from a chunk's entities, relations, and events.
 
         Args:
-            chunk (Chunk): The chunk object.
-            entities (List[Dict]): The list of entities.
-            events (List[Dict]): The list of events.
+            chunk: The source chunk.
+            entities: The extracted entities.
+            relations: The extracted relations.
+            events: The extracted events.
 
         Returns:
-            The constructed subgraph.
+            The assembled subgraph.
         """
         graph = SubGraph([], [])
         _, entity_nodes, entity_edges = self.parse_nodes_and_edges(entities)
@@ -442,12 +424,11 @@ class SchemaConstraintExtractor(ExtractorABC):
 
     @staticmethod
     def append_official_name(source_entities: list[dict], entities_with_official_name: list[dict]):
-        """
-        Appends official names to entities.
+        """Copy official names onto matching source entities in place.
 
         Args:
-            source_entities (List[Dict]): A list of source entities.
-            entities_with_official_name (List[Dict]): A list of entities with official names.
+            source_entities: Entities to annotate.
+            entities_with_official_name: Entities carrying official names.
         """
         tmp_dict = {}
         for tmp_entity in entities_with_official_name:
@@ -467,14 +448,13 @@ class SchemaConstraintExtractor(ExtractorABC):
 
     @staticmethod
     def postprocess_graph(graph):
-        """
-        Postprocesses the graph by merging nodes with the same name and label.
+        """Merge nodes that share the same id, name, and label, combining their properties.
 
         Args:
-            graph (SubGraph): The graph to postprocess.
+            graph: The graph to postprocess.
 
         Returns:
-            The postprocessed graph.
+            The merged graph, or the original graph if merging fails.
         """
         try:
             all_node_properties = {}
@@ -497,15 +477,10 @@ class SchemaConstraintExtractor(ExtractorABC):
             return graph
 
     def _invoke(self, input: Input, **kwargs) -> list[Output]:
-        """
-        Invokes the extractor on the given input.
+        """Extract entities, relations, and events from the chunk into a subgraph.
 
         Args:
-            input (Input): The input data.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            List[Output]: The list of output results.
+            input: The chunk to process.
         """
         title = input.name
         passage = title + "\n" + input.content
@@ -526,15 +501,10 @@ class SchemaConstraintExtractor(ExtractorABC):
         return out
 
     async def _ainvoke(self, input: Input, **kwargs) -> list[Output]:
-        """
-        Invokes the extractor on the given input.
+        """Extract entities, relations, and events from the chunk into a subgraph.
 
         Args:
-            input (Input): The input data.
-            **kwargs: Additional keyword arguments.
-
-        Returns:
-            List[Output]: The list of output results.
+            input: The chunk to process.
         """
         title = input.name
         passage = title + "\n" + input.content

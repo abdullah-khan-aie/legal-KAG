@@ -23,13 +23,7 @@ from kag.interface import ReaderABC
 @ReaderABC.register("mix", as_default=True)
 @ReaderABC.register("mix_reader")
 class MixReader(ReaderABC):
-    """
-    A reader class that can handle multiple types of inputs by delegating to specific readers.
-
-    This class initializes with a mapping of file types to their respective readers.
-    It provides a method to invoke the appropriate reader based on the input type.
-
-    """
+    """Dispatch each input to a type-specific reader based on its file suffix or shape."""
 
     def __init__(
         self,
@@ -40,15 +34,14 @@ class MixReader(ReaderABC):
         dict_reader: DictReader = None,
         **kwargs,
     ):
-        """
-        Initializes the MixReader with a mapping of file types to their respective readers.
+        """Initialize the reader, mapping each input type to its delegate reader.
 
         Args:
-            txt_reader (TXTReader, optional): Reader for .txt files. Defaults to None.
-            pdf_reader (PDFReader, optional): Reader for .pdf files. Defaults to None.
-            docx_reader (DocxReader, optional): Reader for .docx files. Defaults to None.
-            md_reader (MarkDownReader, optional): Reader for .md files. Defaults to None.
-            dict_reader (DictReader, optional): Reader for dictionary inputs. Defaults to None.
+            txt_reader: Reader for .txt files.
+            pdf_reader: Reader for .pdf files.
+            docx_reader: Reader for .docx files.
+            md_reader: Reader for .md files.
+            dict_reader: Reader for dictionary inputs.
         """
         super().__init__(**kwargs)
         self.reader_map = {
@@ -60,21 +53,16 @@ class MixReader(ReaderABC):
         }
 
     def _invoke(self, input: Input, **kwargs) -> list[Output]:
-        """
-        Invokes the appropriate reader based on the input type.
+        """Select the reader matching the input and delegate parsing to it.
 
         Args:
-            input (Input): The input to be parsed. This can be a file path or a dictionary.
-            **kwargs: Additional keyword arguments to be passed to the reader.
-
-        Returns:
-            List[Output]: A list of parsed outputs.
+            input: A file path or a dictionary to parse.
 
         Raises:
             ValueError: If the input is empty.
             FileNotFoundError: If the input file does not exist.
             NotImplementedError: If the file suffix is not supported.
-            KeyError: If the reader for the given file type is not correctly configured.
+            KeyError: If no reader is configured for the input type.
         """
         if not input:
             raise ValueError("Input cannot be empty")

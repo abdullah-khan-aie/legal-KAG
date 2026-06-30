@@ -94,14 +94,13 @@ class ExecutorABC(Registrable):
         return await asyncio.to_thread(lambda: self.invoke(query, task, context, **kwargs))
 
     def parse_function_schema(self, func) -> dict[str, Any]:
-        """
-        Parses a function's Google Style Docstring and parameters into a schema dictionary.
+        """Parse a function's Google-style docstring and signature into a schema dict.
 
         Args:
-            func (callable): The function to parse.
+            func: The function to inspect.
 
         Returns:
-            dict: A dictionary containing the function's schema with name, description, and parameters.
+            A schema dictionary with the function's name, description, and parameters.
         """
         docstring = parse(func.__doc__ or "")
 

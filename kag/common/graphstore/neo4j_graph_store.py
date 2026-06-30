@@ -16,9 +16,7 @@ logger = logging.getLogger(__name__)
 
 
 class SingletonMeta(ABCMeta):
-    """
-    Thread-safe Singleton metaclass
-    """
+    """Thread-safe singleton metaclass keyed on connection parameters."""
 
     _instances: ClassVar[dict] = {}
     _lock = threading.Lock()

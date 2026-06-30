@@ -58,14 +58,7 @@ class KAGIterativePipeline(SolverPipelineABC):
         self.executors.append(self.finish_executor)
 
     def select_executor(self, executor_name: str):
-        """Select executor instance by name from available executors.
-
-        Args:
-            executor_name: Name of the executor to retrieve
-
-        Returns:
-            Matching executor instance, or None if not found
-        """
+        """Return the executor whose schema name matches, or None if absent."""
         for executor in self.executors:
             schema = executor.schema()
             if executor_name == schema["name"]:
@@ -74,18 +67,17 @@ class KAGIterativePipeline(SolverPipelineABC):
 
     @retry(stop=stop_after_attempt(3), reraise=True)
     async def planning(self, query, context, **kwargs):
-        """Perform planning phase to determine next execution step.
+        """Plan the next task and resolve its executor.
 
         Args:
-            query: Original user query being processed
-            context: Current execution context containing historical tasks
-            **kwargs: Additional execution parameters
+            query: The user query being processed.
+            context: Current execution context with prior tasks.
 
         Returns:
-            Tuple containing the planned task and corresponding executor
+            The planned task paired with its executor.
 
         Raises:
-            ValueError: If the required executor is not available
+            ValueError: If no available executor matches the planned task.
         """
         task = await self.planner.ainvoke(
             query,
@@ -101,21 +93,21 @@ class KAGIterativePipeline(SolverPipelineABC):
         return task, executor
 
     async def ainvoke(self, query, **kwargs):
-        """Execute the problem-solving process for given query.
+        """Iteratively plan and execute tasks until finished, then answer.
 
         Args:
-            query: User query to solve
-            **kwargs: Additional execution parameters
+            query: The user query to solve.
 
         Returns:
-            Generated answer from the final context
+            The generated answer from the final context.
 
         Raises:
-            MaxIterationsReachedError: If maximum iterations reached without completion
+            MaxIterationsReachedError: If the iteration limit is hit before the
+                pipeline signals completion.
         """
         num_iteration = 0
         context: Context = Context()
-        finished_by_executor = False  # Initialize flag
+        finished_by_executor = False
         while num_iteration < self.max_iteration:
             num_iteration += 1
             task, executor = await self.planning(
@@ -123,11 +115,10 @@ class KAGIterativePipeline(SolverPipelineABC):
             )
 
             if executor == self.finish_executor:
-                context.append_task(task)  # Add finish task to context
+                context.append_task(task)
                 finished_by_executor = True
                 break
 
-            # Execute the task first
             await executor.ainvoke(query, task, context, **kwargs)
             # Add task to context only after successful execution
             context.append_task(task)

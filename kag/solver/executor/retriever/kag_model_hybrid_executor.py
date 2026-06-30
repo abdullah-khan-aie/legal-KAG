@@ -56,7 +56,6 @@ class KAGModelHybridRetrievalExecutor(KAGHybridRetrievalExecutor):
         start_time = time.time()
         task_query = task.arguments["query"]
         logic_node = task.arguments.get("logic_form_node", None)
-        # rewrite query
         flow_query = task_query
         for k, v in context.kwargs.get("step_answer", {}).items():
             if k in flow_query:
@@ -217,10 +216,10 @@ class KAGModelHybridRetrievalExecutor(KAGHybridRetrievalExecutor):
         return retriever_output
 
     def schema(self) -> dict:
-        """Function schema definition for OpenAI Function Calling
+        """Return the executor's function-calling schema.
 
         Returns:
-            dict: Schema definition in OpenAI Function format
+            The schema describing this executor in OpenAI function-call format.
         """
         return {
             "name": "Retriever",

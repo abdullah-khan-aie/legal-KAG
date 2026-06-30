@@ -1,4 +1,3 @@
-# Minimal data-holder stand-in for knext.reasoner.rest.models.data_edge.DataEdge
 class DataEdge:
     def __init__(self, **kwargs):
         for k, v in kwargs.items():

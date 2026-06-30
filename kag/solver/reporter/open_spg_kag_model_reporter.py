@@ -18,7 +18,6 @@ class SafeDict(dict):
 def remove_xml_tags(text):
     # 正则表达式匹配所有 XML 标签，例如：<tag> 或 </tag> 或 <tag attr="value">
     pattern = r"<[^>]+>"
-    # 用空字符串替换所有匹配项
     clean_text = re.sub(pattern, "", text)
     return clean_text
 

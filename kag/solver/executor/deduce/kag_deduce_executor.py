@@ -12,10 +12,10 @@ logger = logging.getLogger()
 
 @ExecutorABC.register("kag_deduce_executor")
 class KagDeduceExecutor(ExecutorABC):
-    """Hybrid knowledge graph retrieval executor combining multiple strategies.
+    """Answer deduction tasks by applying LLM reasoning over retrieved context.
 
-    Combines entity linking, path selection, and text chunk retrieval using
-    knowledge graph and LLM capabilities to answer complex queries.
+    Dispatches a deduce node to the prompt matching its operation (choice,
+    multi-choice, entailment, judgement, or extraction) and records the result.
     """
 
     def __init__(
@@ -56,7 +56,7 @@ class KagDeduceExecutor(ExecutorABC):
 
     @property
     def output_types(self):
-        """Output type specification for executor responses"""
+        """Return the type produced by this executor's output."""
         return str
 
     def call_op(self, sub_query, contents, op, **kwargs):
@@ -103,7 +103,6 @@ class KagDeduceExecutor(ExecutorABC):
         try:
             content_l = re.findall("`(.*?)`", content)
         except Exception:
-            # breakpoint()
             content_l = []
         contents = []
         for c in content_l:
@@ -143,10 +142,10 @@ class KagDeduceExecutor(ExecutorABC):
         )
 
     def schema(self) -> dict:
-        """Function schema definition for OpenAI Function Calling
+        """Return the executor's function-calling schema.
 
         Returns:
-            dict: Schema definition in OpenAI Function format
+            The schema describing this executor in OpenAI function-call format.
         """
         return {
             "name": "Deduce",

@@ -21,12 +21,7 @@ logger = logging.getLogger(__name__)
 
 @SolverPipelineABC.register("naive_generation_pipeline")
 class NaiveGenerationPipeline(SolverPipelineABC):
-    """
-    Pipeline using LLM to directly generate answers.
-    Args:
-        generator (GeneratorABC): Result generation component for final answer synthesis
-        max_iteration (int): Maximum allowed execution iterations (default: 10)
-    """
+    """Answer queries by generating directly with the LLM, without retrieval."""
 
     def __init__(
         self,
@@ -36,19 +31,13 @@ class NaiveGenerationPipeline(SolverPipelineABC):
         self.generator = generator
 
     async def ainvoke(self, query, **kwargs):
-        """Orchestrates full problem-solving workflow asynchronously.
-
-        Execution flow:
-        1. Generate initial task DAG
-        2. Execute tasks in parallel batches
-        3. Generate final answer from execution context
+        """Generate an answer for the query directly with the generator.
 
         Args:
-            query: User query to solve
-            **kwargs: Additional execution parameters
+            query: The user query to solve.
 
         Returns:
-            Final generated answer from the execution context
+            The generated answer, or ``"UNKNOWN"`` when none could be produced.
         """
         context: Context = Context()
         answer = await self.generator.ainvoke(query, context, **kwargs)

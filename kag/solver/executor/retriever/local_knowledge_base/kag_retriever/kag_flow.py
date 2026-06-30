@@ -37,7 +37,6 @@ def _merge_graph(graph_data, input_data: list[RetrievedData]):
 
 class KAGFlow:
     def __init__(self, flow_str, llm_client: LLMClient = None):
-        # Initialize the KAGFlow with natural language query, logic nodes, and flow string
         self.flow_str = flow_str.strip()
 
         self.default_flow_component = {
@@ -92,7 +91,6 @@ class KAGFlow:
         component_nodes: dict[str, FlowComponent] = {}
 
         def _add_node(node_name: str):
-            # Add a node to the graph if it doesn't already exist
             if node_name not in component_nodes:
                 if (
                     node_name not in KAG_CONFIG.all_config.keys()
@@ -106,7 +104,6 @@ class KAGFlow:
                 execute_graph.add_node(node_name)
 
         def _add_edge(src: str, dst: str):
-            # Add an edge between two nodes, ensuring both nodes exist in the graph
             _add_node(src)
             _add_node(dst)
             execute_graph.add_edge(src, dst)
@@ -159,7 +156,6 @@ class KAGFlow:
             input_components.append(node_task_map[pre_node])
 
             if node_task_map[pre_node].is_break() and isinstance(node, KagLogicalFormComponent):
-                # stop this graph
                 node_task_map[node_name].result = node_task_map[pre_node].result
                 node_task_map[node_name].break_flag = True
                 logger.info(f"{query} Node {node_name} stopped due to break flag in {pre_node}")
@@ -169,7 +165,6 @@ class KAGFlow:
                 input_data.extend(node_task_map[pre_node].result)
             else:
                 input_data.append(node_task_map[pre_node].result)
-        # Execute a specific node in the graph and return the results
         if input_data is None:
             input_data = []
 
@@ -216,7 +211,6 @@ class KAGFlow:
             RuntimeError: If no executable nodes are found during execution or if a node execution fails.
         """
         try:
-            # Validate the graph structure and retrieve topological order
             if not nx.is_directed_acyclic_graph(self.graph):
                 cycles = list(nx.simple_cycles(self.graph))
                 raise ValueError(f"{nl_query} Graph contains cycles: {cycles[0]}")
@@ -231,7 +225,6 @@ class KAGFlow:
             with concurrent.futures.ThreadPoolExecutor() as executor:
                 remaining_nodes = list(topological_order)
                 while remaining_nodes:
-                    # Identify executable nodes (all predecessors already executed)
                     current_level = [
                         node
                         for node in remaining_nodes
@@ -252,7 +245,6 @@ class KAGFlow:
                         cur_task.query = nl_query
                         cur_level_tasks.append(cur_task)
                         node_task_map[cur_task.task_name] = cur_task
-                    # Execute current level nodes in parallel
                     futures = {
                         executor.submit(
                             self.execute_node,
@@ -277,10 +269,8 @@ class KAGFlow:
                                 f"{nl_query} Node '{node}' execution failed: {str(e)}"
                             )
                         node_task_map[result.task_name] = result
-                        # Update results and remove node from remaining nodes
                         remaining_nodes.remove(node.task_name)
                         logger.info(f"Node {node.task_name} executed successfully")
-            # Collect results from sink nodes (nodes with no outgoing edges)
             sink_nodes: list[str] = [
                 node for node in self.graph.nodes() if self.graph.out_degree(node) == 0
             ]

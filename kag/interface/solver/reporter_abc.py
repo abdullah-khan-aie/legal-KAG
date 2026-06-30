@@ -25,9 +25,7 @@ class ReporterABC(Registrable):
         logging.info("reporter is starting")
 
     async def stop(self):
-        """
-        Stop the task
-        """
+        """Stop the periodic reporting loop and wait for it to finish."""
         self._running = False
         if self._monitor_task_coroutine:
             await self._monitor_task_coroutine

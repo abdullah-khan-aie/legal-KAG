@@ -64,10 +64,7 @@ class ExactOneHopSelect(PathSelect):
 
     @staticmethod
     def _std_best_p_with_value_and_p_name(n: GetSPONode, one_graph: OneHopGraphData):
-        """
-        :param one_graph:
-        :return: list(RelationData)
-        """
+        """Select relations from a one-hop graph that exactly match the node's predicate and target value."""
         logger.debug("std_best_p_with_value_and_p_name begin std " + str(n))
         un_std_p_list = n.p.get_entity_type_or_un_std_list()
         final_result_list = []

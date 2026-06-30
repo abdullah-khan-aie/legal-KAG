@@ -1,8 +1,3 @@
-# Dependency-free vendoring of kag/builder/component/splitter/base_table_splitter.py
-# (openspg-kag 0.8.0, Apache-2.0). Logic verbatim except:
-#   - dropped SplitterABC base -> plain class
-#   - Chunk from local module
-
 from kag.builder.model.chunk import Chunk
 
 
