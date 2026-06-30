@@ -1,12 +1,3 @@
-"""Composition root: construct the model clients + graph store and build the pipeline.
-
-``get_ingestion_pipeline()`` returns a lru-cached singleton — it reads settings,
-constructs the kag clients directly (Azure OpenAI LLM, Azure Cohere embedder) and
-the Neo4j graph store, then builds the pipeline once (schema + prompt templates are
-loaded here) and reuses it for every document. ``build_ingestion_pipeline()`` is the
-explicit constructor for tests or custom wiring.
-"""
-
 from __future__ import annotations
 
 from functools import lru_cache
@@ -20,7 +11,7 @@ from src.lodestone.config.settings import IngestionSettings, get_settings
 
 
 def _build_embedder(settings: IngestionSettings) -> AzureCohereVectorizeModel:
-    """Azure-hosted Cohere embedder (kag pattern, async)."""
+    """Build the Azure-hosted Cohere embedder (kag pattern, async)."""
     return AzureCohereVectorizeModel(
         endpoint=settings.cohere_endpoint,
         api_key=settings.cohere_api_key.get_secret_value(),
@@ -30,7 +21,7 @@ def _build_embedder(settings: IngestionSettings) -> AzureCohereVectorizeModel:
 
 
 def _build_graph_store(settings: IngestionSettings) -> Neo4jClient:
-    """Construct the Neo4j graph store (the password is a required setting)."""
+    """Build the Neo4j graph store (the password is a required setting)."""
     return Neo4jClient(
         uri=settings.neo4j_uri,
         user=settings.neo4j_user,

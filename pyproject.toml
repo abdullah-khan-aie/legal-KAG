@@ -33,6 +33,9 @@ dependencies = [
     "openai",                # Azure OpenAI client (AzureOpenAIClient, official SDK)
     "pyhocon",               # solver pipeline config (.conf/.yaml) parsing
     "mcp",                   # MCP executor (external tool servers)
+    # --- API layer (src/lodestone/main.py) ---
+    "fastapi",               # HTTP API application
+    "uvicorn[standard]",     # ASGI server
 ]
 
 [dependency-groups]

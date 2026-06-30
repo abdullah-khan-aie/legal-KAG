@@ -1,14 +1,7 @@
-"""Application configuration, loaded from the environment via pydantic-settings.
-
-Values are read from environment variables prefixed with ``INGEST_`` (or a local
-``.env`` file). The defaults let the pipeline run out of the box against a sample
-schema and public model endpoints; secrets default to empty and must be supplied
-to call real models.
-"""
-
 from __future__ import annotations
 
 from functools import lru_cache
+from typing import Literal
 
 from pydantic import SecretStr
 from pydantic_settings import BaseSettings, SettingsConfigDict
@@ -46,6 +39,14 @@ class IngestionSettings(BaseSettings):
 
     # Label namespace prefix (empty = labels used as-is, e.g. "Contract").
     namespace: str = ""
+
+    # Logging. Logs are written only to stdout (12-factor: the platform captures
+    # and routes the stream). ``log_format`` picks the stdout formatter:
+    #   - "console": human-readable, for local development;
+    #   - "json": single-line JSON, for production log collectors
+    #     (Datadog / CloudWatch / Azure Monitor all parse JSON from stdout).
+    log_level: str = "INFO"
+    log_format: Literal["console", "json"] = "console"
 
 
 @lru_cache(maxsize=1)

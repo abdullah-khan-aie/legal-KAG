@@ -1,28 +1,7 @@
-"""Production ingestion pipeline (application core).
-
-Composes the kag compute stages into a fully async knowledge-graph build:
-
-    read (MixReader)            # auto-routes txt/pdf/docx/md/dict by extension
-      -> split (SemanticSplitter)
-      -> extract (schema_constraint + summary, run concurrently per chunk)
-      -> align (KAGAligner: merge + de-duplicate the per-chunk subgraphs)
-      -> vectorize (BatchVectorizer: embed index-marked fields)
-      -> post-process (KAGPostProcessor: filter + Neo4j entity linking)
-      -> write (GraphStoreWriter -> Neo4j)
-
-The LLM (a kag ``LLMClient``, e.g. AzureOpenAIClient) is shared by the readers, the
-semantic splitter, and the extractors. Embeddings use a kag ``VectorizeModelABC``
-(e.g. AzureCohereVectorizeModel). A bound ``graph_store`` (Neo4jClient) is required:
-the post-processor links entities against it and the writer persists into it.
-
-Concurrency: IO/CPU-bound steps (read+split, post-process, write) run via
-``asyncio.to_thread``; the per-chunk extractions run concurrently with
-``asyncio.gather``.
-"""
-
 from __future__ import annotations
 
 import asyncio
+from contextlib import contextmanager
 
 from kag.builder.component.aligner.kag_aligner import KAGAligner
 from kag.builder.component.extractor.schema_constraint_extractor import (
@@ -49,9 +28,24 @@ from kag.builder.prompt.spg_prompt import (
 from kag.common.tools.search_api.impl.neo4j_search_client import Neo4jSearchClient
 from kag.interface import LLMClient, VectorizeModelABC
 from kag.schema.client import SchemaClient
+from src.lodestone.exceptions import (
+    ChunkingError,
+    DocumentReadError,
+    EmbeddingError,
+    ExtractionError,
+    GraphStoreError,
+    LodestoneError,
+)
 
 
 class IngestionPipeline:
+    """Ingest documents into the Neo4j knowledge graph.
+
+    Wires the kag builder stages (read, split, extract, align, vectorize,
+    post-process, write) into a single async flow, translating stage failures
+    into typed domain errors.
+    """
+
     def __init__(
         self,
         llm: LLMClient,
@@ -110,26 +104,46 @@ class IngestionPipeline:
         schema = SchemaClient(schema_path=schema_path).load()
         self._writer = GraphStoreWriter(graph_store, schema=schema, namespace=namespace)
 
+    @contextmanager
+    def _stage(self, error_cls: type[LodestoneError], message: str, source: str):
+        """Translate any failure inside a pipeline stage into a typed domain error.
+
+        Raw kag/third-party exceptions are wrapped (with ``from err`` so the
+        original traceback is preserved); errors already translated upstream
+        (e.g. read vs split) pass through unchanged.
+        """
+        try:
+            yield
+        except LodestoneError:
+            raise
+        except Exception as err:
+            raise error_cls(message, details={"source": source}) from err
+
     async def ingest(self, source: str) -> SubGraph:
         """Ingest a document (file path, or a dict for dict_reader) into the graph."""
         # read (IO/LLM-bound) + semantic split run off the event loop
         chunks = await asyncio.to_thread(self._read_and_split, source)
 
-        # extract every chunk with every extractor, concurrently
-        subgraph_lists = await asyncio.gather(
-            *(extractor.ainvoke(chunk) for chunk in chunks for extractor in self._extractors)
-        )
-        all_subgraphs = [sg for subgraphs in subgraph_lists for sg in subgraphs]
+        # extract every chunk with every extractor, concurrently, then merge + de-dup
+        with self._stage(ExtractionError, "extraction failed", source):
+            subgraph_lists = await asyncio.gather(
+                *(extractor.ainvoke(chunk) for chunk in chunks for extractor in self._extractors)
+            )
+            all_subgraphs = [sg for subgraphs in subgraph_lists for sg in subgraphs]
+            merged = await asyncio.to_thread(self._aligner.invoke, all_subgraphs)
 
-        # align (merge + de-dup) off the loop, then embed (real async vectorizer)
-        merged = await asyncio.to_thread(self._aligner.invoke, all_subgraphs)
-        merged = (await self._vectorizer.ainvoke(merged))[0]
+        # embed index-marked fields (real async vectorizer)
+        with self._stage(EmbeddingError, "embedding failed", source):
+            merged = (await self._vectorizer.ainvoke(merged))[0]
 
-        # filter + entity-link off the event loop
-        merged = (await asyncio.to_thread(self._postprocessor.invoke, merged))[0]
+        # filter + entity-link against the graph store, off the event loop
+        with self._stage(GraphStoreError, "post-processing / entity linking failed", source):
+            merged = (await asyncio.to_thread(self._postprocessor.invoke, merged))[0]
 
         # persist to Neo4j
-        await asyncio.to_thread(self._writer.invoke, merged)
+        with self._stage(GraphStoreError, "failed to persist graph", source):
+            await asyncio.to_thread(self._writer.invoke, merged)
+
         return merged
 
     def ingest_sync(self, source: str) -> SubGraph:
@@ -138,7 +152,15 @@ class IngestionPipeline:
 
     def _read_and_split(self, source: str) -> list[Chunk]:
         """Read the source (extension-routed) and semantically split it (sync)."""
+        try:
+            documents = self._reader.invoke(source)
+        except Exception as err:
+            raise DocumentReadError("failed to read document", details={"source": source}) from err
+
         chunks: list[Chunk] = []
-        for doc_chunk in self._reader.invoke(source):
-            chunks.extend(self._splitter.invoke(doc_chunk))
+        try:
+            for document in documents:
+                chunks.extend(self._splitter.invoke(document))
+        except Exception as err:
+            raise ChunkingError("failed to split document", details={"source": source}) from err
         return chunks
