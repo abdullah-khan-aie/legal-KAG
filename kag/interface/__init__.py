@@ -1,3 +1,4 @@
+import asyncio
 import copy
 import json
 from abc import ABC
@@ -36,15 +37,12 @@ class ReaderABC:
 
 class PromptABC(ABC):
     template_en: str = ""
-    template_zh: str = ""
 
-    def __init__(self, language: str = "", **kwargs):
-        if not language:
-            language = "en"
-        self.language = language
-        if not hasattr(self, f"template_{self.language}"):
-            raise ValueError(f"language {self.language} not supported yet.")
-        self.template = getattr(self, f"template_{self.language}")
+    def __init__(self, **kwargs):
+        # English-only: kag uses template_en everywhere; self.language is a constant
+        # so any residual `if self.language == "en"` branches resolve to English.
+        self.language = "en"
+        self.template = self.template_en
         self.template_variables_value = {}
         self.example_input = kwargs.get("example_input", None)
         self.example_output = kwargs.get("example_output", None)
@@ -194,7 +192,9 @@ class ExtractorABC:
         raise NotImplementedError
 
     async def _ainvoke(self, input, **kwargs) -> list[Output]:
-        raise NotImplementedError
+        # Upstream default: components without a real async path run their sync
+        # `_invoke` in a worker thread, so awaiting `_ainvoke` never blocks the loop.
+        return await asyncio.to_thread(lambda: self._invoke(input, **kwargs))
 
 
 # --- kag.interface.ExternalGraphLoaderABC (stub) --------------------------- #
@@ -329,7 +329,9 @@ class VectorizeModelABC:
         )
 
     async def avectorize(self, texts):
-        return self.vectorize(texts)
+        # offload the (blocking) embedding call so the vectorizer's gather can
+        # actually run batches concurrently without blocking the event loop.
+        return await asyncio.to_thread(self.vectorize, texts)
 
 
 class SparseVectorizeModelABC(VectorizeModelABC):

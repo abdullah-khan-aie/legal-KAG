@@ -32,7 +32,6 @@ $content
 
 $query
 """
-    template_zh = template_en
 
     @property
     def template_variables(self) -> List[str]:

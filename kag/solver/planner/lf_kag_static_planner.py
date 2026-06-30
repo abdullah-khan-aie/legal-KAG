@@ -58,7 +58,8 @@ class KAGLFStaticPlanner(PlannerABC):
             traceback.print_exc()
             return True
 
-    def check_require_rewrite(self, task: Task):
+    @staticmethod
+    def check_require_rewrite(task: Task):
         """Determines if query rewriting is needed based on parameter patterns.
 
         Args:

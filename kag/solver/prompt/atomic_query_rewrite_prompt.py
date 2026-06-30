@@ -25,26 +25,6 @@ class AtomicQueryRewritePrompt(PromptABC):
         # Your Output:
         """.strip()
 
-    template_zh = """
-        你的任务是分析输入的问题和已知的上下文，然后改写问题以扩展多样性、生成实体、扩展实体全称等多种表达方式，以召回能够帮助你更好地回答问题的知识。
-
-        # 输出格式
-        请以以下 JSON 格式输出：
-        {{
-            "thinking": <一个字符串。你对此任务的思考，包括对问题和给定上下文的分析。>,
-            "rewritten_queries": <一个字符串列表。改写问题表明你需要什么。>
-        }}
-        
-        # 上下文
-        我们已有的上下文：
-        $chosen_context
-        
-        # 问题
-        $content
-        
-        # 你的输出：
-        """.strip()
-
     @property
     def template_variables(self) -> list[str]:
         return ["content", "chosen_context"]

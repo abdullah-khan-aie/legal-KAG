@@ -11,6 +11,7 @@
 import json
 import logging
 import re
+from typing import ClassVar
 
 from kag.common.config import LogicFormConfiguration
 from kag.common.parser.logic_node_parser import (
@@ -51,7 +52,7 @@ class RetrieverLFStaticPlanningPrompt(PromptABC):
           }
         ],
         """
-    default_case_zh = [
+    default_case_zh: ClassVar[list] = [
         {
             "query": "吴京是谁",
             "answer": "首先需要检索公众人物'吴京'的基本信息\n```\nStep1:查询吴京\nAction1:Retrieval(s=s1:公众人物[`吴京`], p=p1, o=o1)\n```\n根据检索结果输出吴京的简介\n```\nStep2:输出s1\nAction2:output(s1)\n```",
@@ -111,7 +112,7 @@ class RetrieverLFStaticPlanningPrompt(PromptABC):
           }
         ],"""
 
-    default_case_en = [
+    default_case_en: ClassVar[list] = [
         {
             "query": "Which sports team for which Cristiano Ronaldo played in 2011 was founded last ?",
             "answer": "First, retrieve the sports teams Cristiano Ronaldo played for in 2011\n```\nStep1:Which Sports Teams Cristiano Ronaldo Played for in 2011 ?\nAction1:Retrieval(s=s1:Player[`Cristiano Ronaldo`],p=p1:PlayedForIn2011Year,o=o1:SportsTeam)\n```\nNext, obtain the foundation years of these teams\n```\nStep2: What are the foundation years of the teams retrieved in Step1?\nAction2:Retrieval(s=o1,p=p2:FoundationYear,o=o2:Year)\n```\nFinally, determine the team founded last by comparing years\n```\nStep3:Which team has the most recent foundation year based on Step2's results?\nAction3:Math(content=[`o2`], target=`Which team was founded last?`)->math3\n```",
@@ -139,22 +140,6 @@ class RetrieverLFStaticPlanningPrompt(PromptABC):
     ]
 
     def __init__(self, std_schema: StdSchema = None, **kwargs):
-        self.template_zh = f"""
-            {{
-                "time": "今天是{get_now(language="zh")}"
-                {self.instruct_zh}
-                "cases": {json.dumps(self.default_case_zh, ensure_ascii=False, indent=2)},
-                "output_format": "使用文本格式输出，只输出case中的answer内容，不要在开始输出'```markdown'",
-                "tips": [
-                    "输出每一步的Step和Action前可以增加一些思路输出，类似’首先...其次...最后...‘",
-                    "Each `Step` must contain exactly one `Action`",
-                    "Each step is an indivisible atomic question, please re-split accordingly.",
-                    "Output also needs to be a separate step."
-                    "Step和Action内容需要使用代码风格输出"
-                ],
-                "query": "$query"
-            }}   
-                """
         self.template_en = f"""
             {{
                 "time": "Today is {get_now(language="en")}"
@@ -205,7 +190,8 @@ class RetrieverLFStaticPlanningPrompt(PromptABC):
     def template_variables(self) -> list[str]:
         return ["query"]
 
-    def parse_steps(self, response):
+    @staticmethod
+    def parse_steps(response):
         logger.debug(f"logic form:{response}")
         _output_string = response.replace("：", ":")
         _output_string = _output_string.strip()
@@ -236,7 +222,8 @@ class RetrieverLFStaticPlanningPrompt(PromptABC):
     def _parse_lf(self, sub_queries, logic_forms) -> list[LogicNode]:
         return self.logic_node_parser.parse_logic_form_set(logic_forms, sub_queries, "")
 
-    def _get_dep_task_id(self, logic_forms):
+    @staticmethod
+    def _get_dep_task_id(logic_forms):
         all_alias_index_map = {}
 
         def add_index_map(alias, index):
@@ -254,7 +241,8 @@ class RetrieverLFStaticPlanningPrompt(PromptABC):
 
         return all_alias_index_map
 
-    def _get_task_dep(self, index, logic_node, dep_task):
+    @staticmethod
+    def _get_task_dep(index, logic_node, dep_task):
         ret = []
 
         def add_dep_by_index(alias_name):

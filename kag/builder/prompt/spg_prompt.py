@@ -2,6 +2,7 @@
 import copy
 import json
 import logging
+from typing import ClassVar
 
 from kag.interface import PromptABC
 from kag.schema.client import (
@@ -30,19 +31,19 @@ class SPGPrompt(PromptABC):
         ignored_relations (List[str]): List of relations to be ignored.
     """
 
-    ignored_types: list[str] = ["Chunk"]
-    ignored_properties: list[str] = [
+    ignored_types: ClassVar[list[str]] = ["Chunk"]
+    ignored_properties: ClassVar[list[str]] = [
         "id",
         "stdId",
         "desc",
         "description",
         "eventTime",
     ]
-    default_properties: dict[str, str] = {
+    default_properties: ClassVar[dict[str, str]] = {
         "name": "Text",
     }
 
-    ignored_relations: list[str] = ["isA"]
+    ignored_relations: ClassVar[list[str]] = ["isA"]
 
     def __init__(
         self,
@@ -58,7 +59,7 @@ class SPGPrompt(PromptABC):
             language (str, optional): Language for the prompt. Defaults to "".
             **kwargs: Additional keyword arguments.
         """
-        super().__init__(language=language, **kwargs)
+        super().__init__(**kwargs)
         self.schema = SchemaClient(schema_path=kwargs.get("schema_path")).load()
         self.spg_type_names = spg_type_names
         if not spg_type_names:
@@ -78,7 +79,8 @@ class SPGPrompt(PromptABC):
         """
         return ["schema", "input"]
 
-    def get_accept_types(self):
+    @staticmethod
+    def get_accept_types():
         """
         Returns the list of accepted SPG types.
 
@@ -108,7 +110,8 @@ class SPGPrompt(PromptABC):
             }
         )
 
-    def process_property_name(self, name: str):
+    @staticmethod
+    def process_property_name(name: str):
         """
         Process property name by removing descriptions enclosed in parentheses.
         Args:
@@ -236,66 +239,7 @@ class SPGPrompt(PromptABC):
 
 @PromptABC.register("spg_entity")
 class SPGEntityPrompt(SPGPrompt):
-    template_zh: dict = {
-        "instruction": "As an expert in graph knowledge extraction, you need to extract all entities and their properties from the text in the input field based on a schema that defines entity types and their corresponding attributes. Attributes marked as List in the schema should return a list, and attributes not extracted should return null. Output the results in a standard JSON list format, where each element in the list is in the form of {category: properties}. You can refer to the example format provided in the example field. Note that the SemanticType of an entity attribute refers to a more specific and clearly defined type compared to the entity type itself, such as Professor or Actor for the Person type.",
-        "example": [
-            {
-                "input": "Jay Chou, born on January 18, 1979, in New Taipei City, Taiwan Province, with ancestral roots in Yongchun County, Fujian Province, is a renowned male singer, musician, actor, director, and screenwriter in the realm of Chinese pop music. He graduated from Tamkang High School. In 2000, he released his debut solo album, <Jay> [26]. In 2023, he won three major awards at the inaugural Wave Music Awards for Best Production, Best Composition, and Best Music Video for The Greatest Work.",
-                "output": [
-                    {
-                        "category": "Person",
-                        "properties": {
-                            "name": "Jay Chou",
-                            "semanticType": "Musician",
-                            "description": "a renowned male singer, musician, actor, director, and screenwriter in Chinese pop music",
-                        },
-                    },
-                    {
-                        "category": "GeographicLocation",
-                        "properties": {
-                            "name": "New Taipei City, Taiwan Province",
-                            "semanticType": "City",
-                            "description": "Jay Chou's birthplace",
-                        },
-                    },
-                    {
-                        "category": "GeographicLocation",
-                        "properties": {
-                            "name": "Yongchun County, Fujian Province",
-                            "semanticType": "County",
-                            "description": "Jay Chou's ancestral home",
-                        },
-                    },
-                    {
-                        "category": "Organization",
-                        "properties": {
-                            "name": "Tamkang High School",
-                            "semanticType": "School",
-                            "description": "the school Jay Chou graduated from",
-                        },
-                    },
-                    {
-                        "category": "Works",
-                        "properties": {
-                            "name": "Jay",
-                            "semanticType": "Album",
-                            "description": "Jay Chou's debut solo album",
-                        },
-                    },
-                    {
-                        "category": "Works",
-                        "properties": {
-                            "name": "The Greatest Work",
-                            "semanticType": "MusicVideo",
-                            "description": "the work for which Jay Chou won multiple music awards",
-                        },
-                    },
-                ],
-            }
-        ],
-    }
-
-    template_en: dict = {
+    template_en: ClassVar[dict] = {
         "instruction": "As an expert in graph knowledge extraction, you need to extract all entities and their properties from the text in the input field based on a schema that defines entity types and their corresponding attributes. Attributes marked as List in the schema should return a list, and attributes not extracted should return null. Output the results in a standard JSON list format, where each element in the list is in the form of {category: properties}. You can refer to the example format provided in the example field. Note that the SemanticType of an entity attribute refers to a more specific and clearly defined type compared to the entity type itself, such as Professor or Actor for the Person type.",
         "example": [
             {
@@ -354,7 +298,8 @@ class SPGEntityPrompt(SPGPrompt):
         ],
     }
 
-    def get_accept_types(self):
+    @staticmethod
+    def get_accept_types():
         return [
             SpgTypeEnum.Entity,
             SpgTypeEnum.Concept,
@@ -363,52 +308,7 @@ class SPGEntityPrompt(SPGPrompt):
 
 @PromptABC.register("spg_event")
 class SPGEventPrompt(SPGPrompt):
-    template_zh: dict = {
-        "instruction": "As an expert in knowledge graph event extraction, you need to extract all events and their attributes from the text in the input field based on the defined event types and corresponding attribute schema. For attributes marked as List in the schema, return them as a list, and for attributes that cannot be extracted, return null. Output in the standard JSON list format, with each element in the list having the form {category: properties}. You can refer to the example format provided in the example field.",
-        "example": {
-            "input": "In 1986, Stephen Chow was transferred to the drama department of TVB. In the same year, he played the role of Pan Jiawei, a lovable, lively, and slightly shy character, in the episodic situational comedy <My Brother's Girlfriend>; this was his first time taking on a lead role in a sitcom. Later, he also had minor roles in TV series starring actors such as Anthony Wong and Aaron Kwok.",
-            "output": [
-                {
-                    "category": "Event",
-                    "properties": {
-                        "name": "Stephen Chow was transferred to the drama department of TVB",
-                        "abstract": "In 1986, Stephen Chow was transferred to the drama department of TVB.",
-                        "subject": "Stephen Chow",
-                        "time": "1986",
-                        "location": "TVB",
-                        "participants": [],
-                        "semanticType": "Transfer",
-                    },
-                },
-                {
-                    "category": "Event",
-                    "properties": {
-                        "name": "Stephen Chow played Pan Jiawei in My Brother's Girlfriend",
-                        "abstract": "In 1986, Stephen Chow played the role of Pan Jiawei, a lovable, lively, and slightly shy character, in the episodic situational comedy <My Brother's Girlfriend>; this was his first time taking on a lead role in a sitcom.",
-                        "subject": "Stephen Chow",
-                        "time": "1986",
-                        "location": None,
-                        "participants": [],
-                        "semanticType": "Performance",
-                    },
-                },
-                {
-                    "category": "Event",
-                    "properties": {
-                        "name": "Stephen Chow had minor roles in TV series",
-                        "abstract": "In 1986, Stephen Chow had minor roles in TV series starring actors such as Anthony Wong and Aaron Kwok.",
-                        "subject": "Stephen Chow",
-                        "time": "1986",
-                        "location": None,
-                        "participants": ["Anthony Wong", "Aaron Kwok"],
-                        "semanticType": "Performance",
-                    },
-                },
-            ],
-        },
-    }
-
-    template_en: dict = {
+    template_en: ClassVar[dict] = {
         "instruction": "As an expert in knowledge graph event extraction, you need to extract all events and their attributes from the text in the input field based on the defined event types and corresponding attribute schema. For attributes marked as List in the schema, return them as a list, and for attributes that cannot be extracted, return null. Output in the standard JSON list format, with each element in the list having the form {category: properties}. You can refer to the example format provided in the example field.",
         "example": {
             "input": "In 1986, Stephen Chow was transferred to the drama department of Television Broadcasts Limited (TVB). In the same year, he played the role of Pan Jiawei, a lovable, lively, and slightly shy character, in the episodic situational comedy <My Brother's Girlfriend.> This was his first time taking on a lead role in a sitcom. Later, he also had minor roles in TV series starring actors such as Anthony Wong and Aaron Kwok.",
@@ -453,7 +353,8 @@ class SPGEventPrompt(SPGPrompt):
         },
     }
 
-    def get_accept_types(self):
+    @staticmethod
+    def get_accept_types():
         return [
             SpgTypeEnum.Event,
         ]
@@ -461,42 +362,7 @@ class SPGEventPrompt(SPGPrompt):
 
 @PromptABC.register("spg_relation")
 class SPGRelationPrompt(SPGPrompt):
-    template_zh: dict = {
-        "instruction": "You are an expert in Open Information Extraction (OpenIE). The schema defines the entity types you need to focus on, along with optional type explanations enclosed in parentheses. entity_list is a set of entities. Please extract any possible [subject entity, subject entity type, predicate, object entity, object entity type] quintuples from the text in the input field and list them in JSON list format. Please strictly follow these requirements:\n1. At least one of the subject entity and the object entity should be included in entity_list, but it is not required that both are.\n2. The subject and object entity types must be types defined in the schema; otherwise they are invalid.\n3. Resolve pronouns to their corresponding names explicitly to maintain clarity.",
-        "example": {
-            "input": "In 1986, Stephen Chow was transferred to the drama department of TVB. In the same year, he played the lovable, lively, and slightly shy Pan Jiawei in the situational comedy <My Brother's Girlfriend>, which was also his first time as the male lead in a sitcom. Later, he also appeared as an extra in TV series starring Anthony Wong, Aaron Kwok, and others.",
-            "entity_list": [
-                {"name": "Stephen Chow", "category": "Person"},
-                {"name": "TVB", "category": "Organization"},
-                {"name": "My Brother's Girlfriend", "category": "Works"},
-                {"name": "Pan Jiawei", "category": "Person"},
-                {"name": "Anthony Wong", "category": "Person"},
-                {"name": "Aaron Kwok", "category": "Person"},
-            ],
-            "output": [
-                ["Stephen Chow", "Person", "was transferred to", "TVB", "Organization"],
-                [
-                    "Stephen Chow",
-                    "Person",
-                    "starred in",
-                    "My Brother's Girlfriend",
-                    "Works",
-                ],
-                ["Stephen Chow", "Person", "played", "Pan Jiawei", "Person"],
-                ["Stephen Chow", "Person", "co-starred with", "Anthony Wong", "Person"],
-                ["Stephen Chow", "Person", "co-starred with", "Aaron Kwok", "Person"],
-                [
-                    "Stephen Chow",
-                    "Person",
-                    "appeared as an extra in",
-                    "TV series starring Anthony Wong, Aaron Kwok, and others",
-                    "Works",
-                ],
-            ],
-        },
-    }
-
-    template_en: dict = {
+    template_en: ClassVar[dict] = {
         "instruction": "You are an expert in Open Information Extraction (OpenIE). The schema defines the entity types you need to focus on, along with optional type explanations enclosed in parentheses. The entity_list is a set of entity lists. Please extract any possible [subject entity, subject entity class type, predicate, object entity, object entity type] quintuples from the text in the input field and list them in JSON list format. Please adhere strictly to the following requirements:1. At least one of the subject entity and object entity must appear in the entity_list.\n2. The subject and object entity types must be defined in the schema; otherwise, they are considered invalid.\n3.Resolve pronouns to their corresponding names explicitly to maintain clarity.",
         "example": {
             "input": "In 1986, Stephen Chow was transferred to the drama division of TVB; that same year, he played the cute, lively, and slightly shy Pan Jiawei in the situational drama 'My Brother's Girlfriend,' which was also his first time as the male lead in a situational drama; later, he also appeared as an extra in TV dramas starring Deric Wan, Roger Kwok, and others.",
@@ -531,7 +397,8 @@ class SPGRelationPrompt(SPGPrompt):
         },
     }
 
-    def get_accept_types(self):
+    @staticmethod
+    def get_accept_types():
         """
         Returns the list of accepted SPG types.
 

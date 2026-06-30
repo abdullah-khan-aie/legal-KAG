@@ -97,7 +97,8 @@ print(s)
         out = await self.llm.acall(prompt)
         return out.lstrip("```python").rstrip("```")
 
-    def run_py_code(self, code):
+    @staticmethod
+    def run_py_code(code):
         import io
         from contextlib import redirect_stdout
 
@@ -175,7 +176,8 @@ print(s)
         out = await self.llm.acall(prompt)
         return out.lstrip("```python").rstrip("```")
 
-    def run_py_code(self, code):
+    @staticmethod
+    def run_py_code(code):
         import io
         from contextlib import redirect_stdout
 

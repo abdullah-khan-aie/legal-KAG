@@ -25,5 +25,6 @@ class MCPPlanner(PlannerABC):
         task = Task("mcp", arguments={"query": query})
         return [task]
 
-    def check_require_rewrite(self, task: Task):
+    @staticmethod
+    def check_require_rewrite(task: Task):
         return False

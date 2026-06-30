@@ -10,6 +10,7 @@
 # or implied.
 import json
 import logging
+from typing import ClassVar
 
 from kag.interface import PromptABC, Task
 
@@ -18,7 +19,7 @@ logger = logging.getLogger()
 
 @PromptABC.register("default_thought_iterative_planning")
 class DefaultIterativePlanningPrompt(PromptABC):
-    example_executors = [
+    example_executors: ClassVar[list] = [
         {
             "name": "Retriever",
             "description": "Retrieve relevant knowledge from the local knowledge base.",
@@ -58,92 +59,8 @@ class DefaultIterativePlanningPrompt(PromptABC):
             "parameters": {},
         },
     ]
-    template_zh = {
-        "instruction": "你是一个问题解决规划者。你的任务是分析用户提供的复杂问题及问题解决上下文（包括历史规划步骤和执行结果）。通过自主推理，你需要**分步骤**规划使用可用工具的具体行动以解决问题。用户的问题保存在“query”字段，可用工具列在“executors”字段，而包含已执行工具调用及结果的问题解决上下文则存储在“context”字段中。你的推理需遵循以下步骤：\n\n1. 解析请求以理解任务范围\n2. 阅读并分析上下文，理解问题解决进展并确定下一步行动。若上下文为空，则从零开始制定计划\n3. 使用“executors”字段定义的工具创建清晰可执行的计划，推动任务实质性进展\n\n重要注意事项：\n1. 请以JSON格式返回规划结果，格式需符合示例的“output”字段\n2. 若通过上下文判断任务已完成后，返回“Finish”工具调用表示无需进一步操作",
-        "example1": {
-            "query": "爱因斯坦获得诺贝尔奖时多少岁？",
-            "context": [],
-            "executors": example_executors,
-            "output": {
-                "executor": {
-                    "name": "Retriever",
-                    "arguments": {"query": "爱因斯坦出生于哪一年？"},
-                    "thought": "首要需求：要计算获奖时年龄，必须首先获取出生年份。这是后续计算的基础数据",
-                }
-            },
-        },
-        "example2": {
-            "query": "爱因斯坦获得诺贝尔奖时多少岁？",
-            "context": [
-                {
-                    "executor": "Retriever",
-                    "arguments": {"query": "爱因斯坦出生于哪一年？"},
-                    "result": "1879",
-                }
-            ],
-            "executors": example_executors,
-            "output": {
-                "executor": {
-                    "name": "Retriever",
-                    "arguments": {"query": "爱因斯坦哪一年获得诺贝尔奖？"},
-                    "thought": "已确认出生年份：1879。接下要求解的关键数据：诺贝尔奖年份。年龄计算需要两个时间基准点",
-                }
-            },
-        },
-        "example3": {
-            "query": "爱因斯坦获得诺贝尔奖时多少岁？",
-            "context": [
-                {
-                    "executor": "Retriever",
-                    "arguments": {"query": "爱因斯坦出生于哪一年？"},
-                    "result": "1879",
-                },
-                {
-                    "executor": "Retriever",
-                    "arguments": {"query": "爱因斯坦哪一年获得诺贝尔奖？"},
-                    "result": "1921",
-                },
-            ],
-            "executors": example_executors,
-            "output": {
-                "executor": {
-                    "name": "Math",
-                    "arguments": {"query": "用1921减去1879计算年龄"},
-                    "thought": "核心数据已获取：出生年份（1879）和获奖年份（1921）。执行公式：获奖年份-出生年份=年龄。需要数学验证",
-                }
-            },
-        },
-        "example4": {
-            "query": "爱因斯坦获得诺贝尔奖时多少岁？",
-            "context": [
-                {
-                    "executor": "Retriever",
-                    "arguments": {"query": "爱因斯坦出生于哪一年？"},
-                    "result": "1879",
-                },
-                {
-                    "executor": "Retriever",
-                    "arguments": {"query": "爱因斯坦哪一年获得诺贝尔奖？"},
-                    "result": "1921",
-                },
-                {
-                    "executor": "Math",
-                    "arguments": {"query": "用1921减去1879计算年龄"},
-                    "result": "42",
-                },
-            ],
-            "executors": example_executors,
-            "output": {
-                "executor": {
-                    "name": "Deduce",
-                    "arguments": {"query": "结合出生年份和获奖年份确定年龄"},
-                    "thought": "计算结果为42岁。需要验证：1.是否符合历史记录 2.是否存在时间线异常（如获奖延迟）。需综合上下文信息最终确认",
-                }
-            },
-        },
-    }
 
-    template_en = {
+    template_en: ClassVar[dict] = {
         "instruction": """
 You are a problem-solving planner. Your task is to analyze the complex problem provided by the user along with the problem-solving context (including historical planning steps and execution results). Based on your own reasoning, you should **step-by-step** plan specific actions to solve the problem using the available tools. The user's problem is provided in the "query" field, the available tools are listed in the "executors" field, and the problem-solving context, which includes executed tool calls and their results, is given in the "context" field.
 

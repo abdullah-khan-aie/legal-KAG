@@ -7,34 +7,6 @@ logger = logging.getLogger(__name__)
 
 @PromptABC.register("default_rewrite_sub_task_query")
 class DefaultRewriteSubTaskQueryPrompt(PromptABC):
-    template_zh = """{
-    "instruction":"请根据上下文的信息，替换当前问题中涉及的指代实体，进而改写当前问题。",
-    "cases": [
-        {
-            "content": {
-                "target question": "X先生的老婆的代表作品有哪些"
-                "history_qa": [
-                "Step1:X先生的老婆是谁？\nanswer:Y女士",
-                ]
-            }
-            "question": "Step1的答案中的人代表作品有哪些？"
-            "rewrite question": "Y女士的代表作品有哪些？"
-        },
-        {
-            "content": {
-                "target question": "A先生的兄弟们在哪个学校读书"
-                "history_qa": [
-                "Step1:A先生的兄弟有哪些？\nanswer:A先生的兄弟有B先生、C先生、D先生",
-                ]
-            }
-            "question": "在Step1中检索到的人在哪儿受教育"
-            "rewrite question": "B先生、C先生、D先生分别在哪儿受教育"
-        },
-    ],
-    "content": "$content",
-    "question": "$input",
-    "notice": "不要输出json格式，只使用文本输出改写的问题，并且尽可能完整的输出改写问题，不要遗漏不要输出其他额外信息"
-}"""
     template_en = """"{
     "instruction": "Based on the context information, replace the referential entities in the current question, and rewrite the current question.",
     "cases": [

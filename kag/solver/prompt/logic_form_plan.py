@@ -88,19 +88,6 @@ class LogicFormPlanPrompt(PromptABC):
     ],"""
 
     def __init__(self, **kwargs):
-        self.template_zh = f"""
-        {{
-            {self.instruct_zh}
-            {self.default_case_zh}
-            "output_format": "only output `Step`, `Action` and `Output` content.",
-            "tips": [
-                " Each `Step` must contain exactly one `Action` or `Output`",
-                "Each step is an indivisible atomic question, please re-split accordingly.",
-                "Output also needs to be a separate step."
-            ],
-            "query": "$question"
-        }}   
-            """
         self.template_en = f"""
         {{
             {self.instruct_en}

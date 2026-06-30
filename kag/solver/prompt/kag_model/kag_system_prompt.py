@@ -7,9 +7,6 @@ logger = logging.getLogger(__name__)
 
 @PromptABC.register("kag_system")
 class KagSystemPrompt(PromptABC):
-    template_zh = (
-        """当你回答每一个问题时，你必须提供一个思考过程，并将其插入到<think>和</think>之间"""
-    )
     template_en = """As you answer each question, you must provide a thought process and insert it between <think> and </think>."""
 
     @property

@@ -88,7 +88,8 @@ class KAGModelPlanner(PlannerABC):
         self.clarification_prompt = clarification_prompt
         self.rewrite_prompt = rewrite_prompt
 
-    def check_require_rewrite(self, task: Task):
+    @staticmethod
+    def check_require_rewrite(task: Task):
         """Determines if query rewriting is needed based on parameter patterns.
 
         Args:

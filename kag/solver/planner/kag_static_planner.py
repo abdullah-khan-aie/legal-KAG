@@ -36,7 +36,8 @@ class KAGStaticPlanner(PlannerABC):
         self.plan_prompt = plan_prompt
         self.rewrite_prompt = rewrite_prompt
 
-    def format_context(self, task: Task):
+    @staticmethod
+    def format_context(task: Task):
         """Formats parent task execution context into a structured dictionary.
 
         Args:
@@ -56,7 +57,8 @@ class KAGStaticPlanner(PlannerABC):
             }
         return formatted_context
 
-    def check_require_rewrite(self, task: Task):
+    @staticmethod
+    def check_require_rewrite(task: Task):
         """Determines if query rewriting is needed based on parameter patterns.
 
         Args:

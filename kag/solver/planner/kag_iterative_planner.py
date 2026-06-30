@@ -27,7 +27,8 @@ class KAGIterativePlanner(PlannerABC):
         self.llm = llm
         self.plan_prompt = plan_prompt
 
-    def format_context(self, context: Context = None):
+    @staticmethod
+    def format_context(context: Context = None):
         """Formats execution context into a structured list of previous task results.
 
         Args:

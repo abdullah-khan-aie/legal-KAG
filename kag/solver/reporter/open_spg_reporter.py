@@ -609,7 +609,8 @@ Rewritten question:\n{content}
             think += "</think>"
         return think, thinker_cost, graph_list
 
-    def process_answer(self, answer_reports):
+    @staticmethod
+    def process_answer(answer_reports):
         answer = ""
         status = "INIT"
         for report_data in answer_reports:
@@ -618,7 +619,8 @@ Rewritten question:\n{content}
             answer += report_content
         return answer, status
 
-    def process_reference(self, reference_reports, refer_ids):
+    @staticmethod
+    def process_reference(reference_reports, refer_ids):
         reference = []
         for report_data in reference_reports:
             segment_name = report_data["segment"]

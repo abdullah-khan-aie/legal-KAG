@@ -8,40 +8,6 @@ logger = logging.getLogger(__name__)
 
 @PromptABC.register("default_refer_generator_prompt")
 class ReferGeneratorPrompt(PromptABC):
-    template_zh = (
-        f"你是一个信息分析专家，今天是{get_now(language='zh')}。"
-        "基于给定的引用信息回答问题。"
-        "\n输出答案，如果答案中存在引用信息，则需要reference的id字段，如果不是检索结果，则不需要标记引用"
-        "\n输出时，不需要重复输出参考文献"
-        '\n引用要求，使用类似<reference id="chunk:1_2"></reference>表示'
-        "\n如果根据引用信息无法回答，则使用模型内的知识回答，但是必须通过合适的方式提示用户，是基于检索内容还是引用文档"
-        """
-示例1：
-任务过程上下文：
-根据常识岳父是妻子的爸爸，所以需要首先找到张三的妻子，然后找到妻子的爸爸
-给定的引用信息：'
-reference：
-[
-{
-    "content": "张三 妻子 王五",
-    "document_name": "张三介绍",
-    "id": "chunk:1_1"
-},
-{
-    "content": "王五 父亲 王四",
-    "document_name": "张三介绍",
-    "id": "chunk:1_2"
-}
-]'
-问题：'张三的岳父是谁？'
-
-张三的妻子是王五<reference id="chunk:1_1"></reference>，而王五的父亲是王四<reference id="chunk:1_2"></reference>，所以张三的岳父是王四
-
-"""
-        "\n输出语调要求通顺，不要有机械感，输出的语言要和问题的语言保持一致"
-        "\n任务过程上下文信息：'$content'"
-        "\n给定的引用信息：'$ref'\n问题：'$query'"
-    )
     template_en = (
         f"You are an information analysis expert, today is {get_now(language='en')}."
         """Answer the question based on the given references.
@@ -103,5 +69,5 @@ Question: '$query'
         return ["content", "query", "ref"]
 
     def parse_response(self, response: str, **kwargs):
-        logger.debug(f"推理器判别:{response}")
+        logger.debug(f"reasoner output:{response}")
         return response

@@ -25,5 +25,6 @@ class FlowComponent(Registrable):
     def invoke(self, **kwargs):
         raise NotImplementedError("invoke not implemented yet.")
 
-    def break_judge(self, cur_task: FlowComponentTask, **kwargs):
+    @staticmethod
+    def break_judge(cur_task: FlowComponentTask, **kwargs):
         cur_task.break_flag = False

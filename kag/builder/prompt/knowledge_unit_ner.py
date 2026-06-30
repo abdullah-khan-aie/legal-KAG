@@ -79,133 +79,9 @@ output:
 input:$input
         """
 
-    template_zh = """You are a highly efficient entity extraction system. Based on a given schema that constrains entity categories, your task is to thoroughly analyze the source text and extract all mentioned entities with their corresponding names, types, domain ontologies, descriptions, standard names, and synonyms.
-Entities must strictly conform to the predefined types in the schema.
-
-If the entity type does not exist, return an empty list. Please respond in JSON list format, where each entity is represented as a dictionary. If there are no entities of a given type, return an empty list. The format is as follows:
-[
-    {
-        "Name": an entity noun, proper noun, or gerund that appears in the source text and has real-world significance; avoid vague terms that denote a class of entities sharing a common characteristic (e.g., "air conditioner") and pronouns,
-        "Category": the entity's classification, strictly assigned to a type present in the given schema; if it cannot be classified, assign it to Other,
-        "Domain Ontology": a hypernym/hyponym classification system of the discipline or professional field to which the entity belongs, forming a coarse-to-fine logical chain of hierarchical concepts; avoid placing the entity itself directly into the ontology,
-        "Description": a descriptive text generated for each entity by combining context and your own knowledge, avoiding the use of pronouns,
-        "Standard Name": the entity name in the text may be a colloquial term or abbreviation; combining your knowledge, give the entity a standard name that disambiguates it from other entities with the same name as much as possible,
-        "Synonyms": list all synonyms of the entity based on your knowledge
-    },
-    {},
-    ……
-]
-
-### schema
-[
-$schema
-]
-
-### Example:
-input: Title: CPC Dangyang Municipal Party School: a school within Dangyang City (Society/School)
-Content: #CPC Dangyang Municipal Party School: a school within Dangyang City\nThe CPC Dangyang Municipal Party School and the Dangyang Municipal Administrative School are located at No. 129 Huancheng West Road, Dangyang City; they are a division-level public institution directly under the municipal Party committee and municipal government.\nChinese name: CPC Dangyang Municipal Party School. Founded: December 1959. Current principal: Shen Jianhua. Region: Dangyang City.\n##Development History\nThe CPC Dangyang Municipal Party School was founded in December 1959 and was suspended in 1960. It resumed in 1972, with its site at the former Niangniang Temple of the Xiongfeng Brigade in Yuyang Town. In February 1974, it moved to Guandang (the former Navy May Seventh Cadre School). In February 1975, following the instructions of the county Party committee, the Dangyang County May Seventh Cadre School was added. In August 1978, the May Seventh Cadre School was ordered to be abolished. In 1984, to implement the 'Decision of the CPC Central Committee on Standardizing Party School Education', it moved from Guandang to its current site. In April 1985, it was approved by relevant provincial departments as a county-level Party school under the secondary-vocational system. In May 1994, it was approved by the municipal Party committee and government to also run an administrative school, mainly responsible for training national civil servants. In October 1998, it was approved by the provincial Party school and the Yichang Municipal Party school to establish a correspondence station for academic education, mainly responsible for academic training of in-service cadres.\n##Faculty\nThe CPC Dangyang Municipal Party School and the Dangyang Municipal Administrative School currently have 18 staff members (on the payroll), including 12 national civil servants, 5 professional and technical personnel, and 1 logistics worker.\n##Internal Departments\nThe CPC Dangyang Municipal Party School and the Dangyang Municipal Administrative School have 4 departments: the Office, the Organization and Teaching Section, the Social Education Section, and the General Affairs Section; under the school committee there are 2 Party branches: the organ Party branch and the retiree Party branch.\n##Teaching Facilities\nThe school currently has 4 standardized classrooms (50 seats each), 1 tiered classroom (430 seats), 1 large classroom (100 seats), 1 multimedia classroom (50 seats), and 1 student dormitory with 150 beds. It trains about 500 cadres year-round.\nThe CPC Dangyang Municipal Party School and the Dangyang Municipal Administrative School cover 54 mu with a building area of 9,800 square meters. The campus greening rate and road hardening rate both reach 100%; it has repeatedly been rated a Dangyang City 'Civilized Unit' and 'Garden-style School', an 'Advanced Unit' in the Yichang Party school system, and a 'Qualified School' meeting the 'Ninth Five-Year' assessment standards of the provincial Party school system.\n##Leadership Team\nMember of the Dangyang Municipal Party Standing Committee, Head of the Organization Department, and Principal of the Municipal Party School: Meng Li\nParty Committee Secretary and Executive Vice Principal: Shen Jianhua\nParty Committee Member and Vice Principal: Wan Zhe\nParty Committee Member and Vice Principal: Lu Jianzhi\nParty Committee Member and Trade Union Chairperson: Xu Haifeng.
-output:[
-    {
-        "Name": "CPC Dangyang Municipal Party School",
-        "Category": "Organization",
-        "Domain Ontology": "Education -> Higher Education -> Party School Education",
-        "Description": "The CPC Dangyang Municipal Party School is a division-level public institution located in Dangyang City, Hubei Province, mainly responsible for the training and education of Party members and cadres.",
-        "Standard Name": "Party School of the Dangyang Municipal Committee of the Communist Party of China",
-        "Synonyms": [
-            "Dangyang Municipal Party School",
-            "Dangyang Municipal Administrative School"
-        ]
-    },
-    {
-        "Name": "Dangyang Municipal Administrative School",
-        "Category": "Organization",
-        "Domain Ontology": "Education -> Higher Education -> Administrative Education",
-        "Description": "The Dangyang Municipal Administrative School is a division-level public institution located in Dangyang City, Hubei Province, mainly responsible for training national civil servants.",
-        "Standard Name": "Dangyang Municipal Administrative School",
-        "Synonyms": [
-            "CPC Dangyang Municipal Party School"
-        ]
-    },
-    {
-        "Name": "Shen Jianhua",
-        "Category": "Person",
-        "Domain Ontology": "Person -> Educator -> Party School Principal",
-        "Description": "Shen Jianhua is the Party Committee Secretary and Executive Vice Principal of the CPC Dangyang Municipal Party School.",
-        "Standard Name": "Shen Jianhua",
-        "Synonyms": []
-    },
-    {
-        "Name": "Meng Li",
-        "Category": "Person",
-        "Domain Ontology": "Person -> Government Official -> Head of Organization Department",
-        "Description": "Meng Li is a member of the Dangyang Municipal Party Standing Committee and Head of the Organization Department, and also serves as Principal of the Municipal Party School.",
-        "Standard Name": "Meng Li",
-        "Synonyms": []
-    },
-    {
-        "Name": "Wan Zhe",
-        "Category": "Person",
-        "Domain Ontology": "Person -> Educator -> Party School Vice Principal",
-        "Description": "Wan Zhe is a Party Committee Member and Vice Principal of the CPC Dangyang Municipal Party School.",
-        "Standard Name": "Wan Zhe",
-        "Synonyms": []
-    },
-    {
-        "Name": "Lu Jianzhi",
-        "Category": "Person",
-        "Domain Ontology": "Person -> Educator -> Party School Vice Principal",
-        "Description": "Lu Jianzhi is a Party Committee Member and Vice Principal of the CPC Dangyang Municipal Party School.",
-        "Standard Name": "Lu Jianzhi",
-        "Synonyms": []
-    },
-    {
-        "Name": "Xu Haifeng",
-        "Category": "Person",
-        "Domain Ontology": "Person -> Educator -> Trade Union Chairperson",
-        "Description": "Xu Haifeng is a Party Committee Member and Trade Union Chairperson of the CPC Dangyang Municipal Party School.",
-        "Standard Name": "Xu Haifeng",
-        "Synonyms": []
-    },
-    {
-        "Name": "Dangyang City",
-        "Category": "Geographic Location",
-        "Domain Ontology": "Geography -> Administrative Division -> County-level City",
-        "Description": "Dangyang City is a county-level city under the jurisdiction of Hubei Province, located in the central part of Hubei Province.",
-        "Standard Name": "Dangyang City",
-        "Synonyms": ["Dangyang"]
-    },
-    {
-        "Name": "Niangniang Temple of the Xiongfeng Brigade in Yuyang Town",
-        "Category": "Geographic Location",
-        "Domain Ontology": "Geography -> Place Name -> Historical Place Name",
-        "Description": "The Niangniang Temple of the Xiongfeng Brigade in Yuyang Town is a historical place name in Dangyang City and was once the site of the CPC Dangyang Municipal Party School.",
-        "Standard Name": "Niangniang Temple of the Xiongfeng Brigade in Yuyang Town",
-        "Synonyms": []
-    },
-    {
-        "Name": "Guandang",
-        "Category": "Geographic Location",
-        "Domain Ontology": "Geography -> Place Name -> Historical Place Name",
-        "Description": "Guandang is a historical place name in Dangyang City and was once the site of the CPC Dangyang Municipal Party School.",
-        "Standard Name": "Guandang",
-        "Synonyms": []
-    },
-    {
-        "Name": "Dangyang County May Seventh Cadre School",
-        "Category": "Organization",
-        "Domain Ontology": "Education -> Historical Educational Institution -> May Seventh Cadre School",
-        "Description": "The Dangyang County May Seventh Cadre School was a cadre school added in February 1975 following the instructions of the county Party committee, and was abolished in August 1978.",
-        "Standard Name": "Dangyang County May Seventh Cadre School",
-        "Synonyms": []
-    }
-]
-### Input:
-input: $input
-"""
-
-    def __init__(self, language: str = "", schema=None, **kwargs):
+    def __init__(self, schema=None, **kwargs):
         # schema supplied locally (list of type names), not via SchemaClient
-        super().__init__(language, **kwargs)
+        super().__init__(**kwargs)
         self.schema = schema or []
         self.template = Template(self.template).safe_substitute(
             schema=json.dumps(self.schema, ensure_ascii=False)
@@ -215,15 +91,8 @@ input: $input
     def template_variables(self) -> list[str]:
         return ["input"]
 
-    def process_data(self, response: str, **kwargs):
-        rsp = response
-        if isinstance(rsp, str):
-            rsp = json.loads(rsp)
-        if isinstance(rsp, dict) and "output" in rsp:
-            rsp = rsp["output"]
-        return rsp
-
-    def process_en(self, response: dict, **kwargs):
+    @staticmethod
+    def process_en(response: dict, **kwargs):
         """ "Name": "2023 International Biodiversity Summit",
         "Category": "Event",
         "Domain Ontology": "Conference -> Scientific Conference -> Environmental Conference",
@@ -247,42 +116,13 @@ input: $input
             ret["description"] = response["Description"]
         return ret
 
-    def process_zh(self, response: dict, **kwargs):
-        """{
-            "Name": "Dangyang County May Seventh Cadre School",
-            "Category": "Organization",
-            "Domain Ontology": "Education -> Historical Educational Institution -> May Seventh Cadre School",
-            "Description": "The Dangyang County May Seventh Cadre School was a cadre school added in February 1975 following the instructions of the county Party committee, and was abolished in August 1978.",
-            "Standard Name": "Dangyang County May Seventh Cadre School",
-            "Synonyms": []
-        }"""
-        ret = {}
-        if "Name" in response.keys():
-            ret["name"] = response["Name"]
-        if "Category" in response.keys():
-            ret["category"] = response["Category"]
-        if "Domain Ontology" in response.keys():
-            ret["ontology"] = response["Domain Ontology"]
-        if "Standard Name" in response.keys():
-            ret["officialName"] = response["Standard Name"]
-        if "Synonyms" in response.keys():
-            ret["synonyms"] = response["Synonyms"]
-        if "Description" in response.keys():
-            ret["description"] = response["Description"]
-        return ret
-
     def parse_response(self, response: str, **kwargs):
         rsp = load_NER_data(response)
-        # rsp = self.process_data(response)
         ret = []
         for r in rsp:
             if isinstance(r, list) and len(r):
                 r = r[0]
             if not isinstance(r, dict):
                 continue
-            ret.append(
-                self.process_en(r, **kwargs)
-                if self.language == "en"
-                else self.process_zh(r, **kwargs)
-            )
+            ret.append(self.process_en(r, **kwargs))
         return ret

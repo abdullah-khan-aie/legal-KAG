@@ -42,10 +42,8 @@ class QuestionNER(PromptABC):
     }    
         """
 
-    template_zh = template_en
-
-    def __init__(self, language: str = "", **kwargs):
-        super().__init__(language, **kwargs)
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
         self.schema = (
             ReasonerClient(
                 project_id=self.kag_project_config.project_id,

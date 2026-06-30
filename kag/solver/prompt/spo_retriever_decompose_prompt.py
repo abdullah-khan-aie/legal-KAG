@@ -71,18 +71,6 @@ class DefaultSPORetrieverDecomposePrompt(PromptABC):
         ],"""
 
     def __init__(self, **kwargs):
-        self.template_zh = f"""
-            {{
-                {self.instruct_zh}
-                {self.default_case_zh}
-                "output_format": "Only start with output words in answer, for examples: `Step`, `Action` content. Do not output json format",
-                "tips": [
-                    "Each `Step` must contain exactly one `Action`",
-                    "Each step is an indivisible atomic question, please re-split accordingly."
-                ],
-                "query": "$question"
-            }}   
-                """
         self.template_en = f"""
             {{
                 {self.instruct_en}

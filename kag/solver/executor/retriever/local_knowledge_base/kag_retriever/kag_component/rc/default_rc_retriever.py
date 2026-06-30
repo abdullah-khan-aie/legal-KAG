@@ -143,5 +143,6 @@ class RCRetrieverOnOpenSPG(KagLogicalFormComponent):
     def is_break(self):
         return self.break_flag
 
-    def break_judge(self, cur_task: FlowComponentTask, **kwargs):
+    @staticmethod
+    def break_judge(cur_task: FlowComponentTask, **kwargs):
         cur_task.break_flag = False

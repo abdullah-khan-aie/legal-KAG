@@ -3,22 +3,6 @@ from kag.interface import PromptABC
 
 @PromptABC.register("default_sub_question_summary")
 class SubQuestionSummary(PromptABC):
-    template_zh = """请根据检索到的知识图和相关文档回答问题“$question”，并结合历史信息进行综合分析。
-要求：
-1.尽可能直接回答问题，不包括任何其他信息。
-2.不要重复问题的内容。
-3.根据提供的信息生成答案。如果可能有多个答案，请生成所有答案。
-4.如果没有合适的答案，请回答“I don't know”。
-5.给出答案的同时，也给出理由
-历史：
-$history
-知识图：
-$knowledge_graph
-文档：
-$docs
-答案：
-"""
-
     template_en = """Please answer the question `$question` based on the retrieved knowledge graph and relevant documents, and combine historical information for comprehensive analysis.
 Requirement:
 1. Answer the question as directly as possible, without including any other information.

@@ -68,37 +68,6 @@ class OpenIEEntitystandardizationdPrompt(PromptABC):
 }
     """
 
-    template_zh = """
-{
-    "instruction": "The `input` field contains a user provided context. The `named_entities` field contains extracted named entities from the context, which may be unclear abbreviations, aliases, or slang. To eliminate ambiguity, please attempt to provide the official names of these entities based on the context and your own knowledge. Note that entities with the same meaning can only have ONE official name. Please respond in the format of a single JSONArray string without any explanation, as shown in the `output` field of the provided example.",
-    "example": {
-        "input": "Restlessness, delirious speech, and insomnia: use sedatives judiciously, and avoid sedatives that suppress respiration. 3. Management of complications: after antibiotic treatment, high fever usually subsides within 24 hours, or declines gradually over several days. If the temperature falls and then rises again, or does not fall after 3 days, an extrapulmonary infection of SP should be considered, such as empyema, pericarditis, or arthritis. Treatment: connect a chest pressure-regulating tube and a suction-machine negative-pressure water-bottle device; closed negative-pressure suction should be continuous; if the lung has not re-expanded after 12 hours, the cause should be investigated.",
-        "named_entities": [
-            {"name": "restlessness", "category": "Symptom"},
-            {"name": "delirious speech", "category": "Symptom"},
-            {"name": "insomnia", "category": "Symptom"},
-            {"name": "sedative", "category": "Medicine"},
-            {"name": "extrapulmonary infection", "category": "Disease"},
-            {"name": "chest pressure-regulating tube", "category": "MedicalEquipment"},
-            {"name": "suction-machine negative-pressure water-bottle device", "category": "MedicalEquipment"},
-            {"name": "closed negative-pressure suction", "category": "SurgicalOperation"}
-        ],
-        "output": [
-            {"name": "restlessness", "category": "Symptom", "official_name": "agitation"},
-            {"name": "delirious speech", "category": "Symptom", "official_name": "delirium"},
-            {"name": "insomnia", "category": "Symptom", "official_name": "insomnia disorder"},
-            {"name": "sedative", "category": "Medicine", "official_name": "sedative agent"},
-            {"name": "extrapulmonary infection", "category": "Disease", "official_name": "extrapulmonary infection"},
-            {"name": "chest pressure-regulating tube", "category": "MedicalEquipment", "official_name": "chest drainage tube"},
-            {"name": "suction-machine negative-pressure water-bottle device", "category": "MedicalEquipment", "official_name": "negative-pressure suction device"},
-            {"name": "closed negative-pressure suction", "category": "SurgicalOperation", "official_name": "closed negative-pressure drainage"}
-        ]
-    },
-    "input": $input,
-    "named_entities": $named_entities,
-}
-    """
-
     @property
     def template_variables(self) -> list[str]:
         return ["input", "named_entities"]
