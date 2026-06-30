@@ -45,7 +45,7 @@ class PDFReader(ReaderABC):
         self.is_ocr = is_ocr
         self.llm = llm
         self.length_splitter = length_splitter
-        self.prompt = OutlinePrompt(self.language)
+        self.prompt = OutlinePrompt()
 
     @property
     def input_types(self):
@@ -78,7 +78,8 @@ class PDFReader(ReaderABC):
             )
         return level_outlines
 
-    def extract_content_from_outline(self, page_contents, level_outlines) -> list[Chunk]:
+    @staticmethod
+    def extract_content_from_outline(page_contents, level_outlines) -> list[Chunk]:
         total_content = "".join(page_contents)
 
         def get_content_start(outline, page_contents):
@@ -332,7 +333,8 @@ class PDFReader(ReaderABC):
         chunks = self.sep_by_outline(content, outlines, basename)
         return chunks
 
-    def sep_by_outline(self, content, outlines, basename):
+    @staticmethod
+    def sep_by_outline(content, outlines, basename):
         position_check = []
         for outline in outlines:
             start = content.find(outline)

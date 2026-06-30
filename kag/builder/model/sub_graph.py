@@ -13,7 +13,7 @@
 
 import copy
 import pprint
-from typing import Any
+from typing import Any, ClassVar
 
 from kag.common import generate_hash_id
 
@@ -23,7 +23,7 @@ class Node:
     name: str
     label: str
     properties: dict[str, str]
-    hash_map: dict[int, str] = dict()
+    hash_map: ClassVar[dict[int, str]] = dict()
 
     def __init__(self, _id: str, name: str, label: str, properties: dict[str, str]):
         self.name = name
@@ -142,8 +142,8 @@ class Edge:
 
 class SubGraph:
     id: str
-    nodes: list[Node] = list()
-    edges: list[Edge] = list()
+    nodes: ClassVar[list[Node]] = list()
+    edges: ClassVar[list[Edge]] = list()
 
     def __init__(self, nodes: list[Node], edges: list[Edge]):
         self.nodes = nodes

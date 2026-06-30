@@ -66,11 +66,22 @@ class SchemaFreeExtractor(ExtractorABC):
         )
         from kag.builder.prompt.triple import OpenIETriplePrompt
 
-        self.ner_prompt = ner_prompt or OpenIENERPrompt(self.language, schema=type_names)
-        self.std_prompt = std_prompt or OpenIEEntitystandardizationdPrompt(self.language)
-        self.triple_prompt = triple_prompt or OpenIETriplePrompt(self.language)
+        self.ner_prompt = ner_prompt or OpenIENERPrompt(schema=type_names)
+        self.std_prompt = std_prompt or OpenIEEntitystandardizationdPrompt()
+        self.triple_prompt = triple_prompt or OpenIETriplePrompt()
         self.external_graph = external_graph
-        self.table_extractor = None
+
+        from kag.builder.component.extractor.table_extractor import TableExtractor
+        from kag.builder.prompt.table.table_context import TableContextPrompt
+        from kag.builder.prompt.table.table_row_col_summary import (
+            TableRowColSummaryPrompt,
+        )
+
+        self.table_extractor = TableExtractor(
+            llm=self.llm,
+            table_context_prompt=TableContextPrompt(),
+            table_row_col_summary_prompt=TableRowColSummaryPrompt(),
+        )
 
     @property
     def input_types(self) -> type[Input]:
@@ -381,7 +392,8 @@ class SchemaFreeExtractor(ExtractorABC):
         self.assemble_sub_graph_with_chunk(sub_graph, chunk)
         return sub_graph
 
-    def assemble_sub_graph_with_entities(self, sub_graph: SubGraph, entities: list[dict]):
+    @staticmethod
+    def assemble_sub_graph_with_entities(sub_graph: SubGraph, entities: list[dict]):
         """
         Assembles a subgraph using named entities.
 

@@ -1,20 +1,20 @@
+from kag.builder.component.splitter.base_table_splitter import BaseTableSplitter
 from kag.builder.model.chunk import Chunk, ChunkTypeEnum
 from kag.common import generate_hash_id
 
 
-class LengthSplitter:
+class LengthSplitter(BaseTableSplitter):
     def __init__(
         self,
         split_length: int = 500,
         window_length: int = 100,
         strict_length: bool = False,
-        language: str = "en",
         **kwargs,
     ):
+        super().__init__(**kwargs)
         self.split_length = split_length
         self.window_length = window_length
         self.strict_length = strict_length
-        self.language = language
 
     @property
     def input_types(self):
@@ -23,10 +23,6 @@ class LengthSplitter:
     @property
     def output_types(self):
         return Chunk
-
-    def split_table(self, org_chunk, chunk_size=2000, sep="\n"):
-        # markdown-table splitting omitted; non-table chunks fall through
-        return None
 
     def chunk_breakdown(self, chunk):
         chunks = self.logic_break(chunk)
@@ -38,11 +34,13 @@ class LengthSplitter:
             res_chunks = self.slide_window_chunk(chunk, self.split_length, self.window_length)
         return res_chunks
 
-    def logic_break(self, chunk):
+    @staticmethod
+    def logic_break(chunk):
         return None
 
-    def split_sentence(self, content):
-        sentence_delimiters = ".。？?！!" if self.language == "en" else "。？！"
+    @staticmethod
+    def split_sentence(content):
+        sentence_delimiters = ".。？?！!"
         output = []
         start = 0
         for idx, char in enumerate(content):

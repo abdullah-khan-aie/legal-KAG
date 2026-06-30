@@ -81,7 +81,8 @@ class TableExtractor(ExtractorABC):
             logger.exception(f"_invoke_table failed for chunk:{input}")
             raise RuntimeError(f"table extract failed for chunk:{input}")
 
-    def _table_row_chunk(self, input_table_chunk: Chunk):
+    @staticmethod
+    def _table_row_chunk(input_table_chunk: Chunk):
         file_name = input_table_chunk.kwargs.get("file_name", "")
         name = f"{file_name} / {input_table_chunk.name}"
         content = f"{name}\n{input_table_chunk.content}"
@@ -137,7 +138,8 @@ class TableExtractor(ExtractorABC):
         input_table.kwargs["table_info"] = table_info
         return table_info
 
-    def _get_table_context_str(self, table_chunk: Chunk):
+    @staticmethod
+    def _get_table_context_str(table_chunk: Chunk):
         file_name = table_chunk.kwargs.get("file_name", "")
         section = table_chunk.name
         before_text = table_chunk.kwargs["metadata"].get("before_text", "")
@@ -282,8 +284,8 @@ class TableExtractor(ExtractorABC):
             )
         return rst_row_summary_list, rst_col_summary_list
 
+    @staticmethod
     def _do_split_table_to_chunk(
-        self,
         input_table: Chunk,
         row_summary_list,
         col_summary_list,
@@ -330,7 +332,8 @@ class TableExtractor(ExtractorABC):
                 rst_chunk_list.append(chunk)
         return rst_chunk_list
 
-    def _table_to_row_col_index_df(self, df):
+    @staticmethod
+    def _table_to_row_col_index_df(df):
         new_df = df.copy()
         new_df.insert(0, "row_index_0", [f"row_index_{i + 1}" for i in range(len(new_df))])
         new_columns = []
@@ -342,8 +345,8 @@ class TableExtractor(ExtractorABC):
         new_df.columns = new_columns
         return new_df
 
+    @staticmethod
     def _gen_subgraph(
-        self,
         input_table: Chunk,
         table_df: pd.DataFrame,
         row_summary_list,

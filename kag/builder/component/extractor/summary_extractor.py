@@ -21,7 +21,7 @@ class SummaryExtractor(ExtractorABC):
         self.llm_module = llm_module
         from kag.builder.prompt.chunk_summary_prompt import ChunkSummaryPrompt
 
-        self.chunk_summary_prompt = chunk_summary_prompt or ChunkSummaryPrompt(self.language)
+        self.chunk_summary_prompt = chunk_summary_prompt or ChunkSummaryPrompt()
 
     @property
     def input_types(self):

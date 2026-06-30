@@ -2,7 +2,6 @@
 # (openspg-kag 0.8.0, Apache-2.0). Splitting logic (parse_llm_output,
 # semantic_chunk, _invoke) VERBATIM except:
 #   - dropped SplitterABC base + @register -> plain class
-#   - self.kag_project_config.language -> self.language (ctor arg, default "en")
 #   - Chunk/generate_hash_id/Input/Output, LLMClient, SemanticSegPrompt from local
 # Uses an LLM (YOUR model, bound via LLMClient) — never the OpenSPG server.
 
@@ -25,17 +24,15 @@ class SemanticSplitter:
         llm: LLMClient,
         kept_char_pattern: str = None,
         split_length: int = 1000,
-        language: str = "en",
         **kwargs,
     ):
-        self.language = language
         if kept_char_pattern is None:
             self.kept_char_pattern = re.compile(r"[^一-龥　-〿！-／：-＠［-｀｛-･\x00-\x7F]+")
         else:
             self.kept_char_pattern = re.compile(kept_char_pattern)
         self.split_length = split_length
         self.llm = llm
-        self.semantic_seg_op = SemanticSegPrompt(self.language)
+        self.semantic_seg_op = SemanticSegPrompt()
 
     @property
     def input_types(self) -> type[Input]:
@@ -98,6 +95,10 @@ class SemanticSplitter:
                 )
                 chunks.extend(self.semantic_chunk(innerChunk, chunk_size))
         return chunks
+
+    def invoke(self, input: Input, **kwargs) -> list[Output]:
+        """Public entry point; delegates to the splitting implementation."""
+        return self._invoke(input, **kwargs)
 
     def _invoke(self, input: Input, **kwargs) -> list[Output]:
         chunks = self.semantic_chunk(input, self.split_length)

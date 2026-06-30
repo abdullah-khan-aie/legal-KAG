@@ -18,7 +18,8 @@ class BaseTableSplitter:
         except Exception:
             return None
 
-    def _split_table(self, org_chunk: Chunk, chunk_size: int = 2000, sep: str = "\n"):
+    @staticmethod
+    def _split_table(org_chunk: Chunk, chunk_size: int = 2000, sep: str = "\n"):
         output = []
         content = org_chunk.content
         table_start = content.find("|")

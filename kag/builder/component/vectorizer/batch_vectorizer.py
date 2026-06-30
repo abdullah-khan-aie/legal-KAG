@@ -95,7 +95,8 @@ class EmbeddingVectorManager:
             text_batch[property_value].append(placeholder)
         return text_batch
 
-    def _generate_dense_vectors(self, dense_vectorizer, text_batch, batch_size=32):
+    @staticmethod
+    def _generate_dense_vectors(dense_vectorizer, text_batch, batch_size=32):
         texts = list(text_batch)
         if not texts:
             return []
@@ -119,7 +120,8 @@ class EmbeddingVectorManager:
             embeddings.extend(dense_vectorizer.vectorize(sub_texts))
         return embeddings
 
-    def _generate_sparse_vectors(self, sparse_vectorizer, text_batch, batch_size=32):
+    @staticmethod
+    def _generate_sparse_vectors(sparse_vectorizer, text_batch, batch_size=32):
         texts = list(text_batch)
         if not texts:
             return []
@@ -143,7 +145,8 @@ class EmbeddingVectorManager:
             embeddings.extend(sparse_vectorizer.vectorize(sub_texts))
         return embeddings
 
-    async def _agenerate_dense_vectors(self, dense_vectorizer, text_batch, batch_size=32):
+    @staticmethod
+    async def _agenerate_dense_vectors(dense_vectorizer, text_batch, batch_size=32):
         texts = list(text_batch)
         if not texts:
             return []
@@ -168,7 +171,8 @@ class EmbeddingVectorManager:
         results = await asyncio.gather(*tasks)
         return [item for sublist in results for item in sublist]
 
-    async def _agenerate_sparse_vectors(self, sparse_vectorizer, text_batch, batch_size=32):
+    @staticmethod
+    async def _agenerate_sparse_vectors(sparse_vectorizer, text_batch, batch_size=32):
         texts = list(text_batch)
         if not texts:
             return []
@@ -193,7 +197,8 @@ class EmbeddingVectorManager:
         results = await asyncio.gather(*tasks)
         return [item for sublist in results for item in sublist]
 
-    def _fill_vectors(self, vectors, text_batch):
+    @staticmethod
+    def _fill_vectors(vectors, text_batch):
         for vector, (_text, placeholders) in zip(vectors, text_batch.items()):
             for placeholder in placeholders:
                 placeholder._embedding_vector = vector

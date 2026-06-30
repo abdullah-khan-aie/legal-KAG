@@ -51,8 +51,8 @@ class SchemaConstraintExtractor(ExtractorABC):
         from kag.builder.prompt.ner import OpenIENERPrompt
         from kag.builder.prompt.std import OpenIEEntitystandardizationdPrompt
 
-        self.ner_prompt = ner_prompt or OpenIENERPrompt(self.language, schema=type_names)
-        self.std_prompt = std_prompt or OpenIEEntitystandardizationdPrompt(self.language)
+        self.ner_prompt = ner_prompt or OpenIENERPrompt(schema=type_names)
+        self.std_prompt = std_prompt or OpenIEEntitystandardizationdPrompt()
         self.relation_prompt = relation_prompt
         self.event_prompt = event_prompt
         self.external_graph = external_graph
@@ -440,9 +440,8 @@ class SchemaConstraintExtractor(ExtractorABC):
         self.add_chunk_to_graph(graph, chunk)
         return graph
 
-    def append_official_name(
-        self, source_entities: list[dict], entities_with_official_name: list[dict]
-    ):
+    @staticmethod
+    def append_official_name(source_entities: list[dict], entities_with_official_name: list[dict]):
         """
         Appends official names to entities.
 
@@ -466,7 +465,8 @@ class SchemaConstraintExtractor(ExtractorABC):
                 official_name = tmp_dict[key]
                 tmp_entity["official_name"] = official_name
 
-    def postprocess_graph(self, graph):
+    @staticmethod
+    def postprocess_graph(graph):
         """
         Postprocesses the graph by merging nodes with the same name and label.
 
