@@ -1,46 +1,78 @@
-"""Composition root: bind adapters to ports and build the ingestion pipeline.
+"""Composition root: construct the model clients + graph store and build the pipeline.
 
-``get_ingestion_pipeline()`` returns an lru-cached singleton — it reads settings,
-constructs the model adapters, binds them to the ports, and builds the pipeline
-once (the schema and prompt templates are loaded here), then reuses it for every
-document. ``build_ingestion_pipeline()`` is the explicit constructor for tests or
-custom wiring.
+``get_ingestion_pipeline()`` returns a lru-cached singleton — it reads settings,
+constructs the kag clients directly (Azure OpenAI LLM, Azure Cohere embedder) and
+the Neo4j graph store, then builds the pipeline once (schema + prompt templates are
+loaded here) and reuses it for every document. ``build_ingestion_pipeline()`` is the
+explicit constructor for tests or custom wiring.
 """
 
 from __future__ import annotations
 
 from functools import lru_cache
 
-from src.lodestone.adapters.outbound.model_adapters import (
-    OpenAICompatibleEmbeddingModel,
-    OpenAICompatibleLanguageModel,
-)
+from kag.common.graphstore.neo4j_graph_store import Neo4jClient
+from kag.common.llm.openai_client import AzureOpenAIClient
+from kag.common.vectorize_model.azure_cohere_model import AzureCohereVectorizeModel
+from kag.interface import LLMClient
 from src.lodestone.application.ingestion.pipeline import IngestionPipeline
 from src.lodestone.config.settings import IngestionSettings, get_settings
-from src.lodestone.domain.ports.ingestion import EmbeddingModelPort, LanguageModelPort
+
+
+def _build_embedder(settings: IngestionSettings) -> AzureCohereVectorizeModel:
+    """Azure-hosted Cohere embedder (kag pattern, async)."""
+    return AzureCohereVectorizeModel(
+        endpoint=settings.cohere_endpoint,
+        api_key=settings.cohere_api_key.get_secret_value(),
+        model=settings.cohere_model or None,
+        input_type=settings.cohere_input_type,
+    )
+
+
+def _build_graph_store(settings: IngestionSettings) -> Neo4jClient:
+    """Construct the Neo4j graph store (the password is a required setting)."""
+    return Neo4jClient(
+        uri=settings.neo4j_uri,
+        user=settings.neo4j_user,
+        password=settings.neo4j_password.get_secret_value(),
+        database=settings.neo4j_database,
+    )
 
 
 def build_ingestion_pipeline(
-    llm: LanguageModelPort,
-    embedder: EmbeddingModelPort,
+    llm: LLMClient,
+    embedder,
     schema_path: str,
+    graph_store,
+    namespace: str = "",
 ) -> IngestionPipeline:
     """Build a pipeline from explicit collaborators (tests / custom wiring)."""
-    return IngestionPipeline(llm=llm, embedder=embedder, schema_path=schema_path)
+    return IngestionPipeline(
+        llm=llm,
+        embedder=embedder,
+        schema_path=schema_path,
+        graph_store=graph_store,
+        namespace=namespace,
+    )
 
 
 @lru_cache(maxsize=1)
 def get_ingestion_pipeline() -> IngestionPipeline:
     """Return the cached pipeline singleton, wired from settings."""
     settings: IngestionSettings = get_settings()
-    llm = OpenAICompatibleLanguageModel(
-        base_url=settings.llm_base_url,
+    # kag's AzureOpenAIClient is itself an LLMClient, used directly as the pipeline's
+    # model seam (no app-side adapter). Config is injected here from settings.
+    llm = AzureOpenAIClient(
         api_key=settings.llm_api_key.get_secret_value(),
+        base_url=settings.llm_base_url,
         model=settings.llm_model,
+        azure_deployment=settings.llm_azure_deployment,
+        api_version=settings.llm_api_version,
     )
-    embedder = OpenAICompatibleEmbeddingModel(
-        base_url=settings.embed_base_url,
-        api_key=settings.embed_api_key.get_secret_value(),
-        model=settings.embed_model,
+    return build_ingestion_pipeline(
+        llm,
+        _build_embedder(settings),
+        settings.schema_path,
+        graph_store=_build_graph_store(settings),
+        namespace=settings.namespace,
     )
-    return build_ingestion_pipeline(llm, embedder, settings.schema_path)
