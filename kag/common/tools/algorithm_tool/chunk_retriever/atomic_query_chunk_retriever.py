@@ -86,7 +86,8 @@ class AtomicQueryChunkRetriever(RetrieverABC):
         else:
             return None
 
-    def parse_chosen_atom_infos(self, context: Context):
+    @staticmethod
+    def parse_chosen_atom_infos(context: Context):
         if not context:
             return []
 

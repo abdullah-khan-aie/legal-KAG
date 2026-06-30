@@ -1,9 +1,10 @@
 # Neo4j-backed GraphApiABC.
 #
-# The server impl (openspg_graph_api) routes every op through the Scala reasoner
-# (execute_dsl). The server-free reference is MemoryGraphApi / MemoryGraph, which
-# build EntityData / RelationData / OneHopGraphData directly from the graph store.
-# This impl reproduces that construction on the extracted Neo4jClient:
+# The server impl (openspg_graph_api) routes graph ops through the Scala reasoner.
+# This server-free impl builds EntityData / RelationData / OneHopGraphData directly
+# from the Neo4j graph store (mirroring the MemoryGraphApi reference), so all graph
+# retrieval runs as plain Cypher with no reasoner / KGDSL. Specifically, on the
+# extracted Neo4jClient:
 #
 #   * get_entity_one_hop  <- mirrors MemoryGraph.get_one_hop_graph
 #   * _create_entity_from_node    <- mirrors MemoryGraph._create_entity_from_vertex
@@ -19,7 +20,6 @@
 import logging
 
 from kag.common.tools.graph_api.graph_api_abc import GraphApiABC
-from kag.common.tools.graph_api.model.table_model import TableData
 from kag.interface.solver.base_model import SPOEntity
 from kag.interface.solver.model.one_hop_graph import (
     EntityData,
@@ -152,16 +152,3 @@ class Neo4jGraphApi(GraphApiABC):
         if entity.prop:
             datas.update(entity.prop.get_properties_map())
         return datas
-
-    def convert_spo_to_one_graph(self, table: TableData) -> dict[str, OneHopGraphData]:
-        # DSL/table path is server (reasoner) only; server-free uses get_entity_one_hop.
-        raise NotImplementedError(
-            "convert_spo_to_one_graph requires the reasoner DSL path; use "
-            "get_entity_one_hop in the Neo4j-backed build."
-        )
-
-    def execute_dsl(self, dsl: str, **kwargs) -> TableData:
-        raise NotImplementedError(
-            "execute_dsl runs KGDSL on the OpenSPG reasoner (Scala) engine, which is "
-            "not available server-free; use the Neo4j graph ops instead."
-        )

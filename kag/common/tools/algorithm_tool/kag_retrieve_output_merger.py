@@ -38,7 +38,8 @@ class KAGRetrieverOutputMerger(RetrieverOutputMerger):
         else:
             self.score_normalizer = self.rrf_normalize
 
-    def min_max_normalize(self, chunks: list[ChunkData]):
+    @staticmethod
+    def min_max_normalize(chunks: list[ChunkData]):
         """Normalizes chunk scores using min-max scaling.
 
         Args:
@@ -60,7 +61,8 @@ class KAGRetrieverOutputMerger(RetrieverOutputMerger):
                 score = (score - min_score) / (max_score - min_score)
             chunk.score = score
 
-    def rrf_normalize(self, chunks: list[ChunkData]):
+    @staticmethod
+    def rrf_normalize(chunks: list[ChunkData]):
         """Normalizes scores using reciprocal rank fusion (RRF) method.
 
         Args:
@@ -75,7 +77,8 @@ class KAGRetrieverOutputMerger(RetrieverOutputMerger):
             score = 1 / (idx + 1)
             chunk.score = score
 
-    def chunk_merge(self, chunk_lists: list[list[ChunkData]], score_normalizer):
+    @staticmethod
+    def chunk_merge(chunk_lists: list[list[ChunkData]], score_normalizer):
         """Merges multiple chunk lists into a unified ranked list.
 
         Args:

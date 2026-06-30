@@ -9,8 +9,7 @@ from kag.common.tools.algorithm_tool.graph_retriever.path_select.path_select imp
     PathSelect,
 )
 from kag.common.tools.algorithm_tool.graph_retriever.path_select.path_utils import (
-    generate_gql_spo_element,
-    run_gql,
+    recall_one_hop_graph_by_entities,
 )
 from kag.common.tools.graph_api.graph_api_abc import (
     GraphApiABC,
@@ -58,51 +57,13 @@ class ExactOneHopSelect(PathSelect):
         )
         self.text_similarity = TextSimilarity(vectorize_model)
 
-    def recall_one_graph(
-        self, gql_header_labels, gql_tail_labels, id_filters, **kwargs
-    ) -> list[OneHopGraphData]:
-        spg_gql = f"""
-        MATCH (s:{gql_header_labels})-[p:rdf_expand()]->(o:{gql_tail_labels})
-        WHERE {" and ".join(id_filters)}
-        RETURN s,p,o,s.id,o.id
-        """
-        return run_gql(self.graph_api, spg_gql, **kwargs)
-
-    def recall_by_spg_gql(
-        self, gql_header_labels, gql_tail_labels, p_label_set, id_filters, **kwargs
-    ) -> list[OneHopGraphData]:
-        spg_gql = f"""
-                MATCH (s:{gql_header_labels})-[p:{"|".join(p_label_set)}]->(o:{gql_tail_labels})
-                WHERE {" and ".join(id_filters)}
-                RETURN s,p,o,s.id,o.id
-                """
-        return run_gql(self.graph_api, spg_gql, **kwargs)
-
     def recall_graph_data_from_knowledge_base(
         self, n: GetSPONode, heads: list[EntityData], tails: list[EntityData]
     ) -> list[OneHopGraphData]:
-        (
-            gql_header_labels,
-            gql_rel_labels,
-            gql_tail_labels,
-            where_gql,
-            params,
-        ) = generate_gql_spo_element(n, heads, tails, self.schema_helper)
+        return recall_one_hop_graph_by_entities(self.graph_api, heads=heads, tails=tails)
 
-        if len(gql_rel_labels) == 0:
-            return []
-        try:
-            gql_result = self.recall_by_spg_gql(
-                gql_header_labels, gql_tail_labels, gql_rel_labels, where_gql, **params
-            )
-            if len(gql_result) != 0:
-                return gql_result
-        except Exception as e:
-            logger.warning(f"recall_by_spg_gql failed {e},", exc_info=True)
-
-        return []
-
-    def _std_best_p_with_value_and_p_name(self, n: GetSPONode, one_graph: OneHopGraphData):
+    @staticmethod
+    def _std_best_p_with_value_and_p_name(n: GetSPONode, one_graph: OneHopGraphData):
         """
         :param one_graph:
         :return: list(RelationData)

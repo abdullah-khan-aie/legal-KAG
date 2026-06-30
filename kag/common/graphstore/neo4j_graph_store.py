@@ -3,6 +3,7 @@ import re
 import threading
 import time
 from abc import ABCMeta
+from typing import ClassVar
 
 import schedule
 from neo4j import GraphDatabase
@@ -19,7 +20,7 @@ class SingletonMeta(ABCMeta):
     Thread-safe Singleton metaclass
     """
 
-    _instances = {}
+    _instances: ClassVar[dict] = {}
     _lock = threading.Lock()
 
     def __call__(cls, *args, **kwargs):
@@ -104,10 +105,9 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
             result = session.run("CALL db.labels()")
             labels = [record[0] for record in result if record[0] != "Entity"]
             for label in labels:
-                self._create_unique_index_constraint(self, label, session)
+                self._create_unique_index_constraint(label, session)
             return labels
 
-    @staticmethod
     def _create_unique_index_constraint(self, label, session):
         constraint_name = f"uniqueness_{label}_id"
         create_constraint_query = f"CREATE CONSTRAINT {self._escape_neo4j(constraint_name)} IF NOT EXISTS FOR (n:{self._escape_neo4j(label)}) REQUIRE n.id IS UNIQUE"
@@ -118,9 +118,8 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
             logger.debug(f"Unique constraint created for constraint_name: {constraint_name}")
         except Exception as e:
             logger.debug(f"warn creating constraint for {constraint_name}: {e}")
-            self._create_index_constraint(self, label, session)
+            self._create_index_constraint(label, session)
 
-    @staticmethod
     def _create_index_constraint(self, label, session):
         index_name = f"index_{label}_id"
         create_constraint_query = f"CREATE INDEX {self._escape_neo4j(index_name)} IF NOT EXISTS FOR (n:{self._escape_neo4j(label)}) ON (n.id)"
@@ -181,7 +180,8 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
         self.create_vector_index("Entity", "desc")
         self.refresh_vector_index_meta(force=True)
 
-    def _collect_text_index_info(self, schema_types):
+    @staticmethod
+    def _collect_text_index_info(schema_types):
         labels = {}
         property_keys = {}
         for spg_type in schema_types:
@@ -368,12 +368,14 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
                     text_batch[property_value].append(placeholder)
                 return text_batch
 
-            def _generate_vectors(self, vectorizer, text_batch):
+            @staticmethod
+            def _generate_vectors(vectorizer, text_batch):
                 texts = list(text_batch)
                 vectors = vectorizer.vectorize(texts)
                 return vectors
 
-            def _fill_vectors(self, vectors, text_batch):
+            @staticmethod
+            def _fill_vectors(vectors, text_batch):
                 for vector, (_text, placeholders) in zip(vectors, text_batch.items()):
                     for placeholder in placeholders:
                         placeholder._embedding_vector = vector
@@ -698,7 +700,8 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
         result = string.lower()
         return result
 
-    def _get_utf16_codepoints(self, string):
+    @staticmethod
+    def _get_utf16_codepoints(string):
         result = []
         for ch in string:
             data = ch.encode("utf-16-le")
@@ -724,7 +727,8 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
         string += "`"
         return string
 
-    def _to_snake_case(self, name):
+    @staticmethod
+    def _to_snake_case(name):
         import re
 
         words = re.findall("[A-Za-z][a-z0-9]*", name)

@@ -51,7 +51,8 @@ class ReasonerClient:
         self.host_addr = host_addr
         self.project_id = project_id
 
-    def get_reason_schema(self):
+    @staticmethod
+    def get_reason_schema():
         import os
 
         from kag.common.conf import KAG_PROJECT_CONF
