@@ -17,7 +17,8 @@ class LLMConfigChecker:
     Check whether the llm config is valid.
     """
 
-    def check(self, config: str) -> str:
+    @staticmethod
+    def check(config: str) -> str:
         """
         Check the llm config.
 
@@ -44,9 +45,11 @@ class LLMConfigChecker:
 
 if __name__ == "__main__":
     config = """
-        {"client_type" :"ollama",
-        "base_url" : "http://localhost:11434/",
-        "model" : "llama3.1" }
+        {"client_type": "azure_openai",
+        "base_url": "https://your-resource.openai.azure.com",
+        "api_key": "",
+        "azure_deployment": "your-deployment-name",
+        "model": "gpt-4o"}
     """
     config_checker = LLMConfigChecker()
     res = config_checker.check(config)
