@@ -4,16 +4,20 @@ version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
     # --- application layer (src) ---
-    "httpx",                 # OpenAI-compatible model/embedding HTTP adapters
+    "httpx",                 # OpenAI-compatible embedding HTTP adapter (fallback)
     "pydantic>=2",           # settings models (src/config)
     "pydantic-settings>=2",  # env-driven configuration (src/config)
+    "azure-ai-inference",    # Azure-hosted Cohere embeddings (AzureCohereVectorizeModel)
     # --- ingestion (kag builder) ---
     "pyyaml",                # local YAML schema client
     "tenacity",              # retry decorators in extractors/vectorizer/retrievers
-    "pandas",                # table extractor
-    "markdown",              # table extractor
+    "pandas",                # table extractor / markdown tables
+    "markdown",              # table extractor / markdown reader
     "pdfminer.six",          # PDF reader
     "PyPDF2",                # PDF reader
+    "python-docx",           # docx reader
+    "beautifulsoup4",        # markdown reader (HTML parse)
+    "tabulate",              # markdown reader (DataFrame.to_markdown)
     # --- graph store (kag graphstore) ---
     "neo4j",                 # Neo4j graph store driver
     "schedule",              # periodic constraint/pagerank refresh in Neo4jClient
@@ -26,8 +30,7 @@ dependencies = [
     "aiolimiter",            # async rate limiting in utils
     "cachetools",            # LinkCache (query/one-hop caches)
     # --- solver (kag solver: planner/executor/generator/pipeline) ---
-    "openai",                # OpenAI-compatible LLM client
-    "ollama",                # local Ollama LLM client
+    "openai",                # Azure OpenAI client (AzureOpenAIClient, official SDK)
     "pyhocon",               # solver pipeline config (.conf/.yaml) parsing
     "mcp",                   # MCP executor (external tool servers)
 ]

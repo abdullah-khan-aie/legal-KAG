@@ -1,0 +1,475 @@
+# =============================================================================
+# Comprehensive legal knowledge-base schema ("rulebook") for a LAW FIRM domain.
+# Read by the kag SchemaClient for schema-constraint extraction. No OpenSPG server.
+# Path is configurable via INGEST_SCHEMA_PATH (or settings.schema_path).
+#
+# Scope: spans the four pillars a firm cares about —
+#   1. Practice / matters      (clients, matters, who is working on what)
+#   2. Documents               (contracts, court filings, opinions, statutes,
+#                               regulations, internal memos)
+#   3. Actors                  (people, organizations, courts)
+#   4. Legal authorities/ideas (jurisdictions, legal issues, obligations)
+#
+# Research grounding (see sources at bottom of the chat answer):
+#   - LKIF Core legal ontology .... agents/roles/norms/expressions backbone
+#   - Blackstone legal NER ........ Court, Judge, CaseName, Citation, Provision,
+#                                   Instrument entity types
+#   - CUAD (Atticus) .............. the 41-clause review taxonomy -> Clause.clauseType
+#   - Akoma Ntoso / FRBR .......... legal-document modeling (work/expression)
+#   - Matter-management models .... Matter, Client, Timekeeper(attorney), Engagement
+#
+# -----------------------------------------------------------------------------
+# Property forms (same as the base schema):
+#   name: Text                                   # literal attribute
+#   content: {type: Text, index: TextAndVector}  # literal + vector index (searchable)
+#   party: {type: Person, multi: true, desc: …}  # OBJECT property -> typed edge
+#                                                # multi -> MultiValue (List[...])
+# Object-typed properties (type = another entity type) become typed relations:
+# the SPG entity prompt asks the LLM to fill them, and the schema-constraint
+# extractor turns them into nodes + edges.
+#
+# NOTE on enums: this format has no native enum, so allowed values for fields
+# like clauseType / documentType are listed in their `desc` so the extraction
+# prompt sees them as a controlled vocabulary.
+#
+# NOTE on scale: schema-constraint accuracy drops if you force ALL types into one
+# extraction pass. Prefer per-document-type passes (e.g. contracts use
+# Contract+Clause+Organization+Person+Jurisdiction; litigation uses
+# CourtFiling+JudicialOpinion+Court+Person+Jurisdiction). The schema is the
+# superset; subset it per source.
+# =============================================================================
+
+namespace: LegalKB
+
+types:
+
+  # ===========================================================================
+  # 1) PRACTICE / MATTER LAYER  — the hub that ties a firm's work together
+  # ===========================================================================
+  Matter:
+    type: ENTITY
+    desc: A legal matter / case / engagement handled by the firm
+    properties:
+      name: Text
+      matterNumber:
+        type: Text
+        desc: the firm's internal matter/file number
+      matterType:
+        type: Text
+        desc: "one of: litigation, transactional, advisory, regulatory, ip, employment"
+      status:
+        type: Text
+        desc: "one of: open, closed, on_hold, pending"
+      description:
+        type: Text
+        index: TextAndVector
+      openedDate:
+        type: Text
+        desc: date the matter was opened
+      clientOrganization:
+        type: Organization
+        multi: true
+        desc: organization client(s) the matter is for
+      clientPerson:
+        type: Person
+        multi: true
+        desc: individual client(s) the matter is for
+      responsibleAttorney:
+        type: Person
+        multi: true
+        desc: lawyer(s)/timekeeper(s) responsible for the matter
+      opposingParty:
+        type: Organization
+        multi: true
+        desc: adverse organization(s) in the matter
+      court:
+        type: Court
+        desc: the court where a litigation matter is heard
+      jurisdiction:
+        type: Jurisdiction
+        desc: the governing jurisdiction of the matter
+
+  # ===========================================================================
+  # 2) DOCUMENT TYPES
+  # ===========================================================================
+  Contract:
+    type: ENTITY
+    desc: A legal agreement between parties (NDA, MSA, lease, employment, etc.)
+    properties:
+      name: Text
+      contractType:
+        type: Text
+        desc: "e.g.: nda, msa, sow, lease, employment, license, spa, loan"
+      description:
+        type: Text
+        index: TextAndVector
+      effectiveDate:
+        type: Text
+        desc: the date the contract takes effect
+      executionDate:
+        type: Text
+        desc: the date the contract was signed
+      expirationDate:
+        type: Text
+        desc: the date the initial term expires (or 'perpetual')
+      renewalTerm:
+        type: Text
+        desc: renewal/extension terms after the initial term
+      party:
+        type: Organization
+        multi: true
+        desc: organization party/parties to the contract
+      counterparty:
+        type: Organization
+        multi: true
+        desc: the opposing organization party/parties
+      signatory:
+        type: Person
+        multi: true
+        desc: individuals who signed the contract
+      hasClause:
+        type: Clause
+        multi: true
+        desc: notable clauses contained in the contract
+      governingLaw:
+        type: Jurisdiction
+        desc: the jurisdiction whose law governs the contract
+      venue:
+        type: Court
+        desc: agreed court/venue for disputes
+      relatedMatter:
+        type: Matter
+        desc: the matter this contract belongs to
+
+  CourtFiling:
+    type: ENTITY
+    desc: A litigation document filed with a court (complaint, answer, motion, brief)
+    properties:
+      name: Text
+      filingType:
+        type: Text
+        desc: "one of: complaint, answer, motion, brief, petition, order, judgment"
+      description:
+        type: Text
+        index: TextAndVector
+      filedDate:
+        type: Text
+        desc: the date the document was filed
+      filedIn:
+        type: Court
+        desc: the court the document was filed in
+      filedBy:
+        type: Person
+        multi: true
+        desc: attorney(ies) who filed the document
+      onBehalfOf:
+        type: Organization
+        multi: true
+        desc: the party the filing is made on behalf of
+      citesOpinion:
+        type: JudicialOpinion
+        multi: true
+        desc: case law cited in the filing
+      citesStatute:
+        type: Statute
+        multi: true
+        desc: statutes cited in the filing
+      relatedMatter:
+        type: Matter
+        desc: the matter this filing belongs to
+      jurisdiction:
+        type: Jurisdiction
+        desc: governing jurisdiction
+
+  JudicialOpinion:
+    type: ENTITY
+    desc: A court decision / judgment / case law (the CASENAME + holding)
+    properties:
+      name: Text
+      citation:
+        type: Text
+        desc: the reporter citation (e.g. '410 U.S. 113')
+      description:
+        type: Text
+        index: TextAndVector
+      decisionDate:
+        type: Text
+        desc: the date the opinion was issued
+      holding:
+        type: Text
+        index: TextAndVector
+        desc: the court's holding / outcome
+      court:
+        type: Court
+        desc: the deciding court
+      judge:
+        type: Person
+        multi: true
+        desc: judge(s) who authored/joined the opinion
+      plaintiff:
+        type: Organization
+        multi: true
+        desc: plaintiff/appellant party
+      defendant:
+        type: Organization
+        multi: true
+        desc: defendant/respondent party
+      citesOpinion:
+        type: JudicialOpinion
+        multi: true
+        desc: precedent opinions cited
+      appliesStatute:
+        type: Statute
+        multi: true
+        desc: statutes interpreted/applied
+      addressesIssue:
+        type: LegalIssue
+        multi: true
+        desc: legal issues decided
+      jurisdiction:
+        type: Jurisdiction
+        desc: governing jurisdiction
+
+  Statute:
+    type: ENTITY
+    desc: A piece of primary legislation (act, statute, code section)
+    properties:
+      name: Text
+      citation:
+        type: Text
+        desc: the statutory citation (e.g. '17 U.S.C. § 106')
+      description:
+        type: Text
+        index: TextAndVector
+      effectiveDate:
+        type: Text
+        desc: when the statute took effect
+      enactedBy:
+        type: Organization
+        desc: the legislature/body that enacted it
+      amends:
+        type: Statute
+        multi: true
+        desc: statutes this one amends
+      addressesIssue:
+        type: LegalIssue
+        multi: true
+        desc: legal issues/areas the statute governs
+      jurisdiction:
+        type: Jurisdiction
+        desc: the jurisdiction the statute applies in
+
+  Regulation:
+    type: ENTITY
+    desc: A piece of secondary/administrative law (rule, regulation)
+    properties:
+      name: Text
+      citation:
+        type: Text
+        desc: the regulatory citation (e.g. '12 CFR 1026')
+      description:
+        type: Text
+        index: TextAndVector
+      issuedBy:
+        type: Organization
+        desc: the agency that issued the regulation
+      implementsStatute:
+        type: Statute
+        multi: true
+        desc: statute(s) the regulation implements
+      addressesIssue:
+        type: LegalIssue
+        multi: true
+        desc: legal issues/areas the regulation governs
+      jurisdiction:
+        type: Jurisdiction
+        desc: the jurisdiction the regulation applies in
+
+  InternalDocument:
+    type: ENTITY
+    desc: A firm-internal document (memo, engagement letter, research note, email)
+    properties:
+      name: Text
+      docType:
+        type: Text
+        desc: "one of: memo, engagement_letter, research_note, email, know_how"
+      description:
+        type: Text
+        index: TextAndVector
+      createdDate:
+        type: Text
+        desc: date the document was created
+      authoredBy:
+        type: Person
+        multi: true
+        desc: author(s) of the document
+      about:
+        type: LegalIssue
+        multi: true
+        desc: legal issues/topics the document addresses
+      referencesOpinion:
+        type: JudicialOpinion
+        multi: true
+        desc: case law referenced
+      relatedMatter:
+        type: Matter
+        desc: the matter this document belongs to
+
+  # ===========================================================================
+  # 3) STRUCTURAL / CONTENT TYPES
+  # ===========================================================================
+  Clause:
+    type: ENTITY
+    desc: A notable clause/provision within a contract (CUAD-style review unit)
+    properties:
+      name: Text
+      clauseType:
+        type: Text
+        desc: >-
+          CUAD review category, one of: Document Name, Parties, Agreement Date,
+          Effective Date, Expiration Date, Renewal Term, Notice Period To Terminate
+          Renewal, Governing Law, Most Favored Nation, Non-Compete, Exclusivity,
+          No-Solicit Of Customers, Competitive Restriction Exception, No-Solicit Of
+          Employees, Non-Disparagement, Termination For Convenience, Rofr/Rofo/Rofn,
+          Change Of Control, Anti-Assignment, Revenue/Profit Sharing, Price
+          Restrictions, Minimum Commitment, Volume Restriction, IP Ownership
+          Assignment, Joint IP Ownership, License Grant, Non-Transferable License,
+          Affiliate License-Licensor, Affiliate License-Licensee, Unlimited/All-You-
+          Can-Eat License, Irrevocable Or Perpetual License, Source Code Escrow,
+          Post-Termination Services, Audit Rights, Uncapped Liability, Cap On
+          Liability, Liquidated Damages, Warranty Duration, Insurance, Covenant Not
+          To Sue, Third Party Beneficiary
+      text:
+        type: Text
+        index: TextAndVector
+        desc: the clause text
+      imposesObligation:
+        type: Obligation
+        multi: true
+        desc: obligations created by the clause
+      partOfContract:
+        type: Contract
+        desc: the contract the clause belongs to
+
+  Obligation:
+    type: ENTITY
+    desc: A duty/commitment one party owes another
+    properties:
+      name: Text
+      description:
+        type: Text
+        index: TextAndVector
+      obligationType:
+        type: Text
+        desc: "e.g.: payment, delivery, confidentiality, indemnification, notice"
+      dueDate:
+        type: Text
+        desc: deadline/trigger for the obligation
+      obligor:
+        type: Organization
+        desc: the party that owes the obligation
+      obligee:
+        type: Organization
+        desc: the party owed the obligation
+
+  Chunk:
+    type: ENTITY
+    properties:
+      content:
+        type: Text
+        index: TextAndVector
+
+  Summary:
+    type: ENTITY
+    desc: A condensed summary of a chunk produced by the summary extractor
+    properties:
+      content:
+        type: Text
+        index: TextAndVector
+
+  # ===========================================================================
+  # 4) ACTORS
+  # ===========================================================================
+  Person:
+    type: ENTITY
+    desc: An individual (attorney, judge, client contact, signatory, witness)
+    properties:
+      name: Text
+      description:
+        type: Text
+        index: TextAndVector
+      personRole:
+        type: Text
+        desc: "e.g.: attorney, judge, client, signatory, witness, expert, officer"
+      title:
+        type: Text
+        desc: job/professional title
+      affiliatedWith:
+        type: Organization
+        desc: the organization the person works for / is affiliated with
+      admittedIn:
+        type: Jurisdiction
+        desc: jurisdiction(s) where an attorney is admitted to practice
+
+  Organization:
+    type: ENTITY
+    desc: An organization (company, law firm, government agency, other party)
+    properties:
+      name: Text
+      description:
+        type: Text
+        index: TextAndVector
+      orgType:
+        type: Text
+        desc: "one of: company, law_firm, government_agency, nonprofit, other"
+      headquarters:
+        type: Text
+        desc: principal place of business
+      incorporatedIn:
+        type: Jurisdiction
+        desc: jurisdiction of incorporation
+      parentOrganization:
+        type: Organization
+        desc: parent company/organization
+
+  Court:
+    type: ENTITY
+    desc: A court or tribunal
+    properties:
+      name: Text
+      description:
+        type: Text
+        index: TextAndVector
+      courtLevel:
+        type: Text
+        desc: "one of: trial, appellate, supreme, administrative, arbitration"
+      jurisdiction:
+        type: Jurisdiction
+        desc: the jurisdiction the court sits in
+
+  # ===========================================================================
+  # 5) LEGAL AUTHORITIES / CONCEPTS
+  # ===========================================================================
+  Jurisdiction:
+    type: ENTITY
+    desc: A legal jurisdiction whose law may govern a matter/document
+    properties:
+      name: Text
+      description:
+        type: Text
+        index: TextAndVector
+      level:
+        type: Text
+        desc: "one of: municipal, state, federal, national, international"
+
+  LegalIssue:
+    type: ENTITY
+    desc: A legal issue, claim, or area of law (e.g. 'breach of contract', 'negligence')
+    properties:
+      name: Text
+      description:
+        type: Text
+        index: TextAndVector
+      areaOfLaw:
+        type: Text
+        desc: "e.g.: contract, tort, ip, employment, corporate, criminal, tax, regulatory"

@@ -15,9 +15,10 @@ venv/
 .ruff_cache/
 .mypy_cache/
 
-# Env / secrects
+# Env / secrets
 .env
 .env.*
+!.env.example
 
 # IDE
 .DS_Store
