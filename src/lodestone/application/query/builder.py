@@ -14,7 +14,6 @@ is a search query), whereas ingestion embeds chunks with ``input_type="document"
 from __future__ import annotations
 
 import os
-from functools import cache
 from typing import Any
 
 from src.lodestone.config.settings import IngestionSettings, get_settings
@@ -110,9 +109,3 @@ def build_query_pipeline(pipeline_name: str = "naive_rag", settings: IngestionSe
     }
     conf = _replace_placeholders(_load_pipeline_conf(pipeline_name), replacements)
     return SolverPipelineABC.from_config(conf["solver_pipeline"])
-
-
-@cache
-def get_query_pipeline(pipeline_name: str = "naive_rag"):
-    """Return a cached query pipeline for ``pipeline_name``, wired from settings."""
-    return build_query_pipeline(pipeline_name)

@@ -7,6 +7,7 @@ from kag.common.llm.openai_client import AzureOpenAIClient
 from kag.common.vectorize_model.azure_cohere_model import AzureCohereVectorizeModel
 from kag.interface import LLMClient
 from src.lodestone.application.ingestion.pipeline import IngestionPipeline
+from src.lodestone.application.query.builder import build_query_pipeline
 from src.lodestone.config.settings import IngestionSettings, get_settings
 
 
@@ -66,3 +67,9 @@ def get_ingestion_pipeline() -> IngestionPipeline:
         graph_store=_build_graph_store(settings),
         namespace=settings.namespace,
     )
+
+
+@lru_cache
+def get_query_pipeline(pipeline_name: str = "naive_rag"):
+    """Return the cached query (solver) pipeline for ``pipeline_name``, wired from settings."""
+    return build_query_pipeline(pipeline_name)
