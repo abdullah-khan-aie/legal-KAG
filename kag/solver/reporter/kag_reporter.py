@@ -6,15 +6,12 @@ import time
 from jinja2 import Template, Undefined
 
 from kag.common.conf import KAGConfigAccessor, KAGConstants
-from kag.common.rest import ApiClient, Configuration
 from kag.common.utils import generate_random_string
 from kag.interface.solver.model.one_hop_graph import (
     EntityData,
     RelationData,
 )
 from kag.interface.solver.reporter_abc import ReporterABC
-from kag.reasoner import ReasonerApi
-from kag.reasoner.rest.models import TaskStreamRequest
 from kag.reasoner.rest.models.data_edge import DataEdge
 from kag.reasoner.rest.models.data_node import DataNode
 from kag.reasoner.rest.models.metrics import Metrics
@@ -162,15 +159,13 @@ def render_jinja2_template(template_str, context):
         return template_str.strip()  # Fallback to raw template string on failure
 
 
-@ReporterABC.register("open_spg_reporter")
-class OpenSPGReporter(ReporterABC):
+@ReporterABC.register("kag_reporter")
+class KagReporter(ReporterABC):
     def __init__(self, task_id, host_addr=None, project_id=None, **kwargs):
         super().__init__(**kwargs)
         self.last_report = None
         self._lock = threading.Lock()
         self.task_id = task_id
-        self.host = host_addr
-        self.project_id = project_id
         self.report_stream_data = {}
         self.report_segment_time = {}
         self.report_record = []
@@ -397,13 +392,6 @@ Rewritten question:\n{content}
         kag_config = KAGConfigAccessor.get_config(task_id)
         self.kag_project_config = kag_config.global_config
 
-        if self.host:
-            self.client: ReasonerApi = ReasonerApi(
-                api_client=ApiClient(configuration=Configuration(host=self.host))
-            )
-        else:
-            self.client = None
-
     def generate_content(self, report_id, tpl, datas, content_params, graph_list):
         end_word = "." if self.kag_project_config.language == "en" else "。"
         if (
@@ -485,27 +473,6 @@ Rewritten question:\n{content}
                     self.report_segment_time[segment] = {
                         "start_time": time.time(),
                     }
-
-    def do_report(self):
-        if not self.client:
-            return
-        content, status_enum, metrics = self.generate_report_data()
-
-        request = TaskStreamRequest(task_id=self.task_id, content=content, status_enum=status_enum)
-        try:
-            ret = self.client.reasoner_dialog_report_completions_post(task_stream_request=request)
-            if self.last_report is None:
-                logger.info(f"begin do_report: {request} ret={ret}")
-                self.last_report = request
-            if self.last_report.to_dict() == request.to_dict():
-                return
-            logger.info(
-                f"do_report: {content.answer} think={content.think} status={status_enum} ret={ret}"
-            )
-            self.last_report = request
-
-        except Exception as e:
-            logging.error(f"do_report failed:{e}")
 
     def get_word_template(self, word, params):
         for name in self.word_mapping:

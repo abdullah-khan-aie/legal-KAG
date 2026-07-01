@@ -5,7 +5,7 @@ from kag.common.conf import KAG_PROJECT_CONF
 from kag.common.parser.logic_node_parser import extract_steps_and_actions
 from kag.common.utils import extract_tag_content, remove_boxed
 from kag.interface.solver.reporter_abc import ReporterABC
-from kag.solver.reporter.open_spg_reporter import OpenSPGReporter
+from kag.solver.reporter.kag_reporter import KagReporter
 
 logger = logging.getLogger()
 
@@ -81,8 +81,8 @@ def process_tag_template(text):
     return text
 
 
-@ReporterABC.register("kag_open_spg_reporter")
-class KAGOpenSPGReporter(OpenSPGReporter):
+@ReporterABC.register("kag_model_reporter")
+class KagModelReporter(KagReporter):
     def __init__(self, task_id, host_addr=None, project_id=None, **kwargs):
         super().__init__(task_id=task_id, host_addr=host_addr, project_id=project_id, **kwargs)
         self.tag_mapping["begin_sub_kag_think"] = {

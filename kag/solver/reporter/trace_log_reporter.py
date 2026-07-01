@@ -5,7 +5,7 @@ from kag.interface.solver.reporter_abc import ReporterABC
 from kag.solver.executor.retriever.local_knowledge_base.kag_retriever.kag_hybrid_executor import (
     KAGRetrievedResponse,
 )
-from kag.solver.reporter.open_spg_reporter import OpenSPGReporter
+from kag.solver.reporter.kag_reporter import KagReporter
 
 logger = logging.getLogger()
 
@@ -29,7 +29,7 @@ class TraceLog:
 
 
 @ReporterABC.register("trace_log_reporter")
-class TraceLogReporter(OpenSPGReporter):
+class TraceLogReporter(KagReporter):
     def __init__(self, **kwargs):
         super().__init__(0, **kwargs)
 
