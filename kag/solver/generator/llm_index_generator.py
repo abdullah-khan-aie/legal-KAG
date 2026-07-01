@@ -5,7 +5,7 @@ from tenacity import retry, stop_after_attempt
 from kag.common.conf import KAGConfigAccessor, KAGConstants
 from kag.common.tools.algorithm_tool.rerank.rerank_by_vector import RerankByVector
 from kag.interface import GeneratorABC, LLMClient, PromptABC, RetrieverOutput
-from kag.interface.solver.reporter_abc import ReporterABC
+from kag.interface.solver.reporter_abc import ReporterABC, do_report
 from kag.solver.executor.retriever.local_knowledge_base.kag_retriever.kag_hybrid_executor import (
     to_reference_list,
 )
@@ -86,7 +86,12 @@ class LLMIndexGenerator(GeneratorABC):
             **kwargs,
         )
 
-    def invoke(self, query, context, **kwargs):
+    def _prepare_content(self, query, context, **kwargs):
+        """Build the generation ``content`` and reference data from the context.
+
+        Shared by the sync ``invoke`` and the streaming ``ainvoke``; also emits
+        the generator's step/reference report lines. Fast and non-blocking.
+        """
         reporter: ReporterABC | None = kwargs.get("reporter", None)
         results = []
         rerank_queries = []
@@ -140,8 +145,64 @@ Step by Step Analysis:
 {thoughts}
 
             """
+        return content, refer_data
+
+    def _select_prompt_and_vars(self, query, content, refer_data):
+        """Pick the answer prompt and its template variables (mirrors generate_answer)."""
+        if not self.enable_ref:
+            return self.generated_prompt, {"query": query, "content": content}
+        if refer_data and len(refer_data):
+            ref = json.dumps(refer_data, ensure_ascii=False, indent=2)
+            return self.with_ref_prompt, {"query": query, "content": content, "ref": ref}
+        return self.with_out_ref_prompt, {"query": query, "content": content}
+
+    def invoke(self, query, context, **kwargs):
+        content, refer_data = self._prepare_content(query, context, **kwargs)
         if self.generated_prompt:
             return self.generate_answer(
                 query=query, content=content, refer_data=refer_data, **kwargs
             )
         return ""
+
+    async def ainvoke(self, query, context, **kwargs):
+        """Async generation that streams the final answer token by token.
+
+        Reuses ``_prepare_content`` for retrieval/rerank, then streams the answer
+        via ``llm_client.astream``, reporting each delta through the reporter hook
+        (segment ``answer``) so an SSE endpoint can forward tokens live. Returns
+        the full accumulated answer, so callers (the pipeline) are unaffected.
+        """
+        content, refer_data = self._prepare_content(query, context, **kwargs)
+        if not self.generated_prompt:
+            return ""
+        return await self._agenerate_answer(
+            query=query, content=content, refer_data=refer_data, **kwargs
+        )
+
+    async def _agenerate_answer(self, query, content, refer_data, **kwargs):
+        reporter = kwargs.get("reporter", None)
+        prompt_op, variables = self._select_prompt_and_vars(query, content, refer_data)
+        prompt = prompt_op.build_prompt(variables)
+        # Streaming only supports a rendered string prompt; fall back otherwise.
+        if not prompt or isinstance(prompt, list):
+            return self.generate_answer(
+                query=query, content=content, refer_data=refer_data, **kwargs
+            )
+        answer = ""
+        async for delta in self.llm_client.astream(prompt):
+            answer += delta
+            do_report(
+                delta,
+                "RUNNING",
+                reporter=reporter,
+                segment_name="answer",
+                tag_name="Final Answer",
+            )
+        do_report(
+            answer,
+            "FINISH",
+            reporter=reporter,
+            segment_name="answer",
+            tag_name="Final Answer",
+        )
+        return prompt_op.parse_response(answer, model=self.llm_client.model, **variables)
