@@ -1,5 +1,17 @@
+"""Load the project schema from the local YAML into the shape ``SchemaUtils`` expects.
+
+Server-free replacement for kag's ``ReasonerClient.get_reason_schema()``, which
+fetched the schema from the OpenSPG reasoner server. This reads the local schema
+YAML (``INGEST_SCHEMA_PATH`` / ``KAG_PROJECT_CONF.schema_path``) via ``SchemaClient``
+and reshapes it into the lightweight type objects the solver's schema helpers
+consume -- no server, no project_id, no host_addr.
+"""
+
+from __future__ import annotations
+
+
 class _Attr:
-    """Provide a property/attribute view shaped for SchemaUtils._convert_spg_attr_set."""
+    """Property view shaped for ``SchemaUtils._convert_spg_attr_set``."""
 
     def __init__(self, name, name_zh, constraint):
         self._name = name
@@ -32,13 +44,11 @@ class _SpgType:
         self.relations = relations
 
 
-class ReasonerClient:
-    def __init__(self, host_addr=None, project_id=None, **kwargs):
-        self.host_addr = host_addr
-        self.project_id = project_id
+class LocalSchemaLoader:
+    """Loads the local YAML schema into ``_SpgType`` objects for the solver."""
 
     @staticmethod
-    def get_reason_schema():
+    def load():
         import os
 
         from kag.common.conf import KAG_PROJECT_CONF

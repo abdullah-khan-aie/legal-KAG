@@ -3,8 +3,8 @@ import json
 from collections import defaultdict
 
 from kag.common.config import LogicFormConfiguration
-from kag.reasoner.client import ReasonerClient
 from kag.schema.client import Property
+from kag.schema.local_loader import LocalSchemaLoader
 
 
 class SchemaUtils:
@@ -12,7 +12,6 @@ class SchemaUtils:
         self.config: LogicFormConfiguration = config
         self.prefix = config.prefix
         self.prefix_concat_sign = "."
-        self.project_id = config.project_id
         self.nodes = set()  # zh
         self.edges = set()  # zh
         self.spo = set()  # zh
@@ -121,12 +120,11 @@ class SchemaUtils:
 
     def get_schema(self):
         if self.config.schema_file_name == "":
-            return self.get_schema_from_spg()
+            return self.get_schema_from_local()
         return self.get_schema_from_csv()
 
-    def get_schema_from_spg(self):
-        sc = ReasonerClient(self.config.host_addr, int(self.project_id))
-        spg_schema = sc.get_reason_schema()
+    def get_schema_from_local(self):
+        spg_schema = LocalSchemaLoader.load()
         node_attributes = {}
         for spg_type_name, spg_type in spg_schema.items():
             name_en = spg_type.name_en

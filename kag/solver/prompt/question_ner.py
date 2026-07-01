@@ -2,7 +2,7 @@ import json
 from string import Template
 
 from kag.interface import PromptABC
-from kag.reasoner.client import ReasonerClient
+from kag.schema.local_loader import LocalSchemaLoader
 
 
 @PromptABC.register("default_question_ner")
@@ -33,15 +33,7 @@ class QuestionNER(PromptABC):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-        self.schema = (
-            ReasonerClient(
-                project_id=self.kag_project_config.project_id,
-                host_addr=self.kag_project_config.host_addr,
-                namespace=self.kag_project_config.namespace,
-            )
-            .get_reason_schema()
-            .keys()
-        )
+        self.schema = LocalSchemaLoader.load().keys()
         self.template = Template(self.template).safe_substitute(schema=self.schema)
 
     @property
