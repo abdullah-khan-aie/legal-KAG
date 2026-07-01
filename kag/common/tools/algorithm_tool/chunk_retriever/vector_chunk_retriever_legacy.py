@@ -23,18 +23,12 @@ class VectorChunkRetriever(ToolABC):
         super().__init__()
         task_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         kag_config = KAGConfigAccessor.get_config(task_id)
-        kag_project_config = kag_config.global_config
         self.vectorize_model = vectorize_model or VectorizeModelABC.from_config(
             kag_config.all_config["vectorize_model"]
         )
-        self.search_api = search_api or SearchApiABC.from_config({"type": "openspg_search_api"})
+        self.search_api = search_api
         self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration(
-                {
-                    "KAG_PROJECT_ID": kag_project_config.project_id,
-                    "KAG_PROJECT_HOST_ADDR": kag_project_config.host_addr,
-                }
-            )
+            LogicFormConfiguration({})
         )
 
     def invoke(self, query, top_k: int, **kwargs) -> dict[str, dict]:

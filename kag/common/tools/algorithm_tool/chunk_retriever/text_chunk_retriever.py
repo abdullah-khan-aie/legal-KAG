@@ -13,14 +13,9 @@ logger = logging.getLogger()
 class TextChunkRetriever(RetrieverABC):
     def __init__(self, search_api: SearchApiABC = None, top_k: int = 10, **kwargs):
         super().__init__(top_k, **kwargs)
-        self.search_api = search_api or SearchApiABC.from_config({"type": "openspg_search_api"})
+        self.search_api = search_api
         self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration(
-                {
-                    "KAG_PROJECT_ID": self.kag_project_config.project_id,
-                    "KAG_PROJECT_HOST_ADDR": self.kag_project_config.host_addr,
-                }
-            )
+            LogicFormConfiguration({})
         )
 
     def invoke(self, task, **kwargs) -> RetrieverOutput:

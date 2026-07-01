@@ -150,16 +150,8 @@ class RetrieverLFStaticPlanningPrompt(PromptABC):
         super().__init__(**kwargs)
 
         if std_schema is not None:
-            logger.info(
-                f"KAG_PROJECT_ID: {self.kag_project_config.project_id}, KAG_PROJECT_HOST_ADDR: {self.kag_project_config.host_addr}"
-            )
             self.schema_helper: SchemaUtils = SchemaUtils(
-                LogicFormConfiguration(
-                    {
-                        "KAG_PROJECT_ID": self.kag_project_config.project_id,
-                        "KAG_PROJECT_HOST_ADDR": self.kag_project_config.host_addr,
-                    }
-                )
+                LogicFormConfiguration({})
             )
             self.std_schema = resolve_instance(
                 std_schema,

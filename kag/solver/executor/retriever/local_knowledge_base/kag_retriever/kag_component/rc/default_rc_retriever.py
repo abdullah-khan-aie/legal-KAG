@@ -43,7 +43,6 @@ class RCRetrieverOnOpenSPG(KagLogicalFormComponent):
         super().__init__(**kwargs)
         task_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         kag_config = KAGConfigAccessor.get_config(task_id)
-        kag_project_config = kag_config.global_config
         self.name = kwargs.get("name", "kg_rc")
         self.top_k = top_k
         self.vectorize_model = vectorize_model or VectorizeModelABC.from_config(
@@ -51,20 +50,15 @@ class RCRetrieverOnOpenSPG(KagLogicalFormComponent):
         )
         self.text_similarity = TextSimilarity(vectorize_model)
 
-        self.search_api = search_api or SearchApiABC.from_config({"type": "openspg_search_api"})
-        self.graph_api = graph_api or GraphApiABC.from_config({"type": "openspg_graph_api"})
+        self.search_api = search_api
+        self.graph_api = graph_api
 
         self.vector_chunk_retriever = vector_chunk_retriever or VectorChunkRetriever(
             vectorize_model=self.vectorize_model, search_api=self.search_api
         )
 
         self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration(
-                {
-                    "KAG_PROJECT_ID": kag_project_config.project_id,
-                    "KAG_PROJECT_HOST_ADDR": kag_project_config.host_addr,
-                }
-            )
+            LogicFormConfiguration({})
         )
 
     def recall_query(self, query):

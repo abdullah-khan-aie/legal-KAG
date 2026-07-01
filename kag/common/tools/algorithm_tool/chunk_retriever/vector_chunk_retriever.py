@@ -30,14 +30,9 @@ class VectorChunkRetriever(RetrieverABC):
         self.vectorize_model = vectorize_model or VectorizeModelABC.from_config(
             self.kag_config.all_config["vectorize_model"]
         )
-        self.search_api = search_api or SearchApiABC.from_config({"type": "openspg_search_api"})
+        self.search_api = search_api
         self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration(
-                {
-                    "KAG_PROJECT_ID": self.kag_project_config.project_id,
-                    "KAG_PROJECT_HOST_ADDR": self.kag_project_config.host_addr,
-                }
-            )
+            LogicFormConfiguration({})
         )
         self.score_threshold = score_threshold
 

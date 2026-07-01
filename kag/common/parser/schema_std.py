@@ -28,16 +28,11 @@ class StdSchema(Registrable):
         kag_config = KAGConfigAccessor.get_config(task_id)
         self.kag_project_config = kag_config.global_config
         self.schema: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration(
-                {
-                    "KAG_PROJECT_ID": self.kag_project_config.project_id,
-                    "KAG_PROJECT_HOST_ADDR": self.kag_project_config.host_addr,
-                }
-            )
+            LogicFormConfiguration({})
         )
         self.search_api = resolve_instance(
             search_api,
-            default_config={"type": "openspg_search_api"},
+            default_config={"type": "neo4j_search_api"},
             from_config_func=SearchApiABC.from_config,
         )
 

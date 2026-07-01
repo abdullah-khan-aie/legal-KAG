@@ -36,16 +36,11 @@ class PprChunkRetriever(RetrieverABC):
     ):
         super().__init__(**kwargs)
         self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration(
-                {
-                    "KAG_PROJECT_ID": self.kag_project_config.project_id,
-                    "KAG_PROJECT_HOST_ADDR": self.kag_project_config.host_addr,
-                }
-            )
+            LogicFormConfiguration({})
         )
-        self.graph_api = graph_api or GraphApiABC.from_config({"type": "openspg_graph_api"})
+        self.graph_api = graph_api
 
-        self.search_api = search_api or SearchApiABC.from_config({"type": "openspg_search_api"})
+        self.search_api = search_api
 
         self.vectorize_model = vectorize_model or VectorizeModelABC.from_config(
             self.kag_config.all_config["vectorize_model"]

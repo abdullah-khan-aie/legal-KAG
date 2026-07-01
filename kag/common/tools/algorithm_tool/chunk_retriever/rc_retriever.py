@@ -35,12 +35,7 @@ class RCRetrieverOnOpenSPG(RetrieverABC):
         )
 
         self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration(
-                {
-                    "KAG_PROJECT_ID": self.kag_project_config.project_id,
-                    "KAG_PROJECT_HOST_ADDR": self.kag_project_config.host_addr,
-                }
-            )
+            LogicFormConfiguration({})
         )
 
     def invoke(self, task, **kwargs) -> RetrieverOutput:

@@ -18,16 +18,8 @@ logger = logging.getLogger()
 
 
 def get_std_logic_form_parser(std_schema: StdSchema, kb_project_conf: KAGGlobalConf):
-    logger.info(
-        f"KAG_PROJECT_ID: {kb_project_conf.project_id}, KAG_PROJECT_HOST_ADDR: {kb_project_conf.host_addr}"
-    )
     schema_helper: SchemaUtils = SchemaUtils(
-        LogicFormConfiguration(
-            {
-                "KAG_PROJECT_ID": kb_project_conf.project_id,
-                "KAG_PROJECT_HOST_ADDR": kb_project_conf.host_addr,
-            }
-        )
+        LogicFormConfiguration({})
     )
     std_schema = resolve_instance(
         std_schema,

@@ -3,9 +3,8 @@
 # The full kag conf is the config framework (KAG_PROJECT_CONF, task registry) the
 # project deliberately does not re-introduce. The extracted retriever/solver code
 # reads only a few constants and a config object exposing global_config (namespace,
-# project_id, host_addr, language, biz_scene) and all_config. In the server-free
-# build, models/schema are bound explicitly, so this returns a default config and
-# the `... or X.from_config(...)` fallbacks in the extracted code never fire.
+# project_id, language, biz_scene, schema_path) and all_config. In the server-free
+# build, models/schema are bound explicitly, so this returns a default config.
 
 
 class KAGConstants:
@@ -19,13 +18,12 @@ class KAGGlobalConf:
         import os
 
         self.namespace = kwargs.get("namespace", "")
-        # dummy project id: verbatim kag does int(project_id); host_addr stays
-        # None so server-detection (needs both id+addr) still resolves server-free.
+        # project_id: used only as an in-memory cache namespace (task_cache_id) by
+        # the graph retrievers; a constant is fine for a single knowledge base.
         self.project_id = kwargs.get("project_id", "1")
-        self.host_addr = kwargs.get("host_addr", None)
         self.language = kwargs.get("language", "en")
         self.biz_scene = kwargs.get("biz_scene", "default")
-        # server-free schema source for SchemaUtils (read via ReasonerClient).
+        # server-free schema source for SchemaUtils (read via LocalSchemaLoader).
         # Set this (or INGEST_SCHEMA_PATH) to the local YAML schema so the solver
         # / retrievers build their SchemaUtils without the OpenSPG reasoner server.
         self.schema_path = kwargs.get("schema_path", os.environ.get("INGEST_SCHEMA_PATH", ""))
