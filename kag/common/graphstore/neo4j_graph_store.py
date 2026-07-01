@@ -126,7 +126,7 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
             result.consume()
             logger.debug(f"index constraint created for constraint_name: {index_name}")
         except Exception as e:
-            logger.warn(f"warn creating index constraint for {index_name}: {e}")
+            logger.warning(f"warn creating index constraint for {index_name}: {e}")
 
     def _update_pagerank_graph(self):
         all_graph_0 = "allGraph_0"
@@ -759,7 +759,7 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
 
     def create_text_index(self, labels, property_keys, index_name=None):
         if not labels or not property_keys:
-            return
+            return None
         if index_name is None:
             index_name = "_default_text_index"
         label_spec = "|".join(self._escape_neo4j(label) for label in labels)
@@ -1123,6 +1123,7 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
         single_result = result.single()
         if single_result is not None:
             return single_result[0]
+        return None
 
     def create_database(self, database):
         with self._driver.session(database=self._database) as session:

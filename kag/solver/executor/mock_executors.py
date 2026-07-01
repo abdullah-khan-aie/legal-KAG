@@ -60,6 +60,7 @@ class MockMathExecutor(ExecutorABC):
     """Given a mathematical expression that conforms to Python syntax, perform the mathematical calculation."""
 
     def __init__(self, llm: LLMClient):
+        super().__init__()
         self.llm = llm
         self.prompt = """
 根据问题生成可执行Python代码(需要import所有的依赖包)，最后一行用`print`输出结果。代码需简洁无注释，仅返回代码，不要其他内容。
@@ -141,6 +142,7 @@ class MockCodeExecutor(ExecutorABC):
     """Given a mathematical expression that conforms to Python syntax, perform the mathematical calculation."""
 
     def __init__(self, llm: LLMClient):
+        super().__init__()
         self.llm = llm
         self.prompt = """
 根据问题生成可执行Python代码(需要import所有的依赖包)，最后一行用`print`输出结果。代码需简洁无注释，仅返回代码，不要其他内容。

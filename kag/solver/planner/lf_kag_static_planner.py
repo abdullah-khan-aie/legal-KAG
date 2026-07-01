@@ -116,6 +116,7 @@ class KAGLFStaticPlanner(PlannerABC):
                 retry_num -= 1
                 if retry_num == 0:
                     raise e
+        return None
 
     async def ainvoke(self, query, **kwargs) -> list[Task]:
         """Asynchronously generate the full task plan for the query with the LLM.

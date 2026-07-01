@@ -135,15 +135,15 @@ class KAGPostProcessor(PostProcessorABC):
         labels = self.external_graph.get_allowed_labels()
         self._entity_link(graph, property_key, labels)
 
-    def _invoke(self, input, **kwargs):
+    def _invoke(self, data, **kwargs):
         """Filter the subgraph and, when a threshold is set, link its entities.
 
         Args:
-            input: The subgraph to process.
+            data: The subgraph to process.
         """
-        origin_num_nodes = len(input.nodes)
-        origin_num_edges = len(input.edges)
-        new_graph = self.filter_invalid_data(input)
+        origin_num_nodes = len(data.nodes)
+        origin_num_edges = len(data.edges)
+        new_graph = self.filter_invalid_data(data)
         if self.similarity_threshold is not None:
             self.similarity_based_link(new_graph)
             self.external_graph_based_link(new_graph)

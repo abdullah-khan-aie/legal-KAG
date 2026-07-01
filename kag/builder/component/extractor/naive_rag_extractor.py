@@ -72,18 +72,18 @@ class NaiveRagExtractor(ExtractorABC):
         sub_graph.id = chunk.id
         return sub_graph
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
+    def _invoke(self, data: Input, **kwargs) -> list[Output]:
         """Build a chunk-only subgraph, delegating table chunks to the table extractor.
 
         Args:
-            input: The chunk to process.
+            data: The chunk to process.
         """
-        if self.table_extractor is not None and input.type == ChunkTypeEnum.Table:
-            return self.table_extractor._invoke(input)
+        if self.table_extractor is not None and data.type == ChunkTypeEnum.Table:
+            return self.table_extractor._invoke(data)
 
         out = []
         sub_graph = SubGraph([], [])
-        sub_graph = self.assemble_sub_graph_with_chunk(sub_graph, input)
+        sub_graph = self.assemble_sub_graph_with_chunk(sub_graph, data)
 
         out.append(sub_graph)
         return out

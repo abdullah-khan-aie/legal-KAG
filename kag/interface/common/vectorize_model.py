@@ -50,6 +50,7 @@ class VectorizeModelABC(Registrable):
             max_rate: Maximum allowed requests per time period.
             time_period: Time window for rate limiting, in seconds.
         """
+        super().__init__()
         self._vector_dimensions = vector_dimensions
         self.limiter = RATE_LIMITER_MANGER.get_rate_limiter(name, max_rate, time_period)
 
@@ -162,6 +163,7 @@ class SparseVectorizeModelABC(Registrable):
             max_rate: Maximum allowed requests per time period.
             time_period: Time window for rate limiting, in seconds.
         """
+        super().__init__()
         self.limiter = RATE_LIMITER_MANGER.get_rate_limiter(name, max_rate, time_period)
 
     def _download_model(self, path, url):

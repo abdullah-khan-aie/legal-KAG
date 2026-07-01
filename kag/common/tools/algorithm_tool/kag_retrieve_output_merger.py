@@ -57,6 +57,7 @@ class KAGRetrieverOutputMerger(RetrieverOutputMerger):
             else:
                 score = (score - min_score) / (max_score - min_score)
             chunk.score = score
+        return None
 
     @staticmethod
     def rrf_normalize(chunks: list[ChunkData]):
@@ -70,6 +71,7 @@ class KAGRetrieverOutputMerger(RetrieverOutputMerger):
         for idx, chunk in enumerate(chunks):
             score = 1 / (idx + 1)
             chunk.score = score
+        return None
 
     @staticmethod
     def chunk_merge(chunk_lists: list[list[ChunkData]], score_normalizer):

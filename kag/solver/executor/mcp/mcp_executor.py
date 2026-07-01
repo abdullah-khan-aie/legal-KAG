@@ -17,7 +17,7 @@ class McpExecutor(ExecutorABC):
         description: str,
         llm: LLMClient,
         prompt: PromptABC = None,
-        env: dict = {},
+        env: dict | None = None,
         **kwargs,
     ):
         super().__init__(**kwargs)
@@ -25,27 +25,27 @@ class McpExecutor(ExecutorABC):
         self.description = description
         self.mcp_file_path = self.download_data(store_path)
         self.prompt = prompt
-        self.env = dict(env)
+        self.env = dict(env) if env else {}
         self.llm = llm
         self.mcp_client = MCPClient(self.llm, self.prompt)
         task_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         kag_config = KAGConfigAccessor.get_config(task_id)
         self.kag_project_config = kag_config.global_config
 
-    def download_data(self, input: str, **kwargs):
+    def download_data(self, data: str, **kwargs):
         """Resolve the MCP server source to a local path.
 
         Downloads the resource when ``input`` is an HTTP(S) URL; otherwise
         returns the input unchanged.
 
         Args:
-            input: A URL or local path identifying the MCP server script.
+            data: A URL or local path identifying the MCP server script.
 
         Returns:
             The local file path of the downloaded resource, or the original
             input when it is not a URL.
         """
-        if input.startswith("http://") or input.startswith("https://"):
+        if data.startswith("http://") or data.startswith("https://"):
             from kag.common.utils import download_from_http
 
             local_file_path = os.path.join(self.kag_project_config.ckpt_dir, "mcp_service")
@@ -53,12 +53,12 @@ class McpExecutor(ExecutorABC):
                 os.makedirs(local_file_path)
             from urllib.parse import urlparse
 
-            parsed_url = urlparse(input)
+            parsed_url = urlparse(data)
             local_file = os.path.join(local_file_path, os.path.basename(parsed_url.path))
 
-            local_file = download_from_http(input, local_file)
+            local_file = download_from_http(data, local_file)
             return local_file
-        return input
+        return data
 
     async def ainvoke(self, query, task, context: Context, **kwargs):
         task_query = task.arguments["query"]

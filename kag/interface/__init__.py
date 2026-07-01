@@ -3,6 +3,7 @@ import copy
 import json
 from abc import ABC
 from string import Template
+from typing import ClassVar
 
 from common import Input, Output
 
@@ -28,15 +29,15 @@ class ReaderABC:
     def output_types(self) -> type[Output]:
         return None
 
-    def invoke(self, input, **kwargs) -> list[Output]:
-        return self._invoke(input, **kwargs)
+    def invoke(self, data, **kwargs) -> list[Output]:
+        return self._invoke(data, **kwargs)
 
-    def _invoke(self, input, **kwargs) -> list[Output]:
+    def _invoke(self, data, **kwargs) -> list[Output]:
         raise NotImplementedError
 
 
 class PromptABC(ABC):
-    template_en: str = ""
+    template_en: ClassVar[str] = ""
 
     def __init__(self, **kwargs):
         # English-only: kag uses template_en everywhere; self.language is a constant
@@ -182,19 +183,19 @@ class ExtractorABC:
     def output_types(self):
         return None
 
-    def invoke(self, input, **kwargs) -> list[Output]:
-        return self._invoke(input, **kwargs)
+    def invoke(self, data, **kwargs) -> list[Output]:
+        return self._invoke(data, **kwargs)
 
-    async def ainvoke(self, input, **kwargs) -> list[Output]:
-        return await self._ainvoke(input, **kwargs)
+    async def ainvoke(self, data, **kwargs) -> list[Output]:
+        return await self._ainvoke(data, **kwargs)
 
-    def _invoke(self, input, **kwargs) -> list[Output]:
+    def _invoke(self, data, **kwargs) -> list[Output]:
         raise NotImplementedError
 
-    async def _ainvoke(self, input, **kwargs) -> list[Output]:
+    async def _ainvoke(self, data, **kwargs) -> list[Output]:
         # Upstream default: components without a real async path run their sync
         # `_invoke` in a worker thread, so awaiting `_ainvoke` never blocks the loop.
-        return await asyncio.to_thread(lambda: self._invoke(input, **kwargs))
+        return await asyncio.to_thread(lambda: self._invoke(data, **kwargs))
 
 
 # --- kag.interface.ExternalGraphLoaderABC (stub) --------------------------- #
@@ -221,13 +222,13 @@ class PostProcessorABC:
 
         return _decorator
 
-    def invoke(self, input, **kwargs) -> list[Output]:
-        return self._invoke(input, **kwargs)
+    def invoke(self, data, **kwargs) -> list[Output]:
+        return self._invoke(data, **kwargs)
 
-    async def ainvoke(self, input, **kwargs) -> list[Output]:
-        return self._invoke(input, **kwargs)
+    async def ainvoke(self, data, **kwargs) -> list[Output]:
+        return self._invoke(data, **kwargs)
 
-    def _invoke(self, input, **kwargs) -> list[Output]:
+    def _invoke(self, data, **kwargs) -> list[Output]:
         raise NotImplementedError
 
 
@@ -252,10 +253,10 @@ class AlignerABC:
     def output_types(self):
         return None
 
-    def invoke(self, input, **kwargs) -> list[Output]:
-        return self._invoke(input, **kwargs)
+    def invoke(self, data, **kwargs) -> list[Output]:
+        return self._invoke(data, **kwargs)
 
-    def _invoke(self, input, **kwargs) -> list[Output]:
+    def _invoke(self, data, **kwargs) -> list[Output]:
         raise NotImplementedError
 
 
@@ -287,16 +288,16 @@ class VectorizerABC:
 
         return _decorator
 
-    def invoke(self, input, **kwargs) -> list[Output]:
-        return self._invoke(input, **kwargs)
+    def invoke(self, data, **kwargs) -> list[Output]:
+        return self._invoke(data, **kwargs)
 
-    async def ainvoke(self, input, **kwargs) -> list[Output]:
-        return await self._ainvoke(input, **kwargs)
+    async def ainvoke(self, data, **kwargs) -> list[Output]:
+        return await self._ainvoke(data, **kwargs)
 
-    def _invoke(self, input, **kwargs) -> list[Output]:
+    def _invoke(self, data, **kwargs) -> list[Output]:
         raise NotImplementedError
 
-    async def _ainvoke(self, input, **kwargs) -> list[Output]:
+    async def _ainvoke(self, data, **kwargs) -> list[Output]:
         raise NotImplementedError
 
 

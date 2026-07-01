@@ -48,7 +48,7 @@ class IndexPipeline(SolverPipelineABC):
         if executor:
             await executor.ainvoke(query, task, context, **kwargs)
         else:
-            logger.warn(f"Executor not  found for task {task}")
+            logger.warning(f"Executor not  found for task {task}")
 
     async def ainvoke(self, query, **kwargs):
         """Run the full pipeline and return the generated answer.

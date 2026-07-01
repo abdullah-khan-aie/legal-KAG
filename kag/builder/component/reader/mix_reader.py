@@ -41,11 +41,11 @@ class MixReader(ReaderABC):
             "dict": dict_reader,
         }
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
+    def _invoke(self, data: Input, **kwargs) -> list[Output]:
         """Select the reader matching the input and delegate parsing to it.
 
         Args:
-            input: A file path or a dictionary to parse.
+            data: A file path or a dictionary to parse.
 
         Raises:
             ValueError: If the input is empty.
@@ -53,16 +53,16 @@ class MixReader(ReaderABC):
             NotImplementedError: If the file suffix is not supported.
             KeyError: If no reader is configured for the input type.
         """
-        if not input:
+        if not data:
             raise ValueError("Input cannot be empty")
-        if isinstance(input, dict):
+        if isinstance(data, dict):
             reader_type = "dict"
 
         else:
-            if not os.path.exists(input):
+            if not os.path.exists(data):
                 raise FileNotFoundError(f"File {input} not found.")
 
-            file_suffix = input.split(".")[-1]
+            file_suffix = data.split(".")[-1]
             if file_suffix not in self.reader_map:
                 raise NotImplementedError(f"File suffix {file_suffix} not supported yet.")
             reader_type = file_suffix
@@ -70,4 +70,4 @@ class MixReader(ReaderABC):
         reader = self.reader_map[reader_type]
         if reader is None:
             raise KeyError(f"{reader_type} reader not correctly configured.")
-        return reader._invoke(input)
+        return reader._invoke(data)

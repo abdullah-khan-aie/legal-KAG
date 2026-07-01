@@ -89,10 +89,10 @@ class SemanticSplitter:
                 chunks.extend(self.semantic_chunk(innerChunk, chunk_size))
         return chunks
 
-    def invoke(self, input: Input, **kwargs) -> list[Output]:
+    def invoke(self, data: Input, **kwargs) -> list[Output]:
         """Public entry point; delegates to the splitting implementation."""
-        return self._invoke(input, **kwargs)
+        return self._invoke(data, **kwargs)
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
-        chunks = self.semantic_chunk(input, self.split_length)
+    def _invoke(self, data: Input, **kwargs) -> list[Output]:
+        chunks = self.semantic_chunk(data, self.split_length)
         return chunks

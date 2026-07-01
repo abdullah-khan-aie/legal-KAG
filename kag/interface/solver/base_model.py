@@ -71,6 +71,7 @@ class SPOBase:
             return "|".join(entity_types)
         if len(entity_zh_types) > 0:
             return "|".join(entity_zh_types)
+        return None
 
     def get_entity_first_std_type(self):
         type_list = list(self.get_entity_type_set())

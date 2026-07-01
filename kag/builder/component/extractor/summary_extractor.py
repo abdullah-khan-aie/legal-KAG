@@ -39,24 +39,24 @@ class SummaryExtractor(ExtractorABC):
     def output_indices() -> list[str]:
         return ["Summary"]
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
+    def _invoke(self, data: Input, **kwargs) -> list[Output]:
         """Summarize the chunk via the LLM and build a Summary subgraph.
 
         Args:
-            input: The chunk to summarize.
+            data: The chunk to summarize.
         """
-        if input.type == ChunkTypeEnum.Text:
+        if data.type == ChunkTypeEnum.Text:
             o_label = CHUNK_TYPE
         else:
             o_label = TABLE_TYPE
 
-        summary_name = input.name
+        summary_name = data.name
 
         index = summary_name.find("_split")
         if index != -1:
             summary_name = summary_name[:index]
 
-        content = input.content
+        content = data.content
         summary = self.llm_module.invoke(
             {"content": content}, self.chunk_summary_prompt, with_json_parse=False
         )
@@ -64,21 +64,21 @@ class SummaryExtractor(ExtractorABC):
         sub_graph = SubGraph([], [])
         # add Summary Node
         sub_graph.add_node(
-            id=input.id,
+            id=data.id,
             name=summary_name,
             label="Summary",
             properties={
-                "id": input.id,
+                "id": data.id,
                 "name": summary_name,
                 "content": summary,
             },
         )
 
-        parent_id = getattr(input, "parent_id", None)
+        parent_id = getattr(data, "parent_id", None)
         if parent_id is not None:
             # add Summary_childOf_Summary edge
             sub_graph.add_edge(
-                s_id=input.id,
+                s_id=data.id,
                 s_label="Summary",
                 p="childOf",
                 o_id=parent_id,
@@ -88,7 +88,7 @@ class SummaryExtractor(ExtractorABC):
 
         # add Summary_sourceChunk_Chunk edge
         sub_graph.add_edge(
-            s_id=input.id,
+            s_id=data.id,
             s_label="Summary",
             p="sourceChunk",
             o_id=f"{input.id}",

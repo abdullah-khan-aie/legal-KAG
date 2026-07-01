@@ -104,6 +104,7 @@ class MCPClient:
             }
             for tool in response.tools
         ]
+        stream = None
         if hasattr(self.llm, "stream"):
             stream = self.llm.stream
             self.llm.stream = False

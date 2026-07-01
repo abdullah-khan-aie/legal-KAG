@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
 # flake8: noqa
 import json
-import re
-from typing import List, Dict
-from kag.interface import PromptABC, Task
+from typing import Dict
+from kag.interface import PromptABC
 
 
 @PromptABC.register("context_select_prompt")

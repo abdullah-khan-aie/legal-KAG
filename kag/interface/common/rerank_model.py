@@ -32,6 +32,7 @@ class RerankModelABC(Registrable):
         max_rate: float = 1000,
         time_period: float = 1,
     ):
+        super().__init__()
         self.limiter = RATE_LIMITER_MANGER.get_rate_limiter(name, max_rate, time_period)
 
     def _download_model(self, path, url):

@@ -174,7 +174,7 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         reraise=True,
     )
     def knowledge_unit_extra(self, passage: str, entities: list[dict]):
-        """Extract knowledge units from the passage given its named entities.
+        """Extract knowledge units from the passage given it's named entities.
 
         Args:
             passage: The source text passage.
@@ -193,7 +193,7 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
         reraise=True,
     )
     async def aknowledge_unit_extra(self, passage: str, entities: list[dict]):
-        """Extract knowledge units from the passage given its named entities.
+        """Extract knowledge units from the passage given it's named entities.
 
         Args:
             passage: The source text passage.
@@ -552,15 +552,15 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
                 )
         return knowledge_unit_nodes
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
+    def _invoke(self, data: Input, **kwargs) -> list[Output]:
         """Extract entities, knowledge units, and triples from the chunk into a subgraph.
 
         Args:
-            input: The chunk to process.
+            data: The chunk to process.
         """
 
-        title = input.name
-        passage = title.split("_split_")[0] + "\n" + input.content
+        title = data.name
+        passage = title.split("_split_")[0] + "\n" + data.content
         out = []
         entities = self.named_entity_recognition(passage)
         sub_graph, entities = self.assemble_sub_graph_with_spg_records(entities)
@@ -574,18 +574,18 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
             sub_graph, entities, knowledge_unit_entities, triples
         )
         union_entities = entities + knowledge_unit_nodes
-        self.assemble_sub_graph(sub_graph, input, union_entities, triples)
+        self.assemble_sub_graph(sub_graph, data, union_entities, triples)
         out.append(sub_graph)
         return out
 
-    async def _ainvoke(self, input: Input, **kwargs) -> list[Output]:
+    async def _ainvoke(self, data: Input, **kwargs) -> list[Output]:
         """Extract entities, knowledge units, and triples from the chunk into a subgraph.
 
         Args:
-            input: The chunk to process.
+            data: The chunk to process.
         """
-        title = input.name
-        passage = title.split("_split_")[0] + "\n" + input.content
+        title = data.name
+        passage = title.split("_split_")[0] + "\n" + data.content
         out = []
         entities = await self.anamed_entity_recognition(passage)
         sub_graph, entities = self.assemble_sub_graph_with_spg_records(entities)
@@ -602,6 +602,6 @@ class KnowledgeUnitSchemaFreeExtractor(ExtractorABC):
             sub_graph, entities, knowledge_unit_entities, triples
         )
         union_entities = entities + knowledge_unit_nodes
-        self.assemble_sub_graph(sub_graph, input, union_entities, triples)
+        self.assemble_sub_graph(sub_graph, data, union_entities, triples)
         out.append(sub_graph)
         return out

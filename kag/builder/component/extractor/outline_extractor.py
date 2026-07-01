@@ -30,17 +30,17 @@ class OutlineExtractor(ExtractorABC):
     def output_indices() -> list[str]:
         return ["outline_index"]
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
+    def _invoke(self, data: Input, **kwargs) -> list[Output]:
         """Build an outline subgraph linking the chunk to its parent and source chunk.
 
         Args:
-            input: The chunk to derive an outline node from.
+            data: The chunk to derive an outline node from.
         """
-        if input.type == ChunkTypeEnum.Text:
+        if data.type == ChunkTypeEnum.Text:
             o_label = CHUNK_TYPE
         else:
             o_label = TABLE_TYPE
-        outline_name = input.name
+        outline_name = data.name
 
         index = outline_name.find("_split")
         if index != -1:
@@ -49,17 +49,17 @@ class OutlineExtractor(ExtractorABC):
         sub_graph = SubGraph([], [])
         # add Outline Node
         sub_graph.add_node(
-            id=input.id,
+            id=data.id,
             name=outline_name,
             label="Outline",
-            properties={"id": input.id, "name": outline_name},
+            properties={"id": data.id, "name": outline_name},
         )
 
-        parent_id = getattr(input, "parent_id", None)
+        parent_id = getattr(data, "parent_id", None)
         if parent_id is not None:
             # add Outline_childOf_Outline edge
             sub_graph.add_edge(
-                s_id=input.id,
+                s_id=data.id,
                 s_label="Outline",
                 p="childOf",
                 o_id=parent_id,
@@ -69,7 +69,7 @@ class OutlineExtractor(ExtractorABC):
 
         # add Outline_sourceChunk_Chunk edge
         sub_graph.add_edge(
-            s_id=input.id,
+            s_id=data.id,
             s_label="Outline",
             p="sourceChunk",
             o_id=f"{input.id}",

@@ -476,14 +476,14 @@ class SchemaConstraintExtractor(ExtractorABC):
         except:  # noqa: E722
             return graph
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
+    def _invoke(self, data: Input, **kwargs) -> list[Output]:
         """Extract entities, relations, and events from the chunk into a subgraph.
 
         Args:
-            input: The chunk to process.
+            data: The chunk to process.
         """
-        title = input.name
-        passage = title + "\n" + input.content
+        title = data.name
+        passage = title + "\n" + data.content
 
         out = []
         entities = self.named_entity_recognition(passage)
@@ -494,20 +494,20 @@ class SchemaConstraintExtractor(ExtractorABC):
         relations = self.relations_extraction(passage, named_entities)
         std_entities = self.named_entity_standardization(passage, named_entities)
         self.append_official_name(entities, std_entities)
-        subgraph = self.assemble_subgraph(input, entities, relations, events)
+        subgraph = self.assemble_subgraph(data, entities, relations, events)
         out.append(self.postprocess_graph(subgraph))
         logger.debug(f"input passage:\n{passage}")
         logger.debug(f"output graphs:\n{out}")
         return out
 
-    async def _ainvoke(self, input: Input, **kwargs) -> list[Output]:
+    async def _ainvoke(self, data: Input, **kwargs) -> list[Output]:
         """Extract entities, relations, and events from the chunk into a subgraph.
 
         Args:
-            input: The chunk to process.
+            data: The chunk to process.
         """
-        title = input.name
-        passage = title + "\n" + input.content
+        title = data.name
+        passage = title + "\n" + data.content
 
         out = []
         entities, events = await asyncio.gather(
@@ -522,7 +522,7 @@ class SchemaConstraintExtractor(ExtractorABC):
         )
 
         self.append_official_name(entities, std_entities)
-        subgraph = self.assemble_subgraph(input, entities, relations, events)
+        subgraph = self.assemble_subgraph(data, entities, relations, events)
         out.append(self.postprocess_graph(subgraph))
         logger.debug(f"input passage:\n{passage}")
         logger.debug(f"output graphs:\n{out}")

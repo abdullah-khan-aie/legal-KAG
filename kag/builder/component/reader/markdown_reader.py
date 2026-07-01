@@ -837,14 +837,14 @@ class MarkDownReader(ReaderABC):
             return {node: chunks[0] for node, chunks in node_chunk_map.items() if chunks}
         return node_chunk_map
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
+    def _invoke(self, data: Input, **kwargs) -> list[Output]:
         """Read a Markdown file (or chunk) and return its content as chunks.
 
         Args:
-            input: The path to the Markdown file, or a Chunk.
+            data: The path to the Markdown file, or a Chunk.
         """
         # Parse input
-        content, basename, id = self._parse_input(input)
+        content, basename, id = self._parse_input(data)
 
         # Process content
         chunks, subgraph = self.solve_content(str(id), basename, content)
@@ -855,10 +855,10 @@ class MarkDownReader(ReaderABC):
         return chunks
 
     @staticmethod
-    def _parse_input(input: Input) -> tuple[str, str, str]:
+    def _parse_input(data: Input) -> tuple[str, str, str]:
         """Parse different input types and extract content, basename, and id."""
-        if isinstance(input, str):
-            file_path = input
+        if isinstance(data, str):
+            file_path = data
             if not file_path.endswith(".md"):
                 raise ValueError(f"Please provide a markdown file, got {file_path}")
             if not os.path.isfile(file_path):
@@ -867,17 +867,17 @@ class MarkDownReader(ReaderABC):
             with open(file_path, encoding="utf-8") as reader:
                 content = reader.read()
             basename, _ = os.path.splitext(os.path.basename(file_path))
-            return content, basename, input
+            return content, basename, data
 
-        elif isinstance(input, Chunk):
-            content = input.content.replace("\\n", "\n")
-            return content, input.name, input.id
+        elif isinstance(data, Chunk):
+            content = data.content.replace("\\n", "\n")
+            return content, data.name, data.id
 
-        elif isinstance(input, list):
-            if len(input) == 0:
+        elif isinstance(data, list):
+            if len(data) == 0:
                 raise ValueError("Input list is empty")
 
-            first_item = input[0]
+            first_item = data[0]
             if isinstance(first_item, str):
                 return first_item, first_item, first_item
             elif isinstance(first_item, Chunk):
@@ -935,17 +935,17 @@ class MarkDownReader(ReaderABC):
 class YuequeReader(MarkDownReader):
     """Read a Yuque document into chunks by fetching it via the Yuque API."""
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
+    def _invoke(self, input_data: Input, **kwargs) -> list[Output]:
         """Fetch a Yuque document and convert it into chunks.
 
         Args:
-            input: A "token@url" string holding the Yuque auth token and URL.
+            input_data: A "token@url" string holding the Yuque auth token and URL.
 
         Raises:
             HTTPError: If the request to the Yuque URL fails.
         """
         # Parse token and URL
-        token, url = input.split("@", 1)
+        token, url = input_data.split("@", 1)
 
         # Fetch content from Yueque API
         headers = {"X-Auth-Token": token}

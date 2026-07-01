@@ -450,18 +450,18 @@ class SchemaFreeExtractor(ExtractorABC):
                     official_name = tmp_dict[key]
                     tmp_entity["official_name"] = official_name
         except Exception as e:
-            logger.warn(f"failed to process official name, info: {e}")
+            logger.warning(f"failed to process official name, info: {e}")
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
+    def _invoke(self, data: Input, **kwargs) -> list[Output]:
         """Extract entities and triples from the chunk into a subgraph.
 
         Args:
-            input: The chunk to process.
+            data: The chunk to process.
         """
         print("Enter schema free extractor======================")
         logger.info("Enter schema free extractor======================")
-        title = input.name
-        passage = title + "\n" + input.content
+        title = data.name
+        passage = title + "\n" + data.content
         out = []
         entities = self.named_entity_recognition(passage)
         sub_graph, entities = self.assemble_sub_graph_with_spg_records(entities)
@@ -471,24 +471,24 @@ class SchemaFreeExtractor(ExtractorABC):
         triples = (self.triples_extraction(passage, filtered_entities),)
         std_entities = self.named_entity_standardization(passage, filtered_entities)
         self.append_official_name(entities, std_entities)
-        self.assemble_sub_graph(sub_graph, input, entities, triples)
+        self.assemble_sub_graph(sub_graph, data, entities, triples)
         out.append(sub_graph)
         print("Exit schema free extractor=================")
         logger.info("Exit schema free extractor=================")
         return out
 
-    async def _ainvoke(self, input: Input, **kwargs) -> list[Output]:
+    async def _ainvoke(self, data: Input, **kwargs) -> list[Output]:
         """Extract entities and triples from the chunk into a subgraph.
 
         Args:
-            input: The chunk to process.
+            data: The chunk to process.
         """
 
-        if self.table_extractor is not None and input.type == ChunkTypeEnum.Table:
-            return self.table_extractor._invoke(input)
+        if self.table_extractor is not None and data.type == ChunkTypeEnum.Table:
+            return self.table_extractor._invoke(data)
 
-        title = input.name
-        passage = title + "\n" + input.content
+        title = data.name
+        passage = title + "\n" + data.content
         out = []
         entities = await self.anamed_entity_recognition(passage)
         sub_graph, entities = self.assemble_sub_graph_with_spg_records(entities)
@@ -501,6 +501,6 @@ class SchemaFreeExtractor(ExtractorABC):
         )
 
         self.append_official_name(entities, std_entities)
-        self.assemble_sub_graph(sub_graph, input, entities, triples)
+        self.assemble_sub_graph(sub_graph, data, entities, triples)
         out.append(sub_graph)
         return out

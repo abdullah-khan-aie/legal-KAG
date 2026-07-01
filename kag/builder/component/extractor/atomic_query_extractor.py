@@ -63,25 +63,25 @@ class AtomicQueryExtractor(ExtractorABC):
 
         return atomic_queries
 
-    async def _ainvoke(self, input: Chunk, **kwargs) -> list[SubGraph]:
+    async def _ainvoke(self, data: Chunk, **kwargs) -> list[SubGraph]:
         """Extract atomic queries from the chunk and link them to it in a subgraph.
 
         Args:
-            input: The chunk to process.
+            data: The chunk to process.
         """
-        if input.type == ChunkTypeEnum.Text:
+        if data.type == ChunkTypeEnum.Text:
             o_label = CHUNK_TYPE
         else:
             o_label = TABLE_TYPE
-        title = input.name
-        passage = title + "\n" + input.content
+        title = data.name
+        passage = title + "\n" + data.content
         try:
             atomic_queries = await self.aextract(passage)
         except:  # noqa: E722
             print(f"Failed to extract atomic queries, info:\n{traceback.format_exc()}")
             atomic_queries = []
         subgraph = SubGraph([], [])
-        chunk = input
+        chunk = data
 
         for atomic_query in atomic_queries:
             atomic_id = f"{chunk.id}_{atomic_query}"
@@ -103,25 +103,25 @@ class AtomicQueryExtractor(ExtractorABC):
         subgraph.id = chunk.id
         return [subgraph]
 
-    def _invoke(self, input: Chunk, **kwargs) -> list[SubGraph]:
+    def _invoke(self, data: Chunk, **kwargs) -> list[SubGraph]:
         """Extract atomic queries from the chunk and link them to it in a subgraph.
 
         Args:
-            input: The chunk to process.
+            data: The chunk to process.
         """
-        if input.type == ChunkTypeEnum.Text:
+        if data.type == ChunkTypeEnum.Text:
             o_label = CHUNK_TYPE
         else:
             o_label = TABLE_TYPE
-        title = input.name
-        passage = title + "\n" + input.content
+        title = data.name
+        passage = title + "\n" + data.content
         try:
             atomic_queries = self.extract(passage)
         except:  # noqa: E722
             print(f"Failed to extract atomic queries, info:\n{traceback.format_exc()}")
             atomic_queries = []
         subgraph = SubGraph([], [])
-        chunk = input
+        chunk = data
 
         for atomic_query in atomic_queries:
             atomic_id = f"{chunk.id}_{atomic_query}"

@@ -14,11 +14,11 @@ logger = logging.getLogger(__name__)
 class TXTReader(ReaderABC):
     """Read a text file (or raw text) into a single Chunk."""
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
+    def _invoke(self, data: Input, **kwargs) -> list[Output]:
         """Read the input as a file path or raw text and return it as one Chunk.
 
         Args:
-            input: A path to a text file or direct text content.
+            data: A path to a text file or direct text content.
             **kwargs: ``perform_url_decode`` (bool): percent-decode the input when
                 treated as a path; defaults to False.
 
@@ -26,15 +26,15 @@ class TXTReader(ReaderABC):
             ValueError: If the input is empty.
             IOError: If the file cannot be read.
         """
-        if not input:
+        if not data:
             raise ValueError("Input cannot be empty")
 
         perform_url_decode = kwargs.get("perform_url_decode", False)
 
-        path_str = input
+        path_str = data
         if not isinstance(path_str, str):
             try:
-                path_str = str(input)
+                path_str = str(data)
             except Exception as e:
                 raise TypeError(f"Input cannot be converted to string: {input}. Error: {e}")
 

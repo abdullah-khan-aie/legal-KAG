@@ -43,7 +43,7 @@ class SPGPrompt(PromptABC):
 
     def __init__(
         self,
-        spg_type_names: list[SPGTypeName] = [],
+        spg_type_names: list[SPGTypeName] | None = None,
         language: str = "",
         **kwargs,
     ):
@@ -56,7 +56,7 @@ class SPGPrompt(PromptABC):
         """
         super().__init__(**kwargs)
         self.schema = SchemaClient(schema_path=kwargs.get("schema_path")).load()
-        self.spg_type_names = spg_type_names
+        self.spg_type_names = spg_type_names or []
         if not spg_type_names:
             self.spg_types = self.schema
         else:

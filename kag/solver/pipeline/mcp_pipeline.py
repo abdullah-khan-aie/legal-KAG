@@ -73,7 +73,7 @@ class MCPPipeline(SolverPipelineABC):
         if mcp_server:
             await self.executors[0].ainvoke(query, task, context, **kwargs)
         else:
-            logger.warn(f"Executor not  found for task {task}")
+            logger.warning(f"Executor not  found for task {task}")
 
     async def ainvoke(self, query, **kwargs):
         """Plan, execute the task DAG, and return the generated answer.

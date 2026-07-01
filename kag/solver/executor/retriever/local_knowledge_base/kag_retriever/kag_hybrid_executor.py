@@ -198,7 +198,7 @@ class KagHybridExecutor(ExecutorABC):
         return KAGRetrievedResponse
 
     @retry(stop=stop_after_attempt(3))
-    def generate_answer(self, tag_id, question: str, docs: [], history_qa=[], **kwargs):
+    def generate_answer(self, tag_id, question: str, docs: list, history_qa=None, **kwargs):
         """Generate an answer for a question from supporting documents.
 
         Args:
@@ -210,6 +210,7 @@ class KagHybridExecutor(ExecutorABC):
         Returns:
             The generated answer, or ``"I don't know"`` when the model is unsure.
         """
+        history_qa = history_qa or []
         prompt = self.solve_question_without_spo_prompt
         params = {
             "question": question,

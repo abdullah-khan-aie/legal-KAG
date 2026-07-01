@@ -53,15 +53,15 @@ class TableExtractor(ExtractorABC):
     def output_types(self) -> type[Output]:
         return SubGraph
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
+    def _invoke(self, data: Input, **kwargs) -> list[Output]:
         """Extract a subgraph from a table chunk according to the configured mode.
 
         Non-table chunks are skipped and yield an empty result.
 
         Args:
-            input: The table chunk to process.
+            data: The table chunk to process.
         """
-        table_chunk: Chunk = input
+        table_chunk: Chunk = data
         if table_chunk.type != ChunkTypeEnum.Table:
             # only process table
             return []
@@ -70,8 +70,8 @@ class TableExtractor(ExtractorABC):
             return self._table_row_chunk(input_table_chunk=table_chunk)
 
         try:
-            self._table_context(input)
-            return self._table_extractor(input)
+            self._table_context(data)
+            return self._table_extractor(data)
         except:  # noqa: E722
             logger.exception(f"_invoke_table failed for chunk:{input}")
             raise RuntimeError(f"table extract failed for chunk:{input}")

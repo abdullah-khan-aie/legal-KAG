@@ -56,7 +56,7 @@ class KgRetrieverTemplate:
         self.llm_module = llm_module
 
     @retry(stop=stop_after_attempt(3), reraise=True)
-    def generate_sub_answer(self, question: str, knowledge_graph: [], history_qa=[], **kwargs):
+    def generate_sub_answer(self, question: str, knowledge_graph: list, history_qa=None, **kwargs):
         """Generate a sub-answer from the question and supporting knowledge graph.
 
         Args:
@@ -67,6 +67,7 @@ class KgRetrieverTemplate:
         Returns:
             The generated answer, or an empty string when the model is unsure.
         """
+        history_qa = history_qa or []
         if not knowledge_graph:
             return "I don't know"
         prompt = self.solve_question_without_docs_prompt

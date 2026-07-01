@@ -30,7 +30,8 @@ class LogicFormConfiguration:
     # are absent (the originals raise to enforce the server). schema_file_name selects
     # SchemaUtils' CSV path; leave it set (or bind a schema source) to avoid the
     # reasoner (get_schema_from_spg) path when constructing retrievers server-free.
-    def __init__(self, args={}):
+    def __init__(self, args=None):
+        args = args or {}
         self.resource_path = args.get("resource_path", "./")
         self.prefix = args.get("prefix", "")
         self.project_id = args.get("KAG_PROJECT_ID", None)

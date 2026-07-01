@@ -11,7 +11,7 @@ class SolverPipelineABC(Registrable):
 
     def __init__(self):
         """Initializes the solver pipeline base class."""
-        pass
+        super().__init__()
 
     def invoke(self, query, **kwargs):
         """Executes the solver pipeline synchronously.

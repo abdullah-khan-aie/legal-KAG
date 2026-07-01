@@ -121,6 +121,6 @@ class PatternSplitter:
 
         return chunks
 
-    def _invoke(self, input: Chunk, **kwargs) -> List[Output]:
-        chunks = self.chunk_split(input)
+    def _invoke(self, data: Chunk, **kwargs) -> List[Output]:
+        chunks = self.chunk_split(data)
         return chunks

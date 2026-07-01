@@ -55,6 +55,7 @@ def load_knowIE_data(respond, lang="en"):
 
 
 def load_NER_data(respond):
+    extract_ret_str = respond
     try:
         extract_ret_str = respond.replace('Before" trilogy,', 'Before trilogy",').replace(
             'I"s', "I's"

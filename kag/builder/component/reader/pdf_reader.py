@@ -398,34 +398,34 @@ class PDFReader(ReaderABC):
                 text += element.get_text()
         return text
 
-    def _invoke(self, input: Input, **kwargs) -> tuple[list[Output], SubGraph]:
+    def _invoke(self, data: Input, **kwargs) -> tuple[list[Output], SubGraph]:
         """Read the PDF and return its content as chunks.
 
         When an outline is available the chunks follow the document structure;
         otherwise the PDF is chunked page by page.
 
         Args:
-            input: The path to the PDF file.
+            data: The path to the PDF file.
 
         Raises:
             ValueError: If the input is not a .pdf path.
             FileNotFoundError: If the file does not exist.
         """
-        if not input.endswith(".pdf"):
+        if not data.endswith(".pdf"):
             raise ValueError(f"Please provide a pdf file, got {input}")
 
-        if not os.path.isfile(input):
+        if not os.path.isfile(data):
             raise FileNotFoundError(f"The file {input} does not exist.")
 
         self.fd = None
         try:
-            self.fd = open(input, "rb")
+            self.fd = open(data, "rb")
             self.pdf_reader = PyPDF2.PdfReader(self.fd)
             self.level_outlines = self._get_full_outlines()
             self.parser = PDFParser(self.fd)
             self.document = PDFDocument(self.parser)
             chunks = []
-            basename, _ = os.path.splitext(os.path.basename(input))
+            basename, _ = os.path.splitext(os.path.basename(data))
 
             # get outline
             try:
@@ -435,7 +435,7 @@ class PDFReader(ReaderABC):
                 self.outline_flag = False
 
             if not self.outline_flag:
-                with open(input, "rb") as file:
+                with open(data, "rb") as file:
                     for idx, page_layout in enumerate(extract_pages(file)):
                         content = ""
                         for element in page_layout:
@@ -453,7 +453,7 @@ class PDFReader(ReaderABC):
 
                 page_contents = []
 
-                with open(input, "rb") as file:
+                with open(data, "rb") as file:
                     for idx, page_layout in enumerate(extract_pages(file)):
                         content = ""
                         for element in page_layout:

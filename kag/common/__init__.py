@@ -7,8 +7,8 @@ import hashlib
 import re
 from typing import TypeVar
 
-Input = TypeVar("Input", contravariant=True)
-Output = TypeVar("Output", covariant=True)
+Input = TypeVar("Input")
+Output = TypeVar("Output")
 
 
 def generate_hash_id(value) -> str:

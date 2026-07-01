@@ -103,14 +103,14 @@ class GraphStoreWriter:
         for (start_label, end_label, rel_type), relations in by_key.items():
             self.graph_store.upsert_relationships(start_label, end_label, rel_type, relations)
 
-    def _invoke(self, input: SubGraph, **kwargs) -> list[SubGraph]:
+    def _invoke(self, data: SubGraph, **kwargs) -> list[SubGraph]:
         if self.schema is not None and not self._schema_initialized:
             self.graph_store.initialize_schema(self.schema)
             self._schema_initialized = True
-        graph = self.standarlize_graph(input)
+        graph = self.standarlize_graph(data)
         self._write_nodes(graph)
         self._write_edges(graph)
         return [graph]
 
-    def invoke(self, input: SubGraph, **kwargs) -> list[SubGraph]:
-        return self._invoke(input, **kwargs)
+    def invoke(self, data: SubGraph, **kwargs) -> list[SubGraph]:
+        return self._invoke(data, **kwargs)

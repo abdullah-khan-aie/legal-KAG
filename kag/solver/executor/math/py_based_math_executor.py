@@ -184,6 +184,7 @@ error:
             step=task.name,
             overwrite=False,
         )
+        return None
 
     def schema(self):
         return {

@@ -18,7 +18,7 @@ class ExecutorResponse(Registrable, ABC):
 
     def __init__(self):
         """Initializes the executor response instance."""
-        pass
+        super().__init__()
 
     def __str__(self):
         return self.to_string()

@@ -53,7 +53,7 @@ class NaiveRAGPipeline(SolverPipelineABC):
         if executor:
             await executor.ainvoke(query, task, context, **kwargs)
         else:
-            logger.warn(f"Executor not  found for task {task}")
+            logger.warning(f"Executor not  found for task {task}")
 
     async def ainvoke(self, query, **kwargs):
         """Retrieve chunks then generate and return the answer for the query.

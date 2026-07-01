@@ -83,7 +83,7 @@ class KAGStaticPipeline(SolverPipelineABC):
         if executor:
             await executor.ainvoke(query, task, context, **kwargs)
         else:
-            logger.warn(f"Executor not  found for task {task}")
+            logger.warning(f"Executor not  found for task {task}")
 
     async def ainvoke(self, query, **kwargs):
         """Plan, execute, and answer the query, retrying until judged complete.

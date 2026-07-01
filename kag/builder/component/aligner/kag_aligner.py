@@ -21,14 +21,14 @@ class KAGAligner(AlignerABC):
     def output_types(self) -> type[Output]:
         return SubGraph
 
-    def invoke(self, input: list[SubGraph], **kwargs) -> SubGraph:
+    def invoke(self, data: list[SubGraph], **kwargs) -> SubGraph:
         """Merge subgraphs into one, skipping duplicate nodes and edges.
 
         Args:
-            input: The subgraphs to merge.
+            data: The subgraphs to merge.
         """
         merged_sub_graph = SubGraph(nodes=[], edges=[])
-        for sub_graph in input:
+        for sub_graph in data:
             for node in sub_graph.nodes:
                 if node not in merged_sub_graph.nodes:
                     merged_sub_graph.nodes.append(node)
@@ -37,12 +37,12 @@ class KAGAligner(AlignerABC):
                     merged_sub_graph.edges.append(edge)
         return merged_sub_graph
 
-    def _handle(self, input: Sequence[dict]) -> dict:
+    def _handle(self, data: Sequence[dict]) -> dict:
         """Deserialize subgraph dicts, merge them, and serialize the result.
 
         Args:
-            input: Dictionaries representing subgraphs.
+            data: Dictionaries representing subgraphs.
         """
-        _input = [self.input_types.from_dict(i) for i in input]
+        _input = [self.input_types.from_dict(i) for i in data]
         _output = self.invoke(_input)
         return _output.to_dict()

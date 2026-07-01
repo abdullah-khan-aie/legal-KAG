@@ -134,11 +134,11 @@ class LengthSplitter(BaseTableSplitter):
                 position = 0
         return output
 
-    def _invoke(self, input: Chunk, **kwargs) -> list[Chunk]:
+    def _invoke(self, data: Chunk, **kwargs) -> list[Chunk]:
         cutted = []
-        if isinstance(input, list):
-            for item in input:
+        if isinstance(data, list):
+            for item in data:
                 cutted.extend(self.slide_window_chunk(item, self.split_length, self.window_length))
         else:
-            cutted.extend(self.slide_window_chunk(input, self.split_length, self.window_length))
+            cutted.extend(self.slide_window_chunk(data, self.split_length, self.window_length))
         return cutted

@@ -35,12 +35,12 @@ class Node:
         }
 
     @classmethod
-    def from_dict(cls, input: dict):
+    def from_dict(cls, data: dict):
         return cls(
-            _id=input["id"],
-            name=input["name"],
-            label=input["label"],
-            properties=input.get("properties", {}),
+            _id=data["id"],
+            name=data["name"],
+            label=data["label"],
+            properties=data.get("properties", {}),
         )
 
     def __eq__(self, other):
@@ -102,18 +102,18 @@ class Edge:
         }
 
     @classmethod
-    def from_dict(cls, input: dict):
+    def from_dict(cls, data: dict):
         return cls(
-            _id=input["id"],
+            _id=data["id"],
             from_node=Node(
-                _id=input["from"],
-                name=input["from"],
-                label=input["fromType"],
+                _id=data["from"],
+                name=data["from"],
+                label=data["fromType"],
                 properties={},
             ),
-            to_node=Node(_id=input["to"], name=input["to"], label=input["toType"], properties={}),
-            label=input["label"],
-            properties=input.get("properties", {}),
+            to_node=Node(_id=data["to"], name=data["to"], label=data["toType"], properties={}),
+            label=data["label"],
+            properties=data.get("properties", {}),
         )
 
     def __eq__(self, other):
@@ -129,8 +129,8 @@ class Edge:
 
 class SubGraph:
     id: str
-    nodes: ClassVar[list[Node]] = list()
-    edges: ClassVar[list[Edge]] = list()
+    nodes: list[Node]
+    edges: list[Edge]
 
     def __init__(self, nodes: list[Node], edges: list[Edge]):
         self.nodes = nodes
@@ -179,10 +179,10 @@ class SubGraph:
         self.edges.extend(sub_graph.edges)
 
     @classmethod
-    def from_dict(cls, input: dict[str, Any]):
+    def from_dict(cls, data: dict[str, Any]):
         return cls(
-            nodes=[Node.from_dict(node) for node in input["resultNodes"]],
-            edges=[Edge.from_dict(edge) for edge in input["resultEdges"]],
+            nodes=[Node.from_dict(node) for node in data["resultNodes"]],
+            edges=[Edge.from_dict(edge) for edge in data["resultEdges"]],
         )
 
     @property

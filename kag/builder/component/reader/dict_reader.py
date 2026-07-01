@@ -31,20 +31,20 @@ class DictReader(ReaderABC):
     def input_types(self) -> Input:
         return dict
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
+    def _invoke(self, data: Input, **kwargs) -> list[Output]:
         """Convert the input dictionary into a single-element list of one Chunk.
 
         Args:
-            input: The dictionary to convert.
+            data: The dictionary to convert.
         """
-        chunk_id = input.get(self.id_col)
-        chunk_name = input.get(self.name_col)
-        chunk_content = input.get(self.content_col)
-        if self.id_col in input:
-            input.pop(self.id_col)
-        if self.name_col in input:
-            input.pop(self.name_col)
-        if self.content_col in input:
-            input.pop(self.content_col)
+        chunk_id = data.get(self.id_col)
+        chunk_name = data.get(self.name_col)
+        chunk_content = data.get(self.content_col)
+        if self.id_col in data:
+            data.pop(self.id_col)
+        if self.name_col in data:
+            data.pop(self.name_col)
+        if self.content_col in data:
+            data.pop(self.content_col)
 
-        return [Chunk(id=chunk_id, name=chunk_name, content=chunk_content, **input)]
+        return [Chunk(id=chunk_id, name=chunk_name, content=chunk_content, **data)]

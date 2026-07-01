@@ -29,20 +29,20 @@ class ChunkExtractor(ExtractorABC):
     def output_indices() -> list[str]:
         return ["chunk_index"]
 
-    def _invoke(self, input: Input, **kwargs) -> list[Output]:
+    def _invoke(self, data: Input, **kwargs) -> list[Output]:
         """Wrap a text chunk into a single-node ``Chunk`` subgraph.
 
         Non-text chunks are skipped and yield an empty result.
 
         Args:
-            input: The chunk to process.
+            data: The chunk to process.
         """
-        text_chunk: Chunk = input
+        text_chunk: Chunk = data
         if text_chunk.type != ChunkTypeEnum.Text:
             # only process text
             return []
 
-        outline_name = input.name
+        outline_name = data.name
 
         if "_split" in outline_name:
             outline_name = outline_name[: outline_name.find("_split")]
@@ -54,7 +54,7 @@ class ChunkExtractor(ExtractorABC):
             name=outline_name,
             label="Chunk",
             properties={
-                "id": input.id,
+                "id": data.id,
                 "name": outline_name,
                 "content": f"{outline_name}\n{input.content}",
             },

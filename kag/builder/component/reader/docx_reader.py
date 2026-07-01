@@ -700,32 +700,32 @@ class DocxReader(ReaderABC):
 
         return outputs, node_chunk_map, SubGraph(nodes=nodes, edges=edges)
 
-    def _invoke(self, input: Input, **kwargs) -> tuple[list[Output], SubGraph]:
+    def _invoke(self, data: Input, **kwargs) -> tuple[list[Output], SubGraph]:
         """Read the Docx file and return chunks following its title hierarchy.
 
         Args:
-            input: The path to the Docx file to process.
+            data: The path to the Docx file to process.
 
         Raises:
             ValueError: If the input is empty.
             IOError: If the file cannot be read.
         """
-        if not input:
+        if not data:
             raise ValueError("Input cannot be empty")
 
         try:
-            doc = Document(input)
+            doc = Document(data)
             document_root = self._build_document_tree(doc)
         except OSError as e:
             raise OSError(f"Failed to read file: {input}") from e
 
-        basename, _ = os.path.splitext(os.path.basename(input))
+        basename, _ = os.path.splitext(os.path.basename(data))
         # Create a new root node with the file name and transfer document_root's children
         file_root = DocxNode(basename, 0)
         file_root.children = document_root.children  # Transfer children directly
         file_root.content = document_root.content  # Transfer content if any
 
-        chunks, _, subgraph = self._convert_to_outputs(file_root, input)
+        chunks, _, subgraph = self._convert_to_outputs(file_root, data)
         print("\nExtracted chunks:")
         for chunk in chunks:
             print(f"\nChunk: {chunk.name}")

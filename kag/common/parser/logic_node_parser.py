@@ -478,7 +478,8 @@ class ParseLogicForm:
             )
         return node
 
-    def parse_logic_form(self, input_str: str, parsed_entity_set={}, sub_query=None, query=None):
+    def parse_logic_form(self, input_str: str, parsed_entity_set=None, sub_query=None, query=None):
+        parsed_entity_set = {} if parsed_entity_set is None else parsed_entity_set
         match = re.match(r"(\w+)[\(\（](.*)[\)\）](->)?(.*)?", input_str.strip().replace("\n", " "))
         if not match:
             raise RuntimeError(f"parse logic form error {input_str}")
