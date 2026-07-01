@@ -210,6 +210,21 @@ class LLMClient(Registrable):
         """
         return self(prompt, **kwargs)
 
+    async def astream(self, prompt: Union[str, dict, list], **kwargs):
+        """Stream the model response token by token.
+
+        Async generator yielding text deltas as they arrive from the model.
+        Subclasses that support streaming override this; the default raises.
+
+        Args:
+            prompt: Input prompt for inference.
+
+        Yields:
+            str: The next text delta from the model.
+        """
+        raise NotImplementedError
+        yield  # pragma: no cover - marks this as an async generator
+
     @retry(
         stop=stop_after_attempt(3),
         wait=wait_exponential(multiplier=10, max=60),

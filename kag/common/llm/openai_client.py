@@ -194,3 +194,56 @@ class AzureOpenAIClient(LLMClient):
         if tools and tool_calls:
             return response.choices[0].message
         return rsp
+
+    async def astream(self, prompt: str = "", image_url: str = None, **kwargs):
+        """Stream the model response as text deltas via Azure OpenAI streaming.
+
+        Async generator that issues a ``stream=True`` chat completion and yields
+        each ``choices[0].delta.content`` as it arrives. Token usage is metered
+        from the final chunk (``stream_options={"include_usage": True}``).
+
+        Args:
+            prompt: The prompt provided to the model.
+            image_url: Optional image URL to include in the request.
+
+        Yields:
+            str: The next text delta from the model.
+        """
+        messages = kwargs.get("messages", None)
+        token_meter = LLMClient.get_token_meter()
+        if messages is None:
+            if image_url:
+                messages = [
+                    {"role": "system", "content": "you are a helpful assistant"},
+                    {
+                        "role": "user",
+                        "content": [
+                            {"type": "text", "text": prompt},
+                            {"type": "image_url", "image_url": {"url": image_url}},
+                        ],
+                    },
+                ]
+            else:
+                messages = [
+                    {"role": "system", "content": "you are a helpful assistant"},
+                    {"role": "user", "content": prompt},
+                ]
+        stream = await self.aclient.chat.completions.create(
+            model=self.model,
+            messages=messages,
+            stream=True,
+            temperature=self.temperature,
+            timeout=self.timeout,
+            max_tokens=self.max_tokens,
+            stream_options={"include_usage": True},
+        )
+        async for chunk in stream:
+            if chunk.choices:
+                delta = chunk.choices[0].delta.content
+                if delta:
+                    yield delta
+            usage = getattr(chunk, "usage", None)
+            if usage:
+                token_meter.update(
+                    usage.completion_tokens, usage.prompt_tokens, usage.total_tokens
+                )
