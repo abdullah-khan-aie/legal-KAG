@@ -16,7 +16,7 @@ from __future__ import annotations
 import os
 from typing import Any
 
-from src.lodestone.config.settings import IngestionSettings, get_settings
+from src.lodestone.config.settings import Settings, get_settings
 
 # Pipeline name -> yaml file under kag/solver/pipelineconf/.
 _PIPELINE_FILES = {
@@ -29,7 +29,7 @@ _PIPELINE_FILES = {
 }
 
 
-def _chat_llm_config(settings: IngestionSettings) -> dict[str, Any]:
+def _chat_llm_config(settings: Settings) -> dict[str, Any]:
     """Config dict the registry uses to build the Azure OpenAI LLM client."""
     return {
         "type": "azure_openai",
@@ -41,7 +41,7 @@ def _chat_llm_config(settings: IngestionSettings) -> dict[str, Any]:
     }
 
 
-def _vectorize_model_config(settings: IngestionSettings, input_type: str) -> dict[str, Any]:
+def _vectorize_model_config(settings: Settings, input_type: str) -> dict[str, Any]:
     """Config dict for the Azure Cohere embedder (``input_type="query"`` for retrieval)."""
     return {
         "type": "azure_cohere",
@@ -89,7 +89,7 @@ def _register_components() -> None:
         import_modules_from_path(path)
 
 
-def build_query_pipeline(pipeline_name: str = "naive_rag", settings: IngestionSettings | None = None):
+def build_query_pipeline(pipeline_name: str = "naive_rag", settings: Settings | None = None):
     """Construct a KAG solver pipeline for the given pipeline definition.
 
     Args:

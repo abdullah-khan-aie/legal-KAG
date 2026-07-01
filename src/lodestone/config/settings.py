@@ -7,7 +7,7 @@ from pydantic import SecretStr
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
-class IngestionSettings(BaseSettings):
+class Settings(BaseSettings):
     """Settings for the ingestion pipeline and its model clients.
 
     Field ``foo_bar`` maps to the ``INGEST_FOO_BAR`` environment variable.
@@ -38,17 +38,11 @@ class IngestionSettings(BaseSettings):
 
     # Label namespace prefix (empty = labels used as-is, e.g. "Contract").
     namespace: str = ""
-
-    # Logging. Logs are written only to stdout (12-factor: the platform captures
-    # and routes the stream). ``log_format`` picks the stdout formatter:
-    #   - "console": human-readable, for local development;
-    #   - "json": single-line JSON, for production log collectors
-    #     (Datadog / CloudWatch / Azure Monitor all parse JSON from stdout).
     log_level: str = "INFO"
     log_format: Literal["console", "json"] = "console"
 
 
 @lru_cache(maxsize=1)
-def get_settings() -> IngestionSettings:
+def get_settings() -> Settings:
     """Return the process-wide settings singleton."""
-    return IngestionSettings()
+    return Settings()
