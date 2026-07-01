@@ -27,7 +27,6 @@ class IngestionSettings(BaseSettings):
     # Embeddings: Azure-hosted Cohere via azure-ai-inference (AzureCohereVectorizeModel).
     cohere_endpoint: str = "https://your-cohere-endpoint.models.ai.azure.com"
     cohere_api_key: SecretStr = SecretStr("")
-    cohere_model: str = ""
     cohere_input_type: str = "document"
 
     # Neo4j graph store (required — the app won't start without a password; the

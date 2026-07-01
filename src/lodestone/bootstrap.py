@@ -15,7 +15,6 @@ def _build_embedder(settings: IngestionSettings) -> AzureCohereVectorizeModel:
     return AzureCohereVectorizeModel(
         endpoint=settings.cohere_endpoint,
         api_key=settings.cohere_api_key.get_secret_value(),
-        model=settings.cohere_model or None,
         input_type=settings.cohere_input_type,
     )
 
