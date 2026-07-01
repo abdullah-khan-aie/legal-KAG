@@ -38,6 +38,13 @@ class Settings(BaseSettings):
 
     # Label namespace prefix (empty = labels used as-is, e.g. "Contract").
     namespace: str = ""
+
+    # Active KAG indices. Each name maps to a KAGIndexManager that contributes
+    # BOTH its extractor(s) at ingest time and its retriever(s) at query time,
+    # so ingestion and retrieval stay in lockstep. Set via INGEST_INDEX_LIST as
+    # a JSON array, e.g. '["summary_index","chunk_index","atomic_query_index"]'.
+    index_list: list[str] = ["spo_graph_index", "summary_index"]
+
     log_level: str = "INFO"
     log_format: Literal["console", "json"] = "console"
 
