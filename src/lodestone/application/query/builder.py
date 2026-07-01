@@ -1,16 +1,3 @@
-"""Build a KAG solver (query/retrieval) pipeline from settings — server-free.
-
-Mirrors upstream ``main_solver`` without its server/index coupling: it loads a
-pipeline definition from ``kag/solver/pipelineconf/<name>.yaml``, substitutes the
-``{chat_llm}`` / ``{vectorize_model}`` placeholders with configs built from our
-settings (Azure OpenAI LLM + Azure Cohere embedder), and hands the result to
-``SolverPipelineABC.from_config`` — the registry then instantiates the whole
-pipeline (executors, retrievers, generator) by type.
-
-The embedder is configured with ``input_type="query"`` here (the user's question
-is a search query), whereas ingestion embeds chunks with ``input_type="document"``.
-"""
-
 from __future__ import annotations
 
 import os
@@ -82,19 +69,78 @@ def _load_pipeline_conf(pipeline_name: str) -> dict[str, Any]:
 
 
 def _register_components() -> None:
-    """Import solver/tool modules so their ``@register`` decorators populate the registry."""
+    """Import indexer/solver/tool modules so their ``@register`` decorators populate the registry."""
     from kag.common.registry import import_modules_from_path
 
-    for path in ("kag/solver", "kag/common/tools", "kag/common/llm", "kag/common/vectorize_model"):
+    for path in (
+        "kag/indexer",
+        "kag/solver",
+        "kag/common/tools",
+        "kag/common/llm",
+        "kag/common/vectorize_model",
+    ):
         import_modules_from_path(path)
 
 
-def build_query_pipeline(pipeline_name: str = "naive_rag", settings: Settings | None = None):
+def _build_retriever_configs(
+    index_list: list[str],
+    llm_config: dict[str, Any],
+    vectorize_config: dict[str, Any],
+) -> list[dict[str, Any]]:
+    """Assemble the ``{retrievers}`` list from the active indices.
+
+    Mirrors ``main_solver.do_qa_pipeline``: for each index name, build its
+    ``KAGIndexManager`` and collect that index's retriever config(s). This is
+    the query-side half of the extractor/retriever symmetry -- the retrievers
+    that run are exactly the ones matching the indices that were built.
+    """
+    from kag.indexer import KAGIndexManager
+
+    configs: list[dict[str, Any]] = []
+    for index_name in index_list:
+        manager = KAGIndexManager.from_config(
+            {
+                "type": index_name,
+                "llm_config": llm_config,
+                "vectorize_model_config": vectorize_config,
+            }
+        )
+        configs.extend(manager.build_retriever_config(llm_config, vectorize_config))
+    return configs
+
+
+def _inject_graph_store(node: Any, graph_store) -> None:
+    """Attach the live graph store to every Neo4j search/graph API in the config.
+
+    The retrievers are built by the registry from config dicts several levels
+    deep, where a live ``Neo4jClient`` can't be expressed. Rather than a global,
+    we walk the resolved config and pass the store explicitly to each
+    ``neo4j_search_api`` / ``neo4j_graph_api`` node before it is constructed.
+    """
+    if isinstance(node, dict):
+        if node.get("type") in ("neo4j_search_api", "neo4j_graph_api"):
+            node["graph_store"] = graph_store
+        for value in node.values():
+            _inject_graph_store(value, graph_store)
+    elif isinstance(node, list):
+        for item in node:
+            _inject_graph_store(item, graph_store)
+
+
+def build_query_pipeline(
+    pipeline_name: str = "retriever",
+    settings: Settings | None = None,
+    graph_store=None,
+):
     """Construct a KAG solver pipeline for the given pipeline definition.
 
     Args:
-        pipeline_name: Which ``pipelineconf`` definition to build (e.g. "naive_rag").
-        settings: Settings to source model credentials from; defaults to the singleton.
+        pipeline_name: Which ``pipelineconf`` definition to build (e.g. "retriever",
+            "deep_thought", "kag_thinker", "naive_rag").
+        settings: Settings to source model credentials and the active ``index_list``
+            from; defaults to the singleton.
+        graph_store: Live Neo4j graph store, injected into the config-built
+            ``neo4j_search_api`` / ``neo4j_graph_api`` retrievers.
 
     Returns:
         A ``SolverPipelineABC`` instance ready to answer queries.
@@ -103,9 +149,15 @@ def build_query_pipeline(pipeline_name: str = "naive_rag", settings: Settings | 
 
     settings = settings or get_settings()
     _register_components()
+    chat_llm = _chat_llm_config(settings)
+    vectorize_model = _vectorize_model_config(settings, input_type="query")
     replacements = {
-        "chat_llm": _chat_llm_config(settings),
-        "vectorize_model": _vectorize_model_config(settings, input_type="query"),
+        "chat_llm": chat_llm,
+        "vectorize_model": vectorize_model,
+        "retrievers": _build_retriever_configs(settings.index_list, chat_llm, vectorize_model),
     }
     conf = _replace_placeholders(_load_pipeline_conf(pipeline_name), replacements)
-    return SolverPipelineABC.from_config(conf["solver_pipeline"])
+    solver_conf = conf["solver_pipeline"]
+    if graph_store is not None:
+        _inject_graph_store(solver_conf, graph_store)
+    return SolverPipelineABC.from_config(solver_conf)
