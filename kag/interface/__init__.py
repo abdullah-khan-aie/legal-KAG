@@ -119,18 +119,18 @@ from kag.interface.common.llm_client import LLMClient  # noqa: E402, F401
 
 
 # --- kag.interface.ExtractorABC (minimal) ---------------------------------- #
-class ExtractorABC:
+class ExtractorABC(Registrable):
+    # Real Registrable so `@ExtractorABC.register(...)` populates the registry and
+    # `ExtractorABC.from_config({"type": ...})` builds extractors -- this is what
+    # the KAGIndexManager pattern uses to derive ingestion extractors from the
+    # active index_list. The lightweight invoke contract below is kept
+    # deliberately (server-free: no knext BuilderComponent, no checkpointer, no
+    # BuilderComponentData wrapping) so `ainvoke(chunk)` returns bare SubGraphs,
+    # which is what the ingestion pipeline consumes.
     def __init__(self, **kwargs):
         self.language = kwargs.pop("language", "en")
         for k, v in kwargs.items():
             setattr(self, k, v)
-
-    @classmethod
-    def register(cls, name=None, *args, **kwargs):
-        def _decorator(target):
-            return target
-
-        return _decorator
 
     @property
     def input_types(self):
@@ -311,6 +311,7 @@ from kag.interface.common.model.retriever_data import (  # noqa: E402
 )
 from kag.interface.common.rerank_model import RerankModelABC  # noqa: E402, F401
 from kag.interface.common.tools import ToolABC  # noqa: E402, F401
+from kag.interface.indexer.index import IndexABC  # noqa: E402, F401
 from kag.interface.solver.context import Context  # noqa: E402, F401
 from kag.interface.solver.executor_abc import (  # noqa: E402
     ExecutorABC,  # noqa: F401
