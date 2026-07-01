@@ -113,40 +113,9 @@ class PromptABC(ABC, Registrable):
         )
 
 
-# --- kag.interface.LLMClient (minimal; bind your own model) ---------------- #
-class LLMClient(Registrable):
-    def __init__(self, call=None, **kwargs):
-        self._call = call
-        for k, v in kwargs.items():
-            setattr(self, k, v)
-
-    def call(self, prompt, **kwargs) -> str:
-        if self._call is not None:
-            return self._call(prompt, **kwargs)
-        raise NotImplementedError(
-            "Bind your model: subclass LLMClient and implement call(), "
-            "or construct it with LLMClient(call=<your_model_callable>)."
-        )
-
-    __call__ = call
-
-    def invoke(self, variables, prompt_op, **kwargs):
-        prompt = prompt_op.build_prompt(variables)
-        if not prompt:
-            return []
-        response = self.call(prompt, **kwargs)
-        return prompt_op.parse_response(response, **kwargs)
-
-    async def acall(self, prompt, **kwargs) -> str:
-        # default async: run the sync model call
-        return self.call(prompt, **kwargs)
-
-    async def ainvoke(self, variables, prompt_op, **kwargs):
-        prompt = prompt_op.build_prompt(variables)
-        if not prompt:
-            return []
-        response = await self.acall(prompt, **kwargs)
-        return prompt_op.parse_response(response, **kwargs)
+# kag.interface.LLMClient — real upstream client (rate-limited, json-repair, retry).
+# Imported here (after PromptABC) because llm_client imports PromptABC from this package.
+from kag.interface.common.llm_client import LLMClient  # noqa: E402, F401
 
 
 # --- kag.interface.ExtractorABC (minimal) ---------------------------------- #
