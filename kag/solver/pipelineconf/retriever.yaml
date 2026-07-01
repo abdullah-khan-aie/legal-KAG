@@ -17,8 +17,11 @@ solver_pipeline:
   generator:
     type: llm_index_generator
     llm_client: "{chat_llm}"
+    generated_prompt:
+      type: default_refer_generator_prompt
     chunk_reranker:
       type: rerank_by_vector
       vectorize_model: "{vectorize_model}"
       rerank_top_k: -1
+    enable_ref: true
 #------------kag-solver configuration end----------------#
