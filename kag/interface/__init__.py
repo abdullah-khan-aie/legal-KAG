@@ -7,6 +7,8 @@ from typing import ClassVar
 
 from common import Input, Output
 
+from kag.common.registry import Registrable
+
 
 class ReaderABC:
     def __init__(self, **kwargs):
@@ -36,7 +38,7 @@ class ReaderABC:
         raise NotImplementedError
 
 
-class PromptABC(ABC):
+class PromptABC(ABC, Registrable):
     template_en: ClassVar[str] = ""
 
     def __init__(self, **kwargs):
@@ -52,13 +54,6 @@ class PromptABC(ABC):
                 self.example_output = json.loads(self.example_output)
             except Exception:
                 pass
-
-    @classmethod
-    def register(cls, name=None, *args, **kwargs):
-        def _decorator(target):
-            return target
-
-        return _decorator
 
     def is_json_format(self):
         return True
@@ -119,18 +114,11 @@ class PromptABC(ABC):
 
 
 # --- kag.interface.LLMClient (minimal; bind your own model) ---------------- #
-class LLMClient:
+class LLMClient(Registrable):
     def __init__(self, call=None, **kwargs):
         self._call = call
         for k, v in kwargs.items():
             setattr(self, k, v)
-
-    @classmethod
-    def register(cls, name=None, *args, **kwargs):
-        def _decorator(target):
-            return target
-
-        return _decorator
 
     def call(self, prompt, **kwargs) -> str:
         if self._call is not None:
