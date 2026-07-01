@@ -52,6 +52,7 @@ class IngestionPipeline:
         embedder: VectorizeModelABC,
         schema_path: str,
         graph_store,
+        extractors: list | None = None,
         similarity_threshold: float = 0.9,
         namespace: str = "",
     ) -> None:
@@ -72,19 +73,25 @@ class IngestionPipeline:
         # 2) splitter: LLM-driven semantic segmentation (English prompts by default).
         self._splitter = SemanticSplitter(llm=self._llm)
 
-        # 3) extractors (run concurrently per chunk):
-        #    - schema_constraint: typed entities / relations / events (legal domain)
-        #    - summary: one condensed Summary node per chunk (summary index)
-        self._extractors = [
-            SchemaConstraintExtractor(
-                llm=self._llm,
-                schema_path=schema_path,
-                ner_prompt=SPGEntityPrompt(schema_path=schema_path),
-                relation_prompt=SPGRelationPrompt(schema_path=schema_path),
-                event_prompt=SPGEventPrompt(schema_path=schema_path),
-            ),
-            SummaryExtractor(llm_module=self._llm),
-        ]
+        # 3) extractors (run concurrently per chunk). When ``extractors`` is
+        #    supplied (the index_list-driven path: each active KAGIndexManager
+        #    contributes its extractor via build_extractor_config), those are
+        #    used. Otherwise fall back to the default schema_constraint + summary
+        #    pair, so direct callers and tests keep working unchanged.
+        self._extractors = (
+            extractors
+            if extractors is not None
+            else [
+                SchemaConstraintExtractor(
+                    llm=self._llm,
+                    schema_path=schema_path,
+                    ner_prompt=SPGEntityPrompt(schema_path=schema_path),
+                    relation_prompt=SPGRelationPrompt(schema_path=schema_path),
+                    event_prompt=SPGEventPrompt(schema_path=schema_path),
+                ),
+                SummaryExtractor(llm_module=self._llm),
+            ]
+        )
 
         # 4) align: merge + de-duplicate per-chunk subgraphs (kag logic).
         self._aligner = KAGAligner()
