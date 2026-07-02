@@ -13,8 +13,8 @@ router = APIRouter(prefix="/ingest", tags=["ingestion"])
 async def ingest() -> IngestResponse:
     """Ingest every document in the configured scan folder.
 
-    No request body: the directory scanner reads ``INGEST_SCAN_DIR`` and the
-    documents are ingested concurrently (bounded by ``INGEST_MAX_CONCURRENCY``).
+    No request body: the directory scanner reads ``LODESTONE_SCAN_DIR`` and the
+    documents are ingested concurrently (bounded by ``LODESTONE_MAX_CONCURRENCY``).
     """
     settings = get_settings()
     summary = await ingest_directory(settings.scan_dir, settings.max_concurrency)

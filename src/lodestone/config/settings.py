@@ -8,21 +8,21 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
 class Settings(BaseSettings):
-    """Settings for the ingestion pipeline and its model clients.
+    """Application settings for the ingestion + query pipelines and their clients.
 
-    Field ``foo_bar`` maps to the ``INGEST_FOO_BAR`` environment variable.
+    Field ``foo_bar`` maps to the ``LODESTONE_FOO_BAR`` environment variable.
     """
 
-    model_config = SettingsConfigDict(env_prefix="INGEST_", env_file=".env", extra="ignore")
+    model_config = SettingsConfigDict(env_prefix="LODESTONE_", env_file=".env", extra="ignore")
 
     schema_path: str = "legal_schema.yaml"
 
-    # LLM: Azure OpenAI, served via kag's AzureOpenAIClient (official Azure SDK).
-    llm_base_url: str = "https://your-resource.openai.azure.com"
+    # LLM: Azure OpenAI on the v1 API surface -- base_url ends in /openai/v1/,
+    # no api-version, and llm_model is the deployment name. Shared by ingestion
+    # and query.
+    llm_base_url: str = "https://your-resource.openai.azure.com/openai/v1/"
     llm_api_key: SecretStr = SecretStr("")
     llm_model: str = "gpt-4o"
-    llm_azure_deployment: str = ""
-    llm_api_version: str = "2024-12-01-preview"
 
     # Embeddings: Azure-hosted Cohere via azure-ai-inference (AzureCohereVectorizeModel).
     cohere_endpoint: str = "https://your-cohere-endpoint.models.ai.azure.com"
@@ -41,7 +41,7 @@ class Settings(BaseSettings):
 
     # Active KAG indices. Each name maps to a KAGIndexManager that contributes
     # BOTH its extractor(s) at ingest time and its retriever(s) at query time,
-    # so ingestion and retrieval stay in lockstep. Set via INGEST_INDEX_LIST as
+    # so ingestion and retrieval stay in lockstep. Set via LODESTONE_INDEX_LIST as
     # a JSON array, e.g. '["summary_index","chunk_index","atomic_query_index"]'.
     index_list: list[str] = ["spo_graph_index", "summary_index"]
 
