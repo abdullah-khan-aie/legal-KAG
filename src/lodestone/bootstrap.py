@@ -100,8 +100,6 @@ def get_ingestion_pipeline() -> IngestionPipeline:
         api_key=settings.llm_api_key.get_secret_value(),
         base_url=settings.llm_base_url,
         model=settings.llm_model,
-        azure_deployment=settings.llm_azure_deployment,
-        api_version=settings.llm_api_version,
     )
     return build_ingestion_pipeline(
         llm,

@@ -23,8 +23,6 @@ def _chat_llm_config(settings: Settings) -> dict[str, Any]:
         "api_key": settings.llm_api_key.get_secret_value(),
         "base_url": settings.llm_base_url,
         "model": settings.llm_model,
-        "azure_deployment": settings.llm_azure_deployment,
-        "api_version": settings.llm_api_version,
     }
 
 

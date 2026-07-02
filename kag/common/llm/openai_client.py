@@ -1,7 +1,6 @@
 import logging
-from collections.abc import Callable
 
-from openai import AsyncAzureOpenAI, AzureOpenAI
+from openai import AsyncOpenAI, OpenAI
 
 from kag.interface.common.llm_client import LLMClient
 from kag.interface.solver.reporter_abc import do_report
@@ -9,8 +8,6 @@ from kag.interface.solver.reporter_abc import do_report
 logging.getLogger("openai").setLevel(logging.ERROR)
 logging.getLogger("httpx").setLevel(logging.ERROR)
 logger = logging.getLogger(__name__)
-
-AzureADTokenProvider = Callable[[], str]
 
 
 @LLMClient.register("azure_openai")
@@ -21,32 +18,27 @@ class AzureOpenAIClient(LLMClient):
         base_url: str,
         model: str,
         stream: bool = False,
-        api_version: str = "2024-12-01-preview",
         temperature: float = 0.7,
-        azure_deployment: str = None,
         timeout: float = None,
-        azure_ad_token: str = None,
-        azure_ad_token_provider: AzureADTokenProvider = None,
         max_rate: float = 1000,
         time_period: float = 1,
         **kwargs,
     ):
-        """Initialize the Azure OpenAI client.
+        """Initialize the Azure OpenAI client (v1 API surface).
+
+        We target the Azure OpenAI **v1 API**, which uses the standard OpenAI
+        client pointed at a ``base_url`` ending in ``/openai/v1/`` with no
+        ``api-version`` (the deployment name is passed as ``model``). This is
+        NOT the classic data-plane API (``AzureOpenAI`` + ``api_version`` +
+        ``azure_deployment``).
 
         Args:
-            api_key: API key for accessing the Azure OpenAI API.
-            base_url: Base URL for the Azure OpenAI API.
-            model: Default model to use for requests.
+            api_key: Azure OpenAI API key.
+            base_url: Endpoint URL ending in ``/openai/v1/``.
+            model: The deployment name (passed as ``model`` on the v1 API).
             stream: Whether to stream the response.
-            api_version: Azure OpenAI API version (e.g. "2024-12-01-preview").
             temperature: Sampling temperature for the model.
-            azure_deployment: Model deployment name; when set, the client URL
-                includes ``/deployments/{azure_deployment}`` and non-deployment
-                endpoints become unavailable.
             timeout: Request timeout; None means no timeout.
-            azure_ad_token: An Azure Active Directory token.
-            azure_ad_token_provider: A callable returning an Azure Active
-                Directory token, invoked on every request.
             max_rate: Maximum number of requests allowed per time period.
             time_period: Length of the rate-limiting window in seconds.
         """
@@ -57,30 +49,12 @@ class AzureOpenAIClient(LLMClient):
 
         self.api_key = api_key
         self.base_url = base_url
-        self.azure_deployment = azure_deployment
         self.model = model
         self.stream = stream
         self.temperature = temperature
         self.timeout = timeout
-        self.api_version = api_version
-        self.azure_ad_token = azure_ad_token
-        self.azure_ad_token_provider = azure_ad_token_provider
-        self.client = AzureOpenAI(
-            api_key=self.api_key,
-            base_url=self.base_url,
-            azure_deployment=self.azure_deployment,
-            api_version=self.api_version,
-            azure_ad_token=self.azure_ad_token,
-            azure_ad_token_provider=self.azure_ad_token_provider,
-        )
-        self.aclient = AsyncAzureOpenAI(
-            api_key=self.api_key,
-            base_url=self.base_url,
-            azure_deployment=self.azure_deployment,
-            api_version=self.api_version,
-            azure_ad_token=self.azure_ad_token,
-            azure_ad_token_provider=self.azure_ad_token_provider,
-        )
+        self.client = OpenAI(api_key=self.api_key, base_url=self.base_url)
+        self.aclient = AsyncOpenAI(api_key=self.api_key, base_url=self.base_url)
 
         self.check()
         logger.debug(
