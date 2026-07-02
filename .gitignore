@@ -32,9 +32,8 @@ inspection_result
 reference/
 *.pdf
 
-# Local ingestion test documents (drop files here; not committed)
-ingest_docs/*
-!ingest_docs/.gitkeep
+# Local ingestion test documents (create the folder locally; not tracked)
+ingest_docs/
 
 # Terraform (state can contain secrets; never commit state or tfvars)
 **/.terraform/*
