@@ -45,6 +45,11 @@ class Settings(BaseSettings):
     # a JSON array, e.g. '["summary_index","chunk_index","atomic_query_index"]'.
     index_list: list[str] = ["spo_graph_index", "summary_index"]
 
+    # Ingestion: local folder the directory scanner reads, and how many
+    # documents to ingest concurrently (bounded to respect Azure rate limits).
+    scan_dir: str = "ingest_docs"
+    max_concurrency: int = 4
+
     log_level: str = "INFO"
     log_format: Literal["console", "json"] = "console"
 

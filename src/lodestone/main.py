@@ -5,6 +5,7 @@ from contextlib import asynccontextmanager
 
 from fastapi import FastAPI
 
+from src.lodestone.api.routes import ingestion as ingestion_routes
 from src.lodestone.api.routes import query as query_routes
 from src.lodestone.bootstrap import get_ingestion_pipeline, get_query_pipeline
 from src.lodestone.config.settings import get_settings
@@ -31,3 +32,4 @@ async def lifespan(_app: FastAPI) -> AsyncIterator[None]:
 
 app = FastAPI(title="Lodestone", lifespan=lifespan)
 app.include_router(query_routes.router)
+app.include_router(ingestion_routes.router)

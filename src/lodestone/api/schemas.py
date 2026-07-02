@@ -26,3 +26,23 @@ class QueryRequest(BaseModel):
         default=PipelineName.retriever,
         description="Which query pipeline to run (retrieval by default).",
     )
+
+
+class IngestFileResult(BaseModel):
+    """Per-document outcome of an ingestion run."""
+
+    path: str
+    status: str  # "ingested" | "skipped" | "failed"
+    nodes: int = 0
+    edges: int = 0
+    error: str | None = None
+
+
+class IngestResponse(BaseModel):
+    """Summary returned by the directory-ingestion endpoint."""
+
+    total: int
+    ingested: int
+    skipped: int
+    failed: int
+    files: list[IngestFileResult]
