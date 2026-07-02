@@ -27,3 +27,25 @@ venv/
 kag-docs
 Best practices for writing code comments - Stack Overflow.pdf
 inspection_result
+
+# Local-only reference material (books/PDFs you own; never committed)
+reference/
+*.pdf
+
+# Local ingestion test documents (drop files here; not committed)
+ingest_docs/*
+!ingest_docs/.gitkeep
+
+# Terraform (state can contain secrets; never commit state or tfvars)
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+!*.tfvars.example
+.terraform.lock.hcl
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
