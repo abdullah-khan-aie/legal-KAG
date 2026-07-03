@@ -114,6 +114,11 @@ aws ec2 authorize-security-group-ingress --region eu-west-2 \
 Then send testers: **`http://<app-ec2-public-ip>:8080/`** (bookmark it; nothing
 to install). A stable Elastic IP or a domain is nicer than the raw public IP.
 
+**Open the frontend port only.** Make *only* `8080` (the app that serves the UI
+and its query API) public. **Do not** open the Neo4j ports (`7474`/`7687`) or SSH
+(`22`) to the internet — those stay private/VPC-only. The public should be able
+to reach the frontend and nothing else on the box.
+
 > ⚠️ **No authentication.** With 8080 public, anyone with the URL can query the
 > graph and can trigger `POST /ingest`. Only do this with **non-sensitive test
 > data**, and close 8080 again (`revoke-security-group-ingress`) when the test
