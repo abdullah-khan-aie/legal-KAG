@@ -1,5 +1,5 @@
-from kag.common.llm.openai_client import AzureOpenAIClient
+from kag.common.llm.bedrock_claude_client import BedrockClaudeClient
 
 __all__ = [
-    "AzureOpenAIClient",
+    "BedrockClaudeClient",
 ]

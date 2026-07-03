@@ -7,7 +7,7 @@ dependencies = [
     "httpx",                 # OpenAI-compatible embedding HTTP adapter (fallback)
     "pydantic>=2",           # settings models (src/config)
     "pydantic-settings>=2",  # env-driven configuration (src/config)
-    "azure-ai-inference",    # Azure-hosted Cohere embeddings (AzureCohereVectorizeModel)
+    "boto3",                 # Amazon Bedrock runtime (Cohere Embed via invoke_model)
     # --- ingestion (kag builder) ---
     "pyyaml",                # local YAML schema client
     "tenacity",              # retry decorators in extractors/vectorizer/retrievers
@@ -30,7 +30,7 @@ dependencies = [
     "aiolimiter",            # async rate limiting in utils
     "cachetools",            # LinkCache (query/one-hop caches)
     # --- solver (kag solver: planner/executor/generator/pipeline) ---
-    "openai",                # Azure OpenAI client (AzureOpenAIClient, official SDK)
+    "openai",                # Bedrock OpenAI chat-completions client (official SDK)
     "pyhocon",               # solver pipeline config (.conf/.yaml) parsing
     "mcp",                   # MCP executor (external tool servers)
     "portalocker",           # LLMClient token-meter file locking

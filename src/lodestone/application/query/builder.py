@@ -17,21 +17,20 @@ _PIPELINE_FILES = {
 
 
 def _chat_llm_config(settings: Settings) -> dict[str, Any]:
-    """Config dict the registry uses to build the Azure OpenAI LLM client."""
+    """Config dict the registry uses to build the Bedrock Claude LLM client."""
     return {
-        "type": "azure_openai",
-        "api_key": settings.llm_api_key.get_secret_value(),
-        "base_url": settings.llm_base_url,
+        "type": "bedrock_claude",
+        "region": settings.bedrock_region,
         "model": settings.llm_model,
     }
 
 
 def _vectorize_model_config(settings: Settings, input_type: str) -> dict[str, Any]:
-    """Config dict for the Azure Cohere embedder (``input_type="query"`` for retrieval)."""
+    """Config dict for the Bedrock Cohere embedder (``input_type="query"`` for retrieval)."""
     return {
-        "type": "azure_cohere",
-        "endpoint": settings.cohere_endpoint,
-        "api_key": settings.cohere_api_key.get_secret_value(),
+        "type": "bedrock_cohere",
+        "region": settings.embed_region,
+        "model": settings.embed_model,
         "input_type": input_type,
     }
 

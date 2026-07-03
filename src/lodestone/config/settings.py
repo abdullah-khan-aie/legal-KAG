@@ -17,17 +17,23 @@ class Settings(BaseSettings):
 
     schema_path: str = "legal_schema.yaml"
 
-    # LLM: Azure OpenAI on the v1 API surface -- base_url ends in /openai/v1/,
-    # no api-version, and llm_model is the deployment name. Shared by ingestion
-    # and query.
-    llm_base_url: str = "https://your-resource.openai.azure.com/openai/v1/"
-    llm_api_key: SecretStr = SecretStr("")
-    llm_model: str = "gpt-4o"
+    # LLM + embeddings both run on Amazon Bedrock. A single Amazon Bedrock API
+    # key (bearer token) authenticates both clients (exposed to boto3 via
+    # AWS_BEARER_TOKEN_BEDROCK by the bootstrap layer).
+    bedrock_api_key: SecretStr
 
-    # Embeddings: Azure-hosted Cohere via azure-ai-inference (AzureCohereVectorizeModel).
-    cohere_endpoint: str = "https://your-cohere-endpoint.models.ai.azure.com"
-    cohere_api_key: SecretStr = SecretStr("")
-    cohere_input_type: str = "document"
+    # LLM: Anthropic Claude on Bedrock via the Converse API. The EU inference
+    # profile keeps inference within EU regions (data stays in Europe).
+    bedrock_region: str = "eu-west-2"
+    llm_model: str = "eu.anthropic.claude-sonnet-4-6"
+
+    # Embeddings run in the EU too (own region so it stays independent of the
+    # LLM region). The eu.cohere.embed-v4:0 profile routes only within EU
+    # regions. input_type is "search_document" for ingest ("search_query" for
+    # retrieval).
+    embed_region: str = "eu-west-2"
+    embed_model: str = "eu.cohere.embed-v4:0"
+    embed_input_type: str = "search_document"
 
     # Neo4j graph store (required — the app won't start without a password; the
     # pipeline always persists + entity-links against it).
@@ -46,7 +52,7 @@ class Settings(BaseSettings):
     index_list: list[str] = ["spo_graph_index", "summary_index"]
 
     # Ingestion: local folder the directory scanner reads, and how many
-    # documents to ingest concurrently (bounded to respect Azure rate limits).
+    # documents to ingest concurrently (bounded to respect Bedrock rate limits).
     scan_dir: str = "ingest_docs"
     max_concurrency: int = 4
 

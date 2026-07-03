@@ -56,8 +56,8 @@ class IngestionPipeline:
         similarity_threshold: float = 0.9,
         namespace: str = "",
     ) -> None:
-        # kag clients (AzureOpenAIClient, AzureCohereVectorizeModel) are the model
-        # seams the kag components are written against; used directly.
+        # kag clients (BedrockClaudeClient, BedrockCohereVectorizeModel) are the
+        # model seams the kag components are written against; used directly.
         self._llm = llm
         self._embed = embedder
 

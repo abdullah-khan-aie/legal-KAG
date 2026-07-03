@@ -1,22 +1,37 @@
 from __future__ import annotations
 
+import os
 from functools import lru_cache
 
 from kag.common.graphstore.neo4j_graph_store import Neo4jClient
-from kag.common.llm.openai_client import AzureOpenAIClient
-from kag.common.vectorize_model.azure_cohere_model import AzureCohereVectorizeModel
+from kag.common.llm.bedrock_claude_client import BedrockClaudeClient
+from kag.common.vectorize_model.bedrock_cohere_model import BedrockCohereVectorizeModel
 from kag.interface import LLMClient
 from src.lodestone.application.ingestion.pipeline import IngestionPipeline
 from src.lodestone.application.query.builder import build_query_pipeline
 from src.lodestone.config.settings import Settings, get_settings
 
 
-def _build_embedder(settings: Settings) -> AzureCohereVectorizeModel:
-    """Build the Azure-hosted Cohere embedder (kag pattern, async)."""
-    return AzureCohereVectorizeModel(
-        endpoint=settings.cohere_endpoint,
-        api_key=settings.cohere_api_key.get_secret_value(),
-        input_type=settings.cohere_input_type,
+def _configure_aws_auth(settings: Settings) -> None:
+    """Expose the Bedrock API key to boto3 via the standard bearer-token env var.
+
+    The OpenAI SDK receives the key directly; boto3 (used by the Cohere embedder)
+    reads it from ``AWS_BEARER_TOKEN_BEDROCK``. Set it once, from settings, so a
+    single Amazon Bedrock API key authenticates both clients.
+    """
+    os.environ.setdefault(
+        "AWS_BEARER_TOKEN_BEDROCK", settings.bedrock_api_key.get_secret_value()
+    )
+    # The only boto3 client is the embedder, which runs in the EU embed region.
+    os.environ.setdefault("AWS_REGION", settings.embed_region)
+
+
+def _build_embedder(settings: Settings) -> BedrockCohereVectorizeModel:
+    """Build the Bedrock-hosted Cohere embedder (kag pattern, sync + to_thread)."""
+    return BedrockCohereVectorizeModel(
+        region=settings.embed_region,
+        model=settings.embed_model,
+        input_type=settings.embed_input_type,
     )
 
 
@@ -94,11 +109,11 @@ def build_ingestion_pipeline(
 def get_ingestion_pipeline() -> IngestionPipeline:
     """Return the cached pipeline singleton, wired from settings."""
     settings: Settings = get_settings()
-    # kag's AzureOpenAIClient is itself an LLMClient, used directly as the pipeline's
+    _configure_aws_auth(settings)
+    # kag's BedrockClaudeClient is itself an LLMClient, used directly as the pipeline's
     # model seam (no app-side adapter). Config is injected here from settings.
-    llm = AzureOpenAIClient(
-        api_key=settings.llm_api_key.get_secret_value(),
-        base_url=settings.llm_base_url,
+    llm = BedrockClaudeClient(
+        region=settings.bedrock_region,
         model=settings.llm_model,
     )
     return build_ingestion_pipeline(
@@ -119,6 +134,7 @@ def get_query_pipeline(pipeline_name: str = "retriever"):
     ``neo4j_search_api`` / ``neo4j_graph_api`` retrievers (no global state).
     """
     settings = get_settings()
+    _configure_aws_auth(settings)
     return build_query_pipeline(
         pipeline_name, settings, graph_store=_build_graph_store(settings)
     )
