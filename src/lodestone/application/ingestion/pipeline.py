@@ -15,7 +15,7 @@ from kag.builder.component.reader.markdown_reader import MarkDownReader
 from kag.builder.component.reader.mix_reader import MixReader
 from kag.builder.component.reader.pdf_reader import PDFReader
 from kag.builder.component.reader.txt_reader import TXTReader
-from kag.builder.component.splitter.semantic_splitter import SemanticSplitter
+from kag.builder.component.splitter.length_splitter import LengthSplitter
 from kag.builder.component.vectorizer.batch_vectorizer import BatchVectorizer
 from kag.builder.component.writer.graph_store_writer import GraphStoreWriter
 from kag.builder.model.chunk import Chunk
@@ -70,8 +70,13 @@ class IngestionPipeline:
             dict_reader=DictReader(),
         )
 
-        # 2) splitter: LLM-driven semantic segmentation (English prompts by default).
-        self._splitter = SemanticSplitter(llm=self._llm)
+        # 2) splitter: sliding-window split by character length. No LLM call, so
+        #    it sidesteps the Bedrock RPM ceiling that made the per-node
+        #    SemanticSplitter throttle out (ChunkingError). The docx reader
+        #    already emits one chunk per clause via its heading tree, so semantic
+        #    boundaries are largely set before the splitter runs; this stage only
+        #    caps oversized chunks. Table-aware via BaseTableSplitter.
+        self._splitter = LengthSplitter(split_length=1500, window_length=150)
 
         # 3) extractors (run concurrently per chunk). When ``extractors`` is
         #    supplied (the index_list-driven path: each active KAGIndexManager
