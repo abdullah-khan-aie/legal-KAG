@@ -1,13 +1,16 @@
+from __future__ import annotations
+
 import asyncio
 import json
 import logging
 import sys
 from contextlib import AsyncExitStack
-
-from mcp import ClientSession, StdioServerParameters
-from mcp.client.stdio import stdio_client
+from typing import TYPE_CHECKING
 
 from kag.interface import LLMClient, PromptABC
+
+if TYPE_CHECKING:  # annotations only; the real import is lazy (see connect_to_server)
+    from mcp import ClientSession
 
 logger = logging.getLogger(__name__)
 
@@ -39,6 +42,14 @@ class MCPClient:
         Raises:
             ValueError: If the script is not a Python or JavaScript file.
         """
+        # Imported lazily: the local ``kag/solver/executor/mcp`` package shadows
+        # the installed ``mcp`` SDK during component registration (the registry
+        # walk imports this folder as top-level ``mcp``). Importing the SDK at
+        # module top level would break that walk. The MCP executor is only used
+        # by the optional ``mcp`` pipeline, so import the SDK here, on use.
+        from mcp import ClientSession, StdioServerParameters
+        from mcp.client.stdio import stdio_client
+
         is_python = server_script_path.endswith(".py")
         is_js = server_script_path.endswith(".js")
         if not (is_python or is_js):
