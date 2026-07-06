@@ -66,6 +66,17 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
     def close(self):
         self._driver.close()
 
+    def __deepcopy__(self, memo):
+        # The client wraps a live Neo4j driver (thread locks / sockets) that
+        # cannot be pickled or deep-copied, and it is a process-wide singleton
+        # (SingletonMeta) meant to be shared. When it is injected into a solver
+        # config that ``from_config`` deep-copies, a "copy" is just the same
+        # shared connection, so return self.
+        return self
+
+    def __copy__(self):
+        return self
+
     def schedule_constraint(self, interval_minutes):
         def job():
             try:
