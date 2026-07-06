@@ -282,9 +282,8 @@ class LLMClient(Registrable):
             json_str = res
         try:
             json_result = loads(json_str)
-            if not json_result:
-                return res
-        except:
+        except Exception as e:
+            logger.info(f"parse json failed {json_str}, info: {e}")
             return res
         return json_result
 
