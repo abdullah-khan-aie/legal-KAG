@@ -74,7 +74,13 @@ async def ingest_directory(directory: str, max_concurrency: int = 4) -> IngestSu
             return FileResult(path=path, status="failed", error=str(err))
 
     async def producer() -> None:
-        for path in scanner.generate(directory):
+        # os.walk is blocking, so run the directory scan in a worker thread --
+        # enumerating on the event loop would stall it while walking a large
+        # tree. (find_files sorts, so it materializes regardless; offloading it
+        # is the correct non-blocking form.) Paths are then fed onto the bounded
+        # queue with backpressure via ``await queue.put``.
+        paths = await asyncio.to_thread(scanner.find_files, directory)
+        for path in paths:
             await queue.put(path)
         for _ in range(max_concurrency):
             await queue.put(None)  # one sentinel per consumer
