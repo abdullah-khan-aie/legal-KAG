@@ -5,8 +5,7 @@ from abc import ABC
 from string import Template
 from typing import ClassVar
 
-from common import Input, Output
-
+from kag.common import Input, Output
 from kag.common.registry import Registrable
 
 
