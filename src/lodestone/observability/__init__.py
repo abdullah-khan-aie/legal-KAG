@@ -1,5 +1,5 @@
-"""Observability: logging now, distributed tracing (Langfuse) in future."""
+"""Observability: logging now, distributed tracing (Langfuse) in the future."""
 
-from src.lodestone.observability.logging import configure_logging, get_logger
+from .logging import configure_logging, get_logger
 
 __all__ = ["configure_logging", "get_logger"]

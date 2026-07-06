@@ -16,7 +16,7 @@ _PIPELINE_FILES = {
 }
 
 
-def _chat_llm_config(settings: Settings) -> dict[str, Any]:
+def chat_llm_config(settings: Settings) -> dict[str, Any]:
     """Config dict the registry uses to build the Bedrock Claude LLM client."""
     return {
         "type": "bedrock_claude",
@@ -25,7 +25,7 @@ def _chat_llm_config(settings: Settings) -> dict[str, Any]:
     }
 
 
-def _vectorize_model_config(settings: Settings, input_type: str) -> dict[str, Any]:
+def vectorize_model_config(settings: Settings, input_type: str) -> dict[str, Any]:
     """Config dict for the Bedrock Cohere embedder (``input_type="query"`` for retrieval)."""
     return {
         "type": "bedrock_cohere",
@@ -146,8 +146,8 @@ def build_query_pipeline(
 
     settings = settings or get_settings()
     _register_components()
-    chat_llm = _chat_llm_config(settings)
-    vectorize_model = _vectorize_model_config(settings, input_type="query")
+    chat_llm = chat_llm_config(settings)
+    vectorize_model = vectorize_model_config(settings, input_type="query")
     replacements = {
         "chat_llm": chat_llm,
         "vectorize_model": vectorize_model,

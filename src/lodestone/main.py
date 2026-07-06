@@ -8,11 +8,10 @@ from fastapi import FastAPI
 from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
-from src.lodestone.api.routes import ingestion as ingestion_routes
-from src.lodestone.api.routes import query as query_routes
-from src.lodestone.bootstrap import get_ingestion_pipeline, get_query_pipeline
-from src.lodestone.config.settings import get_settings
-from src.lodestone.observability import configure_logging, get_logger
+from .api.routes import ingestion_router, query_router
+from .bootstrap import get_ingestion_pipeline, get_query_pipeline
+from .config import get_settings
+from .observability import configure_logging, get_logger
 
 logger = get_logger(__name__)
 
@@ -39,8 +38,8 @@ async def lifespan(_app: FastAPI) -> AsyncIterator[None]:
 
 
 app = FastAPI(title="Lodestone", lifespan=lifespan)
-app.include_router(query_routes.router)
-app.include_router(ingestion_routes.router)
+app.include_router(query_router)
+app.include_router(ingestion_router)
 
 # Serve the minimal query UI. Mounted after the API routers so it never shadows
 # them; the mount is optional so the API still boots if Frontend/ is absent.

@@ -43,8 +43,8 @@ def _build_extractors(settings: Settings) -> list:
     from kag.indexer import KAGIndexManager
     from kag.interface import ExtractorABC
     from src.lodestone.application.query.builder import (
-        _chat_llm_config,
-        _vectorize_model_config,
+        chat_llm_config,
+        vectorize_model_config,
     )
 
     # Register index managers, builder extractors and their prompts so
@@ -52,8 +52,8 @@ def _build_extractors(settings: Settings) -> list:
     for path in ("kag/indexer", "kag/builder"):
         import_modules_from_path(path)
 
-    llm_config = _chat_llm_config(settings)
-    vectorize_config = _vectorize_model_config(settings, input_type="document")
+    llm_config = chat_llm_config(settings)
+    vectorize_config = vectorize_model_config(settings, input_type="document")
 
     extractors: list = []
     for index_name in settings.index_list:
