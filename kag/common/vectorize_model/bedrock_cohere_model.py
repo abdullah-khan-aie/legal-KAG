@@ -14,6 +14,7 @@ import json
 from collections.abc import Iterable
 
 import boto3
+from botocore.config import Config
 
 from kag.interface.common.vectorize_model import EmbeddingVector, VectorizeModelABC
 
@@ -57,7 +58,13 @@ class BedrockCohereVectorizeModel(VectorizeModelABC):
         self.model = model
         self.input_type = _INPUT_TYPE_ALIASES.get(input_type, input_type)
         self.output_dimension = output_dimension
-        self.client = boto3.client("bedrock-runtime", region_name=region)
+        # Adaptive retries ride out Bedrock throttling (client-side rate-limiting
+        # + exponential backoff) while the account's per-minute quota is low.
+        self.client = boto3.client(
+            "bedrock-runtime",
+            region_name=region,
+            config=Config(retries={"max_attempts": 10, "mode": "adaptive"}),
+        )
 
     @classmethod
     def generate_key(cls, region, model, input_type, *args, **kwargs) -> str:

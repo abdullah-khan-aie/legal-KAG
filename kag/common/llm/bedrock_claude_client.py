@@ -2,6 +2,7 @@ import asyncio
 import logging
 
 import boto3
+from botocore.config import Config
 
 from kag.interface.common.llm_client import LLMClient
 from kag.interface.solver.reporter_abc import do_report
@@ -53,7 +54,14 @@ class BedrockClaudeClient(LLMClient):
         self.region = region
         self.model = model
         self.temperature = temperature
-        self.client = boto3.client("bedrock-runtime", region_name=region)
+        # Adaptive retries add client-side rate-limiting + long exponential
+        # backoff, so throttled calls wait and retry instead of dying while the
+        # account's per-minute Bedrock quota is low.
+        self.client = boto3.client(
+            "bedrock-runtime",
+            region_name=region,
+            config=Config(retries={"max_attempts": 10, "mode": "adaptive"}),
+        )
 
         self.check()
         logger.debug(

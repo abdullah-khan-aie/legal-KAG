@@ -131,10 +131,17 @@ class IngestionPipeline:
         # read (IO/LLM-bound) + semantic split run off the event loop
         chunks = await asyncio.to_thread(self._read_and_split, source)
 
-        # extract every chunk with every extractor, concurrently, then merge + de-dup
+        # extract every chunk with every extractor, concurrently but bounded so
+        # we stay under Bedrock's request rate limit, then merge + de-dup
         with self._stage(ExtractionError, "extraction failed", source):
+            sem = asyncio.Semaphore(2)
+
+            async def _extract(extractor, chunk):
+                async with sem:
+                    return await extractor.ainvoke(chunk)
+
             subgraph_lists = await asyncio.gather(
-                *(extractor.ainvoke(chunk) for chunk in chunks for extractor in self._extractors)
+                *(_extract(extractor, chunk) for chunk in chunks for extractor in self._extractors)
             )
             all_subgraphs = [sg for subgraphs in subgraph_lists for sg in subgraphs]
             merged = await asyncio.to_thread(self._aligner.invoke, all_subgraphs)
