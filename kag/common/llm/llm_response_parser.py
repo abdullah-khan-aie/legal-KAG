@@ -10,7 +10,7 @@ def parse_json(content: str) -> Any:
         end_idx = content.rfind("}")
         obj = json.loads(content[start_idx : end_idx + 1])
 
-    except:  # noqa: E722
+    except json.JSONDecodeError:
         start_idx = content.rfind(': "')
         end_idx = content.rfind('"}')
         if start_idx >= 0 and end_idx >= 0:
