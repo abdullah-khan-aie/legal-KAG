@@ -61,6 +61,46 @@ class SummaryExtractor(ExtractorABC):
             {"content": content}, self.chunk_summary_prompt, with_json_parse=False
         )
 
+        return [self._build_summary_subgraph(data, summary_name, summary, o_label)]
+
+    async def _ainvoke(self, data: Input, **kwargs) -> list[Output]:
+        """Async twin of ``_invoke``: summarise the chunk on the async LLM path.
+
+        Identical to ``_invoke`` except the LLM call goes through
+        ``llm_module.ainvoke`` (the async ``self.limiter`` bucket) instead of the
+        sync ``invoke`` (the separate ``sync_limiter`` bucket). This puts summary
+        calls in the SAME process-global async rate limiter as the schema
+        extractor's NER/SPO/event/std calls -- one shared bucket, one true global
+        rate -- rather than a second independent bucket that would sum on top of
+        it. It also keeps the call off the thread pool. ``ainvoke`` mirrors
+        ``invoke`` line-for-line (same signature, same ``with_json_parse=False``
+        branch, same ``parse_response``), so the summary output is unchanged.
+        """
+        if data.type == ChunkTypeEnum.Text:
+            o_label = CHUNK_TYPE
+        else:
+            o_label = TABLE_TYPE
+
+        summary_name = data.name
+
+        index = summary_name.find("_split")
+        if index != -1:
+            summary_name = summary_name[:index]
+
+        content = data.content
+        summary = await self.llm_module.ainvoke(
+            {"content": content}, self.chunk_summary_prompt, with_json_parse=False
+        )
+
+        return [self._build_summary_subgraph(data, summary_name, summary, o_label)]
+
+    @staticmethod
+    def _build_summary_subgraph(data, summary_name, summary, o_label) -> SubGraph:
+        """Assemble the Summary node + its childOf / sourceChunk edges.
+
+        Shared by ``_invoke`` and ``_ainvoke`` so the two paths differ only in how
+        the summary text is obtained.
+        """
         sub_graph = SubGraph([], [])
         # add Summary Node
         sub_graph.add_node(
@@ -96,4 +136,4 @@ class SummaryExtractor(ExtractorABC):
             properties={},
         )
 
-        return [sub_graph]
+        return sub_graph

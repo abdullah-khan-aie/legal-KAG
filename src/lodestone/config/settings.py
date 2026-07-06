@@ -30,6 +30,19 @@ class Settings(BaseSettings):
     bedrock_region: str = "eu-west-2"
     llm_model: str = "anthropic.claude-sonnet-4-6"
 
+    # kag's LLMClient has a built-in request limiter (an AsyncLimiter keyed by
+    # client name, process-global and shared across every extractor sub-call).
+    # It ships defaulted to no-op (max_rate=1000, time_period=1); the frameworks
+    # rely on concurrency (model_execute_num) instead. On this ContractorSandbox
+    # Bedrock account, concurrency=1 alone still throttles (ThrottlingException),
+    # because a per-minute quota is indifferent to how many workers we run. A rate
+    # limiter caps calls-per-minute directly, relieving BOTH the RPM and TPM
+    # ceilings at once. Applied via chat_llm_config so every extractor client
+    # shares the one limiter, and (with SummaryExtractor on the async path) all
+    # sub-calls draw from the single async bucket. Tune empirically.
+    llm_max_rate: float = 1
+    llm_time_period: float = 6
+
     # Embeddings: same rule -- bare Cohere model id, called in eu-west-2 (own
     # region setting, independent of the LLM). input_type is "search_document"
     # for ingest ("search_query" for retrieval).
@@ -57,6 +70,16 @@ class Settings(BaseSettings):
     # documents to ingest concurrently (bounded to respect Bedrock rate limits).
     scan_dir: str = "ingest_docs"
     max_concurrency: int = 4
+
+    # Global cap on how many chunk-extraction tasks run at once, shared across
+    # all in-flight documents. Ported from OpenSPG-KAG's `modelExecuteNum`: the
+    # Java builder (LLMNlExtractProcessor) drives extraction through a single
+    # fixed-size worker pool -- one task per chunk, bounded queue, backpressure --
+    # rather than a rate limiter. We port that exactly with an asyncio.Queue plus
+    # this many worker coroutines (see IngestionPipeline). Each extraction task
+    # fans out into ~4 concurrent LLM sub-calls, so true in-flight calls ~= this
+    # x 4; keep at 1 on this low-quota account.
+    model_execute_num: int = 1
 
     log_level: str = "INFO"
     log_format: Literal["console", "json"] = "console"

@@ -78,6 +78,7 @@ def build_ingestion_pipeline(
     graph_store,
     extractors: list | None = None,
     namespace: str = "",
+    model_execute_num: int = 1,
 ) -> IngestionPipeline:
     """Build a pipeline from explicit collaborators (tests / custom wiring)."""
     return IngestionPipeline(
@@ -87,6 +88,7 @@ def build_ingestion_pipeline(
         graph_store=graph_store,
         extractors=extractors,
         namespace=namespace,
+        model_execute_num=model_execute_num,
     )
 
 
@@ -95,10 +97,15 @@ def get_ingestion_pipeline() -> IngestionPipeline:
     """Return the cached pipeline singleton, wired from settings."""
     settings: Settings = get_settings()
     # kag's BedrockClaudeClient is itself an LLMClient, used directly as the pipeline's
-    # model seam (no app-side adapter). Config is injected here from settings.
+    # model seam (no app-side adapter). Config is injected here from settings. The
+    # rate-limiter knobs share a name-keyed AsyncLimiter with the registry-built
+    # extractor clients (same region+model => same name), so this and every
+    # extractor sub-call draw from one process-global bucket.
     llm = BedrockClaudeClient(
         region=settings.bedrock_region,
         model=settings.llm_model,
+        max_rate=settings.llm_max_rate,
+        time_period=settings.llm_time_period,
     )
     return build_ingestion_pipeline(
         llm,
@@ -107,6 +114,7 @@ def get_ingestion_pipeline() -> IngestionPipeline:
         graph_store=_build_graph_store(settings),
         extractors=_build_extractors(settings),
         namespace=settings.namespace,
+        model_execute_num=settings.model_execute_num,
     )
 
 

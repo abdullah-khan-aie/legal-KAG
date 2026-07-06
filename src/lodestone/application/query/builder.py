@@ -17,11 +17,20 @@ _PIPELINE_FILES = {
 
 
 def chat_llm_config(settings: Settings) -> dict[str, Any]:
-    """Config dict the registry uses to build the Bedrock Claude LLM client."""
+    """Config dict the registry uses to build the Bedrock Claude LLM client.
+
+    Carries kag's request-limiter knobs (``max_rate`` / ``time_period``). Every
+    extractor client the registry builds from this config shares one AsyncLimiter
+    keyed by client name, so these bound the process-global call rate across all
+    extraction sub-calls -- the account-level throttle control (see
+    ``model_execute_num`` for the complementary concurrency bound).
+    """
     return {
         "type": "bedrock_claude",
         "region": settings.bedrock_region,
         "model": settings.llm_model,
+        "max_rate": settings.llm_max_rate,
+        "time_period": settings.llm_time_period,
     }
 
 
