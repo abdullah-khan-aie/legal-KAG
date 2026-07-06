@@ -37,6 +37,11 @@ from src.lodestone.exceptions import (
     LodestoneError,
 )
 
+# Bounded capacity of the shared extraction work queue, mirroring OpenSPG-KAG's
+# LLMNlExtractProcessor `new LinkedBlockingQueue<>(100)`: submission blocks once
+# this many items are buffered, giving backpressure instead of unbounded growth.
+_EXTRACT_QUEUE_CAPACITY = 100
+
 
 class IngestionPipeline:
     """Ingest documents into the Neo4j knowledge graph.
@@ -55,11 +60,27 @@ class IngestionPipeline:
         extractors: list | None = None,
         similarity_threshold: float = 0.9,
         namespace: str = "",
+        model_execute_num: int = 1,
     ) -> None:
         # kag clients (BedrockClaudeClient, BedrockCohereVectorizeModel) are the
         # model seams the kag components are written against; used directly.
         self._llm = llm
         self._embed = embedder
+
+        # Extraction concurrency, ported directly from OpenSPG-KAG's Java builder
+        # (LLMNlExtractProcessor): a single fixed-size worker pool draining a
+        # shared queue -- the asyncio equivalent of its static
+        # ThreadPoolExecutor(modelExecuteNum) with a blocking bounded queue. One
+        # work item == one (chunk, extractor); at most `model_execute_num` run
+        # concurrently, shared across EVERY in-flight document (the pool is global,
+        # exactly like the Java executor being `static`). The rest wait in the
+        # queue as plain data rather than being materialised as coroutines up
+        # front. Workers are started lazily on first ingest (they need a running
+        # loop) and live for the process. `_extract_all` enqueues and awaits.
+        self._model_execute_num = max(1, model_execute_num)
+        self._work_queue: asyncio.Queue | None = None
+        self._workers: list[asyncio.Task] = []
+        self._workers_lock = asyncio.Lock()
 
         # 1) reader: auto-routes by file extension (txt/pdf/docx/md) or dict input.
         self._reader = MixReader(
@@ -131,23 +152,74 @@ class IngestionPipeline:
         except Exception as err:
             raise error_cls(message, details={"source": source}) from err
 
+    async def _ensure_workers(self) -> None:
+        """Lazily start the shared extraction worker pool on the running loop.
+
+        Mirrors LLMNlExtractProcessor's one-time `if (executor == null)` init: the
+        pool is created once and then shared for the life of the process. Guarded
+        by a lock so concurrent first-ingest calls start it exactly once.
+        """
+        if self._work_queue is not None:
+            return
+        async with self._workers_lock:
+            if self._work_queue is not None:
+                return
+            queue: asyncio.Queue = asyncio.Queue(maxsize=_EXTRACT_QUEUE_CAPACITY)
+            loop = asyncio.get_running_loop()
+            self._workers = [
+                loop.create_task(self._extract_worker(queue))
+                for _ in range(self._model_execute_num)
+            ]
+            self._work_queue = queue
+
+    async def _extract_worker(self, queue: asyncio.Queue) -> None:
+        """One pool worker: pull (extractor, chunk, future) items and run them.
+
+        Equivalent to a single thread in the Java ThreadPoolExecutor running
+        ExtractTaskCallable. Results/exceptions are handed back on the per-item
+        future so the submitting `_extract_all` can await them in order.
+        """
+        while True:
+            extractor, chunk, future = await queue.get()
+            try:
+                if not future.done():
+                    result = await extractor.ainvoke(chunk)
+                    future.set_result(result)
+            except Exception as err:  # deliver to the awaiter, keep the worker alive
+                if not future.done():
+                    future.set_exception(err)
+            finally:
+                queue.task_done()
+
+    async def _extract_all(self, chunks: list) -> list:
+        """Submit every (chunk, extractor) to the shared pool and gather results.
+
+        The asyncio analogue of LLMNlExtractProcessor.process: enqueue one task
+        per chunk-extractor pair, then collect the futures in submission order.
+        Only `model_execute_num` run at once; the rest wait in the queue, and
+        submission itself blocks once the queue is full (backpressure), matching
+        the Java bounded blocking queue.
+        """
+        await self._ensure_workers()
+        assert self._work_queue is not None
+        loop = asyncio.get_running_loop()
+        futures: list[asyncio.Future] = []
+        for chunk in chunks:
+            for extractor in self._extractors:
+                future: asyncio.Future = loop.create_future()
+                await self._work_queue.put((extractor, chunk, future))
+                futures.append(future)
+        return await asyncio.gather(*futures)
+
     async def ingest(self, source: str) -> SubGraph:
         """Ingest a document (file path, or a dict for dict_reader) into the graph."""
         # read (IO/LLM-bound) + semantic split run off the event loop
         chunks = await asyncio.to_thread(self._read_and_split, source)
 
-        # extract every chunk with every extractor, concurrently but bounded so
-        # we stay under Bedrock's request rate limit, then merge + de-dup
+        # extract every chunk with every extractor via the shared worker pool
+        # (bounded to model_execute_num, global across documents), then merge.
         with self._stage(ExtractionError, "extraction failed", source):
-            sem = asyncio.Semaphore(2)
-
-            async def _extract(extractor, chunk):
-                async with sem:
-                    return await extractor.ainvoke(chunk)
-
-            subgraph_lists = await asyncio.gather(
-                *(_extract(extractor, chunk) for chunk in chunks for extractor in self._extractors)
-            )
+            subgraph_lists = await self._extract_all(chunks)
             all_subgraphs = [sg for subgraphs in subgraph_lists for sg in subgraphs]
             merged = await asyncio.to_thread(self._aligner.invoke, all_subgraphs)
 
