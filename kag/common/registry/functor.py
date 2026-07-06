@@ -110,14 +110,14 @@ class Functor(Registrable):
 
         as_registrable = cast(Type[Functor], cls)
         default_choice = as_registrable.default_implementation
-        # call with BaseClass.from_prams, should use `type` to point out which subclasss to use
+        # call with BaseClass.from_prams, should use `type` to point out which subclass to use
         choice = params.pop("type", default_choice)
         choices = as_registrable.list_available()
 
         if choice not in choices:
             message = (
                 f"{choice} not in acceptable choices for type: {choices}. "
-                "You should make sure the class is correctly registerd. "
+                "You should make sure the class is correctly registered. "
             )
             raise ConfigurationError(message)
 

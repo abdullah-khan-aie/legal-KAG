@@ -43,7 +43,7 @@ class NaiveGenerationPipeline(SolverPipelineABC):
                 }
             )
         if answer is None:
-            print(f"{red}Failed to answer quesion: {query}\nTasks:{task_info}\n{reset}")
+            print(f"{red}Failed to answer question: {query}\nTasks:{task_info}\n{reset}")
             return "UNKNOWN"
         print(
             f"{green}Input Query: {query}\n\nTasks:\n\n{task_info}\n\nFinal Answer: {answer}\nGold Answer: {kwargs.get('gold')}{reset}"

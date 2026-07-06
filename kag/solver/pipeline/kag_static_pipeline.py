@@ -135,12 +135,12 @@ class KAGStaticPipeline(SolverPipelineABC):
             if not finished and self.max_iteration > 1:
                 if num_retry <= 0:
                     print(
-                        f"{red}Failed to answer quesion: {query}\nTasks:{task_info}\n{reset}\n{answer}"
+                        f"{red}Failed to answer question: {query}\nTasks:{task_info}\n{reset}\n{answer}"
                     )
                 else:
                     num_retry -= 1
                     print(
-                        f"{red}Retry to answer quesion: {query}\nTasks:{task_info}\n{reset}\n{answer}"
+                        f"{red}Retry to answer question: {query}\nTasks:{task_info}\n{reset}\n{answer}"
                     )
                     continue
             print(

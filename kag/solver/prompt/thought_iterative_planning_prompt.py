@@ -158,11 +158,11 @@ Important considerations:
         if "output" in response:
             response = response["output"]
         assert isinstance(response, dict) and "executor" in response, (
-            "repsonse must be a dict with `executor`"
+            "response must be a dict with `executor`"
         )
         executor = response["executor"]
         assert isinstance(executor, dict) and "name" in executor and "arguments" in executor, (
-            "repsonse must be a dict with `name` and `arguments`"
+            "response must be a dict with `name` and `arguments`"
         )
         task = Task(
             executor=executor["name"],

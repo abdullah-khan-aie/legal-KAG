@@ -702,7 +702,7 @@ class Registrable:
             if registered_subclasses and not constructor_to_call:
                 as_registrable = cast(Type[Registrable], cls)
                 default_choice = as_registrable.default_implementation
-                # call with BaseClass.from_prams, should use `type` to point out which subclasss to use
+                # call with BaseClass.from_prams, should use `type` to point out which subclass to use
                 choice = params.pop("type", default_choice)
                 choices = as_registrable.list_available()
                 # if cls has subclass and choice not found in params, we'll instantiate cls itself
@@ -712,7 +712,7 @@ class Registrable:
                 elif choice not in choices:
                     message = (
                         f"{choice} not in acceptable choices for type: {choices}. "
-                        "You should make sure the class is correctly registerd. "
+                        "You should make sure the class is correctly registered. "
                     )
                     raise ConfigurationError(message)
 
@@ -784,7 +784,7 @@ class Registrable:
             logger.info(f"Failed to initialize class {cls}, info: {e}")
             raise e
         if len(params) > 0:
-            logger.warn(f"These params are not used for constructing {cls}:\n{params}")
+            logger.warning(f"These params are not used for constructing {cls}:\n{params}")
             if "type" in params.keys():
                 raise ConfigurationError(
                     f"type is not used for constructing {cls}, but it is passed in params."
