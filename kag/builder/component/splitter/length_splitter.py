@@ -134,6 +134,12 @@ class LengthSplitter(BaseTableSplitter):
                 position = 0
         return output
 
+    def invoke(self, data: Chunk, **kwargs) -> list[Chunk]:
+        # Public entry point matching the splitter contract the pipeline calls.
+        # SemanticSplitter exposed `invoke`; the stock LengthSplitter only has
+        # `_invoke`, so wrap it to keep the interface consistent.
+        return self._invoke(data, **kwargs)
+
     def _invoke(self, data: Chunk, **kwargs) -> list[Chunk]:
         cutted = []
         if isinstance(data, list):
