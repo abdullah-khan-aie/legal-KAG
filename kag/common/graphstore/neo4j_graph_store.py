@@ -220,7 +220,7 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
         self._preprocess_node_properties(label, properties, extra_labels)
         with self._driver.session(database=self._database) as session:
             if label not in self._labels:
-                self._create_unique_index_constraint(self, label, session)
+                self._create_unique_index_constraint(label, session)
             try:
                 return session.execute_write(
                     self._upsert_node, self, label, id_key, properties, extra_labels
@@ -250,7 +250,7 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
         self._preprocess_node_properties_list(label, properties_list, extra_labels)
         with self._driver.session(database=self._database) as session:
             if label not in self._labels:
-                self._create_unique_index_constraint(self, label, session)
+                self._create_unique_index_constraint(label, session)
             try:
                 return session.execute_write(
                     self._upsert_nodes,

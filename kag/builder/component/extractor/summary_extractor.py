@@ -91,7 +91,7 @@ class SummaryExtractor(ExtractorABC):
             s_id=data.id,
             s_label="Summary",
             p="sourceChunk",
-            o_id=f"{input.id}",
+            o_id=f"{data.id}",
             o_label=o_label,
             properties={},
         )
