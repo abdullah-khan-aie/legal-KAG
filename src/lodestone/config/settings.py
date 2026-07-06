@@ -17,22 +17,24 @@ class Settings(BaseSettings):
 
     schema_path: str = "legal_schema.yaml"
 
-    # LLM + embeddings both run on Amazon Bedrock. A single Amazon Bedrock API
-    # key (bearer token) authenticates both clients (exposed to boto3 via
-    # AWS_BEARER_TOKEN_BEDROCK by the bootstrap layer).
-    bedrock_api_key: SecretStr
+    # LLM + embeddings both run on Amazon Bedrock via boto3, authenticated with
+    # the standard AWS credential chain -- e.g. an SSO profile (`aws sso login`),
+    # environment credentials, or an instance role. There is no API key; select
+    # the profile with AWS_PROFILE when running.
 
-    # LLM: Anthropic Claude on Bedrock via the Converse API. The EU inference
-    # profile keeps inference within EU regions (data stays in Europe).
+    # LLM: Anthropic Claude on Bedrock via the Converse API. Use the BARE model
+    # id and call in-region (eu-west-2 / London) so the request is not re-routed:
+    # the "eu.*" cross-region inference profiles forward to other EU regions
+    # (e.g. eu-north-1), which the org SCP on this account denies. In-region
+    # eu-west-2 keeps inference (and data) in the UK/EU.
     bedrock_region: str = "eu-west-2"
-    llm_model: str = "eu.anthropic.claude-sonnet-4-6"
+    llm_model: str = "anthropic.claude-sonnet-4-6"
 
-    # Embeddings run in the EU too (own region so it stays independent of the
-    # LLM region). The eu.cohere.embed-v4:0 profile routes only within EU
-    # regions. input_type is "search_document" for ingest ("search_query" for
-    # retrieval).
+    # Embeddings: same rule -- bare Cohere model id, called in eu-west-2 (own
+    # region setting, independent of the LLM). input_type is "search_document"
+    # for ingest ("search_query" for retrieval).
     embed_region: str = "eu-west-2"
-    embed_model: str = "eu.cohere.embed-v4:0"
+    embed_model: str = "cohere.embed-v4:0"
     embed_input_type: str = "search_document"
 
     # Neo4j graph store (required — the app won't start without a password; the

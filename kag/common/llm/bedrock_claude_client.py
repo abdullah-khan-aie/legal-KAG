@@ -42,8 +42,8 @@ class BedrockClaudeClient(LLMClient):
             max_rate: Maximum number of requests allowed per time period.
             time_period: Length of the rate-limiting window in seconds.
 
-        Auth uses the standard AWS chain; the Amazon Bedrock API key is exposed
-        to boto3 via ``AWS_BEARER_TOKEN_BEDROCK`` (set by the bootstrap layer).
+        Auth uses boto3's standard AWS credential chain (SSO profile via
+        ``aws sso login``, environment credentials, or an instance role).
         """
         name = kwargs.pop("name", None)
         if not name:

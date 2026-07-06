@@ -48,10 +48,8 @@ class BedrockCohereVectorizeModel(VectorizeModelABC):
             output_dimension: Optional embedding length (256/512/1024/1536).
             vector_dimensions: Optional pre-declared dimensionality.
 
-        Auth: boto3 uses the standard AWS credential chain. Set the Amazon
-        Bedrock API key via the ``AWS_BEARER_TOKEN_BEDROCK`` environment
-        variable (the bootstrap layer does this from settings) or provide IAM
-        credentials.
+        Auth: boto3 uses the standard AWS credential chain (SSO profile via
+        ``aws sso login``, environment credentials, or an instance role).
         """
         name = self.generate_key(region, model, input_type)
         super().__init__(name, vector_dimensions, max_rate, time_period)
