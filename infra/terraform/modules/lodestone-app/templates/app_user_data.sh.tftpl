@@ -1,0 +1,132 @@
+#!/bin/bash
+# Bootstrap Lodestone app (FastAPI + KAG) on Amazon Linux 2023.
+# Branch: feat/kag-rag-engine — in-region Bedrock via instance role (no AWS_PROFILE).
+set -euxo pipefail
+
+APP_DIR=/opt/lodestone/app
+ENV_FILE=/opt/lodestone/.env
+SCAN_DIR="${scan_dir}"
+SECRET_ID="${secret_id}"
+NEO4J_URI="${neo4j_bolt_uri}"
+APP_PORT="${app_port}"
+GIT_REPO="${git_repo_url}"
+GIT_REF="${git_ref}"
+REGION="${region}"
+LLM_MODEL="${llm_model}"
+EMBED_MODEL="${embed_model}"
+MAX_CONCURRENCY="${max_concurrency}"
+
+dnf update -y
+dnf install -y git jq
+
+curl -LsSf https://astral.sh/uv/install.sh | sh
+export PATH="/root/.local/bin:$PATH"
+
+mkdir -p "$(dirname "$APP_DIR")" /data
+for _ in $(seq 1 30); do
+  for dev in /dev/nvme1n1 /dev/xvdf /dev/sdf; do
+    if [[ -b "$dev" ]]; then
+      if ! blkid "$dev" >/dev/null 2>&1; then
+        mkfs -t xfs "$dev"
+      fi
+      mountpoint -q /data || mount "$dev" /data
+      grep -q "$dev /data" /etc/fstab || echo "$dev /data xfs defaults,nofail 0 2" >> /etc/fstab
+      break 2
+    fi
+  done
+  sleep 2
+done
+mkdir -p "$SCAN_DIR"
+chown -R ec2-user:ec2-user /opt/lodestone /data
+
+sync_app_repo() {
+  if [[ -z "$GIT_REPO" ]]; then
+    echo "app_git_repo_url not set — clone manually to $APP_DIR" >&2
+    mkdir -p "$APP_DIR"
+    return 0
+  fi
+  if [[ ! -d "$APP_DIR/.git" ]]; then
+    git clone --branch "$GIT_REF" --single-branch "$GIT_REPO" "$APP_DIR"
+  fi
+  cd "$APP_DIR"
+  git remote set-url origin "$GIT_REPO"
+  git fetch origin "$GIT_REF" --depth 1
+  git checkout -B "$GIT_REF" "FETCH_HEAD"
+  uv sync --frozen 2>/dev/null || uv sync
+}
+
+sync_app_repo
+
+SECRET_JSON="$(aws secretsmanager get-secret-value \
+  --region "$REGION" \
+  --secret-id "$SECRET_ID" \
+  --query SecretString --output text)"
+
+python3 - "$SECRET_JSON" "$ENV_FILE" "$NEO4J_URI" "$SCAN_DIR" "$REGION" "$LLM_MODEL" "$EMBED_MODEL" "$MAX_CONCURRENCY" <<'PY'
+import json, sys
+from pathlib import Path
+
+secret, env_path, neo4j_uri, scan_dir, region, llm, embed, concurrency = sys.argv[1:9]
+vals = json.loads(secret)
+
+# Map legacy secret keys from older .env exports.
+if not vals.get("LODESTONE_NEO4J_PASSWORD") and vals.get("NEO4J_PASSWORD"):
+    vals["LODESTONE_NEO4J_PASSWORD"] = vals["NEO4J_PASSWORD"]
+if not vals.get("LODESTONE_NEO4J_USER") and vals.get("NEO4J_USERNAME"):
+    vals["LODESTONE_NEO4J_USER"] = vals["NEO4J_USERNAME"]
+
+# EC2 overlays — match src/lodestone/config/settings.py on feat/kag-rag-engine.
+vals["LODESTONE_NEO4J_URI"] = neo4j_uri
+vals["LODESTONE_SCAN_DIR"] = scan_dir
+vals["LODESTONE_BEDROCK_REGION"] = region
+vals["LODESTONE_EMBED_REGION"] = region
+vals["LODESTONE_LLM_MODEL"] = llm
+vals["LODESTONE_EMBED_MODEL"] = embed
+vals["LODESTONE_EMBED_INPUT_TYPE"] = vals.get("LODESTONE_EMBED_INPUT_TYPE") or "search_document"
+vals["LODESTONE_MAX_CONCURRENCY"] = str(concurrency)
+
+drop = set()
+for k in vals:
+    if k.startswith("AWS_ACCESS_KEY") or k in (
+        "AWS_SECRET_ACCESS_KEY",
+        "AWS_SESSION_TOKEN",
+        "AWS_CREDENTIAL_EXPIRATION",
+        "AWS_PROFILE",
+    ):
+        drop.add(k)
+for k in drop:
+    del vals[k]
+
+lines = [f"{k}={v}" for k, v in sorted(vals.items()) if v is not None and str(v) != ""]
+Path(env_path).write_text("\n".join(lines) + "\n")
+PY
+
+chmod 600 "$ENV_FILE"
+
+cat > /etc/systemd/system/lodestone-app.service <<UNIT
+[Unit]
+Description=Lodestone FastAPI (KAG ingest + query)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=$APP_DIR
+EnvironmentFile=$ENV_FILE
+Environment=AWS_REGION=$REGION
+Environment=PATH=/root/.local/bin:/usr/local/bin:/usr/bin
+ExecStart=/root/.local/bin/uv run uvicorn src.lodestone.main:app --host 0.0.0.0 --port $APP_PORT
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+UNIT
+
+systemctl daemon-reload
+if [[ -f "$APP_DIR/pyproject.toml" ]]; then
+  systemctl enable --now lodestone-app.service
+else
+  echo "Skipping lodestone-app.service — no pyproject.toml at $APP_DIR" >&2
+fi

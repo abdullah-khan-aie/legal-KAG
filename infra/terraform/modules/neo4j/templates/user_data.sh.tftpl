@@ -1,0 +1,42 @@
+#!/bin/bash
+# Provision Neo4j (Community) in Docker on the attached gp3 data volume.
+set -euxo pipefail
+
+# --- Docker -----------------------------------------------------------------
+dnf update -y
+dnf install -y docker
+systemctl enable --now docker
+
+# --- Prepare the dedicated data volume --------------------------------------
+# On Nitro instances the second EBS volume appears as /dev/nvme1n1.
+DATA_DEV=/dev/nvme1n1
+for _ in $(seq 1 30); do [ -b "$DATA_DEV" ] && break; sleep 5; done
+
+if ! blkid "$DATA_DEV" >/dev/null 2>&1; then
+  mkfs -t xfs "$DATA_DEV"
+fi
+
+mkdir -p /mnt/neo4j
+mount "$DATA_DEV" /mnt/neo4j
+grep -q "$DATA_DEV" /etc/fstab || echo "$DATA_DEV /mnt/neo4j xfs defaults,nofail 0 2" >> /etc/fstab
+mkdir -p /mnt/neo4j/data /mnt/neo4j/logs
+
+# --- Run Neo4j --------------------------------------------------------------
+# Community edition (free). Bolt 7687 / HTTP 7474 published on the host; the
+# security group restricts them to the VPC. Memory is set explicitly rather
+# than relying on Neo4j's startup heuristics.
+#
+# GDS (Graph Data Science) is required by the KAG graph store for PageRank
+# (gds.graph.* / gds.pageRank.*). The official image installs it via
+# NEO4J_PLUGINS on first boot.
+docker run -d --name neo4j --restart unless-stopped \
+  -p 7687:7687 -p 7474:7474 \
+  -v /mnt/neo4j/data:/data \
+  -v /mnt/neo4j/logs:/logs \
+  -e NEO4J_AUTH='neo4j/${neo4j_password}' \
+  -e NEO4J_PLUGINS='["graph-data-science"]' \
+  -e NEO4J_server_memory_heap_initial__size='${heap_size}' \
+  -e NEO4J_server_memory_heap_max__size='${heap_size}' \
+  -e NEO4J_server_memory_pagecache_size='${pagecache_size}' \
+  -e NEO4J_server_default__listen__address='0.0.0.0' \
+  '${neo4j_image}'

@@ -1,0 +1,25 @@
+# Copy to terraform.tfvars (gitignored).
+#
+#   cp terraform.tfvars.example terraform.tfvars
+#   aws sso login --profile sandbox
+#   cd infra/terraform/environments
+#   terraform init && terraform plan
+
+region      = "eu-west-2"
+aws_profile = "sandbox"
+env         = "poc"   # do not change — matches deployed Neo4j (lodestone-poc)
+
+neo4j_password = "change-me-strong-password"
+
+# Neo4j — already deployed; leave defaults unless you know what you are doing:
+# neo4j_instance_type  = "r7g.large"
+# neo4j_data_volume_gb = 50
+
+# Pipeline (Lodestone FastAPI + KAG) on EC2 t3.large (8 GiB RAM):
+# lodestone_app_enabled            = true
+# lodestone_git_repo_url           = "https://github.com/abdullah-khan-aie/lodestone-graphrag.git"
+# lodestone_git_ref                = "feat/kag-rag-engine"
+# lodestone_app_instance_type      = "t3.large"
+# lodestone_max_concurrency        = 1
+# lodestone_allow_public_http      = false
+# lodestone_public_ingress_cidrs   = ["203.0.113.10/32"]
