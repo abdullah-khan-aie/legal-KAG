@@ -58,12 +58,16 @@ class BedrockCohereVectorizeModel(VectorizeModelABC):
         self.model = model
         self.input_type = _INPUT_TYPE_ALIASES.get(input_type, input_type)
         self.output_dimension = output_dimension
-        # Adaptive retries ride out Bedrock throttling (client-side rate-limiting
-        # + exponential backoff) while the account's per-minute quota is low.
+        # Adaptive retry mode adds a built-in client-side rate limiter: it
+        # measures ThrottlingExceptions and slows the request rate to fit the
+        # account's Bedrock RPM ceiling, retrying with backoff instead of
+        # failing. Mirrors the Bedrock Claude client so batch embedding rides
+        # through throttles rather than surfacing as EmbeddingError. Remove/lower
+        # once the RPM quota increase lands.
         self.client = boto3.client(
             "bedrock-runtime",
             region_name=region,
-            config=Config(retries={"max_attempts": 10, "mode": "adaptive"}),
+            config=Config(retries={"mode": "adaptive", "total_max_attempts": 10}),
         )
 
     @classmethod
@@ -83,7 +87,9 @@ class BedrockCohereVectorizeModel(VectorizeModelABC):
             return embeddings.get("float") or next(iter(embeddings.values()))
         return embeddings
 
-    def vectorize(self, texts: str | Iterable[str]) -> EmbeddingVector | Iterable[EmbeddingVector]:
+    def vectorize(
+        self, texts: str | Iterable[str]
+    ) -> EmbeddingVector | Iterable[EmbeddingVector]:
         single = isinstance(texts, str)
         payload = [texts] if single else list(texts)
 

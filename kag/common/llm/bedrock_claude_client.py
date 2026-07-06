@@ -54,13 +54,16 @@ class BedrockClaudeClient(LLMClient):
         self.region = region
         self.model = model
         self.temperature = temperature
-        # Adaptive retries add client-side rate-limiting + long exponential
-        # backoff, so throttled calls wait and retry instead of dying while the
-        # account's per-minute Bedrock quota is low.
+        # Adaptive retry mode adds a built-in client-side rate limiter: it
+        # measures ThrottlingExceptions and slows the request rate to fit the
+        # account's Bedrock RPM ceiling, retrying with backoff instead of
+        # failing. total_max_attempts is raised so bursts from the per-node
+        # splitter ride through the throttle rather than surfacing as
+        # ChunkingError. Remove/lower once the RPM quota increase lands.
         self.client = boto3.client(
             "bedrock-runtime",
             region_name=region,
-            config=Config(retries={"max_attempts": 10, "mode": "adaptive"}),
+            config=Config(retries={"mode": "adaptive", "total_max_attempts": 10}),
         )
 
         self.check()
@@ -78,7 +81,9 @@ class BedrockClaudeClient(LLMClient):
         turns carry a list of content blocks. We support text content only.
         """
         if image_url:
-            raise NotImplementedError("bedrock_claude is text-only; image_url is not supported.")
+            raise NotImplementedError(
+                "bedrock_claude is text-only; image_url is not supported."
+            )
         if messages:
             system: list = []
             turns: list = []
@@ -87,7 +92,9 @@ class BedrockClaudeClient(LLMClient):
                 content = message.get("content")
                 if isinstance(content, list):
                     content = " ".join(
-                        part.get("text", "") for part in content if isinstance(part, dict)
+                        part.get("text", "")
+                        for part in content
+                        if isinstance(part, dict)
                     )
                 if role == "system":
                     system.append({"text": content})
@@ -106,7 +113,8 @@ class BedrockClaudeClient(LLMClient):
         blocks = response["output"]["message"]["content"]
         return "".join(block.get("text", "") for block in blocks if "text" in block)
 
-    def _meter(self, token_meter, usage: dict) -> None:
+    @staticmethod
+    def _meter(token_meter, usage: dict) -> None:
         token_meter.update(
             usage.get("outputTokens", 0),
             usage.get("inputTokens", 0),
@@ -120,7 +128,9 @@ class BedrockClaudeClient(LLMClient):
                 "bedrock_claude does not implement OpenAI-style function-calling; "
                 "the MCP tool path is unsupported. Use the text pipelines."
             )
-        system, messages = self._build_converse(prompt, image_url, kwargs.get("messages"))
+        system, messages = self._build_converse(
+            prompt, image_url, kwargs.get("messages")
+        )
         token_meter = LLMClient.get_token_meter()
         response = self.client.converse(
             modelId=self.model,
@@ -155,7 +165,9 @@ class BedrockClaudeClient(LLMClient):
             raise NotImplementedError(
                 "bedrock_claude does not implement OpenAI-style function-calling."
             )
-        system, messages = self._build_converse(prompt, image_url, kwargs.get("messages"))
+        system, messages = self._build_converse(
+            prompt, image_url, kwargs.get("messages")
+        )
         token_meter = LLMClient.get_token_meter()
         loop = asyncio.get_running_loop()
         queue: asyncio.Queue = asyncio.Queue()
