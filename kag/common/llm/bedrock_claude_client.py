@@ -78,9 +78,7 @@ class BedrockClaudeClient(LLMClient):
         turns carry a list of content blocks. We support text content only.
         """
         if image_url:
-            raise NotImplementedError(
-                "bedrock_claude is text-only; image_url is not supported."
-            )
+            raise NotImplementedError("bedrock_claude is text-only; image_url is not supported.")
         if messages:
             system: list = []
             turns: list = []
@@ -89,9 +87,7 @@ class BedrockClaudeClient(LLMClient):
                 content = message.get("content")
                 if isinstance(content, list):
                     content = " ".join(
-                        part.get("text", "")
-                        for part in content
-                        if isinstance(part, dict)
+                        part.get("text", "") for part in content if isinstance(part, dict)
                     )
                 if role == "system":
                     system.append({"text": content})
@@ -124,9 +120,7 @@ class BedrockClaudeClient(LLMClient):
                 "bedrock_claude does not implement OpenAI-style function-calling; "
                 "the MCP tool path is unsupported. Use the text pipelines."
             )
-        system, messages = self._build_converse(
-            prompt, image_url, kwargs.get("messages")
-        )
+        system, messages = self._build_converse(prompt, image_url, kwargs.get("messages"))
         token_meter = LLMClient.get_token_meter()
         response = self.client.converse(
             modelId=self.model,
@@ -161,9 +155,7 @@ class BedrockClaudeClient(LLMClient):
             raise NotImplementedError(
                 "bedrock_claude does not implement OpenAI-style function-calling."
             )
-        system, messages = self._build_converse(
-            prompt, image_url, kwargs.get("messages")
-        )
+        system, messages = self._build_converse(prompt, image_url, kwargs.get("messages"))
         token_meter = LLMClient.get_token_meter()
         loop = asyncio.get_running_loop()
         queue: asyncio.Queue = asyncio.Queue()

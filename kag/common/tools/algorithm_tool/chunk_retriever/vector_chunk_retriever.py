@@ -31,9 +31,7 @@ class VectorChunkRetriever(RetrieverABC):
             self.kag_config.all_config["vectorize_model"]
         )
         self.search_api = search_api
-        self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
         self.score_threshold = score_threshold
 
     def invoke(self, task, **kwargs) -> RetrieverOutput:

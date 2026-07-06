@@ -39,9 +39,7 @@ class ExactOneHopSelect(PathSelect):
         super().__init__()
         task_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         kag_config = KAGConfigAccessor.get_config(task_id)
-        self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
         self.graph_api = graph_api
 
         self.search_api = search_api

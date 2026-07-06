@@ -42,9 +42,7 @@ class Lazy(Generic[T]):
 
     """
 
-    def __init__(
-        self, constructor: Union[Type[T], Callable[..., T]], original_params: Any = None
-    ):
+    def __init__(self, constructor: Union[Type[T], Callable[..., T]], original_params: Any = None):
         constructor_to_use: Callable[..., T]
 
         if inspect.isclass(constructor):

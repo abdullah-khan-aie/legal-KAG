@@ -8,7 +8,6 @@ from kag.interface import PromptABC
 class TableRowColSummaryPrompt(PromptABC):
     """Prompt for summarizing each row and column of a matrix-style table."""
 
-
     template_en = """
 # Your Task
 Based on the provided table and contextual information, generate a summary for each row and column of the table.

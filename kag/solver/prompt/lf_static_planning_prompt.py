@@ -150,9 +150,7 @@ class RetrieverLFStaticPlanningPrompt(PromptABC):
         super().__init__(**kwargs)
 
         if std_schema is not None:
-            self.schema_helper: SchemaUtils = SchemaUtils(
-                LogicFormConfiguration({})
-            )
+            self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
             self.std_schema = resolve_instance(
                 std_schema,
                 default_config={"type": "default_std_schema"},

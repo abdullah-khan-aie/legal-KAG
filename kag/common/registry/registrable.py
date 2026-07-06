@@ -71,9 +71,7 @@ def auto_setattr(func, self, args, kwargs):
         try:
             setattr(self, attr, val)
         except Exception as e:
-            logger.warning(
-                f"set attribute {attr} of type {type(self)} error, info: {e}"
-            )
+            logger.warning(f"set attribute {attr} of type {type(self)} error, info: {e}")
 
     attrs, varargs, varkw, defaults = (inspect.getfullargspec(func))[:4]
     if defaults:
@@ -101,8 +99,7 @@ def autoargs(func):
             ret = func(self, *args, **kwargs)
         except TypeError as e:
             raise TypeError(
-                "call %s.%s failed, details:%s"
-                % (type(self).__name__, func.__name__, str(e))
+                "call %s.%s failed, details:%s" % (type(self).__name__, func.__name__, str(e))
             )
 
         return ret
@@ -175,9 +172,7 @@ def remove_optional(annotation: type) -> type:
 
 def extract_parameters(
     cls: Type[RegistrableType],
-    constructor: Union[
-        Callable[..., RegistrableType], Callable[[RegistrableType], None]
-    ] = None,
+    constructor: Union[Callable[..., RegistrableType], Callable[[RegistrableType], None]] = None,
 ) -> Dict[str, Any]:
     """
     Extracts the parameters from the constructor of a class, excluding any variable positional parameters.
@@ -368,14 +363,10 @@ def construct_arg(
 
         return value_dict
 
-    elif origin in (Tuple, tuple) and all(
-        can_construct_from_config(arg) for arg in args
-    ):
+    elif origin in (Tuple, tuple) and all(can_construct_from_config(arg) for arg in args):
         value_list = []
 
-        for i, (value_cls, value_params) in enumerate(
-            zip(annotation.__args__, popped_params)
-        ):
+        for i, (value_cls, value_params) in enumerate(zip(annotation.__args__, popped_params)):
             value = construct_arg(
                 str(value_cls),
                 argument_name + f".{i}",
@@ -434,10 +425,10 @@ def construct_arg(
                 err_msg = f" Exception caught for constructing {arg_annotation}: {e}\n{traceback.format_exc()}"
                 all_err_msg.append(err_msg)
         # If none of them succeeded, we crash.
-        info_separatpr = f"{'='*40}\n"
+        info_separatpr = f"{'=' * 40}\n"
         info = (
             f"Failed to construct argument {argument_name} with type {annotation}, details:\n"
-            f"{'='*80}"
+            f"{'=' * 80}"
             f"\n{info_separatpr.join(all_err_msg)}"
         )
 
@@ -534,9 +525,7 @@ class Registrable:
         return add_subclass_to_registry
 
     @classmethod
-    def by_name(
-        cls: Type[RegistrableType], name: str
-    ) -> Callable[..., RegistrableType]:
+    def by_name(cls: Type[RegistrableType], name: str) -> Callable[..., RegistrableType]:
         """
         Returns a callable function that constructs an argument of the registered class.  Because
         you can register particular functions as constructors for specific names, this isn't
@@ -610,9 +599,7 @@ class Registrable:
         if default is None:
             return keys
         elif default not in keys:
-            raise ConfigurationError(
-                f"Default implementation {default} is not registered"
-            )
+            raise ConfigurationError(f"Default implementation {default} is not registered")
         else:
             return [default] + [k for k in keys if k != default]
 
@@ -637,12 +624,12 @@ class Registrable:
                 # if default == inspect.Parameter.empty:
                 #     default = None
                 if required:
-                    arg_info = (
-                        f"{arg_name}: {annotation.__name__ if annotation else 'Any'}"
-                    )
+                    arg_info = f"{arg_name}: {annotation.__name__ if annotation else 'Any'}"
                     required_params.append(arg_info)
                 else:
-                    arg_info = f"{arg_name}: {annotation.__name__ if annotation else 'Any'} = {default}"
+                    arg_info = (
+                        f"{arg_name}: {annotation.__name__ if annotation else 'Any'} = {default}"
+                    )
                     optional_params.append(arg_info)
                 if required:
                     sample_config[arg_name] = f"Your {arg_name} config"
@@ -692,18 +679,14 @@ class Registrable:
         constructor (because you inspect `__init__`, but call `cls()`).
         """
 
-        logger.debug(
-            f"instantiating class {cls} from params {getattr(params, 'params', params)} "
-        )
+        logger.debug(f"instantiating class {cls} from params {getattr(params, 'params', params)} ")
 
         if params is None:
             return None
 
         if isinstance(params, str):
             params = ConfigFactory.from_dict({"type": params})
-        elif isinstance(params, collections.abc.Mapping) and not isinstance(
-            params, ConfigTree
-        ):
+        elif isinstance(params, collections.abc.Mapping) and not isinstance(params, ConfigTree):
             params = ConfigFactory.from_dict(params)
         original_params = deepcopy(params)
         if not isinstance(params, ConfigTree):
@@ -734,9 +717,7 @@ class Registrable:
                     raise ConfigurationError(message)
 
                 else:
-                    subclass, constructor_name = as_registrable.resolve_class_name(
-                        choice
-                    )
+                    subclass, constructor_name = as_registrable.resolve_class_name(choice)
 
                 # See the docstring for an explanation of what's going on here.
                 if not constructor_name:

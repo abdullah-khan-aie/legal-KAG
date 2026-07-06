@@ -33,9 +33,7 @@ class TableRetriever(RetrieverABC):
         )
         self.search_api = search_api
         self.graph_api = graph_api
-        self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
         self.score_threshold = score_threshold
 
     def get_table(self, query, top_k) -> list[str]:

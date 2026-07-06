@@ -11,9 +11,7 @@ class RateLimiterManger:
     def __init__(self):
         self.limiter_map = {}
 
-    def get_rate_limiter(
-        self, name: str, max_rate: float = 1000, time_period: float = 1
-    ):
+    def get_rate_limiter(self, name: str, max_rate: float = 1000, time_period: float = 1):
         if name not in self.limiter_map:
             limiter = AsyncLimiter(max_rate, time_period)
             self.limiter_map[name] = limiter
@@ -43,10 +41,7 @@ class SyncRateLimiter:
         with self.lock:
             now = time.time()
             # Remove records outside the current time window
-            while (
-                self.call_timestamps
-                and now - self.call_timestamps[0] >= self.time_period
-            ):
+            while self.call_timestamps and now - self.call_timestamps[0] >= self.time_period:
                 self.call_timestamps.popleft()
 
             if len(self.call_timestamps) >= self.max_rate:
@@ -57,8 +52,7 @@ class SyncRateLimiter:
                     now = time.time()  # Update current time after waiting
                     # Clean up expired requests again
                     while (
-                        self.call_timestamps
-                        and now - self.call_timestamps[0] >= self.time_period
+                        self.call_timestamps and now - self.call_timestamps[0] >= self.time_period
                     ):
                         self.call_timestamps.popleft()
 
@@ -71,9 +65,7 @@ class SyncRateLimiterManager:
         self.limiter_map = {}
         self.lock = threading.Lock()
 
-    def get_rate_limiter(
-        self, name: str, max_rate: int = 1000, time_period: float = 1.0
-    ):
+    def get_rate_limiter(self, name: str, max_rate: int = 1000, time_period: float = 1.0):
         """
         Get or create a SyncRateLimiter instance by name in a thread-safe manner.
 

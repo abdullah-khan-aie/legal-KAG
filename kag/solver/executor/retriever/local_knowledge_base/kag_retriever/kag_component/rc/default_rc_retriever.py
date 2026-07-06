@@ -57,9 +57,7 @@ class RCRetrieverOnOpenSPG(KagLogicalFormComponent):
             vectorize_model=self.vectorize_model, search_api=self.search_api
         )
 
-        self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
 
     def recall_query(self, query):
         sim_scores_start_time = time.time()

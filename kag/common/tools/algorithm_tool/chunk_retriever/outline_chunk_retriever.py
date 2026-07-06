@@ -35,9 +35,7 @@ class OutlineChunkRetriever(RetrieverABC):
         )
         self.search_api = search_api
         self.graph_api = graph_api
-        self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
 
     def get_outlines(self, query, top_k) -> list[str]:
         topk_outline_ids = []

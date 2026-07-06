@@ -118,6 +118,4 @@ def get_query_pipeline(pipeline_name: str = "retriever"):
     ``neo4j_search_api`` / ``neo4j_graph_api`` retrievers (no global state).
     """
     settings = get_settings()
-    return build_query_pipeline(
-        pipeline_name, settings, graph_store=_build_graph_store(settings)
-    )
+    return build_query_pipeline(pipeline_name, settings, graph_store=_build_graph_store(settings))

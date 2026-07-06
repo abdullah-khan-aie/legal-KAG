@@ -34,9 +34,7 @@ class RCRetrieverOnOpenSPG(RetrieverABC):
             vectorize_model=self.vectorize_model, search_api=self.search_api
         )
 
-        self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
 
     def invoke(self, task, **kwargs) -> RetrieverOutput:
         start_time = time.time()

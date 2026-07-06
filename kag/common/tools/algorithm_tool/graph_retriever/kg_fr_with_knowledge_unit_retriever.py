@@ -80,9 +80,7 @@ class KgFreeRetrieverWithKnowledgeUnitRetriever(RetrieverABC):
         self.top_k = top_k
         self.std_parser = get_std_logic_form_parser(std_schema, self.kag_project_config)
 
-        self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
 
         self.graph_api = graph_api
         self.search_api = search_api

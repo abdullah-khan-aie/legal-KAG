@@ -63,9 +63,7 @@ class TokenMeter:
             portalocker.lock(writer, portalocker.LOCK_EX)
             writer.write(json.dumps(data))
 
-    def update(
-        self, completion_tokens: int = 0, prompt_tokens: int = 0, total_tokens: int = 0
-    ):
+    def update(self, completion_tokens: int = 0, prompt_tokens: int = 0, total_tokens: int = 0):
         self.load()
         self.completion_tokens += completion_tokens
         self.prompt_tokens += prompt_tokens
@@ -139,9 +137,7 @@ class LLMCallCcontext:
 
     def __enter__(self):
         self.task_id_token = CURRENT_TASK_ID.set(self.task_id)
-        self.token_meter_in_memory_token = TOKEN_METER_IN_MEMORY.set(
-            self.token_meter_in_memory
-        )
+        self.token_meter_in_memory_token = TOKEN_METER_IN_MEMORY.set(self.token_meter_in_memory)
         return self
 
     def __exit__(self, exc_type, exc_val, exc_tb):
@@ -156,14 +152,10 @@ class LLMClient(Registrable):
     This class includes methods to call the model with a prompt, parse the response, and handle batch processing of prompts.
     """
 
-    def __init__(
-        self, name: str = "", max_rate: float = 1000, time_period: float = 1, **kwargs
-    ):
+    def __init__(self, name: str = "", max_rate: float = 1000, time_period: float = 1, **kwargs):
         super().__init__(**kwargs)
         self.limiter = RATE_LIMITER_MANGER.get_rate_limiter(name, max_rate, time_period)
-        self.sync_limiter = SYNC_RATE_LIMITER_MANAGER.get_rate_limiter(
-            name, max_rate, time_period
-        )
+        self.sync_limiter = SYNC_RATE_LIMITER_MANAGER.get_rate_limiter(name, max_rate, time_period)
         self.enable_check = kwargs.get("enable_check", True)
         self.max_tokens = kwargs.get("max_tokens", 8192)
         task_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
@@ -248,9 +240,7 @@ class LLMClient(Registrable):
         _start = res.find("```json")
         if _end != -1 and _start != -1:
             if _end == _start:
-                logger.error(
-                    f"response is not intact, please set max_tokens. res={res}"
-                )
+                logger.error(f"response is not intact, please set max_tokens. res={res}")
                 return res
             json_str = res[_start + len("```json") : _end].strip()
         else:
@@ -285,9 +275,7 @@ class LLMClient(Registrable):
         _start = res.find("```json")
         if _end != -1 and _start != -1:
             if _end == _start:
-                logger.error(
-                    f"response is not intact, please set max_tokens. res={res}"
-                )
+                logger.error(f"response is not intact, please set max_tokens. res={res}")
                 return res
             json_str = res[_start + len("```json") : _end].strip()
         else:
@@ -399,9 +387,7 @@ class LLMClient(Registrable):
                 if tools:
                     return response
                 else:
-                    result = prompt_op.parse_response(
-                        response, model=self.model, **variables
-                    )
+                    result = prompt_op.parse_response(response, model=self.model, **variables)
                     logger.debug(f"Result: {result}")
             except Exception as e:
                 import traceback
@@ -443,14 +429,10 @@ class LLMClient(Registrable):
             logger.debug(f"Prompt_{idx}: {prompt}")
             try:
                 response = (
-                    self.call_with_json_parse(prompt=prompt)
-                    if with_json_parse
-                    else self(prompt)
+                    self.call_with_json_parse(prompt=prompt) if with_json_parse else self(prompt)
                 )
                 logger.debug(f"Response_{idx}: {response}")
-                result = prompt_op.parse_response(
-                    response, idx=idx, model=self.model, **variables
-                )
+                result = prompt_op.parse_response(response, idx=idx, model=self.model, **variables)
                 logger.debug(f"Result_{idx}: {result}")
                 results.extend(result)
             except Exception as e:

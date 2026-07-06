@@ -93,9 +93,7 @@ class Functor(Registrable):
 
         if isinstance(params, str):
             params = ConfigFactory.from_dict({"type": params})
-        elif isinstance(params, collections.abc.Mapping) and not isinstance(
-            params, ConfigTree
-        ):
+        elif isinstance(params, collections.abc.Mapping) and not isinstance(params, ConfigTree):
             params = ConfigFactory.from_dict(params)
 
         if not isinstance(params, ConfigTree):
@@ -134,9 +132,7 @@ class Functor(Registrable):
         if accepts_kwargs:
             params.clear()
         if len(params) > 0:
-            raise ConfigurationError(
-                f"These params are not used for constructing {cls}:\n{params}"
-            )
+            raise ConfigurationError(f"These params are not used for constructing {cls}:\n{params}")
 
         return cls(partial(function, **kwargs), choice)
 

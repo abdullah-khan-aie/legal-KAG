@@ -44,9 +44,7 @@ class KAGGetSpoLF(KAGLFRewriter):
         self.lf_trans_prompt = lf_trans_prompt
         task_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         kag_config = KAGConfigAccessor.get_config(task_id)
-        self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
 
         self.search_api = resolve_instance(
             search_api,

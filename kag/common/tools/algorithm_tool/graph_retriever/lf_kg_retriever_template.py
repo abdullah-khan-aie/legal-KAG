@@ -18,9 +18,7 @@ logger = logging.getLogger()
 
 
 def get_std_logic_form_parser(std_schema: StdSchema, kb_project_conf: KAGGlobalConf):
-    schema_helper: SchemaUtils = SchemaUtils(
-        LogicFormConfiguration({})
-    )
+    schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
     std_schema = resolve_instance(
         std_schema,
         default_config={"type": "default_std_schema"},

@@ -44,9 +44,7 @@ class AtomicQueryChunkRetriever(RetrieverABC):
         )
         self.search_api = search_api
         self.graph_api = graph_api
-        self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
         self.score_threshold = score_threshold
 
     def recall_doc_by_atomic_query(self, atomic_query):

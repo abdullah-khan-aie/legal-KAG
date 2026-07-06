@@ -27,9 +27,7 @@ class VectorChunkRetriever(ToolABC):
             kag_config.all_config["vectorize_model"]
         )
         self.search_api = search_api
-        self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
 
     def invoke(self, query, top_k: int, **kwargs) -> dict[str, dict]:
         try:

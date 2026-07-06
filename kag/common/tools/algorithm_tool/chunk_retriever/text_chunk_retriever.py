@@ -14,9 +14,7 @@ class TextChunkRetriever(RetrieverABC):
     def __init__(self, search_api: SearchApiABC = None, top_k: int = 10, **kwargs):
         super().__init__(top_k, **kwargs)
         self.search_api = search_api
-        self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
 
     def invoke(self, task, **kwargs) -> RetrieverOutput:
         top_k = kwargs.get("top_k", self.top_k)

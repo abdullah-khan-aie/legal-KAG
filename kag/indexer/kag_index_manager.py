@@ -9,12 +9,8 @@ from kag.common.registry import Registrable
 
 class KAGIndexManager(Registrable):
     def __init__(self, llm_config: Dict, vectorize_model_config: Dict):
-        self.extractor_config = self.build_extractor_config(
-            llm_config, vectorize_model_config
-        )
-        self.retriever_config = self.build_retriever_config(
-            llm_config, vectorize_model_config
-        )
+        self.extractor_config = self.build_extractor_config(llm_config, vectorize_model_config)
+        self.retriever_config = self.build_retriever_config(llm_config, vectorize_model_config)
 
     @property
     def name(self):
@@ -62,14 +58,10 @@ class KAGIndexManager(Registrable):
             "chunks related to an atomic question."
         )
 
-    def build_extractor_config(
-        self, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_extractor_config(self, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         return []
 
-    def build_retriever_config(
-        self, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_retriever_config(self, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         return []
 
 
@@ -139,9 +131,7 @@ AtomicQuery (atomic question): IndexType
         )
 
     @classmethod
-    def build_extractor_config(
-        cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_extractor_config(cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         return [
             {
@@ -153,9 +143,7 @@ AtomicQuery (atomic question): IndexType
         ]
 
     @classmethod
-    def build_retriever_config(
-        cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_retriever_config(cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         return [
             {
@@ -257,9 +245,7 @@ Chunk (text block): IndexType
         )
 
     @classmethod
-    def build_extractor_config(
-        cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_extractor_config(cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         return [
             {
@@ -269,9 +255,7 @@ Chunk (text block): IndexType
         ]
 
     @classmethod
-    def build_retriever_config(
-        cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_retriever_config(cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         return [
             {
@@ -366,9 +350,7 @@ Table (table): IndexType
         )
 
     @classmethod
-    def build_extractor_config(
-        cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_extractor_config(cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         return [
             {
@@ -381,9 +363,7 @@ Table (table): IndexType
         ]
 
     @classmethod
-    def build_retriever_config(
-        cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_retriever_config(cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         return [
             {
@@ -469,9 +449,7 @@ Summary (text summary): IndexType
         )
 
     @classmethod
-    def build_extractor_config(
-        cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_extractor_config(cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         return [
             {
@@ -483,9 +461,7 @@ Summary (text summary): IndexType
         ]
 
     @classmethod
-    def build_retriever_config(
-        cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_retriever_config(cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         return [
             {
@@ -571,9 +547,7 @@ Outline (heading outline): IndexType
         )
 
     @classmethod
-    def build_extractor_config(
-        cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_extractor_config(cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         return [
             {
@@ -583,9 +557,7 @@ Outline (heading outline): IndexType
         ]
 
     @classmethod
-    def build_retriever_config(
-        cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_retriever_config(cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         return [
             {
@@ -688,9 +660,7 @@ AtomicQuery (atomic question): IndexType
         )
 
     @classmethod
-    def build_extractor_config(
-        cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_extractor_config(cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         return [
             {
@@ -704,9 +674,7 @@ AtomicQuery (atomic question): IndexType
         ]
 
     @classmethod
-    def build_retriever_config(
-        cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs
-    ):
+    def build_retriever_config(cls, llm_config: Dict, vectorize_model_config: Dict, **kwargs):
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         return [
             {

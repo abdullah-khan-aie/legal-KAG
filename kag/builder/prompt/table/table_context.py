@@ -8,7 +8,6 @@ from kag.interface import PromptABC
 class TableContextPrompt(PromptABC):
     """Prompt for extracting a table's name, description, and keywords from context."""
 
-
     template_en = """
 # Your Task
 Based on the provided table and its context, summarize the table name, table description, and table keywords.

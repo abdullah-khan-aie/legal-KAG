@@ -36,9 +36,7 @@ class SummaryChunkRetriever(RetrieverABC):
         )
         self.search_api = search_api
         self.graph_api = graph_api
-        self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
 
     def _get_summaries(self, query, top_k) -> list[str]:
         topk_summary_ids = []

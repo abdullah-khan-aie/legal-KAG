@@ -35,9 +35,7 @@ class PprChunkRetriever(RetrieverABC):
         **kwargs,
     ):
         super().__init__(**kwargs)
-        self.schema_helper: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
         self.graph_api = graph_api
 
         self.search_api = search_api

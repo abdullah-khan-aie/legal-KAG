@@ -41,9 +41,7 @@ class SpoGraphIndexManager(KAGIndexManager):
         return ""
 
     @classmethod
-    def build_extractor_config(
-        cls, llm_config: dict, vectorize_model_config: dict, **kwargs
-    ):
+    def build_extractor_config(cls, llm_config: dict, vectorize_model_config: dict, **kwargs):
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         schema_path = kwargs.get("schema_path")
         return [
@@ -59,7 +57,5 @@ class SpoGraphIndexManager(KAGIndexManager):
         ]
 
     @classmethod
-    def build_retriever_config(
-        cls, llm_config: dict, vectorize_model_config: dict, **kwargs
-    ):
+    def build_retriever_config(cls, llm_config: dict, vectorize_model_config: dict, **kwargs):
         return []

@@ -36,7 +36,6 @@ class MarkdownNode:
         self.tables: list[dict] = []  # Store table data
 
 
-
 def convert_to_subgraph(
     root: MarkdownNode, chunks: list[Chunk], node_chunk_map: dict[MarkdownNode, Chunk]
 ) -> tuple[SubGraph, dict]:
@@ -246,7 +245,6 @@ def get_graph_statistics(subgraph: SubGraph) -> dict:
                 )
 
     return stats
-
 
 
 @ReaderABC.register("md")
@@ -927,7 +925,6 @@ class MarkDownReader(ReaderABC):
         logger.info(f"  Medium chunks (501-1000): {len(length_categories['medium'])}")
         logger.info(f"  Large chunks (1001-5000): {len(length_categories['large'])}")
         logger.info(f"  Extra large chunks (>5000): {len(length_categories['extra_large'])}")
-
 
 
 @ReaderABC.register("yuque")

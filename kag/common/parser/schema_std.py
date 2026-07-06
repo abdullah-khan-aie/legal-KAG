@@ -27,9 +27,7 @@ class StdSchema(Registrable):
         task_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         kag_config = KAGConfigAccessor.get_config(task_id)
         self.kag_project_config = kag_config.global_config
-        self.schema: SchemaUtils = SchemaUtils(
-            LogicFormConfiguration({})
-        )
+        self.schema: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
         self.search_api = resolve_instance(
             search_api,
             default_config={"type": "neo4j_search_api"},
