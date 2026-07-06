@@ -62,8 +62,19 @@ class SemanticSplitter:
         org_chunk: Chunk,
         chunk_size: int = 1000,
     ) -> list[Chunk]:
-        result = self.llm.invoke({"input": org_chunk.content}, self.semantic_seg_op)
-        splitted = self.parse_llm_output(org_chunk.content, result)
+        # Empty/whitespace chunks have nothing to segment. Sending an empty input
+        # makes the LLM reply conversationally (non-JSON), which fails json parsing
+        # and kills the whole document -- so pass such chunks through unchanged.
+        if not org_chunk.content or not org_chunk.content.strip():
+            return [org_chunk]
+        try:
+            result = self.llm.invoke({"input": org_chunk.content}, self.semantic_seg_op)
+        except Exception as e:  # noqa: BLE001
+            # A malformed/non-JSON model response should degrade to "no split"
+            # (keep the chunk whole), not fail the entire document.
+            logger.warning(f"semantic segmentation failed; keeping chunk whole: {e}")
+            return [org_chunk]
+        splitted = self.parse_llm_output(org_chunk.content, result) if result else []
         if len(splitted) == 0:
             return [org_chunk]
         logger.debug(f"splitted = {splitted}")
