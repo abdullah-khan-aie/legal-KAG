@@ -320,7 +320,6 @@ class LLMClient(Registrable):
         if tools:
             with_json_parse = False
         try:
-            self.sync_limiter.acquire()
             response = (
                 self.call_with_json_parse(prompt=prompt, **kwargs)
                 if with_json_parse
@@ -376,28 +375,27 @@ class LLMClient(Registrable):
         if tools:
             with_json_parse = False
 
-        async with self.limiter:
-            try:
-                response = await (
-                    self.acall_with_json_parse(prompt=prompt, **kwargs)
-                    if with_json_parse
-                    else self.acall(prompt, **kwargs)
-                )
-                if tools:
-                    return response
-                else:
-                    result = prompt_op.parse_response(response, model=self.model, **variables)
-                    logger.debug(f"Result: {result}")
-            except Exception as e:
-                import traceback
+        try:
+            response = await (
+                self.acall_with_json_parse(prompt=prompt, **kwargs)
+                if with_json_parse
+                else self.acall(prompt, **kwargs)
+            )
+            if tools:
+                return response
+            else:
+                result = prompt_op.parse_response(response, model=self.model, **variables)
+                logger.debug(f"Result: {result}")
+        except Exception as e:
+            import traceback
 
-                logger.info(
-                    f"Error {e} during invocation: {traceback.format_exc()} prompt={prompt} response={response}"
+            logger.info(
+                f"Error {e} during invocation: {traceback.format_exc()} prompt={prompt} response={response}"
+            )
+            if with_except:
+                raise RuntimeError(
+                    f"LLM invoke exception, info: {e}\nllm input: \n{prompt}\nllm output: \n{response}"
                 )
-                if with_except:
-                    raise RuntimeError(
-                        f"LLM invoke exception, info: {e}\nllm input: \n{prompt}\nllm output: \n{response}"
-                    )
         return result
 
     def batch(
@@ -465,23 +463,20 @@ class LLMClient(Registrable):
 
         for idx, prompt in enumerate(prompts, start=0):
             logger.debug(f"Prompt_{idx}: {prompt}")
-            async with self.limiter:
-                try:
-                    response = await (
-                        self.acall_with_json_parse(prompt=prompt)
-                        if with_json_parse
-                        else self.acall(prompt)
-                    )
-                    logger.debug(f"Response_{idx}: {response}")
-                    result = prompt_op.parse_response(
-                        response, idx=idx, model=self.model, **variables
-                    )
-                    logger.debug(f"Result_{idx}: {result}")
-                    results.extend(result)
-                except Exception as e:
-                    logger.error(f"Error processing prompt {idx}: {e}")
-                    logger.debug(traceback.format_exc())
-                    continue
+            try:
+                response = await (
+                    self.acall_with_json_parse(prompt=prompt)
+                    if with_json_parse
+                    else self.acall(prompt)
+                )
+                logger.debug(f"Response_{idx}: {response}")
+                result = prompt_op.parse_response(response, idx=idx, model=self.model, **variables)
+                logger.debug(f"Result_{idx}: {result}")
+                results.extend(result)
+            except Exception as e:
+                logger.error(f"Error processing prompt {idx}: {e}")
+                logger.debug(traceback.format_exc())
+                continue
         return results
 
     def check(self):

@@ -84,25 +84,26 @@ class Settings(BaseSettings):
     bedrock_region: str
     llm_model: str
 
-    # The LLM client has a built-in request limiter: a process-global AsyncLimiter,
-    # keyed by client name and shared across every extractor sub-call. It defaults
-    # to effectively no-op (max_rate=1000, time_period=1). On this low-quota Bedrock
-    # account, limiting worker concurrency alone still throttles, because a
-    # per-minute quota is indifferent to how many workers run; a rate limiter caps
-    # calls-per-minute directly, relieving both the request-per-minute and
-    # token-per-minute ceilings. Allow llm_max_rate calls per llm_time_period
-    # seconds. Tune empirically (the quota isn't visible): lower the rate if
-    # throttling persists, raise it once clean. Kept out of the secret so it stays
-    # easy to tune; add it to the secret to make it required.
-    llm_max_rate: float = 1
-    llm_time_period: float = 20
-
     # Embeddings: bare Cohere model id, called in its own region (independent of
     # the LLM). input_type is "search_document" for ingest ("search_query" for
     # retrieval).
     embed_region: str
     embed_model: str
     embed_input_type: str
+    # Embedding length. Single source of truth: it's both requested from Cohere
+    # (output_dimension) and used to size the Neo4j vector indexes, so the indexed
+    # vectors and query vectors always match. 1536 is Embed v4's native (untruncated)
+    # size -- highest retrieval fidelity; 256/512/1024 are smaller Matryoshka
+    # truncations. Changing this after indexes exist requires dropping them first.
+    embed_dimension: int = 1536
+
+    # Amazon Bedrock credentials, read from the secret and passed explicitly to the
+    # LLM + embedding clients, so Bedrock calls use a Bedrock-scoped IAM user
+    # independent of the infra credentials (terminal env / instance role) that
+    # reach Secrets Manager. Leave unset to fall back to boto3's default chain
+    # (e.g. an instance role scoped to Bedrock on EC2).
+    bedrock_access_key_id: SecretStr | None = None
+    bedrock_secret_access_key: SecretStr | None = None
 
     # Neo4j graph store (the pipeline always persists + entity-links against it).
     neo4j_uri: str = "bolt://localhost:7687"

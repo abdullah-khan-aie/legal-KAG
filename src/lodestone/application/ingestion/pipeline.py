@@ -27,7 +27,6 @@ from kag.builder.prompt.spg_prompt import (
 )
 from kag.common.tools.search_api.impl.neo4j_search_client import Neo4jSearchClient
 from kag.interface import LLMClient, VectorizeModelABC
-from kag.schema.client import SchemaClient
 from src.lodestone.exceptions import (
     ChunkingError,
     DocumentReadError,
@@ -129,9 +128,9 @@ class IngestionPipeline:
             search_client=Neo4jSearchClient(graph_store),
         )
 
-        # 7) write: persist the SubGraph to Neo4j.
-        schema = SchemaClient(schema_path=schema_path).load()
-        self._writer = GraphStoreWriter(graph_store, schema=schema, namespace=namespace)
+        # 7) write: persist the SubGraph to Neo4j. Vector/text indexes are created
+        # at startup (bootstrap.initialize_graph_schema), not here.
+        self._writer = GraphStoreWriter(graph_store, namespace=namespace)
 
     @contextmanager
     def _stage(self, error_cls: type[LodestoneError], message: str, source: str):

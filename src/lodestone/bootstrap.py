@@ -6,8 +6,9 @@ from kag.common.graphstore.neo4j_graph_store import Neo4jClient
 from kag.common.llm.bedrock_claude_client import BedrockClaudeClient
 from kag.common.vectorize_model.bedrock_cohere_model import BedrockCohereVectorizeModel
 from kag.interface import LLMClient
+from kag.schema.client import SchemaClient
 from src.lodestone.application.ingestion.pipeline import IngestionPipeline
-from src.lodestone.application.query.builder import build_query_pipeline
+from src.lodestone.application.query.builder import _bedrock_credentials, build_query_pipeline
 from src.lodestone.config.settings import Settings, get_settings
 
 
@@ -17,6 +18,24 @@ def _build_embedder(settings: Settings) -> BedrockCohereVectorizeModel:
         region=settings.embed_region,
         model=settings.embed_model,
         input_type=settings.embed_input_type,
+        output_dimension=settings.embed_dimension,
+        **_bedrock_credentials(settings),
+    )
+
+
+def initialize_graph_schema(settings: Settings) -> None:
+    """Create the Neo4j vector/text indexes for the schema up front (idempotent).
+
+    This mirrors the OpenSPG server's schema-registration step
+    (Neo4jSyncer.syncSchema -> Neo4jGraph.initializeSchema(spgTypes, dimensions)),
+    which the server runs on schema commit -- not on document writes. With a
+    static local schema, startup IS the registration moment, and the underlying
+    CREATE VECTOR INDEX ... IF NOT EXISTS makes re-running a no-op. Indexes are
+    sized to embed_dimension so they match the vectors Cohere produces.
+    """
+    schema = SchemaClient(schema_path=settings.schema_path).load()
+    _build_graph_store(settings).initialize_schema(
+        schema, vector_dimensions=settings.embed_dimension
     )
 
 
@@ -96,15 +115,12 @@ def build_ingestion_pipeline(
 def get_ingestion_pipeline() -> IngestionPipeline:
     """Return the cached pipeline singleton, wired from settings."""
     settings: Settings = get_settings()
-    # BedrockClaudeClient is the pipeline's LLM client, configured from settings.
-    # Its rate-limiter knobs share a name-keyed AsyncLimiter with the extractor
-    # clients (same region + model => same name), so this client and every
-    # extractor sub-call draw from one process-global rate bucket.
+    # BedrockClaudeClient is the pipeline's LLM client. Extraction throughput is
+    # bounded by the worker pool (model_execute_num), not a client-side rate limiter.
     llm = BedrockClaudeClient(
         region=settings.bedrock_region,
         model=settings.llm_model,
-        max_rate=settings.llm_max_rate,
-        time_period=settings.llm_time_period,
+        **_bedrock_credentials(settings),
     )
     return build_ingestion_pipeline(
         llm,

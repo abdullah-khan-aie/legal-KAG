@@ -67,14 +67,11 @@ class SummaryExtractor(ExtractorABC):
         """Async twin of ``_invoke``: summarise the chunk on the async LLM path.
 
         Identical to ``_invoke`` except the LLM call goes through
-        ``llm_module.ainvoke`` (the async ``self.limiter`` bucket) instead of the
-        sync ``invoke`` (the separate ``sync_limiter`` bucket). This puts summary
-        calls in the SAME process-global async rate limiter as the schema
-        extractor's NER/SPO/event/std calls -- one shared bucket, one true global
-        rate -- rather than a second independent bucket that would sum on top of
-        it. It also keeps the call off the thread pool. ``ainvoke`` mirrors
-        ``invoke`` line-for-line (same signature, same ``with_json_parse=False``
-        branch, same ``parse_response``), so the summary output is unchanged.
+        ``llm_module.ainvoke`` instead of the sync ``invoke``, so the summary call
+        runs on the async path (off the thread pool) alongside the schema
+        extractor's sub-calls. ``ainvoke`` mirrors ``invoke`` line-for-line (same
+        signature, same ``with_json_parse=False`` branch, same ``parse_response``),
+        so the summary output is unchanged.
         """
         if data.type == ChunkTypeEnum.Text:
             o_label = CHUNK_TYPE

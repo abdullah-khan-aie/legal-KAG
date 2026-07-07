@@ -159,14 +159,16 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
         self._drop_all_graph(self._allGraph)
         self._create_all_graph(self._allGraph)
 
-    def initialize_schema(self, schema_types):
+    def initialize_schema(self, schema_types, vector_dimensions=768):
         for spg_type in schema_types:
             label = spg_type
             properties = schema_types[spg_type].properties
             if properties:
                 for property_key in properties:
                     if property_key == "name":
-                        self.create_vector_index(label, property_key)
+                        self.create_vector_index(
+                            label, property_key, vector_dimensions=vector_dimensions
+                        )
                     index_type = properties[property_key].index_type
                     if index_type:
                         if index_type == IndexTypeEnum.Text:
@@ -175,7 +177,9 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
                             IndexTypeEnum.Vector,
                             IndexTypeEnum.TextAndVector,
                         ):
-                            self.create_vector_index(label, property_key)
+                            self.create_vector_index(
+                                label, property_key, vector_dimensions=vector_dimensions
+                            )
                         elif index_type in (
                             IndexTypeEnum.SparseVector,
                             IndexTypeEnum.TextAndSparseVector,
@@ -185,8 +189,8 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
                             logger.info(f"Undefined IndexTypeEnum {index_type}")
         labels, property_keys = self._collect_text_index_info(schema_types)
         self.create_text_index(labels, property_keys)
-        self.create_vector_index("Entity", "name")
-        self.create_vector_index("Entity", "desc")
+        self.create_vector_index("Entity", "name", vector_dimensions=vector_dimensions)
+        self.create_vector_index("Entity", "desc", vector_dimensions=vector_dimensions)
         self.refresh_vector_index_meta(force=True)
 
     @staticmethod

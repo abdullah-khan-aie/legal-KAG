@@ -19,29 +19,44 @@ _PIPELINE_FILES = {
 def chat_llm_config(settings: Settings) -> dict[str, Any]:
     """Config dict the registry uses to build the Bedrock Claude LLM client.
 
-    Carries kag's request-limiter knobs (``max_rate`` / ``time_period``). Every
-    extractor client the registry builds from this config shares one AsyncLimiter
-    keyed by client name, so these bound the process-global call rate across all
-    extraction sub-calls -- the account-level throttle control (see
-    ``model_execute_num`` for the complementary concurrency bound).
+    Throughput is bounded solely by the extraction concurrency (``model_execute_num``);
+    there is no client-side rate limiter.
     """
-    return {
+    config = {
         "type": "bedrock_claude",
         "region": settings.bedrock_region,
         "model": settings.llm_model,
-        "max_rate": settings.llm_max_rate,
-        "time_period": settings.llm_time_period,
     }
+    config.update(_bedrock_credentials(settings))
+    return config
 
 
 def vectorize_model_config(settings: Settings, input_type: str) -> dict[str, Any]:
     """Config dict for the Bedrock Cohere embedder (``input_type="query"`` for retrieval)."""
-    return {
+    config = {
         "type": "bedrock_cohere",
         "region": settings.embed_region,
         "model": settings.embed_model,
         "input_type": input_type,
+        "output_dimension": settings.embed_dimension,
     }
+    config.update(_bedrock_credentials(settings))
+    return config
+
+
+def _bedrock_credentials(settings: Settings) -> dict[str, Any]:
+    """Explicit Bedrock keys from settings, or empty to use boto3's default chain.
+
+    The ``SecretStr`` objects (not the plaintext) are placed in the client config,
+    so the values stay masked as ``**********`` in any logs; the client unwraps
+    them only at the point it hands them to boto3/aioboto3.
+    """
+    if settings.bedrock_access_key_id and settings.bedrock_secret_access_key:
+        return {
+            "aws_access_key_id": settings.bedrock_access_key_id,
+            "aws_secret_access_key": settings.bedrock_secret_access_key,
+        }
+    return {}
 
 
 def _replace_placeholders(config: Any, replacements: dict[str, Any]) -> Any:

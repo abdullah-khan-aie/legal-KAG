@@ -13,18 +13,13 @@ class GraphStoreWriter:
 
     Args:
         graph_store: A bound ``GraphStore`` implementation (Neo4jClient, ...).
-        schema: Optional ``{type_name: SpgType}`` mapping from
-            ``SchemaClient.load()``; when given, indices are created once via
-            ``graph_store.initialize_schema`` before the first write.
         namespace: Project namespace used by ``format_label`` (mirrors
             ``KAG_PROJECT_CONF.namespace``). Empty string disables prefixing.
     """
 
-    def __init__(self, graph_store: GraphStore, schema=None, namespace: str = ""):
+    def __init__(self, graph_store: GraphStore, namespace: str = ""):
         self.graph_store = graph_store
-        self.schema = schema
         self.namespace = namespace
-        self._schema_initialized = False
 
     # --- verbatim from KGWriter (namespace now an attribute) ---------------- #
     def format_label(self, label: str):
@@ -104,9 +99,6 @@ class GraphStoreWriter:
             self.graph_store.upsert_relationships(start_label, end_label, rel_type, relations)
 
     def _invoke(self, data: SubGraph, **kwargs) -> list[SubGraph]:
-        if self.schema is not None and not self._schema_initialized:
-            self.graph_store.initialize_schema(self.schema)
-            self._schema_initialized = True
         graph = self.standarlize_graph(data)
         self._write_nodes(graph)
         self._write_edges(graph)
