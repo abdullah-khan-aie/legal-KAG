@@ -1,16 +1,7 @@
-# Server-free SearchClient.
-#
-# knext/search/client.py SearchClient is a thin REST wrapper: it builds a
-# VectorSearchRequest/TextSearchRequest, POSTs it to the OpenSPG server, and maps
-# each returned record with idx_record_to_dict:
-#       {"score": record.score, "node": record.fields}
-# The actual vector/text search runs in the server, backed by Neo4j.
-#
-# KAG already ships that exact search in Python: Neo4jClient.vector_search /
-# .text_search (kag/common/graphstore/neo4j_graph_store.py, extracted verbatim).
-# Neo4jClient.vector_search already returns records shaped {"node": {...,
-# "__labels__": [...]}, "score": ...} — identical to idx_record_to_dict's output —
-# so this client is a faithful delegation, not a reimplementation.
+# SearchClient that runs vector/text search in-process against Neo4j
+# (Neo4jClient.vector_search / .text_search) instead of over the network. Those
+# methods return records already shaped {"node": {..., "__labels__": [...]},
+# "score": ...}, which is what callers here expect.
 
 from kag.interface import SearchClientABC
 

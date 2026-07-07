@@ -95,10 +95,10 @@ def _build_retriever_configs(
 ) -> list[dict[str, Any]]:
     """Assemble the ``{retrievers}`` list from the active indices.
 
-    Mirrors ``main_solver.do_qa_pipeline``: for each index name, build its
-    ``KAGIndexManager`` and collect that index's retriever config(s). This is
-    the query-side half of the extractor/retriever symmetry -- the retrievers
-    that run are exactly the ones matching the indices that were built.
+    For each index name, build its ``KAGIndexManager`` and collect that index's
+    retriever config(s). This is the query-side half of the extractor/retriever
+    symmetry: the retrievers that run are exactly the ones matching the indices
+    that were built at ingest time.
     """
     from kag.indexer import KAGIndexManager
 

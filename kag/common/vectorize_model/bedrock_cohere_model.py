@@ -87,9 +87,7 @@ class BedrockCohereVectorizeModel(VectorizeModelABC):
             return embeddings.get("float") or next(iter(embeddings.values()))
         return embeddings
 
-    def vectorize(
-        self, texts: str | Iterable[str]
-    ) -> EmbeddingVector | Iterable[EmbeddingVector]:
+    def vectorize(self, texts: str | Iterable[str]) -> EmbeddingVector | Iterable[EmbeddingVector]:
         single = isinstance(texts, str)
         payload = [texts] if single else list(texts)
 

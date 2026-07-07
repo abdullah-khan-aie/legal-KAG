@@ -44,12 +44,12 @@ def _file_hash(path: str) -> str:
 async def ingest_directory(directory: str, max_concurrency: int = 4) -> IngestSummary:
     """Scan a directory and ingest its documents with bounded concurrency.
 
-    Mirrors kag's ``BuilderChainRunner.ainvoke``: a producer puts file paths on
-    a bounded ``asyncio.Queue`` and ``max_concurrency`` consumers pull and run
-    each through the ingestion pipeline. The queue's ``maxsize`` is backpressure
-    -- so we keep only N documents in flight and never overwhelm the LLM's rate
-    limits. Documents are de-duplicated by content hash within the run (the
-    "seen?" gate); cross-run/durable dedup arrives with the persistent job store.
+    A producer puts file paths on a bounded ``asyncio.Queue`` and
+    ``max_concurrency`` consumers pull and run each through the ingestion
+    pipeline. The queue's ``maxsize`` applies backpressure, so we keep only N
+    documents in flight and never overwhelm the LLM's rate limits. Documents are
+    de-duplicated by content hash within the run (the "seen?" gate); cross-run,
+    durable dedup arrives with the persistent job store.
     """
     scanner = DirectoryScanner()
     pipeline = get_ingestion_pipeline()
