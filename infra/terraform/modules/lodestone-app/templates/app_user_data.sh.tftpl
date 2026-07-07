@@ -1,23 +1,20 @@
 #!/bin/bash
 # Bootstrap Lodestone app (FastAPI + KAG) on Amazon Linux 2023.
-# Branch: feat/kag-rag-engine — in-region Bedrock via instance role (no AWS_PROFILE).
+# Config from Secrets Manager; repo via GitHub deploy key (SSH).
 set -euxo pipefail
 
 APP_DIR=/opt/lodestone/app
 ENV_FILE=/opt/lodestone/.env
 SCAN_DIR="${scan_dir}"
 SECRET_ID="${secret_id}"
-NEO4J_URI="${neo4j_bolt_uri}"
+GITHUB_KEY_SECRET_ID="${github_deploy_key_secret_id}"
 APP_PORT="${app_port}"
 GIT_REPO="${git_repo_url}"
 GIT_REF="${git_ref}"
 REGION="${region}"
-LLM_MODEL="${llm_model}"
-EMBED_MODEL="${embed_model}"
-MAX_CONCURRENCY="${max_concurrency}"
 
 dnf update -y
-dnf install -y git jq
+dnf install -y git jq openssh-clients
 
 curl -LsSf https://astral.sh/uv/install.sh | sh
 export PATH="/root/.local/bin:$PATH"
@@ -39,12 +36,27 @@ done
 mkdir -p "$SCAN_DIR"
 chown -R ec2-user:ec2-user /opt/lodestone /data
 
+setup_github_ssh() {
+  [[ -n "$GITHUB_KEY_SECRET_ID" ]] || return 0
+  mkdir -p /root/.ssh
+  chmod 700 /root/.ssh
+  aws secretsmanager get-secret-value \
+    --region "$REGION" \
+    --secret-id "$GITHUB_KEY_SECRET_ID" \
+    --query SecretString --output text > /root/.ssh/id_ed25519
+  chmod 600 /root/.ssh/id_ed25519
+  ssh-keyscan -t ed25519 github.com >> /root/.ssh/known_hosts 2>/dev/null
+  chmod 644 /root/.ssh/known_hosts
+  export GIT_SSH_COMMAND="ssh -i /root/.ssh/id_ed25519 -o IdentitiesOnly=yes -o StrictHostKeyChecking=yes"
+}
+
 sync_app_repo() {
   if [[ -z "$GIT_REPO" ]]; then
-    echo "app_git_repo_url not set — clone manually to $APP_DIR" >&2
+    echo "git_repo_url not set — clone manually to $APP_DIR" >&2
     mkdir -p "$APP_DIR"
     return 0
   fi
+  setup_github_ssh
   if [[ ! -d "$APP_DIR/.git" ]]; then
     git clone --branch "$GIT_REF" --single-branch "$GIT_REPO" "$APP_DIR"
   fi
@@ -57,49 +69,11 @@ sync_app_repo() {
 
 sync_app_repo
 
-SECRET_JSON="$(aws secretsmanager get-secret-value \
-  --region "$REGION" \
-  --secret-id "$SECRET_ID" \
-  --query SecretString --output text)"
-
-python3 - "$SECRET_JSON" "$ENV_FILE" "$NEO4J_URI" "$SCAN_DIR" "$REGION" "$LLM_MODEL" "$EMBED_MODEL" "$MAX_CONCURRENCY" <<'PY'
-import json, sys
-from pathlib import Path
-
-secret, env_path, neo4j_uri, scan_dir, region, llm, embed, concurrency = sys.argv[1:9]
-vals = json.loads(secret)
-
-# Map legacy secret keys from older .env exports.
-if not vals.get("LODESTONE_NEO4J_PASSWORD") and vals.get("NEO4J_PASSWORD"):
-    vals["LODESTONE_NEO4J_PASSWORD"] = vals["NEO4J_PASSWORD"]
-if not vals.get("LODESTONE_NEO4J_USER") and vals.get("NEO4J_USERNAME"):
-    vals["LODESTONE_NEO4J_USER"] = vals["NEO4J_USERNAME"]
-
-# EC2 overlays — match src/lodestone/config/settings.py on feat/kag-rag-engine.
-vals["LODESTONE_NEO4J_URI"] = neo4j_uri
-vals["LODESTONE_SCAN_DIR"] = scan_dir
-vals["LODESTONE_BEDROCK_REGION"] = region
-vals["LODESTONE_EMBED_REGION"] = region
-vals["LODESTONE_LLM_MODEL"] = llm
-vals["LODESTONE_EMBED_MODEL"] = embed
-vals["LODESTONE_EMBED_INPUT_TYPE"] = vals.get("LODESTONE_EMBED_INPUT_TYPE") or "search_document"
-vals["LODESTONE_MAX_CONCURRENCY"] = str(concurrency)
-
-drop = set()
-for k in vals:
-    if k.startswith("AWS_ACCESS_KEY") or k in (
-        "AWS_SECRET_ACCESS_KEY",
-        "AWS_SESSION_TOKEN",
-        "AWS_CREDENTIAL_EXPIRATION",
-        "AWS_PROFILE",
-    ):
-        drop.add(k)
-for k in drop:
-    del vals[k]
-
-lines = [f"{k}={v}" for k, v in sorted(vals.items()) if v is not None and str(v) != ""]
-Path(env_path).write_text("\n".join(lines) + "\n")
-PY
+cat >"$ENV_FILE" <<EOF
+AWS_SECRETS_MANAGER_SECRET_ID=$SECRET_ID
+AWS_SECRETS_MANAGER_REGION=$REGION
+AWS_REGION=$REGION
+EOF
 
 chmod 600 "$ENV_FILE"
 
@@ -114,7 +88,6 @@ Type=simple
 User=root
 WorkingDirectory=$APP_DIR
 EnvironmentFile=$ENV_FILE
-Environment=AWS_REGION=$REGION
 Environment=PATH=/root/.local/bin:/usr/local/bin:/usr/bin
 ExecStart=/root/.local/bin/uv run uvicorn src.lodestone.main:app --host 0.0.0.0 --port $APP_PORT
 Restart=on-failure

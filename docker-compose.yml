@@ -1,0 +1,70 @@
+# Lodestone — single compose file.
+#
+# Config: app reads LODESTONE_* solely from AWS Secrets Manager (see settings.py).
+# Only bootstrap vars are passed into the container (secret id + AWS region/creds).
+#
+# AWS EC2 (Neo4j on separate host):  INGEST_MOUNT=/data/ingest ./scripts/docker-aws-up.sh
+# Local laptop:                      cp .env.docker.example .env
+#                                    docker compose -f docker-compose.yml -f docker-compose.local.yml up -d --build
+# Local + Neo4j:                     ... --profile local
+
+name: lodestone-lodestone
+
+services:
+  lodestone:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ${LODESTONE_IMAGE:-lodestone-lodestone:latest}
+    container_name: lodestone
+    restart: unless-stopped
+    ports:
+      - "${LODESTONE_PORT:-8080}:8080"
+    environment:
+      AWS_SECRETS_MANAGER_SECRET_ID: ${AWS_SECRETS_MANAGER_SECRET_ID:-lodestone/env}
+      AWS_SECRETS_MANAGER_REGION: ${AWS_SECRETS_MANAGER_REGION:-${AWS_REGION:-eu-west-2}}
+      AWS_REGION: ${AWS_REGION:-eu-west-2}
+      AWS_PROFILE: ${AWS_PROFILE:-}
+    volumes:
+      - ${INGEST_MOUNT:-ingest_data}:/data/ingest
+    depends_on:
+      neo4j:
+        condition: service_healthy
+        required: false
+    deploy:
+      resources:
+        limits:
+          memory: 6g
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://127.0.0.1:8080/docs"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 120s
+
+  neo4j:
+    profiles: [local]
+    image: neo4j:5
+    container_name: neo4j
+    restart: unless-stopped
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      NEO4J_AUTH: ${NEO4J_AUTH:-neo4j/test1234}
+      NEO4J_PLUGINS: '["graph-data-science"]'
+      NEO4J_server_memory_heap_initial__size: 512m
+      NEO4J_server_memory_heap_max__size: 512m
+      NEO4J_server_memory_pagecache_size: 512m
+    volumes:
+      - neo4j_data:/data
+    healthcheck:
+      test: ["CMD-SHELL", "wget -qO- http://localhost:7474 || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+      start_period: 40s
+
+volumes:
+  ingest_data:
+  neo4j_data:

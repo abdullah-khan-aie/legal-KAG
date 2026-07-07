@@ -86,7 +86,23 @@ variable "lodestone_app_port" {
 
 variable "lodestone_git_repo_url" {
   type    = string
-  default = "https://github.com/abdullah-khan-aie/lodestone-graphrag.git"
+  default = "git@github.com:abdullah-khan-aie/lodestone-graphrag.git"
+}
+
+variable "lodestone_github_deploy_key_secret_id" {
+  description = "Secrets Manager id for GitHub deploy key private key (see infra/scripts/setup_github_deploy_key.sh)."
+  type        = string
+  default     = "lodestone/github-deploy-key"
+}
+
+variable "lodestone_deploy_with_docker" {
+  type    = bool
+  default = false
+}
+
+variable "lodestone_ecr_enabled" {
+  type    = bool
+  default = false
 }
 
 variable "lodestone_git_ref" {
@@ -132,4 +148,10 @@ variable "lodestone_allow_public_http" {
 variable "lodestone_public_ingress_cidrs" {
   type    = list(string)
   default = []
+}
+
+variable "lodestone_public_api_enabled" {
+  description = "Create public API Gateway -> VPC Link -> internal NLB -> app EC2."
+  type        = bool
+  default     = false
 }

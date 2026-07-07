@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+# Bootstrap Lodestone on EC2 with Docker (image from ECR — no git clone).
+# App config: AWS Secrets Manager at runtime (see src/lodestone/config/settings.py).
+# Container stdout/stderr → CloudWatch Logs via the Docker awslogs driver.
+set -euxo pipefail
+
+DEPLOY_DIR=/opt/lodestone
+REGION="${region}"
+SECRET_ID="${secret_id}"
+ECR_IMAGE="${ecr_image}"
+APP_PORT="${app_port}"
+SCAN_DIR="${scan_dir}"
+LOG_GROUP="${log_group}"
+
+mkdir -p /data "$DEPLOY_DIR" "$SCAN_DIR"
+if [[ -n "$LOG_GROUP" ]]; then
+  echo "$LOG_GROUP" >"$DEPLOY_DIR/cloudwatch_log_group"
+fi
+
+dnf update -y
+dnf install -y docker jq
+systemctl enable --now docker
+
+for _ in $(seq 1 30); do
+  for dev in /dev/nvme1n1 /dev/xvdf /dev/sdf; do
+    if [[ -b "$dev" ]]; then
+      if ! blkid "$dev" >/dev/null 2>&1; then mkfs -t xfs "$dev"; fi
+      mountpoint -q /data || mount "$dev" /data
+      grep -q "$dev /data" /etc/fstab || echo "$dev /data xfs defaults,nofail 0 2" >> /etc/fstab
+      break 2
+    fi
+  done
+  sleep 2
+done
+
+aws ecr get-login-password --region "$REGION" | docker login --username AWS --password-stdin "$${ECR_IMAGE%%/*}"
+docker pull "$ECR_IMAGE"
+docker rm -f lodestone 2>/dev/null || true
+
+LOG_OPTS=()
+if [[ -n "$LOG_GROUP" ]]; then
+  LOG_OPTS+=(
+    --log-driver awslogs
+    --log-opt "awslogs-region=$REGION"
+    --log-opt "awslogs-group=$LOG_GROUP"
+    --log-opt awslogs-create-group=false
+  )
+fi
+
+docker run -d --name lodestone --restart unless-stopped \
+  -p "$APP_PORT":8080 \
+  -v "$SCAN_DIR:$SCAN_DIR" \
+  -e AWS_SECRETS_MANAGER_SECRET_ID="$SECRET_ID" \
+  -e AWS_SECRETS_MANAGER_REGION="$REGION" \
+  -e AWS_REGION="$REGION" \
+  --memory=6g \
+  "$${LOG_OPTS[@]}" \
+  "$ECR_IMAGE"
