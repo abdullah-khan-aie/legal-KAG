@@ -12,7 +12,7 @@ from src.lodestone.config.settings import Settings, get_settings
 
 
 def _build_embedder(settings: Settings) -> BedrockCohereVectorizeModel:
-    """Build the Bedrock-hosted Cohere embedder (kag pattern, sync + to_thread)."""
+    """Build the Bedrock-hosted Cohere embedder."""
     return BedrockCohereVectorizeModel(
         region=settings.embed_region,
         model=settings.embed_model,
@@ -35,9 +35,9 @@ def _build_extractors(settings: Settings) -> list:
 
     The ingestion half of the extractor/retriever symmetry: for each active
     index, its ``KAGIndexManager`` contributes the extractor(s) that build that
-    index (``build_extractor_config`` -> ``ExtractorABC.from_config``). This
-    mirrors ``main_solver``'s query-side retriever assembly, so enabling an
-    index wires both its ingest extractor and its query retriever at once.
+    index (``build_extractor_config`` -> ``ExtractorABC.from_config``). It is the
+    mirror of the query-side retriever assembly, so enabling an index wires both
+    its ingest extractor and its query retriever at once.
     """
     from kag.common.registry import import_modules_from_path
     from kag.indexer import KAGIndexManager
@@ -96,11 +96,10 @@ def build_ingestion_pipeline(
 def get_ingestion_pipeline() -> IngestionPipeline:
     """Return the cached pipeline singleton, wired from settings."""
     settings: Settings = get_settings()
-    # kag's BedrockClaudeClient is itself an LLMClient, used directly as the pipeline's
-    # model seam (no app-side adapter). Config is injected here from settings. The
-    # rate-limiter knobs share a name-keyed AsyncLimiter with the registry-built
-    # extractor clients (same region+model => same name), so this and every
-    # extractor sub-call draw from one process-global bucket.
+    # BedrockClaudeClient is the pipeline's LLM client, configured from settings.
+    # Its rate-limiter knobs share a name-keyed AsyncLimiter with the extractor
+    # clients (same region + model => same name), so this client and every
+    # extractor sub-call draw from one process-global rate bucket.
     llm = BedrockClaudeClient(
         region=settings.bedrock_region,
         model=settings.llm_model,

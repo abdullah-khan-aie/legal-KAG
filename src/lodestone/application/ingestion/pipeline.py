@@ -37,9 +37,9 @@ from src.lodestone.exceptions import (
     LodestoneError,
 )
 
-# Bounded capacity of the shared extraction work queue, mirroring OpenSPG-KAG's
-# LLMNlExtractProcessor `new LinkedBlockingQueue<>(100)`: submission blocks once
-# this many items are buffered, giving backpressure instead of unbounded growth.
+# Bounded capacity of the shared extraction work queue: submission blocks once
+# this many items are buffered, applying backpressure instead of letting the
+# queue grow without bound.
 _EXTRACT_QUEUE_CAPACITY = 100
 
 
@@ -62,21 +62,18 @@ class IngestionPipeline:
         namespace: str = "",
         model_execute_num: int = 1,
     ) -> None:
-        # kag clients (BedrockClaudeClient, BedrockCohereVectorizeModel) are the
-        # model seams the kag components are written against; used directly.
+        # The LLM and embedding clients shared across the pipeline stages.
         self._llm = llm
         self._embed = embedder
 
-        # Extraction concurrency, ported directly from OpenSPG-KAG's Java builder
-        # (LLMNlExtractProcessor): a single fixed-size worker pool draining a
-        # shared queue -- the asyncio equivalent of its static
-        # ThreadPoolExecutor(modelExecuteNum) with a blocking bounded queue. One
-        # work item == one (chunk, extractor); at most `model_execute_num` run
-        # concurrently, shared across EVERY in-flight document (the pool is global,
-        # exactly like the Java executor being `static`). The rest wait in the
-        # queue as plain data rather than being materialised as coroutines up
-        # front. Workers are started lazily on first ingest (they need a running
-        # loop) and live for the process. `_extract_all` enqueues and awaits.
+        # Extraction concurrency control: a single fixed-size pool of worker
+        # coroutines drains a shared, bounded queue. One work item is one
+        # (chunk, extractor) pair; at most `model_execute_num` run at once,
+        # shared across every in-flight document (the pool is process-global).
+        # Remaining items wait in the queue as plain data rather than being
+        # spawned as coroutines up front. Workers start lazily on the first
+        # ingest (they need a running loop) and live for the process;
+        # `_extract_all` enqueues work and awaits the results.
         self._model_execute_num = max(1, model_execute_num)
         self._work_queue: asyncio.Queue | None = None
         self._workers: list[asyncio.Task] = []
@@ -91,12 +88,11 @@ class IngestionPipeline:
             dict_reader=DictReader(),
         )
 
-        # 2) splitter: sliding-window split by character length. No LLM call, so
-        #    it sidesteps the Bedrock RPM ceiling that made the per-node
-        #    SemanticSplitter throttle out (ChunkingError). The docx reader
-        #    already emits one chunk per clause via its heading tree, so semantic
-        #    boundaries are largely set before the splitter runs; this stage only
-        #    caps oversized chunks. Table-aware via BaseTableSplitter.
+        # 2) splitter: sliding-window split by character length. It makes no LLM
+        #    call, so it avoids the Bedrock rate limit that a semantic (per-node)
+        #    splitter would hit. The docx reader already emits one chunk per
+        #    clause via its heading tree, so semantic boundaries are largely set
+        #    before the splitter runs; this stage only caps oversized chunks.
         self._splitter = LengthSplitter(split_length=1500, window_length=150)
 
         # 3) extractors (run concurrently per chunk). When ``extractors`` is
@@ -119,7 +115,7 @@ class IngestionPipeline:
             ]
         )
 
-        # 4) align: merge + de-duplicate per-chunk subgraphs (kag logic).
+        # 4) align: merge + de-duplicate per-chunk subgraphs.
         self._aligner = KAGAligner()
 
         # 5) vectorize: embed index-marked fields.
@@ -141,8 +137,8 @@ class IngestionPipeline:
     def _stage(self, error_cls: type[LodestoneError], message: str, source: str):
         """Translate any failure inside a pipeline stage into a typed domain error.
 
-        Raw kag/third-party exceptions are wrapped (with ``from err`` so the
-        original traceback is preserved); errors already translated upstream
+        Raw third-party exceptions are wrapped (with ``from err`` so the original
+        traceback is preserved); errors already translated by an earlier stage
         (e.g. read vs split) pass through unchanged.
         """
         try:
@@ -155,9 +151,8 @@ class IngestionPipeline:
     async def _ensure_workers(self) -> None:
         """Lazily start the shared extraction worker pool on the running loop.
 
-        Mirrors LLMNlExtractProcessor's one-time `if (executor == null)` init: the
-        pool is created once and then shared for the life of the process. Guarded
-        by a lock so concurrent first-ingest calls start it exactly once.
+        The pool is created once and then shared for the life of the process,
+        guarded by a lock so concurrent first-ingest calls start it exactly once.
         """
         if self._work_queue is not None:
             return
@@ -175,9 +170,9 @@ class IngestionPipeline:
     async def _extract_worker(self, queue: asyncio.Queue) -> None:
         """One pool worker: pull (extractor, chunk, future) items and run them.
 
-        Equivalent to a single thread in the Java ThreadPoolExecutor running
-        ExtractTaskCallable. Results/exceptions are handed back on the per-item
-        future so the submitting `_extract_all` can await them in order.
+        Each worker loops forever pulling items off the queue. Results and
+        exceptions are handed back on the per-item future so the submitting
+        `_extract_all` can await them in order.
         """
         while True:
             extractor, chunk, future = await queue.get()
@@ -194,11 +189,10 @@ class IngestionPipeline:
     async def _extract_all(self, chunks: list) -> list:
         """Submit every (chunk, extractor) to the shared pool and gather results.
 
-        The asyncio analogue of LLMNlExtractProcessor.process: enqueue one task
-        per chunk-extractor pair, then collect the futures in submission order.
-        Only `model_execute_num` run at once; the rest wait in the queue, and
-        submission itself blocks once the queue is full (backpressure), matching
-        the Java bounded blocking queue.
+        Enqueue one item per chunk-extractor pair, then collect the futures in
+        submission order. Only `model_execute_num` run at once; the rest wait in
+        the queue, and submission itself blocks once the queue is full, which
+        applies backpressure to the caller.
         """
         await self._ensure_workers()
         assert self._work_queue is not None

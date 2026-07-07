@@ -112,20 +112,18 @@ class PromptABC(ABC, Registrable):
         )
 
 
-# kag.interface.LLMClient — real upstream client (rate-limited, json-repair, retry).
-# Imported here (after PromptABC) because llm_client imports PromptABC from this package.
+# LLMClient (rate-limited, json-repair, retry). Imported here, after PromptABC,
+# because llm_client imports PromptABC from this package.
 from kag.interface.common.llm_client import LLMClient  # noqa: E402, F401
 
 
-# --- kag.interface.ExtractorABC (minimal) ---------------------------------- #
+# --- kag.interface.ExtractorABC ------------------------------------------- #
 class ExtractorABC(Registrable):
-    # Real Registrable so `@ExtractorABC.register(...)` populates the registry and
-    # `ExtractorABC.from_config({"type": ...})` builds extractors -- this is what
-    # the KAGIndexManager pattern uses to derive ingestion extractors from the
-    # active index_list. The lightweight invoke contract below is kept
-    # deliberately (server-free: no knext BuilderComponent, no checkpointer, no
-    # BuilderComponentData wrapping) so `ainvoke(chunk)` returns bare SubGraphs,
-    # which is what the ingestion pipeline consumes.
+    # A Registrable base so `@ExtractorABC.register(...)` populates the registry
+    # and `ExtractorABC.from_config({"type": ...})` builds extractors from the
+    # active index_list. The invoke contract is intentionally lightweight:
+    # `ainvoke(chunk)` returns bare SubGraphs, which is what the ingestion
+    # pipeline consumes.
     def __init__(self, **kwargs):
         self.language = kwargs.pop("language", "en")
         for k, v in kwargs.items():
@@ -149,8 +147,8 @@ class ExtractorABC(Registrable):
         raise NotImplementedError
 
     async def _ainvoke(self, data, **kwargs) -> list[Output]:
-        # Upstream default: components without a real async path run their sync
-        # `_invoke` in a worker thread, so awaiting `_ainvoke` never blocks the loop.
+        # Default async path: run the sync `_invoke` in a worker thread, so
+        # awaiting `_ainvoke` never blocks the event loop.
         return await asyncio.to_thread(lambda: self._invoke(data, **kwargs))
 
 
@@ -216,7 +214,7 @@ class AlignerABC:
         raise NotImplementedError
 
 
-# --- vector search seam (replaces knext.search.client.SearchClient) --------- #
+# --- vector search seam for entity linking --------------------------------- #
 class SearchClientABC:
     """Bindable similarity-search seam for entity linking.
 
@@ -257,26 +255,15 @@ class VectorizerABC:
         raise NotImplementedError
 
 
-# --- kag.interface.VectorizeModelABC: the real Registrable embedding base --- #
-# Re-exported from the submodule (as upstream KAG does) rather than defined as a
-# minimal stub. The stub had no ``from_config`` / no real ``register``, so the
-# registry could not build an embedder from a config dict: retrievers annotate
-# ``vectorize_model: VectorizeModelABC`` and rely on ``from_config`` to resolve
-# the ``{"type": "bedrock_cohere", ...}`` config. With the stub, that config was
-# passed through as a raw pyhocon ConfigTree and ``.vectorize(query)`` blew up at
-# query time. Ingestion was unaffected (it builds the embedder directly), which
-# is why this only surfaced on the query path. No import cycle: the submodule
-# imports only kag.common.{rate_limiter,registry}, never kag.interface.
-from kag.interface.common.vectorize_model import (  # noqa: E402
-    SparseVectorizeModelABC,  # noqa: F401
-    VectorizeModelABC,  # noqa: F401
-)
-
-
-# --- re-exports of the extracted solver/retriever bases (kag.interface API) --- #
-# Mirrors `from kag.interface import ToolABC, RetrieverABC, ...`. Imported at the
-# end so the minimal ABCs above are defined first (the bases import from submodules
-# directly, not from this package, so there is no import cycle).
+# VectorizeModelABC must be the real Registrable base so the component registry
+# can build an embedder from a config dict: retrievers annotate
+# ``vectorize_model: VectorizeModelABC`` and rely on ``from_config`` to turn a
+# ``{"type": "bedrock_cohere", ...}`` config into a real model. Export it from the
+# submodule here. No import cycle: that submodule imports only
+# kag.common.{rate_limiter, registry}, never this package.
+# --- solver / retriever base classes exported as the kag.interface API --- #
+# Imported at the end so the classes defined above exist first; these bases pull
+# from submodules directly (not from this package), so there is no import cycle.
 from kag.interface.common.model.retriever_data import (  # noqa: E402
     ChunkData,  # noqa: F401
     DocData,  # noqa: F401
@@ -288,6 +275,10 @@ from kag.interface.common.model.retriever_data import (  # noqa: E402
 )
 from kag.interface.common.rerank_model import RerankModelABC  # noqa: E402, F401
 from kag.interface.common.tools import ToolABC  # noqa: E402, F401
+from kag.interface.common.vectorize_model import (  # noqa: E402
+    SparseVectorizeModelABC,  # noqa: F401
+    VectorizeModelABC,  # noqa: F401
+)
 from kag.interface.indexer.index import IndexABC  # noqa: E402, F401
 from kag.interface.solver.context import Context  # noqa: E402, F401
 from kag.interface.solver.executor_abc import (  # noqa: E402

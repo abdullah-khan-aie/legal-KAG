@@ -1,16 +1,13 @@
-"""Lodestone-specific index manager (no openspg-kag counterpart).
+"""Index manager that builds a typed, schema-constrained SPG graph.
 
-The reference builds its graph via ``kag_hybrid_index`` (knowledge_unit_extractor).
-This project instead builds a typed, schema-constrained SPG graph via
-``schema_constraint_extractor``. This manager slots that extractor into the same
-``KAGIndexManager`` pattern, so the graph backbone is selected through
-``index_list`` like every other index -- keeping ingestion uniform and
-extensible as more extractors are added.
+Uses ``schema_constraint_extractor`` to build a graph of typed entities,
+relations and events, slotted into the same ``KAGIndexManager`` pattern so the
+graph backbone is selected through ``index_list`` like every other index.
 
-Its retriever list is intentionally empty: the SPG graph is structural (typed
-entities/relations/events, used for entity linking), and chunk-oriented
-retrieval comes from the summary / chunk / atomic-query indices. Enable
-``kag_hybrid_index`` if graph-backed retrieval (kg_cs / kg_fr) is wanted.
+Its retriever list is intentionally empty: the SPG graph is structural (used for
+entity linking), and chunk-oriented retrieval comes from the summary / chunk /
+atomic-query indices. Enable ``kag_hybrid_index`` for graph-backed retrieval
+(kg_cs / kg_fr).
 """
 
 from kag.common.conf import KAGConstants

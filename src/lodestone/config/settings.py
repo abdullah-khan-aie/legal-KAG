@@ -74,33 +74,26 @@ class Settings(BaseSettings):
         )
         return init_settings, aws_secrets
 
-    # NOTE ON DEFAULTS: config is supplied by the environment -- a ``.env`` file
-    # locally, or the AWS Secrets Manager secret (``lodestone/env``) in deployment.
-    # The fields below carry NO in-code defaults, so a key missing from every
-    # source fails startup loudly instead of silently falling back to a stale
-    # hardcoded value (e.g. a non-"global" model id). The only exceptions are the
-    # three fields NOT stored in the secret -- ``llm_max_rate``, ``llm_time_period``
-    # and ``index_list`` -- which keep defaults so they stay optional; move them
-    # into the secret and drop their defaults to make them required too.
+    # NOTE ON DEFAULTS: configuration is loaded solely from AWS Secrets Manager
+    # (the ``lodestone/env`` secret). Most fields below carry NO in-code default, so
+    # a key missing from the secret fails startup loudly instead of silently
+    # falling back to a stale hardcoded value (e.g. a non-"global" model id). The
+    # fields that DO keep a default are called out inline below.
 
     schema_path: str
     bedrock_region: str
     llm_model: str
 
-    # kag's LLMClient has a built-in request limiter (an AsyncLimiter keyed by
-    # client name, process-global and shared across every extractor sub-call).
-    # It ships defaulted to no-op (max_rate=1000, time_period=1); the frameworks
-    # rely on concurrency (model_execute_num) instead. On this ContractorSandbox
-    # Bedrock account, concurrency=1 alone still throttles (ThrottlingException),
-    # because a per-minute quota is indifferent to how many workers we run. A rate
-    # limiter caps calls-per-minute directly, which relieves BOTH the RPM and TPM
-    # ceilings at once, so we wire it. Tune empirically (we can't see the quota):
-    # allow llm_max_rate calls per llm_time_period seconds; lower the rate if
-    # throttling persists, raise it once clean. Applied via chat_llm_config so
-    # every extractor client shares the one limiter, and (with SummaryExtractor
-    # now on the async path) all sub-calls draw from the single async bucket.
-    # NOT in the secret: kept optional/tunable via .env while we calibrate the
-    # Bedrock throttle. Add to the secret to make required.
+    # The LLM client has a built-in request limiter: a process-global AsyncLimiter,
+    # keyed by client name and shared across every extractor sub-call. It defaults
+    # to effectively no-op (max_rate=1000, time_period=1). On this low-quota Bedrock
+    # account, limiting worker concurrency alone still throttles, because a
+    # per-minute quota is indifferent to how many workers run; a rate limiter caps
+    # calls-per-minute directly, relieving both the request-per-minute and
+    # token-per-minute ceilings. Allow llm_max_rate calls per llm_time_period
+    # seconds. Tune empirically (the quota isn't visible): lower the rate if
+    # throttling persists, raise it once clean. Kept out of the secret so it stays
+    # easy to tune; add it to the secret to make it required.
     llm_max_rate: float = 1
     llm_time_period: float = 20
 
@@ -134,18 +127,12 @@ class Settings(BaseSettings):
     scan_dir: str = "ingest_docs"
     max_concurrency: int
 
-    # Global cap on how many chunk-extraction tasks run at once, shared across
-    # all in-flight documents. Ported from OpenSPG-KAG's `modelExecuteNum`: the
-    # Java builder (LLMNlExtractProcessor) drives extraction through a single
-    # fixed-size worker pool -- one task per chunk, bounded queue, backpressure --
-    # rather than a rate limiter. We port that exactly with an asyncio.Queue plus
-    # this many worker coroutines (see IngestionPipeline).
-    #
-    # NOTE: each extraction task fans out internally into ~4 concurrent LLM
-    # sub-calls (NER/SPO/event/std), so true in-flight calls ~= this x 4. KAG
-    # defaults to 5 because its model endpoint is provisioned for it; on this
-    # low-RPM Bedrock account keep it at 1 (concurrency is the sole control, as in
-    # the frameworks). Raise once the Bedrock quota is increased.
+    # Global cap on how many chunk-extraction tasks run at once, shared across all
+    # in-flight documents: a single fixed-size pool of worker coroutines drains a
+    # bounded queue (see IngestionPipeline). NOTE: each extraction task fans out
+    # internally into ~4 concurrent LLM sub-calls (NER / relation / event /
+    # standardization), so true in-flight calls are roughly this x 4. On this
+    # low-quota Bedrock account keep it at 1; raise once the quota is increased.
     model_execute_num: int
 
     log_level: str

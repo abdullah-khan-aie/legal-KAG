@@ -1,18 +1,14 @@
-# Neo4j-backed SearchApiABC.
-#
-# knext openspg_search_api / SearchClient route search through the OpenSPG server,
-# mapping each result with idx_record_to_dict -> {"score": ..., "node": ...}.
-# The actual vector/text search is Neo4jClient.vector_search / .text_search
-# (extracted verbatim from kag), whose result records are already shaped
-# {"node": {..., "__labels__": [...]}, "score": ...} -- identical to what the
-# server returned. This impl is therefore a faithful delegation, not a new search.
+# Neo4j-backed SearchApiABC. Vector/text search runs in-process via
+# Neo4jClient.vector_search / .text_search, which return records already shaped
+# {"node": {..., "__labels__": [...]}, "score": ...}, so this class just
+# delegates to the graph store.
 
 from kag.common.tools.search_api.search_api_abc import SearchApiABC
 
 
 @SearchApiABC.register("neo4j_search_api")
 class Neo4jSearchApi(SearchApiABC):
-    """``SearchApiABC`` backed by the extracted ``Neo4jClient`` graph store."""
+    """``SearchApiABC`` backed by the ``Neo4jClient`` graph store."""
 
     def __init__(self, graph_store, **kwargs):
         super().__init__(**kwargs)
