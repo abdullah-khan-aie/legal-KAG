@@ -32,6 +32,8 @@ solver_pipeline:
       type: kag_system
     clarification_prompt:
       type: kag_clarification
+    rewrite_prompt:
+      type: default_rewrite_sub_task_query
   executors:
     - *kag_hybrid_executor_conf
     - *py_code_based_math_executor_conf
