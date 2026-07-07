@@ -67,6 +67,10 @@ class Settings(BaseSettings):
             region_name=os.getenv("AWS_SECRETS_MANAGER_REGION")
             or os.getenv("AWS_DEFAULT_REGION")
             or os.getenv("AWS_REGION"),
+            # The source defaults to case_sensitive=True, so UPPER_CASE secret
+            # keys (LODESTONE_NEO4J_PASSWORD) would not bind to the lower-case field
+            # names. Match case-insensitively like normal env settings.
+            case_sensitive=False,
         )
         return init_settings, aws_secrets
 
@@ -98,7 +102,7 @@ class Settings(BaseSettings):
     # NOT in the secret: kept optional/tunable via .env while we calibrate the
     # Bedrock throttle. Add to the secret to make required.
     llm_max_rate: float = 1
-    llm_time_period: float = 6
+    llm_time_period: float = 20
 
     # Embeddings: bare Cohere model id, called in its own region (independent of
     # the LLM). input_type is "search_document" for ingest ("search_query" for
@@ -108,10 +112,10 @@ class Settings(BaseSettings):
     embed_input_type: str
 
     # Neo4j graph store (the pipeline always persists + entity-links against it).
-    neo4j_uri: str
-    neo4j_user: str
-    neo4j_password: SecretStr
-    neo4j_database: str
+    neo4j_uri: str = "bolt://localhost:7687"
+    neo4j_user: str = "neo4j"
+    neo4j_password: SecretStr = "test1234"
+    neo4j_database: str = "neo4j"
 
     # Label namespace prefix (empty = labels used as-is, e.g. "Contract").
     namespace: str
@@ -125,7 +129,9 @@ class Settings(BaseSettings):
 
     # Ingestion: local folder the directory scanner reads, and how many documents
     # to ingest concurrently (bounded to respect Bedrock rate limits).
-    scan_dir: str
+    # scan_dir has a TEMPORARY default; note the secret's LODESTONE_SCAN_DIR (if
+    # present) still overrides it, so remove it from the secret to use this value.
+    scan_dir: str = "ingest_docs"
     max_concurrency: int
 
     # Global cap on how many chunk-extraction tasks run at once, shared across
