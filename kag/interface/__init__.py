@@ -257,42 +257,20 @@ class VectorizerABC:
         raise NotImplementedError
 
 
-# --- kag.interface.VectorizeModelABC (minimal; bind your embedding model) --- #
-class VectorizeModelABC:
-    """Embedding model seam. Bind your model:
-        VectorizeModelABC(vectorize=lambda texts: [embed(t) for t in texts])
-    or subclass and implement `vectorize(texts) -> List[vector]`.
-    Maps a list[str] -> list of vectors. Never touches the OpenSPG server.
-    """
-
-    def __init__(self, vectorize=None, **kwargs):
-        self._vectorize = vectorize
-        for k, v in kwargs.items():
-            setattr(self, k, v)
-
-    @classmethod
-    def register(cls, name=None, *args, **kwargs):
-        def _decorator(target):
-            return target
-
-        return _decorator
-
-    def vectorize(self, texts):
-        if self._vectorize is not None:
-            return self._vectorize(texts)
-        raise NotImplementedError(
-            "Bind your embedding model: VectorizeModelABC(vectorize=<fn>) "
-            "or subclass and implement vectorize()."
-        )
-
-    async def avectorize(self, texts):
-        # offload the (blocking) embedding call so the vectorizer's gather can
-        # actually run batches concurrently without blocking the event loop.
-        return await asyncio.to_thread(self.vectorize, texts)
-
-
-class SparseVectorizeModelABC(VectorizeModelABC):
-    """Optional sparse-embedding variant (default-unused)."""
+# --- kag.interface.VectorizeModelABC: the real Registrable embedding base --- #
+# Re-exported from the submodule (as upstream KAG does) rather than defined as a
+# minimal stub. The stub had no ``from_config`` / no real ``register``, so the
+# registry could not build an embedder from a config dict: retrievers annotate
+# ``vectorize_model: VectorizeModelABC`` and rely on ``from_config`` to resolve
+# the ``{"type": "bedrock_cohere", ...}`` config. With the stub, that config was
+# passed through as a raw pyhocon ConfigTree and ``.vectorize(query)`` blew up at
+# query time. Ingestion was unaffected (it builds the embedder directly), which
+# is why this only surfaced on the query path. No import cycle: the submodule
+# imports only kag.common.{rate_limiter,registry}, never kag.interface.
+from kag.interface.common.vectorize_model import (  # noqa: E402
+    SparseVectorizeModelABC,  # noqa: F401
+    VectorizeModelABC,  # noqa: F401
+)
 
 
 # --- re-exports of the extracted solver/retriever bases (kag.interface API) --- #
