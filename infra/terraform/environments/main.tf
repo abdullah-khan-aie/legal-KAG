@@ -101,3 +101,16 @@ module "lodestone_public_api" {
   app_instance_id = module.lodestone_app.instance_id
   app_port        = var.lodestone_app_port
 }
+
+module "github_deploy" {
+  source = "../modules/github-oidc-deploy"
+
+  name                 = local.name
+  enabled              = var.lodestone_app_enabled && var.github_deploy_enabled
+  region               = var.region
+  github_repo          = var.github_repo
+  github_branch        = var.github_branch
+  create_oidc_provider = var.github_create_oidc_provider
+  ecr_repository_arn   = module.lodestone_app.ecr_repository_arn
+  app_name_tag         = "${local.name}-app"
+}

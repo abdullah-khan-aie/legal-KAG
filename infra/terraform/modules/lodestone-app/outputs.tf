@@ -26,6 +26,10 @@ output "ecr_repository_url" {
   value = var.enabled && var.ecr_enabled ? aws_ecr_repository.lodestone[0].repository_url : null
 }
 
+output "ecr_repository_arn" {
+  value = var.enabled && var.ecr_enabled ? aws_ecr_repository.lodestone[0].arn : null
+}
+
 output "ecr_image" {
   value = var.enabled && var.ecr_enabled ? local.ecr_image : null
 }

@@ -155,3 +155,28 @@ variable "lodestone_public_api_enabled" {
   type        = bool
   default     = false
 }
+
+# --- CI/CD (GitHub Actions OIDC deploy) --------------------------------------
+
+variable "github_deploy_enabled" {
+  description = "Create GitHub Actions OIDC deploy role (ECR push + SSM redeploy)."
+  type        = bool
+  default     = false
+}
+
+variable "github_repo" {
+  description = "GitHub repo (owner/name) allowed to assume the deploy role."
+  type        = string
+  default     = "abdullah-khan-aie/lodestone-graphrag"
+}
+
+variable "github_branch" {
+  type    = string
+  default = "main"
+}
+
+variable "github_create_oidc_provider" {
+  description = "Create the GitHub OIDC provider. Set false if the account already has one."
+  type        = bool
+  default     = true
+}

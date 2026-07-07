@@ -1,0 +1,132 @@
+name: Deploy
+
+# Auto-deploy to AWS after CI passes on main:
+#   build linux/amd64 image -> push to ECR -> SSM redeploy on EC2 -> health check.
+# Requires GitHub repo secret AWS_DEPLOY_ROLE_ARN (terraform output github_deploy_role_arn).
+
+on:
+  workflow_run:
+    workflows: ["CI"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-main
+  cancel-in-progress: false
+
+permissions:
+  id-token: write
+  contents: read
+
+env:
+  AWS_REGION: eu-west-2
+  ECR_REPO: 123456789012.dkr.ecr.eu-west-2.amazonaws.com/lodestone-poc-lodestone
+  APP_NAME_TAG: lodestone-poc-app
+  PUBLIC_URL: https://YOUR-API-ID.execute-api.REGION.amazonaws.com
+
+jobs:
+  deploy:
+    # workflow_run fires for both success and failure; only deploy on success.
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_DEPLOY_ROLE_ARN }}
+          aws-region: ${{ env.AWS_REGION }}
+
+      - name: Log in to ECR
+        run: |
+          aws ecr get-login-password --region "$AWS_REGION" \
+            | docker login --username AWS --password-stdin "${ECR_REPO%%/*}"
+
+      - name: Build and push image
+        run: |
+          SHA_TAG="${ECR_REPO}:${GITHUB_SHA::7}"
+          LATEST_TAG="${ECR_REPO}:latest"
+          docker buildx build --platform linux/amd64 \
+            -t "$SHA_TAG" -t "$LATEST_TAG" --push .
+          echo "Pushed $SHA_TAG and $LATEST_TAG"
+
+      - name: Resolve app instance id
+        id: ec2
+        run: |
+          IID=$(aws ec2 describe-instances \
+            --filters "Name=tag:Name,Values=${APP_NAME_TAG}" \
+                      "Name=instance-state-name,Values=running" \
+            --query 'Reservations[].Instances[].InstanceId' --output text)
+          test -n "$IID" || { echo "No running instance tagged ${APP_NAME_TAG}"; exit 1; }
+          echo "instance_id=$IID" >> "$GITHUB_OUTPUT"
+          echo "Target instance: $IID"
+
+      - name: Redeploy container via SSM
+        env:
+          INSTANCE_ID: ${{ steps.ec2.outputs.instance_id }}
+        run: |
+          cat > redeploy.sh <<'SCRIPT'
+          set -euo pipefail
+          REGION=eu-west-2
+          IMAGE=123456789012.dkr.ecr.eu-west-2.amazonaws.com/lodestone-poc-lodestone:latest
+          DEPLOY_DIR=/opt/lodestone
+          LOG_GROUP=$(cat "$DEPLOY_DIR/cloudwatch_log_group" 2>/dev/null || true)
+          aws ecr get-login-password --region "$REGION" \
+            | docker login --username AWS --password-stdin "${IMAGE%%/*}"
+          docker pull "$IMAGE"
+          docker rm -f lodestone 2>/dev/null || true
+          if [ -n "$LOG_GROUP" ]; then
+            docker run -d --name lodestone --restart unless-stopped \
+              -p 8080:8080 -v /data/ingest:/data/ingest \
+              -e AWS_SECRETS_MANAGER_SECRET_ID=lodestone/env \
+              -e AWS_SECRETS_MANAGER_REGION="$REGION" \
+              -e AWS_REGION="$REGION" --memory=6g \
+              --log-driver awslogs --log-opt "awslogs-region=$REGION" \
+              --log-opt "awslogs-group=$LOG_GROUP" --log-opt awslogs-create-group=false \
+              "$IMAGE"
+          else
+            docker run -d --name lodestone --restart unless-stopped \
+              -p 8080:8080 -v /data/ingest:/data/ingest \
+              -e AWS_SECRETS_MANAGER_SECRET_ID=lodestone/env \
+              -e AWS_SECRETS_MANAGER_REGION="$REGION" \
+              -e AWS_REGION="$REGION" --memory=6g \
+              "$IMAGE"
+          fi
+          SCRIPT
+
+          jq -Rs '{commands: [.]}' redeploy.sh > params.json
+          CMD_ID=$(aws ssm send-command \
+            --instance-ids "$INSTANCE_ID" \
+            --document-name AWS-RunShellScript \
+            --comment "deploy ${GITHUB_SHA::7}" \
+            --parameters file://params.json \
+            --query Command.CommandId --output text)
+          echo "SSM command: $CMD_ID"
+
+          for _ in $(seq 1 40); do
+            STATUS=$(aws ssm get-command-invocation \
+              --command-id "$CMD_ID" --instance-id "$INSTANCE_ID" \
+              --query Status --output text 2>/dev/null || echo Pending)
+            echo "status: $STATUS"
+            case "$STATUS" in
+              Success) exit 0 ;;
+              Failed|Cancelled|TimedOut)
+                aws ssm get-command-invocation --command-id "$CMD_ID" \
+                  --instance-id "$INSTANCE_ID" --query StandardErrorContent --output text
+                exit 1 ;;
+            esac
+            sleep 10
+          done
+          echo "SSM command did not finish in time"; exit 1
+
+      - name: Health check public URL
+        run: |
+          for _ in $(seq 1 24); do
+            CODE=$(curl -s -o /dev/null -w '%{http_code}' "$PUBLIC_URL/docs" || echo 000)
+            echo "docs HTTP $CODE"
+            [ "$CODE" = "200" ] && exit 0
+            sleep 5
+          done
+          echo "app did not return 200 after deploy"; exit 1

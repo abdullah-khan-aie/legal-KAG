@@ -63,3 +63,8 @@ output "lodestone_cloudwatch_logs_console_url" {
 output "lodestone_public_api_url" {
   value = module.lodestone_public_api.api_endpoint
 }
+
+output "github_deploy_role_arn" {
+  description = "Set as GitHub secret AWS_DEPLOY_ROLE_ARN for the deploy workflow."
+  value       = module.github_deploy.deploy_role_arn
+}
