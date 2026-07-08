@@ -2,7 +2,22 @@
 # flake8: noqa
 import json
 from typing import Dict
+
+from pydantic import BaseModel, Field
+
 from kag.interface import PromptABC
+
+
+class ContextSelection(BaseModel):
+    """Structured result for context selection."""
+
+    context: list[int] = Field(
+        default_factory=list,
+        description="Indices (idx) of up to 5 contexts that may contain the answer; empty if none are relevant.",
+    )
+    answer: str = Field(
+        description="The answer to the question, or 'UNKNOWN' if no context is relevant."
+    )
 
 
 @PromptABC.register("context_select_prompt")
@@ -67,7 +82,16 @@ Answer:
 
         return f"{self.template_en}\nQuestion:\n{question}\nContext:\n{context}"
 
-    def parse_response(self, rsp: str, **kwargs):
+    def output_schema(self):
+        # Opt into structured output: the model returns a validated ContextSelection
+        # (via Bedrock tool-use) instead of free-form JSON text to parse.
+        return ContextSelection
+
+    def parse_response(self, rsp, **kwargs):
+        # Structured path: rsp is a validated ContextSelection -> the dict shape the
+        # caller (kag_hybrid_retrieval_executor.context_select) expects.
+        if isinstance(rsp, ContextSelection):
+            return {"context": rsp.context, "answer": rsp.answer}
         if isinstance(rsp, str) and "Answer:" in rsp:
             response = rsp.split("Answer:")[1]
         else:

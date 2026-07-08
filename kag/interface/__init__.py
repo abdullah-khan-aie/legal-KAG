@@ -57,6 +57,19 @@ class PromptABC(ABC, Registrable):
     def is_json_format(self):
         return True
 
+    def output_schema(self):
+        """Opt into structured (schema-validated) output.
+
+        Return a pydantic ``BaseModel`` subclass to have ``LLMClient.invoke`` route
+        this prompt through the model's structured-output path (Bedrock tool-use)
+        instead of parsing free text: the model is forced to return JSON matching
+        the schema, which is validated and handed to ``parse_response`` as the
+        model instance. Return ``None`` (default) to keep the plain text / JSON
+        parsing path unchanged. Only prompts that parse structured data should opt
+        in; free-text answer prompts must leave this ``None``.
+        """
+        return None
+
     @property
     def template_variables(self) -> list[str]:
         raise NotImplementedError(
@@ -258,7 +271,7 @@ class VectorizerABC:
 # VectorizeModelABC must be the real Registrable base so the component registry
 # can build an embedder from a config dict: retrievers annotate
 # ``vectorize_model: VectorizeModelABC`` and rely on ``from_config`` to turn a
-# ``{"type": "bedrock_cohere", ...}`` config into a real model. Export it from the
+# ``{"type": "cohere", ...}`` config into a real model. Export it from the
 # submodule here. No import cycle: that submodule imports only
 # kag.common.{rate_limiter, registry}, never this package.
 # --- solver / retriever base classes exported as the kag.interface API --- #

@@ -1,8 +1,17 @@
 import logging
 
+from pydantic import BaseModel, Field
+
 from kag.interface import PromptABC
 
 logger = logging.getLogger(__name__)
+
+
+class SpoSelection(BaseModel):
+    indices: list[str] = Field(
+        default_factory=list,
+        description="0-based indices (as strings) of the SPO candidates that match; empty if none match.",
+    )
 
 
 @PromptABC.register("default_spo_retrieval")
@@ -51,7 +60,12 @@ class SpoRetrieval(PromptABC):
     def template_variables(self) -> list[str]:
         return ["question", "mention", "candis"]
 
+    def output_schema(self):
+        return SpoSelection
+
     def parse_response(self, response, **kwargs):
+        if isinstance(response, SpoSelection):
+            return response.indices
         logger.debug(
             f"SpoRetrieval {response} mention:{self.template_variables_value.get('mention', '')} "
             f"candis:{self.template_variables_value.get('candis', '')}"

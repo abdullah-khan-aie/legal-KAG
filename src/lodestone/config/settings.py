@@ -84,10 +84,9 @@ class Settings(BaseSettings):
     bedrock_region: str
     llm_model: str
 
-    # Embeddings: bare Cohere model id, called in its own region (independent of
-    # the LLM). input_type is "search_document" for ingest ("search_query" for
-    # retrieval).
-    embed_region: str
+    # Embeddings: called directly against Cohere's API (not Bedrock). embed_model
+    # is a bare Cohere Embed model id, e.g. "embed-v4.0". input_type is
+    # "search_document" for ingest ("search_query" for retrieval).
     embed_model: str
     embed_input_type: str
     # Embedding length. Single source of truth: it's both requested from Cohere
@@ -104,6 +103,12 @@ class Settings(BaseSettings):
     # (e.g. an instance role scoped to Bedrock on EC2).
     bedrock_access_key_id: SecretStr | None = None
     bedrock_secret_access_key: SecretStr | None = None
+
+    # Cohere API key for the direct (non-Bedrock) embedding client, read from the
+    # secret and passed as a SecretStr so it stays masked in logs (unwrapped only
+    # when the Cohere SDK client is constructed). Leave unset to fall back to the
+    # SDK's CO_API_KEY environment variable.
+    cohere_api_key: SecretStr | None = None
 
     # Neo4j graph store (the pipeline always persists + entity-links against it).
     neo4j_uri: str = "bolt://localhost:7687"

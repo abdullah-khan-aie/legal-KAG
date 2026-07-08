@@ -32,15 +32,14 @@ def chat_llm_config(settings: Settings) -> dict[str, Any]:
 
 
 def vectorize_model_config(settings: Settings, input_type: str) -> dict[str, Any]:
-    """Config dict for the Bedrock Cohere embedder (``input_type="query"`` for retrieval)."""
+    """Config dict for the direct Cohere embedder (``input_type="query"`` for retrieval)."""
     config = {
-        "type": "bedrock_cohere",
-        "region": settings.embed_region,
+        "type": "cohere",
         "model": settings.embed_model,
         "input_type": input_type,
         "output_dimension": settings.embed_dimension,
     }
-    config.update(_bedrock_credentials(settings))
+    config.update(_cohere_credentials(settings))
     return config
 
 
@@ -56,6 +55,18 @@ def _bedrock_credentials(settings: Settings) -> dict[str, Any]:
             "aws_access_key_id": settings.bedrock_access_key_id,
             "aws_secret_access_key": settings.bedrock_secret_access_key,
         }
+    return {}
+
+
+def _cohere_credentials(settings: Settings) -> dict[str, Any]:
+    """Cohere API key from settings, or empty to fall back to the SDK's CO_API_KEY.
+
+    The ``SecretStr`` (not the plaintext) is placed in the client config, so the
+    value stays masked as ``**********`` in any logs; the model unwraps it only at
+    the point it constructs the Cohere SDK client.
+    """
+    if settings.cohere_api_key:
+        return {"api_key": settings.cohere_api_key}
     return {}
 
 

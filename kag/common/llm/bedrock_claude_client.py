@@ -1,9 +1,11 @@
 import asyncio
+import copy
 import logging
 
 import aioboto3
 import boto3
 from botocore.config import Config
+from pydantic import ValidationError
 
 from kag.interface.common.llm_client import LLMClient
 from kag.interface.solver.reporter_abc import do_report
@@ -234,3 +236,134 @@ class BedrockClaudeClient(LLMClient):
                 usage = event["metadata"].get("usage")
                 if usage:
                     self._meter(token_meter, usage)
+
+    # ------------------------------------------------------------------ #
+    # Structured output via Converse tool-use.
+    #
+    # Claude has no OpenAI-style ``response_format``; the equivalent (and what
+    # LangChain's ChatAnthropic does under the hood) is forced tool-use: expose the
+    # pydantic schema as a tool, force the model to "call" it, then validate its
+    # JSON arguments. A validation failure is fed back for one self-correction pass.
+    # ------------------------------------------------------------------ #
+    @staticmethod
+    def _inline_defs(schema: dict) -> dict:
+        """Resolve ``$ref``/``$defs`` into a self-contained JSON schema.
+
+        Pydantic emits nested models as ``$defs`` + ``$ref``; inlining them keeps
+        the tool ``inputSchema`` portable regardless of how strictly the Bedrock
+        Converse API validates references.
+        """
+        defs = schema.get("$defs") or schema.get("definitions") or {}
+
+        def resolve(node):
+            if isinstance(node, dict):
+                if "$ref" in node:
+                    ref = node["$ref"].split("/")[-1]
+                    target = copy.deepcopy(defs.get(ref, {}))
+                    for k, v in node.items():
+                        if k != "$ref":
+                            target[k] = v
+                    return resolve(target)
+                return {k: resolve(v) for k, v in node.items() if k not in ("$defs", "definitions")}
+            if isinstance(node, list):
+                return [resolve(item) for item in node]
+            return node
+
+        return resolve(schema)
+
+    @classmethod
+    def _build_tool_config(cls, schema):
+        schema_name = getattr(schema, "__name__", "Result")
+        tool_name = f"record_{schema_name.lower()}"
+        tool_config = {
+            "tools": [
+                {
+                    "toolSpec": {
+                        "name": tool_name,
+                        "description": (
+                            f"Record the answer as a {schema_name} object. Call this "
+                            "tool exactly once with every field filled in."
+                        ),
+                        "inputSchema": {"json": cls._inline_defs(schema.model_json_schema())},
+                    }
+                }
+            ],
+            "toolChoice": {"tool": {"name": tool_name}},
+        }
+        return tool_name, tool_config
+
+    @staticmethod
+    def _extract_tool_input(response: dict, tool_name: str) -> dict:
+        blocks = response["output"]["message"]["content"]
+        for block in blocks:
+            tool_use = block.get("toolUse") if isinstance(block, dict) else None
+            if tool_use and tool_use.get("name") == tool_name:
+                return tool_use.get("input", {})
+        for block in blocks:  # fall back to any tool call
+            if isinstance(block, dict) and "toolUse" in block:
+                return block["toolUse"].get("input", {})
+        raise ValueError("model returned no tool call for structured output")
+
+    @staticmethod
+    def _append_correction(turns: list, error: Exception) -> list:
+        # Append the validation error to the last (user) turn's text rather than a
+        # new turn, so Converse's alternating-role / tool-result rules stay happy.
+        turns = copy.deepcopy(turns)
+        turns[-1]["content"][-1]["text"] += (
+            f"\n\nYour previous result failed schema validation with:\n{error}\n"
+            "Return a corrected result that fully satisfies the schema."
+        )
+        return turns
+
+    def structured_output(self, schema, prompt: str = "", *, max_retries: int = 2, **kwargs):
+        """Force a schema-validated response via Converse tool-use (sync)."""
+        system, turns = self._build_converse(prompt, None, kwargs.get("messages"))
+        tool_name, tool_config = self._build_tool_config(schema)
+        token_meter = LLMClient.get_token_meter()
+        attempt_turns, last_error = turns, None
+        for _ in range(max(1, max_retries)):
+            response = self.client.converse(
+                modelId=self.model,
+                messages=attempt_turns,
+                system=system,
+                inferenceConfig=self._inference_config(),
+                toolConfig=tool_config,
+            )
+            self._meter(token_meter, response.get("usage", {}))
+            tool_input = self._extract_tool_input(response, tool_name)
+            try:
+                return schema.model_validate(tool_input)
+            except ValidationError as error:
+                last_error = error
+                attempt_turns = self._append_correction(turns, error)
+        raise RuntimeError(
+            f"structured_output could not satisfy {schema.__name__} after "
+            f"{max_retries} attempts: {last_error}"
+        )
+
+    async def astructured_output(self, schema, prompt: str = "", *, max_retries: int = 2, **kwargs):
+        """Force a schema-validated response via Converse tool-use (async)."""
+        system, turns = self._build_converse(prompt, None, kwargs.get("messages"))
+        tool_name, tool_config = self._build_tool_config(schema)
+        token_meter = LLMClient.get_token_meter()
+        client = await self._aget_client()
+        attempt_turns, last_error = turns, None
+        for _ in range(max(1, max_retries)):
+            response = await client.converse(
+                modelId=self.model,
+                messages=attempt_turns,
+                system=system,
+                inferenceConfig=self._inference_config(),
+                toolConfig=tool_config,
+            )
+            self._meter(token_meter, response.get("usage", {}))
+            tool_input = self._extract_tool_input(response, tool_name)
+            try:
+                return schema.model_validate(tool_input)
+            except ValidationError as error:
+                last_error = error
+                attempt_turns = self._append_correction(turns, error)
+        raise RuntimeError(
+            f"structured_output could not satisfy {schema.__name__} after "
+            f"{max_retries} attempts: {last_error}"
+        )

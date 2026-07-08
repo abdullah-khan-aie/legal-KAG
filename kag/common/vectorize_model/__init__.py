@@ -1,5 +1,5 @@
-from .bedrock_cohere_model import BedrockCohereVectorizeModel
+from .cohere_model import CohereVectorizeModel
 
 __all__ = [
-    "BedrockCohereVectorizeModel",
+    "CohereVectorizeModel",
 ]

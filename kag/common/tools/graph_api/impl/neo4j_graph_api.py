@@ -111,7 +111,13 @@ class Neo4jGraphApi(GraphApiABC):
             "startNode(r) = s AS is_out, n, labels(n) AS n_labels"
         )
         with self._session() as session:
-            rows = session.run(query, sid=entity.biz_id).data()
+            # Iterate raw Record objects (NOT Result.data()): .data() flattens a
+            # relationship to a (start, type, end) tuple and DROPS its properties,
+            # so dict(row["r"]) would both lose the edge props and raise. Raw
+            # records keep row["r"] a Relationship (a mapping of its properties)
+            # and row["s"]/row["n"] Nodes -- matching the OpenSPG Java store's
+            # relationship.asMap() semantics.
+            rows = list(session.run(query, sid=entity.biz_id))
         if not rows:
             return None
         start_attrs = rows[0]["s"]

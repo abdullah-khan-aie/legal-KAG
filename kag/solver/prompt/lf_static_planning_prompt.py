@@ -3,6 +3,8 @@ import logging
 import re
 from typing import ClassVar
 
+from pydantic import BaseModel, Field
+
 from kag.common.config import LogicFormConfiguration
 from kag.common.parser.logic_node_parser import (
     DeduceNode,
@@ -18,6 +20,31 @@ from kag.interface.solver.base_model import LogicNode
 from kag.interface.solver.model.schema_utils import SchemaUtils
 
 logger = logging.getLogger()
+
+
+class PlanStep(BaseModel):
+    """One step of a static plan: an atomic sub-question and its single action."""
+
+    sub_query: str = Field(
+        description="An atomic, indivisible single-hop sub-question for this step."
+    )
+    action: str = Field(
+        description=(
+            "Exactly one operator call for this step using the function syntax from "
+            "the instructions: Retrieval(s=..,p=..,o=..) | Math(..) | Deduce(..) | "
+            "Output(..). Reference variables introduced by earlier steps by name "
+            "(e.g. o1); give an entity's type and name only on first reference."
+        )
+    )
+
+
+class Plan(BaseModel):
+    """Ordered plan: each step is one atomic sub-question and one action."""
+
+    steps: list[PlanStep] = Field(
+        default_factory=list,
+        description="The ordered plan steps; the final step is normally an Output(..).",
+    )
 
 
 @PromptABC.register("default_lf_static_planning")
@@ -166,6 +193,21 @@ class RetrieverLFStaticPlanningPrompt(PromptABC):
     def is_json_format(self):
         return False
 
+    def output_schema(self):
+        # Structured planning: the model returns a validated Plan (via tool-use)
+        # instead of free-form Step/Action text. We render it back to the canonical
+        # Step1:/Action1: DSL so the existing parse_steps/_parse_lf path (and the
+        # whole logic-form -> Task DAG machinery) stays byte-for-byte the same.
+        return Plan
+
+    @staticmethod
+    def _render_plan(plan) -> str:
+        lines = []
+        for i, step in enumerate(plan.steps, 1):
+            lines.append(f"Step{i}: {step.sub_query}")
+            lines.append(f"Action{i}: {step.action}")
+        return "\n".join(lines)
+
     @property
     def template_variables(self) -> list[str]:
         return ["query"]
@@ -180,7 +222,13 @@ class RetrieverLFStaticPlanningPrompt(PromptABC):
         current_sub_query = ""
         for line in _output_string.split("\n"):
             if line.startswith("Step"):
-                sub_querys_regex = re.search("Step\d+:(.*)", line)
+                # Tolerant label match: `Step\s*\d*\s*:` accepts "Step1:", "Step 1:",
+                # "Step:", "Step 1 :" -- i.e. optional whitespace around an optional
+                # index. The index is cosmetic (dropped by group(1); Step/Action
+                # pairing is positional), so this keeps parsing deterministic across
+                # the formatting noise real models emit, per the "XXX: YYY" prompt
+                # rule. (Structured output would be the ideal long-term fix.)
+                sub_querys_regex = re.search(r"Step\s*\d*\s*:(.*)", line)
                 if sub_querys_regex is not None:
                     sub_querys.append(sub_querys_regex.group(1))
                     current_sub_query = sub_querys_regex.group(1)
@@ -188,7 +236,7 @@ class RetrieverLFStaticPlanningPrompt(PromptABC):
                     if current_sub_query == "":
                         raise RuntimeError(f"{line} is not step query")
             elif line.startswith("Action"):
-                logic_forms_regex = re.search("Action\d+:(.*)", line)
+                logic_forms_regex = re.search(r"Action\s*\d*\s*:(.*)", line)
                 if logic_forms_regex:
                     logic_forms.append(logic_forms_regex.group(1))
                     if len(logic_forms) - len(sub_querys) == 1:
@@ -243,7 +291,11 @@ class RetrieverLFStaticPlanningPrompt(PromptABC):
                     ret.append(dep_task[alias])
         return ret
 
-    def parse_response(self, response: str, **kwargs):
+    def parse_response(self, response, **kwargs):
+        # Structured path: render the validated Plan to canonical DSL, then reuse
+        # the exact text-parsing pipeline below (no downstream changes).
+        if isinstance(response, Plan):
+            response = self._render_plan(response)
         sub_queries, logic_forms = self.parse_steps(response)
         logic_forms = self._parse_lf(sub_queries, logic_forms)
         tasks_dep = {}

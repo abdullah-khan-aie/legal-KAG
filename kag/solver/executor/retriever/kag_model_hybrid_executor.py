@@ -1,14 +1,8 @@
 import logging
-import time
 
 from kag.common.parser.logic_node_parser import (
     ParseLogicForm,
     parse_logic_form_with_str,
-)
-from kag.common.utils import (
-    extract_box_answer,
-    extract_specific_tag_content,
-    search_plan_extraction,
 )
 from kag.interface import (
     ExecutorABC,
@@ -23,6 +17,7 @@ from kag.interface.solver.reporter_abc import ReporterABC
 from kag.solver.executor.retriever.kag_hybrid_retrieval_executor import (
     KAGHybridRetrievalExecutor,
 )
+from kag.solver.prompt.kag_model.kag_subquestion_think_prompt import ThinkDecision
 
 logger = logging.getLogger()
 
@@ -43,7 +38,6 @@ class KAGModelHybridRetrievalExecutor(KAGHybridRetrievalExecutor):
         self.top_k = kwargs.get("top_k", 3)
 
     def do_main(self, task_query, tag_id, task, context, **kwargs):
-        start_time = time.time()
         task_query = task.arguments["query"]
         logic_node = task.arguments.get("logic_form_node", None)
         flow_query = task_query
@@ -75,135 +69,93 @@ class KAGModelHybridRetrievalExecutor(KAGHybridRetrievalExecutor):
         while num_turns < 10:
             num_turns += 1
             cur_turn_tag_name = f"begin_sub_kag_think_{task_query}_{num_turns}"
-            subquestion_response = self.llm_module.__call__(
-                prompt="",
-                messages=messages,
-                segment_name=tag_id,
-                tag_name=cur_turn_tag_name,
-                num_turns=num_turns,
-                reporter=reporter,
+            # Structured decision instead of the fine-tuned model's <search>/<answer>
+            # text protocol: the model must choose search vs answer and fill the
+            # matching field, so any model drives the loop deterministically.
+            decision = self.llm_module.structured_output(ThinkDecision, messages=messages)
+            self.report_content(
+                reporter,
+                tag_id,
+                cur_turn_tag_name,
+                decision.reasoning or "",
+                "FINISH",
+                step=task.name,
             )
+            # Carry the turn forward as plain text (never the raw toolUse block, so
+            # no tool-result turn is required by Converse).
+            messages.append({"role": "assistant", "content": self._render_decision(decision)})
 
-            if subquestion_response and "<search>" not in subquestion_response:
-                messages.append(
-                    {
-                        "role": "assistant",
-                        "content": subquestion_response,
-                    }
-                )
-                if "<answer>" in subquestion_response:
-                    answer_content = extract_specific_tag_content(subquestion_response, "answer")[0]
-                else:
-                    answer_content = subquestion_response
-                predict = extract_box_answer(answer_content)
-                if not predict:
-                    predict = answer_content
+            if decision.action == "answer":
+                predict = decision.answer or decision.reasoning
                 step_answer = context.kwargs.get("step_answer", {})
                 step_answer[f"#{step_id}"] = predict
                 context.kwargs["step_answer"] = step_answer
                 retriever_output.summary = predict
                 if retriever_output.graphs and len(retriever_output.graphs[0].get_all_spo()):
                     context.variables_graph.merge_kg_graph(retriever_output.graphs[0])
-
                 break
-            else:
-                if "<search>" in subquestion_response:
-                    messages.append(
-                        {
-                            "role": "assistant",
-                            "content": subquestion_response,
-                        }
-                    )
-                    search = search_plan_extraction(subquestion_response)
-                    # 有时候会缺失</search>训练时需要优化<search>内容，不需要直接换行
-                    if len(search) == 0:
-                        search = subquestion_response.split("<search>")[-1].strip()
 
-                    try:
-                        sub_queries, logic_forms = parse_logic_form_with_str(search)
-                        logic_forms = self.logic_node_parser.parse_logic_form_set(
-                            logic_forms, sub_queries, task_query
-                        )
-                        if not logic_forms:
-                            logic_node.sub_query = search
-                            logic_forms = [logic_node]
-                    except Exception as e:
-                        logger.warning(f"kag model think can not extra lf from {search} {e}")
-                        logic_node.sub_query = search
-                        logic_forms = [logic_node]
+            # action == "search": retrieve from the KG using the model's query.
+            search = decision.search_query or task_query
+            try:
+                sub_queries, logic_forms = parse_logic_form_with_str(search)
+                logic_forms = self.logic_node_parser.parse_logic_form_set(
+                    logic_forms, sub_queries, task_query
+                )
+                if not logic_forms:
+                    logic_node.sub_query = search
+                    logic_forms = [logic_node]
+            except Exception as e:
+                logger.warning(f"kag model think can not extra lf from {search} {e}")
+                logic_node.sub_query = search
+                logic_forms = [logic_node]
 
-                    logger.info(
-                        f"Query converted to logical form in {time.time() - start_time:.2f} seconds for task: {task_query}"
-                    )
+            try:
+                target_query = logic_forms[0].sub_query
+                cur_task = Task(
+                    id=task.id,
+                    name=task.name,
+                    executor=task.executor,
+                    parents=task.parents,
+                    children=task.children,
+                    arguments={"query": target_query, "logic_form_node": logic_forms[0]},
+                )
+                retriever_output = self.do_retrieval(
+                    task_query=target_query,
+                    tag_id=cur_turn_tag_name,
+                    task=cur_task,
+                    context=context,
+                    **kwargs,
+                )
 
-                    logger.info(f"Creating KAGFlow for task: {task_query}")
-                    start_time = time.time()
-
-                    logger.info(
-                        f"KAGFlow created in {time.time() - start_time:.2f} seconds for task: {task_query}"
-                    )
-
-                    logger.info(f"Executing KAGFlow for task: {task_query}")
-                    start_time = time.time()
-                    try:
-                        target_query = logic_forms[0].sub_query
-                        cur_task = Task(
-                            id=task.id,
-                            name=task.name,
-                            executor=task.executor,
-                            parents=task.parents,
-                            children=task.children,
-                            arguments={
-                                "query": target_query,
-                                "logic_form_node": logic_forms[0],
-                            },
-                        )
-                        retriever_output = self.do_retrieval(
-                            task_query=target_query,
-                            tag_id=cur_turn_tag_name,
-                            task=cur_task,
-                            context=context,
-                            **kwargs,
-                        )
-
-                        recall_information_list = []
-                        if retriever_output.graphs and len(
-                            retriever_output.graphs[0].get_all_spo()
-                        ):
-                            spos = [str(spo) for spo in retriever_output.graphs[0].get_all_spo()]
-                            spos_str = ";".join(spos)
-                            recall_information_list.append(spos_str)
-                        for chunk in retriever_output.chunks[: self.top_k]:
-                            recall_information_list.append(chunk.content)
-                        recall_str = (
-                            "<references>" + "\n\n".join(recall_information_list) + "</references>"
-                        )
-                        messages.append(
-                            {
-                                "role": "user",
-                                "content": recall_str,
-                            }
-                        )
-                    except Exception as e:
-                        logger.error(f"kag flow exception! {e} search={search}", exc_info=True)
-                        self.report_content(
-                            reporter,
-                            cur_turn_tag_name,
-                            f"failed_kag_retriever_{task_query}_{num_turns}",
-                            f"{e}",
-                            "INIT",
-                            step=task.name,
-                        )
-                else:
-                    messages.append(
-                        {
-                            "role": "assistant",
-                            "content": subquestion_response,
-                        }
-                    )
+                recall_information_list = []
+                if retriever_output.graphs and len(retriever_output.graphs[0].get_all_spo()):
+                    spos = [str(spo) for spo in retriever_output.graphs[0].get_all_spo()]
+                    recall_information_list.append(";".join(spos))
+                for chunk in retriever_output.chunks[: self.top_k]:
+                    recall_information_list.append(chunk.content)
+                recall_str = "<references>" + "\n\n".join(recall_information_list) + "</references>"
+                messages.append({"role": "user", "content": recall_str})
+            except Exception as e:
+                logger.error(f"kag flow exception! {e} search={search}", exc_info=True)
+                self.report_content(
+                    reporter,
+                    cur_turn_tag_name,
+                    f"failed_kag_retriever_{task_query}_{num_turns}",
+                    f"{e}",
+                    "INIT",
+                    step=task.name,
+                )
 
         context.kwargs["messages"] = messages
         return retriever_output
+
+    @staticmethod
+    def _render_decision(decision) -> str:
+        """Render a ThinkDecision back to plain text for the conversation history."""
+        if decision.action == "search":
+            return f"{decision.reasoning}\nSearch: {decision.search_query or ''}"
+        return f"{decision.reasoning}\nAnswer: {decision.answer or ''}"
 
     def schema(self) -> dict:
         """Return the executor's function-calling schema.

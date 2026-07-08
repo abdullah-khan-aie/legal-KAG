@@ -7,8 +7,9 @@ dependencies = [
     "httpx",                 # OpenAI-compatible embedding HTTP adapter (fallback)
     "pydantic>=2",           # settings models (src/config)
     "pydantic-settings[aws-secrets-manager]>=2",  # env config + AWS Secrets Manager source (src/config)
-    "boto3",                 # Amazon Bedrock runtime (Cohere Embed via invoke_model)
-    "aioboto3",              # async Bedrock runtime (native async acall / avectorize)
+    "boto3",                 # Amazon Bedrock runtime (Claude LLM, sync)
+    "aioboto3",              # async Bedrock runtime (native async LLM acall / astream)
+    "cohere",                # direct Cohere Embed API (async + sync clients)
     # --- ingestion (kag builder) ---
     "pyyaml",                # local YAML schema client
     "tenacity",              # retry decorators in extractors/vectorizer/retrievers
