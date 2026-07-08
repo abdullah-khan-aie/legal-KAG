@@ -1,6 +1,30 @@
 import json
 
+from pydantic import BaseModel, Field
+
 from kag.interface import PromptABC
+
+
+class _Section(BaseModel):
+    """One semantic section of the input text."""
+
+    summary: str = Field(description="A brief summary of the section.")
+    starting_point: str = Field(
+        description=(
+            "The exact opening substring of the section, copied verbatim from the "
+            "input (about 20 characters). It is used to locate the split point, so "
+            "it MUST appear in the input text."
+        )
+    )
+
+
+class Segmentation(BaseModel):
+    """Ordered, non-overlapping semantic sections of the input text."""
+
+    sections: list[_Section] = Field(
+        default_factory=list,
+        description="The sections, in the order they appear in the input.",
+    )
 
 
 @PromptABC.register("semantic_seg")
@@ -56,29 +80,41 @@ class SemanticSegPrompt(PromptABC):
     def template_variables(self) -> list[str]:
         return ["input"]
 
-    def parse_response(self, response: str, **kwargs):
-        if isinstance(response, str):
-            response = json.loads(response)
-        if isinstance(response, dict) and "output" in response:
-            response = response["output"]
+    def output_schema(self):
+        """Opt into structured output: force schema-valid JSON via tool-use.
 
+        Without this the model must hand-format JSON and can return an empty or
+        malformed string (which broke ``json.loads``); the tool-use path
+        guarantees a valid ``Segmentation`` (an empty list at worst).
+        """
+        return Segmentation
+
+    def parse_response(self, response, **kwargs):
         content = kwargs.get("input", "")
 
+        # Normalise every possible response shape into a list of (summary, start):
+        #  - structured-output path: a validated ``Segmentation`` instance
+        #  - free-text path: a JSON string, or a dict with an "output" key
+        pairs: list[tuple[str | None, str | None]] = []
+        if isinstance(response, Segmentation):
+            pairs = [(s.summary, s.starting_point) for s in response.sections]
+        else:
+            if isinstance(response, str):
+                response = json.loads(response)
+            if isinstance(response, dict) and "output" in response:
+                response = response["output"]
+            for seg_point in response or []:
+                if isinstance(seg_point, dict):
+                    pairs.append(
+                        (seg_point.get("Section Summary"), seg_point.get("Section Starting Point"))
+                    )
+
         seg_info = []
-        for seg_point in response:
-            if not isinstance(seg_point, dict):
-                continue
-            start = seg_point.get(
-                "Section Starting Point",
-            )
+        for summary, start in pairs:
             if not isinstance(start, str):
                 continue
-            start = start.strip()
-            loc = content.find(start)
+            loc = content.find(start.strip())
             if loc == -1:
-                print(f"incorrect seg: {seg_point}")
                 continue
-
-            abstract = seg_point.get("Section Summary", None)
-            seg_info.append((loc, abstract))
+            seg_info.append((loc, summary))
         return seg_info
