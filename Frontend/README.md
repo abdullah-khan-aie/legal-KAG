@@ -1,37 +1,58 @@
-# Frontend — minimal query UI
+# Frontend — Lodestone AI Search
 
 A single, dependency-free `index.html` that streams answers from the Lodestone
-query API and renders them as Markdown. No build step, no npm, no framework — it
-runs anywhere a browser can open it.
+query API. No build step, no npm, no framework — it runs anywhere a browser can
+open it, and FastAPI serves it unchanged at `/ui`.
 
 ```
 Frontend/
-├── index.html   the whole UI (HTML + CSS + vanilla JS in one file)
-└── README.md    this guide
+├── index.html          the whole UI (HTML + CSS + vanilla JS in one file)
+├── legacy/index.html   the previous minimal UI, kept for reference
+└── README.md           this guide
 ```
 
 ## What it does
 
+- Enterprise app shell: dark-mode-first (zinc/slate + blue accent), sidebar
+  navigation (only **AI Search** is live in this POC; other sections are
+  visible but disabled), light theme toggle persisted in `localStorage`.
 - Sends your question to **`POST /query/stream`** and consumes the
   **Server-Sent Events (SSE)** stream, so the answer appears token-by-token.
-- Lets you pick the pipeline: **Retriever** (fast, default), **Deep thought**,
+- Pipeline selector: **Retriever** (fast, default), **Deep thought**,
   **KAG thinker** — these map to `QueryRequest.pipeline`.
-- Renders the model's Markdown (headings, **bold**, lists, tables, code,
-  links) with a small built-in renderer, so raw `**`/`#` markers never leak
-  into the page.
-- `Enter` sends, `Shift+Enter` inserts a newline, `Stop` aborts a run.
+- **Reasoning trace**: `step` events render as a live timeline — each stage
+  shows a spinner/check/error marker, per-step duration, and (for `thinker`
+  stages) the streaming thinking text in an expandable body. Repeated events
+  for the same `stage`+`label` update one entry in place (the solver re-sends
+  content as it grows). The trace auto-collapses when the run completes.
+- **Session run feed**: every question becomes a run block headed by the
+  question itself (newest on top, expanded; older runs collapse to one line
+  and can be re-opened) — so you can compare pipelines on the same question
+  without losing answers. Each run has a "run again" action; failed runs get
+  a **Retry** button.
+- Answer card with copy-as-Markdown, plus run metadata: total time,
+  first-token latency, chunk count, step count.
+- An inline warning appears above the composer when the API health check
+  fails, before you waste a query.
+- Recent queries (last 5, `localStorage`) shown as one-click chips.
+- Markdown rendered with a small built-in renderer (HTML-escaped first).
+- Keyboard: `Enter` sends, `Shift+Enter` newline, `⌘/Ctrl+K` or `/` focuses
+  the box, `Esc` stops a run.
 
 ### The event contract it relies on
 
 `src/lodestone/api/routes/query.py` emits these SSE events; the UI handles each:
 
-| event    | data                    | UI behaviour                          |
-|----------|-------------------------|---------------------------------------|
-| `step`   | `{stage, label, status}`| shows progress in the status line     |
-| `token`  | `{delta}`               | appends a chunk to the live answer    |
-| `answer` | `{answer}`              | replaces with the authoritative answer|
-| `done`   | `[DONE]`                | marks the run complete                |
-| `error`  | `{error}`               | shows the failure in red              |
+| event    | data                              | UI behaviour                                    |
+|----------|-----------------------------------|-------------------------------------------------|
+| `step`   | `{stage, label, status, content?}`| upserts a reasoning-trace entry; streams content |
+| `token`  | `{delta}`                         | appends a chunk to the live answer               |
+| `answer` | `{answer}`                        | replaces with the authoritative answer           |
+| `done`   | `[DONE]`                          | marks the run complete                           |
+| `error`  | `{error}`                         | error card + settles running steps as failed     |
+
+Step `status` values are normalised: `FINISH`/`FINISHED`/`DONE` → done,
+anything containing `ERROR`/`FAIL` → error, everything else → running.
 
 ## How it's wired (already done)
 
