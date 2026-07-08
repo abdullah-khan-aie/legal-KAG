@@ -15,10 +15,14 @@ class Neo4jSearchApi(SearchApiABC):
         self.graph_store = graph_store
 
     def search_text(self, query_string, label_constraints=None, topk=10, params=None):
+        # ``params`` is the ABC's extension slot; callers use it to target a
+        # specific full-text index (e.g. the dedicated chunk index) by name.
+        index_name = (params or {}).get("index_name")
         return self.graph_store.text_search(
             query_string=query_string,
             label_constraints=label_constraints,
             topk=topk,
+            index_name=index_name,
         )
 
     def search_vector(

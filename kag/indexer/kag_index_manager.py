@@ -176,6 +176,11 @@ AtomicQuery (atomic question): IndexType
             },
             {
                 "type": "text_chunk_retriever",
+                # Target the dedicated single-field chunk index (Chunk.content) rather
+                # than the broad _default_text_index, whose per-term x per-field fanout
+                # trips Lucene's 1024 maxClauseCount. Must match
+                # neo4j_graph_store.CHUNK_TEXT_INDEX_NAME.
+                "index_name": "_chunk_text_index",
                 "vectorize_model": vectorize_model_config,
                 "search_api": {
                     "type": "neo4j_search_api",
@@ -270,6 +275,11 @@ Chunk (text block): IndexType
             },
             {
                 "type": "text_chunk_retriever",
+                # Target the dedicated single-field chunk index (Chunk.content) rather
+                # than the broad _default_text_index, whose per-term x per-field fanout
+                # trips Lucene's 1024 maxClauseCount. Must match
+                # neo4j_graph_store.CHUNK_TEXT_INDEX_NAME.
+                "index_name": "_chunk_text_index",
                 "vectorize_model": vectorize_model_config,
                 "search_api": {
                     "type": "neo4j_search_api",

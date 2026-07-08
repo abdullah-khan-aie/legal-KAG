@@ -14,6 +14,13 @@ from kag.schema.client import IndexTypeEnum
 
 logger = logging.getLogger(__name__)
 
+# Dedicated Neo4j full-text index over Chunk.content only, used by
+# text_chunk_retriever. Kept separate from "_default_text_index" (which spans all
+# schema text fields) so per-term clause fanout stays at 1 field and never trips
+# Lucene's maxClauseCount. Must match the index_name wired in the chunk_index
+# retriever config.
+CHUNK_TEXT_INDEX_NAME = "_chunk_text_index"
+
 
 class SingletonMeta(ABCMeta):
     """Thread-safe singleton metaclass keyed on connection parameters."""
@@ -200,6 +207,15 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
         labels, property_keys = self._collect_text_index_info(schema_types)
         labels = [_with_ns(label) for label in labels]
         self.create_text_index(labels, property_keys)
+        # Dedicated single-field full-text index for chunk retrieval. The broad
+        # _default_text_index above spans every text property of every type, and
+        # Neo4j expands each query term across every (label, property) field, so a
+        # normal question (terms x dozens of fields) blows past Lucene's 1024
+        # maxClauseCount. Chunk text search only needs Chunk.content, so give it its
+        # own narrow index (fanout = 1 field); text_chunk_retriever targets it by
+        # name. Chunk is a builtin type with no schema properties, so its content is
+        # not in the union index anyway -- this also makes chunk text search work.
+        self.create_text_index([_with_ns("Chunk")], ["content"], index_name=CHUNK_TEXT_INDEX_NAME)
         # "Entity" is the generic cross-type label added (bare) as an extra label on
         # every node, so its indexes stay unprefixed to match.
         self.create_vector_index("Entity", "name", vector_dimensions=vector_dimensions)
