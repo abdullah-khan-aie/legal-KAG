@@ -28,6 +28,29 @@ class QueryRequest(BaseModel):
     )
 
 
+class ChatMessage(BaseModel):
+    """One user/assistant exchange in a sidebar chat."""
+
+    query: str = Field(min_length=1)
+    answer: str = ""
+
+
+class ChatTitleRequest(BaseModel):
+    """Request body for LLM-generated chat sidebar titles."""
+
+    messages: list[ChatMessage] = Field(
+        min_length=1,
+        max_length=20,
+        description="Conversation turns to summarise (oldest first).",
+    )
+
+
+class ChatTitleResponse(BaseModel):
+    """Short sidebar title for a chat."""
+
+    title: str
+
+
 class IngestFileResult(BaseModel):
     """Per-document outcome of an ingestion run."""
 

@@ -91,7 +91,7 @@ resource "aws_iam_role_policy_attachment" "app_ssm" {
 resource "aws_iam_role_policy" "app_bedrock_secrets" {
   count = var.enabled ? 1 : 0
 
-  name = "${var.name}-app-bedrock-secrets"
+  name = "${var.project}-app-bedrock-secrets"
   role = aws_iam_role.app[0].id
 
   policy = jsonencode({
@@ -107,7 +107,7 @@ resource "aws_iam_role_policy" "app_bedrock_secrets" {
         Sid      = "ReadLodestoneSecret"
         Effect   = "Allow"
         Action   = ["secretsmanager:GetSecretValue", "secretsmanager:DescribeSecret"]
-        Resource = "arn:aws:secretsmanager:${var.region}:*:secret:${var.secret_id}*"
+        Resource = local.lodestone_secret_arns
       },
       {
         Sid      = "KmsDecryptSecrets"
@@ -119,9 +119,73 @@ resource "aws_iam_role_policy" "app_bedrock_secrets" {
             "kms:ViaService" = "secretsmanager.${var.region}.amazonaws.com"
           }
         }
+      },
+      {
+        Sid    = "EcrPull"
+        Effect = "Allow"
+        Action = [
+          "ecr:GetAuthorizationToken",
+          "ecr:BatchCheckLayerAvailability",
+          "ecr:GetDownloadUrlForLayer",
+          "ecr:BatchGetImage",
+        ]
+        Resource = "*"
       }
     ]
   })
+}
+
+resource "aws_iam_role_policy" "app_cloudwatch_logs" {
+  count = var.enabled && var.cloudwatch_logs_enabled ? 1 : 0
+
+  name = "${var.project}-app-cloudwatch-logs"
+  role = aws_iam_role.app[0].id
+
+  policy = jsonencode({
+    Version = "2012-10-17"
+    Statement = [{
+      Sid    = "DockerAwslogsDriver"
+      Effect = "Allow"
+      Action = [
+        "logs:CreateLogStream",
+        "logs:DescribeLogStreams",
+        "logs:PutLogEvents",
+      ]
+      Resource = "${aws_cloudwatch_log_group.lodestone[0].arn}:*"
+    }]
+  })
+}
+
+resource "aws_ecr_repository" "lodestone" {
+  count = var.enabled && var.ecr_enabled ? 1 : 0
+
+  name                 = "${var.name}-lodestone"
+  image_tag_mutability = "MUTABLE"
+  force_delete         = false
+
+  image_scanning_configuration {
+    scan_on_push = true
+  }
+
+  tags = { Name = "${var.name}-lodestone-ecr" }
+}
+
+locals {
+  ecr_image                 = var.enabled && var.ecr_enabled ? "${aws_ecr_repository.lodestone[0].repository_url}:${var.ecr_image_tag}" : ""
+  cloudwatch_log_group_name = "/${var.name}/lodestone"
+  lodestone_secret_arns = compact([
+    "arn:aws:secretsmanager:${var.region}:*:secret:${var.secret_id}*",
+    var.github_deploy_key_secret_id != "" ? "arn:aws:secretsmanager:${var.region}:*:secret:${var.github_deploy_key_secret_id}*" : "",
+  ])
+}
+
+resource "aws_cloudwatch_log_group" "lodestone" {
+  count = var.enabled && var.cloudwatch_logs_enabled ? 1 : 0
+
+  name              = local.cloudwatch_log_group_name
+  retention_in_days = var.cloudwatch_log_retention_days
+
+  tags = { Name = "${var.name}-lodestone-logs" }
 }
 
 resource "aws_iam_instance_profile" "app" {
@@ -153,23 +217,34 @@ resource "aws_instance" "app" {
 
   associate_public_ip_address = true
 
+  # Allow Docker containers to reach the instance role via IMDS (hop limit 2).
+  metadata_options {
+    http_endpoint               = "enabled"
+    http_tokens                 = "required"
+    http_put_response_hop_limit = 2
+  }
+
   root_block_device {
     volume_type = "gp3"
     volume_size = 30
     encrypted   = true
   }
 
-  user_data = templatefile("${path.module}/templates/app_user_data.sh.tftpl", {
-    region          = var.region
-    secret_id       = var.secret_id
-    neo4j_bolt_uri  = var.neo4j_bolt_uri
-    app_port        = var.app_port
-    scan_dir        = var.scan_dir
-    git_repo_url    = var.git_repo_url
-    git_ref         = var.git_ref
-    llm_model       = var.bedrock_llm_model
-    embed_model     = var.bedrock_embed_model
-    max_concurrency = var.max_concurrency
+  user_data = var.deploy_with_docker && var.ecr_enabled ? templatefile("${path.module}/templates/docker_user_data.sh.tftpl", {
+    region    = var.region
+    secret_id = var.secret_id
+    app_port  = var.app_port
+    scan_dir  = var.scan_dir
+    ecr_image = local.ecr_image
+    log_group = var.cloudwatch_logs_enabled ? local.cloudwatch_log_group_name : ""
+    }) : templatefile("${path.module}/templates/app_user_data.sh.tftpl", {
+    region                      = var.region
+    secret_id                   = var.secret_id
+    github_deploy_key_secret_id = var.github_deploy_key_secret_id
+    app_port                    = var.app_port
+    scan_dir                    = var.scan_dir
+    git_repo_url                = var.git_repo_url
+    git_ref                     = var.git_ref
   })
 
   user_data_replace_on_change = true

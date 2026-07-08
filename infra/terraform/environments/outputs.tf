@@ -43,3 +43,28 @@ output "lodestone_app_ssm_session_command" {
 output "lodestone_app_ingest_curl" {
   value = module.lodestone_app.instance_id != null ? "curl -X POST http://127.0.0.1:${module.lodestone_app.app_port}/ingest" : null
 }
+
+output "lodestone_ecr_repository_url" {
+  value = module.lodestone_app.ecr_repository_url
+}
+
+output "lodestone_ecr_image" {
+  value = module.lodestone_app.ecr_image
+}
+
+output "lodestone_cloudwatch_log_group" {
+  value = module.lodestone_app.cloudwatch_log_group_name
+}
+
+output "lodestone_cloudwatch_logs_console_url" {
+  value = module.lodestone_app.cloudwatch_logs_console_url
+}
+
+output "lodestone_public_api_url" {
+  value = module.lodestone_public_api.api_endpoint
+}
+
+output "github_deploy_role_arn" {
+  description = "Set as GitHub secret AWS_DEPLOY_ROLE_ARN for the deploy workflow."
+  value       = module.github_deploy.deploy_role_arn
+}

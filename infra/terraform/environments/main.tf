@@ -36,11 +36,11 @@ locals {
 module "network" {
   source = "../modules/network"
 
-  name                 = local.name
-  vpc_cidr             = var.vpc_cidr
-  public_subnet_cidr   = var.public_subnet_cidr
-  private_subnet_cidr  = var.private_subnet_cidr
-  availability_zone    = local.az
+  name                = local.name
+  vpc_cidr            = var.vpc_cidr
+  public_subnet_cidr  = var.public_subnet_cidr
+  private_subnet_cidr = var.private_subnet_cidr
+  availability_zone   = local.az
 }
 
 module "neo4j" {
@@ -65,6 +65,7 @@ module "lodestone_app" {
   source = "../modules/lodestone-app"
 
   name              = local.name
+  project           = var.project
   region            = var.region
   enabled           = var.lodestone_app_enabled
   vpc_id            = module.network.vpc_id
@@ -75,9 +76,12 @@ module "lodestone_app" {
 
   instance_type        = var.lodestone_app_instance_type
   app_port             = var.lodestone_app_port
-  git_repo_url         = var.lodestone_git_repo_url
-  git_ref              = var.lodestone_git_ref
-  bedrock_llm_model    = var.lodestone_bedrock_llm_model
+  git_repo_url                = var.lodestone_git_repo_url
+  git_ref                     = var.lodestone_git_ref
+  github_deploy_key_secret_id = var.lodestone_github_deploy_key_secret_id
+  deploy_with_docker          = var.lodestone_deploy_with_docker
+  ecr_enabled                 = var.lodestone_ecr_enabled
+  bedrock_llm_model           = var.lodestone_bedrock_llm_model
   bedrock_embed_model  = var.lodestone_bedrock_embed_model
   max_concurrency      = var.lodestone_max_concurrency
   secret_id            = var.lodestone_secret_id
@@ -85,4 +89,28 @@ module "lodestone_app" {
   data_volume_gb       = var.lodestone_data_volume_gb
   allow_public_http    = var.lodestone_allow_public_http
   public_ingress_cidrs = var.lodestone_public_ingress_cidrs
+}
+
+module "lodestone_public_api" {
+  source = "../modules/lodestone-public-api"
+
+  name            = local.name
+  enabled         = var.lodestone_app_enabled && var.lodestone_public_api_enabled
+  vpc_id          = module.network.vpc_id
+  subnet_ids      = [module.network.public_subnet_id]
+  app_instance_id = module.lodestone_app.instance_id
+  app_port        = var.lodestone_app_port
+}
+
+module "github_deploy" {
+  source = "../modules/github-oidc-deploy"
+
+  name                 = local.name
+  enabled              = var.lodestone_app_enabled && var.github_deploy_enabled
+  region               = var.region
+  github_repo          = var.github_repo
+  github_branch        = var.github_branch
+  create_oidc_provider = var.github_create_oidc_provider
+  ecr_repository_arn   = module.lodestone_app.ecr_repository_arn
+  app_name_tag         = "${local.name}-app"
 }
