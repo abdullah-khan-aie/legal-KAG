@@ -1,0 +1,24 @@
+[
+  {"id": "t1_reg_number",   "tier": 1, "question": "What is Luminos AI Ltd's company registration number?", "gold": "12784563"},
+  {"id": "t1_investment",   "tier": 1, "question": "How much did Crestview invest in the Series B round?", "gold": "£12,000,000"},
+  {"id": "t1_num_shares",   "tier": 1, "question": "How many Series B shares were issued to the investor at completion?", "gold": "3,000,000"},
+  {"id": "t1_issue_price",  "tier": 1, "question": "What is the issue price per Series B share?", "gold": "£4.00 per share"},
+  {"id": "t1_founders",     "tier": 1, "question": "Who are the founders of Luminos AI Ltd?", "gold": "Dr Priya Anand and Dr Oliver Kessler"},
+  {"id": "t1_pre_money",    "tier": 1, "question": "What is the pre-money valuation of Luminos AI Ltd in the Series B round?", "gold": "£40,000,000"},
+  {"id": "t1_post_money",   "tier": 1, "question": "What is the post-money valuation of Luminos AI Ltd in the Series B round?", "gold": "£52,000,000"},
+  {"id": "t1_inv_director", "tier": 1, "question": "Who is the Investor Director appointed by Crestview?", "gold": "Margaret Holloway"},
+  {"id": "t1_liq_pref",     "tier": 1, "question": "What is the liquidation preference on the Series B shares?", "gold": "1x non-participating"},
+  {"id": "t1_drag",         "tier": 1, "question": "What shareholding threshold triggers the drag-along right?", "gold": "75%"},
+  {"id": "t1_nda_date",     "tier": 1, "question": "On what date was the mutual NDA signed?", "gold": "14 September 2023"},
+  {"id": "t1_stake",        "tier": 1, "question": "What percentage of the fully-diluted share capital will Crestview hold after completion?", "gold": "approximately 23.1%"},
+
+  {"id": "t2_investor_counsel", "tier": 2, "question": "Which law firm acted for the investor?", "gold": "Whitfield Carter LLP"},
+  {"id": "t2_company_counsel",  "tier": 2, "question": "Which law firm acted for the company and the founders?", "gold": "Hargrove & Associates LLP"},
+  {"id": "t2_exclusivity",      "tier": 2, "question": "What is the exclusivity period in the term sheet?", "gold": "45 days"},
+  {"id": "t2_cost_cap",         "tier": 2, "question": "What is the cap on the investor's legal costs the company pays on completion?", "gold": "£40,000 plus VAT"},
+
+  {"id": "t3_warranty_cap",   "tier": 3, "question": "What is the warranty liability cap in the executed Subscription and Shareholders' Agreement?", "gold": "75% of the Investment Amount"},
+  {"id": "t3_non_compete",    "tier": 3, "question": "What is the Founders' non-compete period in the executed agreement?", "gold": "18 months"},
+  {"id": "t3_de_minimis",     "tier": 3, "question": "What is the De Minimis Amount as a percentage of the Threshold in the executed agreement?", "gold": "17.5%"},
+  {"id": "t3_warranty_cap_gbp", "tier": 3, "question": "In pounds, what is the warranty liability cap under the executed agreement?", "gold": "£9,000,000"}
+]

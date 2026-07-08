@@ -1,6 +1,7 @@
 import asyncio
 import copy
 import logging
+import weakref
 
 import aioboto3
 import boto3
@@ -12,6 +13,17 @@ from kag.interface.solver.reporter_abc import do_report
 
 logging.getLogger("botocore").setLevel(logging.ERROR)
 logger = logging.getLogger(__name__)
+
+# Live clients, so short-lived scripts (e.g. the eval runner) can close their
+# lazily-created aioboto3 sessions on the running loop and avoid aiohttp's
+# "Unclosed client session" warning at interpreter shutdown.
+_ASYNC_CLIENTS: weakref.WeakSet = weakref.WeakSet()
+
+
+async def aclose_all_bedrock_clients() -> None:
+    """Close every live BedrockClaudeClient's async (aioboto3) session."""
+    for client in list(_ASYNC_CLIENTS):
+        await client.aclose()
 
 
 def _unwrap_secret(value):
@@ -97,6 +109,7 @@ class BedrockClaudeClient(LLMClient):
         self._aclient = None
         self._aclient_cm = None
         self._aclient_lock = asyncio.Lock()
+        _ASYNC_CLIENTS.add(self)
 
         self.check()
         logger.debug(
@@ -183,6 +196,17 @@ class BedrockClaudeClient(LLMClient):
                     )
                     self._aclient = await self._aclient_cm.__aenter__()
         return self._aclient
+
+    async def aclose(self) -> None:
+        """Close the lazily-created async (aioboto3) client, if one was opened."""
+        if self._aclient_cm is not None:
+            try:
+                await self._aclient_cm.__aexit__(None, None, None)
+            except Exception:  # best-effort cleanup
+                pass
+            finally:
+                self._aclient = None
+                self._aclient_cm = None
 
     async def acall(self, prompt: str = "", image_url: str = None, **kwargs):
         """Async Converse request over aioboto3 (native async, no worker thread)."""

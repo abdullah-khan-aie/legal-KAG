@@ -124,7 +124,7 @@ class Settings(BaseSettings):
     # so ingestion and retrieval stay in lockstep. Set via LODESTONE_INDEX_LIST as
     # a JSON array, e.g. '["summary_index","chunk_index","atomic_query_index"]'.
     # NOT in the secret: kept defaulted. Add to the secret to make required.
-    index_list: list[str] = ["spo_graph_index", "summary_index"]
+    index_list: list[str] = ["spo_graph_index", "summary_index", "chunk_index"]
 
     # Ingestion: local folder the directory scanner reads, and how many documents
     # to ingest concurrently (bounded to respect Bedrock rate limits).

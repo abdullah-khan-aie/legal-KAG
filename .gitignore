@@ -48,3 +48,6 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+# evaluation run outputs (not tracked)
+eval_results.json
+eval_*.json

@@ -35,7 +35,7 @@ class KAGModelHybridRetrievalExecutor(KAGHybridRetrievalExecutor):
         super().__init__(retrievers=retrievers, merger=merger, llm_module=llm_module, **kwargs)
         self.kag_sub_question_think_prompt = kag_sub_question_think_prompt
         self.logic_node_parser = ParseLogicForm(schema=None, schema_retrieval=None)
-        self.top_k = kwargs.get("top_k", 3)
+        self.top_k = kwargs.get("top_k", 10)
 
     def do_main(self, task_query, tag_id, task, context, **kwargs):
         task_query = task.arguments["query"]
