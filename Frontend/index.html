@@ -71,7 +71,6 @@
     display: grid; place-items: center; color: #fff;
   }
   .brand b { font-size: 14px; font-weight: 650; letter-spacing: -.01em; }
-  .brand span { font-size: 11px; color: var(--faint); margin-left: auto; border: 1px solid var(--line); padding: 1px 7px; border-radius: 999px; }
 
   .nav-group { margin-top: 12px; }
   .nav-group > h6 {
@@ -93,10 +92,6 @@
   .nav-item.soon:hover::after { content: "soon"; margin-left: auto; font-size: 10px; color: var(--faint); }
 
   .side-foot { margin-top: auto; padding-top: 12px; border-top: 1px solid var(--line-soft); display: flex; flex-direction: column; gap: 2px; }
-  .health-row { display: flex; align-items: center; gap: 8px; padding: 6px 10px; font-size: 12px; color: var(--muted); }
-  .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--faint); flex: none; transition: background .2s; }
-  .dot.live { background: var(--ok); box-shadow: 0 0 0 3px color-mix(in srgb, var(--ok) 20%, transparent); }
-  .dot.down { background: var(--err); }
   .theme-btn {
     display: flex; align-items: center; gap: 10px; padding: 6px 10px; border: 0;
     background: transparent; border-radius: 7px; color: var(--muted); font-size: 12.5px; cursor: pointer;
@@ -112,14 +107,11 @@
   .crumb { font-size: 13px; color: var(--faint); }
   .crumb b { color: var(--ink); font-weight: 600; }
   .crumb .sep { margin: 0 7px; opacity: .5; }
-  .topbar .right { margin-left: auto; display: flex; align-items: center; gap: 14px; }
-  .kbd-hint { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--faint); }
   kbd {
     font: 11px/1 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--muted);
     background: var(--panel-2); border: 1px solid var(--line); border-bottom-width: 2px;
     padding: 3px 5px; border-radius: 5px;
   }
-  .health-chip { display: flex; align-items: center; gap: 7px; font-size: 12px; color: var(--muted); }
 
   .scroll { flex: 1; overflow-y: auto; }
   .workspace { max-width: 860px; margin: 0 auto; padding: 28px 24px 120px; }
@@ -141,14 +133,6 @@
   }
   .examples button:hover { border-color: color-mix(in srgb, var(--accent) 45%, var(--line)); color: var(--ink); transform: translateY(-1px); }
   .examples button b { display: block; color: var(--ink-2); font-weight: 570; margin-bottom: 2px; font-size: 12.5px; }
-
-  /* ── api warning ───────────────────────────────────────────────────── */
-  .api-warn {
-    display: flex; align-items: center; gap: 9px; margin-bottom: 12px;
-    border: 1px solid color-mix(in srgb, var(--warn) 35%, var(--line));
-    background: color-mix(in srgb, var(--warn) 8%, var(--panel));
-    color: var(--warn); font-size: 12.5px; padding: 9px 13px; border-radius: 10px;
-  }
 
   /* ── composer ──────────────────────────────────────────────────────── */
   .composer {
@@ -325,7 +309,6 @@
     .crumb { display: none; }
     .examples { grid-template-columns: 1fr; }
     .workspace { padding: 18px 14px 100px; }
-    .kbd-hint { display: none; }
     .run-time, .run-pipe { display: none; }
   }
 </style>
@@ -340,7 +323,6 @@
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="6" cy="6" r="2.4"/><circle cx="18" cy="8" r="2.4"/><circle cx="10" cy="18" r="2.4"/><path d="M8.2 7 15.7 8M7 8.2l2.2 7.6M16.3 10l-4.6 6.3"/></svg>
       </span>
       <b>Lodestone</b>
-      <span>POC</span>
     </div>
 
     <nav class="nav-group" aria-label="Overview">
@@ -407,7 +389,6 @@
     </div>
 
     <div class="side-foot">
-      <div class="health-row"><span class="dot" data-health></span><span data-health-label>Checking API…</span></div>
       <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M20 14.5A8 8 0 1 1 9.5 4 6.5 6.5 0 0 0 20 14.5z"/></svg>
         <span id="themeLabel">Light mode</span>
@@ -424,10 +405,6 @@
     <header class="topbar">
       <div class="mobile-brand"><span class="mark"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="6" cy="6" r="2.4"/><circle cx="18" cy="8" r="2.4"/><circle cx="10" cy="18" r="2.4"/><path d="M8.2 7 15.7 8M7 8.2l2.2 7.6M16.3 10l-4.6 6.3"/></svg></span><b>Lodestone</b></div>
       <div class="crumb">Intelligence <span class="sep">/</span> <b>AI Search</b></div>
-      <div class="right">
-        <span class="kbd-hint"><kbd>⌘</kbd><kbd>K</kbd> to focus</span>
-        <span class="health-chip"><span class="dot" data-health></span><span data-health-label>Checking…</span></span>
-      </div>
     </header>
 
     <div class="scroll" id="scroll">
@@ -440,11 +417,6 @@
           <h1>Ask the knowledge graph</h1>
           <p>Grounded answers over your ingested documents: retrieval, reasoning and graph traversal in one place.</p>
         </section>
-
-        <div class="api-warn" id="apiWarn" hidden>
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" style="flex:none"><path d="M12 4 2.5 20h19z"/><path d="M12 10v4M12 17.2h.01"/></svg>
-          <span>API unreachable. Queries will fail until the backend is back online.</span>
-        </div>
 
         <section class="composer" aria-label="Query composer">
           <textarea id="q" rows="2" placeholder="Ask a question about the ingested documents…" aria-label="Question"></textarea>
@@ -1034,22 +1006,6 @@ function showError(run, msg) {
   setStatus(run, "", false);
   follow();
 }
-
-/* ── health check ────────────────────────────────────────────────────── */
-async function checkHealth() {
-  const dots = document.querySelectorAll("[data-health]");
-  const labels = document.querySelectorAll("[data-health-label]");
-  let ok = false;
-  try {
-    const r = await fetch(API_BASE + "/docs", { method: "GET" });
-    ok = r.ok;
-  } catch {}
-  dots.forEach((d) => { d.classList.toggle("live", ok); d.classList.toggle("down", !ok); });
-  labels.forEach((l) => { l.textContent = ok ? "API connected" : "API unreachable"; });
-  $("apiWarn").hidden = ok;
-}
-checkHealth();
-setInterval(checkHealth, 30_000);
 
 qEl.focus();
 autoGrow();
