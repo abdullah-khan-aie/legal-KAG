@@ -18,6 +18,7 @@ dependencies = [
     "pdfminer.six",          # PDF reader
     "PyPDF2",                # PDF reader
     "python-docx",           # docx reader
+    "openpyxl",              # xlsx reader (pandas .xlsx engine)
     "beautifulsoup4",        # markdown reader (HTML parse)
     "tabulate",              # markdown reader (DataFrame.to_markdown)
     # --- graph store (kag graphstore) ---
@@ -40,6 +41,7 @@ dependencies = [
     # --- API layer (src/lodestone/main.py) ---
     "fastapi",               # HTTP API application
     "uvicorn[standard]",     # ASGI server
+    "rouge>=1.0.1",
 ]
 
 [dependency-groups]

@@ -5,9 +5,11 @@ import re
 from collections.abc import Iterator
 
 # Suffixes MixReader can dispatch. MixReader raises on any other suffix, so the
-# scanner filters to these -- otherwise junk files (.DS_Store, images, .json)
-# would crash the reader instead of being ignored.
-_DEFAULT_SUFFIXES = (".txt", ".pdf", ".docx", ".md")
+# scanner filters to these -- otherwise junk files (.DS_Store, images, .json,
+# and office lock files like ".~lock.foo.xlsx#") would crash the reader instead
+# of being ignored. The trailing "$" anchors the suffix, so "foo.xlsx#" (a lock
+# file) is NOT matched -- only real "foo.xlsx".
+_DEFAULT_SUFFIXES = (".txt", ".pdf", ".docx", ".md", ".xlsx", ".json")
 
 
 class DirectoryScanner:
@@ -32,10 +34,18 @@ class DirectoryScanner:
             self._regex = re.compile(rf".*({alternation})$", re.IGNORECASE)
 
     def find_files(self, directory: str) -> list[str]:
-        """Return the sorted paths of matching files under ``directory``."""
+        """Return the sorted paths of matching files under ``directory``.
+
+        Office/LibreOffice owner-lock and temp files (``~$Foo.xlsx``,
+        ``.~lock.Foo.docx#``, ``.DS_Store``) are skipped: ``~$Foo.xlsx`` ends in a
+        real suffix so it would otherwise match the filter and crash the reader,
+        since it is not a valid document.
+        """
         matched: list[str] = []
         for root, _dirs, files in os.walk(directory):
             for name in files:
+                if name.startswith("~$") or name.startswith("."):
+                    continue  # Office temp/owner-lock files and hidden files
                 if self._regex.match(name):
                     matched.append(os.path.join(root, name))
         return sorted(matched)

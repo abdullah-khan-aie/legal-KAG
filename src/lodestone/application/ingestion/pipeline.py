@@ -11,10 +11,12 @@ from kag.builder.component.extractor.summary_extractor import SummaryExtractor
 from kag.builder.component.postprocessor.kag_postprocessor import KAGPostProcessor
 from kag.builder.component.reader.dict_reader import DictReader
 from kag.builder.component.reader.docx_reader import DocxReader
+from kag.builder.component.reader.email_reader import EmailReader
 from kag.builder.component.reader.markdown_reader import MarkDownReader
 from kag.builder.component.reader.mix_reader import MixReader
 from kag.builder.component.reader.pdf_reader import PDFReader
 from kag.builder.component.reader.txt_reader import TXTReader
+from kag.builder.component.reader.xlsx_reader import XlsxReader
 from kag.builder.component.splitter.length_splitter import LengthSplitter
 from kag.builder.component.vectorizer.batch_vectorizer import BatchVectorizer
 from kag.builder.component.writer.graph_store_writer import GraphStoreWriter
@@ -78,20 +80,24 @@ class IngestionPipeline:
         self._workers: list[asyncio.Task] = []
         self._workers_lock = asyncio.Lock()
 
-        # 1) reader: auto-routes by file extension (txt/pdf/docx/md) or dict input.
+        # 1) reader: auto-routes by file extension (txt/pdf/docx/md/xlsx) or dict input.
         self._reader = MixReader(
             txt_reader=TXTReader(),
             pdf_reader=PDFReader(llm=self._llm),
             docx_reader=DocxReader(llm=self._llm),
             md_reader=MarkDownReader(),
             dict_reader=DictReader(),
+            xlsx_reader=XlsxReader(),
+            email_reader=EmailReader(),
         )
 
-        # 2) splitter: sliding-window split by character length. It makes no LLM
-        #    call, so it avoids the Bedrock rate limit that a semantic (per-node)
-        #    splitter would hit. The docx reader already emits one chunk per
-        #    clause via its heading tree, so semantic boundaries are largely set
-        #    before the splitter runs; this stage only caps oversized chunks.
+        # 2) splitter: sliding-window split by character length. Makes no LLM call.
+        #    NOTE: we trialled the LLM SemanticSplitter, but its changed chunk
+        #    boundaries regressed the multi-hop pipelines' tier-3 detail retrieval
+        #    (deep_thought 0.943 -> 0.886 on the doc goldset) while only the
+        #    single-shot retriever benefited. Reverted to the length splitter; the
+        #    docx/pdf readers already emit heading/outline-aligned chunks, so this
+        #    stage just caps oversized ones.
         self._splitter = LengthSplitter(split_length=1500, window_length=150)
 
         # 3) extractors (run concurrently per chunk). When ``extractors`` is

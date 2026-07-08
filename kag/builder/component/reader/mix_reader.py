@@ -2,9 +2,11 @@ import os
 
 from kag.builder.component.reader.dict_reader import DictReader
 from kag.builder.component.reader.docx_reader import DocxReader
+from kag.builder.component.reader.email_reader import EmailReader
 from kag.builder.component.reader.markdown_reader import MarkDownReader
 from kag.builder.component.reader.pdf_reader import PDFReader
 from kag.builder.component.reader.txt_reader import TXTReader
+from kag.builder.component.reader.xlsx_reader import XlsxReader
 from kag.common import Input, Output
 from kag.interface import ReaderABC
 
@@ -21,6 +23,8 @@ class MixReader(ReaderABC):
         docx_reader: DocxReader = None,
         md_reader: MarkDownReader = None,
         dict_reader: DictReader = None,
+        xlsx_reader: XlsxReader = None,
+        email_reader: EmailReader = None,
         **kwargs,
     ):
         """Initialize the reader, mapping each input type to its delegate reader.
@@ -31,6 +35,8 @@ class MixReader(ReaderABC):
             docx_reader: Reader for .docx files.
             md_reader: Reader for .md files.
             dict_reader: Reader for dictionary inputs.
+            xlsx_reader: Reader for .xlsx files.
+            email_reader: Reader for .json email-thread files.
         """
         super().__init__(**kwargs)
         self.reader_map = {
@@ -39,6 +45,8 @@ class MixReader(ReaderABC):
             "docx": docx_reader,
             "md": md_reader,
             "dict": dict_reader,
+            "xlsx": xlsx_reader,
+            "json": email_reader,
         }
 
     def _invoke(self, data: Input, **kwargs) -> list[Output]:
