@@ -6,12 +6,17 @@
 # with a digest at build time:
 #   docker build --build-arg PYTHON_IMAGE=python:3.13-slim@sha256:<digest> .
 ARG PYTHON_IMAGE=python:3.13-slim
+# Pin uv for reproducible builds; bump deliberately (or pin by digest). Declared
+# in the global scope so it can expand in the FROM below -- BuildKit does not
+# allow variable expansion directly in `COPY --from=`.
+ARG UV_VERSION=0.11.28
+
+# uv binary source: a dedicated stage so the pinned uv can be COPY'd via a stage
+# name (COPY --from=uv), which BuildKit allows, unlike COPY --from=<image:$var>.
+FROM ghcr.io/astral-sh/uv:${UV_VERSION} AS uv
 
 # --- builder: resolve dependencies + project into /app/.venv --------------- #
 FROM ${PYTHON_IMAGE} AS builder
-
-# Pin uv for reproducible builds; bump deliberately (or pin by digest).
-ARG UV_VERSION=0.11.28
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
@@ -19,7 +24,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     UV_LINK_MODE=copy \
     UV_PYTHON_DOWNLOADS=0
 
-COPY --from=ghcr.io/astral-sh/uv:${UV_VERSION} /uv /usr/local/bin/uv
+COPY --from=uv /uv /usr/local/bin/uv
 
 WORKDIR /app
 
