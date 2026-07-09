@@ -81,7 +81,6 @@ class Settings(BaseSettings):
     # fields that DO keep a default are called out inline below.
 
     schema_path: str
-    bedrock_region: str
     llm_model: str
 
     # Embeddings: called directly against Cohere's API (not Bedrock). embed_model
@@ -96,13 +95,11 @@ class Settings(BaseSettings):
     # truncations. Changing this after indexes exist requires dropping them first.
     embed_dimension: int = 1536
 
-    # Amazon Bedrock credentials, read from the secret and passed explicitly to the
-    # LLM + embedding clients, so Bedrock calls use a Bedrock-scoped IAM user
-    # independent of the infra credentials (terminal env / instance role) that
-    # reach Secrets Manager. Leave unset to fall back to boto3's default chain
-    # (e.g. an instance role scoped to Bedrock on EC2).
-    bedrock_access_key_id: SecretStr | None = None
-    bedrock_secret_access_key: SecretStr | None = None
+    # Anthropic API key for the direct (non-Bedrock) Claude client, read from the
+    # secret and passed as a SecretStr so it stays masked in logs (unwrapped only
+    # when the Anthropic SDK client is constructed). Leave unset to fall back to
+    # the SDK's ANTHROPIC_API_KEY environment variable.
+    anthropic_api_key: SecretStr | None = None
 
     # Cohere API key for the direct (non-Bedrock) embedding client, read from the
     # secret and passed as a SecretStr so it stays masked in logs (unwrapped only
@@ -148,6 +145,19 @@ class Settings(BaseSettings):
 
     log_level: str
     log_format: Literal["console", "json"]
+
+    # Langfuse tracing (optional). Keys live in the secret; kept defaulted so a
+    # missing key doesn't fail startup and tracing stays OFF unless explicitly
+    # enabled. When enable_observability is True the three keys must be present.
+    enable_observability: bool = False
+    langfuse_public_key: SecretStr | None = None
+    langfuse_secret_key: SecretStr | None = None
+    langfuse_base_url: SecretStr | None = None
+    environment: str = "dev"
+
+    llm_input_cost_per_token: float
+    llm_output_cost_per_token: float
+    embed_cost_per_token: float
 
 
 @lru_cache(maxsize=1)

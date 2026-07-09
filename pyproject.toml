@@ -7,9 +7,10 @@ dependencies = [
     "httpx",                 # OpenAI-compatible embedding HTTP adapter (fallback)
     "pydantic>=2",           # settings models (src/config)
     "pydantic-settings[aws-secrets-manager]>=2",  # env config + AWS Secrets Manager source (src/config)
-    "boto3",                 # Amazon Bedrock runtime (Claude LLM, sync)
-    "aioboto3",              # async Bedrock runtime (native async LLM acall / astream)
+    "boto3",                 # AWS Secrets Manager source (src/config)
+    "anthropic>=0.40",       # direct Anthropic Claude API (AsyncAnthropic + Anthropic)
     "cohere",                # direct Cohere Embed API (async + sync clients)
+    "langfuse>=3,<4",        # tracing/observability for ingestion + query pipelines
     # --- ingestion (kag builder) ---
     "pyyaml",                # local YAML schema client
     "tenacity",              # retry decorators in extractors/vectorizer/retrievers

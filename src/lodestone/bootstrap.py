@@ -4,13 +4,13 @@ from functools import lru_cache
 
 from kag.common.conf import KAG_CONFIG, KAG_PROJECT_CONF
 from kag.common.graphstore.neo4j_graph_store import Neo4jClient
-from kag.common.llm.bedrock_claude_client import BedrockClaudeClient
+from kag.common.llm.anthropic_client import AnthropicLLMClient
 from kag.common.vectorize_model.cohere_model import CohereVectorizeModel
 from kag.interface import LLMClient
 from kag.schema.client import SchemaClient
 from src.lodestone.application.ingestion.pipeline import IngestionPipeline
 from src.lodestone.application.query.builder import (
-    _bedrock_credentials,
+    _anthropic_credentials,
     _cohere_credentials,
     build_query_pipeline,
     chat_llm_config,
@@ -138,12 +138,11 @@ def build_ingestion_pipeline(
 def get_ingestion_pipeline() -> IngestionPipeline:
     """Return the cached pipeline singleton, wired from settings."""
     settings: Settings = get_settings()
-    # BedrockClaudeClient is the pipeline's LLM client. Extraction throughput is
+    # AnthropicLLMClient is the pipeline's LLM client. Extraction throughput is
     # bounded by the worker pool (model_execute_num), not a client-side rate limiter.
-    llm = BedrockClaudeClient(
-        region=settings.bedrock_region,
+    llm = AnthropicLLMClient(
         model=settings.llm_model,
-        **_bedrock_credentials(settings),
+        **_anthropic_credentials(settings),
     )
     return build_ingestion_pipeline(
         llm,

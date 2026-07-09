@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+import contextvars
 from contextlib import contextmanager
 
 from kag.builder.component.aligner.kag_aligner import KAGAligner
@@ -37,6 +38,7 @@ from src.lodestone.exceptions import (
     GraphStoreError,
     LodestoneError,
 )
+from src.lodestone.observability import tracing as obs
 
 # Bounded capacity of the shared extraction work queue: submission blocks once
 # this many items are buffered, applying backpressure instead of letting the
@@ -166,8 +168,18 @@ class IngestionPipeline:
                 return
             queue: asyncio.Queue = asyncio.Queue(maxsize=_EXTRACT_QUEUE_CAPACITY)
             loop = asyncio.get_running_loop()
+            # Spawn each worker in a FRESH, empty context. The pool is created
+            # lazily during the first document's "extract" span, so a plain
+            # create_task would copy that span as the workers' ambient context and
+            # every worker would carry it for the whole process -- leaking it into
+            # later documents and re-parenting their spans (the trace would then be
+            # named after a worker's extractor instead of the document). A clean
+            # contextvars.Context() gives each worker no ambient span; extractions
+            # attach only via the explicit trace_context we pass per item.
             self._workers = [
-                loop.create_task(self._extract_worker(queue))
+                loop.create_task(
+                    self._extract_worker(queue), context=contextvars.Context()
+                )
                 for _ in range(self._model_execute_num)
             ]
             self._work_queue = queue
@@ -180,10 +192,19 @@ class IngestionPipeline:
         `_extract_all` can await them in order.
         """
         while True:
-            extractor, chunk, future = await queue.get()
+            extractor, chunk, future, parent = await queue.get()
             try:
                 if not future.done():
-                    result = await extractor.ainvoke(chunk)
+                    # Re-attach to the document's "extract" span: the worker pool
+                    # is process-global and doesn't inherit the per-document
+                    # context, so ``parent`` (a trace_context) nests each
+                    # extraction -- and its LLM generations -- under the right
+                    # document. ``parent`` is None when tracing is off.
+                    if parent is not None:
+                        with obs.span(type(extractor).__name__, parent=parent):
+                            result = await extractor.ainvoke(chunk)
+                    else:
+                        result = await extractor.ainvoke(chunk)
                     future.set_result(result)
             except Exception as err:  # deliver to the awaiter, keep the worker alive
                 if not future.done():
@@ -191,13 +212,14 @@ class IngestionPipeline:
             finally:
                 queue.task_done()
 
-    async def _extract_all(self, chunks: list) -> list:
+    async def _extract_all(self, chunks: list, parent: dict | None = None) -> list:
         """Submit every (chunk, extractor) to the shared pool and gather results.
 
         Enqueue one item per chunk-extractor pair, then collect the futures in
         submission order. Only `model_execute_num` run at once; the rest wait in
         the queue, and submission itself blocks once the queue is full, which
-        applies backpressure to the caller.
+        applies backpressure to the caller. ``parent`` is the document's "extract"
+        span (as a trace_context) so the worker can nest each extraction under it.
         """
         await self._ensure_workers()
         assert self._work_queue is not None
@@ -206,32 +228,45 @@ class IngestionPipeline:
         for chunk in chunks:
             for extractor in self._extractors:
                 future: asyncio.Future = loop.create_future()
-                await self._work_queue.put((extractor, chunk, future))
+                await self._work_queue.put((extractor, chunk, future, parent))
                 futures.append(future)
         return await asyncio.gather(*futures)
 
     async def ingest(self, source: str) -> SubGraph:
-        """Ingest a document (file path, or a dict for dict_reader) into the graph."""
-        # read (IO/LLM-bound) + semantic split run off the event loop
+        """Ingest a document (file path, or a dict for dict_reader) into the graph.
+
+        Runs under the current Langfuse document span (opened by the runner); each
+        stage below becomes a child span, and extraction/embedding LLM calls nest
+        beneath as generations with token cost.
+        """
+        # read (IO/LLM-bound) + semantic split run off the event loop; the read/
+        # split spans are created inside _read_and_split (the copied context nests
+        # them under the document span).
         chunks = await asyncio.to_thread(self._read_and_split, source)
 
         # extract every chunk with every extractor via the shared worker pool
         # (bounded to model_execute_num, global across documents), then merge.
-        with self._stage(ExtractionError, "extraction failed", source):
-            subgraph_lists = await self._extract_all(chunks)
+        # ``current_parent`` captures this "extract" span so the detached worker
+        # pool can re-attach each extraction's generations under this document.
+        with obs.span("extract"), self._stage(ExtractionError, "extraction failed", source):
+            subgraph_lists = await self._extract_all(chunks, obs.current_parent())
             all_subgraphs = [sg for subgraphs in subgraph_lists for sg in subgraphs]
-            merged = await asyncio.to_thread(self._aligner.invoke, all_subgraphs)
+            with obs.span("align"):
+                merged = await asyncio.to_thread(self._aligner.invoke, all_subgraphs)
 
         # embed index-marked fields (real async vectorizer)
-        with self._stage(EmbeddingError, "embedding failed", source):
+        with obs.span("embed"), self._stage(EmbeddingError, "embedding failed", source):
             merged = (await self._vectorizer.ainvoke(merged))[0]
 
         # filter + entity-link against the graph store, off the event loop
-        with self._stage(GraphStoreError, "post-processing / entity linking failed", source):
+        with (
+            obs.span("postprocess"),
+            self._stage(GraphStoreError, "post-processing / entity linking failed", source),
+        ):
             merged = (await asyncio.to_thread(self._postprocessor.invoke, merged))[0]
 
         # persist to Neo4j
-        with self._stage(GraphStoreError, "failed to persist graph", source):
+        with obs.span("write"), self._stage(GraphStoreError, "failed to persist graph", source):
             await asyncio.to_thread(self._writer.invoke, merged)
 
         return merged
@@ -241,16 +276,22 @@ class IngestionPipeline:
         return asyncio.run(self.ingest(source))
 
     def _read_and_split(self, source: str) -> list[Chunk]:
-        """Read the source (extension-routed) and semantically split it (sync)."""
+        """Read the source (extension-routed) and semantically split it (sync).
+
+        Runs in a worker thread; the document span's context is copied in, so the
+        ``read`` and ``split`` spans nest under it. Both are no-cost stages.
+        """
         try:
-            documents = self._reader.invoke(source)
+            with obs.span("read"):
+                documents = self._reader.invoke(source)
         except Exception as err:
             raise DocumentReadError("failed to read document", details={"source": source}) from err
 
         chunks: list[Chunk] = []
         try:
-            for document in documents:
-                chunks.extend(self._splitter.invoke(document))
+            with obs.span("split"):
+                for document in documents:
+                    chunks.extend(self._splitter.invoke(document))
         except Exception as err:
             raise ChunkingError("failed to split document", details={"source": source}) from err
         return chunks

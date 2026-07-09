@@ -2,7 +2,8 @@ from __future__ import annotations
 
 import re
 
-from kag.common.llm.bedrock_claude_client import BedrockClaudeClient
+from kag.common.llm.anthropic_client import AnthropicLLMClient
+from src.lodestone.application.query.builder import _anthropic_credentials
 from src.lodestone.config.settings import Settings
 
 _MAX_ANSWER_CHARS = 600
@@ -73,12 +74,12 @@ async def generate_chat_title(messages: list[dict[str, str]], settings: Settings
     first = messages[0]
     fallback = _fallback_title(first.get("query", ""), first.get("answer", ""))
 
-    llm = BedrockClaudeClient(
-        region=settings.bedrock_region,
+    llm = AnthropicLLMClient(
         model=settings.llm_model,
         temperature=0.2,
         max_tokens=32,
-        name=f"chat_title:{settings.bedrock_region}:{settings.llm_model}",
+        name=f"chat_title:{settings.llm_model}",
+        **_anthropic_credentials(settings),
     )
     try:
         raw = await llm.acall(prompt=_build_prompt(messages))

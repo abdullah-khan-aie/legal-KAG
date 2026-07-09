@@ -17,17 +17,16 @@ _PIPELINE_FILES = {
 
 
 def chat_llm_config(settings: Settings) -> dict[str, Any]:
-    """Config dict the registry uses to build the Bedrock Claude LLM client.
+    """Config dict the registry uses to build the Anthropic Claude LLM client.
 
     Throughput is bounded solely by the extraction concurrency (``model_execute_num``);
     there is no client-side rate limiter.
     """
     config = {
-        "type": "bedrock_claude",
-        "region": settings.bedrock_region,
+        "type": "anthropic",
         "model": settings.llm_model,
     }
-    config.update(_bedrock_credentials(settings))
+    config.update(_anthropic_credentials(settings))
     return config
 
 
@@ -43,18 +42,15 @@ def vectorize_model_config(settings: Settings, input_type: str) -> dict[str, Any
     return config
 
 
-def _bedrock_credentials(settings: Settings) -> dict[str, Any]:
-    """Explicit Bedrock keys from settings, or empty to use boto3's default chain.
+def _anthropic_credentials(settings: Settings) -> dict[str, Any]:
+    """Anthropic API key from settings, or empty to fall back to ANTHROPIC_API_KEY.
 
-    The ``SecretStr`` objects (not the plaintext) are placed in the client config,
-    so the values stay masked as ``**********`` in any logs; the client unwraps
-    them only at the point it hands them to boto3/aioboto3.
+    The ``SecretStr`` (not the plaintext) is placed in the client config, so the
+    value stays masked as ``**********`` in any logs; the client unwraps it only at
+    the point it constructs the Anthropic SDK client.
     """
-    if settings.bedrock_access_key_id and settings.bedrock_secret_access_key:
-        return {
-            "aws_access_key_id": settings.bedrock_access_key_id,
-            "aws_secret_access_key": settings.bedrock_secret_access_key,
-        }
+    if settings.anthropic_api_key:
+        return {"api_key": settings.anthropic_api_key}
     return {}
 
 

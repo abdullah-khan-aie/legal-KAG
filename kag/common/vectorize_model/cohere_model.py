@@ -6,14 +6,15 @@
 # blocking caller actually hits it (entity linking during post-processing, and
 # the query-time vector retrievers, which call the sync method). An async client
 # is bound to the event loop it runs on, so a sync caller cannot share it; the
-# lazy sync client mirrors the boto3-alongside-aioboto3 split the Bedrock client
-# used, for the same reason -- but it is never constructed in a pure-async path.
+# lazy sync client mirrors the sync/async split of the Anthropic LLM client, for
+# the same reason -- but it is never constructed in a pure-async path.
 #
 # Cohere is input-type aware: ingestion embeds the corpus with "search_document"
 # and retrieval embeds queries with "search_query". We accept kag's "document"/
 # "query" aliases too and normalize them.
 
 import asyncio
+import contextlib
 from collections.abc import Iterable
 
 import cohere
@@ -26,6 +27,24 @@ _INPUT_TYPE_ALIASES = {
     "document": "search_document",
     "query": "search_query",
 }
+
+
+def _obs():
+    """Lazily import the app's observability helpers (kag stays standalone)."""
+    try:
+        from src.lodestone.observability import tracing as o
+
+        return o
+    except Exception:
+        return None
+
+
+def _billed_tokens(response):
+    """Best-effort read of Cohere's billed input tokens; None if unavailable."""
+    try:
+        return response.meta.billed_units.input_tokens
+    except Exception:
+        return None
 
 
 def _unwrap_secret(value):
@@ -133,7 +152,20 @@ class CohereVectorizeModel(VectorizeModelABC):
         payload = [texts] if single else list(texts)
 
         client = await self._aget_client()
-        response = await client.embed(**self._request(payload))
+        # Trace as a Langfuse generation (nested under the document's "embed"
+        # span) with Cohere token usage where available, else the text count.
+        o = _obs()
+        gen_cm = o.span("cohere.embed", as_type="generation", model=self.model) if o else None
+        with gen_cm if gen_cm is not None else contextlib.nullcontext() as gen:
+            response = await client.embed(**self._request(payload))
+            if o is not None and gen is not None:
+                toks = _billed_tokens(response)
+                o.record_generation_usage(
+                    gen,
+                    model=self.model,
+                    input_tokens=toks if toks is not None else len(payload),
+                    kind="embed",
+                )
         results = self._floats(response)
 
         if single:

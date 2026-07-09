@@ -27,7 +27,7 @@ from collections import defaultdict
 from pathlib import Path
 from typing import Any
 
-from kag.common.llm.bedrock_claude_client import aclose_all_bedrock_clients
+from kag.common.llm.anthropic_client import aclose_all_anthropic_clients
 from kag.interface import LLMClient
 from src.lodestone.application.query.builder import chat_llm_config
 from src.lodestone.application.query.streaming import stream_query_events
@@ -57,8 +57,8 @@ async def run_query(query: str, pipeline: str) -> str:
 
 
 def _build_judge_llm() -> LLMClient:
-    # Ensure the bedrock_claude client type is registered before from_config.
-    import kag.common.llm.bedrock_claude_client  # noqa: F401
+    # Ensure the anthropic client type is registered before from_config.
+    import kag.common.llm.anthropic_client  # noqa: F401
 
     return LLMClient.from_config(chat_llm_config(get_settings()))
 
@@ -106,7 +106,7 @@ async def evaluate(pipelines: list[str], limit: int | None) -> dict[str, Any]:
                     }
                 )
     finally:
-        await aclose_all_bedrock_clients()
+        await aclose_all_anthropic_clients()
     return {"results": results, "summary": _summarize(results)}
 
 
