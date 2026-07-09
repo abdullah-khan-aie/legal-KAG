@@ -177,9 +177,7 @@ class IngestionPipeline:
             # contextvars.Context() gives each worker no ambient span; extractions
             # attach only via the explicit trace_context we pass per item.
             self._workers = [
-                loop.create_task(
-                    self._extract_worker(queue), context=contextvars.Context()
-                )
+                loop.create_task(self._extract_worker(queue), context=contextvars.Context())
                 for _ in range(self._model_execute_num)
             ]
             self._work_queue = queue
