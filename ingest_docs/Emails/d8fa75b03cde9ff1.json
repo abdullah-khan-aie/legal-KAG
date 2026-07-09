@@ -1,0 +1,45 @@
+{
+  "id": "d8fa75b03cde9ff1",
+  "messages": [
+    {
+      "id": "d8fa75b03cde9ff1",
+      "snippet": "Tom, First draft of the Remediation Action Plan and Undertakings for the HSE - covers the immediate ",
+      "subject": "Remediation plan - first draft for the HSE",
+      "sender": "gail.sutton@penningtonindustries.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "derek.fenn@penningtonindustries.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-11T09:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom,\n\nFirst draft of the Remediation Action Plan and Undertakings for the HSE - covers the immediate measures, the switch replacement programme, the audit and the maintenance changes. Grateful for your mark-up before Richard signs.\n\nGail Sutton\nSHEQ Manager, Pennington Industries",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>First draft of the Remediation Action Plan and Undertakings for the HSE - covers the immediate measures, the switch replacement programme, the audit and the maintenance changes. Grateful for your mark-up before Richard signs.<br><br>Gail Sutton<br>SHEQ Manager, Pennington Industries</div>"
+    },
+    {
+      "id": "5d77a81307532ca0",
+      "snippet": "Gail, My mark-up (v2) is done. The HSE indicated on 19 February they want firmer commitments, so I'v",
+      "subject": "RE: Remediation plan - first draft for the HSE",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "gail.sutton@penningtonindustries.com"
+      ],
+      "ccRecipients": [
+        "derek.fenn@penningtonindustries.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-24T15:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Gail,\n\nMy mark-up (v2) is done. The HSE indicated on 19 February they want firmer commitments, so I've: tightened function-test intervals from six months to four; added CEO-level escalation for tasks overdue more than 14 days; added a long-stop of 30 September 2026 to complete the switch replacement programme; moved board review of the register to every two months until remediation is complete; and committed to monthly written progress reports. These strengthen our mitigation. Please review with Derek; once agreed we'll prepare a clean version for signature.\n\nTom\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Wed, Feb 11, 2026 at 9:30 AM, Gail Sutton <gail.sutton@penningtonindustries.com> wrote:\n> Tom,\n>\n> First draft of the Remediation Action Plan and Undertakings for the HSE - covers the immediate measures, the switch replacement programme, the audit and the maintenance changes. Grateful for your mark-up before Richard signs.\n>\n> Gail Sutton\n> SHEQ Manager, Pennington Industries",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Gail,<br><br>My mark-up (v2) is done. The HSE indicated on 19 February they want firmer commitments, so I&#x27;ve: tightened function-test intervals from six months to four; added CEO-level escalation for tasks overdue more than 14 days; added a long-stop of 30 September 2026 to complete the switch replacement programme; moved board review of the register to every two months until remediation is complete; and committed to monthly written progress reports. These strengthen our mitigation. Please review with Derek; once agreed we&#x27;ll prepare a clean version for signature.<br><br>Tom<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 11, 2026 at 9:30 AM, Gail Sutton &lt;gail.sutton@penningtonindustries.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom,<br><br>First draft of the Remediation Action Plan and Undertakings for the HSE - covers the immediate measures, the switch replacement programme, the audit and the maintenance changes. Grateful for your mark-up before Richard signs.<br><br>Gail Sutton<br>SHEQ Manager, Pennington Industries</div></blockquote></div></div>"
+    }
+  ]
+}

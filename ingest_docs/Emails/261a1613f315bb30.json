@@ -1,0 +1,57 @@
+{
+  "id": "261a1613f315bb30",
+  "messages": [
+    {
+      "id": "261a1613f315bb30",
+      "snippet": "All, Delighted to confirm the Series C completed today. £55m subscribed, 12,309,524 Series C shares ",
+      "subject": "Project Slate - COMPLETED",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.penrose@penroserobotics.com",
+        "priya.forsyth@penroserobotics.com",
+        "nadia.verghese@penroserobotics.com",
+        "rohan.mistry@thornabygrowth.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-04-17T15:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "All,\n\nDelighted to confirm the Series C completed today. £55m subscribed, 12,309,524 Series C shares issued at £4.4681. Executed subscription agreement attached for your records. We'll file SH01 and the special resolution at Companies House within the deadlines and send share certificates shortly.\n\nCongratulations to everyone.\n\nElena\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>Delighted to confirm the Series C completed today. £55m subscribed, 12,309,524 Series C shares issued at £4.4681. Executed subscription agreement attached for your records. We&#x27;ll file SH01 and the special resolution at Companies House within the deadlines and send share certificates shortly.<br><br>Congratulations to everyone.<br><br>Elena<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "Q8HPwNXjq774JNWK4LhHbZtapsGb9F74yt-jEp1vOzg"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Slate_SubscriptionAgreement_Executed.pdf",
+          "id": "Q8HPwNXjq774JNWK4LhHbZtapsGb9F74yt-jEp1vOzg",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "374d6d0755bd9d75",
+      "snippet": "Fantastic work from the whole WC team. Thank you Sarah, James and Elena. Marcus",
+      "subject": "RE: Project Slate - COMPLETED",
+      "sender": "marcus.penrose@penroserobotics.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-17T18:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Fantastic work from the whole WC team. Thank you Sarah, James and Elena.\n\nMarcus\n\nOn Fri, Apr 17, 2026 at 3:30 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> All,\n>\n> Delighted to confirm the Series C completed today. £55m subscribed, 12,309,524 Series C shares issued at £4.4681. Executed subscription agreement attached for your records. We'll file SH01 and the special resolution at Companies House within the deadlines and send share certificates shortly.\n>\n> Congratulations to everyone.\n>\n> Elena\n>\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Fantastic work from the whole WC team. Thank you Sarah, James and Elena.<br><br>Marcus</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Apr 17, 2026 at 3:30 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">All,<br><br>Delighted to confirm the Series C completed today. £55m subscribed, 12,309,524 Series C shares issued at £4.4681. Executed subscription agreement attached for your records. We&#x27;ll file SH01 and the special resolution at Companies House within the deadlines and send share certificates shortly.<br><br>Congratulations to everyone.<br><br>Elena<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "id": "ae1a021d74a84f1a",
+  "messages": [
+    {
+      "id": "ae1a021d74a84f1a",
+      "snippet": "Elena, Sofia, Formal validity and freedom-to-operate confirmation attached for signing. The four gra",
+      "subject": "Project Umbra - validity & FTO confirmation",
+      "sender": "alan.foster@hartingtonip.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com",
+        "sofia.trevino@caspiantech.io"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-16T14:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena, Sofia,\n\nFormal validity and freedom-to-operate confirmation attached for signing. The four granted members are valid and in force; the two pending US/EP equivalents are progressing. No matter that would prevent Caspian granting the exclusive licence.\n\nAlan",
+      "htmlBody": "<div dir=\"ltr\">Elena, Sofia,<br><br>Formal validity and freedom-to-operate confirmation attached for signing. The four granted members are valid and in force; the two pending US/EP equivalents are progressing. No matter that would prevent Caspian granting the exclusive licence.<br><br>Alan</div>",
+      "attachmentIds": [
+        "G7NUxUkks9GW-b0oXLzZv_1J89uPnlKsAyn6g9P8kh8"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Umbra_PatentValidityOpinion.pdf",
+          "id": "G7NUxUkks9GW-b0oXLzZv_1J89uPnlKsAyn6g9P8kh8",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

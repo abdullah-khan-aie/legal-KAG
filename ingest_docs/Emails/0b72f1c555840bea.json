@@ -1,0 +1,53 @@
+{
+  "id": "0b72f1c555840bea",
+  "messages": [
+    {
+      "id": "0b72f1c555840bea",
+      "snippet": "James, Confirming completion of Ashby House has taken place. We acknowledge receipt of the completio",
+      "subject": "Project Ember — COMPLETED — executed contract & transfer",
+      "sender": "rachel.voss@pendlevoss.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "dominic.pendle@pendlevoss.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-15T13:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James,\n\nConfirming completion of Ashby House has taken place. We acknowledge receipt of the completion monies. The executed contract (attached) and dated transfer are released to you, together with the rent deposit deed and the title documents. Our client's undertaking re the Clydesford discharge stands; the DS1 will follow.\n\nA pleasure working with you on this one.\n\nRachel Voss\nPendle Voss LLP",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Confirming completion of Ashby House has taken place. We acknowledge receipt of the completion monies. The executed contract (attached) and dated transfer are released to you, together with the rent deposit deed and the title documents. Our client&#x27;s undertaking re the Clydesford discharge stands; the DS1 will follow.<br><br>A pleasure working with you on this one.<br><br>Rachel Voss<br>Pendle Voss LLP</div>",
+      "attachmentIds": [
+        "E9drYx8Kv0kRNt3KtJCXIUlcKKd_eJajLTg9hne_J6s"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Ember_SaleContract_Executed.pdf",
+          "id": "E9drYx8Kv0kRNt3KtJCXIUlcKKd_eJajLTg9hne_J6s",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "4f5ee36c3b45c62f",
+      "snippet": "Rachel — received with thanks, and likewise. We'll serve the tenant notices and file the SDLT return",
+      "subject": "RE: Project Ember — COMPLETED — executed contract & transfer",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "rachel.voss@pendlevoss.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-15T16:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Rachel — received with thanks, and likewise. We'll serve the tenant notices and file the SDLT return this week, then register at HMLR. We'll chase the DS1 in due course. Best, James\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0537\n\nOn Fri, May 15, 2026 at 1:45 PM, Rachel Voss <rachel.voss@pendlevoss.com> wrote:\n> James,\n>\n> Confirming completion of Ashby House has taken place. We acknowledge receipt of the completion monies. The executed contract (attached) and dated transfer are released to you, together with the rent deposit deed and the title documents. Our client's undertaking re the Clydesford discharge stands; the DS1 will follow.\n>\n> A pleasure working with you on this one.\n>\n> Rachel Voss\n> Pendle Voss LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Rachel — received with thanks, and likewise. We&#x27;ll serve the tenant notices and file the SDLT return this week, then register at HMLR. We&#x27;ll chase the DS1 in due course. Best, James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0537</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, May 15, 2026 at 1:45 PM, Rachel Voss &lt;rachel.voss@pendlevoss.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Confirming completion of Ashby House has taken place. We acknowledge receipt of the completion monies. The executed contract (attached) and dated transfer are released to you, together with the rent deposit deed and the title documents. Our client&#x27;s undertaking re the Clydesford discharge stands; the DS1 will follow.<br><br>A pleasure working with you on this one.<br><br>Rachel Voss<br>Pendle Voss LLP</div></blockquote></div></div>"
+    }
+  ]
+}

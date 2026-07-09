@@ -1,0 +1,56 @@
+{
+  "id": "cff96e33acba165f",
+  "messages": [
+    {
+      "id": "cff96e33acba165f",
+      "snippet": "Dear Robert and Grace, I'm pleased to confirm that the Manufacturing and Supply Agreement with Calde",
+      "subject": "Project Cedar — completed and signed",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "robert.falconer@halsteadaerospace.com",
+        "grace.underwood@halsteadaerospace.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-12-05T15:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Robert and Grace,\n\nI'm pleased to confirm that the Manufacturing and Supply Agreement with Caldera Mobility was executed today. I attach the signed execution version for your records; the Quality Agreement and SOW No. 1 were signed alongside it. Counterparts have been exchanged with Denham Lewis.\n\nCongratulations to the whole team — this has been a well-run negotiation. We'll send our final invoice and a short closing note next week, and we remain available for any questions on first-article inspection and the tooling milestones.\n\nKind regards,\nJames\n\nJames Osei | Senior Associate\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0521\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Robert and Grace,<br><br>I&#x27;m pleased to confirm that the Manufacturing and Supply Agreement with Caldera Mobility was executed today. I attach the signed execution version for your records; the Quality Agreement and SOW No. 1 were signed alongside it. Counterparts have been exchanged with Denham Lewis.<br><br>Congratulations to the whole team — this has been a well-run negotiation. We&#x27;ll send our final invoice and a short closing note next week, and we remain available for any questions on first-article inspection and the tooling milestones.<br><br>Kind regards,<br>James<br><br>James Osei | Senior Associate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0521<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "IHef88qV1lrBDhLfFZ1QWyz217ALyp-i9Y3n9pPybtA"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Cedar_MSA_Executed.pdf",
+          "id": "IHef88qV1lrBDhLfFZ1QWyz217ALyp-i9Y3n9pPybtA",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "2a68a51a7620d04f",
+      "snippet": "James — excellent news and a great result on exclusivity and the IPR points in particular. Thank you",
+      "subject": "RE: Project Cedar — completed and signed",
+      "sender": "robert.falconer@halsteadaerospace.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "grace.underwood@halsteadaerospace.com"
+      ],
+      "date": "2025-12-05T18:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "James — excellent news and a great result on exclusivity and the IPR points in particular. Thank you and the team for the work. We'll be in touch about the next programme.\n\nRobert\n\nOn Fri, Dec 5, 2025 at 3:20 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Dear Robert and Grace,\n>\n> I'm pleased to confirm that the Manufacturing and Supply Agreement with Caldera Mobility was executed today. I attach the signed execution version for your records; the Quality Agreement and SOW No. 1 were signed alongside it. Counterparts have been exchanged with Denham Lewis.\n>\n> Congratulations to the whole team — this has been a well-run negotiation. We'll send our final invoice and a short closing note next week, and we remain available for any questions on first-article inspection and the tooling milestones.\n>\n> Kind regards,\n> James\n>\n> James Osei | Senior Associate\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 0521\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James — excellent news and a great result on exclusivity and the IPR points in particular. Thank you and the team for the work. We&#x27;ll be in touch about the next programme.<br><br>Robert</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Dec 5, 2025 at 3:20 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Robert and Grace,<br><br>I&#x27;m pleased to confirm that the Manufacturing and Supply Agreement with Caldera Mobility was executed today. I attach the signed execution version for your records; the Quality Agreement and SOW No. 1 were signed alongside it. Counterparts have been exchanged with Denham Lewis.<br><br>Congratulations to the whole team — this has been a well-run negotiation. We&#x27;ll send our final invoice and a short closing note next week, and we remain available for any questions on first-article inspection and the tooling milestones.<br><br>Kind regards,<br>James<br><br>James Osei | Senior Associate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0521<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

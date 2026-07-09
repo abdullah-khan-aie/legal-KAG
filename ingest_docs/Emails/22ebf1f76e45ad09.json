@@ -1,0 +1,21 @@
+{
+  "id": "22ebf1f76e45ad09",
+  "messages": [
+    {
+      "id": "22ebf1f76e45ad09",
+      "snippet": "Hi all, The litigation team summer lunch is booked for Friday 12 June, 12:30 at The Anchor. Please l",
+      "subject": "Summer team lunch - 12 June, please RSVP",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "litigation.group@whitfieldcarter.com"
+      ],
+      "date": "2026-05-13T16:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi all,\n\nThe litigation team summer lunch is booked for Friday 12 June, 12:30 at The Anchor. Please let me know any dietary requirements by 6 June. Partners are covering it this year!\n\nDonna",
+      "htmlBody": "<div dir=\"ltr\">Hi all,<br><br>The litigation team summer lunch is booked for Friday 12 June, 12:30 at The Anchor. Please let me know any dietary requirements by 6 June. Partners are covering it this year!<br><br>Donna</div>"
+    }
+  ]
+}

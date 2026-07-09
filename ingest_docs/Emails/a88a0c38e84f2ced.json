@@ -1,0 +1,54 @@
+{
+  "id": "a88a0c38e84f2ced",
+  "messages": [
+    {
+      "id": "a88a0c38e84f2ced",
+      "snippet": "Gregory, Priya, Completion funds flow attached for sign-off. Sources £46.6m (equity £32.6m + senior ",
+      "subject": "Project Falcon - completion funds flow",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "gregory.talbot@calderstonecapital.com",
+        "priya.sharma@sterlingcommercialbank.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-24T18:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Gregory, Priya,\n\nCompletion funds flow attached for sign-off. Sources £46.6m (equity £32.6m + senior £14.0m); applications cover £42.6m to the sellers, £2.0m into escrow, debt payoff, fees and stamp duty. It balances to nil. Please confirm payment instructions for the 27th.\n\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Gregory, Priya,<br><br>Completion funds flow attached for sign-off. Sources £46.6m (equity £32.6m + senior £14.0m); applications cover £42.6m to the sellers, £2.0m into escrow, debt payoff, fees and stamp duty. It balances to nil. Please confirm payment instructions for the 27th.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "ubspMB4GzrVeYv9RXP7IHMU-5GqeNp9eqsxbMB5ykzk"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Falcon_FundsFlow.xlsx",
+          "id": "ubspMB4GzrVeYv9RXP7IHMU-5GqeNp9eqsxbMB5ykzk",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "ef9feb895f964a3c",
+      "snippet": "Approved on our side. Priya, please confirm the bank is ready to draw down on the 27th. Gregory",
+      "subject": "RE: Project Falcon - completion funds flow",
+      "sender": "gregory.talbot@calderstonecapital.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "priya.sharma@sterlingcommercialbank.com"
+      ],
+      "date": "2026-02-25T09:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Approved on our side. Priya, please confirm the bank is ready to draw down on the 27th.\n\nGregory\n\nOn Tue, Feb 24, 2026 at 6:05 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Gregory, Priya,\n>\n> Completion funds flow attached for sign-off. Sources £46.6m (equity £32.6m + senior £14.0m); applications cover £42.6m to the sellers, £2.0m into escrow, debt payoff, fees and stamp duty. It balances to nil. Please confirm payment instructions for the 27th.\n>\n> James\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Approved on our side. Priya, please confirm the bank is ready to draw down on the 27th.<br><br>Gregory</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Feb 24, 2026 at 6:05 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Gregory, Priya,<br><br>Completion funds flow attached for sign-off. Sources £46.6m (equity £32.6m + senior £14.0m); applications cover £42.6m to the sellers, £2.0m into escrow, debt payoff, fees and stamp duty. It balances to nil. Please confirm payment instructions for the 27th.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

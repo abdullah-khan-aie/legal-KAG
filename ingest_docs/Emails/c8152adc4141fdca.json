@@ -1,0 +1,52 @@
+{
+  "id": "c8152adc4141fdca",
+  "messages": [
+    {
+      "id": "c8152adc4141fdca",
+      "snippet": "Sarah, Following our call last week, we'd like to instruct Whitfield Carter on the acquisition of Ce",
+      "subject": "Cedarbridge Business Park, Reading - instruction",
+      "sender": "daniel.quigley@thornburyproperties.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-09-15T09:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nFollowing our call last week, we'd like to instruct Whitfield Carter on the acquisition of Cedarbridge Business Park in Reading. We've agreed heads in principle with Westgate Trust Estates at £14.25m. Isla Fournier is leading internally and will be your day-to-day contact alongside Rebecca on the funding side.\n\nCan you send across an engagement letter and your AML requirements?\n\nDaniel\n\nDaniel Quigley\nManaging Director, Thornbury Properties Limited",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Following our call last week, we&#x27;d like to instruct Whitfield Carter on the acquisition of Cedarbridge Business Park in Reading. We&#x27;ve agreed heads in principle with Westgate Trust Estates at £14.25m. Isla Fournier is leading internally and will be your day-to-day contact alongside Rebecca on the funding side.<br><br>Can you send across an engagement letter and your AML requirements?<br><br>Daniel<br><br>Daniel Quigley<br>Managing Director, Thornbury Properties Limited</div>"
+    },
+    {
+      "id": "db501bfa06e4dbfe",
+      "snippet": "Daniel, Delighted to act. Our engagement letter is attached - James Osei (copied) will have day-to-d",
+      "subject": "RE: Cedarbridge Business Park, Reading - instruction",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.quigley@thornburyproperties.com"
+      ],
+      "ccRecipients": [
+        "isla.fournier@thornburyproperties.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-09-18T14:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Daniel,\n\nDelighted to act. Our engagement letter is attached - James Osei (copied) will have day-to-day conduct, with Elena Marchetti supporting. Please sign and return the duplicate, and our compliance team will be in touch about source of funds for the £14.25m (we understand cash reserves plus the Pennine facility).\n\nWe'll open the file as Project Cedar and start reviewing the Birchall Stone contract package as soon as it arrives.\n\nBest regards,\nSarah\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Mon, Sep 15, 2025 at 9:12 AM, Daniel Quigley <daniel.quigley@thornburyproperties.com> wrote:\n> Sarah,\n>\n> Following our call last week, we'd like to instruct Whitfield Carter on the acquisition of Cedarbridge Business Park in Reading. We've agreed heads in principle with Westgate Trust Estates at £14.25m. Isla Fournier is leading internally and will be your day-to-day contact alongside Rebecca on the funding side.\n>\n> Can you send across an engagement letter and your AML requirements?\n>\n> Daniel\n>\n> Daniel Quigley\n> Managing Director, Thornbury Properties Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Daniel,<br><br>Delighted to act. Our engagement letter is attached - James Osei (copied) will have day-to-day conduct, with Elena Marchetti supporting. Please sign and return the duplicate, and our compliance team will be in touch about source of funds for the £14.25m (we understand cash reserves plus the Pennine facility).<br><br>We&#x27;ll open the file as Project Cedar and start reviewing the Birchall Stone contract package as soon as it arrives.<br><br>Best regards,<br>Sarah<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Sep 15, 2025 at 9:12 AM, Daniel Quigley &lt;daniel.quigley@thornburyproperties.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Following our call last week, we&#x27;d like to instruct Whitfield Carter on the acquisition of Cedarbridge Business Park in Reading. We&#x27;ve agreed heads in principle with Westgate Trust Estates at £14.25m. Isla Fournier is leading internally and will be your day-to-day contact alongside Rebecca on the funding side.<br><br>Can you send across an engagement letter and your AML requirements?<br><br>Daniel<br><br>Daniel Quigley<br>Managing Director, Thornbury Properties Limited</div></blockquote></div></div>",
+      "attachmentIds": [
+        "uGog1KfmbBiZ-N-CJalD3axiTRy_obAV9i7O7QA6CTk"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Cedar_EngagementLetter.docx",
+          "id": "uGog1KfmbBiZ-N-CJalD3axiTRy_obAV9i7O7QA6CTk",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "01362b5e15e7f0c8",
+  "messages": [
+    {
+      "id": "01362b5e15e7f0c8",
+      "snippet": "Hi Tom, Our records show 11.4 hours unposted for the period to 27 June across two matters. Please co",
+      "subject": "Time recording - June narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-06-30T08:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi Tom,\n\nOur records show 11.4 hours unposted for the period to 27 June across two matters. Please complete your narratives by close on Friday so we can run the month-end bills. Thanks for your help.\n\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hi Tom,<br><br>Our records show 11.4 hours unposted for the period to 27 June across two matters. Please complete your narratives by close on Friday so we can run the month-end bills. Thanks for your help.<br><br>Accounts<br>Whitfield Carter LLP</div>"
+    },
+    {
+      "id": "6ba5e4cd59523caa",
+      "snippet": "All posted now - apologies for the delay, it was a busy month. Tom",
+      "subject": "RE: Time recording - June narratives outstanding",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "accounts@whitfieldcarter.com"
+      ],
+      "date": "2025-06-30T18:12:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "All posted now - apologies for the delay, it was a busy month. Tom\n\nOn Mon, Jun 30, 2025 at 8:00 AM, Accounts <accounts@whitfieldcarter.com> wrote:\n> Hi Tom,\n>\n> Our records show 11.4 hours unposted for the period to 27 June across two matters. Please complete your narratives by close on Friday so we can run the month-end bills. Thanks for your help.\n>\n> Accounts\n> Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">All posted now - apologies for the delay, it was a busy month. Tom</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Jun 30, 2025 at 8:00 AM, Accounts &lt;accounts@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Hi Tom,<br><br>Our records show 11.4 hours unposted for the period to 27 June across two matters. Please complete your narratives by close on Friday so we can run the month-end bills. Thanks for your help.<br><br>Accounts<br>Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

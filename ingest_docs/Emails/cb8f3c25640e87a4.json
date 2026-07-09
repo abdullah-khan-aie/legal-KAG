@@ -1,0 +1,51 @@
+{
+  "id": "cb8f3c25640e87a4",
+  "messages": [
+    {
+      "id": "cb8f3c25640e87a4",
+      "snippet": "Sarah, Good to catch up earlier. As discussed we'd like to instruct Whitfield Carter on the acquisit",
+      "subject": "Meridian Quarter, Leeds - instruction",
+      "sender": "isobel.hartley@halbrookestates.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-10-07T16:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nGood to catch up earlier. As discussed we'd like to instruct Whitfield Carter on the acquisition of Meridian Quarter at Wellington Place in Leeds. We're buying through a fresh SPV (Halbrook Meridian Propco Limited). Heads of terms are close to agreed with Tarncliffe at £14.75m, though we expect to chip the price on diligence. Funding will come 60% from Pennine Business Bank.\n\nCan you get an engagement letter across and we'll kick off?\n\nIsobel",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Good to catch up earlier. As discussed we&#x27;d like to instruct Whitfield Carter on the acquisition of Meridian Quarter at Wellington Place in Leeds. We&#x27;re buying through a fresh SPV (Halbrook Meridian Propco Limited). Heads of terms are close to agreed with Tarncliffe at £14.75m, though we expect to chip the price on diligence. Funding will come 60% from Pennine Business Bank.<br><br>Can you get an engagement letter across and we&#x27;ll kick off?<br><br>Isobel</div>"
+    },
+    {
+      "id": "64682a03e907af50",
+      "snippet": "Dear Isobel, Delighted to act. Our engagement letter is attached - day-to-day conduct will be with J",
+      "subject": "RE: Meridian Quarter, Leeds - instruction",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "isobel.hartley@halbrookestates.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-08T09:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Isobel,\n\nDelighted to act. Our engagement letter is attached - day-to-day conduct will be with James Osei, with Elena Marchetti assisting. We've cleared AML on Halbrook and the SPV.\n\nWe'll order searches once you confirm the budget and will review the title and tenancy pack as soon as Pendle Voss send it. I note the £14.75m headline and the expectation of a reduction following diligence.\n\nKind regards,\nSarah\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Tue, Oct 7, 2025 at 4:20 PM, Isobel Hartley <isobel.hartley@halbrookestates.com> wrote:\n> Sarah,\n>\n> Good to catch up earlier. As discussed we'd like to instruct Whitfield Carter on the acquisition of Meridian Quarter at Wellington Place in Leeds. We're buying through a fresh SPV (Halbrook Meridian Propco Limited). Heads of terms are close to agreed with Tarncliffe at £14.75m, though we expect to chip the price on diligence. Funding will come 60% from Pennine Business Bank.\n>\n> Can you get an engagement letter across and we'll kick off?\n>\n> Isobel",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Isobel,<br><br>Delighted to act. Our engagement letter is attached - day-to-day conduct will be with James Osei, with Elena Marchetti assisting. We&#x27;ve cleared AML on Halbrook and the SPV.<br><br>We&#x27;ll order searches once you confirm the budget and will review the title and tenancy pack as soon as Pendle Voss send it. I note the £14.75m headline and the expectation of a reduction following diligence.<br><br>Kind regards,<br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 7, 2025 at 4:20 PM, Isobel Hartley &lt;isobel.hartley@halbrookestates.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Good to catch up earlier. As discussed we&#x27;d like to instruct Whitfield Carter on the acquisition of Meridian Quarter at Wellington Place in Leeds. We&#x27;re buying through a fresh SPV (Halbrook Meridian Propco Limited). Heads of terms are close to agreed with Tarncliffe at £14.75m, though we expect to chip the price on diligence. Funding will come 60% from Pennine Business Bank.<br><br>Can you get an engagement letter across and we&#x27;ll kick off?<br><br>Isobel</div></blockquote></div></div>",
+      "attachmentIds": [
+        "_UleijulwgCeUiEY_JCCesky6JaCEn5bwqjoo5UL_6w"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Indigo_EngagementLetter.docx",
+          "id": "_UleijulwgCeUiEY_JCCesky6JaCEn5bwqjoo5UL_6w",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "b1e773072d864456",
+  "messages": [
+    {
+      "id": "b1e773072d864456",
+      "snippet": "You're invited to a lunchtime CPD session on Thursday 5 February, 12:30–13:30 in the Bishopsgate tra",
+      "subject": "Lunchtime CPD: 'Warranty & indemnity insurance — market update'",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "corporate.team@whitfieldcarter.com"
+      ],
+      "date": "2026-01-27T12:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "You're invited to a lunchtime CPD session on Thursday 5 February, 12:30–13:30 in the Bishopsgate training room (sandwiches provided). Our guest speaker from a leading W&I broker will cover current pricing, retention trends and recent claims experience. 1 hour CPD. RSVP to L&D.",
+      "htmlBody": "<div dir=\"ltr\">You&#x27;re invited to a lunchtime CPD session on Thursday 5 February, 12:30–13:30 in the Bishopsgate training room (sandwiches provided). Our guest speaker from a leading W&amp;I broker will cover current pricing, retention trends and recent claims experience. 1 hour CPD. RSVP to L&amp;D.</div>"
+    }
+  ]
+}

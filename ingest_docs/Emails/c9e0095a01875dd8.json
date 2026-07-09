@@ -1,0 +1,51 @@
+{
+  "id": "c9e0095a01875dd8",
+  "messages": [
+    {
+      "id": "c9e0095a01875dd8",
+      "snippet": "James, Our mark-up attached (tracked). The headline changes: - Clause 11.3: liability capped at the ",
+      "subject": "Project Lyra — licence mark-up (v2)",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "date": "2026-01-12T17:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James,\n\nOur mark-up attached (tracked). The headline changes:\n- Clause 11.3: liability capped at the £6m upfront fee (deletes your carve-outs);\n- Clause 4.1: hard diligence long-stop of 31 December 2027 for first Phase II, with conversion to non-exclusive if missed;\n- Clause 3.7: audit cost-shifting threshold reduced from 5% to 3%.\n\nThe rest is light. Dr Brandt is keen to sign this month if we can resolve clause 11.\n\nOliver",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our mark-up attached (tracked). The headline changes:<br>- Clause 11.3: liability capped at the £6m upfront fee (deletes your carve-outs);<br>- Clause 4.1: hard diligence long-stop of 31 December 2027 for first Phase II, with conversion to non-exclusive if missed;<br>- Clause 3.7: audit cost-shifting threshold reduced from 5% to 3%.<br><br>The rest is light. Dr Brandt is keen to sign this month if we can resolve clause 11.<br><br>Oliver</div>",
+      "attachmentIds": [
+        "gf-6zhQ4IgSfSDmMbh3oohZFr_qeRExSZ4EhySFCtGs"
+      ],
+      "attachments": [
+        {
+          "filename": "ProjectLyra_LicenceAgreement_v2_redline.docx",
+          "id": "gf-6zhQ4IgSfSDmMbh3oohZFr_qeRExSZ4EhySFCtGs",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "a7e12769f5385121",
+      "snippet": "Sarah, Elena — Calderbrook's v2 is in. As expected they've gone to a £6m hard cap and stripped the c",
+      "subject": "FW: Project Lyra — licence mark-up (v2)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-01-13T08:55:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Sarah, Elena — Calderbrook's v2 is in. As expected they've gone to a £6m hard cap and stripped the carve-outs, added the 31 Dec 2027 long-stop, and dropped the audit threshold to 3%. I'll prepare our counter (v3): reinstate uncapped IP warranties + confidentiality, general cap at greater of £10m / 12 months, push the long-stop to mid-2028, and revert audit to 5%. Will circulate internally before it goes back.\n\nJames\n\n--\nJames Osei | Senior Associate, Corporate\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Mon, Jan 12, 2026 at 5:40 PM, Oliver Jennings <oliver.jennings@birchallstone.com> wrote:\n> James,\n>\n> Our mark-up attached (tracked). The headline changes:\n> - Clause 11.3: liability capped at the £6m upfront fee (deletes your carve-outs);\n> - Clause 4.1: hard diligence long-stop of 31 December 2027 for first Phase II, with conversion to non-exclusive if missed;\n> - Clause 3.7: audit cost-shifting threshold reduced from 5% to 3%.\n>\n> The rest is light. Dr Brandt is keen to sign this month if we can resolve clause 11.\n>\n> Oliver",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah, Elena — Calderbrook&#x27;s v2 is in. As expected they&#x27;ve gone to a £6m hard cap and stripped the carve-outs, added the 31 Dec 2027 long-stop, and dropped the audit threshold to 3%. I&#x27;ll prepare our counter (v3): reinstate uncapped IP warranties + confidentiality, general cap at greater of £10m / 12 months, push the long-stop to mid-2028, and revert audit to 5%. Will circulate internally before it goes back.<br><br>James<br><br>--<br>James Osei | Senior Associate, Corporate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Jan 12, 2026 at 5:40 PM, Oliver Jennings &lt;oliver.jennings@birchallstone.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Our mark-up attached (tracked). The headline changes:<br>- Clause 11.3: liability capped at the £6m upfront fee (deletes your carve-outs);<br>- Clause 4.1: hard diligence long-stop of 31 December 2027 for first Phase II, with conversion to non-exclusive if missed;<br>- Clause 3.7: audit cost-shifting threshold reduced from 5% to 3%.<br><br>The rest is light. Dr Brandt is keen to sign this month if we can resolve clause 11.<br><br>Oliver</div></blockquote></div></div>"
+    }
+  ]
+}

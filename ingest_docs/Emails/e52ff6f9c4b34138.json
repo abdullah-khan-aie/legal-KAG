@@ -1,0 +1,47 @@
+{
+  "id": "e52ff6f9c4b34138",
+  "messages": [
+    {
+      "id": "e52ff6f9c4b34138",
+      "snippet": "Nadia, Please find our engagement letter for Project Marlin. Fee estimate £95k-£120k plus VAT for th",
+      "subject": "Project Marlin - engagement letter",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "nadia.forsyth@brightwateranalytics.com"
+      ],
+      "date": "2025-11-14T15:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Nadia,\n\nPlease find our engagement letter for Project Marlin. Fee estimate £95k-£120k plus VAT for the round on the basis set out. Grateful if you'd sign and return. Tax structuring stays with Marlow Tax; we'll liaise as needed.\n\nSarah\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Nadia,<br><br>Please find our engagement letter for Project Marlin. Fee estimate £95k-£120k plus VAT for the round on the basis set out. Grateful if you&#x27;d sign and return. Tax structuring stays with Marlow Tax; we&#x27;ll liaise as needed.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "iGRzdemypEN4UB14ajq4Cv4Wix-g_s4yfUXQTPa0cRo"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Marlin_EngagementLetter.docx",
+          "id": "iGRzdemypEN4UB14ajq4Cv4Wix-g_s4yfUXQTPa0cRo",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "d57da1a81c9b314b",
+      "snippet": "Signed copy attached separately to Donna. Let's go. Nadia",
+      "subject": "RE: Project Marlin - engagement letter",
+      "sender": "nadia.forsyth@brightwateranalytics.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-17T08:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Signed copy attached separately to Donna. Let's go. Nadia\n\nOn Fri, Nov 14, 2025 at 3:00 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Nadia,\n>\n> Please find our engagement letter for Project Marlin. Fee estimate £95k-£120k plus VAT for the round on the basis set out. Grateful if you'd sign and return. Tax structuring stays with Marlow Tax; we'll liaise as needed.\n>\n> Sarah\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Signed copy attached separately to Donna. Let&#x27;s go. Nadia</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Nov 14, 2025 at 3:00 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Nadia,<br><br>Please find our engagement letter for Project Marlin. Fee estimate £95k-£120k plus VAT for the round on the basis set out. Grateful if you&#x27;d sign and return. Tax structuring stays with Marlow Tax; we&#x27;ll liaise as needed.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

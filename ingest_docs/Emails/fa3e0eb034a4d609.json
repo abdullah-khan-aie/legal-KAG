@@ -1,0 +1,25 @@
+{
+  "id": "fa3e0eb034a4d609",
+  "messages": [
+    {
+      "id": "fa3e0eb034a4d609",
+      "snippet": "Dear James, Please find below our first list of legal due diligence enquiries. Responses in the data",
+      "subject": "Project Kestrel - legal due diligence enquiries",
+      "sender": "deepa.kovac@birchallstone.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sofia.trevino@caspiantech.io",
+        "oliver.jennings@birchallstone.com"
+      ],
+      "date": "2026-02-16T13:25:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear James,\n\nPlease find below our first list of legal due diligence enquiries. Responses in the data room would be appreciated by 27 February:\n\n1. Copies of all customer contracts representing more than 10% of ARR (we note Hartwell Energy plc).\n2. The licence with Marlowe Data Services for the emissions-factor datasets, and any change-of-control provisions.\n3. The EMI option pool documentation and the current option holder list.\n4. Confirmation of the status of the 'Caspian Carbon Engine' trade mark application.\n5. Details of any employee grievances, disputes or threatened claims.\n\nWe will send tax and financial enquiries separately.\n\nDeepa Kovac\nBirchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear James,<br><br>Please find below our first list of legal due diligence enquiries. Responses in the data room would be appreciated by 27 February:<br><br>1. Copies of all customer contracts representing more than 10% of ARR (we note Hartwell Energy plc).<br>2. The licence with Marlowe Data Services for the emissions-factor datasets, and any change-of-control provisions.<br>3. The EMI option pool documentation and the current option holder list.<br>4. Confirmation of the status of the &#x27;Caspian Carbon Engine&#x27; trade mark application.<br>5. Details of any employee grievances, disputes or threatened claims.<br><br>We will send tax and financial enquiries separately.<br><br>Deepa Kovac<br>Birchall Stone LLP</div>"
+    }
+  ]
+}

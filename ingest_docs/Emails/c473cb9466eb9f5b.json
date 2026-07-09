@@ -1,0 +1,53 @@
+{
+  "id": "c473cb9466eb9f5b",
+  "messages": [
+    {
+      "id": "c473cb9466eb9f5b",
+      "snippet": "Alistair, Our response mark-up attached (tracked over your v2). We've moved to: exclusivity six year",
+      "subject": "Project Indigo - Licence (v3, our response)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "nadia.iqbal@pembertonrowe.com",
+        "sofia.trevino@caspiantech.io"
+      ],
+      "date": "2026-02-11T16:45:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Alistair,\n\nOur response mark-up attached (tracked over your v2). We've moved to: exclusivity six years; minimum annual royalty £1.05m; general liability cap 125% of fees; IP indemnity cap £13.5m; and a small relaxation of the acceptance accuracy threshold to ±2.5%. Core-platform improvements remain with Caspian. We think this is a fair landing zone.\n\nJames\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Alistair,<br><br>Our response mark-up attached (tracked over your v2). We&#x27;ve moved to: exclusivity six years; minimum annual royalty £1.05m; general liability cap 125% of fees; IP indemnity cap £13.5m; and a small relaxation of the acceptance accuracy threshold to ±2.5%. Core-platform improvements remain with Caspian. We think this is a fair landing zone.<br><br>James<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "fqmuF9Yf1PeMDxMHqIv68rEayjKGFRF4DIUdO-fNYvs"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Indigo_Licence_v3_redline.docx",
+          "id": "fqmuF9Yf1PeMDxMHqIv68rEayjKGFRF4DIUdO-fNYvs",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "ad83b81623db543f",
+      "snippet": "James - Aerelon can accept this package. We'll prepare the engrossment for a 14 March signing. Discl",
+      "subject": "RE: Project Indigo - Licence (v3, our response)",
+      "sender": "alistair.whitlock@pembertonrowe.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "robert.haines@aerelonaviation.com"
+      ],
+      "date": "2026-02-16T10:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "James - Aerelon can accept this package. We'll prepare the engrossment for a 14 March signing. Disclosure letter and the CL-PAT-004 assignment to follow from your side. Alistair\n\nOn Wed, Feb 11, 2026 at 4:45 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Alistair,\n>\n> Our response mark-up attached (tracked over your v2). We've moved to: exclusivity six years; minimum annual royalty £1.05m; general liability cap 125% of fees; IP indemnity cap £13.5m; and a small relaxation of the acceptance accuracy threshold to ±2.5%. Core-platform improvements remain with Caspian. We think this is a fair landing zone.\n>\n> James\n>\n> —\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James - Aerelon can accept this package. We&#x27;ll prepare the engrossment for a 14 March signing. Disclosure letter and the CL-PAT-004 assignment to follow from your side. Alistair</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 11, 2026 at 4:45 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Alistair,<br><br>Our response mark-up attached (tracked over your v2). We&#x27;ve moved to: exclusivity six years; minimum annual royalty £1.05m; general liability cap 125% of fees; IP indemnity cap £13.5m; and a small relaxation of the acceptance accuracy threshold to ±2.5%. Core-platform improvements remain with Caspian. We think this is a fair landing zone.<br><br>James<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

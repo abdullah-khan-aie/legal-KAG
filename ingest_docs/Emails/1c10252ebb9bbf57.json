@@ -1,0 +1,37 @@
+{
+  "id": "1c10252ebb9bbf57",
+  "messages": [
+    {
+      "id": "1c10252ebb9bbf57",
+      "snippet": "James — separate matter, but can you cover my Crestview / Marwood Bidco completion call on Wednesday",
+      "subject": "Marwood Bidco — completion this week",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-04-06T18:40:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James — separate matter, but can you cover my Crestview / Marwood Bidco completion call on Wednesday at 9am if I'm still tied up on another closing? Should just be a bring-down and funds-flow sign-off. Will brief you tomorrow. Thanks.\n\nSarah Whitfield\nPartner | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">James — separate matter, but can you cover my Crestview / Marwood Bidco completion call on Wednesday at 9am if I&#x27;m still tied up on another closing? Should just be a bring-down and funds-flow sign-off. Will brief you tomorrow. Thanks.<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP</div>"
+    },
+    {
+      "id": "37259d8a7c53c24b",
+      "snippet": "Yes, can cover — just send me the funds flow and the checklist and I'll be across it. James",
+      "subject": "RE: Marwood Bidco — completion this week",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-06T19:02:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Yes, can cover — just send me the funds flow and the checklist and I'll be across it. James\n\nOn Mon, Apr 6, 2026 at 6:40 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> James — separate matter, but can you cover my Crestview / Marwood Bidco completion call on Wednesday at 9am if I'm still tied up on another closing? Should just be a bring-down and funds-flow sign-off. Will brief you tomorrow. Thanks.\n>\n> Sarah Whitfield\n> Partner | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Yes, can cover — just send me the funds flow and the checklist and I&#x27;ll be across it. James</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Apr 6, 2026 at 6:40 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James — separate matter, but can you cover my Crestview / Marwood Bidco completion call on Wednesday at 9am if I&#x27;m still tied up on another closing? Should just be a bring-down and funds-flow sign-off. Will brief you tomorrow. Thanks.<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ef168260421a3895",
+  "messages": [
+    {
+      "id": "ef168260421a3895",
+      "snippet": "Hi Tom, Our records show unposted time for the week commencing 21 July. Please post all outstanding ",
+      "subject": "Reminder: time entries outstanding for July",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-08-01T08:15:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi Tom,\n\nOur records show unposted time for the week commencing 21 July. Please post all outstanding entries by close of business Wednesday so we can run the July client bills. If any of this relates to matters that should be written off, let me know.\n\nThanks,\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hi Tom,<br><br>Our records show unposted time for the week commencing 21 July. Please post all outstanding entries by close of business Wednesday so we can run the July client bills. If any of this relates to matters that should be written off, let me know.<br><br>Thanks,<br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

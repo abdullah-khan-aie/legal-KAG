@@ -1,0 +1,22 @@
+{
+  "id": "9f9acce2778124e9",
+  "messages": [
+    {
+      "id": "9f9acce2778124e9",
+      "snippet": "Hi both, Friendly reminder that all September time must be recorded and released by 5pm on Wednesday",
+      "subject": "Time recording - September month-end reminder",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-09-30T16:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi both,\n\nFriendly reminder that all September time must be recorded and released by 5pm on Wednesday 2 October for month-end billing. Several matters currently show unposted time. Please also ensure narratives are client-ready.\n\nThanks\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hi both,<br><br>Friendly reminder that all September time must be recorded and released by 5pm on Wednesday 2 October for month-end billing. Several matters currently show unposted time. Please also ensure narratives are client-ready.<br><br>Thanks<br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

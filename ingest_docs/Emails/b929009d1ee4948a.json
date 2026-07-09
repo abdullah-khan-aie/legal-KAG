@@ -1,0 +1,44 @@
+{
+  "id": "b929009d1ee4948a",
+  "messages": [
+    {
+      "id": "b929009d1ee4948a",
+      "snippet": "Dear all, With the LSA now agreed, we propose execution by way of exchange of PDF signature pages on",
+      "subject": "Project Juniper - signing arrangements",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "gordon.sutherland@sutherlandlogistics.co.uk",
+        "lesley.crane@sutherlandlogistics.co.uk",
+        "sandra.okafor@wexbourneretail.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-05-15T09:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear all,\n\nWith the LSA now agreed, we propose execution by way of exchange of PDF signature pages on Monday 18 May. I'll circulate the execution version and signature pages this afternoon. Please confirm signatories: for Sutherland, Gordon Sutherland (MD); for Wexbourne, Daniel Wexbourne (CEO).\n\nKind regards,\nDonna Bridges\nPractice Assistant to Sarah Whitfield\n\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>With the LSA now agreed, we propose execution by way of exchange of PDF signature pages on Monday 18 May. I&#x27;ll circulate the execution version and signature pages this afternoon. Please confirm signatories: for Sutherland, Gordon Sutherland (MD); for Wexbourne, Daniel Wexbourne (CEO).<br><br>Kind regards,<br>Donna Bridges<br>Practice Assistant to Sarah Whitfield<br><br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "115e79c90c77ca0f",
+      "snippet": "Confirmed - Daniel will sign for Wexbourne. Monday works. Thanks, Sandra",
+      "subject": "RE: Project Juniper - signing arrangements",
+      "sender": "sandra.okafor@wexbourneretail.com",
+      "toRecipients": [
+        "donna.bridges@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-05-15T13:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Confirmed - Daniel will sign for Wexbourne. Monday works. Thanks, Sandra\n\nOn Fri, May 15, 2026 at 9:30 AM, Donna Bridges <donna.bridges@whitfieldcarter.com> wrote:\n> Dear all,\n>\n> With the LSA now agreed, we propose execution by way of exchange of PDF signature pages on Monday 18 May. I'll circulate the execution version and signature pages this afternoon. Please confirm signatories: for Sutherland, Gordon Sutherland (MD); for Wexbourne, Daniel Wexbourne (CEO).\n>\n> Kind regards,\n> Donna Bridges\n> Practice Assistant to Sarah Whitfield\n>\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Confirmed - Daniel will sign for Wexbourne. Monday works. Thanks, Sandra</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, May 15, 2026 at 9:30 AM, Donna Bridges &lt;donna.bridges@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear all,<br><br>With the LSA now agreed, we propose execution by way of exchange of PDF signature pages on Monday 18 May. I&#x27;ll circulate the execution version and signature pages this afternoon. Please confirm signatories: for Sutherland, Gordon Sutherland (MD); for Wexbourne, Daniel Wexbourne (CEO).<br><br>Kind regards,<br>Donna Bridges<br>Practice Assistant to Sarah Whitfield<br><br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

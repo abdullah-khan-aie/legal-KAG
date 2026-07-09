@@ -1,0 +1,59 @@
+{
+  "id": "7cd6de99621e0552",
+  "messages": [
+    {
+      "id": "7cd6de99621e0552",
+      "snippet": "Sarah, I've been through the Supply Agreement. Clause 12 caps aggregate liability at 150% of the pri",
+      "subject": "Harrow v Brevdale - clause 12 and the clause 7 carve-out",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2024-10-03T16:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah,\n\nI've been through the Supply Agreement. Clause 12 caps aggregate liability at 150% of the price paid in the preceding 12 months. Harrow paid £611,200 for the relevant deliveries, so on Brevdale's reading the cap is £916,800. BUT clause 12 has a carve-out: 'nothing in the Supply Agreement limits liability for breach of clause 7'. Clause 7 is the conformity warranty - exactly what's been breached.\n\nMy view is the carve-out is unqualified and knocks out the cap for these breaches. Brevdale will say it only carves out the clause 9.2 replacement remedy. Worth getting Harriet's view early.\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>I&#x27;ve been through the Supply Agreement. Clause 12 caps aggregate liability at 150% of the price paid in the preceding 12 months. Harrow paid £611,200 for the relevant deliveries, so on Brevdale&#x27;s reading the cap is £916,800. BUT clause 12 has a carve-out: &#x27;nothing in the Supply Agreement limits liability for breach of clause 7&#x27;. Clause 7 is the conformity warranty - exactly what&#x27;s been breached.<br><br>My view is the carve-out is unqualified and knocks out the cap for these breaches. Brevdale will say it only carves out the clause 9.2 replacement remedy. Worth getting Harriet&#x27;s view early.<br><br>James</div>"
+    },
+    {
+      "id": "78af2cd87bd4a96d",
+      "snippet": "Agreed. Let's instruct Harriet Stanford for the advice and the pleadings. Flag the remoteness point ",
+      "subject": "RE: Harrow v Brevdale - clause 12 and the clause 7 carve-out",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2024-10-04T09:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Agreed. Let's instruct Harriet Stanford for the advice and the pleadings. Flag the remoteness point on the Stratton liability too - Brevdale will say it's too remote. We need to show they knew the castings went into pressure units sold on to utilities.\n\nSarah\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Thu, Oct 3, 2024 at 4:05 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Sarah,\n>\n> I've been through the Supply Agreement. Clause 12 caps aggregate liability at 150% of the price paid in the preceding 12 months. Harrow paid £611,200 for the relevant deliveries, so on Brevdale's reading the cap is £916,800. BUT clause 12 has a carve-out: 'nothing in the Supply Agreement limits liability for breach of clause 7'. Clause 7 is the conformity warranty - exactly what's been breached.\n>\n> My view is the carve-out is unqualified and knocks out the cap for these breaches. Brevdale will say it only carves out the clause 9.2 replacement remedy. Worth getting Harriet's view early.\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Agreed. Let&#x27;s instruct Harriet Stanford for the advice and the pleadings. Flag the remoteness point on the Stratton liability too - Brevdale will say it&#x27;s too remote. We need to show they knew the castings went into pressure units sold on to utilities.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 3, 2024 at 4:05 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>I&#x27;ve been through the Supply Agreement. Clause 12 caps aggregate liability at 150% of the price paid in the preceding 12 months. Harrow paid £611,200 for the relevant deliveries, so on Brevdale&#x27;s reading the cap is £916,800. BUT clause 12 has a carve-out: &#x27;nothing in the Supply Agreement limits liability for breach of clause 7&#x27;. Clause 7 is the conformity warranty - exactly what&#x27;s been breached.<br><br>My view is the carve-out is unqualified and knocks out the cap for these breaches. Brevdale will say it only carves out the clause 9.2 replacement remedy. Worth getting Harriet&#x27;s view early.<br><br>James</div></blockquote></div></div>"
+    },
+    {
+      "id": "59c34b1da68c2a6d",
+      "snippet": "On remoteness - the design review note and the audit report both reference 'utility / energy end-use",
+      "subject": "RE: Harrow v Brevdale - clause 12 and the clause 7 carve-out",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2024-10-04T14:48:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "On remoteness - the design review note and the audit report both reference 'utility / energy end-use', and Stratton is named in the framework that Brevdale's deliveries fed. I'll pull those into the bundle. Tom\n\nOn Fri, Oct 4, 2024 at 9:20 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Agreed. Let's instruct Harriet Stanford for the advice and the pleadings. Flag the remoteness point on the Stratton liability too - Brevdale will say it's too remote. We need to show they knew the castings went into pressure units sold on to utilities.\n>\n> Sarah\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.\n>\n> On Thu, Oct 3, 2024 at 4:05 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > Sarah,\n> >\n> > I've been through the Supply Agreement. Clause 12 caps aggregate liability at 150% of the price paid in the preceding 12 months. Harrow paid £611,200 for the relevant deliveries, so on Brevdale's reading the cap is £916,800. BUT clause 12 has a carve-out: 'nothing in the Supply Agreement limits liability for breach of clause 7'. Clause 7 is the conformity warranty - exactly what's been breached.\n> >\n> > My view is the carve-out is unqualified and knocks out the cap for these breaches. Brevdale will say it only carves out the clause 9.2 replacement remedy. Worth getting Harriet's view early.\n> >\n> > James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">On remoteness - the design review note and the audit report both reference &#x27;utility / energy end-use&#x27;, and Stratton is named in the framework that Brevdale&#x27;s deliveries fed. I&#x27;ll pull those into the bundle. Tom</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Oct 4, 2024 at 9:20 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Agreed. Let&#x27;s instruct Harriet Stanford for the advice and the pleadings. Flag the remoteness point on the Stratton liability too - Brevdale will say it&#x27;s too remote. We need to show they knew the castings went into pressure units sold on to utilities.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 3, 2024 at 4:05 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>I&#x27;ve been through the Supply Agreement. Clause 12 caps aggregate liability at 150% of the price paid in the preceding 12 months. Harrow paid £611,200 for the relevant deliveries, so on Brevdale&#x27;s reading the cap is £916,800. BUT clause 12 has a carve-out: &#x27;nothing in the Supply Agreement limits liability for breach of clause 7&#x27;. Clause 7 is the conformity warranty - exactly what&#x27;s been breached.<br><br>My view is the carve-out is unqualified and knocks out the cap for these breaches. Brevdale will say it only carves out the clause 9.2 replacement remedy. Worth getting Harriet&#x27;s view early.<br><br>James</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

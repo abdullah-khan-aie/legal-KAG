@@ -1,0 +1,51 @@
+{
+  "id": "73dea3b2b74825ee",
+  "messages": [
+    {
+      "id": "73dea3b2b74825ee",
+      "snippet": "Sarah, As discussed on the call, we'd like to instruct Whitfield Carter to act for Hartwell on the i",
+      "subject": "Project Lyra — instruction to act on HRX-218 in-licence",
+      "sender": "helena.vance@hartwellpharma.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-09-11T08:42:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah,\n\nAs discussed on the call, we'd like to instruct Whitfield Carter to act for Hartwell on the in-licensing of the HRX-218 KRAS G12C series from Calderbrook Oncology. Stephen is leading the science side; Gregory will handle the commercials; Naomi and I will be your main contacts on the legals.\n\nCan you send across an engagement letter and a first cut of a confidentiality agreement so we can get Calderbrook signed up before they share the data room?\n\nThanks,\nHelena",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>As discussed on the call, we&#x27;d like to instruct Whitfield Carter to act for Hartwell on the in-licensing of the HRX-218 KRAS G12C series from Calderbrook Oncology. Stephen is leading the science side; Gregory will handle the commercials; Naomi and I will be your main contacts on the legals.<br><br>Can you send across an engagement letter and a first cut of a confidentiality agreement so we can get Calderbrook signed up before they share the data room?<br><br>Thanks,<br>Helena</div>"
+    },
+    {
+      "id": "4492cfd2f9ba398e",
+      "snippet": "Helena, Delighted to act. Our engagement letter is attached — please countersign and return at your ",
+      "subject": "RE: Project Lyra — instruction to act on HRX-218 in-licence",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "helena.vance@hartwellpharma.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "naomi.adeyemi@hartwellpharma.com"
+      ],
+      "date": "2025-09-12T15:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Helena,\n\nDelighted to act. Our engagement letter is attached — please countersign and return at your convenience. James Osei (cc'd) will be your day-to-day senior associate, with Elena Marchetti supporting; we'll co-ordinate the patent diligence with Dr Foster at Hartington IP.\n\nI'll send a draft mutual NDA tomorrow so we can get Calderbrook signed up and the data room opened.\n\nBest,\nSarah\n\n--\nSarah Whitfield | Partner, Corporate\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0118\nConfidential and may be legally privileged.\n\nOn Thu, Sep 11, 2025 at 8:42 AM, Dr Helena Vance <helena.vance@hartwellpharma.com> wrote:\n> Sarah,\n>\n> As discussed on the call, we'd like to instruct Whitfield Carter to act for Hartwell on the in-licensing of the HRX-218 KRAS G12C series from Calderbrook Oncology. Stephen is leading the science side; Gregory will handle the commercials; Naomi and I will be your main contacts on the legals.\n>\n> Can you send across an engagement letter and a first cut of a confidentiality agreement so we can get Calderbrook signed up before they share the data room?\n>\n> Thanks,\n> Helena",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Helena,<br><br>Delighted to act. Our engagement letter is attached — please countersign and return at your convenience. James Osei (cc&#x27;d) will be your day-to-day senior associate, with Elena Marchetti supporting; we&#x27;ll co-ordinate the patent diligence with Dr Foster at Hartington IP.<br><br>I&#x27;ll send a draft mutual NDA tomorrow so we can get Calderbrook signed up and the data room opened.<br><br>Best,<br>Sarah<br><br>--<br>Sarah Whitfield | Partner, Corporate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0118<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Sep 11, 2025 at 8:42 AM, Dr Helena Vance &lt;helena.vance@hartwellpharma.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>As discussed on the call, we&#x27;d like to instruct Whitfield Carter to act for Hartwell on the in-licensing of the HRX-218 KRAS G12C series from Calderbrook Oncology. Stephen is leading the science side; Gregory will handle the commercials; Naomi and I will be your main contacts on the legals.<br><br>Can you send across an engagement letter and a first cut of a confidentiality agreement so we can get Calderbrook signed up before they share the data room?<br><br>Thanks,<br>Helena</div></blockquote></div></div>",
+      "attachmentIds": [
+        "7G1FFn4NN8A7xlHSw-jTIkqFMEruKZ4aaYIOLHrI3Y4"
+      ],
+      "attachments": [
+        {
+          "filename": "ProjectLyra_EngagementLetter.docx",
+          "id": "7G1FFn4NN8A7xlHSw-jTIkqFMEruKZ4aaYIOLHrI3Y4",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

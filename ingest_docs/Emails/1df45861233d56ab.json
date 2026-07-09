@@ -1,0 +1,21 @@
+{
+  "id": "1df45861233d56ab",
+  "messages": [
+    {
+      "id": "1df45861233d56ab",
+      "snippet": "Hey — are you about for a quick coffee this aft? Also chasing everyone for £8 towards Priya's leavin",
+      "subject": "Coffee + your half of the leaving gift?",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-03-14T12:10:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hey — are you about for a quick coffee this aft? Also chasing everyone for £8 towards Priya's leaving present, card going round Monday. No rush. T",
+      "htmlBody": "<div dir=\"ltr\">Hey — are you about for a quick coffee this aft? Also chasing everyone for £8 towards Priya&#x27;s leaving present, card going round Monday. No rush. T</div>"
+    }
+  ]
+}

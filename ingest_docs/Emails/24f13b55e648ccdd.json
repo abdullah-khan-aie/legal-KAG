@@ -1,0 +1,35 @@
+{
+  "id": "24f13b55e648ccdd",
+  "messages": [
+    {
+      "id": "24f13b55e648ccdd",
+      "snippet": "All, Please find attached our advice note on the Company's position under the Existing Facilities Ag",
+      "subject": "Project Willow - advice note on the Bank's rights (PRIVILEGED)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "patricia.vaughan@calvertonindustries.com",
+        "andrew.calverton@calvertonindustries.com",
+        "robert.dukes@calvertonindustries.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-18T17:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "All,\n\nPlease find attached our advice note on the Company's position under the Existing Facilities Agreement and the recommended standstill strategy. In short: the Q4 breaches are Events of Default, but acceleration would be value-destructive for the Bank, so a consensual route is realistic.\n\nKey near-term actions: agree standstill heads of terms (targeting 20 Feb), engage Marlow on the IBR, and begin shareholder discussions on the £4.0m injection.\n\nPlease treat as privileged.\n\nJames Osei\nSenior Associate, Restructuring & Finance\nWhitfield Carter LLP\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>Please find attached our advice note on the Company&#x27;s position under the Existing Facilities Agreement and the recommended standstill strategy. In short: the Q4 breaches are Events of Default, but acceleration would be value-destructive for the Bank, so a consensual route is realistic.<br><br>Key near-term actions: agree standstill heads of terms (targeting 20 Feb), engage Marlow on the IBR, and begin shareholder discussions on the £4.0m injection.<br><br>Please treat as privileged.<br><br>James Osei<br>Senior Associate, Restructuring &amp; Finance<br>Whitfield Carter LLP<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "urMazHTsEZQawcbIc68apzO2_vd_1f--h_mgIajmBOo"
+      ],
+      "attachments": [
+        {
+          "filename": "Willow_AdviceNote_BankRights.docx",
+          "id": "urMazHTsEZQawcbIc68apzO2_vd_1f--h_mgIajmBOo",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

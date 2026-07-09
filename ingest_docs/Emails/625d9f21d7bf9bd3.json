@@ -1,0 +1,22 @@
+{
+  "id": "625d9f21d7bf9bd3",
+  "messages": [
+    {
+      "id": "625d9f21d7bf9bd3",
+      "snippet": "Our records show 6.5 hours of unposted time for October against your matters. Please post by Friday ",
+      "subject": "Time recording reminder - October",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-11-06T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Our records show 6.5 hours of unposted time for October against your matters. Please post by Friday so we can issue October bills. Thank you.\n\nAccounts\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Our records show 6.5 hours of unposted time for October against your matters. Please post by Friday so we can issue October bills. Thank you.<br><br>Accounts<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    }
+  ]
+}

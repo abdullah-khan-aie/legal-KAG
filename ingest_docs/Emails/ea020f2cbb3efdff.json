@@ -1,0 +1,35 @@
+{
+  "id": "ea020f2cbb3efdff",
+  "messages": [
+    {
+      "id": "ea020f2cbb3efdff",
+      "snippet": "Marcus, Priya, Marcus, Attached is the updated post-money cap table reflecting completion. Post-mone",
+      "subject": "Project Falcon - updated cap table (post-money)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.penrose@penroserobotics.com",
+        "priya.forsyth@penroserobotics.com",
+        "marcus.pell@westbridgegrowth.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-06-02T11:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Marcus, Priya, Marcus,\n\nAttached is the updated post-money cap table reflecting completion. Post-money fully diluted shares are 5,000,000 at £14.00 (£70m post-money). New money this round is 20% of the fully diluted capital; Westbridge hold 15.7%, and the option pool now sits at 13%. The SH01 and resolutions go to Companies House today.\n\nElena\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Marcus, Priya, Marcus,<br><br>Attached is the updated post-money cap table reflecting completion. Post-money fully diluted shares are 5,000,000 at £14.00 (£70m post-money). New money this round is 20% of the fully diluted capital; Westbridge hold 15.7%, and the option pool now sits at 13%. The SH01 and resolutions go to Companies House today.<br><br>Elena<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "ESC_Ypjo-q7oUiVePMwRg2g1z8UyN3cZyYw6RxqyByg"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Falcon_CapTable_Pre_and_Post.xlsx",
+          "id": "ESC_Ypjo-q7oUiVePMwRg2g1z8UyN3cZyYw6RxqyByg",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    }
+  ]
+}

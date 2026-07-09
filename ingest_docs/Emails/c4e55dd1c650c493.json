@@ -1,0 +1,34 @@
+{
+  "id": "c4e55dd1c650c493",
+  "messages": [
+    {
+      "id": "c4e55dd1c650c493",
+      "snippet": "Oliver, Please find attached the first draft of the share purchase agreement for Project Drake. Key ",
+      "subject": "Project Drake — SPA first draft",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "deepa.kovac@birchallstone.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-10-09T17:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Oliver,\n\nPlease find attached the first draft of the share purchase agreement for Project Drake. Key points to flag: warranty cap at 30% of equity consideration; 24-month general claims limit; de minimis £25k and basket £224k; full tax covenant at Schedule 5; earn-out mechanics at Schedule 6; and a specific environmental indemnity at clause 9.4 capped at £250k for the Hamble contamination.\n\nWe look forward to your mark-up.\n\nJames\n\n—\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Oliver,<br><br>Please find attached the first draft of the share purchase agreement for Project Drake. Key points to flag: warranty cap at 30% of equity consideration; 24-month general claims limit; de minimis £25k and basket £224k; full tax covenant at Schedule 5; earn-out mechanics at Schedule 6; and a specific environmental indemnity at clause 9.4 capped at £250k for the Hamble contamination.<br><br>We look forward to your mark-up.<br><br>James<br><br>—<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "zDS5opI-VZ0hGfKRwk8W69ydycAWaSLF4W75YXRAdHs"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Drake_SPA_v1.docx",
+          "id": "zDS5opI-VZ0hGfKRwk8W69ydycAWaSLF4W75YXRAdHs",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

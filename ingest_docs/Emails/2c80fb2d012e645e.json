@@ -1,0 +1,23 @@
+{
+  "id": "2c80fb2d012e645e",
+  "messages": [
+    {
+      "id": "2c80fb2d012e645e",
+      "snippet": "You are invited to our autumn corporate training session, 'Warranty & Indemnity Insurance: Market Up",
+      "subject": "Invitation: Autumn corporate training - W&I insurance update",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-10-01T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "You are invited to our autumn corporate training session, 'Warranty & Indemnity Insurance: Market Update 2025', on Thursday 16 October at 12:30 in the 8th floor seminar room (lunch provided). External speakers from a leading W&I broker will cover current pricing, enhancement trends and claims experience. 1.5 hours CPD.\n\nRSVP via the link in the calendar invite.\n\nKnowledge & Learning Team",
+      "htmlBody": "<div dir=\"ltr\">You are invited to our autumn corporate training session, &#x27;Warranty &amp; Indemnity Insurance: Market Update 2025&#x27;, on Thursday 16 October at 12:30 in the 8th floor seminar room (lunch provided). External speakers from a leading W&amp;I broker will cover current pricing, enhancement trends and claims experience. 1.5 hours CPD.<br><br>RSVP via the link in the calendar invite.<br><br>Knowledge &amp; Learning Team</div>"
+    }
+  ]
+}

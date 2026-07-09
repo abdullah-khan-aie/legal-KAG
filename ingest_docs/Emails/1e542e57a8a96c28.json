@@ -1,0 +1,41 @@
+{
+  "id": "1e542e57a8a96c28",
+  "messages": [
+    {
+      "id": "1e542e57a8a96c28",
+      "snippet": "Sarah, Sterling have come in hot on pricing: 200bps/4.50% margin, 1.00% fee (£420k), and Mar-26 leve",
+      "subject": "Mallory — Sterling's pricing ask (internal)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-13T09:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Sarah,\n\nSterling have come in hot on pricing: 200bps/4.50% margin, 1.00% fee (£420k), and Mar-26 leverage at 5.00x. The leverage step is actually fine — the IBR forecast is 4.99x at Mar-26 so 5.00x gives almost no headroom but is deliverable. On pricing I think we land the margin around 185bps and the fee at ~0.85%. The covenant at 5.00x is worth conceding to win the pricing.\n\nShall I prepare our counter-redline on that basis?\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Sterling have come in hot on pricing: 200bps/4.50% margin, 1.00% fee (£420k), and Mar-26 leverage at 5.00x. The leverage step is actually fine — the IBR forecast is 4.99x at Mar-26 so 5.00x gives almost no headroom but is deliverable. On pricing I think we land the margin around 185bps and the fee at ~0.85%. The covenant at 5.00x is worth conceding to win the pricing.<br><br>Shall I prepare our counter-redline on that basis?<br><br>James</div>"
+    },
+    {
+      "id": "1a544cc034bb562e",
+      "snippet": "Agreed. Concede the 5.00x March covenant, hold interest cover at 1.75x for March, and counter at 185",
+      "subject": "RE: Mallory — Sterling's pricing ask (internal)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-13T12:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Agreed. Concede the 5.00x March covenant, hold interest cover at 1.75x for March, and counter at 185bps / 0.85% fee. Make clear to Drummond Hale that the equity cheque and the directors' personal commitment to the turnaround justify the lower pricing. Get the counter out to Richard for sign-off first.\n\nSarah\n\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0000\n\nOn Fri, Feb 13, 2026 at 9:15 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Sarah,\n>\n> Sterling have come in hot on pricing: 200bps/4.50% margin, 1.00% fee (£420k), and Mar-26 leverage at 5.00x. The leverage step is actually fine — the IBR forecast is 4.99x at Mar-26 so 5.00x gives almost no headroom but is deliverable. On pricing I think we land the margin around 185bps and the fee at ~0.85%. The covenant at 5.00x is worth conceding to win the pricing.\n>\n> Shall I prepare our counter-redline on that basis?\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Agreed. Concede the 5.00x March covenant, hold interest cover at 1.75x for March, and counter at 185bps / 0.85% fee. Make clear to Drummond Hale that the equity cheque and the directors&#x27; personal commitment to the turnaround justify the lower pricing. Get the counter out to Richard for sign-off first.<br><br>Sarah<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0000</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Feb 13, 2026 at 9:15 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Sterling have come in hot on pricing: 200bps/4.50% margin, 1.00% fee (£420k), and Mar-26 leverage at 5.00x. The leverage step is actually fine — the IBR forecast is 4.99x at Mar-26 so 5.00x gives almost no headroom but is deliverable. On pricing I think we land the margin around 185bps and the fee at ~0.85%. The covenant at 5.00x is worth conceding to win the pricing.<br><br>Shall I prepare our counter-redline on that basis?<br><br>James</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "9b7d486c60fdbc0b",
+  "messages": [
+    {
+      "id": "9b7d486c60fdbc0b",
+      "snippet": "Daniel, Please find the completion statement attached for approval. The balance due from Marchwood o",
+      "subject": "Project Mosaic - completion statement",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.hartley@marchwoodpropertygroup.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "priya.sandhu@marchwoodpropertygroup.com"
+      ],
+      "date": "2025-10-02T10:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Daniel,\n\nPlease find the completion statement attached for approval. The balance due from Marchwood on completion (10 October) is £19,020,080.97, being the price of £21,750,000 less the deposit of £2,175,000, less the apportioned rent the seller has collected in advance (£317,431, your share to the quarter end) and the rent deposits transferred to you (£221,500), plus your insurance apportionment, with a £25,000 service charge retention held by us pending the 2025 reconciliation.\n\nSDLT of £1,077,000 is payable separately within 14 days of completion - we'll file and pay on your behalf. Please confirm you're happy and arrange for the completion monies to reach us by 10am on 10 October.\n\nElena\n\nElena Marchetti\nAssociate — Real Estate\nWhitfield Carter LLP\n\nThis email is confidential and may be legally privileged. If you are not the intended recipient please delete it and notify the sender.",
+      "htmlBody": "<div dir=\"ltr\">Daniel,<br><br>Please find the completion statement attached for approval. The balance due from Marchwood on completion (10 October) is £19,020,080.97, being the price of £21,750,000 less the deposit of £2,175,000, less the apportioned rent the seller has collected in advance (£317,431, your share to the quarter end) and the rent deposits transferred to you (£221,500), plus your insurance apportionment, with a £25,000 service charge retention held by us pending the 2025 reconciliation.<br><br>SDLT of £1,077,000 is payable separately within 14 days of completion - we&#x27;ll file and pay on your behalf. Please confirm you&#x27;re happy and arrange for the completion monies to reach us by 10am on 10 October.<br><br>Elena<br><br>Elena Marchetti<br>Associate — Real Estate<br>Whitfield Carter LLP<br><br>This email is confidential and may be legally privileged. If you are not the intended recipient please delete it and notify the sender.</div>",
+      "attachmentIds": [
+        "6DKZENRP5WdxXaQBDl31tkpr99bIEsBnXP3wCjr-muI"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Mosaic_CompletionStatement.xlsx",
+          "id": "6DKZENRP5WdxXaQBDl31tkpr99bIEsBnXP3wCjr-muI",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "edaba77fcb771da5",
+      "snippet": "Elena, approved - figures tie to our model. Completion monies will be sent on 9 October to be safe. ",
+      "subject": "RE: Project Mosaic - completion statement",
+      "sender": "priya.sandhu@marchwoodpropertygroup.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "daniel.hartley@marchwoodpropertygroup.com"
+      ],
+      "date": "2025-10-03T14:55:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Elena, approved - figures tie to our model. Completion monies will be sent on 9 October to be safe. Priya\n\nOn Thu, Oct 2, 2025 at 10:20 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Daniel,\n>\n> Please find the completion statement attached for approval. The balance due from Marchwood on completion (10 October) is £19,020,080.97, being the price of £21,750,000 less the deposit of £2,175,000, less the apportioned rent the seller has collected in advance (£317,431, your share to the quarter end) and the rent deposits transferred to you (£221,500), plus your insurance apportionment, with a £25,000 service charge retention held by us pending the 2025 reconciliation.\n>\n> SDLT of £1,077,000 is payable separately within 14 days of completion - we'll file and pay on your behalf. Please confirm you're happy and arrange for the completion monies to reach us by 10am on 10 October.\n>\n> Elena\n>\n> Elena Marchetti\n> Associate — Real Estate\n> Whitfield Carter LLP\n>\n> This email is confidential and may be legally privileged. If you are not the intended recipient please delete it and notify the sender.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena, approved - figures tie to our model. Completion monies will be sent on 9 October to be safe. Priya</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 2, 2025 at 10:20 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Daniel,<br><br>Please find the completion statement attached for approval. The balance due from Marchwood on completion (10 October) is £19,020,080.97, being the price of £21,750,000 less the deposit of £2,175,000, less the apportioned rent the seller has collected in advance (£317,431, your share to the quarter end) and the rent deposits transferred to you (£221,500), plus your insurance apportionment, with a £25,000 service charge retention held by us pending the 2025 reconciliation.<br><br>SDLT of £1,077,000 is payable separately within 14 days of completion - we&#x27;ll file and pay on your behalf. Please confirm you&#x27;re happy and arrange for the completion monies to reach us by 10am on 10 October.<br><br>Elena<br><br>Elena Marchetti<br>Associate — Real Estate<br>Whitfield Carter LLP<br><br>This email is confidential and may be legally privileged. If you are not the intended recipient please delete it and notify the sender.</div></blockquote></div></div>"
+    }
+  ]
+}

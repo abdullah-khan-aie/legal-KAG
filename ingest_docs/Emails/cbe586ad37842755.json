@@ -1,0 +1,61 @@
+{
+  "id": "cbe586ad37842755",
+  "messages": [
+    {
+      "id": "cbe586ad37842755",
+      "snippet": "All, Both boards have approved (Caspian 19 Feb, Hollencroft 23 Feb). Set to sign Friday 27 February ",
+      "subject": "Project Umbra - signing arrangements (27 Feb)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "henry.larsson@caspiantech.io",
+        "sofia.trevino@caspiantech.io",
+        "maya.patel@caspiantech.io"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-24T16:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "All,\n\nBoth boards have approved (Caspian 19 Feb, Hollencroft 23 Feb). Set to sign Friday 27 February via DocuSign - signatories Henry and Sofia for Caspian. Completion checklist is up to date. Maya - the upfront fee invoice (£1,250,000) can issue on signing.\n\nElena\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>Both boards have approved (Caspian 19 Feb, Hollencroft 23 Feb). Set to sign Friday 27 February via DocuSign - signatories Henry and Sofia for Caspian. Completion checklist is up to date. Maya - the upfront fee invoice (£1,250,000) can issue on signing.<br><br>Elena<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "16bea11dcd50c67f",
+      "snippet": "All, Pleased to confirm the Patent and Software Licence Agreement has been executed today, 27 Februa",
+      "subject": "Project Umbra - EXECUTED Licence Agreement",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "henry.larsson@caspiantech.io",
+        "sofia.trevino@caspiantech.io",
+        "maya.patel@caspiantech.io",
+        "margaret.devereux@hollencroftgroup.com",
+        "robert.haines-carr@hollencroftgroup.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "alistair.whitlock@pembertonrowe.com",
+        "nadia.iqbal@pembertonrowe.com"
+      ],
+      "date": "2026-02-27T15:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "All,\n\nPleased to confirm the Patent and Software Licence Agreement has been executed today, 27 February 2026. Conformed PDF attached. Agreed terms as signed: £1,250,000 upfront, 7.5% running royalty, liability cap the greater of £3m / 150% with a £5m IP indemnity cap, five-year initial term, NCC escrow. Congratulations to both teams. Escrow deposit to follow within 30 days.\n\nElena\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Tue, Feb 24, 2026 at 4:10 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> All,\n>\n> Both boards have approved (Caspian 19 Feb, Hollencroft 23 Feb). Set to sign Friday 27 February via DocuSign - signatories Henry and Sofia for Caspian. Completion checklist is up to date. Maya - the upfront fee invoice (£1,250,000) can issue on signing.\n>\n> Elena\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">All,<br><br>Pleased to confirm the Patent and Software Licence Agreement has been executed today, 27 February 2026. Conformed PDF attached. Agreed terms as signed: £1,250,000 upfront, 7.5% running royalty, liability cap the greater of £3m / 150% with a £5m IP indemnity cap, five-year initial term, NCC escrow. Congratulations to both teams. Escrow deposit to follow within 30 days.<br><br>Elena<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Feb 24, 2026 at 4:10 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">All,<br><br>Both boards have approved (Caspian 19 Feb, Hollencroft 23 Feb). Set to sign Friday 27 February via DocuSign - signatories Henry and Sofia for Caspian. Completion checklist is up to date. Maya - the upfront fee invoice (£1,250,000) can issue on signing.<br><br>Elena<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>",
+      "attachmentIds": [
+        "VH5oT4sznkT8sK8-RHIndUHOR1Sy1SMCuIER8_yokOQ"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Umbra_PatentSoftwareLicence_Executed.pdf",
+          "id": "VH5oT4sznkT8sK8-RHIndUHOR1Sy1SMCuIER8_yokOQ",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

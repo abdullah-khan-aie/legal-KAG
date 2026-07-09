@@ -1,0 +1,57 @@
+{
+  "id": "743763c866e12a98",
+  "messages": [
+    {
+      "id": "743763c866e12a98",
+      "snippet": "Dear Adam, Our responding mark-up attached. As discussed on the call, we've restored the 125% liabil",
+      "subject": "Project Quartz - responding draft (v3)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "adam.selby@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "marcus.webb@birchallstone.com"
+      ],
+      "date": "2025-12-09T17:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Adam,\n\nOur responding mark-up attached. As discussed on the call, we've restored the 125% liability cap and the 750k minimum annual royalty, and reverted the audit threshold to 5%. We understand from your call with Sarah that Caldera can live with these, so subject to your confirmation we'll move to an execution version.\n\nKind regards,\nElena\n\nElena Marchetti\nAssociate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n\nWhitfield Carter LLP. Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Adam,<br><br>Our responding mark-up attached. As discussed on the call, we&#x27;ve restored the 125% liability cap and the 750k minimum annual royalty, and reverted the audit threshold to 5%. We understand from your call with Sarah that Caldera can live with these, so subject to your confirmation we&#x27;ll move to an execution version.<br><br>Kind regards,<br>Elena<br><br>Elena Marchetti<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br><br>Whitfield Carter LLP. Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "oyn9LFgourSUvJZVUAwaFh3mQoxfnaKOsIvsKrhHxEk"
+      ],
+      "attachments": [
+        {
+          "filename": "ProjectQuartz_Licence_v3_redline.docx",
+          "id": "oyn9LFgourSUvJZVUAwaFh3mQoxfnaKOsIvsKrhHxEk",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "9b120ba30c0a8cec",
+      "snippet": "Elena, Confirmed - Caldera accepts the 125% cap and 750k minimum. Please prepare the execution versi",
+      "subject": "RE: Project Quartz - responding draft (v3)",
+      "sender": "adam.selby@birchallstone.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "marcus.webb@birchallstone.com"
+      ],
+      "date": "2025-12-11T10:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena,\n\nConfirmed - Caldera accepts the 125% cap and 750k minimum. Please prepare the execution version and disclosure letter and we'll line up signatories.\n\nAdam Selby | Birchall Stone LLP\n\nOn Tue, Dec 9, 2025 at 5:00 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Dear Adam,\n>\n> Our responding mark-up attached. As discussed on the call, we've restored the 125% liability cap and the 750k minimum annual royalty, and reverted the audit threshold to 5%. We understand from your call with Sarah that Caldera can live with these, so subject to your confirmation we'll move to an execution version.\n>\n> Kind regards,\n> Elena\n>\n> Elena Marchetti\n> Associate | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n>\n> Whitfield Carter LLP. Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena,<br><br>Confirmed - Caldera accepts the 125% cap and 750k minimum. Please prepare the execution version and disclosure letter and we&#x27;ll line up signatories.<br><br>Adam Selby | Birchall Stone LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Dec 9, 2025 at 5:00 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Adam,<br><br>Our responding mark-up attached. As discussed on the call, we&#x27;ve restored the 125% liability cap and the 750k minimum annual royalty, and reverted the audit threshold to 5%. We understand from your call with Sarah that Caldera can live with these, so subject to your confirmation we&#x27;ll move to an execution version.<br><br>Kind regards,<br>Elena<br><br>Elena Marchetti<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br><br>Whitfield Carter LLP. Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

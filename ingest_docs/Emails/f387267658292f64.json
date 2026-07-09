@@ -1,0 +1,35 @@
+{
+  "id": "f387267658292f64",
+  "messages": [
+    {
+      "id": "f387267658292f64",
+      "snippet": "James, Please find Pennland's mark-up of the MSSA attached (tracked). Our principal changes: 1. Avai",
+      "subject": "Project Lyra – MSSA mark-up (Pennland)",
+      "sender": "marcus.webb@denhamlewis.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "adam.selby@denhamlewis.com",
+        "alison.crewe@pennlandwater.com"
+      ],
+      "date": "2025-10-21T10:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nPlease find Pennland's mark-up of the MSSA attached (tracked). Our principal changes:\n\n1. Availability raised to 99.7% (cl 4.1).\n2. Service-credit cap up to 15% and deletion of the 'sole remedy' wording (cl 4.2).\n3. RPI uplift capped at 3% p.a. (cl 5.4 / Schedule 2).\n4. Liability cap raised to 200% of 12 months' Charges, with data-protection breaches uncapped (cl 10.3).\n\nHappy to discuss.\n\nMarcus Webb\nDenham Lewis LLP",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Please find Pennland&#x27;s mark-up of the MSSA attached (tracked). Our principal changes:<br><br>1. Availability raised to 99.7% (cl 4.1).<br>2. Service-credit cap up to 15% and deletion of the &#x27;sole remedy&#x27; wording (cl 4.2).<br>3. RPI uplift capped at 3% p.a. (cl 5.4 / Schedule 2).<br>4. Liability cap raised to 200% of 12 months&#x27; Charges, with data-protection breaches uncapped (cl 10.3).<br><br>Happy to discuss.<br><br>Marcus Webb<br>Denham Lewis LLP</div>",
+      "attachmentIds": [
+        "yrXyVw_vKc9_Y1NnUs5R0IjiXMJi8pv4ZDFyOyTCVP0"
+      ],
+      "attachments": [
+        {
+          "filename": "ProjectLyra_MSSA_v2_redline.docx",
+          "id": "yrXyVw_vKc9_Y1NnUs5R0IjiXMJi8pv4ZDFyOyTCVP0",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

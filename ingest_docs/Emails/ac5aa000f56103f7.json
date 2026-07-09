@@ -1,0 +1,34 @@
+{
+  "id": "ac5aa000f56103f7",
+  "messages": [
+    {
+      "id": "ac5aa000f56103f7",
+      "snippet": "Attaching the fully-signed Order Form (OF-2026-001) for the file - 120 named users, £680k platform +",
+      "subject": "Brookmere MSA - fully signed Order Form",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sofia.trevino@caspiantech.io",
+        "daniel.okonkwo@caspiantech.io"
+      ],
+      "ccRecipients": [
+        "adam.selby@denhamlewis.com"
+      ],
+      "date": "2026-01-23T16:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Attaching the fully-signed Order Form (OF-2026-001) for the file - 120 named users, £680k platform + £220k data licence = £900k per year, effective 1 February. The executed MSA and this order form complete the signature pack. I'll send a closing bible early next week.\n\nJames\n\n--\nJames Osei\nSenior Associate, Commercial\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Attaching the fully-signed Order Form (OF-2026-001) for the file - 120 named users, £680k platform + £220k data licence = £900k per year, effective 1 February. The executed MSA and this order form complete the signature pack. I&#x27;ll send a closing bible early next week.<br><br>James<br><br>--<br>James Osei<br>Senior Associate, Commercial<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "ubcqz8m558pDZ3o3zooKi1aqp_xpbbieDD58qEVZteI"
+      ],
+      "attachments": [
+        {
+          "filename": "Brookmere_MSA_OrderForm_Signed.pdf",
+          "id": "ubcqz8m558pDZ3o3zooKi1aqp_xpbbieDD58qEVZteI",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

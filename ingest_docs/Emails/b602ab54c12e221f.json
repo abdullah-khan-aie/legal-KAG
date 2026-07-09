@@ -1,0 +1,45 @@
+{
+  "id": "b602ab54c12e221f",
+  "messages": [
+    {
+      "id": "b602ab54c12e221f",
+      "snippet": "James, Elena, Mobilisation underway. Couple of legal points from the ops side: (1) Wexbourne want to",
+      "subject": "Juniper mobilisation - WMS integration & opening stock",
+      "sender": "mark.tennant@sutherlandlogistics.co.uk",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "gordon.sutherland@sutherlandlogistics.co.uk"
+      ],
+      "date": "2026-05-20T09:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James, Elena,\n\nMobilisation underway. Couple of legal points from the ops side: (1) Wexbourne want to start trickling opening stock in from 18 June - are we covered for storage liability before go-live on 1 July? (2) the API integration build is on track. Can you confirm the bailment/liability provisions bite from receipt of goods, not from go-live?\n\nMark Tennant\nOperations, Sutherland Logistics",
+      "htmlBody": "<div dir=\"ltr\">James, Elena,<br><br>Mobilisation underway. Couple of legal points from the ops side: (1) Wexbourne want to start trickling opening stock in from 18 June - are we covered for storage liability before go-live on 1 July? (2) the API integration build is on track. Can you confirm the bailment/liability provisions bite from receipt of goods, not from go-live?<br><br>Mark Tennant<br>Operations, Sutherland Logistics</div>"
+    },
+    {
+      "id": "66d9c97dc9b54345",
+      "snippet": "Mark, Yes - under clause 3.4 we hold the goods as bailee and liability for loss/damage runs from whe",
+      "subject": "RE: Juniper mobilisation - WMS integration & opening stock",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "mark.tennant@sutherlandlogistics.co.uk"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "gordon.sutherland@sutherlandlogistics.co.uk"
+      ],
+      "date": "2026-05-20T15:25:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Mark,\n\nYes - under clause 3.4 we hold the goods as bailee and liability for loss/damage runs from when goods come into our custody (clause 11.1), which covers the pre-go-live opening stock from 18 June. Just make sure the goods-in-trust insurer is on notice of stock on site from that date. I'll drop the broker a line to confirm.\n\nElena\n\nOn Wed, May 20, 2026 at 9:40 AM, Mark Tennant <mark.tennant@sutherlandlogistics.co.uk> wrote:\n> James, Elena,\n>\n> Mobilisation underway. Couple of legal points from the ops side: (1) Wexbourne want to start trickling opening stock in from 18 June - are we covered for storage liability before go-live on 1 July? (2) the API integration build is on track. Can you confirm the bailment/liability provisions bite from receipt of goods, not from go-live?\n>\n> Mark Tennant\n> Operations, Sutherland Logistics",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Mark,<br><br>Yes - under clause 3.4 we hold the goods as bailee and liability for loss/damage runs from when goods come into our custody (clause 11.1), which covers the pre-go-live opening stock from 18 June. Just make sure the goods-in-trust insurer is on notice of stock on site from that date. I&#x27;ll drop the broker a line to confirm.<br><br>Elena</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, May 20, 2026 at 9:40 AM, Mark Tennant &lt;mark.tennant@sutherlandlogistics.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James, Elena,<br><br>Mobilisation underway. Couple of legal points from the ops side: (1) Wexbourne want to start trickling opening stock in from 18 June - are we covered for storage liability before go-live on 1 July? (2) the API integration build is on track. Can you confirm the bailment/liability provisions bite from receipt of goods, not from go-live?<br><br>Mark Tennant<br>Operations, Sutherland Logistics</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "998ded1779b3ae6e",
+  "messages": [
+    {
+      "id": "998ded1779b3ae6e",
+      "snippet": "Hi - so sorry, wrong Tom! This was meant for Tom in my NCT group, not you. Please ignore. Apologies ",
+      "subject": "Re: babysitter Saturday?",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-04-22T18:40:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi - so sorry, wrong Tom! This was meant for Tom in my NCT group, not you. Please ignore. Apologies for cluttering your inbox!\n\nDonna",
+      "htmlBody": "<div dir=\"ltr\">Hi - so sorry, wrong Tom! This was meant for Tom in my NCT group, not you. Please ignore. Apologies for cluttering your inbox!<br><br>Donna</div>"
+    }
+  ]
+}

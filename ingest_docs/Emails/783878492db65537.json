@@ -1,0 +1,44 @@
+{
+  "id": "783878492db65537",
+  "messages": [
+    {
+      "id": "783878492db65537",
+      "snippet": "Elena - engineering is ready to start the AtlasMRV integration with Hollencroft per the Schedule 6 p",
+      "subject": "Project Umbra - implementation / escrow deposit",
+      "sender": "theo.eriksson@caspiantech.io",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sofia.trevino@caspiantech.io"
+      ],
+      "date": "2026-03-03T10:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena - engineering is ready to start the AtlasMRV integration with Hollencroft per the Schedule 6 plan. Can you confirm the escrow deposit deadline under the executed agreement? I want the first Source Materials deposit with NCC logged in time. Theo",
+      "htmlBody": "<div dir=\"ltr\">Elena - engineering is ready to start the AtlasMRV integration with Hollencroft per the Schedule 6 plan. Can you confirm the escrow deposit deadline under the executed agreement? I want the first Source Materials deposit with NCC logged in time. Theo</div>"
+    },
+    {
+      "id": "398670384ef9a5a0",
+      "snippet": "Theo - within 30 days of the 27 Feb commencement, so by 29 March. James is coordinating with NCC; he",
+      "subject": "RE: Project Umbra - implementation / escrow deposit",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "theo.eriksson@caspiantech.io"
+      ],
+      "ccRecipients": [
+        "sofia.trevino@caspiantech.io",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-03-03T12:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Theo - within 30 days of the 27 Feb commencement, so by 29 March. James is coordinating with NCC; he'll send the deposit instructions today. Elena\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Tue, Mar 3, 2026 at 10:00 AM, Theo Eriksson <theo.eriksson@caspiantech.io> wrote:\n> Elena - engineering is ready to start the AtlasMRV integration with Hollencroft per the Schedule 6 plan. Can you confirm the escrow deposit deadline under the executed agreement? I want the first Source Materials deposit with NCC logged in time. Theo",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Theo - within 30 days of the 27 Feb commencement, so by 29 March. James is coordinating with NCC; he&#x27;ll send the deposit instructions today. Elena<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Mar 3, 2026 at 10:00 AM, Theo Eriksson &lt;theo.eriksson@caspiantech.io&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Elena - engineering is ready to start the AtlasMRV integration with Hollencroft per the Schedule 6 plan. Can you confirm the escrow deposit deadline under the executed agreement? I want the first Source Materials deposit with NCC logged in time. Theo</div></blockquote></div></div>"
+    }
+  ]
+}

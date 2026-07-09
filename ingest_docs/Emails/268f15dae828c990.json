@@ -1,0 +1,56 @@
+{
+  "id": "268f15dae828c990",
+  "messages": [
+    {
+      "id": "268f15dae828c990",
+      "snippet": "Oliver — our counter attached (tracked over your mark-up). We can't live with £250k on borrowings — ",
+      "subject": "RE: Project Indigo — Subscription Agreement (our counter)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "date": "2025-02-18T16:45:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Oliver — our counter attached (tracked over your mark-up). We can't live with £250k on borrowings — the company has ordinary-course equipment finance — so we've moved it to £350k, which we think is fair. We've accepted the 1% / 15-business-day information rights and the 18-month warranty limit. We've nudged the de-minimis basket up to £150k to match. If £350k and £150k work, I think we're substantively there.\n\n--\nSarah Whitfield\nPartner | Corporate & Financing\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 1100\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Oliver — our counter attached (tracked over your mark-up). We can&#x27;t live with £250k on borrowings — the company has ordinary-course equipment finance — so we&#x27;ve moved it to £350k, which we think is fair. We&#x27;ve accepted the 1% / 15-business-day information rights and the 18-month warranty limit. We&#x27;ve nudged the de-minimis basket up to £150k to match. If £350k and £150k work, I think we&#x27;re substantively there.<br><br>--<br>Sarah Whitfield<br>Partner | Corporate &amp; Financing<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 1100<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "oXaEGF3yV_WZpexIsOc8ZQAVInSU4YBb4zv6EJRknEg"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Indigo_SubscriptionAgreement_v3_redline.docx",
+          "id": "oXaEGF3yV_WZpexIsOc8ZQAVInSU4YBb4zv6EJRknEg",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "05228867ad864d2e",
+      "snippet": "Sarah — Brindley are content with £350k on borrowings and £150k basket. That closes the open points ",
+      "subject": "RE: Project Indigo — Subscription Agreement (our counter)",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "tom.ashworth@brindleygrowth.com"
+      ],
+      "date": "2025-02-20T10:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah — Brindley are content with £350k on borrowings and £150k basket. That closes the open points on this document. Please prepare the execution version. We'll align the Articles and IRA in parallel.\n\nOliver\n\nOn Tue, Feb 18, 2025 at 4:45 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Oliver — our counter attached (tracked over your mark-up). We can't live with £250k on borrowings — the company has ordinary-course equipment finance — so we've moved it to £350k, which we think is fair. We've accepted the 1% / 15-business-day information rights and the 18-month warranty limit. We've nudged the de-minimis basket up to £150k to match. If £350k and £150k work, I think we're substantively there.\n>\n> --\n> Sarah Whitfield\n> Partner | Corporate & Financing\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 1100\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah — Brindley are content with £350k on borrowings and £150k basket. That closes the open points on this document. Please prepare the execution version. We&#x27;ll align the Articles and IRA in parallel.<br><br>Oliver</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Feb 18, 2025 at 4:45 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Oliver — our counter attached (tracked over your mark-up). We can&#x27;t live with £250k on borrowings — the company has ordinary-course equipment finance — so we&#x27;ve moved it to £350k, which we think is fair. We&#x27;ve accepted the 1% / 15-business-day information rights and the 18-month warranty limit. We&#x27;ve nudged the de-minimis basket up to £150k to match. If £350k and £150k work, I think we&#x27;re substantively there.<br><br>--<br>Sarah Whitfield<br>Partner | Corporate &amp; Financing<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 1100<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

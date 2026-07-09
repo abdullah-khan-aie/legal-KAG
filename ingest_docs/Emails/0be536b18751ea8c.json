@@ -1,0 +1,51 @@
+{
+  "id": "0be536b18751ea8c",
+  "messages": [
+    {
+      "id": "0be536b18751ea8c",
+      "snippet": "Sarah, Draft internal investigation report attached for your review before it goes to the Board. Hea",
+      "subject": "Sentinel - internal investigation report (privileged)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-06T12:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Sarah,\n\nDraft internal investigation report attached for your review before it goes to the Board. Headline: the tongue-actuated interlock failed, and the function test due ~October 2025 was missed - last recorded test March 2025. Proximate cause the interlock; underlying causes the maintenance-testing lapse and over-reliance on operator behaviour. I've kept it firmly within privilege.\n\nThis is the document that, more than anything, we must not let leak to the HSE. Thoughts?\n\nTom",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Draft internal investigation report attached for your review before it goes to the Board. Headline: the tongue-actuated interlock failed, and the function test due ~October 2025 was missed - last recorded test March 2025. Proximate cause the interlock; underlying causes the maintenance-testing lapse and over-reliance on operator behaviour. I&#x27;ve kept it firmly within privilege.<br><br>This is the document that, more than anything, we must not let leak to the HSE. Thoughts?<br><br>Tom</div>",
+      "attachmentIds": [
+        "ftkeUbmDnzYSpG15I1h_9DU_OcIDe7Q_SQXPZrKZwSI"
+      ],
+      "attachments": [
+        {
+          "filename": "Sentinel_InternalInvestigationReport.docx",
+          "id": "ftkeUbmDnzYSpG15I1h_9DU_OcIDe7Q_SQXPZrKZwSI",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "a566a19593c6fb19",
+      "snippet": "Tom, Good and appropriately frank. Two points: (1) make crystal clear on the face of it that it's pr",
+      "subject": "RE: Sentinel - internal investigation report (privileged)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-06T14:48:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Tom,\n\nGood and appropriately frank. Two points: (1) make crystal clear on the face of it that it's prepared for the purpose of legal advice and keep distribution to the named group only; (2) the missed October test is our biggest culpability exposure - we need to be ready to frame it as a maintenance lapse on a single machine, not a systemic failure. That framing runs through everything. Let's not share the root-cause analysis beyond Richard and the Board.\n\nSarah\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Fri, Feb 6, 2026 at 12:10 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Sarah,\n>\n> Draft internal investigation report attached for your review before it goes to the Board. Headline: the tongue-actuated interlock failed, and the function test due ~October 2025 was missed - last recorded test March 2025. Proximate cause the interlock; underlying causes the maintenance-testing lapse and over-reliance on operator behaviour. I've kept it firmly within privilege.\n>\n> This is the document that, more than anything, we must not let leak to the HSE. Thoughts?\n>\n> Tom",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>Good and appropriately frank. Two points: (1) make crystal clear on the face of it that it&#x27;s prepared for the purpose of legal advice and keep distribution to the named group only; (2) the missed October test is our biggest culpability exposure - we need to be ready to frame it as a maintenance lapse on a single machine, not a systemic failure. That framing runs through everything. Let&#x27;s not share the root-cause analysis beyond Richard and the Board.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Feb 6, 2026 at 12:10 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Draft internal investigation report attached for your review before it goes to the Board. Headline: the tongue-actuated interlock failed, and the function test due ~October 2025 was missed - last recorded test March 2025. Proximate cause the interlock; underlying causes the maintenance-testing lapse and over-reliance on operator behaviour. I&#x27;ve kept it firmly within privilege.<br><br>This is the document that, more than anything, we must not let leak to the HSE. Thoughts?<br><br>Tom</div></blockquote></div></div>"
+    }
+  ]
+}

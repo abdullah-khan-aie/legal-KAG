@@ -1,0 +1,30 @@
+{
+  "id": "12ccc5eea03d42b8",
+  "messages": [
+    {
+      "id": "12ccc5eea03d42b8",
+      "snippet": "Nadia, Replies to your CPSE.1 enquiries attached. Note in particular: option to tax exercised (VAT o",
+      "subject": "Pinnacle House - replies to CPSE enquiries",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "nadia.iqbal@pembertonrowe.com"
+      ],
+      "date": "2024-08-09T15:45:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Nadia,\n\nReplies to your CPSE.1 enquiries attached. Note in particular: option to tax exercised (VAT on rents), block insurance via Caldervale Underwriting, EPC rating B, and the contracting-out position at reply 12. Let me know if you have any follow-ups.\n\nElena",
+      "htmlBody": "<div dir=\"ltr\">Nadia,<br><br>Replies to your CPSE.1 enquiries attached. Note in particular: option to tax exercised (VAT on rents), block insurance via Caldervale Underwriting, EPC rating B, and the contracting-out position at reply 12. Let me know if you have any follow-ups.<br><br>Elena</div>",
+      "attachmentIds": [
+        "t0d45m3LUh0mvt7gCx3HD7e1qQ2n4TcoH3YcFG_2c7Q"
+      ],
+      "attachments": [
+        {
+          "filename": "Pinnacle_House_CPSE1_Replies.docx",
+          "id": "t0d45m3LUh0mvt7gCx3HD7e1qQ2n4TcoH3YcFG_2c7Q",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

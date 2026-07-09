@@ -1,0 +1,21 @@
+{
+  "id": "4a44b1e438361420",
+  "messages": [
+    {
+      "id": "4a44b1e438361420",
+      "snippet": "Elena - we're a player short for the firm five-a-side on Thursday at 6.30. You in? Pub after at the ",
+      "subject": "Five-a-side Thursday?",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2024-09-06T18:05:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Elena - we're a player short for the firm five-a-side on Thursday at 6.30. You in? Pub after at the Anchor. Tom",
+      "htmlBody": "<div dir=\"ltr\">Elena - we&#x27;re a player short for the firm five-a-side on Thursday at 6.30. You in? Pub after at the Anchor. Tom</div>"
+    }
+  ]
+}

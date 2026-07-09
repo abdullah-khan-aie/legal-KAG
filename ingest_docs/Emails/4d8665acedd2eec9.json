@@ -1,0 +1,25 @@
+{
+  "id": "4d8665acedd2eec9",
+  "messages": [
+    {
+      "id": "4d8665acedd2eec9",
+      "snippet": "Hi Accounts, Now that Harborlight is live (go-live confirmed 9 Feb), please raise the year-one invoi",
+      "subject": "Harborlight — first-year invoicing",
+      "sender": "daniel.okonkwo@caspiantech.io",
+      "toRecipients": [
+        "accounts@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-10T10:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Hi Accounts,\n\nNow that Harborlight is live (go-live confirmed 9 Feb), please raise the year-one invoice: £285k platform + £95k data licence + £38k premium support + £60k onboarding, payable net 30. PO number to follow from Harborlight procurement.\n\nThanks,\nDaniel",
+      "htmlBody": "<div dir=\"ltr\">Hi Accounts,<br><br>Now that Harborlight is live (go-live confirmed 9 Feb), please raise the year-one invoice: £285k platform + £95k data licence + £38k premium support + £60k onboarding, payable net 30. PO number to follow from Harborlight procurement.<br><br>Thanks,<br>Daniel</div>"
+    }
+  ]
+}

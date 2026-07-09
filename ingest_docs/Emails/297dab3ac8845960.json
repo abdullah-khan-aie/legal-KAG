@@ -1,0 +1,54 @@
+{
+  "id": "297dab3ac8845960",
+  "messages": [
+    {
+      "id": "297dab3ac8845960",
+      "snippet": "Jonathan, Our further mark-up attached. To bridge: we accept the 24-month general warranty notificat",
+      "subject": "Project Cedar - SPA v3 (our mark-up)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "jonathan.vane@castlevane.com"
+      ],
+      "ccRecipients": [
+        "amelia.hart@castlevane.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-01T16:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Jonathan,\n\nOur further mark-up attached. To bridge: we accept the 24-month general warranty notification period; in return the general warranty cap comes to 30% of consideration, and the de minimis returns to £25,000. The tax limitation stays at seven years. On that basis I think we're substantially there on liability. The two specific indemnities (Doyle; HMRC R&D) remain as drafted.\n\nGrateful for confirmation so we can move to agreed form.\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\n+44 (0)20 7946 0834",
+      "htmlBody": "<div dir=\"ltr\">Jonathan,<br><br>Our further mark-up attached. To bridge: we accept the 24-month general warranty notification period; in return the general warranty cap comes to 30% of consideration, and the de minimis returns to £25,000. The tax limitation stays at seven years. On that basis I think we&#x27;re substantially there on liability. The two specific indemnities (Doyle; HMRC R&amp;D) remain as drafted.<br><br>Grateful for confirmation so we can move to agreed form.<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0834</div>",
+      "attachmentIds": [
+        "U7axkBgQguMx_gYmEgSnc49Voj0TDJK2jy6RpEy_9aA"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Cedar_SPA_v3_redline.docx",
+          "id": "U7axkBgQguMx_gYmEgSnc49Voj0TDJK2jy6RpEy_9aA",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "458c009077ba5fe6",
+      "snippet": "James, That works for our clients - 30% general cap, 24-month notification, £25k de minimis, seven-y",
+      "subject": "RE: Project Cedar - SPA v3 (our mark-up)",
+      "sender": "jonathan.vane@castlevane.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "amelia.hart@castlevane.com"
+      ],
+      "date": "2026-04-06T11:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nThat works for our clients - 30% general cap, 24-month notification, £25k de minimis, seven-year tax. Agreed in principle subject to finalising the disclosure letter. Let's aim to agree the form by mid-April.\n\nJonathan\n\nOn Wed, Apr 1, 2026 at 4:20 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Jonathan,\n>\n> Our further mark-up attached. To bridge: we accept the 24-month general warranty notification period; in return the general warranty cap comes to 30% of consideration, and the de minimis returns to £25,000. The tax limitation stays at seven years. On that basis I think we're substantially there on liability. The two specific indemnities (Doyle; HMRC R&D) remain as drafted.\n>\n> Grateful for confirmation so we can move to agreed form.\n>\n> James Osei\n> Senior Associate | Whitfield Carter LLP\n> +44 (0)20 7946 0834",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>That works for our clients - 30% general cap, 24-month notification, £25k de minimis, seven-year tax. Agreed in principle subject to finalising the disclosure letter. Let&#x27;s aim to agree the form by mid-April.<br><br>Jonathan</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Apr 1, 2026 at 4:20 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Jonathan,<br><br>Our further mark-up attached. To bridge: we accept the 24-month general warranty notification period; in return the general warranty cap comes to 30% of consideration, and the de minimis returns to £25,000. The tax limitation stays at seven years. On that basis I think we&#x27;re substantially there on liability. The two specific indemnities (Doyle; HMRC R&amp;D) remain as drafted.<br><br>Grateful for confirmation so we can move to agreed form.<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0834</div></blockquote></div></div>"
+    }
+  ]
+}

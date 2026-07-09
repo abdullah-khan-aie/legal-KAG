@@ -1,0 +1,45 @@
+{
+  "id": "ec4bbb2ffa0e8c08",
+  "messages": [
+    {
+      "id": "ec4bbb2ffa0e8c08",
+      "snippet": "Dear Jonathan, Amelia, Following the opening of the data room, please find below our initial legal d",
+      "subject": "Project Falcon - legal DD request list",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "jonathan.vane@castlevane.com",
+        "amelia.hart@castlevane.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-08-04T10:12:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Jonathan, Amelia,\n\nFollowing the opening of the data room, please find below our initial legal due diligence request list (also uploaded to the data room as document 0.1). Priority items are corporate constitutional documents, the top 10 customer and supplier contracts, the property lease for Unit 7, employment particulars, and any litigation correspondence.\n\nWe'd particularly like early sight of anything relating to customer concentration and any ongoing HMRC matters. Happy to discuss scoping.\n\nKind regards\nTom\n\nTom Gallagher\nAssociate | Corporate\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Jonathan, Amelia,<br><br>Following the opening of the data room, please find below our initial legal due diligence request list (also uploaded to the data room as document 0.1). Priority items are corporate constitutional documents, the top 10 customer and supplier contracts, the property lease for Unit 7, employment particulars, and any litigation correspondence.<br><br>We&#x27;d particularly like early sight of anything relating to customer concentration and any ongoing HMRC matters. Happy to discuss scoping.<br><br>Kind regards<br>Tom<br><br>Tom Gallagher<br>Associate | Corporate<br>Whitfield Carter LLP</div>"
+    },
+    {
+      "id": "ee8a07b3e2f2acc7",
+      "snippet": "Tom, Thank you. We're uploading responses on a rolling basis. You should note now that there is an H",
+      "subject": "RE: Project Falcon - legal DD request list",
+      "sender": "amelia.hart@castlevane.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "jonathan.vane@castlevane.com"
+      ],
+      "date": "2025-08-07T13:25:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom,\n\nThank you. We're uploading responses on a rolling basis. You should note now that there is an HMRC enquiry into the FY2023 R&D claim and a customer (Severn Aero) representing c.18% of turnover - both will be dealt with in disclosure. Replies to the bulk of your list will follow by end of next week.\n\nAmelia Hart\nAssociate, Castle & Vane LLP\n\nOn Mon, Aug 4, 2025 at 10:12 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Jonathan, Amelia,\n>\n> Following the opening of the data room, please find below our initial legal due diligence request list (also uploaded to the data room as document 0.1). Priority items are corporate constitutional documents, the top 10 customer and supplier contracts, the property lease for Unit 7, employment particulars, and any litigation correspondence.\n>\n> We'd particularly like early sight of anything relating to customer concentration and any ongoing HMRC matters. Happy to discuss scoping.\n>\n> Kind regards\n> Tom\n>\n> Tom Gallagher\n> Associate | Corporate\n> Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>Thank you. We&#x27;re uploading responses on a rolling basis. You should note now that there is an HMRC enquiry into the FY2023 R&amp;D claim and a customer (Severn Aero) representing c.18% of turnover - both will be dealt with in disclosure. Replies to the bulk of your list will follow by end of next week.<br><br>Amelia Hart<br>Associate, Castle &amp; Vane LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Aug 4, 2025 at 10:12 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Jonathan, Amelia,<br><br>Following the opening of the data room, please find below our initial legal due diligence request list (also uploaded to the data room as document 0.1). Priority items are corporate constitutional documents, the top 10 customer and supplier contracts, the property lease for Unit 7, employment particulars, and any litigation correspondence.<br><br>We&#x27;d particularly like early sight of anything relating to customer concentration and any ongoing HMRC matters. Happy to discuss scoping.<br><br>Kind regards<br>Tom<br><br>Tom Gallagher<br>Associate | Corporate<br>Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

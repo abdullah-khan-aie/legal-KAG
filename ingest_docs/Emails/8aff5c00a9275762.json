@@ -1,0 +1,57 @@
+{
+  "id": "8aff5c00a9275762",
+  "messages": [
+    {
+      "id": "8aff5c00a9275762",
+      "snippet": "Oliver, Following the call, here's v3. We've met you in the middle on the thresholds - de minimis to",
+      "subject": "Project Marlin - SA v3 (our response)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "rosalind.whitaker@westbridgegrowth.com",
+        "nadia.forsyth@brightwateranalytics.com"
+      ],
+      "date": "2026-01-09T14:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Oliver,\n\nFollowing the call, here's v3. We've met you in the middle on the thresholds - de minimis to £12,500 and basket to £60,000 - and the Company has agreed to bring the Company warranty cap down to £1.5m (founders pushed on this). 'All reasonable endeavours' accepted. I think this is close to final on liability.\n\nSubscription Agreement v3 redline attached.\n\nSarah\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Oliver,<br><br>Following the call, here&#x27;s v3. We&#x27;ve met you in the middle on the thresholds - de minimis to £12,500 and basket to £60,000 - and the Company has agreed to bring the Company warranty cap down to £1.5m (founders pushed on this). &#x27;All reasonable endeavours&#x27; accepted. I think this is close to final on liability.<br><br>Subscription Agreement v3 redline attached.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "H7XlTG8ZbZvChebjXElU633TX2_nCi2x-qvnH_Ahm8I"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Marlin_SubscriptionAgreement_v3_redline.docx",
+          "id": "H7XlTG8ZbZvChebjXElU633TX2_nCi2x-qvnH_Ahm8I",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "b0a9f4d4bad94530",
+      "snippet": "Sarah, That works for Westbridge. £1.5m Company cap, £12,500 de minimis, £60,000 basket agreed. We'l",
+      "subject": "RE: Project Marlin - SA v3 (our response)",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "rosalind.whitaker@westbridgegrowth.com"
+      ],
+      "date": "2026-01-13T10:25:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nThat works for Westbridge. £1.5m Company cap, £12,500 de minimis, £60,000 basket agreed. We'll treat the liability package as settled. Let's turn to disclosure and the funds flow.\n\nOliver\n\nOn Fri, Jan 9, 2026 at 2:00 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Oliver,\n>\n> Following the call, here's v3. We've met you in the middle on the thresholds - de minimis to £12,500 and basket to £60,000 - and the Company has agreed to bring the Company warranty cap down to £1.5m (founders pushed on this). 'All reasonable endeavours' accepted. I think this is close to final on liability.\n>\n> Subscription Agreement v3 redline attached.\n>\n> Sarah\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah,<br><br>That works for Westbridge. £1.5m Company cap, £12,500 de minimis, £60,000 basket agreed. We&#x27;ll treat the liability package as settled. Let&#x27;s turn to disclosure and the funds flow.<br><br>Oliver</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Jan 9, 2026 at 2:00 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Oliver,<br><br>Following the call, here&#x27;s v3. We&#x27;ve met you in the middle on the thresholds - de minimis to £12,500 and basket to £60,000 - and the Company has agreed to bring the Company warranty cap down to £1.5m (founders pushed on this). &#x27;All reasonable endeavours&#x27; accepted. I think this is close to final on liability.<br><br>Subscription Agreement v3 redline attached.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

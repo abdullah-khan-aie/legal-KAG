@@ -1,0 +1,24 @@
+{
+  "id": "f8fba4f372218ffd",
+  "messages": [
+    {
+      "id": "f8fba4f372218ffd",
+      "snippet": "Lesley, A quick note for the finance team ahead of completion. The debt & covenant model shows base-",
+      "subject": "Northwind — post-completion covenant monitoring",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "lesley.crane@sutherlandlogistics.co.uk"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-06-15T14:10:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Lesley,\n\nA quick note for the finance team ahead of completion. The debt & covenant model shows base-case leverage at 3.63x at completion, inside the 3.50x→3.00x step-down trajectory by the December test, with the first formal test at 30 September (leverage and DSCR). Minimum liquidity (£1.5m) is tested monthly. I'd suggest we diarise the compliance certificate and keep Marlow's 13-week cashflow running through Q3 — Sterling will be watching it closely.\n\nHappy to set up a 15-minute handover with your team.\n\nJames\nJames Osei\nSenior Associate | Whitfield Carter LLP\nT +44 (0)20 7946 0521",
+      "htmlBody": "<div dir=\"ltr\">Lesley,<br><br>A quick note for the finance team ahead of completion. The debt &amp; covenant model shows base-case leverage at 3.63x at completion, inside the 3.50x→3.00x step-down trajectory by the December test, with the first formal test at 30 September (leverage and DSCR). Minimum liquidity (£1.5m) is tested monthly. I&#x27;d suggest we diarise the compliance certificate and keep Marlow&#x27;s 13-week cashflow running through Q3 — Sterling will be watching it closely.<br><br>Happy to set up a 15-minute handover with your team.<br><br>James<br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>T +44 (0)20 7946 0521</div>"
+    }
+  ]
+}

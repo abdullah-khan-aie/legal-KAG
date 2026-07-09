@@ -1,0 +1,55 @@
+{
+  "id": "b2eae9d25e082a45",
+  "messages": [
+    {
+      "id": "b2eae9d25e082a45",
+      "snippet": "Maya, Daniel, Attached is the pricing model reflecting the agreed commercials so we can confirm the ",
+      "subject": "Stratton MSA – pricing model for sign-off",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "maya.patel@caspiantech.io",
+        "daniel.okonkwo@caspiantech.io"
+      ],
+      "ccRecipients": [
+        "sofia.trevino@caspiantech.io"
+      ],
+      "date": "2026-05-08T16:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Maya, Daniel,\n\nAttached is the pricing model reflecting the agreed commercials so we can confirm the numbers in the contract tie out. Headlines: year-1 charges of £585,000 (subscription £450k, implementation £85k, estimated PS £50k), a 3-year subscription total of £1,418,625 and a total contract value of roughly £1,553,625. The 5% annual uplift is built in.\n\nIf you're content I'll lock clause 6 to these figures.\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nwww.whitfieldcarter.com\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Maya, Daniel,<br><br>Attached is the pricing model reflecting the agreed commercials so we can confirm the numbers in the contract tie out. Headlines: year-1 charges of £585,000 (subscription £450k, implementation £85k, estimated PS £50k), a 3-year subscription total of £1,418,625 and a total contract value of roughly £1,553,625. The 5% annual uplift is built in.<br><br>If you&#x27;re content I&#x27;ll lock clause 6 to these figures.<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "C4EXJEQDHgeUsdceLt__W6oyZws2RyQP4LxUBP-s5Dc"
+      ],
+      "attachments": [
+        {
+          "filename": "Caspian_Stratton_PricingModel.xlsx",
+          "id": "C4EXJEQDHgeUsdceLt__W6oyZws2RyQP4LxUBP-s5Dc",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "72509aba8d54aaee",
+      "snippet": "Tallies with our model – approved. Please proceed on those figures. One note: we'll invoice the impl",
+      "subject": "RE: Stratton MSA – pricing model for sign-off",
+      "sender": "maya.patel@caspiantech.io",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "daniel.okonkwo@caspiantech.io",
+        "sofia.trevino@caspiantech.io"
+      ],
+      "date": "2026-05-08T18:02:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Tallies with our model – approved. Please proceed on those figures. One note: we'll invoice the implementation fee on signature rather than go-live, so do make sure clause 6 allows that.\n\nMaya Patel\nCFO, Caspian Technologies\n\nOn Fri, May 8, 2026 at 4:20 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Maya, Daniel,\n>\n> Attached is the pricing model reflecting the agreed commercials so we can confirm the numbers in the contract tie out. Headlines: year-1 charges of £585,000 (subscription £450k, implementation £85k, estimated PS £50k), a 3-year subscription total of £1,418,625 and a total contract value of roughly £1,553,625. The 5% annual uplift is built in.\n>\n> If you're content I'll lock clause 6 to these figures.\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> www.whitfieldcarter.com\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tallies with our model – approved. Please proceed on those figures. One note: we&#x27;ll invoice the implementation fee on signature rather than go-live, so do make sure clause 6 allows that.<br><br>Maya Patel<br>CFO, Caspian Technologies</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, May 8, 2026 at 4:20 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Maya, Daniel,<br><br>Attached is the pricing model reflecting the agreed commercials so we can confirm the numbers in the contract tie out. Headlines: year-1 charges of £585,000 (subscription £450k, implementation £85k, estimated PS £50k), a 3-year subscription total of £1,418,625 and a total contract value of roughly £1,553,625. The 5% annual uplift is built in.<br><br>If you&#x27;re content I&#x27;ll lock clause 6 to these figures.<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

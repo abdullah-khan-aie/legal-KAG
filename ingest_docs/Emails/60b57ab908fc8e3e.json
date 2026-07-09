@@ -1,0 +1,23 @@
+{
+  "id": "60b57ab908fc8e3e",
+  "messages": [
+    {
+      "id": "60b57ab908fc8e3e",
+      "snippet": "Dear all, You are invited to our summer knowledge session, 'AI and the Future of Legal Drafting', on",
+      "subject": "Invitation: firm seminar — AI and the future of legal drafting",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-06-05T11:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Dear all,\n\nYou are invited to our summer knowledge session, 'AI and the Future of Legal Drafting', on Thursday 19 June at 12:30 in the 8th-floor forum (lunch provided). Please RSVP to me by 16 June for catering.\n\nBest wishes,\nDonna Bridges | Practice Assistant",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>You are invited to our summer knowledge session, &#x27;AI and the Future of Legal Drafting&#x27;, on Thursday 19 June at 12:30 in the 8th-floor forum (lunch provided). Please RSVP to me by 16 June for catering.<br><br>Best wishes,<br>Donna Bridges | Practice Assistant</div>"
+    }
+  ]
+}

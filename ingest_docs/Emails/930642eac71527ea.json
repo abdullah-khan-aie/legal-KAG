@@ -1,0 +1,25 @@
+{
+  "id": "930642eac71527ea",
+  "messages": [
+    {
+      "id": "930642eac71527ea",
+      "snippet": "Sarah, On Project Falcon (Bracken / Greaves Precision), my client has a query on the completion acco",
+      "subject": "Project Falcon - completion accounts query",
+      "sender": "jonathan.vane@castlevane.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-03-12T11:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Sarah,\n\nOn Project Falcon (Bracken / Greaves Precision), my client has a query on the completion accounts - specifically the treatment of the £1m earn-out reserve against the working-capital adjustment. Could one of your corporate team give Amelia a call this week? I appreciate this isn't your matter but you were copied on the original heads of terms.\n\nBest,\nJonathan Vane\nCastle & Vane LLP",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>On Project Falcon (Bracken / Greaves Precision), my client has a query on the completion accounts - specifically the treatment of the £1m earn-out reserve against the working-capital adjustment. Could one of your corporate team give Amelia a call this week? I appreciate this isn&#x27;t your matter but you were copied on the original heads of terms.<br><br>Best,<br>Jonathan Vane<br>Castle &amp; Vane LLP</div>"
+    }
+  ]
+}

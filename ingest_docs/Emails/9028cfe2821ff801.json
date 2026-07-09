@@ -1,0 +1,21 @@
+{
+  "id": "9028cfe2821ff801",
+  "messages": [
+    {
+      "id": "9028cfe2821ff801",
+      "snippet": "James - are you playing 5-a-side tonight? We're one short and kick-off is 7. Let me know ASAP. Also ",
+      "subject": "5-a-side tonight?",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-17T18:45:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James - are you playing 5-a-side tonight? We're one short and kick-off is 7. Let me know ASAP. Also did you ever get that plumber recommendation from Sarah? Cheers, Tom",
+      "htmlBody": "<div dir=\"ltr\">James - are you playing 5-a-side tonight? We&#x27;re one short and kick-off is 7. Let me know ASAP. Also did you ever get that plumber recommendation from Sarah? Cheers, Tom</div>"
+    }
+  ]
+}

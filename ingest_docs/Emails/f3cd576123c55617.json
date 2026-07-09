@@ -1,0 +1,56 @@
+{
+  "id": "f3cd576123c55617",
+  "messages": [
+    {
+      "id": "f3cd576123c55617",
+      "snippet": "James, Our mark-up attached (v2, tracked). Headline points from our side: cap down to £8.5m (20% of ",
+      "subject": "RE: Project Quartz — SPA mark-up (v2)",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "deepa.kovac@birchallstone.com",
+        "daniel.reston@strathmorecapital.com"
+      ],
+      "date": "2026-01-21T10:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James,\n\nOur mark-up attached (v2, tracked). Headline points from our side: cap down to £8.5m (20% of EV); basket up to £637,500; claims period reduced to 18 months; and Patricia's non-compete to 24 months. We've left the retention in for now but reserve the W&I point. Happy to talk it through this week.\n\nOliver",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our mark-up attached (v2, tracked). Headline points from our side: cap down to £8.5m (20% of EV); basket up to £637,500; claims period reduced to 18 months; and Patricia&#x27;s non-compete to 24 months. We&#x27;ve left the retention in for now but reserve the W&amp;I point. Happy to talk it through this week.<br><br>Oliver</div>",
+      "attachmentIds": [
+        "CyfDsBL9rtnOlsgJaLoU2ZuAOzWEGBYGeaQDNUFz3uQ"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Quartz_SPA_v2_redline.docx",
+          "id": "CyfDsBL9rtnOlsgJaLoU2ZuAOzWEGBYGeaQDNUFz3uQ",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "ced060971993ad17",
+      "snippet": "James — 18 months on claims is too short for a manufacturing business; push to at least 21. We can m",
+      "subject": "RE: Project Quartz — SPA mark-up (v2)",
+      "sender": "daniel.reston@strathmorecapital.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-01-21T15:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James — 18 months on claims is too short for a manufacturing business; push to at least 21. We can move off 30% on the cap but not to 20%; 25% (£10.625m) is our landing zone. Hold 30 months for Geoffrey. Daniel\n\nOn Wed, Jan 21, 2026 at 10:30 AM, Oliver Jennings <oliver.jennings@birchallstone.com> wrote:\n> James,\n>\n> Our mark-up attached (v2, tracked). Headline points from our side: cap down to £8.5m (20% of EV); basket up to £637,500; claims period reduced to 18 months; and Patricia's non-compete to 24 months. We've left the retention in for now but reserve the W&I point. Happy to talk it through this week.\n>\n> Oliver",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James — 18 months on claims is too short for a manufacturing business; push to at least 21. We can move off 30% on the cap but not to 20%; 25% (£10.625m) is our landing zone. Hold 30 months for Geoffrey. Daniel</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jan 21, 2026 at 10:30 AM, Oliver Jennings &lt;oliver.jennings@birchallstone.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Our mark-up attached (v2, tracked). Headline points from our side: cap down to £8.5m (20% of EV); basket up to £637,500; claims period reduced to 18 months; and Patricia&#x27;s non-compete to 24 months. We&#x27;ve left the retention in for now but reserve the W&amp;I point. Happy to talk it through this week.<br><br>Oliver</div></blockquote></div></div>"
+    }
+  ]
+}

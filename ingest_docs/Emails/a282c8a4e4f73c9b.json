@@ -1,0 +1,54 @@
+{
+  "id": "a282c8a4e4f73c9b",
+  "messages": [
+    {
+      "id": "a282c8a4e4f73c9b",
+      "snippet": "Charles, Great to be working with you again on Project Drake, the proposed acquisition of Tidewell M",
+      "subject": "Project Drake — engagement and kick-off",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "charles.aldous@kingsfordgroup.com"
+      ],
+      "ccRecipients": [
+        "nathan.reilly@kingsfordgroup.com"
+      ],
+      "date": "2025-08-14T09:10:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Charles,\n\nGreat to be working with you again on Project Drake, the proposed acquisition of Tidewell Marina Holdings. I attach our engagement letter for WC-00148. As discussed, James Osei will run the deal day-to-day with Elena Marchetti, and I will supervise.\n\nOn current scope and an enterprise value around £24.5m we estimate £120k–£155k plus VAT to completion. Please sign and return the enclosed copy at your convenience.\n\nBest,\nSarah\n\n—\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Charles,<br><br>Great to be working with you again on Project Drake, the proposed acquisition of Tidewell Marina Holdings. I attach our engagement letter for WC-00148. As discussed, James Osei will run the deal day-to-day with Elena Marchetti, and I will supervise.<br><br>On current scope and an enterprise value around £24.5m we estimate £120k–£155k plus VAT to completion. Please sign and return the enclosed copy at your convenience.<br><br>Best,<br>Sarah<br><br>—<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "W7pXCTS3QRn3aGbpaI2jHKH97zrD1NB57bd9CjLUu48"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Drake_EngagementLetter.docx",
+          "id": "W7pXCTS3QRn3aGbpaI2jHKH97zrD1NB57bd9CjLUu48",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "0c114de19b22227e",
+      "snippet": "Sarah, Signed copy to follow from Priya. Nathan will be your main point of contact on our side. Keen",
+      "subject": "Project Drake — engagement and kick-off",
+      "sender": "charles.aldous@kingsfordgroup.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "nathan.reilly@kingsfordgroup.com"
+      ],
+      "date": "2025-08-15T08:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nSigned copy to follow from Priya. Nathan will be your main point of contact on our side. Keen to move quickly while we have exclusivity — Gregory Tidewell is motivated but wants certainty.\n\nCharles\n\nOn Thu, Aug 14, 2025 at 9:10 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Charles,\n>\n> Great to be working with you again on Project Drake, the proposed acquisition of Tidewell Marina Holdings. I attach our engagement letter for WC-00148. As discussed, James Osei will run the deal day-to-day with Elena Marchetti, and I will supervise.\n>\n> On current scope and an enterprise value around £24.5m we estimate £120k–£155k plus VAT to completion. Please sign and return the enclosed copy at your convenience.\n>\n> Best,\n> Sarah\n>\n> —\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah,<br><br>Signed copy to follow from Priya. Nathan will be your main point of contact on our side. Keen to move quickly while we have exclusivity — Gregory Tidewell is motivated but wants certainty.<br><br>Charles</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Aug 14, 2025 at 9:10 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Charles,<br><br>Great to be working with you again on Project Drake, the proposed acquisition of Tidewell Marina Holdings. I attach our engagement letter for WC-00148. As discussed, James Osei will run the deal day-to-day with Elena Marchetti, and I will supervise.<br><br>On current scope and an enterprise value around £24.5m we estimate £120k–£155k plus VAT to completion. Please sign and return the enclosed copy at your convenience.<br><br>Best,<br>Sarah<br><br>—<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

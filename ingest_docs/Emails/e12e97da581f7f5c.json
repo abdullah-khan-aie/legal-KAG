@@ -1,0 +1,21 @@
+{
+  "id": "e12e97da581f7f5c",
+  "messages": [
+    {
+      "id": "e12e97da581f7f5c",
+      "snippet": "James - we're a man short for the 5-a-side on Thursday at 7. You in? Pub after at the Bishop's Arms ",
+      "subject": "5-a-side Thursday?",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-05-23T18:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James - we're a man short for the 5-a-side on Thursday at 7. You in? Pub after at the Bishop's Arms either way. Let me know.\n\nTom",
+      "htmlBody": "<div dir=\"ltr\">James - we&#x27;re a man short for the 5-a-side on Thursday at 7. You in? Pub after at the Bishop&#x27;s Arms either way. Let me know.<br><br>Tom</div>"
+    }
+  ]
+}

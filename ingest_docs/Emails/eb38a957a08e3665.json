@@ -1,0 +1,24 @@
+{
+  "id": "eb38a957a08e3665",
+  "messages": [
+    {
+      "id": "eb38a957a08e3665",
+      "snippet": "Tom, Our records show 14.5 hours recorded in April with missing or incomplete narratives. Please com",
+      "subject": "Time recording — April narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-05-01T08:15:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Tom,\n\nOur records show 14.5 hours recorded in April with missing or incomplete narratives. Please complete your narratives by Friday so we can run the month-end bills. The biggest gap is on matter 00149 (Pennington/Project Sentinel).\n\nRegards,\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>Our records show 14.5 hours recorded in April with missing or incomplete narratives. Please complete your narratives by Friday so we can run the month-end bills. The biggest gap is on matter 00149 (Pennington/Project Sentinel).<br><br>Regards,<br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

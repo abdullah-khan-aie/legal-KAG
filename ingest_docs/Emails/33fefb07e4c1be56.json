@@ -1,0 +1,55 @@
+{
+  "id": "33fefb07e4c1be56",
+  "messages": [
+    {
+      "id": "33fefb07e4c1be56",
+      "snippet": "Tom - v2 redline done: 85% to 90% with the reminder/escalation wording, Phase 1 14 to 10 days, and c",
+      "subject": "Recall plan v2 - redline ready",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-10-30T15:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Tom - v2 redline done: 85% to 90% with the reminder/escalation wording, Phase 1 14 to 10 days, and clause 3.3 reworded to prioritise OTA. Ready for you to settle before it goes to DVSA.\n\nElena\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Tom - v2 redline done: 85% to 90% with the reminder/escalation wording, Phase 1 14 to 10 days, and clause 3.3 reworded to prioritise OTA. Ready for you to settle before it goes to DVSA.<br><br>Elena<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "cc71157bea52c305",
+      "snippet": "Dear Ms Whitlow, Thank you for your letter of 23 October. We attach the revised recall action plan a",
+      "subject": "Calderwell CV-7 - R/2025/118 - revised action plan",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "karen.whitlow@dvsa.gov.uk"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "raj.mehta@calderwellmobility.com"
+      ],
+      "date": "2025-11-03T11:45:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Ms Whitlow,\n\nThank you for your letter of 23 October. We attach the revised recall action plan addressing each of your points: completion target raised to 90% with escalation for non-responders, Phase 1 guidance within 10 days, OTA prioritised to connected vehicles, and the VIN schedule with 3/6/12-month reporting confirmed. The company intends to launch on 4 November.\n\nYours sincerely,\nTom Gallagher\nWhitfield Carter LLP\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Thu, Oct 30, 2025 at 3:20 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Tom - v2 redline done: 85% to 90% with the reminder/escalation wording, Phase 1 14 to 10 days, and clause 3.3 reworded to prioritise OTA. Ready for you to settle before it goes to DVSA.\n>\n> Elena\n>\n> —\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Ms Whitlow,<br><br>Thank you for your letter of 23 October. We attach the revised recall action plan addressing each of your points: completion target raised to 90% with escalation for non-responders, Phase 1 guidance within 10 days, OTA prioritised to connected vehicles, and the VIN schedule with 3/6/12-month reporting confirmed. The company intends to launch on 4 November.<br><br>Yours sincerely,<br>Tom Gallagher<br>Whitfield Carter LLP<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 30, 2025 at 3:20 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom - v2 redline done: 85% to 90% with the reminder/escalation wording, Phase 1 14 to 10 days, and clause 3.3 reworded to prioritise OTA. Ready for you to settle before it goes to DVSA.<br><br>Elena<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>",
+      "attachmentIds": [
+        "0LMyltPJoZMM4rKN0cboDEqDY7-TT-rK91e7sxZ2ics",
+        "KBiYMvwhHXnXtS1X2jPST9S6_WCk-nY_VIApCmzBh_k"
+      ],
+      "attachments": [
+        {
+          "filename": "Recall_DVSA_CoverLetter_RevisedPlan.docx",
+          "id": "0LMyltPJoZMM4rKN0cboDEqDY7-TT-rK91e7sxZ2ics",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "filename": "Recall_ActionPlan_Executed.pdf",
+          "id": "KBiYMvwhHXnXtS1X2jPST9S6_WCk-nY_VIApCmzBh_k",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

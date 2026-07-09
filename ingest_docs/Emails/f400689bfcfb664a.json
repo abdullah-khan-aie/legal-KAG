@@ -1,0 +1,25 @@
+{
+  "id": "f400689bfcfb664a",
+  "messages": [
+    {
+      "id": "f400689bfcfb664a",
+      "snippet": "Marcus, James — glad this has completed. It's been a good asset for us and I'm pleased it's going to",
+      "subject": "Maritime Quarter — completion",
+      "sender": "hugh.glennister@glennisterestates.com",
+      "toRecipients": [
+        "marcus.holloway@hollowaypryce.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-27T16:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Marcus, James — glad this has completed. It's been a good asset for us and I'm pleased it's going to a long-term holder. Diane will send the managing agent handover pack to Thornbury's team next week. Best, Hugh Glennister, Glennister Estates",
+      "htmlBody": "<div dir=\"ltr\">Marcus, James — glad this has completed. It&#x27;s been a good asset for us and I&#x27;m pleased it&#x27;s going to a long-term holder. Diane will send the managing agent handover pack to Thornbury&#x27;s team next week. Best, Hugh Glennister, Glennister Estates</div>"
+    }
+  ]
+}

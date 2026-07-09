@@ -1,0 +1,21 @@
+{
+  "id": "2ef056fc3580941d",
+  "messages": [
+    {
+      "id": "2ef056fc3580941d",
+      "snippet": "Hi James — are we still on for dinner with the trainees on Thursday at the Italian on Cornhill, 7.30",
+      "subject": "Dinner Thursday?",
+      "sender": "rebecca.lang@harlandvesey.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-03-06T18:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi James — are we still on for dinner with the trainees on Thursday at the Italian on Cornhill, 7.30? Let me know numbers. (Apologies if this is the wrong James — I have two in my contacts!)\n\nRebecca",
+      "htmlBody": "<div dir=\"ltr\">Hi James — are we still on for dinner with the trainees on Thursday at the Italian on Cornhill, 7.30? Let me know numbers. (Apologies if this is the wrong James — I have two in my contacts!)<br><br>Rebecca</div>"
+    }
+  ]
+}

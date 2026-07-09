@@ -1,0 +1,55 @@
+{
+  "id": "02f6c455882c6f92",
+  "messages": [
+    {
+      "id": "02f6c455882c6f92",
+      "snippet": "Dear Adam, Good to be working with you again. Please find attached our first draft of the Master Sof",
+      "subject": "Caspian / Stratton Energy – Master SaaS Agreement (first draft)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "adam.selby@denhamlewis.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com",
+        "sofia.trevino@caspiantech.io"
+      ],
+      "date": "2026-04-14T11:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Adam,\n\nGood to be working with you again. Please find attached our first draft of the Master Software-as-a-Service Agreement for the Caspian Climate Intelligence Platform, reflecting the heads of terms. The schedules (SOW, SLA and DPA) will follow separately but the key commercial terms are all in clause 6.\n\nWe'd be grateful for your mark-up at your client's convenience – we're working towards signature in May. Happy to take comments in tracked changes.\n\nKind regards,\nJames\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nwww.whitfieldcarter.com\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Adam,<br><br>Good to be working with you again. Please find attached our first draft of the Master Software-as-a-Service Agreement for the Caspian Climate Intelligence Platform, reflecting the heads of terms. The schedules (SOW, SLA and DPA) will follow separately but the key commercial terms are all in clause 6.<br><br>We&#x27;d be grateful for your mark-up at your client&#x27;s convenience – we&#x27;re working towards signature in May. Happy to take comments in tracked changes.<br><br>Kind regards,<br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "99TK8yGd9oiy2UC82ylKdfmOdABdF2HD1Qkqp2j91gI"
+      ],
+      "attachments": [
+        {
+          "filename": "Caspian_Stratton_MSA_v1.docx",
+          "id": "99TK8yGd9oiy2UC82ylKdfmOdABdF2HD1Qkqp2j91gI",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "d97a6d8a29d88928",
+      "snippet": "James, Thanks, received. Marcus Webb in my team will be working on this with me. We'll review agains",
+      "subject": "Caspian / Stratton Energy – Master SaaS Agreement (first draft)",
+      "sender": "adam.selby@denhamlewis.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "marcus.webb@denhamlewis.com"
+      ],
+      "date": "2026-04-15T08:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nThanks, received. Marcus Webb in my team will be working on this with me. We'll review against Stratton's procurement policy and revert with comments – likely by the end of next week. The liability and data-hosting provisions are the ones I expect we'll want to discuss.\n\nRegards,\nAdam Selby\nPartner, Denham Lewis LLP\n\nOn Tue, Apr 14, 2026 at 11:05 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Dear Adam,\n>\n> Good to be working with you again. Please find attached our first draft of the Master Software-as-a-Service Agreement for the Caspian Climate Intelligence Platform, reflecting the heads of terms. The schedules (SOW, SLA and DPA) will follow separately but the key commercial terms are all in clause 6.\n>\n> We'd be grateful for your mark-up at your client's convenience – we're working towards signature in May. Happy to take comments in tracked changes.\n>\n> Kind regards,\n> James\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> www.whitfieldcarter.com\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Thanks, received. Marcus Webb in my team will be working on this with me. We&#x27;ll review against Stratton&#x27;s procurement policy and revert with comments – likely by the end of next week. The liability and data-hosting provisions are the ones I expect we&#x27;ll want to discuss.<br><br>Regards,<br>Adam Selby<br>Partner, Denham Lewis LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Apr 14, 2026 at 11:05 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Adam,<br><br>Good to be working with you again. Please find attached our first draft of the Master Software-as-a-Service Agreement for the Caspian Climate Intelligence Platform, reflecting the heads of terms. The schedules (SOW, SLA and DPA) will follow separately but the key commercial terms are all in clause 6.<br><br>We&#x27;d be grateful for your mark-up at your client&#x27;s convenience – we&#x27;re working towards signature in May. Happy to take comments in tracked changes.<br><br>Kind regards,<br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

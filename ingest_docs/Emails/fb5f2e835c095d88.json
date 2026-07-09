@@ -1,0 +1,21 @@
+{
+  "id": "fb5f2e835c095d88",
+  "messages": [
+    {
+      "id": "fb5f2e835c095d88",
+      "snippet": "Hi both, Project Cedar (WC-00131) is now showing as completed. Please ensure all November and Decemb",
+      "subject": "WC-00131 Project Cedar — month-end billing",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-12-09T09:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Hi both,\n\nProject Cedar (WC-00131) is now showing as completed. Please ensure all November and December time is posted by Friday so we can raise the final fee note to Halstead Aerospace. Current WIP on the matter is £61,400 against an estimate of £55k–£75k, so we're within range. Let me know if any disbursements are outstanding (counsel was not instructed on this one).\n\nAccounts | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hi both,<br><br>Project Cedar (WC-00131) is now showing as completed. Please ensure all November and December time is posted by Friday so we can raise the final fee note to Halstead Aerospace. Current WIP on the matter is £61,400 against an estimate of £55k–£75k, so we&#x27;re within range. Let me know if any disbursements are outstanding (counsel was not instructed on this one).<br><br>Accounts | Whitfield Carter LLP</div>"
+    }
+  ]
+}

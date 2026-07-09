@@ -1,0 +1,23 @@
+{
+  "id": "3e99374c3988f1ef",
+  "messages": [
+    {
+      "id": "3e99374c3988f1ef",
+      "snippet": "All, The document management system (NetDocuments) will be unavailable this Saturday 14 February bet",
+      "subject": "[IT] DMS maintenance window - Saturday 14 Feb, 07:00-11:00",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-10T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "All,\n\nThe document management system (NetDocuments) will be unavailable this Saturday 14 February between 07:00 and 11:00 for scheduled maintenance and a security patch. Please save and check in any open documents beforehand. Email and the phones are unaffected.\n\nIT Helpdesk",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>The document management system (NetDocuments) will be unavailable this Saturday 14 February between 07:00 and 11:00 for scheduled maintenance and a security patch. Please save and check in any open documents beforehand. Email and the phones are unaffected.<br><br>IT Helpdesk</div>"
+    }
+  ]
+}

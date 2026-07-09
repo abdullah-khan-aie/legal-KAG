@@ -1,0 +1,24 @@
+{
+  "id": "968ca9ea6ec3beda",
+  "messages": [
+    {
+      "id": "968ca9ea6ec3beda",
+      "snippet": "Dear all, The firm's document management system (NetDocs) will be unavailable on Saturday 11 October",
+      "subject": "[IT] Document management system maintenance — Sat 11 Oct",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-10-08T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Dear all,\n\nThe firm's document management system (NetDocs) will be unavailable on Saturday 11 October from 07:00 to 13:00 BST for scheduled maintenance and a security patch. Please save and close any open documents before Friday evening. Email will not be affected.\n\nIf you have an urgent need for access during the window, contact the helpdesk.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>The firm&#x27;s document management system (NetDocs) will be unavailable on Saturday 11 October from 07:00 to 13:00 BST for scheduled maintenance and a security patch. Please save and close any open documents before Friday evening. Email will not be affected.<br><br>If you have an urgent need for access during the window, contact the helpdesk.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

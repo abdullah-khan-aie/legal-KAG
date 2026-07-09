@@ -1,0 +1,41 @@
+{
+  "id": "918f6fea4b5caab7",
+  "messages": [
+    {
+      "id": "918f6fea4b5caab7",
+      "snippet": "Dear Ms Rosenthal, Please find with the papers our instructions to advise on the merits and quantum ",
+      "subject": "Instructions to advise — Halstead Aerospace v Ferncliffe Alloys",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "c.rosenthal@eldonchambers.co.uk"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-02-24T11:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Ms Rosenthal,\n\nPlease find with the papers our instructions to advise on the merits and quantum of Halstead's claim against Ferncliffe, and to settle the Particulars of Claim. The key documents are the supply agreement, the Argent report of Dr Frost, NCR QN-2024-0337 and the draft schedule of loss (£2,917,070 direct). We'd be grateful for your view on the clause 12 acceptance point and on the recoverability of the Caldera LD exposure in particular.\n\nKind regards,\nTom Gallagher\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Ms Rosenthal,<br><br>Please find with the papers our instructions to advise on the merits and quantum of Halstead&#x27;s claim against Ferncliffe, and to settle the Particulars of Claim. The key documents are the supply agreement, the Argent report of Dr Frost, NCR QN-2024-0337 and the draft schedule of loss (£2,917,070 direct). We&#x27;d be grateful for your view on the clause 12 acceptance point and on the recoverability of the Caldera LD exposure in particular.<br><br>Kind regards,<br>Tom Gallagher<br>Whitfield Carter LLP</div>"
+    },
+    {
+      "id": "5086fed2bdc540fe",
+      "snippet": "Tom, My written advice follows. In short: liability strong, clause 12 not a real obstacle given late",
+      "subject": "RE: Instructions to advise — Halstead Aerospace v Ferncliffe Alloys",
+      "sender": "c.rosenthal@eldonchambers.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-03-03T18:45:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Tom,\n\nMy written advice follows. In short: liability strong, clause 12 not a real obstacle given latency. On quantum, realistic recoverable core £2.2-2.5m; the Caldera LDs are the most exposed to remoteness — plead but treat as negotiating margin. Two drafting points for the Particulars: (1) claim interest at 5% under s.35A, not 4%, to reflect Halstead's borrowing cost; (2) add an express averment of mitigation. I'll mark up the draft Particulars accordingly.\n\nCatherine Rosenthal KC\nEldon Chambers\n\nOn Mon, Feb 24, 2025 at 11:00 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Ms Rosenthal,\n>\n> Please find with the papers our instructions to advise on the merits and quantum of Halstead's claim against Ferncliffe, and to settle the Particulars of Claim. The key documents are the supply agreement, the Argent report of Dr Frost, NCR QN-2024-0337 and the draft schedule of loss (£2,917,070 direct). We'd be grateful for your view on the clause 12 acceptance point and on the recoverability of the Caldera LD exposure in particular.\n>\n> Kind regards,\n> Tom Gallagher\n> Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>My written advice follows. In short: liability strong, clause 12 not a real obstacle given latency. On quantum, realistic recoverable core £2.2-2.5m; the Caldera LDs are the most exposed to remoteness — plead but treat as negotiating margin. Two drafting points for the Particulars: (1) claim interest at 5% under s.35A, not 4%, to reflect Halstead&#x27;s borrowing cost; (2) add an express averment of mitigation. I&#x27;ll mark up the draft Particulars accordingly.<br><br>Catherine Rosenthal KC<br>Eldon Chambers</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Feb 24, 2025 at 11:00 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Ms Rosenthal,<br><br>Please find with the papers our instructions to advise on the merits and quantum of Halstead&#x27;s claim against Ferncliffe, and to settle the Particulars of Claim. The key documents are the supply agreement, the Argent report of Dr Frost, NCR QN-2024-0337 and the draft schedule of loss (£2,917,070 direct). We&#x27;d be grateful for your view on the clause 12 acceptance point and on the recoverability of the Caldera LD exposure in particular.<br><br>Kind regards,<br>Tom Gallagher<br>Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "892ed296fa9b1569",
+  "messages": [
+    {
+      "id": "892ed296fa9b1569",
+      "snippet": "Sarah, The broker confirms the W&I underwriter (Aldgate Specialty) is comfortable to bind at exchang",
+      "subject": "Project Cedar - W&I policy status",
+      "sender": "priya.anand@crestviewcapital.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-04-22T09:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nThe broker confirms the W&I underwriter (Aldgate Specialty) is comfortable to bind at exchange. Limit is £11.46m, premium plus underwriting fee around £286,500. They've confirmed the Doyle Tribunal matter and the HMRC R&D enquiry are excluded from the policy - both covered by the seller specific indemnities, as expected. Anything outstanding from the underwriter's questionnaire?\n\nPriya",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>The broker confirms the W&amp;I underwriter (Aldgate Specialty) is comfortable to bind at exchange. Limit is £11.46m, premium plus underwriting fee around £286,500. They&#x27;ve confirmed the Doyle Tribunal matter and the HMRC R&amp;D enquiry are excluded from the policy - both covered by the seller specific indemnities, as expected. Anything outstanding from the underwriter&#x27;s questionnaire?<br><br>Priya</div>"
+    },
+    {
+      "id": "8eac358e02bf9b42",
+      "snippet": "Priya, Nothing material outstanding - the underwriter has the diligence report and the data-room acc",
+      "subject": "RE: Project Cedar - W&I policy status",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "priya.anand@crestviewcapital.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-04-22T15:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Priya,\n\nNothing material outstanding - the underwriter has the diligence report and the data-room access they needed. We'll get the no-claims declaration ready for signature at exchange. On track to bind on 7 May.\n\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n+44 (0)20 7946 0820\n\nOn Wed, Apr 22, 2026 at 9:30 AM, Priya Anand <priya.anand@crestviewcapital.com> wrote:\n> Sarah,\n>\n> The broker confirms the W&I underwriter (Aldgate Specialty) is comfortable to bind at exchange. Limit is £11.46m, premium plus underwriting fee around £286,500. They've confirmed the Doyle Tribunal matter and the HMRC R&D enquiry are excluded from the policy - both covered by the seller specific indemnities, as expected. Anything outstanding from the underwriter's questionnaire?\n>\n> Priya",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Priya,<br><br>Nothing material outstanding - the underwriter has the diligence report and the data-room access they needed. We&#x27;ll get the no-claims declaration ready for signature at exchange. On track to bind on 7 May.<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 0820</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Apr 22, 2026 at 9:30 AM, Priya Anand &lt;priya.anand@crestviewcapital.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>The broker confirms the W&amp;I underwriter (Aldgate Specialty) is comfortable to bind at exchange. Limit is £11.46m, premium plus underwriting fee around £286,500. They&#x27;ve confirmed the Doyle Tribunal matter and the HMRC R&amp;D enquiry are excluded from the policy - both covered by the seller specific indemnities, as expected. Anything outstanding from the underwriter&#x27;s questionnaire?<br><br>Priya</div></blockquote></div></div>"
+    }
+  ]
+}

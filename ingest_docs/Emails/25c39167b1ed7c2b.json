@@ -1,0 +1,39 @@
+{
+  "id": "25c39167b1ed7c2b",
+  "messages": [
+    {
+      "id": "25c39167b1ed7c2b",
+      "snippet": "Hi Tom, Attaching the forklift inspection certificates for depot 3 as requested for the audit. Let m",
+      "subject": "Forklift inspection certificates - depot 3",
+      "sender": "mark.tennant@sutherlandlogistics.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-04-22T16:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi Tom,\n\nAttaching the forklift inspection certificates for depot 3 as requested for the audit. Let me know if you need the racking ones too.\n\nMark\n\n[Sender note: this appears to have reached the wrong Tom - please disregard if not intended for you.]",
+      "htmlBody": "<div dir=\"ltr\">Hi Tom,<br><br>Attaching the forklift inspection certificates for depot 3 as requested for the audit. Let me know if you need the racking ones too.<br><br>Mark<br><br>[Sender note: this appears to have reached the wrong Tom - please disregard if not intended for you.]</div>"
+    },
+    {
+      "id": "a1add62e5c5137d5",
+      "snippet": "Hi Mark, I think this has come to the wrong person - I'm a solicitor at Whitfield Carter and not inv",
+      "subject": "RE: Forklift inspection certificates - depot 3",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "mark.tennant@sutherlandlogistics.co.uk"
+      ],
+      "date": "2025-04-22T17:10:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi Mark,\n\nI think this has come to the wrong person - I'm a solicitor at Whitfield Carter and not involved in your depot audit. You may want the Tom in your operations team. No certificates received here that I'll action.\n\nBest,\nTom Gallagher\n\nOn Tue, Apr 22, 2025 at 4:50 PM, Mark Tennant <mark.tennant@sutherlandlogistics.co.uk> wrote:\n> Hi Tom,\n>\n> Attaching the forklift inspection certificates for depot 3 as requested for the audit. Let me know if you need the racking ones too.\n>\n> Mark\n>\n> [Sender note: this appears to have reached the wrong Tom - please disregard if not intended for you.]",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Hi Mark,<br><br>I think this has come to the wrong person - I&#x27;m a solicitor at Whitfield Carter and not involved in your depot audit. You may want the Tom in your operations team. No certificates received here that I&#x27;ll action.<br><br>Best,<br>Tom Gallagher</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Apr 22, 2025 at 4:50 PM, Mark Tennant &lt;mark.tennant@sutherlandlogistics.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Hi Tom,<br><br>Attaching the forklift inspection certificates for depot 3 as requested for the audit. Let me know if you need the racking ones too.<br><br>Mark<br><br>[Sender note: this appears to have reached the wrong Tom - please disregard if not intended for you.]</div></blockquote></div></div>"
+    }
+  ]
+}

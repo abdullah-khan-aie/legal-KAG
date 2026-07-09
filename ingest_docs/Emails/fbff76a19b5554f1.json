@@ -1,0 +1,22 @@
+{
+  "id": "fbff76a19b5554f1",
+  "messages": [
+    {
+      "id": "fbff76a19b5554f1",
+      "snippet": "Our records show unposted time for March on several matters. Please ensure all narratives are submit",
+      "subject": "Time recording — March narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-04-01T08:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Our records show unposted time for March on several matters. Please ensure all narratives are submitted by close of business Thursday so we can run the month-end billing cycle. Contact Accounts if you need a matter reopened for posting.\n\nAccounts, Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Our records show unposted time for March on several matters. Please ensure all narratives are submitted by close of business Thursday so we can run the month-end billing cycle. Contact Accounts if you need a matter reopened for posting.<br><br>Accounts, Whitfield Carter LLP</div>"
+    }
+  ]
+}

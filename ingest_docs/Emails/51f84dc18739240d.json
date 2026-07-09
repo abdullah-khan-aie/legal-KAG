@@ -1,0 +1,22 @@
+{
+  "id": "51f84dc18739240d",
+  "messages": [
+    {
+      "id": "51f84dc18739240d",
+      "snippet": "Hi Sarah, Don't forget we're all at Mum's on Saturday from 1pm for her 70th. Can you bring the cake ",
+      "subject": "Saturday - Mum's birthday",
+      "sender": "karen.w88@gmail.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-09T19:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi Sarah,\n\nDon't forget we're all at Mum's on Saturday from 1pm for her 70th. Can you bring the cake from the usual place? Tom's doing the BBQ. Let me know if you're stuck at work again!\n\nKx",
+      "htmlBody": "<div dir=\"ltr\">Hi Sarah,<br><br>Don&#x27;t forget we&#x27;re all at Mum&#x27;s on Saturday from 1pm for her 70th. Can you bring the cake from the usual place? Tom&#x27;s doing the BBQ. Let me know if you&#x27;re stuck at work again!<br><br>Kx</div>"
+    }
+  ]
+}

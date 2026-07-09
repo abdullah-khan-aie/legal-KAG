@@ -1,0 +1,45 @@
+{
+  "id": "bcb625bdf0193877",
+  "messages": [
+    {
+      "id": "bcb625bdf0193877",
+      "snippet": "Daniel, Lorna, The Board resolved to approve the settlement yesterday. The execution version of the ",
+      "subject": "Whitmore — execution version ready",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.pryce@ashbournehealthcare.com",
+        "lorna.keane@ashbournehealthcare.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-04-15T09:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Daniel, Lorna,\n\nThe Board resolved to approve the settlement yesterday. The execution version of the Settlement Agreement is finalised (Whitmore_SettlementAgreement_Executed) at £185,000 with the 14-day payment window and the agreed reference. We'll arrange signature by Iqbal and the Company Secretary and by Dr Whitmore, with Deepa Kovac's adviser's certificate. Payment falls due within 14 days of the later of full signature and receipt of the certificate.\n\nElena\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Daniel, Lorna,<br><br>The Board resolved to approve the settlement yesterday. The execution version of the Settlement Agreement is finalised (Whitmore_SettlementAgreement_Executed) at £185,000 with the 14-day payment window and the agreed reference. We&#x27;ll arrange signature by Iqbal and the Company Secretary and by Dr Whitmore, with Deepa Kovac&#x27;s adviser&#x27;s certificate. Payment falls due within 14 days of the later of full signature and receipt of the certificate.<br><br>Elena<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "8ac30243c191051a",
+      "snippet": "Signed and returned today by Iqbal and me on behalf of the Company. Please confirm once the adviser'",
+      "subject": "RE: Whitmore — execution version ready",
+      "sender": "daniel.pryce@ashbournehealthcare.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "lorna.keane@ashbournehealthcare.com"
+      ],
+      "date": "2025-04-17T15:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Signed and returned today by Iqbal and me on behalf of the Company. Please confirm once the adviser's certificate is in so Accounts can process the payment. Thanks to you and the team — a good result.\n\nDaniel\n\nOn Tue, Apr 15, 2025 at 9:15 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Daniel, Lorna,\n>\n> The Board resolved to approve the settlement yesterday. The execution version of the Settlement Agreement is finalised (Whitmore_SettlementAgreement_Executed) at £185,000 with the 14-day payment window and the agreed reference. We'll arrange signature by Iqbal and the Company Secretary and by Dr Whitmore, with Deepa Kovac's adviser's certificate. Payment falls due within 14 days of the later of full signature and receipt of the certificate.\n>\n> Elena\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Signed and returned today by Iqbal and me on behalf of the Company. Please confirm once the adviser&#x27;s certificate is in so Accounts can process the payment. Thanks to you and the team — a good result.<br><br>Daniel</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Apr 15, 2025 at 9:15 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Daniel, Lorna,<br><br>The Board resolved to approve the settlement yesterday. The execution version of the Settlement Agreement is finalised (Whitmore_SettlementAgreement_Executed) at £185,000 with the 14-day payment window and the agreed reference. We&#x27;ll arrange signature by Iqbal and the Company Secretary and by Dr Whitmore, with Deepa Kovac&#x27;s adviser&#x27;s certificate. Payment falls due within 14 days of the later of full signature and receipt of the certificate.<br><br>Elena<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

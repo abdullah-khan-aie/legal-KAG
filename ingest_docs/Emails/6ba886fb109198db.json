@@ -1,0 +1,42 @@
+{
+  "id": "6ba886fb109198db",
+  "messages": [
+    {
+      "id": "6ba886fb109198db",
+      "snippet": "Dear Clerks, We should like to instruct Ms Stanford to advise on the merits and quantum of a contrac",
+      "subject": "Instructions to advise - Calverton v Ferncliffe (stainless bar)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "clerks@eldonchambers.co.uk"
+      ],
+      "ccRecipients": [
+        "h.stanford@eldonchambers.co.uk"
+      ],
+      "date": "2025-11-12T10:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Clerks,\n\nWe should like to instruct Ms Stanford to advise on the merits and quantum of a contract/SoGA claim by Calverton Industries against Ferncliffe Alloys (supply of non-conforming 316L bar; failed marine fasteners; loss including a terminated downstream contract). Papers to follow. Could you let me know Ms Stanford's availability and a fee estimate for a written advice?\n\nKind regards\n\nTom Gallagher\nAssociate, Dispute Resolution\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0148\n\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Clerks,<br><br>We should like to instruct Ms Stanford to advise on the merits and quantum of a contract/SoGA claim by Calverton Industries against Ferncliffe Alloys (supply of non-conforming 316L bar; failed marine fasteners; loss including a terminated downstream contract). Papers to follow. Could you let me know Ms Stanford&#x27;s availability and a fee estimate for a written advice?<br><br>Kind regards<br><br>Tom Gallagher<br>Associate, Dispute Resolution<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0148<br><br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "c80738f374d0a64d",
+      "snippet": "Dear Tom, Ms Stanford would be happy to advise. She can turn a written advice around within three we",
+      "subject": "RE: Instructions to advise - Calverton v Ferncliffe (stainless bar)",
+      "sender": "clerks@eldonchambers.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "h.stanford@eldonchambers.co.uk"
+      ],
+      "date": "2025-11-12T15:50:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Dear Tom,\n\nMs Stanford would be happy to advise. She can turn a written advice around within three weeks of receiving papers; estimated fee 4,500 plus VAT. Please send the instructions and bundle when ready.\n\nBest wishes\nMarcus Reed\nEldon Chambers\n\nOn Wed, Nov 12, 2025 at 10:30 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Clerks,\n>\n> We should like to instruct Ms Stanford to advise on the merits and quantum of a contract/SoGA claim by Calverton Industries against Ferncliffe Alloys (supply of non-conforming 316L bar; failed marine fasteners; loss including a terminated downstream contract). Papers to follow. Could you let me know Ms Stanford's availability and a fee estimate for a written advice?\n>\n> Kind regards\n>\n> Tom Gallagher\n> Associate, Dispute Resolution\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 0148\n>\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Tom,<br><br>Ms Stanford would be happy to advise. She can turn a written advice around within three weeks of receiving papers; estimated fee 4,500 plus VAT. Please send the instructions and bundle when ready.<br><br>Best wishes<br>Marcus Reed<br>Eldon Chambers</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Nov 12, 2025 at 10:30 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Clerks,<br><br>We should like to instruct Ms Stanford to advise on the merits and quantum of a contract/SoGA claim by Calverton Industries against Ferncliffe Alloys (supply of non-conforming 316L bar; failed marine fasteners; loss including a terminated downstream contract). Papers to follow. Could you let me know Ms Stanford&#x27;s availability and a fee estimate for a written advice?<br><br>Kind regards<br><br>Tom Gallagher<br>Associate, Dispute Resolution<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0148<br><br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "6d5e4a17a85cc8a2",
+  "messages": [
+    {
+      "id": "6d5e4a17a85cc8a2",
+      "snippet": "Hi all, The Employment team is hosting a CPD lunch session on recent whistleblowing and protected-di",
+      "subject": "CPD - 'Whistleblowing after the 2025 cases' (lunch session, 18 Mar)",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-04T10:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi all,\n\nThe Employment team is hosting a CPD lunch session on recent whistleblowing and protected-disclosure case law on Wednesday 18 March, 12:30-13:30 in the Bishopsgate training room. Sandwiches provided. 1 hour CPD. Please reply to me if you'd like a place as numbers are limited.\n\nDonna\nDonna Bridges | Practice Assistant",
+      "htmlBody": "<div dir=\"ltr\">Hi all,<br><br>The Employment team is hosting a CPD lunch session on recent whistleblowing and protected-disclosure case law on Wednesday 18 March, 12:30-13:30 in the Bishopsgate training room. Sandwiches provided. 1 hour CPD. Please reply to me if you&#x27;d like a place as numbers are limited.<br><br>Donna<br>Donna Bridges | Practice Assistant</div>"
+    }
+  ]
+}

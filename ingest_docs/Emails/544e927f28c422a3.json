@@ -1,0 +1,34 @@
+{
+  "id": "544e927f28c422a3",
+  "messages": [
+    {
+      "id": "544e927f28c422a3",
+      "snippet": "Nadia, Liam, The CMC was yesterday. The sealed order is attached. Headlines: Extended Disclosure (Mo",
+      "subject": "Brightwater v Caldervale — CMC order and directions",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "nadia.forsyth@brightwateranalytics.com",
+        "liam.okafor@brightwateranalytics.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-20T10:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Nadia, Liam,\n\nThe CMC was yesterday. The sealed order is attached. Headlines: Extended Disclosure (Model C) by 15 May; the availability monitoring data and methodology note exchanged by 29 May; witness statements by 26 June; one IT-measurement expert each, reports by 31 July; trial window from 12 January 2027, 4 days. The disclosure and expert stages are where we win the availability point. Costs of the CMC are costs in the case.\n\nTom\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n+44 (0)20 7946 1100\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Nadia, Liam,<br><br>The CMC was yesterday. The sealed order is attached. Headlines: Extended Disclosure (Model C) by 15 May; the availability monitoring data and methodology note exchanged by 29 May; witness statements by 26 June; one IT-measurement expert each, reports by 31 July; trial window from 12 January 2027, 4 days. The disclosure and expert stages are where we win the availability point. Costs of the CMC are costs in the case.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1100<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "11b93QCOq9CpmQ3DmoT_ulW4LK2-BHDZ_S_Ab0XF3mY"
+      ],
+      "attachments": [
+        {
+          "filename": "Brightwater_Caldervale_CMC_Order.pdf",
+          "id": "11b93QCOq9CpmQ3DmoT_ulW4LK2-BHDZ_S_Ab0XF3mY",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

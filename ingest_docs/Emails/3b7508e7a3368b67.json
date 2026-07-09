@@ -1,0 +1,57 @@
+{
+  "id": "3b7508e7a3368b67",
+  "messages": [
+    {
+      "id": "3b7508e7a3368b67",
+      "snippet": "All, With signing set for 30 January and completion on 6 February, attached is the completion funds ",
+      "subject": "Project Tempest — funds flow & completion checklist",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com",
+        "nina.brandt@calderwellmobility.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "eleanor.whitmore@marisdalegrowth.com",
+        "marcus.hale@westbridgegrowth.com"
+      ],
+      "date": "2026-01-28T10:45:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "All,\n\nWith signing set for 30 January and completion on 6 February, attached is the completion funds flow statement. Sources: Marisdale £12m, Westbridge £6m = £18m. Uses: company legal fees £75k, lead investor legal fees £45k, Marlow Tax £30k, balance to the Company. Please confirm the remitting account details with your banks and let me know of any comments.\n\nJames\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>With signing set for 30 January and completion on 6 February, attached is the completion funds flow statement. Sources: Marisdale £12m, Westbridge £6m = £18m. Uses: company legal fees £75k, lead investor legal fees £45k, Marlow Tax £30k, balance to the Company. Please confirm the remitting account details with your banks and let me know of any comments.<br><br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "bVXufMw7h1StphsjHTZmuUST1Vp-CWSqRi94PEkKqdo"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Tempest_FundsFlow.xlsx",
+          "id": "bVXufMw7h1StphsjHTZmuUST1Vp-CWSqRi94PEkKqdo",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "5248e084439b3b77",
+      "snippet": "Confirmed from Westbridge — £6m will be remitted to your client account on the morning of 6 Feb per ",
+      "subject": "RE: Project Tempest — funds flow & completion checklist",
+      "sender": "marcus.hale@westbridgegrowth.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "eleanor.whitmore@marisdalegrowth.com"
+      ],
+      "date": "2026-01-29T14:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Confirmed from Westbridge — £6m will be remitted to your client account on the morning of 6 Feb per the funds flow. Marcus\n\nOn Wed, Jan 28, 2026 at 10:45 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> All,\n>\n> With signing set for 30 January and completion on 6 February, attached is the completion funds flow statement. Sources: Marisdale £12m, Westbridge £6m = £18m. Uses: company legal fees £75k, lead investor legal fees £45k, Marlow Tax £30k, balance to the Company. Please confirm the remitting account details with your banks and let me know of any comments.\n>\n> James\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Confirmed from Westbridge — £6m will be remitted to your client account on the morning of 6 Feb per the funds flow. Marcus</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jan 28, 2026 at 10:45 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">All,<br><br>With signing set for 30 January and completion on 6 February, attached is the completion funds flow statement. Sources: Marisdale £12m, Westbridge £6m = £18m. Uses: company legal fees £75k, lead investor legal fees £45k, Marlow Tax £30k, balance to the Company. Please confirm the remitting account details with your banks and let me know of any comments.<br><br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

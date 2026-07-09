@@ -1,0 +1,24 @@
+{
+  "id": "d6889a0bc0bef425",
+  "messages": [
+    {
+      "id": "d6889a0bc0bef425",
+      "snippet": "Dear all, Our quarterly Real Estate Update seminar takes place on Wednesday 8 April at 12.30pm in th",
+      "subject": "Invitation: Real Estate Update — Building Safety Act 2026 seminar",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-25T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Dear all,\n\nOur quarterly Real Estate Update seminar takes place on Wednesday 8 April at 12.30pm in the Bishopsgate training suite (lunch provided). This session covers recent developments under the Building Safety Act and their impact on commercial investment transactions. 1.5 CPD hours. Please RSVP via the intranet.\n\nKnowledge & Learning",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>Our quarterly Real Estate Update seminar takes place on Wednesday 8 April at 12.30pm in the Bishopsgate training suite (lunch provided). This session covers recent developments under the Building Safety Act and their impact on commercial investment transactions. 1.5 CPD hours. Please RSVP via the intranet.<br><br>Knowledge &amp; Learning</div>"
+    }
+  ]
+}

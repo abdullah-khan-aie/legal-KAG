@@ -1,0 +1,24 @@
+{
+  "id": "e3a3191e4981975a",
+  "messages": [
+    {
+      "id": "e3a3191e4981975a",
+      "snippet": "Sarah, Quick one on Project Atlas (the Brampton Leisure acquisition) - Harland Vesey have come back ",
+      "subject": "Project Atlas - completion accounts query from Harland Vesey",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-04-15T11:10:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Sarah,\n\nQuick one on Project Atlas (the Brampton Leisure acquisition) - Harland Vesey have come back on the completion accounts and are querying the working capital adjustment again. I think it's a rehash of the point we closed off in January but they want a call. Can I borrow you for 15 minutes tomorrow? Nothing urgent and entirely separate from the Vault litigation Tom's running.\n\nJames\n\nJames Osei | Senior Associate | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Quick one on Project Atlas (the Brampton Leisure acquisition) - Harland Vesey have come back on the completion accounts and are querying the working capital adjustment again. I think it&#x27;s a rehash of the point we closed off in January but they want a call. Can I borrow you for 15 minutes tomorrow? Nothing urgent and entirely separate from the Vault litigation Tom&#x27;s running.<br><br>James<br><br>James Osei | Senior Associate | Whitfield Carter LLP</div>"
+    }
+  ]
+}

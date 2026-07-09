@@ -1,0 +1,55 @@
+{
+  "id": "b513066bc52b5276",
+  "messages": [
+    {
+      "id": "b513066bc52b5276",
+      "snippet": "James, Our client's mark-up is attached. The principal changes: liability cap increased to 150%; pri",
+      "subject": "Supply Agreement — Stratton mark-up (v2)",
+      "sender": "alistair.whitlock@pembertonrowe.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "nadia.iqbal@pembertonrowe.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-03-14T17:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nOur client's mark-up is attached. The principal changes: liability cap increased to 150%; price-review right deleted (prices fixed for the term); minimum-commitment shortfall reduced to 10%; liquidated damages to sit outside the cap; IP indemnity uncapped; and termination for convenience available from day one on three months' notice.\n\nWe think these are reasonable given the criticality of supply to our client's sites. Let's set up a call.\n\nAlistair\n\nPemberton Rowe LLP\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our client&#x27;s mark-up is attached. The principal changes: liability cap increased to 150%; price-review right deleted (prices fixed for the term); minimum-commitment shortfall reduced to 10%; liquidated damages to sit outside the cap; IP indemnity uncapped; and termination for convenience available from day one on three months&#x27; notice.<br><br>We think these are reasonable given the criticality of supply to our client&#x27;s sites. Let&#x27;s set up a call.<br><br>Alistair<br><br>Pemberton Rowe LLP<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "GUEhleZDQ3YOJ0bw1b4WtJB1yJ2dxwltzMzKr2Cbxm8"
+      ],
+      "attachments": [
+        {
+          "filename": "HPE_Stratton_SupplyAgreement_v2_redline.docx",
+          "id": "GUEhleZDQ3YOJ0bw1b4WtJB1yJ2dxwltzMzKr2Cbxm8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "d7fe32b618b69f63",
+      "snippet": "Thanks Alistair — reviewing now and taking client instructions. We'll come back with our response th",
+      "subject": "RE: Supply Agreement — Stratton mark-up (v2)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "nadia.iqbal@pembertonrowe.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-03-17T09:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Thanks Alistair — reviewing now and taking client instructions. We'll come back with our response this week and a proposed time for the call.\n\nJames\n\nOn Fri, Mar 14, 2025 at 5:45 PM, Alistair Whitlock <alistair.whitlock@pembertonrowe.com> wrote:\n> James,\n>\n> Our client's mark-up is attached. The principal changes: liability cap increased to 150%; price-review right deleted (prices fixed for the term); minimum-commitment shortfall reduced to 10%; liquidated damages to sit outside the cap; IP indemnity uncapped; and termination for convenience available from day one on three months' notice.\n>\n> We think these are reasonable given the criticality of supply to our client's sites. Let's set up a call.\n>\n> Alistair\n>\n> Pemberton Rowe LLP\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks Alistair — reviewing now and taking client instructions. We&#x27;ll come back with our response this week and a proposed time for the call.<br><br>James</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Mar 14, 2025 at 5:45 PM, Alistair Whitlock &lt;alistair.whitlock@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Our client&#x27;s mark-up is attached. The principal changes: liability cap increased to 150%; price-review right deleted (prices fixed for the term); minimum-commitment shortfall reduced to 10%; liquidated damages to sit outside the cap; IP indemnity uncapped; and termination for convenience available from day one on three months&#x27; notice.<br><br>We think these are reasonable given the criticality of supply to our client&#x27;s sites. Let&#x27;s set up a call.<br><br>Alistair<br><br>Pemberton Rowe LLP<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

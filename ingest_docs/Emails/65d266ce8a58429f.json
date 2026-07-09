@@ -1,0 +1,23 @@
+{
+  "id": "65d266ce8a58429f",
+  "messages": [
+    {
+      "id": "65d266ce8a58429f",
+      "snippet": "Colleagues, The document management system (iManage) will be unavailable from 18:00 Saturday 14 Marc",
+      "subject": "Planned DMS maintenance - Saturday 14 March",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-11T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Colleagues,\n\nThe document management system (iManage) will be unavailable from 18:00 Saturday 14 March until 02:00 Sunday for scheduled maintenance. Please save and close any open documents beforehand. Email will be unaffected.\n\nIT Helpdesk",
+      "htmlBody": "<div dir=\"ltr\">Colleagues,<br><br>The document management system (iManage) will be unavailable from 18:00 Saturday 14 March until 02:00 Sunday for scheduled maintenance. Please save and close any open documents beforehand. Email will be unaffected.<br><br>IT Helpdesk</div>"
+    }
+  ]
+}

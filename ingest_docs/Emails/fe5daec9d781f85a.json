@@ -1,0 +1,35 @@
+{
+  "id": "fe5daec9d781f85a",
+  "messages": [
+    {
+      "id": "fe5daec9d781f85a",
+      "snippet": "Robert, Fiona, Delighted to confirm Project Harbor completed today. The ARA and intercreditor are si",
+      "subject": "Project Harbor - COMPLETED",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "fiona.carrick@harledgefoods.com",
+        "robert.harledge@harledgefoods.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "helen.marsh@penninebusinessbank.com"
+      ],
+      "date": "2026-01-19T17:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Robert, Fiona,\n\nDelighted to confirm Project Harbor completed today. The ARA and intercreditor are signed, Tranche A of £5m has drawn and the £5m subordinated loan has been released from the blocked account. Net liquidity uplift on completion is c.£5.9m before the conditional £3m Tranche B.\n\nFunds flow statement attached for your records. Congratulations to the team - a good outcome.\n\nJames\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Robert, Fiona,<br><br>Delighted to confirm Project Harbor completed today. The ARA and intercreditor are signed, Tranche A of £5m has drawn and the £5m subordinated loan has been released from the blocked account. Net liquidity uplift on completion is c.£5.9m before the conditional £3m Tranche B.<br><br>Funds flow statement attached for your records. Congratulations to the team - a good outcome.<br><br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "Gxi8yslGRq93vxLvcLEOlCUNUmCQNtbop-BWXbLsblw"
+      ],
+      "attachments": [
+        {
+          "filename": "ProjectHarbor_FundsFlow.xlsx",
+          "id": "Gxi8yslGRq93vxLvcLEOlCUNUmCQNtbop-BWXbLsblw",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    }
+  ]
+}

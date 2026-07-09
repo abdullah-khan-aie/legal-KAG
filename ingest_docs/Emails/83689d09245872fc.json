@@ -1,0 +1,44 @@
+{
+  "id": "83689d09245872fc",
+  "messages": [
+    {
+      "id": "83689d09245872fc",
+      "snippet": "Angela, Thank you for the call. I've drafted a short fact statement capturing the timeline from your",
+      "subject": "Maple Court - your fact statement",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "angela.foster@ashbournehealthcare.com"
+      ],
+      "ccRecipients": [
+        "lorna.keane@ashbournehealthcare.com"
+      ],
+      "date": "2025-04-07T13:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Angela,\n\nThank you for the call. I've drafted a short fact statement capturing the timeline from your perspective - the agency night cover, the missed apixaban doses, the safeguarding referral and notification on 28 Jan, and the remedial steps. I'll send it through separately for you to check and sign. The key point we're relying on is that you knew about and escalated the incident before the inspection.\n\nTom\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Angela,<br><br>Thank you for the call. I&#x27;ve drafted a short fact statement capturing the timeline from your perspective - the agency night cover, the missed apixaban doses, the safeguarding referral and notification on 28 Jan, and the remedial steps. I&#x27;ll send it through separately for you to check and sign. The key point we&#x27;re relying on is that you knew about and escalated the incident before the inspection.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "0abf7116fb2682d4",
+      "snippet": "Tom, Reviewed and I'm happy to sign - it's accurate. One small thing: the 100% high-risk medicines c",
+      "subject": "RE: Maple Court - your fact statement",
+      "sender": "angela.foster@ashbournehealthcare.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "lorna.keane@ashbournehealthcare.com"
+      ],
+      "date": "2025-04-09T08:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Tom,\n\nReviewed and I'm happy to sign - it's accurate. One small thing: the 100% high-risk medicines check (including anticoagulants) started after the inspection, which I think the statement already reflects. Signed copy returned today.\n\nAngela Foster\nRegistered Manager, Maple Court Care Home\n\nOn Mon, Apr 7, 2025 at 1:20 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Angela,\n>\n> Thank you for the call. I've drafted a short fact statement capturing the timeline from your perspective - the agency night cover, the missed apixaban doses, the safeguarding referral and notification on 28 Jan, and the remedial steps. I'll send it through separately for you to check and sign. The key point we're relying on is that you knew about and escalated the incident before the inspection.\n>\n> Tom\n>\n> Tom Gallagher\n> Associate | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>Reviewed and I&#x27;m happy to sign - it&#x27;s accurate. One small thing: the 100% high-risk medicines check (including anticoagulants) started after the inspection, which I think the statement already reflects. Signed copy returned today.<br><br>Angela Foster<br>Registered Manager, Maple Court Care Home</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Apr 7, 2025 at 1:20 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Angela,<br><br>Thank you for the call. I&#x27;ve drafted a short fact statement capturing the timeline from your perspective - the agency night cover, the missed apixaban doses, the safeguarding referral and notification on 28 Jan, and the remedial steps. I&#x27;ll send it through separately for you to check and sign. The key point we&#x27;re relying on is that you knew about and escalated the incident before the inspection.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "d9f6eb6a7d9f0c49",
+  "messages": [
+    {
+      "id": "d9f6eb6a7d9f0c49",
+      "snippet": "Hi Tom, Are we still on for 5-a-side on Friday? Liam dropped out so we might be one short — can you ",
+      "subject": "Re: Friday 5-a-side — are we one short?",
+      "sender": "hannah.voss@meridiandiagnostics.de",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-12T09:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi Tom,\n\nAre we still on for 5-a-side on Friday? Liam dropped out so we might be one short — can you ask around the office? Pitch is booked 6:30.\n\nCheers,\nHannah\n\n(Apologies if this has reached the wrong James — meant for James in our Manchester office.)",
+      "htmlBody": "<div dir=\"ltr\">Hi Tom,<br><br>Are we still on for 5-a-side on Friday? Liam dropped out so we might be one short — can you ask around the office? Pitch is booked 6:30.<br><br>Cheers,<br>Hannah<br><br>(Apologies if this has reached the wrong James — meant for James in our Manchester office.)</div>"
+    }
+  ]
+}

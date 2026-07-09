@@ -1,0 +1,42 @@
+{
+  "id": "20bdc0a7727553ba",
+  "messages": [
+    {
+      "id": "20bdc0a7727553ba",
+      "snippet": "Sarah, Whitlock has accepted the retention at £100k with a 30 Sep longstop — better than nothing and",
+      "subject": "Redwood — retention point landed",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-09T10:10:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah,\n\nWhitlock has accepted the retention at £100k with a 30 Sep longstop — better than nothing and the client gets the post-completion uplift via 13.2 regardless. Net initial yield still stacks at 6.40%. I think we're clear to recommend exchange once AML on the SPV directors is signed off. Elena's lease review threw up nothing further.\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Whitlock has accepted the retention at £100k with a 30 Sep longstop — better than nothing and the client gets the post-completion uplift via 13.2 regardless. Net initial yield still stacks at 6.40%. I think we&#x27;re clear to recommend exchange once AML on the SPV directors is signed off. Elena&#x27;s lease review threw up nothing further.<br><br>James</div>"
+    },
+    {
+      "id": "0d417c56fb474694",
+      "snippet": "Agreed, good outcome. Let's get the completion statement basis agreed with Pemberton Rowe early so t",
+      "subject": "RE: Redwood — retention point landed",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-09T10:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Agreed, good outcome. Let's get the completion statement basis agreed with Pemberton Rowe early so there are no surprises on the 15th. Confirm the rent deposit assignment is in the agreed form.\n\nSarah\n\nOn Thu, Apr 9, 2026 at 10:10 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Sarah,\n>\n> Whitlock has accepted the retention at £100k with a 30 Sep longstop — better than nothing and the client gets the post-completion uplift via 13.2 regardless. Net initial yield still stacks at 6.40%. I think we're clear to recommend exchange once AML on the SPV directors is signed off. Elena's lease review threw up nothing further.\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Agreed, good outcome. Let&#x27;s get the completion statement basis agreed with Pemberton Rowe early so there are no surprises on the 15th. Confirm the rent deposit assignment is in the agreed form.<br><br>Sarah</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Apr 9, 2026 at 10:10 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Whitlock has accepted the retention at £100k with a 30 Sep longstop — better than nothing and the client gets the post-completion uplift via 13.2 regardless. Net initial yield still stacks at 6.40%. I think we&#x27;re clear to recommend exchange once AML on the SPV directors is signed off. Elena&#x27;s lease review threw up nothing further.<br><br>James</div></blockquote></div></div>"
+    }
+  ]
+}

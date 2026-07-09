@@ -1,0 +1,24 @@
+{
+  "id": "ce1ad077f7638863",
+  "messages": [
+    {
+      "id": "ce1ad077f7638863",
+      "snippet": "Dear All, The document management system and email will be unavailable this Sunday 5 October between",
+      "subject": "Scheduled maintenance: DMS and email - Sunday 5 October 02:00-06:00",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "donna.bridges@whitfieldcarter.com"
+      ],
+      "date": "2025-10-04T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear All,\n\nThe document management system and email will be unavailable this Sunday 5 October between 02:00 and 06:00 BST for scheduled maintenance and security patching. Please save and close any open documents before Saturday evening. No action is required.\n\nIf you experience issues on Monday morning, please log a ticket with the helpdesk.\n\nRegards,\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear All,<br><br>The document management system and email will be unavailable this Sunday 5 October between 02:00 and 06:00 BST for scheduled maintenance and security patching. Please save and close any open documents before Saturday evening. No action is required.<br><br>If you experience issues on Monday morning, please log a ticket with the helpdesk.<br><br>Regards,<br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

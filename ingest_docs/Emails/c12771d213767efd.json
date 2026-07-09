@@ -1,0 +1,46 @@
+{
+  "id": "c12771d213767efd",
+  "messages": [
+    {
+      "id": "c12771d213767efd",
+      "snippet": "Elena, First full draft of the MSA attached (v1). I've put the liability cap at 100% of trailing 12-",
+      "subject": "Brookmere MSA - first draft for your review",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-11-04T11:10:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Elena,\n\nFirst full draft of the MSA attached (v1). I've put the liability cap at 100% of trailing 12-month Fees as our opening position - expect Denham Lewis to push hard on that. SLA is 99.7% with the standard credit table. Can you sense-check the data licence schedule and the DPA against Caspian's standard sub-processor list?\n\nJames\n\n--\nJames Osei\nSenior Associate, Commercial\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Elena,<br><br>First full draft of the MSA attached (v1). I&#x27;ve put the liability cap at 100% of trailing 12-month Fees as our opening position - expect Denham Lewis to push hard on that. SLA is 99.7% with the standard credit table. Can you sense-check the data licence schedule and the DPA against Caspian&#x27;s standard sub-processor list?<br><br>James<br><br>--<br>James Osei<br>Senior Associate, Commercial<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "8xWtHZEewjMvAXzfBy2LJAuaqD3Ucgg_muxPa8zNpxE"
+      ],
+      "attachments": [
+        {
+          "filename": "Brookmere_MSA_v1.docx",
+          "id": "8xWtHZEewjMvAXzfBy2LJAuaqD3Ucgg_muxPa8zNpxE",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "24004d65735ccbed",
+      "snippet": "Looks good. Two things: (1) sub-processor list in Annex 3 matches Caspian's current DPA, fine; (2) I",
+      "subject": "RE: Brookmere MSA - first draft for your review",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-11-05T15:32:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Looks good. Two things: (1) sub-processor list in Annex 3 matches Caspian's current DPA, fine; (2) I'd flag in the cover note that the dataset disclaimer in clause 9 is the one Brookmere will likely attack given they're using Output for TCFD/ISSB disclosure. Otherwise happy to send.\n\nElena\n\nOn Tue, Nov 4, 2025 at 11:10 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Elena,\n>\n> First full draft of the MSA attached (v1). I've put the liability cap at 100% of trailing 12-month Fees as our opening position - expect Denham Lewis to push hard on that. SLA is 99.7% with the standard credit table. Can you sense-check the data licence schedule and the DPA against Caspian's standard sub-processor list?\n>\n> James\n>\n> --\n> James Osei\n> Senior Associate, Commercial\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Looks good. Two things: (1) sub-processor list in Annex 3 matches Caspian&#x27;s current DPA, fine; (2) I&#x27;d flag in the cover note that the dataset disclaimer in clause 9 is the one Brookmere will likely attack given they&#x27;re using Output for TCFD/ISSB disclosure. Otherwise happy to send.<br><br>Elena</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Nov 4, 2025 at 11:10 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Elena,<br><br>First full draft of the MSA attached (v1). I&#x27;ve put the liability cap at 100% of trailing 12-month Fees as our opening position - expect Denham Lewis to push hard on that. SLA is 99.7% with the standard credit table. Can you sense-check the data licence schedule and the DPA against Caspian&#x27;s standard sub-processor list?<br><br>James<br><br>--<br>James Osei<br>Senior Associate, Commercial<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

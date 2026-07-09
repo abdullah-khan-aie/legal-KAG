@@ -1,0 +1,25 @@
+{
+  "id": "3defbd0c5601b955",
+  "messages": [
+    {
+      "id": "3defbd0c5601b955",
+      "snippet": "Good morning, Confirming the meeting with HM Inspector Whitlow this Wednesday 4 March at 11:00, at o",
+      "subject": "Sentinel - HSE meeting 4 March, 11:00",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "rpennington@penningtonindustries.com",
+        "npatel@penningtonindustries.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-03-02T08:45:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Good morning,\n\nConfirming the meeting with HM Inspector Whitlow this Wednesday 4 March at 11:00, at our offices (22 Bishopsgate). Attending for the Company: Richard Pennington, Naomi Patel; for us: Sarah Whitfield and Tom Gallagher. Pre-meeting at 10:15. Please let me know of any dietary requirements for lunch.\n\nKind regards,\nDonna Bridges\nPractice Assistant, Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Good morning,<br><br>Confirming the meeting with HM Inspector Whitlow this Wednesday 4 March at 11:00, at our offices (22 Bishopsgate). Attending for the Company: Richard Pennington, Naomi Patel; for us: Sarah Whitfield and Tom Gallagher. Pre-meeting at 10:15. Please let me know of any dietary requirements for lunch.<br><br>Kind regards,<br>Donna Bridges<br>Practice Assistant, Whitfield Carter LLP</div>"
+    }
+  ]
+}

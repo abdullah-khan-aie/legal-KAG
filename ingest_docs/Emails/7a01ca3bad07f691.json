@@ -1,0 +1,54 @@
+{
+  "id": "7a01ca3bad07f691",
+  "messages": [
+    {
+      "id": "7a01ca3bad07f691",
+      "snippet": "Robert, Hannah, Following agreement of the heads of terms, please find attached our first draft of t",
+      "subject": "Project Aquilo - Master Supply Agreement (first draft)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "robert.thwaite@thwaitemercer.com",
+        "hannah.liu@thwaitemercer.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-11T14:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Robert, Hannah,\n\nFollowing agreement of the heads of terms, please find attached our first draft of the Master Manufacture and Supply Agreement for the Harrow/Calderwater framework. The technical specification, service levels and pricing are dealt with in separate schedules which we'll circulate shortly.\n\nWe look forward to receiving your client's comments.\n\nKind regards,\n\nElena Marchetti\nAssociate | Whitfield Carter LLP\nT +44 (0)20 7946 0048\nwhitfieldcarter.com\n\nThis email is confidential and may be legally privileged. If you are not the intended recipient please delete it and notify the sender.",
+      "htmlBody": "<div dir=\"ltr\">Robert, Hannah,<br><br>Following agreement of the heads of terms, please find attached our first draft of the Master Manufacture and Supply Agreement for the Harrow/Calderwater framework. The technical specification, service levels and pricing are dealt with in separate schedules which we&#x27;ll circulate shortly.<br><br>We look forward to receiving your client&#x27;s comments.<br><br>Kind regards,<br><br>Elena Marchetti<br>Associate | Whitfield Carter LLP<br>T +44 (0)20 7946 0048<br>whitfieldcarter.com<br><br>This email is confidential and may be legally privileged. If you are not the intended recipient please delete it and notify the sender.</div>",
+      "attachmentIds": [
+        "ETmDgkpgP5NS_tO5pyecP2oZdzAdpOznFmOirgiccuA"
+      ],
+      "attachments": [
+        {
+          "filename": "HPE_Calderwater_SupplyAgreement_v1.docx",
+          "id": "ETmDgkpgP5NS_tO5pyecP2oZdzAdpOznFmOirgiccuA",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "a5ecd436be1187b4",
+      "snippet": "Elena, Thank you - received. We'll review with Calderwater's procurement and engineering teams and r",
+      "subject": "RE: Project Aquilo - Master Supply Agreement (first draft)",
+      "sender": "robert.thwaite@thwaitemercer.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "hannah.liu@thwaitemercer.com"
+      ],
+      "date": "2026-02-13T09:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Elena,\n\nThank you - received. We'll review with Calderwater's procurement and engineering teams and revert with a mark-up, likely week commencing 23 February. The liability and minimum-commitment provisions will be the main areas of focus.\n\nRegards,\nRobert Thwaite\nPartner, Thwaite Mercer LLP\n\nOn Wed, Feb 11, 2026 at 2:30 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Robert, Hannah,\n>\n> Following agreement of the heads of terms, please find attached our first draft of the Master Manufacture and Supply Agreement for the Harrow/Calderwater framework. The technical specification, service levels and pricing are dealt with in separate schedules which we'll circulate shortly.\n>\n> We look forward to receiving your client's comments.\n>\n> Kind regards,\n>\n> Elena Marchetti\n> Associate | Whitfield Carter LLP\n> T +44 (0)20 7946 0048\n> whitfieldcarter.com\n>\n> This email is confidential and may be legally privileged. If you are not the intended recipient please delete it and notify the sender.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena,<br><br>Thank you - received. We&#x27;ll review with Calderwater&#x27;s procurement and engineering teams and revert with a mark-up, likely week commencing 23 February. The liability and minimum-commitment provisions will be the main areas of focus.<br><br>Regards,<br>Robert Thwaite<br>Partner, Thwaite Mercer LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 11, 2026 at 2:30 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Robert, Hannah,<br><br>Following agreement of the heads of terms, please find attached our first draft of the Master Manufacture and Supply Agreement for the Harrow/Calderwater framework. The technical specification, service levels and pricing are dealt with in separate schedules which we&#x27;ll circulate shortly.<br><br>We look forward to receiving your client&#x27;s comments.<br><br>Kind regards,<br><br>Elena Marchetti<br>Associate | Whitfield Carter LLP<br>T +44 (0)20 7946 0048<br>whitfieldcarter.com<br><br>This email is confidential and may be legally privileged. If you are not the intended recipient please delete it and notify the sender.</div></blockquote></div></div>"
+    }
+  ]
+}

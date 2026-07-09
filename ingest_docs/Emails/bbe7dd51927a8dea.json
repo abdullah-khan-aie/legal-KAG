@@ -1,0 +1,24 @@
+{
+  "id": "bbe7dd51927a8dea",
+  "messages": [
+    {
+      "id": "bbe7dd51927a8dea",
+      "snippet": "Join us on 26 March (12:30-13:30, Room 6 / Teams) for a CPD seminar on the latest Building Safety Ac",
+      "subject": "Lunchtime seminar: Building Safety Act 2022 - what real estate teams need to know",
+      "sender": "knowledge@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-03-19T11:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Join us on 26 March (12:30-13:30, Room 6 / Teams) for a CPD seminar on the latest Building Safety Act developments and their impact on commercial property transactions. Sandwiches provided. Reserve your place via the link in the calendar invite.\n\nKnowledge & Learning",
+      "htmlBody": "<div dir=\"ltr\">Join us on 26 March (12:30-13:30, Room 6 / Teams) for a CPD seminar on the latest Building Safety Act developments and their impact on commercial property transactions. Sandwiches provided. Reserve your place via the link in the calendar invite.<br><br>Knowledge &amp; Learning</div>"
+    }
+  ]
+}

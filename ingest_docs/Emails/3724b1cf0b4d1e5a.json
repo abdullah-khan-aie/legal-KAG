@@ -1,0 +1,34 @@
+{
+  "id": "3724b1cf0b4d1e5a",
+  "messages": [
+    {
+      "id": "3724b1cf0b4d1e5a",
+      "snippet": "Jonathan, Please find our first draft of the share purchase agreement. Headline terms per the heads ",
+      "subject": "Project Harbor - SPA first draft",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "jonathan.vane@castlevane.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "amelia.hart@castlevane.com"
+      ],
+      "date": "2025-10-10T16:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Jonathan,\n\nPlease find our first draft of the share purchase agreement. Headline terms per the heads of terms. Note in particular clause 8 (limitations): our opening position is a 100% cap on the business warranties, a £41,500 de minimis and a £415,000 basket, with a 24-month general warranty period and 7 years for tax. We look forward to your mark-up.\n\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Jonathan,<br><br>Please find our first draft of the share purchase agreement. Headline terms per the heads of terms. Note in particular clause 8 (limitations): our opening position is a 100% cap on the business warranties, a £41,500 de minimis and a £415,000 basket, with a 24-month general warranty period and 7 years for tax. We look forward to your mark-up.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "CnTonL1OPHYOakuaxLXaxP8r8yEsiN1dB1PaIT49U2k"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Harbor_SPA_v1.docx",
+          "id": "CnTonL1OPHYOakuaxLXaxP8r8yEsiN1dB1PaIT49U2k",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

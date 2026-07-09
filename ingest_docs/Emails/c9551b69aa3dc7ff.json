@@ -1,0 +1,21 @@
+{
+  "id": "c9551b69aa3dc7ff",
+  "messages": [
+    {
+      "id": "c9551b69aa3dc7ff",
+      "snippet": "Sarah, Quick one on Project Cedar (the Crestview deal) - has the warranty & indemnity policy with Al",
+      "subject": "Project Cedar - W&I policy",
+      "sender": "daniel.reeve@crestviewcapital.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-01-27T13:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Sarah,\n\nQuick one on Project Cedar (the Crestview deal) - has the warranty & indemnity policy with Aldgate Specialty been bound yet? Our IC wants confirmation before signing. Apologies if this should have gone to the deal team rather than you directly.\n\nDaniel",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Quick one on Project Cedar (the Crestview deal) - has the warranty &amp; indemnity policy with Aldgate Specialty been bound yet? Our IC wants confirmation before signing. Apologies if this should have gone to the deal team rather than you directly.<br><br>Daniel</div>"
+    }
+  ]
+}

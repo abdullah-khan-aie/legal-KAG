@@ -1,0 +1,71 @@
+{
+  "id": "7e1f33a21f66f3bb",
+  "messages": [
+    {
+      "id": "7e1f33a21f66f3bb",
+      "snippet": "Sarah, Following our call, we'd like Whitfield Carter to act for Ashfield Dynamics on the Marwick Dr",
+      "subject": "Marwick gearmotor failures - need legal help",
+      "sender": "david.ashby@ashfielddynamics.co.uk",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-01-20T09:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nFollowing our call, we'd like Whitfield Carter to act for Ashfield Dynamics on the Marwick Drives problem. To recap: we bought 60 MD-450 gearmotor units from Marwick last March for the Halcyon Linevue conveyor line, and 41 of them have now failed in under nine months. We've had to replace the lot and pay Halcyon downtime damages. It's cost us well over £400k.\n\nCan you send through an engagement letter and tell us what you need from us to get going?\n\nDavid\n\nDavid Ashby | Managing Director | Ashfield Dynamics Limited",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Following our call, we&#x27;d like Whitfield Carter to act for Ashfield Dynamics on the Marwick Drives problem. To recap: we bought 60 MD-450 gearmotor units from Marwick last March for the Halcyon Linevue conveyor line, and 41 of them have now failed in under nine months. We&#x27;ve had to replace the lot and pay Halcyon downtime damages. It&#x27;s cost us well over £400k.<br><br>Can you send through an engagement letter and tell us what you need from us to get going?<br><br>David<br><br>David Ashby | Managing Director | Ashfield Dynamics Limited</div>"
+    },
+    {
+      "id": "647f47d356f5d835",
+      "snippet": "David, Thank you - we'd be glad to act. Our engagement letter is attached; please sign and return th",
+      "subject": "RE: Marwick gearmotor failures - need legal help",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "david.ashby@ashfielddynamics.co.uk"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-01-21T11:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "David,\n\nThank you - we'd be glad to act. Our engagement letter is attached; please sign and return the duplicate. Tom Gallagher will have day-to-day conduct, with me supervising.\n\nAs a first step we'll send a letter before action to Marwick. To prepare it I'll need your purchase order PO-AD-4471, the order acknowledgement, the delivery notes, your installation and maintenance records, and the Renshaw investigation report. Paul can no doubt help pull those together.\n\nWe propose instructing Harriet Stanford of Eldon Chambers if this proceeds.\n\nKind regards\nSarah\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com\nConfidential and may be legally privileged.\n\nOn Mon, Jan 20, 2025 at 9:12 AM, David Ashby <david.ashby@ashfielddynamics.co.uk> wrote:\n> Sarah,\n>\n> Following our call, we'd like Whitfield Carter to act for Ashfield Dynamics on the Marwick Drives problem. To recap: we bought 60 MD-450 gearmotor units from Marwick last March for the Halcyon Linevue conveyor line, and 41 of them have now failed in under nine months. We've had to replace the lot and pay Halcyon downtime damages. It's cost us well over £400k.\n>\n> Can you send through an engagement letter and tell us what you need from us to get going?\n>\n> David\n>\n> David Ashby | Managing Director | Ashfield Dynamics Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">David,<br><br>Thank you - we&#x27;d be glad to act. Our engagement letter is attached; please sign and return the duplicate. Tom Gallagher will have day-to-day conduct, with me supervising.<br><br>As a first step we&#x27;ll send a letter before action to Marwick. To prepare it I&#x27;ll need your purchase order PO-AD-4471, the order acknowledgement, the delivery notes, your installation and maintenance records, and the Renshaw investigation report. Paul can no doubt help pull those together.<br><br>We propose instructing Harriet Stanford of Eldon Chambers if this proceeds.<br><br>Kind regards<br>Sarah<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Jan 20, 2025 at 9:12 AM, David Ashby &lt;david.ashby@ashfielddynamics.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Following our call, we&#x27;d like Whitfield Carter to act for Ashfield Dynamics on the Marwick Drives problem. To recap: we bought 60 MD-450 gearmotor units from Marwick last March for the Halcyon Linevue conveyor line, and 41 of them have now failed in under nine months. We&#x27;ve had to replace the lot and pay Halcyon downtime damages. It&#x27;s cost us well over £400k.<br><br>Can you send through an engagement letter and tell us what you need from us to get going?<br><br>David<br><br>David Ashby | Managing Director | Ashfield Dynamics Limited</div></blockquote></div></div>",
+      "attachmentIds": [
+        "--KBy7WLCIzBMwI1FjeLCQYL40179HNsKXLoJdEbNL0"
+      ],
+      "attachments": [
+        {
+          "filename": "AshfieldDynamics_EngagementLetter.docx",
+          "id": "--KBy7WLCIzBMwI1FjeLCQYL40179HNsKXLoJdEbNL0",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "7770a525d57cb79b",
+      "snippet": "Signed copy to follow by post. Paul has the technical records and the Renshaw report and will send t",
+      "subject": "RE: Marwick gearmotor failures - need legal help",
+      "sender": "david.ashby@ashfielddynamics.co.uk",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "paul.voss@ashfielddynamics.co.uk"
+      ],
+      "date": "2025-01-21T16:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Signed copy to follow by post. Paul has the technical records and the Renshaw report and will send them to Tom. Let's move quickly - the line is still running on the Renforth replacements but I want this resolved.\n\nDavid\n\nOn Tue, Jan 21, 2025 at 11:40 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> David,\n>\n> Thank you - we'd be glad to act. Our engagement letter is attached; please sign and return the duplicate. Tom Gallagher will have day-to-day conduct, with me supervising.\n>\n> As a first step we'll send a letter before action to Marwick. To prepare it I'll need your purchase order PO-AD-4471, the order acknowledgement, the delivery notes, your installation and maintenance records, and the Renshaw investigation report. Paul can no doubt help pull those together.\n>\n> We propose instructing Harriet Stanford of Eldon Chambers if this proceeds.\n>\n> Kind regards\n> Sarah\n>\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com\n> Confidential and may be legally privileged.\n>\n> On Mon, Jan 20, 2025 at 9:12 AM, David Ashby <david.ashby@ashfielddynamics.co.uk> wrote:\n> > Sarah,\n> >\n> > Following our call, we'd like Whitfield Carter to act for Ashfield Dynamics on the Marwick Drives problem. To recap: we bought 60 MD-450 gearmotor units from Marwick last March for the Halcyon Linevue conveyor line, and 41 of them have now failed in under nine months. We've had to replace the lot and pay Halcyon downtime damages. It's cost us well over £400k.\n> >\n> > Can you send through an engagement letter and tell us what you need from us to get going?\n> >\n> > David\n> >\n> > David Ashby | Managing Director | Ashfield Dynamics Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Signed copy to follow by post. Paul has the technical records and the Renshaw report and will send them to Tom. Let&#x27;s move quickly - the line is still running on the Renforth replacements but I want this resolved.<br><br>David</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jan 21, 2025 at 11:40 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">David,<br><br>Thank you - we&#x27;d be glad to act. Our engagement letter is attached; please sign and return the duplicate. Tom Gallagher will have day-to-day conduct, with me supervising.<br><br>As a first step we&#x27;ll send a letter before action to Marwick. To prepare it I&#x27;ll need your purchase order PO-AD-4471, the order acknowledgement, the delivery notes, your installation and maintenance records, and the Renshaw investigation report. Paul can no doubt help pull those together.<br><br>We propose instructing Harriet Stanford of Eldon Chambers if this proceeds.<br><br>Kind regards<br>Sarah<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Jan 20, 2025 at 9:12 AM, David Ashby &lt;david.ashby@ashfielddynamics.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Following our call, we&#x27;d like Whitfield Carter to act for Ashfield Dynamics on the Marwick Drives problem. To recap: we bought 60 MD-450 gearmotor units from Marwick last March for the Halcyon Linevue conveyor line, and 41 of them have now failed in under nine months. We&#x27;ve had to replace the lot and pay Halcyon downtime damages. It&#x27;s cost us well over £400k.<br><br>Can you send through an engagement letter and tell us what you need from us to get going?<br><br>David<br><br>David Ashby | Managing Director | Ashfield Dynamics Limited</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

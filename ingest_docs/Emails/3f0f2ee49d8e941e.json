@@ -1,0 +1,35 @@
+{
+  "id": "3f0f2ee49d8e941e",
+  "messages": [
+    {
+      "id": "3f0f2ee49d8e941e",
+      "snippet": "Dear Elena, My report is attached. In short: the interlock was defeated using a spare actuator held ",
+      "subject": "Forensic engineering report — CR-TR-12 (WML/2026/EX-0488)",
+      "sender": "f.iqbal@wraysburymaterials.co.uk",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-04-16T17:25:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear Elena,\n\nMy report is attached. In short: the interlock was defeated using a spare actuator held loose in the maintenance store; the older tongue-and-slot design does not adequately prevent reasonably foreseeable defeat under BS EN ISO 14119; and trapped-key or RFID-coded interlocking with dual-channel monitoring would have prevented it. The control log confirms continuous bypass from 09:48 on 18 March.\n\nThis is a foreseeable failure mode and would have been detectable on a competent inspection. Do call if you would like to discuss.\n\nFaisal Iqbal",
+      "htmlBody": "<div dir=\"ltr\">Dear Elena,<br><br>My report is attached. In short: the interlock was defeated using a spare actuator held loose in the maintenance store; the older tongue-and-slot design does not adequately prevent reasonably foreseeable defeat under BS EN ISO 14119; and trapped-key or RFID-coded interlocking with dual-channel monitoring would have prevented it. The control log confirms continuous bypass from 09:48 on 18 March.<br><br>This is a foreseeable failure mode and would have been detectable on a competent inspection. Do call if you would like to discuss.<br><br>Faisal Iqbal</div>",
+      "attachmentIds": [
+        "QGcg91pADJeGEKGxkn3GYv2wlAyTIC3mjQnV8FaVuRI"
+      ],
+      "attachments": [
+        {
+          "filename": "Lyra_ForensicEngineeringReport.pdf",
+          "id": "QGcg91pADJeGEKGxkn3GYv2wlAyTIC3mjQnV8FaVuRI",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

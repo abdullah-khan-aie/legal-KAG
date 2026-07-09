@@ -1,0 +1,23 @@
+{
+  "id": "9932c238b029ba55",
+  "messages": [
+    {
+      "id": "9932c238b029ba55",
+      "snippet": "Hello, Our records show unposted time for August against several matters. Please complete and post y",
+      "subject": "Time recording - August narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-09-01T08:15:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hello,\n\nOur records show unposted time for August against several matters. Please complete and post your narratives by close of business Wednesday so we can run the month-end bill run. If you need a matter number set up, let me know.\n\nThanks,\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hello,<br><br>Our records show unposted time for August against several matters. Please complete and post your narratives by close of business Wednesday so we can run the month-end bill run. If you need a matter number set up, let me know.<br><br>Thanks,<br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

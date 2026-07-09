@@ -1,0 +1,22 @@
+{
+  "id": "f4f5d68ee455210e",
+  "messages": [
+    {
+      "id": "f4f5d68ee455210e",
+      "snippet": "Hi James, Just confirming the viewing for the two-bed at 14 Maple Court is booked for 11am Saturday.",
+      "subject": "Re: viewing on Saturday",
+      "sender": "greg.mason@northbridgerealty.co.uk",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-05-30T18:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi James,\n\nJust confirming the viewing for the two-bed at 14 Maple Court is booked for 11am Saturday. The agent will meet you out front - do bring photo ID.\n\nApologies if this has reached the wrong James - the office gave me this address. Let me know either way!\n\nCheers,\nGreg\nNorthbridge Realty",
+      "htmlBody": "<div dir=\"ltr\">Hi James,<br><br>Just confirming the viewing for the two-bed at 14 Maple Court is booked for 11am Saturday. The agent will meet you out front - do bring photo ID.<br><br>Apologies if this has reached the wrong James - the office gave me this address. Let me know either way!<br><br>Cheers,<br>Greg<br>Northbridge Realty</div>"
+    }
+  ]
+}

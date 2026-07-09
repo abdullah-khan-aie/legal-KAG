@@ -1,0 +1,55 @@
+{
+  "id": "a05d359d30fa169d",
+  "messages": [
+    {
+      "id": "a05d359d30fa169d",
+      "snippet": "Dear Gordon, Great to speak earlier. As discussed, I attach our engagement letter for the Wexbourne ",
+      "subject": "Project Juniper - engagement",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "gordon.sutherland@sutherlandlogistics.co.uk"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-03T09:12:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Gordon,\n\nGreat to speak earlier. As discussed, I attach our engagement letter for the Wexbourne logistics arrangement (Project Juniper). James Osei will lead the drafting day to day, with Elena Marchetti supporting.\n\nIf you're happy with the terms, please sign and return the enclosed copy and we'll get going on the heads of terms. Our fee estimate to signature is £38k-£52k plus VAT.\n\nKind regards,\nSarah\n\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Gordon,<br><br>Great to speak earlier. As discussed, I attach our engagement letter for the Wexbourne logistics arrangement (Project Juniper). James Osei will lead the drafting day to day, with Elena Marchetti supporting.<br><br>If you&#x27;re happy with the terms, please sign and return the enclosed copy and we&#x27;ll get going on the heads of terms. Our fee estimate to signature is £38k-£52k plus VAT.<br><br>Kind regards,<br>Sarah<br><br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "YX-YcUAEq8EcwJVM2MWSc9-7DxxYbaWdxkLOFkuyvP8"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Juniper_EngagementLetter.docx",
+          "id": "YX-YcUAEq8EcwJVM2MWSc9-7DxxYbaWdxkLOFkuyvP8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "c08278d85679cc66",
+      "snippet": "Sarah, Thanks - terms look fine, signed copy attached separately to Donna. Please loop in Lesley Cra",
+      "subject": "RE: Project Juniper - engagement",
+      "sender": "gordon.sutherland@sutherlandlogistics.co.uk",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "lesley.crane@sutherlandlogistics.co.uk"
+      ],
+      "date": "2026-02-04T16:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah,\n\nThanks - terms look fine, signed copy attached separately to Donna. Please loop in Lesley Crane (our FD) on the commercials. Keen to move quickly as Wexbourne want go-live by 1 July.\n\nGordon\n\nOn Tue, Feb 3, 2026 at 9:12 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Dear Gordon,\n>\n> Great to speak earlier. As discussed, I attach our engagement letter for the Wexbourne logistics arrangement (Project Juniper). James Osei will lead the drafting day to day, with Elena Marchetti supporting.\n>\n> If you're happy with the terms, please sign and return the enclosed copy and we'll get going on the heads of terms. Our fee estimate to signature is £38k-£52k plus VAT.\n>\n> Kind regards,\n> Sarah\n>\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah,<br><br>Thanks - terms look fine, signed copy attached separately to Donna. Please loop in Lesley Crane (our FD) on the commercials. Keen to move quickly as Wexbourne want go-live by 1 July.<br><br>Gordon</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Feb 3, 2026 at 9:12 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Gordon,<br><br>Great to speak earlier. As discussed, I attach our engagement letter for the Wexbourne logistics arrangement (Project Juniper). James Osei will lead the drafting day to day, with Elena Marchetti supporting.<br><br>If you&#x27;re happy with the terms, please sign and return the enclosed copy and we&#x27;ll get going on the heads of terms. Our fee estimate to signature is £38k-£52k plus VAT.<br><br>Kind regards,<br>Sarah<br><br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

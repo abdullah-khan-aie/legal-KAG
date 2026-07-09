@@ -1,0 +1,22 @@
+{
+  "id": "b26d3a0b34378c91",
+  "messages": [
+    {
+      "id": "b26d3a0b34378c91",
+      "snippet": "Hi both, Our records show some September time has not yet been posted. Please ensure all time is rec",
+      "subject": "Reminder: September time entries outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-10-20T16:45:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi both,\n\nOur records show some September time has not yet been posted. Please ensure all time is recorded and narratives completed by Friday so we can run month-end billing. This is a general reminder to the team, not specific to any one matter.\n\nThanks,\nAccounts | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hi both,<br><br>Our records show some September time has not yet been posted. Please ensure all time is recorded and narratives completed by Friday so we can run month-end billing. This is a general reminder to the team, not specific to any one matter.<br><br>Thanks,<br>Accounts | Whitfield Carter LLP</div>"
+    }
+  ]
+}

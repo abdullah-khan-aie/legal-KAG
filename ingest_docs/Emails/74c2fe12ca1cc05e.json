@@ -1,0 +1,56 @@
+{
+  "id": "74c2fe12ca1cc05e",
+  "messages": [
+    {
+      "id": "74c2fe12ca1cc05e",
+      "snippet": "Elena, Replies to your CPSE.1 and property enquiries attached. Two points to flag: there is an outst",
+      "subject": "Quartz House - replies to CPSE.1",
+      "sender": "zoe.abbott@marlowegreaves.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "martin.greaves@marlowegreaves.com"
+      ],
+      "date": "2026-03-06T13:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena,\n\nReplies to your CPSE.1 and property enquiries attached. Two points to flag: there is an outstanding ground-floor rent review (Meridian) due 25 March, and a service-charge query from Carrington Wealth on the 2024 reconciliation (c.£6,800). Both are noted in the replies.\n\nZoe",
+      "htmlBody": "<div dir=\"ltr\">Elena,<br><br>Replies to your CPSE.1 and property enquiries attached. Two points to flag: there is an outstanding ground-floor rent review (Meridian) due 25 March, and a service-charge query from Carrington Wealth on the 2024 reconciliation (c.£6,800). Both are noted in the replies.<br><br>Zoe</div>",
+      "attachmentIds": [
+        "aLxc-fapjbSJ_v9QN7vxHJG2D1tNg7hC1Wi32dfgZ3c"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Quartz_CPSE1_Replies.docx",
+          "id": "aLxc-fapjbSJ_v9QN7vxHJG2D1tNg7hC1Wi32dfgZ3c",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "d9b1923fc1506890",
+      "snippet": "Zoe, Thanks. We'll come back on the rent review and the Carrington service-charge point - our client",
+      "subject": "RE: Quartz House - replies to CPSE.1",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "zoe.abbott@marlowegreaves.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-03-09T09:35:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Zoe,\n\nThanks. We'll come back on the rent review and the Carrington service-charge point - our client may want a retention on the latter. Reviewing now.\n\nElena\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Fri, Mar 6, 2026 at 1:50 PM, Zoe Abbott <zoe.abbott@marlowegreaves.com> wrote:\n> Elena,\n>\n> Replies to your CPSE.1 and property enquiries attached. Two points to flag: there is an outstanding ground-floor rent review (Meridian) due 25 March, and a service-charge query from Carrington Wealth on the 2024 reconciliation (c.£6,800). Both are noted in the replies.\n>\n> Zoe",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Zoe,<br><br>Thanks. We&#x27;ll come back on the rent review and the Carrington service-charge point - our client may want a retention on the latter. Reviewing now.<br><br>Elena<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Mar 6, 2026 at 1:50 PM, Zoe Abbott &lt;zoe.abbott@marlowegreaves.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Elena,<br><br>Replies to your CPSE.1 and property enquiries attached. Two points to flag: there is an outstanding ground-floor rent review (Meridian) due 25 March, and a service-charge query from Carrington Wealth on the 2024 reconciliation (c.£6,800). Both are noted in the replies.<br><br>Zoe</div></blockquote></div></div>"
+    }
+  ]
+}

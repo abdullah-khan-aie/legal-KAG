@@ -1,0 +1,22 @@
+{
+  "id": "17c18e02387465f7",
+  "messages": [
+    {
+      "id": "17c18e02387465f7",
+      "snippet": "Elena - when you get a sec, do you still have the agreed completion checklist template from the Thor",
+      "subject": "Quick one - Thornbury / Project Quartz completion docs",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-10T15:45:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Elena - when you get a sec, do you still have the agreed completion checklist template from the Thornbury Project Quartz deal? Sarah wants to reuse the structure on a new lease matter and I can't find the latest version in the DMS. No rush.\n\nTom",
+      "htmlBody": "<div dir=\"ltr\">Elena - when you get a sec, do you still have the agreed completion checklist template from the Thornbury Project Quartz deal? Sarah wants to reuse the structure on a new lease matter and I can&#x27;t find the latest version in the DMS. No rush.<br><br>Tom</div>"
+    }
+  ]
+}

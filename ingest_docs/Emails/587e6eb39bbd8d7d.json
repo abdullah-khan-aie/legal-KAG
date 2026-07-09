@@ -1,0 +1,34 @@
+{
+  "id": "587e6eb39bbd8d7d",
+  "messages": [
+    {
+      "id": "587e6eb39bbd8d7d",
+      "snippet": "Marcus, Please find our first draft of the share purchase agreement for Project Atlas. It reflects t",
+      "subject": "Project Atlas - SPA first draft",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.vesey@harlandvesey.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "charles.aldous@kingsfordgroup.com"
+      ],
+      "date": "2025-11-21T18:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Marcus,\n\nPlease find our first draft of the share purchase agreement for Project Atlas. It reflects the agreed heads of terms - GBP 54.5m equity value, GBP 50m completion cash, GBP 2.5m retention (18 months) and up to GBP 2m deferred. Warranties and tax covenant from the three Warrantors, with a full warranty schedule. We have proposed a warranty cap at the full consideration and a 24-month general claims period as a starting position; happy to discuss.\n\nLook forward to your mark-up.\n\nKind regards,\nSarah\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Marcus,<br><br>Please find our first draft of the share purchase agreement for Project Atlas. It reflects the agreed heads of terms - GBP 54.5m equity value, GBP 50m completion cash, GBP 2.5m retention (18 months) and up to GBP 2m deferred. Warranties and tax covenant from the three Warrantors, with a full warranty schedule. We have proposed a warranty cap at the full consideration and a 24-month general claims period as a starting position; happy to discuss.<br><br>Look forward to your mark-up.<br><br>Kind regards,<br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "JdttedZ-HAJIPfC_S1-9g5LkdP7tUgDWscsntpeY1FY"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Atlas_SPA_v1.docx",
+          "id": "JdttedZ-HAJIPfC_S1-9g5LkdP7tUgDWscsntpeY1FY",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

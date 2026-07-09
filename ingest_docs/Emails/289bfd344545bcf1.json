@@ -1,0 +1,35 @@
+{
+  "id": "289bfd344545bcf1",
+  "messages": [
+    {
+      "id": "289bfd344545bcf1",
+      "snippet": "Alice, Marcus, As promised, the updated post-completion capitalisation table is attached. Ardent now",
+      "subject": "Solstice - updated cap table (post-completion)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "alice.wren@larkmoorbio.com",
+        "marcus.veldt@larkmoorbio.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "daniel.okonkwo@ardentventures.vc"
+      ],
+      "date": "2025-09-15T11:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Alice, Marcus,\n\nAs promised, the updated post-completion capitalisation table is attached. Ardent now holds 2,000,000 Series A Preferred (25.0% fully diluted); the founders hold 30.0% (Alice) and 22.5% (Sanjay). The EMI pool will move to 12% post-money once the board resolution is passed. Let me know if anything looks off.\n\nElena\n\nElena Marchetti\nAssociate | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Alice, Marcus,<br><br>As promised, the updated post-completion capitalisation table is attached. Ardent now holds 2,000,000 Series A Preferred (25.0% fully diluted); the founders hold 30.0% (Alice) and 22.5% (Sanjay). The EMI pool will move to 12% post-money once the board resolution is passed. Let me know if anything looks off.<br><br>Elena<br><br>Elena Marchetti<br>Associate | Whitfield Carter LLP</div>",
+      "attachmentIds": [
+        "B0EHxKgGXnx63TRm0YHFzbktZrbXbOrNqmXKojwdJ8Q"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Solstice_CapTable_PreAndPost.xlsx",
+          "id": "B0EHxKgGXnx63TRm0YHFzbktZrbXbOrNqmXKojwdJ8Q",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "566b743a318c49f0",
+  "messages": [
+    {
+      "id": "566b743a318c49f0",
+      "snippet": "Dear Mr Gallagher, We act for Helmsworth Plant Hire Limited. We attach our client's response to your",
+      "subject": "Maybrook Aggregates v Helmsworth Plant Hire - Protocol response",
+      "sender": "alistair.whitlock@pembertonrowe.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "nadia.iqbal@pembertonrowe.com"
+      ],
+      "date": "2025-12-16T14:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Mr Gallagher,\n\nWe act for Helmsworth Plant Hire Limited. We attach our client's response to your Letter of Claim. In short, liability is denied. The plant was of satisfactory quality and the failures were caused by your client's misuse - oversized and contaminated feed, and continuing to operate after warning alarms.\n\nIn any event our client relies on the limitation of liability at clause 14.2, capping liability at £222,000 and excluding loss of profit. Your client's lost-profit claim is also too remote.\n\nWe are willing to attend a Protocol meeting.\n\nAlistair Whitlock\nPartner, Pemberton Rowe LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Gallagher,<br><br>We act for Helmsworth Plant Hire Limited. We attach our client&#x27;s response to your Letter of Claim. In short, liability is denied. The plant was of satisfactory quality and the failures were caused by your client&#x27;s misuse - oversized and contaminated feed, and continuing to operate after warning alarms.<br><br>In any event our client relies on the limitation of liability at clause 14.2, capping liability at £222,000 and excluding loss of profit. Your client&#x27;s lost-profit claim is also too remote.<br><br>We are willing to attend a Protocol meeting.<br><br>Alistair Whitlock<br>Partner, Pemberton Rowe LLP</div>"
+    },
+    {
+      "id": "8019e00d44105f1f",
+      "snippet": "Dear Mr Whitlock, Thank you. We note your client's position and reject it. Our client operated a pri",
+      "subject": "RE: Maybrook Aggregates v Helmsworth Plant Hire - Protocol response",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "nadia.iqbal@pembertonrowe.com"
+      ],
+      "date": "2025-12-19T10:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Mr Whitlock,\n\nThank you. We note your client's position and reject it. Our client operated a primary scalping screen and a belt magnet throughout; the feed was in specification. The throughput shortfall and the bearing failures point to inherent defects, not misuse.\n\nWe do not accept that clause 14.2 is enforceable - it fails the UCTA reasonableness test and does not on its true construction cover a repudiatory breach. We are content to attend a Protocol meeting but our client has instructed us to prepare to issue.\n\nKind regards,\nTom Gallagher\n\nKind regards,\nTom\n\nTom Gallagher | Associate\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0500\nConfidential and may be legally privileged.\n\nOn Tue, Dec 16, 2025 at 2:30 PM, Alistair Whitlock <alistair.whitlock@pembertonrowe.com> wrote:\n> Dear Mr Gallagher,\n>\n> We act for Helmsworth Plant Hire Limited. We attach our client's response to your Letter of Claim. In short, liability is denied. The plant was of satisfactory quality and the failures were caused by your client's misuse - oversized and contaminated feed, and continuing to operate after warning alarms.\n>\n> In any event our client relies on the limitation of liability at clause 14.2, capping liability at £222,000 and excluding loss of profit. Your client's lost-profit claim is also too remote.\n>\n> We are willing to attend a Protocol meeting.\n>\n> Alistair Whitlock\n> Partner, Pemberton Rowe LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Mr Whitlock,<br><br>Thank you. We note your client&#x27;s position and reject it. Our client operated a primary scalping screen and a belt magnet throughout; the feed was in specification. The throughput shortfall and the bearing failures point to inherent defects, not misuse.<br><br>We do not accept that clause 14.2 is enforceable - it fails the UCTA reasonableness test and does not on its true construction cover a repudiatory breach. We are content to attend a Protocol meeting but our client has instructed us to prepare to issue.<br><br>Kind regards,<br>Tom Gallagher<br><br>Kind regards,<br>Tom<br><br>Tom Gallagher | Associate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Dec 16, 2025 at 2:30 PM, Alistair Whitlock &lt;alistair.whitlock@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Mr Gallagher,<br><br>We act for Helmsworth Plant Hire Limited. We attach our client&#x27;s response to your Letter of Claim. In short, liability is denied. The plant was of satisfactory quality and the failures were caused by your client&#x27;s misuse - oversized and contaminated feed, and continuing to operate after warning alarms.<br><br>In any event our client relies on the limitation of liability at clause 14.2, capping liability at £222,000 and excluding loss of profit. Your client&#x27;s lost-profit claim is also too remote.<br><br>We are willing to attend a Protocol meeting.<br><br>Alistair Whitlock<br>Partner, Pemberton Rowe LLP</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2e7e770065b6e04b",
+  "messages": [
+    {
+      "id": "2e7e770065b6e04b",
+      "snippet": "Sarah, Draft report on title attached. Headline: good and marketable title, NIY 6.25%, WAULT ~6.8 ye",
+      "subject": "Project Harbor — draft report on title for your review",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-12T18:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah,\n\nDraft report on title attached. Headline: good and marketable title, NIY 6.25%, WAULT ~6.8 years. Four things flagged for the client — Penrose review, Harbourside break, the informal parking, and the bank charge discharge. I've recommended a £15k retention pending the rent review outcome.\n\nGrateful for your mark-up before I send to Thornbury.\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Draft report on title attached. Headline: good and marketable title, NIY 6.25%, WAULT ~6.8 years. Four things flagged for the client — Penrose review, Harbourside break, the informal parking, and the bank charge discharge. I&#x27;ve recommended a £15k retention pending the rent review outcome.<br><br>Grateful for your mark-up before I send to Thornbury.<br><br>James</div>",
+      "attachmentIds": [
+        "M2WkJd1a2Hyj40DUB9OmswcTx6gajNJgoYtBRvgSFCw"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Harbor_ReportOnTitle_DRAFT.docx",
+          "id": "M2WkJd1a2Hyj40DUB9OmswcTx6gajNJgoYtBRvgSFCw",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "0dbeacfe7eadbef7",
+      "snippet": "Good draft James. Two tweaks: spell out the flood zone point a little more (waterfront, Zone 2) and ",
+      "subject": "RE: Project Harbor — draft report on title for your review",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-13T08:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Good draft James. Two tweaks: spell out the flood zone point a little more (waterfront, Zone 2) and make the retention mechanism clearer in the completion statement. Then issue to Daniel and Isla. Let's also get the board minutes lined up for the 24th.\n\nSarah\n\nOn Thu, Feb 12, 2026 at 6:30 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Sarah,\n>\n> Draft report on title attached. Headline: good and marketable title, NIY 6.25%, WAULT ~6.8 years. Four things flagged for the client — Penrose review, Harbourside break, the informal parking, and the bank charge discharge. I've recommended a £15k retention pending the rent review outcome.\n>\n> Grateful for your mark-up before I send to Thornbury.\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Good draft James. Two tweaks: spell out the flood zone point a little more (waterfront, Zone 2) and make the retention mechanism clearer in the completion statement. Then issue to Daniel and Isla. Let&#x27;s also get the board minutes lined up for the 24th.<br><br>Sarah</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Feb 12, 2026 at 6:30 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Draft report on title attached. Headline: good and marketable title, NIY 6.25%, WAULT ~6.8 years. Four things flagged for the client — Penrose review, Harbourside break, the informal parking, and the bank charge discharge. I&#x27;ve recommended a £15k retention pending the rent review outcome.<br><br>Grateful for your mark-up before I send to Thornbury.<br><br>James</div></blockquote></div></div>"
+    }
+  ]
+}

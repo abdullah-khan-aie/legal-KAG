@@ -1,0 +1,25 @@
+{
+  "id": "88f7a3a8608db0ec",
+  "messages": [
+    {
+      "id": "88f7a3a8608db0ec",
+      "snippet": "Sarah, Our records show unposted time for April on two matters in your name. Please ensure narrative",
+      "subject": "Time recording reminder - April narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-05-01T08:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Sarah,\n\nOur records show unposted time for April on two matters in your name. Please ensure narratives are completed and posted by 5pm Friday so we can run the month-end bill cycle. Let Accounts know if you need a WIP report.\n\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Our records show unposted time for April on two matters in your name. Please ensure narratives are completed and posted by 5pm Friday so we can run the month-end bill cycle. Let Accounts know if you need a WIP report.<br><br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

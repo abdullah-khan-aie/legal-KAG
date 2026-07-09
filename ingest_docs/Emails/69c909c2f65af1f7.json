@@ -1,0 +1,75 @@
+{
+  "id": "69c909c2f65af1f7",
+  "messages": [
+    {
+      "id": "69c909c2f65af1f7",
+      "snippet": "Gordon, Lesley, Draft heads of terms attached. Key points: 4-year initial term from 1 June; mobilisa",
+      "subject": "Project Juniper - heads of terms (draft)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "gordon.sutherland@sutherlandlogistics.co.uk",
+        "lesley.crane@sutherlandlogistics.co.uk"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-10T10:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Gordon, Lesley,\n\nDraft heads of terms attached. Key points: 4-year initial term from 1 June; mobilisation fee £420k; estimated Year 1 charges ~£3.91m p.a.; OTIF 99.0%; liability cap we've pitched at 125% to start. Paragraphs 10-12 (exclusivity to 31 May, NDA, governing law) are binding; the rest is subject to contract.\n\nGrateful for any comments before we send to Castle & Vane.\n\nBest,\nJames\n\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Gordon, Lesley,<br><br>Draft heads of terms attached. Key points: 4-year initial term from 1 June; mobilisation fee £420k; estimated Year 1 charges ~£3.91m p.a.; OTIF 99.0%; liability cap we&#x27;ve pitched at 125% to start. Paragraphs 10-12 (exclusivity to 31 May, NDA, governing law) are binding; the rest is subject to contract.<br><br>Grateful for any comments before we send to Castle &amp; Vane.<br><br>Best,<br>James<br><br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "23ffNUbnPsTG-PuJg_ibCYrABK_u9Xa33CaIRjaLyo8"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Juniper_HeadsOfTerms.docx",
+          "id": "23ffNUbnPsTG-PuJg_ibCYrABK_u9Xa33CaIRjaLyo8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "d086dd84ed2287da",
+      "snippet": "James, Looks good. One thing - can we make clear the £3.91m excludes pass-through carriage? Don't wa",
+      "subject": "RE: Project Juniper - heads of terms (draft)",
+      "sender": "lesley.crane@sutherlandlogistics.co.uk",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "gordon.sutherland@sutherlandlogistics.co.uk",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-11T17:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James,\n\nLooks good. One thing - can we make clear the £3.91m excludes pass-through carriage? Don't want Wexbourne thinking that's all-in. Otherwise happy to send across.\n\nLesley\n\nOn Tue, Mar 10, 2026 at 10:30 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Gordon, Lesley,\n>\n> Draft heads of terms attached. Key points: 4-year initial term from 1 June; mobilisation fee £420k; estimated Year 1 charges ~£3.91m p.a.; OTIF 99.0%; liability cap we've pitched at 125% to start. Paragraphs 10-12 (exclusivity to 31 May, NDA, governing law) are binding; the rest is subject to contract.\n>\n> Grateful for any comments before we send to Castle & Vane.\n>\n> Best,\n> James\n>\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Looks good. One thing - can we make clear the £3.91m excludes pass-through carriage? Don&#x27;t want Wexbourne thinking that&#x27;s all-in. Otherwise happy to send across.<br><br>Lesley</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Mar 10, 2026 at 10:30 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Gordon, Lesley,<br><br>Draft heads of terms attached. Key points: 4-year initial term from 1 June; mobilisation fee £420k; estimated Year 1 charges ~£3.91m p.a.; OTIF 99.0%; liability cap we&#x27;ve pitched at 125% to start. Paragraphs 10-12 (exclusivity to 31 May, NDA, governing law) are binding; the rest is subject to contract.<br><br>Grateful for any comments before we send to Castle &amp; Vane.<br><br>Best,<br>James<br><br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    },
+    {
+      "id": "a71af06050efe08c",
+      "snippet": "Lesley, Good catch - I've clarified that charges exclude VAT and pass-through carriage in paragraph ",
+      "subject": "RE: Project Juniper - heads of terms (draft)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "lesley.crane@sutherlandlogistics.co.uk"
+      ],
+      "ccRecipients": [
+        "gordon.sutherland@sutherlandlogistics.co.uk",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-12T09:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Lesley,\n\nGood catch - I've clarified that charges exclude VAT and pass-through carriage in paragraph 6. Sending the revised HoT to Castle & Vane this afternoon under cover of the exclusivity wording.\n\nJames\n\nOn Wed, Mar 11, 2026 at 5:15 PM, Lesley Crane <lesley.crane@sutherlandlogistics.co.uk> wrote:\n> James,\n>\n> Looks good. One thing - can we make clear the £3.91m excludes pass-through carriage? Don't want Wexbourne thinking that's all-in. Otherwise happy to send across.\n>\n> Lesley\n>\n> On Tue, Mar 10, 2026 at 10:30 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > Gordon, Lesley,\n> >\n> > Draft heads of terms attached. Key points: 4-year initial term from 1 June; mobilisation fee £420k; estimated Year 1 charges ~£3.91m p.a.; OTIF 99.0%; liability cap we've pitched at 125% to start. Paragraphs 10-12 (exclusivity to 31 May, NDA, governing law) are binding; the rest is subject to contract.\n> >\n> > Grateful for any comments before we send to Castle & Vane.\n> >\n> > Best,\n> > James\n> >\n> > Whitfield Carter LLP\n> > 22 Bishopsgate, London EC2N 4BQ\n> > Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Lesley,<br><br>Good catch - I&#x27;ve clarified that charges exclude VAT and pass-through carriage in paragraph 6. Sending the revised HoT to Castle &amp; Vane this afternoon under cover of the exclusivity wording.<br><br>James</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Mar 11, 2026 at 5:15 PM, Lesley Crane &lt;lesley.crane@sutherlandlogistics.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Looks good. One thing - can we make clear the £3.91m excludes pass-through carriage? Don&#x27;t want Wexbourne thinking that&#x27;s all-in. Otherwise happy to send across.<br><br>Lesley</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Mar 10, 2026 at 10:30 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Gordon, Lesley,<br><br>Draft heads of terms attached. Key points: 4-year initial term from 1 June; mobilisation fee £420k; estimated Year 1 charges ~£3.91m p.a.; OTIF 99.0%; liability cap we&#x27;ve pitched at 125% to start. Paragraphs 10-12 (exclusivity to 31 May, NDA, governing law) are binding; the rest is subject to contract.<br><br>Grateful for any comments before we send to Castle &amp; Vane.<br><br>Best,<br>James<br><br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

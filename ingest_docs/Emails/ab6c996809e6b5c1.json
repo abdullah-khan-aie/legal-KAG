@@ -1,0 +1,25 @@
+{
+  "id": "ab6c996809e6b5c1",
+  "messages": [
+    {
+      "id": "ab6c996809e6b5c1",
+      "snippet": "All, The DMS will be unavailable from 20:00 on Saturday 14 March until approximately 02:00 Sunday fo",
+      "subject": "[IT] Document management system maintenance – Saturday 14 March",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "donna.bridges@whitfieldcarter.com"
+      ],
+      "date": "2026-03-12T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "All,\n\nThe DMS will be unavailable from 20:00 on Saturday 14 March until approximately 02:00 Sunday for scheduled maintenance and indexing. Please check in any documents you are working on before 19:30 and avoid local copies. Email will be unaffected.\n\nThanks,\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>The DMS will be unavailable from 20:00 on Saturday 14 March until approximately 02:00 Sunday for scheduled maintenance and indexing. Please check in any documents you are working on before 19:30 and avoid local copies. Email will be unaffected.<br><br>Thanks,<br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

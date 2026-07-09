@@ -1,0 +1,26 @@
+{
+  "id": "b8c703207b15ed1b",
+  "messages": [
+    {
+      "id": "b8c703207b15ed1b",
+      "snippet": "Hi Sarah, Sorry to land this with you mid-flow on other things. On Project Atlas (the Brampton Leisu",
+      "subject": "Project Atlas - completion accounts / earn-out query",
+      "sender": "nathan.reilly@kingsfordgroup.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-03T09:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi Sarah,\n\nSorry to land this with you mid-flow on other things. On Project Atlas (the Brampton Leisure acquisition), our finance team and Harland Vesey are not aligned on one item in the completion accounts - the treatment of the deferred maintenance accrual - which feeds into the earn-out. Could we grab 20 minutes this week to work out whether it's worth disputing under the SPA mechanism?\n\nNo great urgency but I'd like to close it off before quarter-end.\n\nThanks,\nNathan\n\nNathan Reilly | Head of M&A | Kingsford Group Limited",
+      "htmlBody": "<div dir=\"ltr\">Hi Sarah,<br><br>Sorry to land this with you mid-flow on other things. On Project Atlas (the Brampton Leisure acquisition), our finance team and Harland Vesey are not aligned on one item in the completion accounts - the treatment of the deferred maintenance accrual - which feeds into the earn-out. Could we grab 20 minutes this week to work out whether it&#x27;s worth disputing under the SPA mechanism?<br><br>No great urgency but I&#x27;d like to close it off before quarter-end.<br><br>Thanks,<br>Nathan<br><br>Nathan Reilly | Head of M&amp;A | Kingsford Group Limited</div>"
+    }
+  ]
+}

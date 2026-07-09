@@ -1,0 +1,35 @@
+{
+  "id": "7bee84c67c295160",
+  "messages": [
+    {
+      "id": "7bee84c67c295160",
+      "snippet": "Marcus, Claire, Please find attached our first draft of the Amendment and Restatement Agreement. It ",
+      "subject": "Project Northwind — Amendment & Restatement Agreement (first draft)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.ashworth@ashworthquinn.com",
+        "claire.dunne@ashworthquinn.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-03-20T16:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Marcus, Claire,\n\nPlease find attached our first draft of the Amendment and Restatement Agreement. It follows the agreed term sheet, with the new Facility B as super-senior, the covenant reset and the waiver of the December defaults. We have left the date and a couple of figures as placeholders pending final confirmation from Marlow's model.\n\nWe'd be grateful for your mark-up. Confirmatory security documents (debenture, share charge, legal mortgage over the Coventry freehold) to follow separately.\n\nKind regards,\nElena Marchetti\nAssociate | Whitfield Carter LLP\nT +44 (0)20 7946 0534",
+      "htmlBody": "<div dir=\"ltr\">Marcus, Claire,<br><br>Please find attached our first draft of the Amendment and Restatement Agreement. It follows the agreed term sheet, with the new Facility B as super-senior, the covenant reset and the waiver of the December defaults. We have left the date and a couple of figures as placeholders pending final confirmation from Marlow&#x27;s model.<br><br>We&#x27;d be grateful for your mark-up. Confirmatory security documents (debenture, share charge, legal mortgage over the Coventry freehold) to follow separately.<br><br>Kind regards,<br>Elena Marchetti<br>Associate | Whitfield Carter LLP<br>T +44 (0)20 7946 0534</div>",
+      "attachmentIds": [
+        "-bBSqKqL4Ae7kaOB7w2LtZDbhtYb-21atXglTidCAwA"
+      ],
+      "attachments": [
+        {
+          "filename": "Northwind_AAA_v1.docx",
+          "id": "-bBSqKqL4Ae7kaOB7w2LtZDbhtYb-21atXglTidCAwA",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "246d83164f8547f9",
+  "messages": [
+    {
+      "id": "246d83164f8547f9",
+      "snippet": "Priya, Now I'm on the board - can we set up the information rights: monthly management accounts with",
+      "subject": "Slate - board reporting cadence",
+      "sender": "bianca.sato@thornabygrowth.com",
+      "toRecipients": [
+        "priya.forsyth@penroserobotics.com"
+      ],
+      "ccRecipients": [
+        "rohan.mistry@thornabygrowth.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-04-22T10:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Priya,\n\nNow I'm on the board - can we set up the information rights: monthly management accounts within 20 business days, quarterly KPI pack, and the 13-week cash-flow. First board meeting late May?\n\nBianca",
+      "htmlBody": "<div dir=\"ltr\">Priya,<br><br>Now I&#x27;m on the board - can we set up the information rights: monthly management accounts within 20 business days, quarterly KPI pack, and the 13-week cash-flow. First board meeting late May?<br><br>Bianca</div>"
+    },
+    {
+      "id": "3c3921c6b1cf80f4",
+      "snippet": "Bianca, Yes - I'll circulate the reporting template and the first pack. Late May works; I'll find a ",
+      "subject": "RE: Slate - board reporting cadence",
+      "sender": "priya.forsyth@penroserobotics.com",
+      "toRecipients": [
+        "bianca.sato@thornabygrowth.com"
+      ],
+      "ccRecipients": [
+        "rohan.mistry@thornabygrowth.com"
+      ],
+      "date": "2026-04-23T09:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Bianca,\n\nYes - I'll circulate the reporting template and the first pack. Late May works; I'll find a date with Marcus.\n\nPriya\n\nOn Wed, Apr 22, 2026 at 10:00 AM, Bianca Sato <bianca.sato@thornabygrowth.com> wrote:\n> Priya,\n>\n> Now I'm on the board - can we set up the information rights: monthly management accounts within 20 business days, quarterly KPI pack, and the 13-week cash-flow. First board meeting late May?\n>\n> Bianca",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Bianca,<br><br>Yes - I&#x27;ll circulate the reporting template and the first pack. Late May works; I&#x27;ll find a date with Marcus.<br><br>Priya</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Apr 22, 2026 at 10:00 AM, Bianca Sato &lt;bianca.sato@thornabygrowth.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Priya,<br><br>Now I&#x27;m on the board - can we set up the information rights: monthly management accounts within 20 business days, quarterly KPI pack, and the 13-week cash-flow. First board meeting late May?<br><br>Bianca</div></blockquote></div></div>"
+    }
+  ]
+}

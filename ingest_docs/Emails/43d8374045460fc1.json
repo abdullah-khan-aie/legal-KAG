@@ -1,0 +1,49 @@
+{
+  "id": "43d8374045460fc1",
+  "messages": [
+    {
+      "id": "43d8374045460fc1",
+      "snippet": "Dear Dr Iqbal, Now that proceedings are imminent, we should like to instruct you formally as the Cla",
+      "subject": "HT-2025-000418 - CPR Part 35 instruction",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "f.iqbal@wraysburymaterials.co.uk"
+      ],
+      "ccRecipients": [
+        "martin.calloway@harrowprecision.com"
+      ],
+      "date": "2025-01-06T09:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Dr Iqbal,\n\nNow that proceedings are imminent, we should like to instruct you formally as the Claimant's CPR Part 35 expert. Please find attached our letter of instruction. Your earlier report of 26 September 2024 will be superseded by your Part 35 report.\n\nThe key additional question for you is representativeness - Brevdale say the 400-casting sample came disproportionately from one order. Please address how the sample was drawn and what proportion of the 1,840 population is properly to be regarded as non-conforming.\n\nKind regards,\nJames Osei\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Dr Iqbal,<br><br>Now that proceedings are imminent, we should like to instruct you formally as the Claimant&#x27;s CPR Part 35 expert. Please find attached our letter of instruction. Your earlier report of 26 September 2024 will be superseded by your Part 35 report.<br><br>The key additional question for you is representativeness - Brevdale say the 400-casting sample came disproportionately from one order. Please address how the sample was drawn and what proportion of the 1,840 population is properly to be regarded as non-conforming.<br><br>Kind regards,<br>James Osei<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "fg84OION-w_AbEjOcfGQ8PQG8ygeHU4qMb-xnHv3XOc"
+      ],
+      "attachments": [
+        {
+          "filename": "HPEvBrevdale_LetterOfInstruction_Expert.docx",
+          "id": "fg84OION-w_AbEjOcfGQ8PQG8ygeHU4qMb-xnHv3XOc",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "cfe8e86b56f45f8e",
+      "snippet": "Dear James, Thank you, instruction accepted. To be clear for the record: the 400 castings were selec",
+      "subject": "RE: HT-2025-000418 - CPR Part 35 instruction",
+      "sender": "f.iqbal@wraysburymaterials.co.uk",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-01-09T17:26:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Dear James,\n\nThank you, instruction accepted. To be clear for the record: the 400 castings were selected at random by my laboratory across all eighteen deliveries, not from a single order. On a 78% failure rate in a sample of that size, the central estimate is about 1,435 non-conforming castings out of 1,840, with a lower 95% bound of roughly 1,354. So 'not fewer than 1,430' is well within the data and if anything conservative.\n\nI'll have a draft report to you well before the 30 January 2026 exchange date.\n\nFaisal\n\nOn Mon, Jan 6, 2025 at 9:00 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Dear Dr Iqbal,\n>\n> Now that proceedings are imminent, we should like to instruct you formally as the Claimant's CPR Part 35 expert. Please find attached our letter of instruction. Your earlier report of 26 September 2024 will be superseded by your Part 35 report.\n>\n> The key additional question for you is representativeness - Brevdale say the 400-casting sample came disproportionately from one order. Please address how the sample was drawn and what proportion of the 1,840 population is properly to be regarded as non-conforming.\n>\n> Kind regards,\n> James Osei\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear James,<br><br>Thank you, instruction accepted. To be clear for the record: the 400 castings were selected at random by my laboratory across all eighteen deliveries, not from a single order. On a 78% failure rate in a sample of that size, the central estimate is about 1,435 non-conforming castings out of 1,840, with a lower 95% bound of roughly 1,354. So &#x27;not fewer than 1,430&#x27; is well within the data and if anything conservative.<br><br>I&#x27;ll have a draft report to you well before the 30 January 2026 exchange date.<br><br>Faisal</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Jan 6, 2025 at 9:00 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Dr Iqbal,<br><br>Now that proceedings are imminent, we should like to instruct you formally as the Claimant&#x27;s CPR Part 35 expert. Please find attached our letter of instruction. Your earlier report of 26 September 2024 will be superseded by your Part 35 report.<br><br>The key additional question for you is representativeness - Brevdale say the 400-casting sample came disproportionately from one order. Please address how the sample was drawn and what proportion of the 1,840 population is properly to be regarded as non-conforming.<br><br>Kind regards,<br>James Osei<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

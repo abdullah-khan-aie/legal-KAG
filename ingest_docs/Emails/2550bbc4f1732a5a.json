@@ -1,0 +1,21 @@
+{
+  "id": "2550bbc4f1732a5a",
+  "messages": [
+    {
+      "id": "2550bbc4f1732a5a",
+      "snippet": "Sarah, Tom, Quick internal note before the docs call. On the equity cure, Pemberton Rowe will likely",
+      "subject": "Tempest - covenant reset / equity cure - internal thoughts",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-12-15T18:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Sarah, Tom,\n\nQuick internal note before the docs call. On the equity cure, Pemberton Rowe will likely push for one cure per year; we should hold for two (and four over the life), with no more than two in consecutive quarters - the client needs the flexibility given the seasonality in WCB's numbers.\n\nOn leverage, the 5.00x opening level gives roughly 0.8x headroom against Marlow's base case at Dec-25, tightening to almost nothing by Sep-26, so the cure right is doing real work. I'd resist any attempt to drop the opening level below 4.75x.\n\nTom - can you build the covenant headroom grid off Marlow's model for the call?\n\nJames\n\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Sarah, Tom,<br><br>Quick internal note before the docs call. On the equity cure, Pemberton Rowe will likely push for one cure per year; we should hold for two (and four over the life), with no more than two in consecutive quarters - the client needs the flexibility given the seasonality in WCB&#x27;s numbers.<br><br>On leverage, the 5.00x opening level gives roughly 0.8x headroom against Marlow&#x27;s base case at Dec-25, tightening to almost nothing by Sep-26, so the cure right is doing real work. I&#x27;d resist any attempt to drop the opening level below 4.75x.<br><br>Tom - can you build the covenant headroom grid off Marlow&#x27;s model for the call?<br><br>James<br><br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>"
+    }
+  ]
+}

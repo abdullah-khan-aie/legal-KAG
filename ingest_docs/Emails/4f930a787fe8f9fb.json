@@ -1,0 +1,53 @@
+{
+  "id": "4f930a787fe8f9fb",
+  "messages": [
+    {
+      "id": "4f930a787fe8f9fb",
+      "snippet": "Dear Harriet, Instructions to advise on merits and quantum, and to settle the Particulars of Claim, ",
+      "subject": "Instructions to advise — Caspian v Harburn",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "h.stanford@eldonchambers.co.uk"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-01-23T17:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Harriet,\n\nInstructions to advise on merits and quantum, and to settle the Particulars of Claim, attached under separate cover in the brief. Key questions: the SLA exclusive-remedy point, the strength of the repudiation case, and a realistic settlement bracket. Trial value c. £1.4m plus interest.\n\nJames Osei\n\n—\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Harriet,<br><br>Instructions to advise on merits and quantum, and to settle the Particulars of Claim, attached under separate cover in the brief. Key questions: the SLA exclusive-remedy point, the strength of the repudiation case, and a realistic settlement bracket. Trial value c. £1.4m plus interest.<br><br>James Osei<br><br>—<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "26677396558901a8",
+      "snippet": "James, Advice attached. In short: debt claim near-certain; repudiation good but turns on disclosure ",
+      "subject": "RE: Instructions to advise — Caspian v Harburn",
+      "sender": "h.stanford@eldonchambers.co.uk",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-11T16:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nAdvice attached. In short: debt claim near-certain; repudiation good but turns on disclosure of Harburn's cost-reduction documents; their counterclaim is thin but gives leverage. Settlement bracket £950k–£1.15m net. I'd propose mediation after disclosure. I've also marked up the quantum to £760,950 on the revised 11% credit.\n\nHarriet Stanford\nEldon Chambers\n\nOn Fri, Jan 23, 2026 at 5:30 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Dear Harriet,\n>\n> Instructions to advise on merits and quantum, and to settle the Particulars of Claim, attached under separate cover in the brief. Key questions: the SLA exclusive-remedy point, the strength of the repudiation case, and a realistic settlement bracket. Trial value c. £1.4m plus interest.\n>\n> James Osei\n>\n> —\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Advice attached. In short: debt claim near-certain; repudiation good but turns on disclosure of Harburn&#x27;s cost-reduction documents; their counterclaim is thin but gives leverage. Settlement bracket £950k–£1.15m net. I&#x27;d propose mediation after disclosure. I&#x27;ve also marked up the quantum to £760,950 on the revised 11% credit.<br><br>Harriet Stanford<br>Eldon Chambers</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Jan 23, 2026 at 5:30 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Harriet,<br><br>Instructions to advise on merits and quantum, and to settle the Particulars of Claim, attached under separate cover in the brief. Key questions: the SLA exclusive-remedy point, the strength of the repudiation case, and a realistic settlement bracket. Trial value c. £1.4m plus interest.<br><br>James Osei<br><br>—<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>",
+      "attachmentIds": [
+        "swoOjZegGZiK4323dHGqqmYyvhXde8S9LYaAUYrepU0"
+      ],
+      "attachments": [
+        {
+          "filename": "Caspian_v_Harburn_CounselAdvice_Merits.pdf",
+          "id": "swoOjZegGZiK4323dHGqqmYyvhXde8S9LYaAUYrepU0",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

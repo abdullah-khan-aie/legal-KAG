@@ -1,0 +1,23 @@
+{
+  "id": "1b03a709c6508d35",
+  "messages": [
+    {
+      "id": "1b03a709c6508d35",
+      "snippet": "Hi both, Our records show unposted time for October. Please complete your narratives by close of pla",
+      "subject": "Time recording - October narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-11-03T16:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi both,\n\nOur records show unposted time for October. Please complete your narratives by close of play Wednesday so we can run the month-end client bills. Matters with gaps include several live transactions.\n\nThanks,\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">Hi both,<br><br>Our records show unposted time for October. Please complete your narratives by close of play Wednesday so we can run the month-end client bills. Matters with gaps include several live transactions.<br><br>Thanks,<br>Accounts</div>"
+    }
+  ]
+}

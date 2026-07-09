@@ -1,0 +1,22 @@
+{
+  "id": "07d146d378efe211",
+  "messages": [
+    {
+      "id": "07d146d378efe211",
+      "snippet": "Tom - are you in for 5-a-side on Thursday at the Powerleague? We're a couple short and need to confi",
+      "subject": "5-a-side Thursday?",
+      "sender": "marcus.webb@denhamlewis.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-03-09T19:14:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Tom - are you in for 5-a-side on Thursday at the Powerleague? We're a couple short and need to confirm the pitch by tomorrow. Pub after at the usual. Cheers, Marcus\n\n(Sorry if this is the wrong Tom - I have two in my contacts!)",
+      "htmlBody": "<div dir=\"ltr\">Tom - are you in for 5-a-side on Thursday at the Powerleague? We&#x27;re a couple short and need to confirm the pitch by tomorrow. Pub after at the usual. Cheers, Marcus<br><br>(Sorry if this is the wrong Tom - I have two in my contacts!)</div>"
+    }
+  ]
+}

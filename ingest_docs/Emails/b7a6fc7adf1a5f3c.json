@@ -1,0 +1,47 @@
+{
+  "id": "b7a6fc7adf1a5f3c",
+  "messages": [
+    {
+      "id": "b7a6fc7adf1a5f3c",
+      "snippet": "James, Claimant's extended disclosure list is ready for service under PD 57AD — 18 documents, Model ",
+      "subject": "Disclosure index for service (Model D)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-05-06T12:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James,\n\nClaimant's extended disclosure list is ready for service under PD 57AD — 18 documents, Model D for the technical issues. Attached. Note HAL-012 (the RCCA/CARB minutes) is marked privileged in part and will need redaction before it goes over.\n\nTom",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Claimant&#x27;s extended disclosure list is ready for service under PD 57AD — 18 documents, Model D for the technical issues. Attached. Note HAL-012 (the RCCA/CARB minutes) is marked privileged in part and will need redaction before it goes over.<br><br>Tom</div>",
+      "attachmentIds": [
+        "jl7GNLQDsEsvDLtqzOTOeEb0NYvO_VpgVd2MFpsT4QA"
+      ],
+      "attachments": [
+        {
+          "filename": "Halstead_v_Ferncliffe_DisclosureIndex.xlsx",
+          "id": "jl7GNLQDsEsvDLtqzOTOeEb0NYvO_VpgVd2MFpsT4QA",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "a587cda056670fd5",
+      "snippet": "Good. Serve it on Castle & Vane, and flag in the covering email that HAL-012 is redacted for legal a",
+      "subject": "RE: Disclosure index for service (Model D)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-05-06T14:25:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Good. Serve it on Castle & Vane, and flag in the covering email that HAL-012 is redacted for legal advice privilege. Then turn to the CMC directions letter — we want to propose single-discipline metallurgy expert evidence and a joint sample inspection.\n\nJames\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\nT +44 (0)20 7946 0034\n\nOn Tue, May 6, 2025 at 12:00 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> James,\n>\n> Claimant's extended disclosure list is ready for service under PD 57AD — 18 documents, Model D for the technical issues. Attached. Note HAL-012 (the RCCA/CARB minutes) is marked privileged in part and will need redaction before it goes over.\n>\n> Tom",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Good. Serve it on Castle &amp; Vane, and flag in the covering email that HAL-012 is redacted for legal advice privilege. Then turn to the CMC directions letter — we want to propose single-discipline metallurgy expert evidence and a joint sample inspection.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>T +44 (0)20 7946 0034</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, May 6, 2025 at 12:00 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Claimant&#x27;s extended disclosure list is ready for service under PD 57AD — 18 documents, Model D for the technical issues. Attached. Note HAL-012 (the RCCA/CARB minutes) is marked privileged in part and will need redaction before it goes over.<br><br>Tom</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "c7ad47e6198538a1",
+  "messages": [
+    {
+      "id": "c7ad47e6198538a1",
+      "snippet": "Are we on for five-a-side at the Bishopsgate pitch on Thursday at 6:30? Need to confirm numbers by t",
+      "subject": "Five-a-side — Thursday?",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-13T18:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Are we on for five-a-side at the Bishopsgate pitch on Thursday at 6:30? Need to confirm numbers by tomorrow or we lose the booking. Elena, you said you might bring someone from corporate. Let me know.\n\nTom",
+      "htmlBody": "<div dir=\"ltr\">Are we on for five-a-side at the Bishopsgate pitch on Thursday at 6:30? Need to confirm numbers by tomorrow or we lose the booking. Elena, you said you might bring someone from corporate. Let me know.<br><br>Tom</div>"
+    }
+  ]
+}

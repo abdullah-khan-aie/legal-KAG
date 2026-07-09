@@ -1,0 +1,21 @@
+{
+  "id": "e9aed46d69fe09a9",
+  "messages": [
+    {
+      "id": "e9aed46d69fe09a9",
+      "snippet": "Dear All, The firm's DMS (iManage) will be unavailable for scheduled maintenance this Saturday 7 Mar",
+      "subject": "Scheduled maintenance: Document Management System (Sat 7 March)",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-03-02T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear All,\n\nThe firm's DMS (iManage) will be unavailable for scheduled maintenance this Saturday 7 March from 06:00 to 14:00. Please ensure any documents you are working on are checked in before Friday close. Email and the case management system are unaffected.\n\nIf you have any urgent access needs over the weekend, contact the helpdesk.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear All,<br><br>The firm&#x27;s DMS (iManage) will be unavailable for scheduled maintenance this Saturday 7 March from 06:00 to 14:00. Please ensure any documents you are working on are checked in before Friday close. Email and the case management system are unaffected.<br><br>If you have any urgent access needs over the weekend, contact the helpdesk.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

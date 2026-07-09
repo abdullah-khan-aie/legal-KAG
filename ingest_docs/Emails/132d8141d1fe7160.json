@@ -1,0 +1,34 @@
+{
+  "id": "132d8141d1fe7160",
+  "messages": [
+    {
+      "id": "132d8141d1fe7160",
+      "snippet": "Dear Mr Whitlock, We enclose by way of service the Particulars of Claim in this matter, the claim fo",
+      "subject": "Bracken Group plc v Calderwood Industries Ltd (CL-2025-000412) - service of Particulars of Claim",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "nadia.iqbal@pembertonrowe.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-10-28T12:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Mr Whitlock,\n\nWe enclose by way of service the Particulars of Claim in this matter, the claim form having been issued on 21 October 2025 (Claim No. CL-2025-000412). A Schedule of Loss has been served with the Particulars. We look forward to receiving the Defence in due course.\n\nKind regards,\nTom Gallagher\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Whitlock,<br><br>We enclose by way of service the Particulars of Claim in this matter, the claim form having been issued on 21 October 2025 (Claim No. CL-2025-000412). A Schedule of Loss has been served with the Particulars. We look forward to receiving the Defence in due course.<br><br>Kind regards,<br>Tom Gallagher<br>Whitfield Carter LLP</div>",
+      "attachmentIds": [
+        "IH3gk3luXee34gvtcR2K93GL3clw-ksokUcXebOLFHQ"
+      ],
+      "attachments": [
+        {
+          "filename": "Bracken_v_Calderwood_ParticularsOfClaim_Filed.pdf",
+          "id": "IH3gk3luXee34gvtcR2K93GL3clw-ksokUcXebOLFHQ",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

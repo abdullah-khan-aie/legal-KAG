@@ -1,0 +1,40 @@
+{
+  "id": "cbb223b49f1816c6",
+  "messages": [
+    {
+      "id": "cbb223b49f1816c6",
+      "snippet": "Dear Sirs, We attach our client's Letter of Response under the Protocol. Liability is denied in full",
+      "subject": "Letter of Response - Hartwell Construction / The Vault Birmingham",
+      "sender": "olivia.marsh@drummondhale.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2024-12-12T16:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear Sirs,\n\nWe attach our client's Letter of Response under the Protocol. Liability is denied in full. In short, our client says the abutment was built to your client's facade consultant's design, the pool plant was sized to the Employer's Requirements and the water-quality problems were caused by operational mismanagement and over-occupancy, and the ventilation met the design criteria at the design temperatures. Quantum is disputed in its entirety and our client relies on the Schedule 7 cap.\n\nOur client is willing to attend a without-prejudice meeting.\n\nYours faithfully,\nOlivia Marsh\nDrummond Hale LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Sirs,<br><br>We attach our client&#x27;s Letter of Response under the Protocol. Liability is denied in full. In short, our client says the abutment was built to your client&#x27;s facade consultant&#x27;s design, the pool plant was sized to the Employer&#x27;s Requirements and the water-quality problems were caused by operational mismanagement and over-occupancy, and the ventilation met the design criteria at the design temperatures. Quantum is disputed in its entirety and our client relies on the Schedule 7 cap.<br><br>Our client is willing to attend a without-prejudice meeting.<br><br>Yours faithfully,<br>Olivia Marsh<br>Drummond Hale LLP</div>"
+    },
+    {
+      "id": "56c3ed22b4308fe1",
+      "snippet": "As expected - blanket denial plus the cap point. Nothing in there that worries me on liability, and ",
+      "subject": "FW: Letter of Response - Hartwell Construction / The Vault Birmingham",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2024-12-13T09:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "As expected - blanket denial plus the cap point. Nothing in there that worries me on liability, and the over-occupancy defence runs into trouble because LFA measured the ventilation shortfall with the pool inside the design envelope. We should issue. Catherine's advice will be with us in January.\n\nTom\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\nConfidential and may be legally privileged.\n\nOn Thu, Dec 12, 2024 at 4:05 PM, Olivia Marsh <olivia.marsh@drummondhale.com> wrote:\n> Dear Sirs,\n>\n> We attach our client's Letter of Response under the Protocol. Liability is denied in full. In short, our client says the abutment was built to your client's facade consultant's design, the pool plant was sized to the Employer's Requirements and the water-quality problems were caused by operational mismanagement and over-occupancy, and the ventilation met the design criteria at the design temperatures. Quantum is disputed in its entirety and our client relies on the Schedule 7 cap.\n>\n> Our client is willing to attend a without-prejudice meeting.\n>\n> Yours faithfully,\n> Olivia Marsh\n> Drummond Hale LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">As expected - blanket denial plus the cap point. Nothing in there that worries me on liability, and the over-occupancy defence runs into trouble because LFA measured the ventilation shortfall with the pool inside the design envelope. We should issue. Catherine&#x27;s advice will be with us in January.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Dec 12, 2024 at 4:05 PM, Olivia Marsh &lt;olivia.marsh@drummondhale.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Sirs,<br><br>We attach our client&#x27;s Letter of Response under the Protocol. Liability is denied in full. In short, our client says the abutment was built to your client&#x27;s facade consultant&#x27;s design, the pool plant was sized to the Employer&#x27;s Requirements and the water-quality problems were caused by operational mismanagement and over-occupancy, and the ventilation met the design criteria at the design temperatures. Quantum is disputed in its entirety and our client relies on the Schedule 7 cap.<br><br>Our client is willing to attend a without-prejudice meeting.<br><br>Yours faithfully,<br>Olivia Marsh<br>Drummond Hale LLP</div></blockquote></div></div>"
+    }
+  ]
+}

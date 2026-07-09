@@ -1,0 +1,23 @@
+{
+  "id": "27d9ceaec1483cc5",
+  "messages": [
+    {
+      "id": "27d9ceaec1483cc5",
+      "snippet": "James - are you in for five-a-side this Thursday at Shoreditch? We're a man short after Tom pulled h",
+      "subject": "Five-a-side Thursday?",
+      "sender": "marcus.webb@denhamlewis.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-22T19:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "James - are you in for five-a-side this Thursday at Shoreditch? We're a man short after Tom pulled his hamstring. 7pm kickoff. Pint after at the Crown.\n\nMarcus\n\n[Apologies if this is the wrong James - got the address from the league sheet!]",
+      "htmlBody": "<div dir=\"ltr\">James - are you in for five-a-side this Thursday at Shoreditch? We&#x27;re a man short after Tom pulled his hamstring. 7pm kickoff. Pint after at the Crown.<br><br>Marcus<br><br>[Apologies if this is the wrong James - got the address from the league sheet!]</div>"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "9216896dcdce3b65",
+  "messages": [
+    {
+      "id": "9216896dcdce3b65",
+      "snippet": "James, Our records show 11.5 hours unposted for November across two matters. Please complete your na",
+      "subject": "Time recording - November narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-12-01T08:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James,\n\nOur records show 11.5 hours unposted for November across two matters. Please complete your narratives by close of play Wednesday so we can run the December bills. Thanks.\n\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our records show 11.5 hours unposted for November across two matters. Please complete your narratives by close of play Wednesday so we can run the December bills. Thanks.<br><br>Accounts</div>"
+    }
+  ]
+}

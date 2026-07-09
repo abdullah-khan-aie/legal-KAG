@@ -1,0 +1,25 @@
+{
+  "id": "bee0e38b2a6640cb",
+  "messages": [
+    {
+      "id": "bee0e38b2a6640cb",
+      "snippet": "Henry, Maya, A quick update. The Subscription Agreement first draft has gone to Birchall Stone and w",
+      "subject": "Kestrel - status and timetable",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "henry.larsson@caspiantech.io",
+        "maya.patel@caspiantech.io"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-12T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Henry, Maya,\n\nA quick update. The Subscription Agreement first draft has gone to Birchall Stone and we expect their mark-up next week. Birchall have started legal due diligence and have asked for the data room to be supplemented (employment and IP folders). The Investor Rights Agreement and amended Articles are in preparation.\n\nWorking timetable: documents agreed early March, disclosure letter mid-March, completion targeted for 18 March. Please keep that date free for board sign-off.\n\nKind regards,\nSarah\nSarah Whitfield  |  Partner\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nwww.whitfieldcarter.com\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Henry, Maya,<br><br>A quick update. The Subscription Agreement first draft has gone to Birchall Stone and we expect their mark-up next week. Birchall have started legal due diligence and have asked for the data room to be supplemented (employment and IP folders). The Investor Rights Agreement and amended Articles are in preparation.<br><br>Working timetable: documents agreed early March, disclosure letter mid-March, completion targeted for 18 March. Please keep that date free for board sign-off.<br><br>Kind regards,<br>Sarah<br>Sarah Whitfield  |  Partner<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div>"
+    }
+  ]
+}

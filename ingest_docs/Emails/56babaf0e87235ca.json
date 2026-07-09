@@ -1,0 +1,75 @@
+{
+  "id": "56babaf0e87235ca",
+  "messages": [
+    {
+      "id": "56babaf0e87235ca",
+      "snippet": "Dear Maya, Eleanor, We're targeting completion on Friday 12 June. Please find attached the completio",
+      "subject": "Project Lyra - completion mechanics and funds flow",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "maya.patel@caspiantech.io",
+        "eleanor.whitmore@marisdalegrowth.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "rachel.hargrove@hargroveassoc.com"
+      ],
+      "date": "2026-06-10T11:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Maya, Eleanor,\n\nWe're targeting completion on Friday 12 June. Please find attached the completion funds flow. Summary:\n\n- Subscription monies of £30,000,000 into our client account (Marisdale £25,000,005; Ravensworth £4,000,005; Aldridge £999,990)\n- Company contribution to Marisdale's legal fees of £90,000 (incl. VAT)\n- Our fees and Companies House filing fees\n- Net £29,777,920 to the company on completion\n\nPlease confirm the payment references and that Marisdale will fund by 10am on completion day. Board and shareholder approvals are scheduled for the morning of the 12th.\n\nBest,\nJames\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nwww.whitfieldcarter.com\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Maya, Eleanor,<br><br>We&#x27;re targeting completion on Friday 12 June. Please find attached the completion funds flow. Summary:<br><br>- Subscription monies of £30,000,000 into our client account (Marisdale £25,000,005; Ravensworth £4,000,005; Aldridge £999,990)<br>- Company contribution to Marisdale&#x27;s legal fees of £90,000 (incl. VAT)<br>- Our fees and Companies House filing fees<br>- Net £29,777,920 to the company on completion<br><br>Please confirm the payment references and that Marisdale will fund by 10am on completion day. Board and shareholder approvals are scheduled for the morning of the 12th.<br><br>Best,<br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "-WZ85XfrdDQ306CeOh_v4ZL6gdrULXPg_EBBrEQQwZY"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Lyra_FundsFlow.xlsx",
+          "id": "-WZ85XfrdDQ306CeOh_v4ZL6gdrULXPg_EBBrEQQwZY",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "1b01e9a39c96c68f",
+      "snippet": "James - funds flow agreed and our investment committee approval is in. Marisdale will fund the £25m ",
+      "subject": "Re: Project Lyra - completion mechanics and funds flow",
+      "sender": "eleanor.whitmore@marisdalegrowth.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "rachel.hargrove@hargroveassoc.com",
+        "maya.patel@caspiantech.io"
+      ],
+      "date": "2026-06-10T16:25:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "James - funds flow agreed and our investment committee approval is in. Marisdale will fund the £25m by 9am Friday. Please send the execution pack to me and David for signature.\n\nEleanor\n\nOn Wed, Jun 10, 2026 at 11:00 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Dear Maya, Eleanor,\n>\n> We're targeting completion on Friday 12 June. Please find attached the completion funds flow. Summary:\n>\n> - Subscription monies of £30,000,000 into our client account (Marisdale £25,000,005; Ravensworth £4,000,005; Aldridge £999,990)\n> - Company contribution to Marisdale's legal fees of £90,000 (incl. VAT)\n> - Our fees and Companies House filing fees\n> - Net £29,777,920 to the company on completion\n>\n> Please confirm the payment references and that Marisdale will fund by 10am on completion day. Board and shareholder approvals are scheduled for the morning of the 12th.\n>\n> Best,\n> James\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> www.whitfieldcarter.com\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James - funds flow agreed and our investment committee approval is in. Marisdale will fund the £25m by 9am Friday. Please send the execution pack to me and David for signature.<br><br>Eleanor</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jun 10, 2026 at 11:00 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Maya, Eleanor,<br><br>We&#x27;re targeting completion on Friday 12 June. Please find attached the completion funds flow. Summary:<br><br>- Subscription monies of £30,000,000 into our client account (Marisdale £25,000,005; Ravensworth £4,000,005; Aldridge £999,990)<br>- Company contribution to Marisdale&#x27;s legal fees of £90,000 (incl. VAT)<br>- Our fees and Companies House filing fees<br>- Net £29,777,920 to the company on completion<br><br>Please confirm the payment references and that Marisdale will fund by 10am on completion day. Board and shareholder approvals are scheduled for the morning of the 12th.<br><br>Best,<br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    },
+    {
+      "id": "dc3ac3b0bd6b5b8d",
+      "snippet": "Confirmed from our side. Ravensworth and Aldridge have both confirmed they'll fund their participati",
+      "subject": "Re: Project Lyra - completion mechanics and funds flow",
+      "sender": "maya.patel@caspiantech.io",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "eleanor.whitmore@marisdalegrowth.com"
+      ],
+      "date": "2026-06-11T08:30:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Confirmed from our side. Ravensworth and Aldridge have both confirmed they'll fund their participation by Thursday close. Looking forward to Friday.\n\nMaya\n\nOn Wed, Jun 10, 2026 at 4:25 PM, Eleanor Whitmore <eleanor.whitmore@marisdalegrowth.com> wrote:\n> James - funds flow agreed and our investment committee approval is in. Marisdale will fund the £25m by 9am Friday. Please send the execution pack to me and David for signature.\n>\n> Eleanor\n>\n> On Wed, Jun 10, 2026 at 11:00 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > Dear Maya, Eleanor,\n> >\n> > We're targeting completion on Friday 12 June. Please find attached the completion funds flow. Summary:\n> >\n> > - Subscription monies of £30,000,000 into our client account (Marisdale £25,000,005; Ravensworth £4,000,005; Aldridge £999,990)\n> > - Company contribution to Marisdale's legal fees of £90,000 (incl. VAT)\n> > - Our fees and Companies House filing fees\n> > - Net £29,777,920 to the company on completion\n> >\n> > Please confirm the payment references and that Marisdale will fund by 10am on completion day. Board and shareholder approvals are scheduled for the morning of the 12th.\n> >\n> > Best,\n> > James\n> >\n> > --\n> > Whitfield Carter LLP\n> > 22 Bishopsgate, London EC2N 4BQ\n> > www.whitfieldcarter.com\n> > This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Confirmed from our side. Ravensworth and Aldridge have both confirmed they&#x27;ll fund their participation by Thursday close. Looking forward to Friday.<br><br>Maya</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jun 10, 2026 at 4:25 PM, Eleanor Whitmore &lt;eleanor.whitmore@marisdalegrowth.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">James - funds flow agreed and our investment committee approval is in. Marisdale will fund the £25m by 9am Friday. Please send the execution pack to me and David for signature.<br><br>Eleanor</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jun 10, 2026 at 11:00 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Maya, Eleanor,<br><br>We&#x27;re targeting completion on Friday 12 June. Please find attached the completion funds flow. Summary:<br><br>- Subscription monies of £30,000,000 into our client account (Marisdale £25,000,005; Ravensworth £4,000,005; Aldridge £999,990)<br>- Company contribution to Marisdale&#x27;s legal fees of £90,000 (incl. VAT)<br>- Our fees and Companies House filing fees<br>- Net £29,777,920 to the company on completion<br><br>Please confirm the payment references and that Marisdale will fund by 10am on completion day. Board and shareholder approvals are scheduled for the morning of the 12th.<br><br>Best,<br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "f8d425cb7bd1f242",
+  "messages": [
+    {
+      "id": "f8d425cb7bd1f242",
+      "snippet": "Priya, Robert, Attached is our advice note on the IP and warranty position for the Board. In short: ",
+      "subject": "Project Skylark - IP and warranty advice (PRIVILEGED)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "priya.saxena@halsteadaerospace.com",
+        "robert.falconer@halsteadaerospace.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "grace.underwood@halsteadaerospace.com"
+      ],
+      "date": "2024-10-28T17:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Priya, Robert,\n\nAttached is our advice note on the IP and warranty position for the Board. In short: the licensed patents are in force and unencumbered, Hartington's FTO is low-risk, and we've qualified the IP non-infringement warranty by Halstead's awareness, which Caldera has accepted. The IP indemnity at clause 8 remains uncapped - the Board should note that exposure, though we consider it acceptable given the low risk.\n\nHappy to attend the Board on 12 November.\n\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0100\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Priya, Robert,<br><br>Attached is our advice note on the IP and warranty position for the Board. In short: the licensed patents are in force and unencumbered, Hartington&#x27;s FTO is low-risk, and we&#x27;ve qualified the IP non-infringement warranty by Halstead&#x27;s awareness, which Caldera has accepted. The IP indemnity at clause 8 remains uncapped - the Board should note that exposure, though we consider it acceptable given the low risk.<br><br>Happy to attend the Board on 12 November.<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0100<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "Mt11X0yEW7YVbt4R3f-P0YQAm6XHSiN_Lr6G1VAq1pA"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Skylark_FTO_AdviceNote.docx",
+          "id": "Mt11X0yEW7YVbt4R3f-P0YQAm6XHSiN_Lr6G1VAq1pA",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

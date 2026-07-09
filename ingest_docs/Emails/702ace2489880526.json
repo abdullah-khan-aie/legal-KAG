@@ -1,0 +1,52 @@
+{
+  "id": "702ace2489880526",
+  "messages": [
+    {
+      "id": "702ace2489880526",
+      "snippet": "Tom, My advice on the merits and quantum is attached. In short: strong on liability (~75%), with the",
+      "subject": "Advice on the merits - Maybrook v Helmsworth",
+      "sender": "h.stanford@eldonchambers.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-07T16:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Tom,\n\nMy advice on the merits and quantum is attached. In short: strong on liability (~75%), with the real risk being clause 14.2 and the lost-profit exclusion - I put defeating that at 55-60%. Central recovery estimate £750k-£950k plus interest and costs. I'd recommend a Part 36 offer around £820k once Penrith's report is finalised.\n\nHarriet",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>My advice on the merits and quantum is attached. In short: strong on liability (~75%), with the real risk being clause 14.2 and the lost-profit exclusion - I put defeating that at 55-60%. Central recovery estimate £750k-£950k plus interest and costs. I&#x27;d recommend a Part 36 offer around £820k once Penrith&#x27;s report is finalised.<br><br>Harriet</div>"
+    },
+    {
+      "id": "bdc1168362777bb8",
+      "snippet": "Thank you Harriet - very helpful. Penrith's full report has now landed and supports the causation ca",
+      "subject": "RE: Advice on the merits - Maybrook v Helmsworth",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "h.stanford@eldonchambers.co.uk"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-08T09:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Thank you Harriet - very helpful. Penrith's full report has now landed and supports the causation case strongly (no tramp-metal evidence). We'll take instructions on the £820k Part 36 figure.\n\nKind regards,\nTom\n\nTom Gallagher | Associate\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0500\nConfidential and may be legally privileged.\n\nOn Tue, Apr 7, 2026 at 4:20 PM, Harriet Stanford <h.stanford@eldonchambers.co.uk> wrote:\n> Tom,\n>\n> My advice on the merits and quantum is attached. In short: strong on liability (~75%), with the real risk being clause 14.2 and the lost-profit exclusion - I put defeating that at 55-60%. Central recovery estimate £750k-£950k plus interest and costs. I'd recommend a Part 36 offer around £820k once Penrith's report is finalised.\n>\n> Harriet",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thank you Harriet - very helpful. Penrith&#x27;s full report has now landed and supports the causation case strongly (no tramp-metal evidence). We&#x27;ll take instructions on the £820k Part 36 figure.<br><br>Kind regards,<br>Tom<br><br>Tom Gallagher | Associate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Apr 7, 2026 at 4:20 PM, Harriet Stanford &lt;h.stanford@eldonchambers.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom,<br><br>My advice on the merits and quantum is attached. In short: strong on liability (~75%), with the real risk being clause 14.2 and the lost-profit exclusion - I put defeating that at 55-60%. Central recovery estimate £750k-£950k plus interest and costs. I&#x27;d recommend a Part 36 offer around £820k once Penrith&#x27;s report is finalised.<br><br>Harriet</div></blockquote></div></div>",
+      "attachmentIds": [
+        "gL-P5HidqmPEOdYfHtpu1eLr_CNNa_LL6_Wi0evCRt8"
+      ],
+      "attachments": [
+        {
+          "filename": "Maybrook_Helmsworth_CounselAdvice_Merits.pdf",
+          "id": "gL-P5HidqmPEOdYfHtpu1eLr_CNNa_LL6_Wi0evCRt8",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

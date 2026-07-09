@@ -1,0 +1,45 @@
+{
+  "id": "1579b951f0f3ec8a",
+  "messages": [
+    {
+      "id": "1579b951f0f3ec8a",
+      "snippet": "Anders, Rosalind, Good news — we've closed the last open point. Final agreed economics: £4.5m upfron",
+      "subject": "Project Tamarisk — terms agreed, economics",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "anders.halverson@halversonmaterials.com",
+        "rosalind.pierce@halversonmaterials.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-26T09:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Anders, Rosalind,\n\nGood news — we've closed the last open point. Final agreed economics: £4.5m upfront, 4.5% running royalty, £2m + £3m milestones, and a £500k minimum annual royalty from Year 3 (up from £350k, which we secured in exchange for the rate coming down to 4.5%). Liability cap is 2x trailing fees. The royalty model (separately circulated) shows total receipts of roughly £14m over seven years on the base case.\n\nWe're preparing the execution version now.\n\nBest,\nJames Osei\nSenior Associate | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Anders, Rosalind,<br><br>Good news — we&#x27;ve closed the last open point. Final agreed economics: £4.5m upfront, 4.5% running royalty, £2m + £3m milestones, and a £500k minimum annual royalty from Year 3 (up from £350k, which we secured in exchange for the rate coming down to 4.5%). Liability cap is 2x trailing fees. The royalty model (separately circulated) shows total receipts of roughly £14m over seven years on the base case.<br><br>We&#x27;re preparing the execution version now.<br><br>Best,<br>James Osei<br>Senior Associate | Whitfield Carter LLP</div>"
+    },
+    {
+      "id": "724f0398d7efb299",
+      "snippet": "James — that's a good outcome, thank you. The £500k floor is exactly what I wanted given the rate. I",
+      "subject": "RE: Project Tamarisk — terms agreed, economics",
+      "sender": "rosalind.pierce@halversonmaterials.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "anders.halverson@halversonmaterials.com"
+      ],
+      "date": "2025-11-26T13:48:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James — that's a good outcome, thank you. The £500k floor is exactly what I wanted given the rate. I'll brief the board ahead of the approval meeting.\n\nRosalind\n\nOn Wed, Nov 26, 2025 at 9:15 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Anders, Rosalind,\n>\n> Good news — we've closed the last open point. Final agreed economics: £4.5m upfront, 4.5% running royalty, £2m + £3m milestones, and a £500k minimum annual royalty from Year 3 (up from £350k, which we secured in exchange for the rate coming down to 4.5%). Liability cap is 2x trailing fees. The royalty model (separately circulated) shows total receipts of roughly £14m over seven years on the base case.\n>\n> We're preparing the execution version now.\n>\n> Best,\n> James Osei\n> Senior Associate | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James — that&#x27;s a good outcome, thank you. The £500k floor is exactly what I wanted given the rate. I&#x27;ll brief the board ahead of the approval meeting.<br><br>Rosalind</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Nov 26, 2025 at 9:15 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Anders, Rosalind,<br><br>Good news — we&#x27;ve closed the last open point. Final agreed economics: £4.5m upfront, 4.5% running royalty, £2m + £3m milestones, and a £500k minimum annual royalty from Year 3 (up from £350k, which we secured in exchange for the rate coming down to 4.5%). Liability cap is 2x trailing fees. The royalty model (separately circulated) shows total receipts of roughly £14m over seven years on the base case.<br><br>We&#x27;re preparing the execution version now.<br><br>Best,<br>James Osei<br>Senior Associate | Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "c83ef1f17d1fd0f3",
+  "messages": [
+    {
+      "id": "c83ef1f17d1fd0f3",
+      "snippet": "Dear Dr Iqbal, We instruct you on behalf of Pennington Industries to examine the tongue-actuated int",
+      "subject": "Instruction - forensic exam of PT-DB-07 interlock (Pennington)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "f.iqbal@wraysburymaterials.co.uk"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-04T10:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Dr Iqbal,\n\nWe instruct you on behalf of Pennington Industries to examine the tongue-actuated interlock switch removed from deburring machine PT-DB-07 following an incident on 14 January, and to opine on the mechanism by which it failed to prevent spindle operation with the guard open. Continuity of evidence has been preserved. Please treat your report as for the purpose of advising the client and confirm your availability and fee.\n\nTom Gallagher\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Dr Iqbal,<br><br>We instruct you on behalf of Pennington Industries to examine the tongue-actuated interlock switch removed from deburring machine PT-DB-07 following an incident on 14 January, and to opine on the mechanism by which it failed to prevent spindle operation with the guard open. Continuity of evidence has been preserved. Please treat your report as for the purpose of advising the client and confirm your availability and fee.<br><br>Tom Gallagher<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "6237dc87ffc9fab4",
+      "snippet": "Dear Tom, Happy to assist. I can examine on 12 February. My fee estimate is GBP 6,500 plus VAT for e",
+      "subject": "RE: Instruction - forensic exam of PT-DB-07 interlock (Pennington)",
+      "sender": "f.iqbal@wraysburymaterials.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-05T13:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Tom,\n\nHappy to assist. I can examine on 12 February. My fee estimate is GBP 6,500 plus VAT for examination, bench testing and a CPR-compliant report. From the photographs the tongue wear and swarf contamination look likely to be central. I'll confirm after examination.\n\nFaisal\n\nOn Wed, Feb 4, 2026 at 10:00 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Dr Iqbal,\n>\n> We instruct you on behalf of Pennington Industries to examine the tongue-actuated interlock switch removed from deburring machine PT-DB-07 following an incident on 14 January, and to opine on the mechanism by which it failed to prevent spindle operation with the guard open. Continuity of evidence has been preserved. Please treat your report as for the purpose of advising the client and confirm your availability and fee.\n>\n> Tom Gallagher\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Tom,<br><br>Happy to assist. I can examine on 12 February. My fee estimate is GBP 6,500 plus VAT for examination, bench testing and a CPR-compliant report. From the photographs the tongue wear and swarf contamination look likely to be central. I&#x27;ll confirm after examination.<br><br>Faisal</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 4, 2026 at 10:00 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Dr Iqbal,<br><br>We instruct you on behalf of Pennington Industries to examine the tongue-actuated interlock switch removed from deburring machine PT-DB-07 following an incident on 14 January, and to opine on the mechanism by which it failed to prevent spindle operation with the guard open. Continuity of evidence has been preserved. Please treat your report as for the purpose of advising the client and confirm your availability and fee.<br><br>Tom Gallagher<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    },
+    {
+      "id": "b8e70df6ed68d31d",
+      "snippet": "Dear Tom, My report (WML-26-0418) is finalised and attached. In short: the switch did not achieve po",
+      "subject": "RE: Instruction - forensic exam of PT-DB-07 interlock (Pennington)",
+      "sender": "f.iqbal@wraysburymaterials.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-18T17:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear Tom,\n\nMy report (WML-26-0418) is finalised and attached. In short: the switch did not achieve positive opening on withdrawal of the actuator because of cumulative wear and swarf/coolant contamination; periodic function testing would have detected it. I recommend coded non-contact switches going forward.\n\nFaisal\n\nOn Thu, Feb 5, 2026 at 1:20 PM, Dr Faisal Iqbal <f.iqbal@wraysburymaterials.co.uk> wrote:\n> Dear Tom,\n>\n> Happy to assist. I can examine on 12 February. My fee estimate is GBP 6,500 plus VAT for examination, bench testing and a CPR-compliant report. From the photographs the tongue wear and swarf contamination look likely to be central. I'll confirm after examination.\n>\n> Faisal\n>\n> On Wed, Feb 4, 2026 at 10:00 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> > Dear Dr Iqbal,\n> >\n> > We instruct you on behalf of Pennington Industries to examine the tongue-actuated interlock switch removed from deburring machine PT-DB-07 following an incident on 14 January, and to opine on the mechanism by which it failed to prevent spindle operation with the guard open. Continuity of evidence has been preserved. Please treat your report as for the purpose of advising the client and confirm your availability and fee.\n> >\n> > Tom Gallagher\n> >\n> > --\n> > Whitfield Carter LLP\n> > 22 Bishopsgate, London EC2N 4BQ\n> > Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Tom,<br><br>My report (WML-26-0418) is finalised and attached. In short: the switch did not achieve positive opening on withdrawal of the actuator because of cumulative wear and swarf/coolant contamination; periodic function testing would have detected it. I recommend coded non-contact switches going forward.<br><br>Faisal</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Feb 5, 2026 at 1:20 PM, Dr Faisal Iqbal &lt;f.iqbal@wraysburymaterials.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Dear Tom,<br><br>Happy to assist. I can examine on 12 February. My fee estimate is GBP 6,500 plus VAT for examination, bench testing and a CPR-compliant report. From the photographs the tongue wear and swarf contamination look likely to be central. I&#x27;ll confirm after examination.<br><br>Faisal</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 4, 2026 at 10:00 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Dr Iqbal,<br><br>We instruct you on behalf of Pennington Industries to examine the tongue-actuated interlock switch removed from deburring machine PT-DB-07 following an incident on 14 January, and to opine on the mechanism by which it failed to prevent spindle operation with the guard open. Continuity of evidence has been preserved. Please treat your report as for the purpose of advising the client and confirm your availability and fee.<br><br>Tom Gallagher<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div></blockquote></div></div>",
+      "attachmentIds": [
+        "PDPLWhIZrZEw9dbUR7BYHWWCuNPdGpsvIKTAnz07Lqc"
+      ],
+      "attachments": [
+        {
+          "filename": "Sentinel_ForensicEngineeringReport.pdf",
+          "id": "PDPLWhIZrZEw9dbUR7BYHWWCuNPdGpsvIKTAnz07Lqc",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "87e01443ad528efb",
+  "messages": [
+    {
+      "id": "87e01443ad528efb",
+      "snippet": "Eleanor, Attached is our first full draft of the Patent Licence Agreement (v1) for your review befor",
+      "subject": "Project Quartz — Patent Licence Agreement v1 (draft)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "eleanor.aldridge@aldridgebiomaterials.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-20T15:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Eleanor,\n\nAttached is our first full draft of the Patent Licence Agreement (v1) for your review before we send to the other side. It reflects the term-sheet economics (£1.5m upfront, 6.5% royalty), exclusive in the Field in Europe, full warranty and indemnity package, and a liability cap at the greater of £5m or fees paid. The Verdant evaluation licence will be handled via a side letter rather than in the body.\n\nElena\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Eleanor,<br><br>Attached is our first full draft of the Patent Licence Agreement (v1) for your review before we send to the other side. It reflects the term-sheet economics (£1.5m upfront, 6.5% royalty), exclusive in the Field in Europe, full warranty and indemnity package, and a liability cap at the greater of £5m or fees paid. The Verdant evaluation licence will be handled via a side letter rather than in the body.<br><br>Elena<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "f-McushrK3W8UY-oyLeS1VyG3CYIA15sJyFyQ49MUpQ"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Quartz_PatentLicence_v1.docx",
+          "id": "f-McushrK3W8UY-oyLeS1VyG3CYIA15sJyFyQ49MUpQ",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "957c10ef7a9ca137",
+      "snippet": "Approved to send to Denham Lewis. Marcus has confirmed Schedule 2 (technical package) is accurate. G",
+      "subject": "RE: Project Quartz — Patent Licence Agreement v1 (draft)",
+      "sender": "eleanor.aldridge@aldridgebiomaterials.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "marcus.tindall@aldridgebiomaterials.com"
+      ],
+      "date": "2025-10-23T09:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Approved to send to Denham Lewis. Marcus has confirmed Schedule 2 (technical package) is accurate. Go ahead.\n\nEleanor\n\nOn Mon, Oct 20, 2025 at 3:30 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Eleanor,\n>\n> Attached is our first full draft of the Patent Licence Agreement (v1) for your review before we send to the other side. It reflects the term-sheet economics (£1.5m upfront, 6.5% royalty), exclusive in the Field in Europe, full warranty and indemnity package, and a liability cap at the greater of £5m or fees paid. The Verdant evaluation licence will be handled via a side letter rather than in the body.\n>\n> Elena\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Approved to send to Denham Lewis. Marcus has confirmed Schedule 2 (technical package) is accurate. Go ahead.<br><br>Eleanor</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Oct 20, 2025 at 3:30 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Eleanor,<br><br>Attached is our first full draft of the Patent Licence Agreement (v1) for your review before we send to the other side. It reflects the term-sheet economics (£1.5m upfront, 6.5% royalty), exclusive in the Field in Europe, full warranty and indemnity package, and a liability cap at the greater of £5m or fees paid. The Verdant evaluation licence will be handled via a side letter rather than in the body.<br><br>Elena<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "4df375c17703892b",
+  "messages": [
+    {
+      "id": "4df375c17703892b",
+      "snippet": "You're invited to this month's lunch & learn: 'UK Merger Control — recent CMA decisions and remedy t",
+      "subject": "Lunch & learn: UK merger control update (CPD)",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-01-27T10:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "You're invited to this month's lunch & learn: 'UK Merger Control — recent CMA decisions and remedy trends', Thursday 5 February, 12:30-13:30, Room 9 / Teams. 1 CPD hour. Sandwiches provided for in-person attendees. Please register via the L&D portal.\n\nWC Knowledge & Learning",
+      "htmlBody": "<div dir=\"ltr\">You&#x27;re invited to this month&#x27;s lunch &amp; learn: &#x27;UK Merger Control — recent CMA decisions and remedy trends&#x27;, Thursday 5 February, 12:30-13:30, Room 9 / Teams. 1 CPD hour. Sandwiches provided for in-person attendees. Please register via the L&amp;D portal.<br><br>WC Knowledge &amp; Learning</div>"
+    }
+  ]
+}

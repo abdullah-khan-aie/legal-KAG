@@ -1,0 +1,77 @@
+{
+  "id": "9b28a48d8fe10ac9",
+  "messages": [
+    {
+      "id": "9b28a48d8fe10ac9",
+      "snippet": "All, We're targeting completion on Friday 8 May. Attached is the funds flow statement. Subscription ",
+      "subject": "Project Quartz — completion mechanics & funds flow",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.veldt@larkmoorbio.com",
+        "aisha.chowdhury@ravensworthventures.com",
+        "robert.aldridge@aldridgeseed.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "david.lin@hargroveassoc.com"
+      ],
+      "date": "2026-05-05T16:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "All,\n\nWe're targeting completion on Friday 8 May. Attached is the funds flow statement. Subscription monies (£8m Ravensworth, £2m Aldridge) to our client account by 11am Friday; net proceeds of £9,857,920 released to Larkmoor on satisfaction of the company's completion deliverables. Transaction costs of £142,080 are itemised.\n\nSignature pages to me by Thursday close. Completion board meeting at 10am Friday.\n\nJames\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\n+44 (0)20 7946 0048\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>We&#x27;re targeting completion on Friday 8 May. Attached is the funds flow statement. Subscription monies (£8m Ravensworth, £2m Aldridge) to our client account by 11am Friday; net proceeds of £9,857,920 released to Larkmoor on satisfaction of the company&#x27;s completion deliverables. Transaction costs of £142,080 are itemised.<br><br>Signature pages to me by Thursday close. Completion board meeting at 10am Friday.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0048<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "2fuINDFlSArQDJIl_IZhOhti4DOTod92cbW9RUfL_9s"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Quartz_FundsFlow.xlsx",
+          "id": "2fuINDFlSArQDJIl_IZhOhti4DOTod92cbW9RUfL_9s",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "15a6947ef6556918",
+      "snippet": "Aldridge £2m will be sent Thursday afternoon for value Friday. Signature page following. Robert Robe",
+      "subject": "RE: Project Quartz — completion mechanics & funds flow",
+      "sender": "robert.aldridge@aldridgeseed.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-06T10:25:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Aldridge £2m will be sent Thursday afternoon for value Friday. Signature page following. Robert\n\nRobert Aldridge | Aldridge Seed LP\n\nOn Tue, May 5, 2026 at 4:00 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> All,\n>\n> We're targeting completion on Friday 8 May. Attached is the funds flow statement. Subscription monies (£8m Ravensworth, £2m Aldridge) to our client account by 11am Friday; net proceeds of £9,857,920 released to Larkmoor on satisfaction of the company's completion deliverables. Transaction costs of £142,080 are itemised.\n>\n> Signature pages to me by Thursday close. Completion board meeting at 10am Friday.\n>\n> James\n>\n> James Osei\n> Senior Associate | Whitfield Carter LLP\n> +44 (0)20 7946 0048\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Aldridge £2m will be sent Thursday afternoon for value Friday. Signature page following. Robert<br><br>Robert Aldridge | Aldridge Seed LP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, May 5, 2026 at 4:00 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">All,<br><br>We&#x27;re targeting completion on Friday 8 May. Attached is the funds flow statement. Subscription monies (£8m Ravensworth, £2m Aldridge) to our client account by 11am Friday; net proceeds of £9,857,920 released to Larkmoor on satisfaction of the company&#x27;s completion deliverables. Transaction costs of £142,080 are itemised.<br><br>Signature pages to me by Thursday close. Completion board meeting at 10am Friday.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0048<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    },
+    {
+      "id": "b5e0daf4f04e45f9",
+      "snippet": "Ravensworth £8m confirmed for Friday morning. Victor and I will dial into the 10am. Aisha",
+      "subject": "RE: Project Quartz — completion mechanics & funds flow",
+      "sender": "aisha.chowdhury@ravensworthventures.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "victor.underwood@ravensworthventures.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-06T15:48:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Ravensworth £8m confirmed for Friday morning. Victor and I will dial into the 10am. Aisha\n\nOn Wed, May 6, 2026 at 10:25 AM, Robert Aldridge <robert.aldridge@aldridgeseed.com> wrote:\n> Aldridge £2m will be sent Thursday afternoon for value Friday. Signature page following. Robert\n>\n> Robert Aldridge | Aldridge Seed LP\n>\n> On Tue, May 5, 2026 at 4:00 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > All,\n> >\n> > We're targeting completion on Friday 8 May. Attached is the funds flow statement. Subscription monies (£8m Ravensworth, £2m Aldridge) to our client account by 11am Friday; net proceeds of £9,857,920 released to Larkmoor on satisfaction of the company's completion deliverables. Transaction costs of £142,080 are itemised.\n> >\n> > Signature pages to me by Thursday close. Completion board meeting at 10am Friday.\n> >\n> > James\n> >\n> > James Osei\n> > Senior Associate | Whitfield Carter LLP\n> > +44 (0)20 7946 0048\n> > Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Ravensworth £8m confirmed for Friday morning. Victor and I will dial into the 10am. Aisha</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, May 6, 2026 at 10:25 AM, Robert Aldridge &lt;robert.aldridge@aldridgeseed.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Aldridge £2m will be sent Thursday afternoon for value Friday. Signature page following. Robert<br><br>Robert Aldridge | Aldridge Seed LP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, May 5, 2026 at 4:00 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">All,<br><br>We&#x27;re targeting completion on Friday 8 May. Attached is the funds flow statement. Subscription monies (£8m Ravensworth, £2m Aldridge) to our client account by 11am Friday; net proceeds of £9,857,920 released to Larkmoor on satisfaction of the company&#x27;s completion deliverables. Transaction costs of £142,080 are itemised.<br><br>Signature pages to me by Thursday close. Completion board meeting at 10am Friday.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0048<br>Confidential and may be legally privileged.</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

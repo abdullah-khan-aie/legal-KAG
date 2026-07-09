@@ -1,0 +1,22 @@
+{
+  "id": "290a639944bea8c4",
+  "messages": [
+    {
+      "id": "290a639944bea8c4",
+      "snippet": "Hi Sarah, Quick one on Atlas (the Brampton Leisure acquisition) rather than anything current - our f",
+      "subject": "Project Atlas - completion accounts query",
+      "sender": "nathan.reilly@kingsfordgroup.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-27T14:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi Sarah,\n\nQuick one on Atlas (the Brampton Leisure acquisition) rather than anything current - our finance team are finalising the completion accounts and there's a £40k working-capital adjustment we want to check against the SPA mechanism before we sign off the retention release. Could someone confirm whether that falls inside or outside the agreed net-debt definition?\n\nNo great urgency, but would be good to close it out this month.\n\nThanks,\nNathan\nKingsford Group",
+      "htmlBody": "<div dir=\"ltr\">Hi Sarah,<br><br>Quick one on Atlas (the Brampton Leisure acquisition) rather than anything current - our finance team are finalising the completion accounts and there&#x27;s a £40k working-capital adjustment we want to check against the SPA mechanism before we sign off the retention release. Could someone confirm whether that falls inside or outside the agreed net-debt definition?<br><br>No great urgency, but would be good to close it out this month.<br><br>Thanks,<br>Nathan<br>Kingsford Group</div>"
+    }
+  ]
+}

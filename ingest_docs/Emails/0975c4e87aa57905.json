@@ -1,0 +1,24 @@
+{
+  "id": "0975c4e87aa57905",
+  "messages": [
+    {
+      "id": "0975c4e87aa57905",
+      "snippet": "Join us for a lunchtime CPD session on recent trends in UK venture financing — liquidation preferenc",
+      "subject": "CPD seminar: Recent developments in venture financing terms (5 Nov, 12:30)",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-10-27T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Join us for a lunchtime CPD session on recent trends in UK venture financing — liquidation preferences, anti-dilution mechanics and the latest BVCA model documents. Wednesday 5 November, 12:30–13:30, Training Room 2 (sandwiches provided). 1 hour CPD. RSVP to Knowledge & Learning.\n\nWC Knowledge & Learning",
+      "htmlBody": "<div dir=\"ltr\">Join us for a lunchtime CPD session on recent trends in UK venture financing — liquidation preferences, anti-dilution mechanics and the latest BVCA model documents. Wednesday 5 November, 12:30–13:30, Training Room 2 (sandwiches provided). 1 hour CPD. RSVP to Knowledge &amp; Learning.<br><br>WC Knowledge &amp; Learning</div>"
+    }
+  ]
+}

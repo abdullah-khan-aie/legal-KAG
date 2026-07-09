@@ -1,0 +1,55 @@
+{
+  "id": "07b7b5f31bad8b57",
+  "messages": [
+    {
+      "id": "07b7b5f31bad8b57",
+      "snippet": "Dear Eleanor, Ahead of the CMC on 8 October, please find our letter on directions attached, with a d",
+      "subject": "Verdant v Calderhall HT-2026-000087 - directions for the CMC",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "eleanor.renton@rentonmaddox.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "sam.beckett@rentonmaddox.com"
+      ],
+      "date": "2025-09-24T11:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Eleanor,\n\nAhead of the CMC on 8 October, please find our letter on directions attached, with a draft DRD and draft order. In short we propose Model C disclosure of your client's manufacturing, in-process QC and batch-release records and any root-cause investigation; one expert each in cell electrochemistry/failure analysis with sequential reports; and a 5-day TCC trial in Q2 2027. We'd like to agree as much of the order as possible.\n\nWe also invite your client's position on whether the reasonableness of clause 11 should be tried as a preliminary issue.\n\nTom\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\">Dear Eleanor,<br><br>Ahead of the CMC on 8 October, please find our letter on directions attached, with a draft DRD and draft order. In short we propose Model C disclosure of your client&#x27;s manufacturing, in-process QC and batch-release records and any root-cause investigation; one expert each in cell electrochemistry/failure analysis with sequential reports; and a 5-day TCC trial in Q2 2027. We&#x27;d like to agree as much of the order as possible.<br><br>We also invite your client&#x27;s position on whether the reasonableness of clause 11 should be tried as a preliminary issue.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div>",
+      "attachmentIds": [
+        "Sd36ZS8Aw4pA8etQ22qXoMJuKF-Q4viILxDP6edVXdY"
+      ],
+      "attachments": [
+        {
+          "filename": "Verdant_DirectionsLetter_to_RentonMaddox.docx",
+          "id": "Sd36ZS8Aw4pA8etQ22qXoMJuKF-Q4viILxDP6edVXdY",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "271b620d281d0b24",
+      "snippet": "Dear Tom, We agree single experts are not appropriate and accept sequential reports. We resist Model",
+      "subject": "RE: Verdant v Calderhall HT-2026-000087 - directions for the CMC",
+      "sender": "eleanor.renton@rentonmaddox.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "sam.beckett@rentonmaddox.com"
+      ],
+      "date": "2025-10-01T15:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear Tom,\n\nWe agree single experts are not appropriate and accept sequential reports. We resist Model C for the root-cause documents as disproportionate and say Model B suffices; we can discuss at the CMC. We do not agree to a preliminary issue on clause 11 - it is bound up with the facts and should be tried with everything else. Otherwise the draft order is broadly acceptable. We'll mark up and revert.\n\nEleanor\n\nOn Wed, Sep 24, 2025 at 11:15 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Eleanor,\n>\n> Ahead of the CMC on 8 October, please find our letter on directions attached, with a draft DRD and draft order. In short we propose Model C disclosure of your client's manufacturing, in-process QC and batch-release records and any root-cause investigation; one expert each in cell electrochemistry/failure analysis with sequential reports; and a 5-day TCC trial in Q2 2027. We'd like to agree as much of the order as possible.\n>\n> We also invite your client's position on whether the reasonableness of clause 11 should be tried as a preliminary issue.\n>\n> Tom\n>\n> Tom Gallagher\n> Associate | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Tom,<br><br>We agree single experts are not appropriate and accept sequential reports. We resist Model C for the root-cause documents as disproportionate and say Model B suffices; we can discuss at the CMC. We do not agree to a preliminary issue on clause 11 - it is bound up with the facts and should be tried with everything else. Otherwise the draft order is broadly acceptable. We&#x27;ll mark up and revert.<br><br>Eleanor</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Sep 24, 2025 at 11:15 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Eleanor,<br><br>Ahead of the CMC on 8 October, please find our letter on directions attached, with a draft DRD and draft order. In short we propose Model C disclosure of your client&#x27;s manufacturing, in-process QC and batch-release records and any root-cause investigation; one expert each in cell electrochemistry/failure analysis with sequential reports; and a 5-day TCC trial in Q2 2027. We&#x27;d like to agree as much of the order as possible.<br><br>We also invite your client&#x27;s position on whether the reasonableness of clause 11 should be tried as a preliminary issue.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "3131e7c7c0ff92c6",
+  "messages": [
+    {
+      "id": "3131e7c7c0ff92c6",
+      "snippet": "Isla, Daniel, Rebecca, Completion took place today. Thornbury is now the registered owner (subject t",
+      "subject": "Project Quartz - COMPLETED",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "isla.fournier@thornburyproperties.com",
+        "daniel.quigley@thornburyproperties.com",
+        "rebecca.stone@thornburyproperties.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-05-15T15:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Isla, Daniel, Rebecca,\n\nCompletion took place today. Thornbury is now the registered owner (subject to registration) of Quartz House. The seller's bank charge will be discharged via the undertaking received this morning. We'll file the SDLT return (£412,000) within 14 days, apply to register the transfer at HM Land Registry, and serve notices of assignment of the reversion on the tenants.\n\nExecuted TR1 and the SDLT summary attached.\n\nThank you all - a pleasure to act.\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Isla, Daniel, Rebecca,<br><br>Completion took place today. Thornbury is now the registered owner (subject to registration) of Quartz House. The seller&#x27;s bank charge will be discharged via the undertaking received this morning. We&#x27;ll file the SDLT return (£412,000) within 14 days, apply to register the transfer at HM Land Registry, and serve notices of assignment of the reversion on the tenants.<br><br>Executed TR1 and the SDLT summary attached.<br><br>Thank you all - a pleasure to act.<br><br>James</div>",
+      "attachmentIds": [
+        "usce7VqXYQWHA6Bk8wgHHnBFb1gvT4OtG1o_wAiHnLs"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Quartz_TR1_SDLT.pdf",
+          "id": "usce7VqXYQWHA6Bk8wgHHnBFb1gvT4OtG1o_wAiHnLs",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "72420d45413750dc",
+      "snippet": "Brilliant - thank you to you, Sarah and Elena. Great result. Isla",
+      "subject": "RE: Project Quartz - COMPLETED",
+      "sender": "isla.fournier@thornburyproperties.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "daniel.quigley@thornburyproperties.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-15T16:55:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Brilliant - thank you to you, Sarah and Elena. Great result. Isla\n\nOn Fri, May 15, 2026 at 3:40 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Isla, Daniel, Rebecca,\n>\n> Completion took place today. Thornbury is now the registered owner (subject to registration) of Quartz House. The seller's bank charge will be discharged via the undertaking received this morning. We'll file the SDLT return (£412,000) within 14 days, apply to register the transfer at HM Land Registry, and serve notices of assignment of the reversion on the tenants.\n>\n> Executed TR1 and the SDLT summary attached.\n>\n> Thank you all - a pleasure to act.\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Brilliant - thank you to you, Sarah and Elena. Great result. Isla</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, May 15, 2026 at 3:40 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Isla, Daniel, Rebecca,<br><br>Completion took place today. Thornbury is now the registered owner (subject to registration) of Quartz House. The seller&#x27;s bank charge will be discharged via the undertaking received this morning. We&#x27;ll file the SDLT return (£412,000) within 14 days, apply to register the transfer at HM Land Registry, and serve notices of assignment of the reversion on the tenants.<br><br>Executed TR1 and the SDLT summary attached.<br><br>Thank you all - a pleasure to act.<br><br>James</div></blockquote></div></div>"
+    }
+  ]
+}

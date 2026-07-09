@@ -1,0 +1,35 @@
+{
+  "id": "3bc9d1c548aa8438",
+  "messages": [
+    {
+      "id": "3bc9d1c548aa8438",
+      "snippet": "Dear Zoe, Our CPSE.1 enquiries are in the data room. In particular please confirm: (1) the status of",
+      "subject": "Kingsmoor - pre-contract enquiries (CPSE.1)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "zoe.abbott@marlowegreaves.com"
+      ],
+      "date": "2026-03-02T10:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Zoe,\n\nOur CPSE.1 enquiries are in the data room. In particular please confirm: (1) the status of the Aldermere rent review; (2) the Brookmere service-charge query on the 2024 lift refurbishment; and (3) the management contract with Brookfield FM and whether TUPE is engaged. Grateful for replies before exchange.\n\nElena\n\nElena Marchetti\nAssociate | Real Estate\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Zoe,<br><br>Our CPSE.1 enquiries are in the data room. In particular please confirm: (1) the status of the Aldermere rent review; (2) the Brookmere service-charge query on the 2024 lift refurbishment; and (3) the management contract with Brookfield FM and whether TUPE is engaged. Grateful for replies before exchange.<br><br>Elena<br><br>Elena Marchetti<br>Associate | Real Estate<br>Whitfield Carter LLP</div>"
+    },
+    {
+      "id": "962035300c1e2ece",
+      "snippet": "Elena, CPSE replies uploaded. In short: (1) Aldermere review outstanding, hence the retention; (2) t",
+      "subject": "RE: Kingsmoor - pre-contract enquiries (CPSE.1)",
+      "sender": "zoe.abbott@marlowegreaves.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-04T16:30:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Elena,\n\nCPSE replies uploaded. In short: (1) Aldermere review outstanding, hence the retention; (2) the Brookmere query (c.£9,200) is considered unfounded; (3) the Brookfield FM contract terminates on completion and TUPE is not considered to apply. Shout with anything further.\n\nZoe\n\nZoe Abbott\nAssociate | Marlowe Greaves LLP\n\nOn Mon, Mar 2, 2026 at 10:00 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Dear Zoe,\n>\n> Our CPSE.1 enquiries are in the data room. In particular please confirm: (1) the status of the Aldermere rent review; (2) the Brookmere service-charge query on the 2024 lift refurbishment; and (3) the management contract with Brookfield FM and whether TUPE is engaged. Grateful for replies before exchange.\n>\n> Elena\n>\n> Elena Marchetti\n> Associate | Real Estate\n> Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena,<br><br>CPSE replies uploaded. In short: (1) Aldermere review outstanding, hence the retention; (2) the Brookmere query (c.£9,200) is considered unfounded; (3) the Brookfield FM contract terminates on completion and TUPE is not considered to apply. Shout with anything further.<br><br>Zoe<br><br>Zoe Abbott<br>Associate | Marlowe Greaves LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Mar 2, 2026 at 10:00 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Zoe,<br><br>Our CPSE.1 enquiries are in the data room. In particular please confirm: (1) the status of the Aldermere rent review; (2) the Brookmere service-charge query on the 2024 lift refurbishment; and (3) the management contract with Brookfield FM and whether TUPE is engaged. Grateful for replies before exchange.<br><br>Elena<br><br>Elena Marchetti<br>Associate | Real Estate<br>Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

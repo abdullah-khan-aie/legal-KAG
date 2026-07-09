@@ -1,0 +1,21 @@
+{
+  "id": "d7aa886a36ce51f9",
+  "messages": [
+    {
+      "id": "d7aa886a36ce51f9",
+      "snippet": "James — are you about for the firm 5-a-side on Thursday? We're a couple short and the pitch is booke",
+      "subject": "5-a-side Thursday?",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-09T18:40:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James — are you about for the firm 5-a-side on Thursday? We're a couple short and the pitch is booked for 6:30 at the Shoreditch courts. Bring the bibs if you still have them from last time. Pub after.\n\nTom",
+      "htmlBody": "<div dir=\"ltr\">James — are you about for the firm 5-a-side on Thursday? We&#x27;re a couple short and the pitch is booked for 6:30 at the Shoreditch courts. Bring the bibs if you still have them from last time. Pub after.<br><br>Tom</div>"
+    }
+  ]
+}

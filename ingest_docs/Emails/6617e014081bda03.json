@@ -1,0 +1,59 @@
+{
+  "id": "6617e014081bda03",
+  "messages": [
+    {
+      "id": "6617e014081bda03",
+      "snippet": "Dear Martin, Zoe, Our response mark-up attached (v3), tracked against your v2. Headlines: - General ",
+      "subject": "Meridian / Harcourt – MSSA response (v3)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "martin.greaves@marlowegreaves.com",
+        "zoe.abbott@marlowegreaves.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-21T16:10:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Martin, Zoe,\n\nOur response mark-up attached (v3), tracked against your v2. Headlines:\n\n- General cap: 150% of trailing 12-month fees.\n- Data-protection super-cap: 300% of the annual subscription fee = £2,520,000 (this is Meridian's ceiling).\n- Payment: 45 days.\n- Renewal notice: back to 90 days.\n\nWe believe this gets us to agreed terms. Please confirm and we'll prepare the execution version.\n\nKind regards,\nElena\n\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Martin, Zoe,<br><br>Our response mark-up attached (v3), tracked against your v2. Headlines:<br><br>- General cap: 150% of trailing 12-month fees.<br>- Data-protection super-cap: 300% of the annual subscription fee = £2,520,000 (this is Meridian&#x27;s ceiling).<br>- Payment: 45 days.<br>- Renewal notice: back to 90 days.<br><br>We believe this gets us to agreed terms. Please confirm and we&#x27;ll prepare the execution version.<br><br>Kind regards,<br>Elena<br><br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "-r0qZzmYFdHiMKSRFID1oFrsyl9ufOoYVgZseKshNYQ"
+      ],
+      "attachments": [
+        {
+          "filename": "Meridian_Harcourt_MSSA_v3_redline.docx",
+          "id": "-r0qZzmYFdHiMKSRFID1oFrsyl9ufOoYVgZseKshNYQ",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "d084384aa2731e31",
+      "snippet": "Elena, Accepted in principle. Robert (Harcourt procurement) confirms the £2.52m data-protection supe",
+      "subject": "RE: Meridian / Harcourt – MSSA response (v3)",
+      "sender": "martin.greaves@marlowegreaves.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "zoe.abbott@marlowegreaves.com",
+        "robert.eastman@harcourtbeverages.com"
+      ],
+      "date": "2025-10-24T14:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena,\n\nAccepted in principle. Robert (Harcourt procurement) confirms the £2.52m data-protection super-cap and 45-day terms are agreeable. Subject to a final read of the DPA by their DPO (Sandra Whitcombe), we are at agreed terms. Please prepare the execution version.\n\nMartin\n\nOn Tue, Oct 21, 2025 at 4:10 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Dear Martin, Zoe,\n>\n> Our response mark-up attached (v3), tracked against your v2. Headlines:\n>\n> - General cap: 150% of trailing 12-month fees.\n> - Data-protection super-cap: 300% of the annual subscription fee = £2,520,000 (this is Meridian's ceiling).\n> - Payment: 45 days.\n> - Renewal notice: back to 90 days.\n>\n> We believe this gets us to agreed terms. Please confirm and we'll prepare the execution version.\n>\n> Kind regards,\n> Elena\n>\n> Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena,<br><br>Accepted in principle. Robert (Harcourt procurement) confirms the £2.52m data-protection super-cap and 45-day terms are agreeable. Subject to a final read of the DPA by their DPO (Sandra Whitcombe), we are at agreed terms. Please prepare the execution version.<br><br>Martin</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 21, 2025 at 4:10 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Martin, Zoe,<br><br>Our response mark-up attached (v3), tracked against your v2. Headlines:<br><br>- General cap: 150% of trailing 12-month fees.<br>- Data-protection super-cap: 300% of the annual subscription fee = £2,520,000 (this is Meridian&#x27;s ceiling).<br>- Payment: 45 days.<br>- Renewal notice: back to 90 days.<br><br>We believe this gets us to agreed terms. Please confirm and we&#x27;ll prepare the execution version.<br><br>Kind regards,<br>Elena<br><br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "22b65b307ca0c5fc",
+  "messages": [
+    {
+      "id": "22b65b307ca0c5fc",
+      "snippet": "Both, Proposed landing zone before I speak to Henry: - General cap: 150% of trailing 12-month fees. ",
+      "subject": "Meridian/Harcourt – liability landing zone",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-10-07T13:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Both,\n\nProposed landing zone before I speak to Henry:\n- General cap: 150% of trailing 12-month fees.\n- Data-protection super-cap: 300% of the annual subscription fee = £2,520,000. This is our ceiling.\n- Payment: split the difference at 45 days.\n- Renewal notice: hold at 90 days.\n\nThat gives Harcourt a real number on data breach (£2.52m) without exposing Meridian to uncapped risk. Elena, please prepare a v3 response redline reflecting these once Henry signs off.\n\nSarah\n\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Both,<br><br>Proposed landing zone before I speak to Henry:<br>- General cap: 150% of trailing 12-month fees.<br>- Data-protection super-cap: 300% of the annual subscription fee = £2,520,000. This is our ceiling.<br>- Payment: split the difference at 45 days.<br>- Renewal notice: hold at 90 days.<br><br>That gives Harcourt a real number on data breach (£2.52m) without exposing Meridian to uncapped risk. Elena, please prepare a v3 response redline reflecting these once Henry signs off.<br><br>Sarah<br><br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "d00f4be0fa3a7941",
+      "snippet": "Agreed. 300% of annual fee is a clean way to frame it and £2.52m should satisfy their board. I'll ma",
+      "subject": "RE: Meridian/Harcourt – liability landing zone",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-10-07T15:02:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Agreed. 300% of annual fee is a clean way to frame it and £2.52m should satisfy their board. I'll make sure the DPA cross-refers to the super-cap so there's no gap.\n\nJames\n\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.\n\nOn Tue, Oct 7, 2025 at 1:40 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Both,\n>\n> Proposed landing zone before I speak to Henry:\n> - General cap: 150% of trailing 12-month fees.\n> - Data-protection super-cap: 300% of the annual subscription fee = £2,520,000. This is our ceiling.\n> - Payment: split the difference at 45 days.\n> - Renewal notice: hold at 90 days.\n>\n> That gives Harcourt a real number on data breach (£2.52m) without exposing Meridian to uncapped risk. Elena, please prepare a v3 response redline reflecting these once Henry signs off.\n>\n> Sarah\n>\n> Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Agreed. 300% of annual fee is a clean way to frame it and £2.52m should satisfy their board. I&#x27;ll make sure the DPA cross-refers to the super-cap so there&#x27;s no gap.<br><br>James<br><br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 7, 2025 at 1:40 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Both,<br><br>Proposed landing zone before I speak to Henry:<br>- General cap: 150% of trailing 12-month fees.<br>- Data-protection super-cap: 300% of the annual subscription fee = £2,520,000. This is our ceiling.<br>- Payment: split the difference at 45 days.<br>- Renewal notice: hold at 90 days.<br><br>That gives Harcourt a real number on data breach (£2.52m) without exposing Meridian to uncapped risk. Elena, please prepare a v3 response redline reflecting these once Henry signs off.<br><br>Sarah<br><br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

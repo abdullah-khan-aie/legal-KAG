@@ -1,0 +1,75 @@
+{
+  "id": "55b2eee230969351",
+  "messages": [
+    {
+      "id": "55b2eee230969351",
+      "snippet": "Grace, Henry, Draft Particulars of Claim attached for review before we issue. Please check the factu",
+      "subject": "Draft Particulars of Claim for your review",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "gunderwood@penningtonindustries.com",
+        "hdoyle@penningtonindustries.com"
+      ],
+      "ccRecipients": [
+        "npatel@penningtonindustries.com"
+      ],
+      "date": "2025-01-28T12:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Grace, Henry,\n\nDraft Particulars of Claim attached for review before we issue. Please check the factual paragraphs (contract dates, batch numbers, delivery quantities) and the schedule of loss figures, which total £2,418,640.\n\nOne point for Henry: we want to plead Brian Tovey's 26 February email confirming the bearing met ES-4471 - can you confirm you still have it? It strengthens the incorporation argument considerably.\n\nTom\n\nTom Gallagher\nAssociate, Dispute Resolution\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nwww.whitfieldcarter.com\n\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Grace, Henry,<br><br>Draft Particulars of Claim attached for review before we issue. Please check the factual paragraphs (contract dates, batch numbers, delivery quantities) and the schedule of loss figures, which total £2,418,640.<br><br>One point for Henry: we want to plead Brian Tovey&#x27;s 26 February email confirming the bearing met ES-4471 - can you confirm you still have it? It strengthens the incorporation argument considerably.<br><br>Tom<br><br>Tom Gallagher<br>Associate, Dispute Resolution<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>www.whitfieldcarter.com<br><br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "5bWmvHxFlekWUfEbqZl5CkQTOAnHJgHVYpzC23OJRzo"
+      ],
+      "attachments": [
+        {
+          "filename": "PENvTregarth_ParticularsOfClaim_v1.docx",
+          "id": "5bWmvHxFlekWUfEbqZl5CkQTOAnHJgHVYpzC23OJRzo",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "6f829d6e763a5f28",
+      "snippet": "Tom, Factual paragraphs look right. Batch numbers and quantities match our goods-in records (1,240 b",
+      "subject": "RE: Draft Particulars of Claim for your review",
+      "sender": "hdoyle@penningtonindustries.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "gunderwood@penningtonindustries.com",
+        "npatel@penningtonindustries.com"
+      ],
+      "date": "2025-01-29T08:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom,\n\nFactual paragraphs look right. Batch numbers and quantities match our goods-in records (1,240 bearings, five batches). Yes - I have Tovey's 26 February email and have forwarded it to you separately.\n\nGrace will come back on the loss figures but the recall and replacement numbers tie to our cost tracker.\n\nHenry\n\nOn Tue, Jan 28, 2025 at 12:00 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Grace, Henry,\n>\n> Draft Particulars of Claim attached for review before we issue. Please check the factual paragraphs (contract dates, batch numbers, delivery quantities) and the schedule of loss figures, which total £2,418,640.\n>\n> One point for Henry: we want to plead Brian Tovey's 26 February email confirming the bearing met ES-4471 - can you confirm you still have it? It strengthens the incorporation argument considerably.\n>\n> Tom\n>\n> Tom Gallagher\n> Associate, Dispute Resolution\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> www.whitfieldcarter.com\n>\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>Factual paragraphs look right. Batch numbers and quantities match our goods-in records (1,240 bearings, five batches). Yes - I have Tovey&#x27;s 26 February email and have forwarded it to you separately.<br><br>Grace will come back on the loss figures but the recall and replacement numbers tie to our cost tracker.<br><br>Henry</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jan 28, 2025 at 12:00 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Grace, Henry,<br><br>Draft Particulars of Claim attached for review before we issue. Please check the factual paragraphs (contract dates, batch numbers, delivery quantities) and the schedule of loss figures, which total £2,418,640.<br><br>One point for Henry: we want to plead Brian Tovey&#x27;s 26 February email confirming the bearing met ES-4471 - can you confirm you still have it? It strengthens the incorporation argument considerably.<br><br>Tom<br><br>Tom Gallagher<br>Associate, Dispute Resolution<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>www.whitfieldcarter.com<br><br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    },
+    {
+      "id": "104ff2064bbff874",
+      "snippet": "Tom - figures agreed. Total of £2,418,640 is correct against our schedule. Please proceed to issue. ",
+      "subject": "RE: Draft Particulars of Claim for your review",
+      "sender": "gunderwood@penningtonindustries.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "hdoyle@penningtonindustries.com"
+      ],
+      "date": "2025-01-29T16:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom - figures agreed. Total of £2,418,640 is correct against our schedule. Please proceed to issue. We've started compiling the management-time records as Sarah asked.\n\nGrace\n\nOn Wed, Jan 29, 2025 at 8:40 AM, Henry Doyle <hdoyle@penningtonindustries.com> wrote:\n> Tom,\n>\n> Factual paragraphs look right. Batch numbers and quantities match our goods-in records (1,240 bearings, five batches). Yes - I have Tovey's 26 February email and have forwarded it to you separately.\n>\n> Grace will come back on the loss figures but the recall and replacement numbers tie to our cost tracker.\n>\n> Henry\n>\n> On Tue, Jan 28, 2025 at 12:00 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> > Grace, Henry,\n> >\n> > Draft Particulars of Claim attached for review before we issue. Please check the factual paragraphs (contract dates, batch numbers, delivery quantities) and the schedule of loss figures, which total £2,418,640.\n> >\n> > One point for Henry: we want to plead Brian Tovey's 26 February email confirming the bearing met ES-4471 - can you confirm you still have it? It strengthens the incorporation argument considerably.\n> >\n> > Tom\n> >\n> > Tom Gallagher\n> > Associate, Dispute Resolution\n> > Whitfield Carter LLP\n> > 22 Bishopsgate, London EC2N 4BQ\n> > www.whitfieldcarter.com\n> >\n> > Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom - figures agreed. Total of £2,418,640 is correct against our schedule. Please proceed to issue. We&#x27;ve started compiling the management-time records as Sarah asked.<br><br>Grace</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jan 29, 2025 at 8:40 AM, Henry Doyle &lt;hdoyle@penningtonindustries.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>Factual paragraphs look right. Batch numbers and quantities match our goods-in records (1,240 bearings, five batches). Yes - I have Tovey&#x27;s 26 February email and have forwarded it to you separately.<br><br>Grace will come back on the loss figures but the recall and replacement numbers tie to our cost tracker.<br><br>Henry</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jan 28, 2025 at 12:00 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Grace, Henry,<br><br>Draft Particulars of Claim attached for review before we issue. Please check the factual paragraphs (contract dates, batch numbers, delivery quantities) and the schedule of loss figures, which total £2,418,640.<br><br>One point for Henry: we want to plead Brian Tovey&#x27;s 26 February email confirming the bearing met ES-4471 - can you confirm you still have it? It strengthens the incorporation argument considerably.<br><br>Tom<br><br>Tom Gallagher<br>Associate, Dispute Resolution<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>www.whitfieldcarter.com<br><br>Confidential and may be legally privileged.</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "d31b865e642021cb",
+  "messages": [
+    {
+      "id": "d31b865e642021cb",
+      "snippet": "Tom, My marked-up Particulars are attached. Main changes: I've strengthened the causation plea to ma",
+      "subject": "Harrow v Melbourne Sealtech - Particulars of Claim, my mark-up",
+      "sender": "clerks@eldonchambers.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-06-03T17:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom,\n\nMy marked-up Particulars are attached. Main changes: I've strengthened the causation plea to make clear a number of failures occurred well under 1,500 hours, added a short paragraph pleading the systemic manufacturing inference, and tidied the flatness wording. Content and figures otherwise as your draft. Happy to finalise once you've taken client instructions on the statement of truth.\n\nNathaniel",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>My marked-up Particulars are attached. Main changes: I&#x27;ve strengthened the causation plea to make clear a number of failures occurred well under 1,500 hours, added a short paragraph pleading the systemic manufacturing inference, and tidied the flatness wording. Content and figures otherwise as your draft. Happy to finalise once you&#x27;ve taken client instructions on the statement of truth.<br><br>Nathaniel</div>",
+      "attachmentIds": [
+        "_6WlKYqrvcm4PXSdIE4pf4cGcBjj9dWREi0qfywUGTo"
+      ],
+      "attachments": [
+        {
+          "filename": "Harrow_Melbourne_ParticularsOfClaim_v2_redline.docx",
+          "id": "_6WlKYqrvcm4PXSdIE4pf4cGcBjj9dWREi0qfywUGTo",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "817efeb5348cf44b",
+      "snippet": "Thanks Nathaniel - all your changes accepted. We'll get Gavin Harrow to sign the statement of truth ",
+      "subject": "RE: Harrow v Melbourne Sealtech - Particulars of Claim, my mark-up",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "clerks@eldonchambers.co.uk"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-06-04T11:22:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Thanks Nathaniel - all your changes accepted. We'll get Gavin Harrow to sign the statement of truth and issue this week. Claim number will follow.\n\nTom\n\nTom Gallagher\nAssociate\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n\nOn Tue, Jun 3, 2025 at 5:40 PM, Nathaniel Okonjo <clerks@eldonchambers.co.uk> wrote:\n> Tom,\n>\n> My marked-up Particulars are attached. Main changes: I've strengthened the causation plea to make clear a number of failures occurred well under 1,500 hours, added a short paragraph pleading the systemic manufacturing inference, and tidied the flatness wording. Content and figures otherwise as your draft. Happy to finalise once you've taken client instructions on the statement of truth.\n>\n> Nathaniel",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks Nathaniel - all your changes accepted. We&#x27;ll get Gavin Harrow to sign the statement of truth and issue this week. Claim number will follow.<br><br>Tom<br><br>Tom Gallagher<br>Associate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jun 3, 2025 at 5:40 PM, Nathaniel Okonjo &lt;clerks@eldonchambers.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom,<br><br>My marked-up Particulars are attached. Main changes: I&#x27;ve strengthened the causation plea to make clear a number of failures occurred well under 1,500 hours, added a short paragraph pleading the systemic manufacturing inference, and tidied the flatness wording. Content and figures otherwise as your draft. Happy to finalise once you&#x27;ve taken client instructions on the statement of truth.<br><br>Nathaniel</div></blockquote></div></div>"
+    }
+  ]
+}

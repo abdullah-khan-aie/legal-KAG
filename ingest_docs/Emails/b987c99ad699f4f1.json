@@ -1,0 +1,45 @@
+{
+  "id": "b987c99ad699f4f1",
+  "messages": [
+    {
+      "id": "b987c99ad699f4f1",
+      "snippet": "Richard, Karen, Bartlett opened at £290k, PMI 12 months, costs £2k, covenants removed. After a call ",
+      "subject": "WC-00130 - negotiation update",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "richard.calloway@brackengroup.com",
+        "karen.mensah@brackengroup.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-06T09:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Richard, Karen,\n\nBartlett opened at £290k, PMI 12 months, costs £2k, covenants removed. After a call we have a realistic landing zone of £240-250k inclusive, PMI 6 months, costs £1.5k, covenants reduced to 9 months (not removed). That is within the envelope in our advice note and well below the worst-case exposure.\n\nMy recommendation is to authorise £247,500 as a round figure and hold the covenant reduction at nine months. Are you content for me to put that to Bartlett?\n\nTom\n\nTom Gallagher\nAssociate | Employment\nWhitfield Carter LLP\nT: 020 7946 0021",
+      "htmlBody": "<div dir=\"ltr\">Richard, Karen,<br><br>Bartlett opened at £290k, PMI 12 months, costs £2k, covenants removed. After a call we have a realistic landing zone of £240-250k inclusive, PMI 6 months, costs £1.5k, covenants reduced to 9 months (not removed). That is within the envelope in our advice note and well below the worst-case exposure.<br><br>My recommendation is to authorise £247,500 as a round figure and hold the covenant reduction at nine months. Are you content for me to put that to Bartlett?<br><br>Tom<br><br>Tom Gallagher<br>Associate | Employment<br>Whitfield Carter LLP<br>T: 020 7946 0021</div>"
+    },
+    {
+      "id": "07e672018318f3f7",
+      "snippet": "Agreed - £247,500 inclusive on those terms. The Board meets on 22 April and we'll get formal sign-of",
+      "subject": "RE: WC-00130 - negotiation update",
+      "sender": "richard.calloway@brackengroup.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "karen.mensah@brackengroup.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-06T13:48:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Agreed - £247,500 inclusive on those terms. The Board meets on 22 April and we'll get formal sign-off then but you have our authority to agree subject to contract in the meantime. Keep the covenants at nine months; the Helix/Greaves overlap matters to us.\n\nRichard\n\nOn Fri, Feb 6, 2026 at 9:05 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Richard, Karen,\n>\n> Bartlett opened at £290k, PMI 12 months, costs £2k, covenants removed. After a call we have a realistic landing zone of £240-250k inclusive, PMI 6 months, costs £1.5k, covenants reduced to 9 months (not removed). That is within the envelope in our advice note and well below the worst-case exposure.\n>\n> My recommendation is to authorise £247,500 as a round figure and hold the covenant reduction at nine months. Are you content for me to put that to Bartlett?\n>\n> Tom\n>\n> Tom Gallagher\n> Associate | Employment\n> Whitfield Carter LLP\n> T: 020 7946 0021",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Agreed - £247,500 inclusive on those terms. The Board meets on 22 April and we&#x27;ll get formal sign-off then but you have our authority to agree subject to contract in the meantime. Keep the covenants at nine months; the Helix/Greaves overlap matters to us.<br><br>Richard</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Feb 6, 2026 at 9:05 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Richard, Karen,<br><br>Bartlett opened at £290k, PMI 12 months, costs £2k, covenants removed. After a call we have a realistic landing zone of £240-250k inclusive, PMI 6 months, costs £1.5k, covenants reduced to 9 months (not removed). That is within the envelope in our advice note and well below the worst-case exposure.<br><br>My recommendation is to authorise £247,500 as a round figure and hold the covenant reduction at nine months. Are you content for me to put that to Bartlett?<br><br>Tom<br><br>Tom Gallagher<br>Associate | Employment<br>Whitfield Carter LLP<br>T: 020 7946 0021</div></blockquote></div></div>"
+    }
+  ]
+}

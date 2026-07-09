@@ -1,0 +1,23 @@
+{
+  "id": "5645a8f3a76d7cbd",
+  "messages": [
+    {
+      "id": "5645a8f3a76d7cbd",
+      "snippet": "Join our quarterly CPD session: 'Drafting royalty and audit provisions in technology licences'. Wedn",
+      "subject": "Invitation: IP licensing masterclass (CPD) - 5 February",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-01-21T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Join our quarterly CPD session: 'Drafting royalty and audit provisions in technology licences'. Wednesday 5 February, 12:30, Training Room 3 (lunch provided). 1.5 CPD hours. RSVP to L&D.",
+      "htmlBody": "<div dir=\"ltr\">Join our quarterly CPD session: &#x27;Drafting royalty and audit provisions in technology licences&#x27;. Wednesday 5 February, 12:30, Training Room 3 (lunch provided). 1.5 CPD hours. RSVP to L&amp;D.</div>"
+    }
+  ]
+}

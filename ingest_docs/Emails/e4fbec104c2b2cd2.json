@@ -1,0 +1,56 @@
+{
+  "id": "e4fbec104c2b2cd2",
+  "messages": [
+    {
+      "id": "e4fbec104c2b2cd2",
+      "snippet": "Sarah, Our mark-up attached (v2, tracked). Key changes: running royalty down to 4.5%; liability cap ",
+      "subject": "Project Tamarisk — Licence v2 mark-up",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "deepa.kovac@birchallstone.com",
+        "gareth.sinclair@northstarcell.com"
+      ],
+      "date": "2025-11-06T11:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nOur mark-up attached (v2, tracked). Key changes: running royalty down to 4.5%; liability cap up to 2x trailing fees; commercialisation longstop moved from 31 December 2028 to 30 June 2029; and sub-licence consent for third parties deemed given if not refused within 20 business days. The rest is largely tidy-up.\n\nThe 4.5% is the number Northstar needs to make this work — treat it as firm.\n\nRegards,\nOliver Jennings\nPartner | Birchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Our mark-up attached (v2, tracked). Key changes: running royalty down to 4.5%; liability cap up to 2x trailing fees; commercialisation longstop moved from 31 December 2028 to 30 June 2029; and sub-licence consent for third parties deemed given if not refused within 20 business days. The rest is largely tidy-up.<br><br>The 4.5% is the number Northstar needs to make this work — treat it as firm.<br><br>Regards,<br>Oliver Jennings<br>Partner | Birchall Stone LLP</div>",
+      "attachmentIds": [
+        "9AcyTtxIMf3q_MFMqXPYmxNkAozfk1Tyr4pBqxQMNd8"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Tamarisk_Licence_v2_redline.docx",
+          "id": "9AcyTtxIMf3q_MFMqXPYmxNkAozfk1Tyr4pBqxQMNd8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "11bf42d340a9c7b6",
+      "snippet": "Oliver, Thanks — received. We'll take the 4.5% and 2x cap to Anders. My instinct is they'll accept b",
+      "subject": "RE: Project Tamarisk — Licence v2 mark-up",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-11-07T15:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Oliver,\n\nThanks — received. We'll take the 4.5% and 2x cap to Anders. My instinct is they'll accept both but will want something back on the minimum annual royalty given the rate has dropped. More shortly.\n\nSarah\n\nOn Thu, Nov 6, 2025 at 11:15 AM, Oliver Jennings <oliver.jennings@birchallstone.com> wrote:\n> Sarah,\n>\n> Our mark-up attached (v2, tracked). Key changes: running royalty down to 4.5%; liability cap up to 2x trailing fees; commercialisation longstop moved from 31 December 2028 to 30 June 2029; and sub-licence consent for third parties deemed given if not refused within 20 business days. The rest is largely tidy-up.\n>\n> The 4.5% is the number Northstar needs to make this work — treat it as firm.\n>\n> Regards,\n> Oliver Jennings\n> Partner | Birchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Oliver,<br><br>Thanks — received. We&#x27;ll take the 4.5% and 2x cap to Anders. My instinct is they&#x27;ll accept both but will want something back on the minimum annual royalty given the rate has dropped. More shortly.<br><br>Sarah</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Nov 6, 2025 at 11:15 AM, Oliver Jennings &lt;oliver.jennings@birchallstone.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Our mark-up attached (v2, tracked). Key changes: running royalty down to 4.5%; liability cap up to 2x trailing fees; commercialisation longstop moved from 31 December 2028 to 30 June 2029; and sub-licence consent for third parties deemed given if not refused within 20 business days. The rest is largely tidy-up.<br><br>The 4.5% is the number Northstar needs to make this work — treat it as firm.<br><br>Regards,<br>Oliver Jennings<br>Partner | Birchall Stone LLP</div></blockquote></div></div>"
+    }
+  ]
+}

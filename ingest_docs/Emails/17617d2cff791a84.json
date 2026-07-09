@@ -1,0 +1,54 @@
+{
+  "id": "17617d2cff791a84",
+  "messages": [
+    {
+      "id": "17617d2cff791a84",
+      "snippet": "Elena, Please find attached Calderwater's mark-up of the Master Supply Agreement (v2). The principal",
+      "subject": "Project Aquilo - Calderwater mark-up (v2)",
+      "sender": "hannah.liu@thwaitemercer.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "robert.thwaite@thwaitemercer.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-25T10:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Elena,\n\nPlease find attached Calderwater's mark-up of the Master Supply Agreement (v2). The principal points are:\n\n- Liability cap raised to 150% of Charges, with the IP indemnity uncapped and LDs sitting outside the cap\n- Minimum commitment shortfall payment deleted (commitment to be a target only)\n- Payment terms moved to 60 days\n- Warranty extended to 36 months\n- Liquidated damages increased to 1%/week, 20% cap, and the \"sole remedy\" wording removed\n- Termination for convenience available at any time on 3 months' notice\n\nWe think these are reasonable for a utility customer. Happy to discuss.\n\nHannah Liu\nThwaite Mercer LLP",
+      "htmlBody": "<div dir=\"ltr\">Elena,<br><br>Please find attached Calderwater&#x27;s mark-up of the Master Supply Agreement (v2). The principal points are:<br><br>- Liability cap raised to 150% of Charges, with the IP indemnity uncapped and LDs sitting outside the cap<br>- Minimum commitment shortfall payment deleted (commitment to be a target only)<br>- Payment terms moved to 60 days<br>- Warranty extended to 36 months<br>- Liquidated damages increased to 1%/week, 20% cap, and the &quot;sole remedy&quot; wording removed<br>- Termination for convenience available at any time on 3 months&#x27; notice<br><br>We think these are reasonable for a utility customer. Happy to discuss.<br><br>Hannah Liu<br>Thwaite Mercer LLP</div>",
+      "attachmentIds": [
+        "5-QYUV8eLD11ac76ttpnqLfVux6Z-rK3LlGG4c10A3s"
+      ],
+      "attachments": [
+        {
+          "filename": "HPE_Calderwater_SupplyAgreement_v2_redline.docx",
+          "id": "5-QYUV8eLD11ac76ttpnqLfVux6Z-rK3LlGG4c10A3s",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "4cb067b85ba59201",
+      "snippet": "Hannah, Thank you - received. Some of these are a long way from the heads of terms (the deletion of ",
+      "subject": "RE: Project Aquilo - Calderwater mark-up (v2)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "hannah.liu@thwaitemercer.com"
+      ],
+      "ccRecipients": [
+        "robert.thwaite@thwaitemercer.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-25T17:45:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Hannah,\n\nThank you - received. Some of these are a long way from the heads of terms (the deletion of the shortfall payment and the uncapped IP indemnity in particular). We'll take our client's instructions and revert with a response draft. Elena\n\nElena Marchetti\nAssociate | Whitfield Carter LLP\nT +44 (0)20 7946 0048\nwhitfieldcarter.com\n\nThis email is confidential and may be legally privileged. If you are not the intended recipient please delete it and notify the sender.\n\nOn Wed, Feb 25, 2026 at 10:30 AM, Hannah Liu <hannah.liu@thwaitemercer.com> wrote:\n> Elena,\n>\n> Please find attached Calderwater's mark-up of the Master Supply Agreement (v2). The principal points are:\n>\n> - Liability cap raised to 150% of Charges, with the IP indemnity uncapped and LDs sitting outside the cap\n> - Minimum commitment shortfall payment deleted (commitment to be a target only)\n> - Payment terms moved to 60 days\n> - Warranty extended to 36 months\n> - Liquidated damages increased to 1%/week, 20% cap, and the \"sole remedy\" wording removed\n> - Termination for convenience available at any time on 3 months' notice\n>\n> We think these are reasonable for a utility customer. Happy to discuss.\n>\n> Hannah Liu\n> Thwaite Mercer LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Hannah,<br><br>Thank you - received. Some of these are a long way from the heads of terms (the deletion of the shortfall payment and the uncapped IP indemnity in particular). We&#x27;ll take our client&#x27;s instructions and revert with a response draft. Elena<br><br>Elena Marchetti<br>Associate | Whitfield Carter LLP<br>T +44 (0)20 7946 0048<br>whitfieldcarter.com<br><br>This email is confidential and may be legally privileged. If you are not the intended recipient please delete it and notify the sender.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 25, 2026 at 10:30 AM, Hannah Liu &lt;hannah.liu@thwaitemercer.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Elena,<br><br>Please find attached Calderwater&#x27;s mark-up of the Master Supply Agreement (v2). The principal points are:<br><br>- Liability cap raised to 150% of Charges, with the IP indemnity uncapped and LDs sitting outside the cap<br>- Minimum commitment shortfall payment deleted (commitment to be a target only)<br>- Payment terms moved to 60 days<br>- Warranty extended to 36 months<br>- Liquidated damages increased to 1%/week, 20% cap, and the &quot;sole remedy&quot; wording removed<br>- Termination for convenience available at any time on 3 months&#x27; notice<br><br>We think these are reasonable for a utility customer. Happy to discuss.<br><br>Hannah Liu<br>Thwaite Mercer LLP</div></blockquote></div></div>"
+    }
+  ]
+}

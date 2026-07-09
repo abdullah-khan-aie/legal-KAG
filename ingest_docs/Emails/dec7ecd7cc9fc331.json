@@ -1,0 +1,54 @@
+{
+  "id": "dec7ecd7cc9fc331",
+  "messages": [
+    {
+      "id": "dec7ecd7cc9fc331",
+      "snippet": "Nadia, Attached is the first full draft of the Master Software and Services Agreement (v1), with SOW",
+      "subject": "Project Lyra – MSSA v1 for your review",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "nadia.fenwick@verdantenergysystems.com"
+      ],
+      "ccRecipients": [
+        "marcus.calder@verdantenergysystems.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-10-07T17:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Nadia,\n\nAttached is the first full draft of the Master Software and Services Agreement (v1), with SOW-1, the SLA, charges and DPA as schedules. A few points to flag for you:\n\n• Liability cap is currently set at 12 months' Charges (clause 10.3) — expect Pennland to push on this.\n• Availability SLA is 99.5%; service-credit cap 10% of quarterly subscription.\n• We've reserved Verdant's right to use anonymised/aggregated data (clause 6.3).\n\nOnce you're happy we'll send to Denham Lewis.\n\nJames\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Nadia,<br><br>Attached is the first full draft of the Master Software and Services Agreement (v1), with SOW-1, the SLA, charges and DPA as schedules. A few points to flag for you:<br><br>• Liability cap is currently set at 12 months&#x27; Charges (clause 10.3) — expect Pennland to push on this.<br>• Availability SLA is 99.5%; service-credit cap 10% of quarterly subscription.<br>• We&#x27;ve reserved Verdant&#x27;s right to use anonymised/aggregated data (clause 6.3).<br><br>Once you&#x27;re happy we&#x27;ll send to Denham Lewis.<br><br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "ngrYOkDOvaOJdd4nbCyMMC6DMFSDhyT75XYJGnn6s_E"
+      ],
+      "attachments": [
+        {
+          "filename": "ProjectLyra_MSSA_v1.docx",
+          "id": "ngrYOkDOvaOJdd4nbCyMMC6DMFSDhyT75XYJGnn6s_E",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "eb72e927d40362d5",
+      "snippet": "James, Looks good. Marcus is comfortable with the data-use clause. Hold firm on the liability cap if",
+      "subject": "RE: Project Lyra – MSSA v1 for your review",
+      "sender": "nadia.fenwick@verdantenergysystems.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "marcus.calder@verdantenergysystems.com"
+      ],
+      "date": "2025-10-09T09:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nLooks good. Marcus is comfortable with the data-use clause. Hold firm on the liability cap if you can but we have some room to move to around 125% if it unlocks the deal. Please send to the other side.\n\nNadia\n\nOn Tue, Oct 7, 2025 at 5:30 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Nadia,\n>\n> Attached is the first full draft of the Master Software and Services Agreement (v1), with SOW-1, the SLA, charges and DPA as schedules. A few points to flag for you:\n>\n> • Liability cap is currently set at 12 months' Charges (clause 10.3) — expect Pennland to push on this.\n> • Availability SLA is 99.5%; service-credit cap 10% of quarterly subscription.\n> • We've reserved Verdant's right to use anonymised/aggregated data (clause 6.3).\n>\n> Once you're happy we'll send to Denham Lewis.\n>\n> James\n>\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Looks good. Marcus is comfortable with the data-use clause. Hold firm on the liability cap if you can but we have some room to move to around 125% if it unlocks the deal. Please send to the other side.<br><br>Nadia</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 7, 2025 at 5:30 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Nadia,<br><br>Attached is the first full draft of the Master Software and Services Agreement (v1), with SOW-1, the SLA, charges and DPA as schedules. A few points to flag for you:<br><br>• Liability cap is currently set at 12 months&#x27; Charges (clause 10.3) — expect Pennland to push on this.<br>• Availability SLA is 99.5%; service-credit cap 10% of quarterly subscription.<br>• We&#x27;ve reserved Verdant&#x27;s right to use anonymised/aggregated data (clause 6.3).<br><br>Once you&#x27;re happy we&#x27;ll send to Denham Lewis.<br><br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

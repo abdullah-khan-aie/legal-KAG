@@ -1,0 +1,55 @@
+{
+  "id": "86b2bd1772969c9b",
+  "messages": [
+    {
+      "id": "86b2bd1772969c9b",
+      "snippet": "Adam, Following Thursday's call, our counter is attached (v3, tracked against v1 to show the net agr",
+      "subject": "Brookmere MSA - our counter (v3)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "adam.selby@denhamlewis.com"
+      ],
+      "ccRecipients": [
+        "marcus.webb@denhamlewis.com",
+        "daniel.okonkwo@caspiantech.io"
+      ],
+      "date": "2026-01-12T16:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Adam,\n\nFollowing Thursday's call, our counter is attached (v3, tracked against v1 to show the net agreed position). Headlines:\n- Liability cap: 150% of trailing 12-month fees (down from your 300%, up from our 100%) - this is Caspian's final position.\n- Payment terms: 45 days, as you asked.\n- Renewal notice: 90 days retained.\n- Dataset: no accuracy warranty, but a new clause 9.2 obligation to correct material errors on notice, as the Customer's sole remedy.\n\nIf Brookmere can live with 150% I think we're done.\n\nJames\n\n--\nJames Osei\nSenior Associate, Commercial\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Adam,<br><br>Following Thursday&#x27;s call, our counter is attached (v3, tracked against v1 to show the net agreed position). Headlines:<br>- Liability cap: 150% of trailing 12-month fees (down from your 300%, up from our 100%) - this is Caspian&#x27;s final position.<br>- Payment terms: 45 days, as you asked.<br>- Renewal notice: 90 days retained.<br>- Dataset: no accuracy warranty, but a new clause 9.2 obligation to correct material errors on notice, as the Customer&#x27;s sole remedy.<br><br>If Brookmere can live with 150% I think we&#x27;re done.<br><br>James<br><br>--<br>James Osei<br>Senior Associate, Commercial<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "VQ0lSfnGor-ESqLFMOUsPvUxIEV72tM9caY2LD0FzV4"
+      ],
+      "attachments": [
+        {
+          "filename": "Brookmere_MSA_v3_redline.docx",
+          "id": "VQ0lSfnGor-ESqLFMOUsPvUxIEV72tM9caY2LD0FzV4",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "d324ecebb1c9991b",
+      "snippet": "James, Brookmere accept 150% on the cap and are content with the clause 9.2 error-correction wording",
+      "subject": "RE: Brookmere MSA - our counter (v3)",
+      "sender": "adam.selby@denhamlewis.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "eleanor.whitford@brookmeream.com"
+      ],
+      "date": "2026-01-15T14:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James,\n\nBrookmere accept 150% on the cap and are content with the clause 9.2 error-correction wording as sole remedy. We're agreed on payment at 45 days and renewal notice at 90 days. Subject to a final read of the clean version we're ready to sign. Can you send the execution version and signature pages?\n\nAdam\n\nOn Mon, Jan 12, 2026 at 4:30 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Adam,\n>\n> Following Thursday's call, our counter is attached (v3, tracked against v1 to show the net agreed position). Headlines:\n> - Liability cap: 150% of trailing 12-month fees (down from your 300%, up from our 100%) - this is Caspian's final position.\n> - Payment terms: 45 days, as you asked.\n> - Renewal notice: 90 days retained.\n> - Dataset: no accuracy warranty, but a new clause 9.2 obligation to correct material errors on notice, as the Customer's sole remedy.\n>\n> If Brookmere can live with 150% I think we're done.\n>\n> James\n>\n> --\n> James Osei\n> Senior Associate, Commercial\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Brookmere accept 150% on the cap and are content with the clause 9.2 error-correction wording as sole remedy. We&#x27;re agreed on payment at 45 days and renewal notice at 90 days. Subject to a final read of the clean version we&#x27;re ready to sign. Can you send the execution version and signature pages?<br><br>Adam</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Jan 12, 2026 at 4:30 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Adam,<br><br>Following Thursday&#x27;s call, our counter is attached (v3, tracked against v1 to show the net agreed position). Headlines:<br>- Liability cap: 150% of trailing 12-month fees (down from your 300%, up from our 100%) - this is Caspian&#x27;s final position.<br>- Payment terms: 45 days, as you asked.<br>- Renewal notice: 90 days retained.<br>- Dataset: no accuracy warranty, but a new clause 9.2 obligation to correct material errors on notice, as the Customer&#x27;s sole remedy.<br><br>If Brookmere can live with 150% I think we&#x27;re done.<br><br>James<br><br>--<br>James Osei<br>Senior Associate, Commercial<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

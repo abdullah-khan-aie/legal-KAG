@@ -1,0 +1,54 @@
+{
+  "id": "a6889b6ac32d3610",
+  "messages": [
+    {
+      "id": "a6889b6ac32d3610",
+      "snippet": "Dear Clerks, We should be grateful if Ms Stanford could advise Pennington Industries on exposure and",
+      "subject": "Instructions to counsel - Pennington (HSE investigation)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "clerks@eldonchambers.co.uk"
+      ],
+      "ccRecipients": [
+        "h.stanford@eldonchambers.co.uk",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-09T11:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Clerks,\n\nWe should be grateful if Ms Stanford could advise Pennington Industries on exposure and sentencing strategy in an HSE matter (machinery guarding; serious injury). We attach the investigation report and forensic report under separate cover and would welcome a written advice and a conference. Please advise on availability and fee.\n\nTom Gallagher\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Clerks,<br><br>We should be grateful if Ms Stanford could advise Pennington Industries on exposure and sentencing strategy in an HSE matter (machinery guarding; serious injury). We attach the investigation report and forensic report under separate cover and would welcome a written advice and a conference. Please advise on availability and fee.<br><br>Tom Gallagher<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "6b6b8a5c204ebf32",
+      "snippet": "Tom, My advice is attached. In short: breach is not realistically defensible; the battle is culpabil",
+      "subject": "RE: Instructions to counsel - Pennington (HSE investigation)",
+      "sender": "h.stanford@eldonchambers.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-21T18:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom,\n\nMy advice is attached. In short: breach is not realistically defensible; the battle is culpability. I would resist high and press for medium - a maintenance lapse on a single machine against an otherwise functioning system - and accept harm category 2. On a medium organisation that points to a starting point of GBP 540,000 and, with the mitigation here, a figure before plea credit of the order of GBP 400,000, reducing to roughly GBP 266,000 with full credit. Strategy is to agree a basis of plea fixing those characterisations before any plea.\n\nHarriet\n\nOn Mon, Mar 9, 2026 at 11:00 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Clerks,\n>\n> We should be grateful if Ms Stanford could advise Pennington Industries on exposure and sentencing strategy in an HSE matter (machinery guarding; serious injury). We attach the investigation report and forensic report under separate cover and would welcome a written advice and a conference. Please advise on availability and fee.\n>\n> Tom Gallagher\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>My advice is attached. In short: breach is not realistically defensible; the battle is culpability. I would resist high and press for medium - a maintenance lapse on a single machine against an otherwise functioning system - and accept harm category 2. On a medium organisation that points to a starting point of GBP 540,000 and, with the mitigation here, a figure before plea credit of the order of GBP 400,000, reducing to roughly GBP 266,000 with full credit. Strategy is to agree a basis of plea fixing those characterisations before any plea.<br><br>Harriet</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Mar 9, 2026 at 11:00 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Clerks,<br><br>We should be grateful if Ms Stanford could advise Pennington Industries on exposure and sentencing strategy in an HSE matter (machinery guarding; serious injury). We attach the investigation report and forensic report under separate cover and would welcome a written advice and a conference. Please advise on availability and fee.<br><br>Tom Gallagher<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>",
+      "attachmentIds": [
+        "QL0-InndwJ0wkowoD6rUmq-rxPj5OQP59vNrDb1hka8"
+      ],
+      "attachments": [
+        {
+          "filename": "Sentinel_CounselOpinion.pdf",
+          "id": "QL0-InndwJ0wkowoD6rUmq-rxPj5OQP59vNrDb1hka8",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

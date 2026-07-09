@@ -1,0 +1,24 @@
+{
+  "id": "b081e922fdea96a8",
+  "messages": [
+    {
+      "id": "b081e922fdea96a8",
+      "snippet": "Richard, Quick one on Project Falcon (the Greaves Precision acquisition) rather than anything new: t",
+      "subject": "Project Falcon — completion accounts query",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "richard.calloway@brackengroup.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-27T13:20:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Richard,\n\nQuick one on Project Falcon (the Greaves Precision acquisition) rather than anything new: the accountants have flagged a £40k working-capital adjustment in the draft completion accounts. Could Mark forward the December creditors ledger so we can reconcile before we respond to Castle & Vane? Nothing urgent — early next week is fine.\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Richard,<br><br>Quick one on Project Falcon (the Greaves Precision acquisition) rather than anything new: the accountants have flagged a £40k working-capital adjustment in the draft completion accounts. Could Mark forward the December creditors ledger so we can reconcile before we respond to Castle &amp; Vane? Nothing urgent — early next week is fine.<br><br>James</div>"
+    }
+  ]
+}

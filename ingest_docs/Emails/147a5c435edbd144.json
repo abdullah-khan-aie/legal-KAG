@@ -1,0 +1,55 @@
+{
+  "id": "147a5c435edbd144",
+  "messages": [
+    {
+      "id": "147a5c435edbd144",
+      "snippet": "Duncan, Draft completion funds flow attached for your review against the net debt and working-capita",
+      "subject": "Project Polaris - draft funds flow",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "duncan.reeves@marlowtax.co.uk"
+      ],
+      "ccRecipients": [
+        "miriam.cole@kingsfordgroup.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-10-22T14:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Duncan,\n\nDraft completion funds flow attached for your review against the net debt and working-capital position. Sources/uses balance at £34.0m (incl. £29.3m cash, £1.5m escrow, £3.2m debt repayment split £2.35m bank / £0.85m DLA). Please confirm the net debt figure before we finalise.\n\nBest,\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\n+44 (0)20 7946 0044\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Duncan,<br><br>Draft completion funds flow attached for your review against the net debt and working-capital position. Sources/uses balance at £34.0m (incl. £29.3m cash, £1.5m escrow, £3.2m debt repayment split £2.35m bank / £0.85m DLA). Please confirm the net debt figure before we finalise.<br><br>Best,<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0044<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "koowtzW471PbvonWxdJ92dE4HcoI5zuBf4y7YibZm_E"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Polaris_FundsFlow.xlsx",
+          "id": "koowtzW471PbvonWxdJ92dE4HcoI5zuBf4y7YibZm_E",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "1cefa3be41f9c777",
+      "snippet": "James, Net debt of £3.2m is confirmed against the 30 September management accounts; the bank/DLA spl",
+      "subject": "RE: Project Polaris - draft funds flow",
+      "sender": "duncan.reeves@marlowtax.co.uk",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "miriam.cole@kingsfordgroup.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-10-24T09:35:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James,\n\nNet debt of £3.2m is confirmed against the 30 September management accounts; the bank/DLA split is right. Funds flow ties out. Good to finalise.\n\nDuncan Reeves\nPartner, Restructuring Advisory | Marlow Tax & Advisory Ltd\n\nOn Wed, Oct 22, 2025 at 2:00 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Duncan,\n>\n> Draft completion funds flow attached for your review against the net debt and working-capital position. Sources/uses balance at £34.0m (incl. £29.3m cash, £1.5m escrow, £3.2m debt repayment split £2.35m bank / £0.85m DLA). Please confirm the net debt figure before we finalise.\n>\n> Best,\n>\n> James Osei\n> Senior Associate | Whitfield Carter LLP\n> +44 (0)20 7946 0044\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Net debt of £3.2m is confirmed against the 30 September management accounts; the bank/DLA split is right. Funds flow ties out. Good to finalise.<br><br>Duncan Reeves<br>Partner, Restructuring Advisory | Marlow Tax &amp; Advisory Ltd</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 22, 2025 at 2:00 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Duncan,<br><br>Draft completion funds flow attached for your review against the net debt and working-capital position. Sources/uses balance at £34.0m (incl. £29.3m cash, £1.5m escrow, £3.2m debt repayment split £2.35m bank / £0.85m DLA). Please confirm the net debt figure before we finalise.<br><br>Best,<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0044<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

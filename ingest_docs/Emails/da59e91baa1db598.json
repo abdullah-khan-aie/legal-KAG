@@ -1,0 +1,22 @@
+{
+  "id": "da59e91baa1db598",
+  "messages": [
+    {
+      "id": "da59e91baa1db598",
+      "snippet": "Hi both, The property team's next know-how lunch is on Thursday 4 December, 12:30 in Room 4.2: a CPD",
+      "subject": "Real estate know-how session - Building Safety Act update (CPD)",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-11-20T12:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi both,\n\nThe property team's next know-how lunch is on Thursday 4 December, 12:30 in Room 4.2: a CPD-accredited update on the Building Safety Act and higher-risk buildings. Sandwiches provided. Please reply if attending so we can cater.\n\nDonna",
+      "htmlBody": "<div dir=\"ltr\">Hi both,<br><br>The property team&#x27;s next know-how lunch is on Thursday 4 December, 12:30 in Room 4.2: a CPD-accredited update on the Building Safety Act and higher-risk buildings. Sandwiches provided. Please reply if attending so we can cater.<br><br>Donna</div>"
+    }
+  ]
+}

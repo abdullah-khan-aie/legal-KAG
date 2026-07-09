@@ -1,0 +1,22 @@
+{
+  "id": "95d4a25f294b421e",
+  "messages": [
+    {
+      "id": "95d4a25f294b421e",
+      "snippet": "Hi both, The property team is running its quarterly Real Estate Update on Wednesday 5 March, 12.30–1",
+      "subject": "Invitation: Real Estate Update seminar — 5 March (CPD)",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-11T11:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi both,\n\nThe property team is running its quarterly Real Estate Update on Wednesday 5 March, 12.30–14.00 in the 14th floor seminar room (lunch provided). Topics: the latest on the Building Safety Act, MEES tightening, and a TOGC refresher. 1.5 hours CPD. Reply to register.\n\nDonna",
+      "htmlBody": "<div dir=\"ltr\">Hi both,<br><br>The property team is running its quarterly Real Estate Update on Wednesday 5 March, 12.30–14.00 in the 14th floor seminar room (lunch provided). Topics: the latest on the Building Safety Act, MEES tightening, and a TOGC refresher. 1.5 hours CPD. Reply to register.<br><br>Donna</div>"
+    }
+  ]
+}

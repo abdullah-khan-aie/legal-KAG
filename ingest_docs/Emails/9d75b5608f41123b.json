@@ -1,0 +1,41 @@
+{
+  "id": "9d75b5608f41123b",
+  "messages": [
+    {
+      "id": "9d75b5608f41123b",
+      "snippet": "Eleanor, We're ready for board approval. The terms are settled: 4.5m upfront, 5.5m milestones, 6.5%/",
+      "subject": "Project Quartz - board approval",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "eleanor.frost@arkwrightquantum.com"
+      ],
+      "ccRecipients": [
+        "gregory.mercer@arkwrightquantum.com"
+      ],
+      "date": "2026-01-06T09:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Eleanor,\n\nWe're ready for board approval. The terms are settled: 4.5m upfront, 5.5m milestones, 6.5%/4.0% royalty, 750k minimum, 125% cap. I can attend the 9 January board by phone to take the directors through the resolutions if helpful. We aim to sign on 22 January.\n\nSarah\n\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n+44 (0)20 7946 1212",
+      "htmlBody": "<div dir=\"ltr\">Eleanor,<br><br>We&#x27;re ready for board approval. The terms are settled: 4.5m upfront, 5.5m milestones, 6.5%/4.0% royalty, 750k minimum, 125% cap. I can attend the 9 January board by phone to take the directors through the resolutions if helpful. We aim to sign on 22 January.<br><br>Sarah<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1212</div>"
+    },
+    {
+      "id": "ee7bacbd395ed5ac",
+      "snippet": "Please do join for item 3. Board is 10am on the 9th. Eleanor",
+      "subject": "RE: Project Quartz - board approval",
+      "sender": "eleanor.frost@arkwrightquantum.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "gregory.mercer@arkwrightquantum.com"
+      ],
+      "date": "2026-01-06T18:05:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Please do join for item 3. Board is 10am on the 9th. Eleanor\n\nOn Tue, Jan 6, 2026 at 9:30 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Eleanor,\n>\n> We're ready for board approval. The terms are settled: 4.5m upfront, 5.5m milestones, 6.5%/4.0% royalty, 750k minimum, 125% cap. I can attend the 9 January board by phone to take the directors through the resolutions if helpful. We aim to sign on 22 January.\n>\n> Sarah\n>\n> Sarah Whitfield\n> Partner | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> +44 (0)20 7946 1212",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Please do join for item 3. Board is 10am on the 9th. Eleanor</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jan 6, 2026 at 9:30 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Eleanor,<br><br>We&#x27;re ready for board approval. The terms are settled: 4.5m upfront, 5.5m milestones, 6.5%/4.0% royalty, 750k minimum, 125% cap. I can attend the 9 January board by phone to take the directors through the resolutions if helpful. We aim to sign on 22 January.<br><br>Sarah<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1212</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "b7237a7d0fd108ba",
+  "messages": [
+    {
+      "id": "b7237a7d0fd108ba",
+      "snippet": "James, I've reviewed the DPA. Two points before sign-off: 1. Breach notification – please confirm 48",
+      "subject": "Harcourt DPO review – Data Processing Agreement",
+      "sender": "sandra.whitcombe@harcourtbeverages.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com",
+        "zoe.abbott@marlowegreaves.com"
+      ],
+      "date": "2025-10-28T11:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James,\n\nI've reviewed the DPA. Two points before sign-off:\n\n1. Breach notification – please confirm 48 hours from awareness (Annex says this, just confirming it's firm).\n2. Sub-processors – we need the right to object to new sub-processors; the 14-day objection window is acceptable.\n\nOtherwise content. The TOMs in Annex 2 (ISO 27001, AES-256, MFA) meet our requirements.\n\nSandra Whitcombe | Data Protection Officer | Harcourt Beverages",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>I&#x27;ve reviewed the DPA. Two points before sign-off:<br><br>1. Breach notification – please confirm 48 hours from awareness (Annex says this, just confirming it&#x27;s firm).<br>2. Sub-processors – we need the right to object to new sub-processors; the 14-day objection window is acceptable.<br><br>Otherwise content. The TOMs in Annex 2 (ISO 27001, AES-256, MFA) meet our requirements.<br><br>Sandra Whitcombe | Data Protection Officer | Harcourt Beverages</div>"
+    },
+    {
+      "id": "2e35d3f567bc95ec",
+      "snippet": "Sandra, Confirmed: 48-hour breach notification from awareness (clause 4 of the DPA), and the 14-day ",
+      "subject": "RE: Harcourt DPO review – Data Processing Agreement",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sandra.whitcombe@harcourtbeverages.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com",
+        "zoe.abbott@marlowegreaves.com"
+      ],
+      "date": "2025-10-29T09:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Sandra,\n\nConfirmed: 48-hour breach notification from awareness (clause 4 of the DPA), and the 14-day sub-processor objection right stands (clause 3). No changes needed. We'll incorporate the DPA as Schedule 4 to the execution version.\n\nJames\n\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.\n\nOn Tue, Oct 28, 2025 at 11:05 AM, Sandra Whitcombe <sandra.whitcombe@harcourtbeverages.com> wrote:\n> James,\n>\n> I've reviewed the DPA. Two points before sign-off:\n>\n> 1. Breach notification – please confirm 48 hours from awareness (Annex says this, just confirming it's firm).\n> 2. Sub-processors – we need the right to object to new sub-processors; the 14-day objection window is acceptable.\n>\n> Otherwise content. The TOMs in Annex 2 (ISO 27001, AES-256, MFA) meet our requirements.\n>\n> Sandra Whitcombe | Data Protection Officer | Harcourt Beverages",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sandra,<br><br>Confirmed: 48-hour breach notification from awareness (clause 4 of the DPA), and the 14-day sub-processor objection right stands (clause 3). No changes needed. We&#x27;ll incorporate the DPA as Schedule 4 to the execution version.<br><br>James<br><br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 28, 2025 at 11:05 AM, Sandra Whitcombe &lt;sandra.whitcombe@harcourtbeverages.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>I&#x27;ve reviewed the DPA. Two points before sign-off:<br><br>1. Breach notification – please confirm 48 hours from awareness (Annex says this, just confirming it&#x27;s firm).<br>2. Sub-processors – we need the right to object to new sub-processors; the 14-day objection window is acceptable.<br><br>Otherwise content. The TOMs in Annex 2 (ISO 27001, AES-256, MFA) meet our requirements.<br><br>Sandra Whitcombe | Data Protection Officer | Harcourt Beverages</div></blockquote></div></div>"
+    }
+  ]
+}

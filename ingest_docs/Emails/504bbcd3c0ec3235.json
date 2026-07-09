@@ -1,0 +1,21 @@
+{
+  "id": "504bbcd3c0ec3235",
+  "messages": [
+    {
+      "id": "504bbcd3c0ec3235",
+      "snippet": "Dear Member, Booking is now open for the Employment Lawyers Association Annual Conference, 18–19 Sep",
+      "subject": "ELA Annual Conference 2025 — early-bird booking now open",
+      "sender": "events@ela.org.uk",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-04-23T10:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Dear Member,\n\nBooking is now open for the Employment Lawyers Association Annual Conference, 18–19 September 2025 at the QEII Centre, Westminster. This year's programme includes sessions on whistleblowing detriment after the latest EAT authorities, the new duty to prevent sexual harassment, and AI in the workplace. Early-bird rate ends 30 June.\n\nBook online at the member portal.\n\nKind regards,\nELA Events Team",
+      "htmlBody": "<div dir=\"ltr\">Dear Member,<br><br>Booking is now open for the Employment Lawyers Association Annual Conference, 18–19 September 2025 at the QEII Centre, Westminster. This year&#x27;s programme includes sessions on whistleblowing detriment after the latest EAT authorities, the new duty to prevent sexual harassment, and AI in the workplace. Early-bird rate ends 30 June.<br><br>Book online at the member portal.<br><br>Kind regards,<br>ELA Events Team</div>"
+    }
+  ]
+}

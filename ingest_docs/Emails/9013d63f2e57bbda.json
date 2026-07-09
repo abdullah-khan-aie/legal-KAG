@@ -1,0 +1,22 @@
+{
+  "id": "9013d63f2e57bbda",
+  "messages": [
+    {
+      "id": "9013d63f2e57bbda",
+      "snippet": "Hi James, Noticed Whitfield Carter does a lot of high-volume contract work. ClauseCompare's AI redli",
+      "subject": "Cut your redline turnaround by 40% - ClauseCompare for Whitfield Carter",
+      "sender": "mreilly@clausecompare.io",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-01-14T10:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi James,\n\nNoticed Whitfield Carter does a lot of high-volume contract work. ClauseCompare's AI redline tool plugs into Word and compares against your clause library automatically. Could I grab 20 minutes next week to show you a demo?\n\nBest,\nMarcus Reilly | ClauseCompare",
+      "htmlBody": "<div dir=\"ltr\">Hi James,<br><br>Noticed Whitfield Carter does a lot of high-volume contract work. ClauseCompare&#x27;s AI redline tool plugs into Word and compares against your clause library automatically. Could I grab 20 minutes next week to show you a demo?<br><br>Best,<br>Marcus Reilly | ClauseCompare</div>"
+    }
+  ]
+}

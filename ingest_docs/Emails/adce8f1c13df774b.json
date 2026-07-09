@@ -1,0 +1,21 @@
+{
+  "id": "adce8f1c13df774b",
+  "messages": [
+    {
+      "id": "adce8f1c13df774b",
+      "snippet": "Hello, Your firm's LexisConnect subscription now includes AI-assisted clause comparison and redline ",
+      "subject": "New: AI-assisted contract review now in your plan",
+      "sender": "updates@lexisconnect.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-11-25T06:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hello,\n\nYour firm's LexisConnect subscription now includes AI-assisted clause comparison and redline summarisation. Upload two versions of a contract and get an instant change summary. Book a 20-minute demo for your team this month and receive three months of premium analytics.\n\nUnsubscribe | Manage preferences\nLexisConnect",
+      "htmlBody": "<div dir=\"ltr\">Hello,<br><br>Your firm&#x27;s LexisConnect subscription now includes AI-assisted clause comparison and redline summarisation. Upload two versions of a contract and get an instant change summary. Book a 20-minute demo for your team this month and receive three months of premium analytics.<br><br>Unsubscribe | Manage preferences<br>LexisConnect</div>"
+    }
+  ]
+}

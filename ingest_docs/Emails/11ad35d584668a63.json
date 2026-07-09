@@ -1,0 +1,21 @@
+{
+  "id": "11ad35d584668a63",
+  "messages": [
+    {
+      "id": "11ad35d584668a63",
+      "snippet": "James - you still on for the 5-a-side Sunday? We're a man short. Pitch booked 10am at Powerleague. L",
+      "subject": "Re: weekend 5-a-side",
+      "sender": "lewis.carr@brackengroup.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-11-14T18:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James - you still on for the 5-a-side Sunday? We're a man short. Pitch booked 10am at Powerleague. Let me know. Lewis\n\n(Apologies if this is the wrong James - got the autocomplete wrong again!)",
+      "htmlBody": "<div dir=\"ltr\">James - you still on for the 5-a-side Sunday? We&#x27;re a man short. Pitch booked 10am at Powerleague. Let me know. Lewis<br><br>(Apologies if this is the wrong James - got the autocomplete wrong again!)</div>"
+    }
+  ]
+}

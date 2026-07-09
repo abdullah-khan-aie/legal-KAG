@@ -1,0 +1,25 @@
+{
+  "id": "54f51e6df53e03a8",
+  "messages": [
+    {
+      "id": "54f51e6df53e03a8",
+      "snippet": "All fee earners, April time entries must be posted by 5pm tomorrow for month-end billing. Several ma",
+      "subject": "Time recording — April month-end reminder",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-04-30T16:45:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "All fee earners,\n\nApril time entries must be posted by 5pm tomorrow for month-end billing. Several matters currently show unposted time. Please also review WIP on your open matters and flag anything to be written off or carried forward.\n\nThank you,\nAccounts | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">All fee earners,<br><br>April time entries must be posted by 5pm tomorrow for month-end billing. Several matters currently show unposted time. Please also review WIP on your open matters and flag anything to be written off or carried forward.<br><br>Thank you,<br>Accounts | Whitfield Carter LLP</div>"
+    }
+  ]
+}

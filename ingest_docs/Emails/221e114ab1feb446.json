@@ -1,0 +1,60 @@
+{
+  "id": "221e114ab1feb446",
+  "messages": [
+    {
+      "id": "221e114ab1feb446",
+      "snippet": "Mark, Richard, Ahead of completion on 20 February, attached are (1) the completion funds flow and (2",
+      "subject": "Project Drake — funds flow & completion statement",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "mark.ferris@brackengroup.com",
+        "richard.calloway@brackengroup.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-13T11:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Mark, Richard,\n\nAhead of completion on 20 February, attached are (1) the completion funds flow and (2) the draft completion statement. Headlines: £36.5m initial cash to the sellers' solicitors, £3m to escrow, £1.8m to redeem the Clydesford debt; the working-capital adjustment is currently a £0.36m payment to the sellers (actual WC £4.56m vs £4.2m target), subject to the post-completion accounts.\n\nTreasury should action the payment instructions on the morning of completion.\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Mark, Richard,<br><br>Ahead of completion on 20 February, attached are (1) the completion funds flow and (2) the draft completion statement. Headlines: £36.5m initial cash to the sellers&#x27; solicitors, £3m to escrow, £1.8m to redeem the Clydesford debt; the working-capital adjustment is currently a £0.36m payment to the sellers (actual WC £4.56m vs £4.2m target), subject to the post-completion accounts.<br><br>Treasury should action the payment instructions on the morning of completion.<br><br>James</div>",
+      "attachmentIds": [
+        "lkumLWePWnIY7oXtz5d1U47KmFC2L4B4JIxF6zwRTHQ",
+        "A2CBAvIDcGM6koKqDth9b0ysz2IpYauGxGaS_3CPOV8"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Drake_FundsFlow.xlsx",
+          "id": "lkumLWePWnIY7oXtz5d1U47KmFC2L4B4JIxF6zwRTHQ",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "filename": "Project_Drake_CompletionStatement.xlsx",
+          "id": "A2CBAvIDcGM6koKqDth9b0ysz2IpYauGxGaS_3CPOV8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "14504a71e70a78cf",
+      "snippet": "Received, thank you. Treasury have the figures and will be ready. Please confirm the escrow account ",
+      "subject": "RE: Project Drake — funds flow & completion statement",
+      "sender": "richard.calloway@brackengroup.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "mark.ferris@brackengroup.com"
+      ],
+      "date": "2026-02-13T15:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Received, thank you. Treasury have the figures and will be ready. Please confirm the escrow account details have been verified with Denham Lewis by call-back before we release funds.\n\nRichard\n\nOn Fri, Feb 13, 2026 at 11:15 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Mark, Richard,\n>\n> Ahead of completion on 20 February, attached are (1) the completion funds flow and (2) the draft completion statement. Headlines: £36.5m initial cash to the sellers' solicitors, £3m to escrow, £1.8m to redeem the Clydesford debt; the working-capital adjustment is currently a £0.36m payment to the sellers (actual WC £4.56m vs £4.2m target), subject to the post-completion accounts.\n>\n> Treasury should action the payment instructions on the morning of completion.\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Received, thank you. Treasury have the figures and will be ready. Please confirm the escrow account details have been verified with Denham Lewis by call-back before we release funds.<br><br>Richard</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Feb 13, 2026 at 11:15 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Mark, Richard,<br><br>Ahead of completion on 20 February, attached are (1) the completion funds flow and (2) the draft completion statement. Headlines: £36.5m initial cash to the sellers&#x27; solicitors, £3m to escrow, £1.8m to redeem the Clydesford debt; the working-capital adjustment is currently a £0.36m payment to the sellers (actual WC £4.56m vs £4.2m target), subject to the post-completion accounts.<br><br>Treasury should action the payment instructions on the morning of completion.<br><br>James</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "00349f8183b534a8",
+  "messages": [
+    {
+      "id": "00349f8183b534a8",
+      "snippet": "Dear Mr Osei, We act for Harburn Utilities plc. Our formal response to your letter before claim is a",
+      "subject": "Caspian v Harburn — response to letter before claim",
+      "sender": "alistair.whitlock@pembertonrowe.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "nadia.iqbal@pembertonrowe.com"
+      ],
+      "date": "2025-11-13T15:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Dear Mr Osei,\n\nWe act for Harburn Utilities plc. Our formal response to your letter before claim is attached. In short, liability is denied: our client terminated for recurring data-integrity failures going to fitness for purpose, not mere availability. Our client will counterclaim for losses exceeding £640,000, including third-party re-assurance of its FY2024 reporting.\n\nWe are willing to consider mediation after statements of case.\n\nAlistair Whitlock\nPemberton Rowe LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Osei,<br><br>We act for Harburn Utilities plc. Our formal response to your letter before claim is attached. In short, liability is denied: our client terminated for recurring data-integrity failures going to fitness for purpose, not mere availability. Our client will counterclaim for losses exceeding £640,000, including third-party re-assurance of its FY2024 reporting.<br><br>We are willing to consider mediation after statements of case.<br><br>Alistair Whitlock<br>Pemberton Rowe LLP</div>",
+      "attachmentIds": [
+        "p0g6Wd58irgBR0a8-CcpYIww-opTLwZb9YOkkBjIhy0"
+      ],
+      "attachments": [
+        {
+          "filename": "PembertonRowe_LBA_Response.pdf",
+          "id": "p0g6Wd58irgBR0a8-CcpYIww-opTLwZb9YOkkBjIhy0",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "26011adb84f99bb4",
+      "snippet": "Dear Mr Whitlock, Noted, though your client's recharacterisation of availability complaints as \"data",
+      "subject": "RE: Caspian v Harburn — response to letter before claim",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-17T10:25:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Mr Whitlock,\n\nNoted, though your client's recharacterisation of availability complaints as \"data-integrity\" defects does not withstand scrutiny — our client's monthly reports show 99.83%+ throughout and no service-credit claim was ever made. We are taking instructions on proceedings and will revert on ADR in due course.\n\nJames Osei\n\n—\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Thu, Nov 13, 2025 at 3:10 PM, Alistair Whitlock <alistair.whitlock@pembertonrowe.com> wrote:\n> Dear Mr Osei,\n>\n> We act for Harburn Utilities plc. Our formal response to your letter before claim is attached. In short, liability is denied: our client terminated for recurring data-integrity failures going to fitness for purpose, not mere availability. Our client will counterclaim for losses exceeding £640,000, including third-party re-assurance of its FY2024 reporting.\n>\n> We are willing to consider mediation after statements of case.\n>\n> Alistair Whitlock\n> Pemberton Rowe LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Mr Whitlock,<br><br>Noted, though your client&#x27;s recharacterisation of availability complaints as &quot;data-integrity&quot; defects does not withstand scrutiny — our client&#x27;s monthly reports show 99.83%+ throughout and no service-credit claim was ever made. We are taking instructions on proceedings and will revert on ADR in due course.<br><br>James Osei<br><br>—<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Nov 13, 2025 at 3:10 PM, Alistair Whitlock &lt;alistair.whitlock@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Mr Osei,<br><br>We act for Harburn Utilities plc. Our formal response to your letter before claim is attached. In short, liability is denied: our client terminated for recurring data-integrity failures going to fitness for purpose, not mere availability. Our client will counterclaim for losses exceeding £640,000, including third-party re-assurance of its FY2024 reporting.<br><br>We are willing to consider mediation after statements of case.<br><br>Alistair Whitlock<br>Pemberton Rowe LLP</div></blockquote></div></div>"
+    }
+  ]
+}

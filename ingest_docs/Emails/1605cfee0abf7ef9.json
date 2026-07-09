@@ -1,0 +1,23 @@
+{
+  "id": "1605cfee0abf7ef9",
+  "messages": [
+    {
+      "id": "1605cfee0abf7ef9",
+      "snippet": "All, The document management system will be unavailable on Saturday 16 November from 06:00 to 10:00 ",
+      "subject": "Planned DMS maintenance - Saturday 16 November",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2024-11-11T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "All,\n\nThe document management system will be unavailable on Saturday 16 November from 06:00 to 10:00 for scheduled maintenance. Please save any work in progress. No action required.\n\nIT Helpdesk, Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>The document management system will be unavailable on Saturday 16 November from 06:00 to 10:00 for scheduled maintenance. Please save any work in progress. No action required.<br><br>IT Helpdesk, Whitfield Carter LLP</div>"
+    }
+  ]
+}

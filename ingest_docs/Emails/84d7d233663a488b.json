@@ -1,0 +1,23 @@
+{
+  "id": "84d7d233663a488b",
+  "messages": [
+    {
+      "id": "84d7d233663a488b",
+      "snippet": "Hi, Our records show unsubmitted time for March. Fee-earners are reminded that all time must be reco",
+      "subject": "Time recording outstanding - March (reminder)",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-04-20T08:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi,\n\nOur records show unsubmitted time for March. Fee-earners are reminded that all time must be recorded within 5 working days. Please bring your narratives up to date by Friday so we can run the April bills.\n\nThanks,\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hi,<br><br>Our records show unsubmitted time for March. Fee-earners are reminded that all time must be recorded within 5 working days. Please bring your narratives up to date by Friday so we can run the April bills.<br><br>Thanks,<br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "90e3cd14416eac75",
+  "messages": [
+    {
+      "id": "90e3cd14416eac75",
+      "snippet": "Dear Mr Westmere, Further to discussions between our respective principals, please find attached the",
+      "subject": "Project Willow - mutual NDA for signature",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "geoffrey.westmere@westmerecoatings.co.uk"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-02-07T09:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Mr Westmere,\n\nFurther to discussions between our respective principals, please find attached the mutual non-disclosure agreement in connection with the proposed transaction. Subject to your review we'd be grateful if you could arrange signature so that we can begin sharing information.\n\nKind regards,\nJames Osei",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Westmere,<br><br>Further to discussions between our respective principals, please find attached the mutual non-disclosure agreement in connection with the proposed transaction. Subject to your review we&#x27;d be grateful if you could arrange signature so that we can begin sharing information.<br><br>Kind regards,<br>James Osei</div>",
+      "attachmentIds": [
+        "MV8Z6rp4qyF-WBpzSsWl5tPL3YstQAPpRvE18F4D2R4"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Willow_NDA_v1.docx",
+          "id": "MV8Z6rp4qyF-WBpzSsWl5tPL3YstQAPpRvE18F4D2R4",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "051f9f4f4d1b1dfd",
+      "snippet": "James, Thank you. The NDA looks fine to me. I'll sign and return the executed copy tomorrow. Daniel ",
+      "subject": "RE: Project Willow - mutual NDA for signature",
+      "sender": "geoffrey.westmere@westmerecoatings.co.uk",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-02-07T16:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nThank you. The NDA looks fine to me. I'll sign and return the executed copy tomorrow. Daniel and I are keen to progress sensibly.\n\nRegards,\nGeoffrey Westmere\n\nOn Fri, Feb 7, 2025 at 9:30 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Dear Mr Westmere,\n>\n> Further to discussions between our respective principals, please find attached the mutual non-disclosure agreement in connection with the proposed transaction. Subject to your review we'd be grateful if you could arrange signature so that we can begin sharing information.\n>\n> Kind regards,\n> James Osei",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Thank you. The NDA looks fine to me. I&#x27;ll sign and return the executed copy tomorrow. Daniel and I are keen to progress sensibly.<br><br>Regards,<br>Geoffrey Westmere</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Feb 7, 2025 at 9:30 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Mr Westmere,<br><br>Further to discussions between our respective principals, please find attached the mutual non-disclosure agreement in connection with the proposed transaction. Subject to your review we&#x27;d be grateful if you could arrange signature so that we can begin sharing information.<br><br>Kind regards,<br>James Osei</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "ca8bc4a564401baa",
+  "messages": [
+    {
+      "id": "ca8bc4a564401baa",
+      "snippet": "Tom - you still good for five-a-side Thursday 8pm at the Powerleague? Need to know if we've got enou",
+      "subject": "Five-a-side Thursday?",
+      "sender": "mark.tennant@sutherlandlogistics.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-04-10T19:42:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Tom - you still good for five-a-side Thursday 8pm at the Powerleague? Need to know if we've got enough for two teams. Steve's out with his knee again. Cheers, Mark",
+      "htmlBody": "<div dir=\"ltr\">Tom - you still good for five-a-side Thursday 8pm at the Powerleague? Need to know if we&#x27;ve got enough for two teams. Steve&#x27;s out with his knee again. Cheers, Mark</div>"
+    }
+  ]
+}

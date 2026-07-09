@@ -1,0 +1,44 @@
+{
+  "id": "48fbfd9380dc0b34",
+  "messages": [
+    {
+      "id": "48fbfd9380dc0b34",
+      "snippet": "Dear Grace, For the board meeting on 3 December we'll need a resolution approving entry into the MSA",
+      "subject": "Project Cedar — board approval pack for 3 December",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "grace.underwood@halsteadaerospace.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-12-01T14:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Grace,\n\nFor the board meeting on 3 December we'll need a resolution approving entry into the MSA, the Quality Agreement and Statement of Work No. 1, and authorising execution. I've prepared a draft of the board minutes (Project_Cedar_BoardMinutes_Halstead) and can circulate to Sandra Pell once you confirm the attendee list.\n\nCould you confirm the final Year-1 figures for the minutes — we have the £148,500 list price, 60-shipset minimum, and £2.4m NRE.\n\nBest wishes,\nElena\n\nElena Marchetti | Associate | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Grace,<br><br>For the board meeting on 3 December we&#x27;ll need a resolution approving entry into the MSA, the Quality Agreement and Statement of Work No. 1, and authorising execution. I&#x27;ve prepared a draft of the board minutes (Project_Cedar_BoardMinutes_Halstead) and can circulate to Sandra Pell once you confirm the attendee list.<br><br>Could you confirm the final Year-1 figures for the minutes — we have the £148,500 list price, 60-shipset minimum, and £2.4m NRE.<br><br>Best wishes,<br>Elena<br><br>Elena Marchetti | Associate | Whitfield Carter LLP</div>"
+    },
+    {
+      "id": "1fdedaa911e6c429",
+      "snippet": "Elena — figures confirmed: £148,500 per shipset, 60 minimum in Year 1 (gross list ~£8.9m), £2.4m too",
+      "subject": "RE: Project Cedar — board approval pack for 3 December",
+      "sender": "grace.underwood@halsteadaerospace.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-12-01T17:02:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena — figures confirmed: £148,500 per shipset, 60 minimum in Year 1 (gross list ~£8.9m), £2.4m tooling. Attendees: Robert, me, Priya, Helen and Michael Trent (NED). Please send the minutes to Sandra. Thanks for turning this round so quickly.\n\nGrace\n\nOn Mon, Dec 1, 2025 at 2:15 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Dear Grace,\n>\n> For the board meeting on 3 December we'll need a resolution approving entry into the MSA, the Quality Agreement and Statement of Work No. 1, and authorising execution. I've prepared a draft of the board minutes (Project_Cedar_BoardMinutes_Halstead) and can circulate to Sandra Pell once you confirm the attendee list.\n>\n> Could you confirm the final Year-1 figures for the minutes — we have the £148,500 list price, 60-shipset minimum, and £2.4m NRE.\n>\n> Best wishes,\n> Elena\n>\n> Elena Marchetti | Associate | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena — figures confirmed: £148,500 per shipset, 60 minimum in Year 1 (gross list ~£8.9m), £2.4m tooling. Attendees: Robert, me, Priya, Helen and Michael Trent (NED). Please send the minutes to Sandra. Thanks for turning this round so quickly.<br><br>Grace</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Dec 1, 2025 at 2:15 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Grace,<br><br>For the board meeting on 3 December we&#x27;ll need a resolution approving entry into the MSA, the Quality Agreement and Statement of Work No. 1, and authorising execution. I&#x27;ve prepared a draft of the board minutes (Project_Cedar_BoardMinutes_Halstead) and can circulate to Sandra Pell once you confirm the attendee list.<br><br>Could you confirm the final Year-1 figures for the minutes — we have the £148,500 list price, 60-shipset minimum, and £2.4m NRE.<br><br>Best wishes,<br>Elena<br><br>Elena Marchetti | Associate | Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

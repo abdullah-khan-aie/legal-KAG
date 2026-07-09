@@ -1,0 +1,72 @@
+{
+  "id": "5289a9d66b93d71f",
+  "messages": [
+    {
+      "id": "5289a9d66b93d71f",
+      "snippet": "Alistair, First draft of the Amendment and Restatement Agreement attached. Headline terms per the te",
+      "subject": "Project Ironhold - A&R Agreement v1 for your mark-up",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "nadia.iqbal@pembertonrowe.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-24T18:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Alistair,\n\nFirst draft of the Amendment and Restatement Agreement attached. Headline terms per the term sheet: 12m super-senior new money, maturity to Dec 2029, Facility A margin 4.25% over SONIA with a ratchet, testing holiday to Q4 2026, and the debt-for-equity/subordination of the Aldermarsh loans. Look forward to your turn.\n\nJames\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Alistair,<br><br>First draft of the Amendment and Restatement Agreement attached. Headline terms per the term sheet: 12m super-senior new money, maturity to Dec 2029, Facility A margin 4.25% over SONIA with a ratchet, testing holiday to Q4 2026, and the debt-for-equity/subordination of the Aldermarsh loans. Look forward to your turn.<br><br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "09be218cd95409bc",
+      "snippet": "James, Our mark-up attached. The Bank's principal moves: Facility A margin to 4.50% (from 4.25%); th",
+      "subject": "RE: Project Ironhold - A&R Agreement v2 (Bank mark-up)",
+      "sender": "alistair.whitlock@pembertonrowe.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "nadia.iqbal@pembertonrowe.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-27T11:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nOur mark-up attached. The Bank's principal moves: Facility A margin to 4.50% (from 4.25%); the amendment/work fee to 750,000 (from 630,000); commitment fee to 2.00%; and the super-senior leverage cap tightened to 0.60x (from 0.75x). We can live with the amortisation holiday and the reset grid otherwise.\n\nAlistair\n\n-- Pemberton Rowe LLP\n\nOn Tue, Mar 24, 2026 at 6:20 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Alistair,\n>\n> First draft of the Amendment and Restatement Agreement attached. Headline terms per the term sheet: 12m super-senior new money, maturity to Dec 2029, Facility A margin 4.25% over SONIA with a ratchet, testing holiday to Q4 2026, and the debt-for-equity/subordination of the Aldermarsh loans. Look forward to your turn.\n>\n> James\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Our mark-up attached. The Bank&#x27;s principal moves: Facility A margin to 4.50% (from 4.25%); the amendment/work fee to 750,000 (from 630,000); commitment fee to 2.00%; and the super-senior leverage cap tightened to 0.60x (from 0.75x). We can live with the amortisation holiday and the reset grid otherwise.<br><br>Alistair<br><br>-- Pemberton Rowe LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Mar 24, 2026 at 6:20 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Alistair,<br><br>First draft of the Amendment and Restatement Agreement attached. Headline terms per the term sheet: 12m super-senior new money, maturity to Dec 2029, Facility A margin 4.25% over SONIA with a ratchet, testing holiday to Q4 2026, and the debt-for-equity/subordination of the Aldermarsh loans. Look forward to your turn.<br><br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>",
+      "attachmentIds": [
+        "wcXD5-klDbpYxxKbllNy8ioe-QKRECVr8LhxTOOk5P8"
+      ],
+      "attachments": [
+        {
+          "filename": "Ironhold_AmendmentRestatementAgreement_v2_redline.docx",
+          "id": "wcXD5-klDbpYxxKbllNy8ioe-QKRECVr8LhxTOOk5P8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "5ed36d8004f78fef",
+      "snippet": "The margin move to 4.50% is acceptable and the 0.60x cap we can take. Push back on the fee - 750k is",
+      "subject": "RE: Project Ironhold - A&R Agreement v2 (Bank mark-up)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-27T13:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "The margin move to 4.50% is acceptable and the 0.60x cap we can take. Push back on the fee - 750k is punchy for a consensual deal; land it around 690k. And I want the equity cure widened to three cures. Reflect in our next turn.\n\nSarah\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Fri, Mar 27, 2026 at 11:40 AM, Alistair Whitlock <alistair.whitlock@pembertonrowe.com> wrote:\n> James,\n>\n> Our mark-up attached. The Bank's principal moves: Facility A margin to 4.50% (from 4.25%); the amendment/work fee to 750,000 (from 630,000); commitment fee to 2.00%; and the super-senior leverage cap tightened to 0.60x (from 0.75x). We can live with the amortisation holiday and the reset grid otherwise.\n>\n> Alistair\n>\n> -- Pemberton Rowe LLP\n>\n> On Tue, Mar 24, 2026 at 6:20 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > Alistair,\n> >\n> > First draft of the Amendment and Restatement Agreement attached. Headline terms per the term sheet: 12m super-senior new money, maturity to Dec 2029, Facility A margin 4.25% over SONIA with a ratchet, testing holiday to Q4 2026, and the debt-for-equity/subordination of the Aldermarsh loans. Look forward to your turn.\n> >\n> > James\n> >\n> > --\n> > Whitfield Carter LLP\n> > 22 Bishopsgate, London EC2N 4BQ\n> > Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">The margin move to 4.50% is acceptable and the 0.60x cap we can take. Push back on the fee - 750k is punchy for a consensual deal; land it around 690k. And I want the equity cure widened to three cures. Reflect in our next turn.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Mar 27, 2026 at 11:40 AM, Alistair Whitlock &lt;alistair.whitlock@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Our mark-up attached. The Bank&#x27;s principal moves: Facility A margin to 4.50% (from 4.25%); the amendment/work fee to 750,000 (from 630,000); commitment fee to 2.00%; and the super-senior leverage cap tightened to 0.60x (from 0.75x). We can live with the amortisation holiday and the reset grid otherwise.<br><br>Alistair<br><br>-- Pemberton Rowe LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Mar 24, 2026 at 6:20 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Alistair,<br><br>First draft of the Amendment and Restatement Agreement attached. Headline terms per the term sheet: 12m super-senior new money, maturity to Dec 2029, Facility A margin 4.25% over SONIA with a ratchet, testing holiday to Q4 2026, and the debt-for-equity/subordination of the Aldermarsh loans. Look forward to your turn.<br><br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

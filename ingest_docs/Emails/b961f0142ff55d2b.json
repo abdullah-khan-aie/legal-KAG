@@ -1,0 +1,25 @@
+{
+  "id": "b961f0142ff55d2b",
+  "messages": [
+    {
+      "id": "b961f0142ff55d2b",
+      "snippet": "Helena, Marcus, Contracts exchanged on Kingsmoor House at 3.05pm today (Formula B). Completion is se",
+      "subject": "Kingsmoor House - EXCHANGED",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "helena.wren@aldouswrencapital.com",
+        "marcus.aldous@aldouswrencapital.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-27T15:12:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Helena, Marcus,\n\nContracts exchanged on Kingsmoor House at 3.05pm today (Formula B). Completion is set for 1 May 2026. Deposit of £1,415,000 sent to the Seller's solicitors as stakeholder. Congratulations. We'll now move to completion.\n\nJames\n\nJames Osei\nSenior Associate | Real Estate\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0500",
+      "htmlBody": "<div dir=\"ltr\">Helena, Marcus,<br><br>Contracts exchanged on Kingsmoor House at 3.05pm today (Formula B). Completion is set for 1 May 2026. Deposit of £1,415,000 sent to the Seller&#x27;s solicitors as stakeholder. Congratulations. We&#x27;ll now move to completion.<br><br>James<br><br>James Osei<br>Senior Associate | Real Estate<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0500</div>"
+    }
+  ]
+}

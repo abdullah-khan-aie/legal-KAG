@@ -1,0 +1,66 @@
+{
+  "id": "bee67e3511160b0e",
+  "messages": [
+    {
+      "id": "bee67e3511160b0e",
+      "snippet": "Alice, Marcus, Short update. The investors' counsel has marked up the subscription agreement. The op",
+      "subject": "Quartz — where we are on the documents",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "alice.wren@larkmoorbio.com",
+        "marcus.veldt@larkmoorbio.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "priya.joshi@larkmoorbio.com"
+      ],
+      "date": "2026-03-19T15:10:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Alice, Marcus,\n\nShort update. The investors' counsel has marked up the subscription agreement. The open commercial points are narrow: the founder warranty cap (they want £1m; we're countering at £900k), the de minimis/basket thresholds, and a 'materiality scrape' (a fairly standard mechanism). We've conceded the warranty survival period at 24 months, which is reasonable.\n\nNothing here changes the economics. We'll send you a short issues list before signing so you can see exactly what you're agreeing.\n\nJames\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\n+44 (0)20 7946 0048\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Alice, Marcus,<br><br>Short update. The investors&#x27; counsel has marked up the subscription agreement. The open commercial points are narrow: the founder warranty cap (they want £1m; we&#x27;re countering at £900k), the de minimis/basket thresholds, and a &#x27;materiality scrape&#x27; (a fairly standard mechanism). We&#x27;ve conceded the warranty survival period at 24 months, which is reasonable.<br><br>Nothing here changes the economics. We&#x27;ll send you a short issues list before signing so you can see exactly what you&#x27;re agreeing.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0048<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "c3ab101095eedc40",
+      "snippet": "Thanks James — £900k cap is fine for us. One question: does the materiality scrape increase our expo",
+      "subject": "RE: Quartz — where we are on the documents",
+      "sender": "marcus.veldt@larkmoorbio.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "alice.wren@larkmoorbio.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-20T08:25:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Thanks James — £900k cap is fine for us. One question: does the materiality scrape increase our exposure in practice? Want to make sure Alice and Sanjay are comfortable. Marcus\n\nOn Thu, Mar 19, 2026 at 3:10 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Alice, Marcus,\n>\n> Short update. The investors' counsel has marked up the subscription agreement. The open commercial points are narrow: the founder warranty cap (they want £1m; we're countering at £900k), the de minimis/basket thresholds, and a 'materiality scrape' (a fairly standard mechanism). We've conceded the warranty survival period at 24 months, which is reasonable.\n>\n> Nothing here changes the economics. We'll send you a short issues list before signing so you can see exactly what you're agreeing.\n>\n> James\n>\n> James Osei\n> Senior Associate | Whitfield Carter LLP\n> +44 (0)20 7946 0048\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks James — £900k cap is fine for us. One question: does the materiality scrape increase our exposure in practice? Want to make sure Alice and Sanjay are comfortable. Marcus</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Mar 19, 2026 at 3:10 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Alice, Marcus,<br><br>Short update. The investors&#x27; counsel has marked up the subscription agreement. The open commercial points are narrow: the founder warranty cap (they want £1m; we&#x27;re countering at £900k), the de minimis/basket thresholds, and a &#x27;materiality scrape&#x27; (a fairly standard mechanism). We&#x27;ve conceded the warranty survival period at 24 months, which is reasonable.<br><br>Nothing here changes the economics. We&#x27;ll send you a short issues list before signing so you can see exactly what you&#x27;re agreeing.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0048<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    },
+    {
+      "id": "1db5a4a6018655f9",
+      "snippet": "Marcus — in practice the carve-outs we've proposed keep it sensible: it bites for quantifying claims",
+      "subject": "RE: Quartz — where we are on the documents",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.veldt@larkmoorbio.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "alice.wren@larkmoorbio.com"
+      ],
+      "date": "2026-03-20T13:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Marcus — in practice the carve-outs we've proposed keep it sensible: it bites for quantifying claims but we've excluded the accounts and contracts warranties from it. Net effect is modest given the cap. Happy to walk Sanjay through it on a call.\n\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0012\nConfidential and may be legally privileged.\n\nOn Fri, Mar 20, 2026 at 8:25 AM, Marcus Veldt <marcus.veldt@larkmoorbio.com> wrote:\n> Thanks James — £900k cap is fine for us. One question: does the materiality scrape increase our exposure in practice? Want to make sure Alice and Sanjay are comfortable. Marcus\n>\n> On Thu, Mar 19, 2026 at 3:10 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > Alice, Marcus,\n> >\n> > Short update. The investors' counsel has marked up the subscription agreement. The open commercial points are narrow: the founder warranty cap (they want £1m; we're countering at £900k), the de minimis/basket thresholds, and a 'materiality scrape' (a fairly standard mechanism). We've conceded the warranty survival period at 24 months, which is reasonable.\n> >\n> > Nothing here changes the economics. We'll send you a short issues list before signing so you can see exactly what you're agreeing.\n> >\n> > James\n> >\n> > James Osei\n> > Senior Associate | Whitfield Carter LLP\n> > +44 (0)20 7946 0048\n> > Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Marcus — in practice the carve-outs we&#x27;ve proposed keep it sensible: it bites for quantifying claims but we&#x27;ve excluded the accounts and contracts warranties from it. Net effect is modest given the cap. Happy to walk Sanjay through it on a call.<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0012<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Mar 20, 2026 at 8:25 AM, Marcus Veldt &lt;marcus.veldt@larkmoorbio.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Thanks James — £900k cap is fine for us. One question: does the materiality scrape increase our exposure in practice? Want to make sure Alice and Sanjay are comfortable. Marcus</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Mar 19, 2026 at 3:10 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Alice, Marcus,<br><br>Short update. The investors&#x27; counsel has marked up the subscription agreement. The open commercial points are narrow: the founder warranty cap (they want £1m; we&#x27;re countering at £900k), the de minimis/basket thresholds, and a &#x27;materiality scrape&#x27; (a fairly standard mechanism). We&#x27;ve conceded the warranty survival period at 24 months, which is reasonable.<br><br>Nothing here changes the economics. We&#x27;ll send you a short issues list before signing so you can see exactly what you&#x27;re agreeing.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0048<br>Confidential and may be legally privileged.</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

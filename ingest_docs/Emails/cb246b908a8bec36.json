@@ -1,0 +1,21 @@
+{
+  "id": "cb246b908a8bec36",
+  "messages": [
+    {
+      "id": "cb246b908a8bec36",
+      "snippet": "Elena, our records show unposted time narratives for the week commencing 27 January. Please post by ",
+      "subject": "Time recording reminder - January narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-18T08:15:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Elena, our records show unposted time narratives for the week commencing 27 January. Please post by close of business Thursday so we can run the February bills. Thanks, Accounts",
+      "htmlBody": "<div dir=\"ltr\">Elena, our records show unposted time narratives for the week commencing 27 January. Please post by close of business Thursday so we can run the February bills. Thanks, Accounts</div>"
+    }
+  ]
+}

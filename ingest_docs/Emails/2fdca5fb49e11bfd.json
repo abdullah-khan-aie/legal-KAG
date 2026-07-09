@@ -1,0 +1,55 @@
+{
+  "id": "2fdca5fb49e11bfd",
+  "messages": [
+    {
+      "id": "2fdca5fb49e11bfd",
+      "snippet": "Robert, Grace, Attached are draft non-binding heads of terms reflecting the commercial shape we disc",
+      "subject": "Project Skylark - draft Heads of Terms",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "robert.falconer@halsteadaerospace.com",
+        "grace.underwood@halsteadaerospace.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2024-10-07T11:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Robert, Grace,\n\nAttached are draft non-binding heads of terms reflecting the commercial shape we discussed: £5m upfront, 4.5% running royalty stepping to 3.0% after £15m cumulative, £1.5m + £2.0m milestones, £1m annual minimum from Year 3, and a £10m liability cap with an uncapped IP indemnity. These are opening positions - expect Caldera to push.\n\nJames\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Robert, Grace,<br><br>Attached are draft non-binding heads of terms reflecting the commercial shape we discussed: £5m upfront, 4.5% running royalty stepping to 3.0% after £15m cumulative, £1.5m + £2.0m milestones, £1m annual minimum from Year 3, and a £10m liability cap with an uncapped IP indemnity. These are opening positions - expect Caldera to push.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "bf62MjOcEotO3q5Wmn5NXRLkO99OXfLpoFUv-f2ql5U"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Skylark_HeadsOfTerms.docx",
+          "id": "bf62MjOcEotO3q5Wmn5NXRLkO99OXfLpoFUv-f2ql5U",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "79695c2b2a09c9a6",
+      "snippet": "Thanks James. Numbers look right as a starting point. We can live with some movement on the upfront ",
+      "subject": "RE: Project Skylark - draft Heads of Terms",
+      "sender": "grace.underwood@halsteadaerospace.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "robert.falconer@halsteadaerospace.com"
+      ],
+      "date": "2024-10-07T16:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Thanks James. Numbers look right as a starting point. We can live with some movement on the upfront and the cap if it gets the deal done before year end. Send to Pemberton Rowe.\n\nGrace Underwood\nGroup Finance Director, Halstead Aerospace\n\nOn Mon, Oct 7, 2024 at 11:00 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Robert, Grace,\n>\n> Attached are draft non-binding heads of terms reflecting the commercial shape we discussed: £5m upfront, 4.5% running royalty stepping to 3.0% after £15m cumulative, £1.5m + £2.0m milestones, £1m annual minimum from Year 3, and a £10m liability cap with an uncapped IP indemnity. These are opening positions - expect Caldera to push.\n>\n> James\n>\n> James Osei\n> Senior Associate | Whitfield Carter LLP\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks James. Numbers look right as a starting point. We can live with some movement on the upfront and the cap if it gets the deal done before year end. Send to Pemberton Rowe.<br><br>Grace Underwood<br>Group Finance Director, Halstead Aerospace</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Oct 7, 2024 at 11:00 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Robert, Grace,<br><br>Attached are draft non-binding heads of terms reflecting the commercial shape we discussed: £5m upfront, 4.5% running royalty stepping to 3.0% after £15m cumulative, £1.5m + £2.0m milestones, £1m annual minimum from Year 3, and a £10m liability cap with an uncapped IP indemnity. These are opening positions - expect Caldera to push.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

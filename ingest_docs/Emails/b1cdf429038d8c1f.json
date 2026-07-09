@@ -1,0 +1,23 @@
+{
+  "id": "b1cdf429038d8c1f",
+  "messages": [
+    {
+      "id": "b1cdf429038d8c1f",
+      "snippet": "Hi both, A reminder that the IP team is running a lunchtime CPD seminar on recent developments in te",
+      "subject": "CPD seminar: Recent developments in IP licensing (4 Nov, 12:30)",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-10-30T13:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi both,\n\nA reminder that the IP team is running a lunchtime CPD seminar on recent developments in technology and IP licensing next Tuesday at 12:30 in the 5th-floor training room. Sandwiches provided. Worth 1 hour of CPD. Let me know if you'd like a place.\n\nDonna",
+      "htmlBody": "<div dir=\"ltr\">Hi both,<br><br>A reminder that the IP team is running a lunchtime CPD seminar on recent developments in technology and IP licensing next Tuesday at 12:30 in the 5th-floor training room. Sandwiches provided. Worth 1 hour of CPD. Let me know if you&#x27;d like a place.<br><br>Donna</div>"
+    }
+  ]
+}

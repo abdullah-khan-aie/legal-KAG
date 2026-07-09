@@ -1,0 +1,71 @@
+{
+  "id": "4a128c00f1fb8f5f",
+  "messages": [
+    {
+      "id": "4a128c00f1fb8f5f",
+      "snippet": "Jane, Completion statement attached. The balance due from the buyer on completion is £19,202,100, af",
+      "subject": "Project Redwood — completion statement and funds request",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "jane.lefevre@calderfieldcapital.com"
+      ],
+      "ccRecipients": [
+        "tom.beckworth@calderfieldcapital.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-05-08T11:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Jane,\n\nCompletion statement attached. The balance due from the buyer on completion is £19,202,100, after credit for the 10% deposit, the rent apportionment (£161,630 credited to you), the service charge (£7,480 due to seller), transfer of the £180,000 rent deposit and the £38,750 arrears retention.\n\nSeparately you'll need £1,077,000 for SDLT and £1,105 for the Land Registry fee, payable after completion. Please arrange for the completion funds to reach our client account by 14 May.\n\nJames\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nDX 134777 Bishopsgate | +44 (0)20 7946 0500\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Jane,<br><br>Completion statement attached. The balance due from the buyer on completion is £19,202,100, after credit for the 10% deposit, the rent apportionment (£161,630 credited to you), the service charge (£7,480 due to seller), transfer of the £180,000 rent deposit and the £38,750 arrears retention.<br><br>Separately you&#x27;ll need £1,077,000 for SDLT and £1,105 for the Land Registry fee, payable after completion. Please arrange for the completion funds to reach our client account by 14 May.<br><br>James<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>DX 134777 Bishopsgate | +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "4H__PMPUhBKCTKZmEczr8j5PxvIVALx_CWMmdkz3JAU"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Redwood_CompletionStatement.xlsx",
+          "id": "4H__PMPUhBKCTKZmEczr8j5PxvIVALx_CWMmdkz3JAU",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "7aa79bc8b66f989d",
+      "snippet": "James, Noted, thank you. We'll send £19,202,100 to your client account on 13 May, with the SDLT and ",
+      "subject": "RE: Project Redwood — completion statement and funds request",
+      "sender": "jane.lefevre@calderfieldcapital.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.beckworth@calderfieldcapital.com"
+      ],
+      "date": "2026-05-08T15:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nNoted, thank you. We'll send £19,202,100 to your client account on 13 May, with the SDLT and registration monies to follow. Can you confirm the £100,000 review retention is being held by you and isn't part of the £19,202,100 figure?\n\nJane\n\nOn Fri, May 8, 2026 at 11:30 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Jane,\n>\n> Completion statement attached. The balance due from the buyer on completion is £19,202,100, after credit for the 10% deposit, the rent apportionment (£161,630 credited to you), the service charge (£7,480 due to seller), transfer of the £180,000 rent deposit and the £38,750 arrears retention.\n>\n> Separately you'll need £1,077,000 for SDLT and £1,105 for the Land Registry fee, payable after completion. Please arrange for the completion funds to reach our client account by 14 May.\n>\n> James\n>\n> —\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> DX 134777 Bishopsgate | +44 (0)20 7946 0500\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Noted, thank you. We&#x27;ll send £19,202,100 to your client account on 13 May, with the SDLT and registration monies to follow. Can you confirm the £100,000 review retention is being held by you and isn&#x27;t part of the £19,202,100 figure?<br><br>Jane</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, May 8, 2026 at 11:30 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Jane,<br><br>Completion statement attached. The balance due from the buyer on completion is £19,202,100, after credit for the 10% deposit, the rent apportionment (£161,630 credited to you), the service charge (£7,480 due to seller), transfer of the £180,000 rent deposit and the £38,750 arrears retention.<br><br>Separately you&#x27;ll need £1,077,000 for SDLT and £1,105 for the Land Registry fee, payable after completion. Please arrange for the completion funds to reach our client account by 14 May.<br><br>James<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>DX 134777 Bishopsgate | +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    },
+    {
+      "id": "99dc2d937ee4ee20",
+      "snippet": "Jane — correct. The £100,000 review retention is deducted from the price and held by us as stakehold",
+      "subject": "RE: Project Redwood — completion statement and funds request",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "jane.lefevre@calderfieldcapital.com"
+      ],
+      "ccRecipients": [
+        "tom.beckworth@calderfieldcapital.com"
+      ],
+      "date": "2026-05-08T15:45:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Jane — correct. The £100,000 review retention is deducted from the price and held by us as stakeholder, so it is reflected in the completion statement and is not an additional payment. Balance from you remains £19,202,100.\n\nJames\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nDX 134777 Bishopsgate | +44 (0)20 7946 0500\nConfidential and may be legally privileged.\n\nOn Fri, May 8, 2026 at 3:10 PM, Jane Lefevre <jane.lefevre@calderfieldcapital.com> wrote:\n> James,\n>\n> Noted, thank you. We'll send £19,202,100 to your client account on 13 May, with the SDLT and registration monies to follow. Can you confirm the £100,000 review retention is being held by you and isn't part of the £19,202,100 figure?\n>\n> Jane\n>\n> On Fri, May 8, 2026 at 11:30 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > Jane,\n> >\n> > Completion statement attached. The balance due from the buyer on completion is £19,202,100, after credit for the 10% deposit, the rent apportionment (£161,630 credited to you), the service charge (£7,480 due to seller), transfer of the £180,000 rent deposit and the £38,750 arrears retention.\n> >\n> > Separately you'll need £1,077,000 for SDLT and £1,105 for the Land Registry fee, payable after completion. Please arrange for the completion funds to reach our client account by 14 May.\n> >\n> > James\n> >\n> > —\n> > Whitfield Carter LLP\n> > 22 Bishopsgate, London EC2N 4BQ\n> > DX 134777 Bishopsgate | +44 (0)20 7946 0500\n> > Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Jane — correct. The £100,000 review retention is deducted from the price and held by us as stakeholder, so it is reflected in the completion statement and is not an additional payment. Balance from you remains £19,202,100.<br><br>James<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>DX 134777 Bishopsgate | +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, May 8, 2026 at 3:10 PM, Jane Lefevre &lt;jane.lefevre@calderfieldcapital.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Noted, thank you. We&#x27;ll send £19,202,100 to your client account on 13 May, with the SDLT and registration monies to follow. Can you confirm the £100,000 review retention is being held by you and isn&#x27;t part of the £19,202,100 figure?<br><br>Jane</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, May 8, 2026 at 11:30 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Jane,<br><br>Completion statement attached. The balance due from the buyer on completion is £19,202,100, after credit for the 10% deposit, the rent apportionment (£161,630 credited to you), the service charge (£7,480 due to seller), transfer of the £180,000 rent deposit and the £38,750 arrears retention.<br><br>Separately you&#x27;ll need £1,077,000 for SDLT and £1,105 for the Land Registry fee, payable after completion. Please arrange for the completion funds to reach our client account by 14 May.<br><br>James<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>DX 134777 Bishopsgate | +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

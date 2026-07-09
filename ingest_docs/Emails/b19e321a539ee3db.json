@@ -1,0 +1,54 @@
+{
+  "id": "b19e321a539ee3db",
+  "messages": [
+    {
+      "id": "b19e321a539ee3db",
+      "snippet": "James, First 13-week cash flow attached for onward provision to the Bank under the standstill. Closi",
+      "subject": "Project Willow - first 13-week cashflow",
+      "sender": "robert.dukes@calvertonindustries.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "patricia.vaughan@calvertonindustries.com"
+      ],
+      "date": "2026-02-27T16:42:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nFirst 13-week cash flow attached for onward provision to the Bank under the standstill. Closing cash stays above £1.0m throughout; the lumpy weeks are payroll (4-weekly) and the March interest payment. Let me know if the Bank wants a different format.\n\nRobert Dukes\nCFO, Calverton Industries Limited",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>First 13-week cash flow attached for onward provision to the Bank under the standstill. Closing cash stays above £1.0m throughout; the lumpy weeks are payroll (4-weekly) and the March interest payment. Let me know if the Bank wants a different format.<br><br>Robert Dukes<br>CFO, Calverton Industries Limited</div>",
+      "attachmentIds": [
+        "mrmSlxqnNuDVu7TZ-fAqhjSfuMDrIJz1gudFvqzpW9g"
+      ],
+      "attachments": [
+        {
+          "filename": "Willow_13WeekCashflow.xlsx",
+          "id": "mrmSlxqnNuDVu7TZ-fAqhjSfuMDrIJz1gudFvqzpW9g",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "72c230c52e0065c3",
+      "snippet": "Gareth, Forwarding the Company's first 13-week cash flow under the standstill information undertakin",
+      "subject": "FW: Project Willow - first 13-week cashflow",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "gareth.sully@penninebusinessbank.com"
+      ],
+      "ccRecipients": [
+        "fiona.pennington@penninebusinessbank.com",
+        "robert.dukes@calvertonindustries.com"
+      ],
+      "date": "2026-02-27T18:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Gareth,\n\nForwarding the Company's first 13-week cash flow under the standstill information undertakings. Buffer is maintained above £1.0m across the period. We'll provide updates each Friday.\n\nJames\n\nOn Fri, Feb 27, 2026 at 4:42 PM, Robert Dukes <robert.dukes@calvertonindustries.com> wrote:\n> James,\n>\n> First 13-week cash flow attached for onward provision to the Bank under the standstill. Closing cash stays above £1.0m throughout; the lumpy weeks are payroll (4-weekly) and the March interest payment. Let me know if the Bank wants a different format.\n>\n> Robert Dukes\n> CFO, Calverton Industries Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Gareth,<br><br>Forwarding the Company&#x27;s first 13-week cash flow under the standstill information undertakings. Buffer is maintained above £1.0m across the period. We&#x27;ll provide updates each Friday.<br><br>James</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Feb 27, 2026 at 4:42 PM, Robert Dukes &lt;robert.dukes@calvertonindustries.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>First 13-week cash flow attached for onward provision to the Bank under the standstill. Closing cash stays above £1.0m throughout; the lumpy weeks are payroll (4-weekly) and the March interest payment. Let me know if the Bank wants a different format.<br><br>Robert Dukes<br>CFO, Calverton Industries Limited</div></blockquote></div></div>"
+    }
+  ]
+}

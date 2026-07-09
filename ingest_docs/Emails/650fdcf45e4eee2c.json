@@ -1,0 +1,71 @@
+{
+  "id": "650fdcf45e4eee2c",
+  "messages": [
+    {
+      "id": "650fdcf45e4eee2c",
+      "snippet": "Daniel, Draft Heads of Terms attached for your review. Key commercial points: EV GBP52m, debt-free/c",
+      "subject": "Project Beacon - draft Heads of Terms",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.reeve@crestviewcapital.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-08-05T16:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Daniel,\n\nDraft Heads of Terms attached for your review. Key commercial points: EV GBP52m, debt-free/cash-free; equity consideration c.GBP47.5m; GBP43.5m cash at completion, GBP2m retention (18 months), GBP2m deferred/earn-out. Binding exclusivity to 31 October. Subject to contract throughout except the exclusivity, confidentiality and costs paragraphs.\n\nGrateful for comments; happy to talk it through.\n\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0815\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Daniel,<br><br>Draft Heads of Terms attached for your review. Key commercial points: EV GBP52m, debt-free/cash-free; equity consideration c.GBP47.5m; GBP43.5m cash at completion, GBP2m retention (18 months), GBP2m deferred/earn-out. Binding exclusivity to 31 October. Subject to contract throughout except the exclusivity, confidentiality and costs paragraphs.<br><br>Grateful for comments; happy to talk it through.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0815<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "c0JHqS3LJUQSFlM8ei__0Y2TUpQDyKxMYhWh2mKv0wc"
+      ],
+      "attachments": [
+        {
+          "filename": "Beacon_HeadsOfTerms.docx",
+          "id": "c0JHqS3LJUQSFlM8ei__0Y2TUpQDyKxMYhWh2mKv0wc",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "fad46cb187a4940d",
+      "snippet": "James, Looks right. One point - can we make the deferred consideration clearly an earn-out tied to E",
+      "subject": "RE: Project Beacon - draft Heads of Terms",
+      "sender": "daniel.reeve@crestviewcapital.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "margaret.holloway@crestviewcapital.com"
+      ],
+      "date": "2025-08-06T10:05:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "James,\n\nLooks right. One point - can we make the deferred consideration clearly an earn-out tied to EBITDA rather than a straight deferral? Margaret is keen the GBP2m is genuinely at risk if the FY26 numbers slip.\n\nOtherwise happy for this to go to the sellers under cover of subject to contract.\n\nDaniel\n\nOn Tue, Aug 5, 2025 at 4:20 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Daniel,\n>\n> Draft Heads of Terms attached for your review. Key commercial points: EV GBP52m, debt-free/cash-free; equity consideration c.GBP47.5m; GBP43.5m cash at completion, GBP2m retention (18 months), GBP2m deferred/earn-out. Binding exclusivity to 31 October. Subject to contract throughout except the exclusivity, confidentiality and costs paragraphs.\n>\n> Grateful for comments; happy to talk it through.\n>\n> James\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0815\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Looks right. One point - can we make the deferred consideration clearly an earn-out tied to EBITDA rather than a straight deferral? Margaret is keen the GBP2m is genuinely at risk if the FY26 numbers slip.<br><br>Otherwise happy for this to go to the sellers under cover of subject to contract.<br><br>Daniel</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Aug 5, 2025 at 4:20 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Daniel,<br><br>Draft Heads of Terms attached for your review. Key commercial points: EV GBP52m, debt-free/cash-free; equity consideration c.GBP47.5m; GBP43.5m cash at completion, GBP2m retention (18 months), GBP2m deferred/earn-out. Binding exclusivity to 31 October. Subject to contract throughout except the exclusivity, confidentiality and costs paragraphs.<br><br>Grateful for comments; happy to talk it through.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0815<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    },
+    {
+      "id": "a44f91c065df625d",
+      "snippet": "Daniel - agreed, I'll frame paragraph 7 as an EBITDA earn-out with a floor, and carry that through t",
+      "subject": "RE: Project Beacon - draft Heads of Terms",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.reeve@crestviewcapital.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-08-06T13:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Daniel - agreed, I'll frame paragraph 7 as an EBITDA earn-out with a floor, and carry that through to the SPA's Schedule 6. Sending to Denham Lewis this afternoon.\n\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0815\nConfidential and may be legally privileged.\n\nOn Wed, Aug 6, 2025 at 10:05 AM, Daniel Reeve <daniel.reeve@crestviewcapital.com> wrote:\n> James,\n>\n> Looks right. One point - can we make the deferred consideration clearly an earn-out tied to EBITDA rather than a straight deferral? Margaret is keen the GBP2m is genuinely at risk if the FY26 numbers slip.\n>\n> Otherwise happy for this to go to the sellers under cover of subject to contract.\n>\n> Daniel\n>\n> On Tue, Aug 5, 2025 at 4:20 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > Daniel,\n> >\n> > Draft Heads of Terms attached for your review. Key commercial points: EV GBP52m, debt-free/cash-free; equity consideration c.GBP47.5m; GBP43.5m cash at completion, GBP2m retention (18 months), GBP2m deferred/earn-out. Binding exclusivity to 31 October. Subject to contract throughout except the exclusivity, confidentiality and costs paragraphs.\n> >\n> > Grateful for comments; happy to talk it through.\n> >\n> > James\n> >\n> > --\n> > Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0815\n> > Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Daniel - agreed, I&#x27;ll frame paragraph 7 as an EBITDA earn-out with a floor, and carry that through to the SPA&#x27;s Schedule 6. Sending to Denham Lewis this afternoon.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0815<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Aug 6, 2025 at 10:05 AM, Daniel Reeve &lt;daniel.reeve@crestviewcapital.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Looks right. One point - can we make the deferred consideration clearly an earn-out tied to EBITDA rather than a straight deferral? Margaret is keen the GBP2m is genuinely at risk if the FY26 numbers slip.<br><br>Otherwise happy for this to go to the sellers under cover of subject to contract.<br><br>Daniel</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Aug 5, 2025 at 4:20 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Daniel,<br><br>Draft Heads of Terms attached for your review. Key commercial points: EV GBP52m, debt-free/cash-free; equity consideration c.GBP47.5m; GBP43.5m cash at completion, GBP2m retention (18 months), GBP2m deferred/earn-out. Binding exclusivity to 31 October. Subject to contract throughout except the exclusivity, confidentiality and costs paragraphs.<br><br>Grateful for comments; happy to talk it through.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0815<br>Confidential and may be legally privileged.</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "f35bd018c0448c98",
+  "messages": [
+    {
+      "id": "f35bd018c0448c98",
+      "snippet": "Privileged & confidential — internal only. My read on where to land with Sterling: (1) pricing — con",
+      "subject": "Northwind — negotiation strategy (internal, privileged)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-14T18:02:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Privileged & confidential — internal only.\n\nMy read on where to land with Sterling: (1) pricing — concede 4.25% on A and 6.50% on B, that's the market and the client can live with it; (2) covenants — hold the line at 3.50x→3.00x and DSCR 1.10x, the 2.75x step is unrealistic on Marlow's downside; (3) liquidity floor at £1.5m, not £1.75m; (4) exit fee at 1.00%. Amendment fee meet in the middle at £285k.\n\nWatch the directors' duties angle — make sure the board minutes record the creditor-interest analysis properly given the company is in the zone. Elena, please get the security documents finalised in parallel so we're not on the critical path at completion.\n\nSarah",
+      "htmlBody": "<div dir=\"ltr\">Privileged &amp; confidential — internal only.<br><br>My read on where to land with Sterling: (1) pricing — concede 4.25% on A and 6.50% on B, that&#x27;s the market and the client can live with it; (2) covenants — hold the line at 3.50x→3.00x and DSCR 1.10x, the 2.75x step is unrealistic on Marlow&#x27;s downside; (3) liquidity floor at £1.5m, not £1.75m; (4) exit fee at 1.00%. Amendment fee meet in the middle at £285k.<br><br>Watch the directors&#x27; duties angle — make sure the board minutes record the creditor-interest analysis properly given the company is in the zone. Elena, please get the security documents finalised in parallel so we&#x27;re not on the critical path at completion.<br><br>Sarah</div>"
+    },
+    {
+      "id": "27ba1740a41dd37d",
+      "snippet": "Agreed on all. I'll prep the v3 redline against those targets and flag the moved items clearly for A",
+      "subject": "RE: Northwind — negotiation strategy (internal, privileged)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-15T08:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Agreed on all. I'll prep the v3 redline against those targets and flag the moved items clearly for Ashworth Quinn. On duties — I'll add a short note to the board pack on the s.172 creditor-interest point.\n\nJames\n\nOn Tue, Apr 14, 2026 at 6:02 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Privileged & confidential — internal only.\n>\n> My read on where to land with Sterling: (1) pricing — concede 4.25% on A and 6.50% on B, that's the market and the client can live with it; (2) covenants — hold the line at 3.50x→3.00x and DSCR 1.10x, the 2.75x step is unrealistic on Marlow's downside; (3) liquidity floor at £1.5m, not £1.75m; (4) exit fee at 1.00%. Amendment fee meet in the middle at £285k.\n>\n> Watch the directors' duties angle — make sure the board minutes record the creditor-interest analysis properly given the company is in the zone. Elena, please get the security documents finalised in parallel so we're not on the critical path at completion.\n>\n> Sarah",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Agreed on all. I&#x27;ll prep the v3 redline against those targets and flag the moved items clearly for Ashworth Quinn. On duties — I&#x27;ll add a short note to the board pack on the s.172 creditor-interest point.<br><br>James</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Apr 14, 2026 at 6:02 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Privileged &amp; confidential — internal only.<br><br>My read on where to land with Sterling: (1) pricing — concede 4.25% on A and 6.50% on B, that&#x27;s the market and the client can live with it; (2) covenants — hold the line at 3.50x→3.00x and DSCR 1.10x, the 2.75x step is unrealistic on Marlow&#x27;s downside; (3) liquidity floor at £1.5m, not £1.75m; (4) exit fee at 1.00%. Amendment fee meet in the middle at £285k.<br><br>Watch the directors&#x27; duties angle — make sure the board minutes record the creditor-interest analysis properly given the company is in the zone. Elena, please get the security documents finalised in parallel so we&#x27;re not on the critical path at completion.<br><br>Sarah</div></blockquote></div></div>"
+    }
+  ]
+}

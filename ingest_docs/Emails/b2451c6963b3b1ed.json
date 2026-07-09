@@ -1,0 +1,40 @@
+{
+  "id": "b2451c6963b3b1ed",
+  "messages": [
+    {
+      "id": "b2451c6963b3b1ed",
+      "snippet": "Sarah, Following our call, this is the formal go-ahead to act for Harrow on the Brevdale castings pr",
+      "subject": "Brevdale castings - defective housings, need to act",
+      "sender": "gavin.harrow@harrowprecision.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2024-09-30T08:42:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Sarah,\n\nFollowing our call, this is the formal go-ahead to act for Harrow on the Brevdale castings problem. As you know we've had a run of HX units failing in the field and the Wraysbury testing points firmly at the castings. We've now taken the decision to recall the affected units that are already with customers, which is going to be expensive.\n\nCan you set the matter up and start work on a letter of claim under the protocol? Martin Calloway (our Quality & Production Director) will be your main point of contact on the technical side, Rebecca Lund (FD) on the numbers.\n\nGavin",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Following our call, this is the formal go-ahead to act for Harrow on the Brevdale castings problem. As you know we&#x27;ve had a run of HX units failing in the field and the Wraysbury testing points firmly at the castings. We&#x27;ve now taken the decision to recall the affected units that are already with customers, which is going to be expensive.<br><br>Can you set the matter up and start work on a letter of claim under the protocol? Martin Calloway (our Quality &amp; Production Director) will be your main point of contact on the technical side, Rebecca Lund (FD) on the numbers.<br><br>Gavin</div>"
+    },
+    {
+      "id": "1b46285f7c260152",
+      "snippet": "Gavin, Thank you - we'll open the matter today (our ref SAW/HPE/00147). James Osei will lead day to ",
+      "subject": "RE: Brevdale castings - defective housings, need to act",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "gavin.harrow@harrowprecision.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "martin.calloway@harrowprecision.com",
+        "rebecca.lund@harrowprecision.com"
+      ],
+      "date": "2024-09-30T11:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Gavin,\n\nThank you - we'll open the matter today (our ref SAW/HPE/00147). James Osei will lead day to day with Tom Gallagher assisting. We'll work up a protocol-compliant letter of claim once we have the Wraysbury report finalised and a first cut of the loss.\n\nMy initial steer: this looks strong on breach, but the contractual liability cap at clause 12 will be the battleground, so let's be careful to preserve the clause 7 argument. More once I've read the Supply Agreement.\n\nBest, Sarah\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Mon, Sep 30, 2024 at 8:42 AM, Gavin Harrow <gavin.harrow@harrowprecision.com> wrote:\n> Sarah,\n>\n> Following our call, this is the formal go-ahead to act for Harrow on the Brevdale castings problem. As you know we've had a run of HX units failing in the field and the Wraysbury testing points firmly at the castings. We've now taken the decision to recall the affected units that are already with customers, which is going to be expensive.\n>\n> Can you set the matter up and start work on a letter of claim under the protocol? Martin Calloway (our Quality & Production Director) will be your main point of contact on the technical side, Rebecca Lund (FD) on the numbers.\n>\n> Gavin",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Gavin,<br><br>Thank you - we&#x27;ll open the matter today (our ref SAW/HPE/00147). James Osei will lead day to day with Tom Gallagher assisting. We&#x27;ll work up a protocol-compliant letter of claim once we have the Wraysbury report finalised and a first cut of the loss.<br><br>My initial steer: this looks strong on breach, but the contractual liability cap at clause 12 will be the battleground, so let&#x27;s be careful to preserve the clause 7 argument. More once I&#x27;ve read the Supply Agreement.<br><br>Best, Sarah<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Sep 30, 2024 at 8:42 AM, Gavin Harrow &lt;gavin.harrow@harrowprecision.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Following our call, this is the formal go-ahead to act for Harrow on the Brevdale castings problem. As you know we&#x27;ve had a run of HX units failing in the field and the Wraysbury testing points firmly at the castings. We&#x27;ve now taken the decision to recall the affected units that are already with customers, which is going to be expensive.<br><br>Can you set the matter up and start work on a letter of claim under the protocol? Martin Calloway (our Quality &amp; Production Director) will be your main point of contact on the technical side, Rebecca Lund (FD) on the numbers.<br><br>Gavin</div></blockquote></div></div>"
+    }
+  ]
+}

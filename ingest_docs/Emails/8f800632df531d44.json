@@ -1,0 +1,43 @@
+{
+  "id": "8f800632df531d44",
+  "messages": [
+    {
+      "id": "8f800632df531d44",
+      "snippet": "Dear James, Please find enclosed via our data room the draft contract for sale, official copies of t",
+      "subject": "Kingsmoor House, Leeds - draft contract and title pack",
+      "sender": "zoe.abbott@marlowegreaves.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "martin.greaves@marlowegreaves.com"
+      ],
+      "date": "2026-02-20T11:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear James,\n\nPlease find enclosed via our data room the draft contract for sale, official copies of title WYK482116, the tenancy schedule, the occupational leases and the two rent deposit deeds. CPSE replies will follow shortly. Our clients are keen to exchange by end March.\n\nKind regards,\n\nZoe Abbott\nAssociate | Marlowe Greaves LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear James,<br><br>Please find enclosed via our data room the draft contract for sale, official copies of title WYK482116, the tenancy schedule, the occupational leases and the two rent deposit deeds. CPSE replies will follow shortly. Our clients are keen to exchange by end March.<br><br>Kind regards,<br><br>Zoe Abbott<br>Associate | Marlowe Greaves LLP</div>"
+    },
+    {
+      "id": "012a20a602a6b4b9",
+      "snippet": "Dear Zoe, Thank you - received. We're reviewing title and the leases and will raise enquiries this w",
+      "subject": "RE: Kingsmoor House, Leeds - draft contract and title pack",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "zoe.abbott@marlowegreaves.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-23T09:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Zoe,\n\nThank you - received. We're reviewing title and the leases and will raise enquiries this week. We'll also send a marked-up contract. We note the option to tax and will confirm our client's VAT position for TOGC.\n\nRegards,\n\nJames Osei\nSenior Associate | Real Estate\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0500\n\nOn Fri, Feb 20, 2026 at 11:30 AM, Zoe Abbott <zoe.abbott@marlowegreaves.com> wrote:\n> Dear James,\n>\n> Please find enclosed via our data room the draft contract for sale, official copies of title WYK482116, the tenancy schedule, the occupational leases and the two rent deposit deeds. CPSE replies will follow shortly. Our clients are keen to exchange by end March.\n>\n> Kind regards,\n>\n> Zoe Abbott\n> Associate | Marlowe Greaves LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Zoe,<br><br>Thank you - received. We&#x27;re reviewing title and the leases and will raise enquiries this week. We&#x27;ll also send a marked-up contract. We note the option to tax and will confirm our client&#x27;s VAT position for TOGC.<br><br>Regards,<br><br>James Osei<br>Senior Associate | Real Estate<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0500</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Feb 20, 2026 at 11:30 AM, Zoe Abbott &lt;zoe.abbott@marlowegreaves.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear James,<br><br>Please find enclosed via our data room the draft contract for sale, official copies of title WYK482116, the tenancy schedule, the occupational leases and the two rent deposit deeds. CPSE replies will follow shortly. Our clients are keen to exchange by end March.<br><br>Kind regards,<br><br>Zoe Abbott<br>Associate | Marlowe Greaves LLP</div></blockquote></div></div>"
+    }
+  ]
+}

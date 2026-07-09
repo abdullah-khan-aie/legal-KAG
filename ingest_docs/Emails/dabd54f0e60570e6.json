@@ -1,0 +1,35 @@
+{
+  "id": "dabd54f0e60570e6",
+  "messages": [
+    {
+      "id": "dabd54f0e60570e6",
+      "snippet": "Richard, Please find attached our engagement letter for the Hartnell matter (our ref WC-00130). As n",
+      "subject": "WC-00130 - engagement letter",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "richard.calloway@brackengroup.com"
+      ],
+      "ccRecipients": [
+        "karen.mensah@brackengroup.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-01-21T11:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Richard,\n\nPlease find attached our engagement letter for the Hartnell matter (our ref WC-00130). As noted, our estimate for advising on and negotiating a settlement is £18,000-£26,000 plus VAT, with a separate estimate if the Tribunal claim is defended.\n\nGrateful if you could return a signed copy at your convenience. We'll proceed in the meantime.\n\nKind regards,\nTom\n\nTom Gallagher\nAssociate | Employment\nWhitfield Carter LLP\nT: 020 7946 0021",
+      "htmlBody": "<div dir=\"ltr\">Richard,<br><br>Please find attached our engagement letter for the Hartnell matter (our ref WC-00130). As noted, our estimate for advising on and negotiating a settlement is £18,000-£26,000 plus VAT, with a separate estimate if the Tribunal claim is defended.<br><br>Grateful if you could return a signed copy at your convenience. We&#x27;ll proceed in the meantime.<br><br>Kind regards,<br>Tom<br><br>Tom Gallagher<br>Associate | Employment<br>Whitfield Carter LLP<br>T: 020 7946 0021</div>",
+      "attachmentIds": [
+        "tnwDu9Vh3hxgWM7YjnVhoJ3iDcTzDR1Vq-YhUtg5WRI"
+      ],
+      "attachments": [
+        {
+          "filename": "Ferris_EngagementLetter.docx",
+          "id": "tnwDu9Vh3hxgWM7YjnVhoJ3iDcTzDR1Vq-YhUtg5WRI",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

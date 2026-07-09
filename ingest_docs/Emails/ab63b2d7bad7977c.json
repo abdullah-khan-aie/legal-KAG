@@ -1,0 +1,54 @@
+{
+  "id": "ab63b2d7bad7977c",
+  "messages": [
+    {
+      "id": "ab63b2d7bad7977c",
+      "snippet": "Tom, Our redline attached. Headline changes: ex-gratia up to £95k, fees contribution to £2,500, cove",
+      "subject": "RE: Garrety - draft settlement agreement (SUBJECT TO CONTRACT)",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "deepa.kovac@birchallstone.com"
+      ],
+      "date": "2025-03-12T10:35:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom,\n\nOur redline attached. Headline changes: ex-gratia up to £95k, fees contribution to £2,500, covenants reduced to 9 months, and we've added an outplacement clause (we've put £5k). Subject to those, my client is minded to settle. The whistleblowing point isn't going away if we don't.\n\nOliver",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>Our redline attached. Headline changes: ex-gratia up to £95k, fees contribution to £2,500, covenants reduced to 9 months, and we&#x27;ve added an outplacement clause (we&#x27;ve put £5k). Subject to those, my client is minded to settle. The whistleblowing point isn&#x27;t going away if we don&#x27;t.<br><br>Oliver</div>",
+      "attachmentIds": [
+        "rKemUZGVSoN-Jll8EYJto-wpKSWVi2pXVQB3V_-P5eU"
+      ],
+      "attachments": [
+        {
+          "filename": "Garrety_SettlementAgreement_v2_redline.docx",
+          "id": "rKemUZGVSoN-Jll8EYJto-wpKSWVi2pXVQB3V_-P5eU",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "a7e1783a6269cf8f",
+      "snippet": "Oliver, Thanks. I'll take instructions on the numbers. The 9-month covenant and the outplacement at ",
+      "subject": "RE: Garrety - draft settlement agreement (SUBJECT TO CONTRACT)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "deepa.kovac@birchallstone.com"
+      ],
+      "date": "2025-03-13T15:50:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Oliver,\n\nThanks. I'll take instructions on the numbers. The 9-month covenant and the outplacement at £5k are likely acceptable; the ex-gratia at £95k I'll need to get signed off. Reverting shortly.\n\nKind regards,\nTom Gallagher\nAssociate | Employment & Disputes\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0834\nConfidential and may be legally privileged.\n\nOn Wed, Mar 12, 2025 at 10:35 AM, Oliver Jennings <oliver.jennings@birchallstone.com> wrote:\n> Tom,\n>\n> Our redline attached. Headline changes: ex-gratia up to £95k, fees contribution to £2,500, covenants reduced to 9 months, and we've added an outplacement clause (we've put £5k). Subject to those, my client is minded to settle. The whistleblowing point isn't going away if we don't.\n>\n> Oliver",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Oliver,<br><br>Thanks. I&#x27;ll take instructions on the numbers. The 9-month covenant and the outplacement at £5k are likely acceptable; the ex-gratia at £95k I&#x27;ll need to get signed off. Reverting shortly.<br><br>Kind regards,<br>Tom Gallagher<br>Associate | Employment &amp; Disputes<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0834<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Mar 12, 2025 at 10:35 AM, Oliver Jennings &lt;oliver.jennings@birchallstone.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom,<br><br>Our redline attached. Headline changes: ex-gratia up to £95k, fees contribution to £2,500, covenants reduced to 9 months, and we&#x27;ve added an outplacement clause (we&#x27;ve put £5k). Subject to those, my client is minded to settle. The whistleblowing point isn&#x27;t going away if we don&#x27;t.<br><br>Oliver</div></blockquote></div></div>"
+    }
+  ]
+}

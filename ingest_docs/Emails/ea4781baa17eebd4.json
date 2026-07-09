@@ -1,0 +1,24 @@
+{
+  "id": "ea4781baa17eebd4",
+  "messages": [
+    {
+      "id": "ea4781baa17eebd4",
+      "snippet": "All, The document management system (NetDocs) will be unavailable this Saturday 14 March from 22:00 ",
+      "subject": "[Action] DMS maintenance window — Saturday 14 March, 22:00–02:00",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "donna.bridges@whitfieldcarter.com"
+      ],
+      "date": "2026-03-09T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "All,\n\nThe document management system (NetDocs) will be unavailable this Saturday 14 March from 22:00 to 02:00 for a scheduled upgrade. Please check in any documents you have open before 21:30. Email and the time-recording system are unaffected.\n\nThanks,\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>The document management system (NetDocs) will be unavailable this Saturday 14 March from 22:00 to 02:00 for a scheduled upgrade. Please check in any documents you have open before 21:30. Email and the time-recording system are unaffected.<br><br>Thanks,<br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

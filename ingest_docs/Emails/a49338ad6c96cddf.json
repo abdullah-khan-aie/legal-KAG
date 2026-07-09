@@ -1,0 +1,41 @@
+{
+  "id": "a49338ad6c96cddf",
+  "messages": [
+    {
+      "id": "a49338ad6c96cddf",
+      "snippet": "Rebecca, For the TOGC treatment to hold, Thornbury needs, before completion, to: (a) be VAT-register",
+      "subject": "Project Harbor — pre-completion items (VAT/TOGC)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "rebecca.stone@thornburyproperties.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "isla.fournier@thornburyproperties.com"
+      ],
+      "date": "2026-02-18T09:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Rebecca,\n\nFor the TOGC treatment to hold, Thornbury needs, before completion, to: (a) be VAT-registered (confirmed); (b) opt to tax Maritime Quarter and notify HMRC; and (c) confirm the capital goods scheme article doesn't apply. We've prepared the option to tax notification — can you arrange signature this week? We'll notify HMRC on 19 Feb.\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Rebecca,<br><br>For the TOGC treatment to hold, Thornbury needs, before completion, to: (a) be VAT-registered (confirmed); (b) opt to tax Maritime Quarter and notify HMRC; and (c) confirm the capital goods scheme article doesn&#x27;t apply. We&#x27;ve prepared the option to tax notification — can you arrange signature this week? We&#x27;ll notify HMRC on 19 Feb.<br><br>James</div>"
+    },
+    {
+      "id": "58fcf1ee3e01ab85",
+      "snippet": "James — signed option to tax returned to you. Please go ahead and notify HMRC. Confirmed the CGS art",
+      "subject": "RE: Project Harbor — pre-completion items (VAT/TOGC)",
+      "sender": "rebecca.stone@thornburyproperties.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-19T15:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James — signed option to tax returned to you. Please go ahead and notify HMRC. Confirmed the CGS article doesn't apply (no relevant capital expenditure). Rebecca\n\nOn Wed, Feb 18, 2026 at 9:00 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Rebecca,\n>\n> For the TOGC treatment to hold, Thornbury needs, before completion, to: (a) be VAT-registered (confirmed); (b) opt to tax Maritime Quarter and notify HMRC; and (c) confirm the capital goods scheme article doesn't apply. We've prepared the option to tax notification — can you arrange signature this week? We'll notify HMRC on 19 Feb.\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James — signed option to tax returned to you. Please go ahead and notify HMRC. Confirmed the CGS article doesn&#x27;t apply (no relevant capital expenditure). Rebecca</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 18, 2026 at 9:00 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Rebecca,<br><br>For the TOGC treatment to hold, Thornbury needs, before completion, to: (a) be VAT-registered (confirmed); (b) opt to tax Maritime Quarter and notify HMRC; and (c) confirm the capital goods scheme article doesn&#x27;t apply. We&#x27;ve prepared the option to tax notification — can you arrange signature this week? We&#x27;ll notify HMRC on 19 Feb.<br><br>James</div></blockquote></div></div>"
+    }
+  ]
+}

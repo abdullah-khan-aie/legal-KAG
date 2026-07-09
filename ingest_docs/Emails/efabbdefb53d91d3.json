@@ -1,0 +1,22 @@
+{
+  "id": "efabbdefb53d91d3",
+  "messages": [
+    {
+      "id": "efabbdefb53d91d3",
+      "snippet": "Hi all, A reminder that this month's corporate know-how session, 'Anti-dilution mechanics in venture",
+      "subject": "Reminder: Corporate know-how session - Anti-dilution mechanics",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-21T10:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi all,\n\nA reminder that this month's corporate know-how session, 'Anti-dilution mechanics in venture deals: weighted-average vs full ratchet', takes place Thursday at 12:30 in Room 4B (lunch provided). 1 hour CPD. Please register via the L&D portal.\n\nLearning & Development, Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hi all,<br><br>A reminder that this month&#x27;s corporate know-how session, &#x27;Anti-dilution mechanics in venture deals: weighted-average vs full ratchet&#x27;, takes place Thursday at 12:30 in Room 4B (lunch provided). 1 hour CPD. Please register via the L&amp;D portal.<br><br>Learning &amp; Development, Whitfield Carter LLP</div>"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "3fdafc40febf7b1c",
+  "messages": [
+    {
+      "id": "3fdafc40febf7b1c",
+      "snippet": "You're invited to a CPD session on 24 April, 12:30–13:30 in Room 4B, covering recent EAT decisions o",
+      "subject": "Lunchtime CPD: Recent developments in discrimination law",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "employment-group@whitfieldcarter.com"
+      ],
+      "date": "2025-04-03T10:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "You're invited to a CPD session on 24 April, 12:30–13:30 in Room 4B, covering recent EAT decisions on age and disability discrimination and the latest Vento bands. Sandwiches provided. RSVP to Knowledge & Learning.\n\nBest,\nK&L Team",
+      "htmlBody": "<div dir=\"ltr\">You&#x27;re invited to a CPD session on 24 April, 12:30–13:30 in Room 4B, covering recent EAT decisions on age and disability discrimination and the latest Vento bands. Sandwiches provided. RSVP to Knowledge &amp; Learning.<br><br>Best,<br>K&amp;L Team</div>"
+    }
+  ]
+}

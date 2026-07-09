@@ -1,0 +1,35 @@
+{
+  "id": "e4f0a4adb4c96850",
+  "messages": [
+    {
+      "id": "e4f0a4adb4c96850",
+      "snippet": "Gordon, Diane, We filed the Company's response (ET3) and Grounds of Resistance with the Birmingham T",
+      "subject": "Whitcombe - ET3 and Grounds of Resistance filed",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "gordon.sutherland@sutherlandlogistics.co.uk",
+        "diane.pryor@sutherlandlogistics.co.uk"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "lesley.crane@sutherlandlogistics.co.uk"
+      ],
+      "date": "2026-04-08T16:25:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Gordon, Diane,\n\nWe filed the Company's response (ET3) and Grounds of Resistance with the Birmingham Tribunal this afternoon, within time. A copy is attached for your records. In short, we deny the claim in full: the dismissal was by reason of a genuine redundancy, the process was fair, and the protected disclosure played no part in the selection.\n\nThe next step will be the claimant's Schedule of Loss, after which we'll send you our merits and settlement advice.\n\nBest wishes,\nTom Gallagher\nAssociate | Employment\nWhitfield Carter LLP\nT +44 (0)20 7946 0538\n\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Gordon, Diane,<br><br>We filed the Company&#x27;s response (ET3) and Grounds of Resistance with the Birmingham Tribunal this afternoon, within time. A copy is attached for your records. In short, we deny the claim in full: the dismissal was by reason of a genuine redundancy, the process was fair, and the protected disclosure played no part in the selection.<br><br>The next step will be the claimant&#x27;s Schedule of Loss, after which we&#x27;ll send you our merits and settlement advice.<br><br>Best wishes,<br>Tom Gallagher<br>Associate | Employment<br>Whitfield Carter LLP<br>T +44 (0)20 7946 0538<br><br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "yxE2x9CrcDVzthxm-o8Anqk1lg17KS-j8e58fLFbfo0"
+      ],
+      "attachments": [
+        {
+          "filename": "Whitcombe_ET3_GroundsOfResistance.docx",
+          "id": "yxE2x9CrcDVzthxm-o8Anqk1lg17KS-j8e58fLFbfo0",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

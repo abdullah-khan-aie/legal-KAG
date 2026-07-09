@@ -1,0 +1,24 @@
+{
+  "id": "7b32323aefd5c87d",
+  "messages": [
+    {
+      "id": "7b32323aefd5c87d",
+      "snippet": "Dear fee earners, Our records show unposted time for the period to 28 May. Please ensure all time is",
+      "subject": "Time recording reminder - May narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-05-29T16:45:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear fee earners,\n\nOur records show unposted time for the period to 28 May. Please ensure all time is recorded and narratives completed by 12:00 on Monday 2 June so that the May bills can be raised on schedule. Partners, please review and approve draft bills in the WIP report by close on Tuesday.\n\nRegards,\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear fee earners,<br><br>Our records show unposted time for the period to 28 May. Please ensure all time is recorded and narratives completed by 12:00 on Monday 2 June so that the May bills can be raised on schedule. Partners, please review and approve draft bills in the WIP report by close on Tuesday.<br><br>Regards,<br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

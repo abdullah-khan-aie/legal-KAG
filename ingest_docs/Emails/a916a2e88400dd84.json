@@ -1,0 +1,55 @@
+{
+  "id": "a916a2e88400dd84",
+  "messages": [
+    {
+      "id": "a916a2e88400dd84",
+      "snippet": "Sarah, As discussed, we'd like to instruct Whitfield Carter on the acquisition of Redwood House, 14 ",
+      "subject": "Project Redwood — instruction (Aldersgate Street acquisition)",
+      "sender": "tom.beckworth@calderfieldcapital.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-11T09:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nAs discussed, we'd like to instruct Whitfield Carter on the acquisition of Redwood House, 14 Aldersgate Street EC1A. It's a multi-let office investment, six storeys plus a ground-floor retail unit, four tenants, passing rent c.£1.49m. Price agreed in principle at £21.75m, off-market via the seller Hartmoor Estates.\n\nWe'll be buying through a new SPV. Could you send your engagement letter and get title review under way? Howard wants this to board on 5 March.\n\nTom",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>As discussed, we&#x27;d like to instruct Whitfield Carter on the acquisition of Redwood House, 14 Aldersgate Street EC1A. It&#x27;s a multi-let office investment, six storeys plus a ground-floor retail unit, four tenants, passing rent c.£1.49m. Price agreed in principle at £21.75m, off-market via the seller Hartmoor Estates.<br><br>We&#x27;ll be buying through a new SPV. Could you send your engagement letter and get title review under way? Howard wants this to board on 5 March.<br><br>Tom</div>"
+    },
+    {
+      "id": "aa118c0b6ea24d4c",
+      "snippet": "Tom, Delighted — thank you for the instruction. Engagement letter attached; please sign and return, ",
+      "subject": "RE: Project Redwood — instruction (Aldersgate Street acquisition)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.beckworth@calderfieldcapital.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-12T11:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Tom,\n\nDelighted — thank you for the instruction. Engagement letter attached; please sign and return, and we'll send AML requirements for the SPV directors separately. James will have day-to-day conduct, with Elena assisting on the lease review.\n\nWe'll request the title pack and replies from Pemberton Rowe today and aim to report to you in good time before the 5 March board. On a £21.75m price the SDLT will be around £1.077m — worth flagging to your tax team.\n\nBest,\nSarah\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nDX 134777 Bishopsgate | +44 (0)20 7946 0500\nConfidential and may be legally privileged.\n\nOn Wed, Feb 11, 2026 at 9:05 AM, Tom Beckworth <tom.beckworth@calderfieldcapital.com> wrote:\n> Sarah,\n>\n> As discussed, we'd like to instruct Whitfield Carter on the acquisition of Redwood House, 14 Aldersgate Street EC1A. It's a multi-let office investment, six storeys plus a ground-floor retail unit, four tenants, passing rent c.£1.49m. Price agreed in principle at £21.75m, off-market via the seller Hartmoor Estates.\n>\n> We'll be buying through a new SPV. Could you send your engagement letter and get title review under way? Howard wants this to board on 5 March.\n>\n> Tom",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>Delighted — thank you for the instruction. Engagement letter attached; please sign and return, and we&#x27;ll send AML requirements for the SPV directors separately. James will have day-to-day conduct, with Elena assisting on the lease review.<br><br>We&#x27;ll request the title pack and replies from Pemberton Rowe today and aim to report to you in good time before the 5 March board. On a £21.75m price the SDLT will be around £1.077m — worth flagging to your tax team.<br><br>Best,<br>Sarah<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>DX 134777 Bishopsgate | +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 11, 2026 at 9:05 AM, Tom Beckworth &lt;tom.beckworth@calderfieldcapital.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>As discussed, we&#x27;d like to instruct Whitfield Carter on the acquisition of Redwood House, 14 Aldersgate Street EC1A. It&#x27;s a multi-let office investment, six storeys plus a ground-floor retail unit, four tenants, passing rent c.£1.49m. Price agreed in principle at £21.75m, off-market via the seller Hartmoor Estates.<br><br>We&#x27;ll be buying through a new SPV. Could you send your engagement letter and get title review under way? Howard wants this to board on 5 March.<br><br>Tom</div></blockquote></div></div>",
+      "attachmentIds": [
+        "JEtWagl9XdveKNyVct0yz3RE3tdfbVYb1T33EiU-fjg"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Redwood_EngagementLetter.docx",
+          "id": "JEtWagl9XdveKNyVct0yz3RE3tdfbVYb1T33EiU-fjg",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "4efb47aeb7c9bdf3",
+  "messages": [
+    {
+      "id": "4efb47aeb7c9bdf3",
+      "snippet": "Mate are you in for football tonight, we're one short. 7pm at the usual place. Let me know. Tom (Sor",
+      "subject": "5-a-side tonight?",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-05T18:45:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Mate are you in for football tonight, we're one short. 7pm at the usual place. Let me know. Tom\n\n(Sorry James - meant to send this to the other James in litigation!)",
+      "htmlBody": "<div dir=\"ltr\">Mate are you in for football tonight, we&#x27;re one short. 7pm at the usual place. Let me know. Tom<br><br>(Sorry James - meant to send this to the other James in litigation!)</div>"
+    }
+  ]
+}

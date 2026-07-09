@@ -1,0 +1,23 @@
+{
+  "id": "9c9fd2df23411b12",
+  "messages": [
+    {
+      "id": "9c9fd2df23411b12",
+      "snippet": "Hi all, A reminder that January time needs to be entered and released by close of play this Friday s",
+      "subject": "Month-end reminder: time entry and WIP by COP Friday",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-01-30T16:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi all,\n\nA reminder that January time needs to be entered and released by close of play this Friday so we can run the month-end WIP and billing. Several matters are showing unposted time. If you have any write-offs to flag on active matters, please let me know before the billing run.\n\nThanks,\nAccounts | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hi all,<br><br>A reminder that January time needs to be entered and released by close of play this Friday so we can run the month-end WIP and billing. Several matters are showing unposted time. If you have any write-offs to flag on active matters, please let me know before the billing run.<br><br>Thanks,<br>Accounts | Whitfield Carter LLP</div>"
+    }
+  ]
+}

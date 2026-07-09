@@ -1,0 +1,55 @@
+{
+  "id": "8c4b218f8cb21fe1",
+  "messages": [
+    {
+      "id": "8c4b218f8cb21fe1",
+      "snippet": "Catherine, Tom, Attached is the completion funds flow. Total funds required at completion are £39,55",
+      "subject": "Project Willow - funds flow for completion",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "catherine.barlow@hallorancapital.com",
+        "tom.reid@hallorancapital.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-05-13T09:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Catherine, Tom,\n\nAttached is the completion funds flow. Total funds required at completion are £39,550,000, comprising £37,550,000 to the sellers via Castle & Vane's client account and £2,000,000 into the joint retention account. Grateful if Tom could arrange for the funds to be with us by close on 15 May so we can complete on the 16th.\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Catherine, Tom,<br><br>Attached is the completion funds flow. Total funds required at completion are £39,550,000, comprising £37,550,000 to the sellers via Castle &amp; Vane&#x27;s client account and £2,000,000 into the joint retention account. Grateful if Tom could arrange for the funds to be with us by close on 15 May so we can complete on the 16th.<br><br>James</div>",
+      "attachmentIds": [
+        "5Yfsf8ep0Uf-3_3gITXAj_FhsGwqY8ZN236buSgHeo4"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Willow_FundsFlow_and_CapTable.xlsx",
+          "id": "5Yfsf8ep0Uf-3_3gITXAj_FhsGwqY8ZN236buSgHeo4",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "a348b9f594ee76a1",
+      "snippet": "James - funds will be remitted to your client account on 15 May. Please confirm the account details ",
+      "subject": "RE: Project Willow - funds flow for completion",
+      "sender": "tom.reid@hallorancapital.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "catherine.barlow@hallorancapital.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-05-13T13:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James - funds will be remitted to your client account on 15 May. Please confirm the account details by secure means separately. We're set our end for the 16th.\n\nTom\n\nOn Tue, May 13, 2025 at 9:20 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Catherine, Tom,\n>\n> Attached is the completion funds flow. Total funds required at completion are £39,550,000, comprising £37,550,000 to the sellers via Castle & Vane's client account and £2,000,000 into the joint retention account. Grateful if Tom could arrange for the funds to be with us by close on 15 May so we can complete on the 16th.\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James - funds will be remitted to your client account on 15 May. Please confirm the account details by secure means separately. We&#x27;re set our end for the 16th.<br><br>Tom</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, May 13, 2025 at 9:20 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Catherine, Tom,<br><br>Attached is the completion funds flow. Total funds required at completion are £39,550,000, comprising £37,550,000 to the sellers via Castle &amp; Vane&#x27;s client account and £2,000,000 into the joint retention account. Grateful if Tom could arrange for the funds to be with us by close on 15 May so we can complete on the 16th.<br><br>James</div></blockquote></div></div>"
+    }
+  ]
+}

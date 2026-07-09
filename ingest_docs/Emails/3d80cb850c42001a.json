@@ -1,0 +1,23 @@
+{
+  "id": "3d80cb850c42001a",
+  "messages": [
+    {
+      "id": "3d80cb850c42001a",
+      "snippet": "You are invited to the next Corporate Group know-how session on Thursday 23 April at 12.30pm in the ",
+      "subject": "Invitation: Corporate Group know-how session - W&I insurance trends",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-15T10:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "You are invited to the next Corporate Group know-how session on Thursday 23 April at 12.30pm in the Bishopsgate training room (lunch provided). Topic: recent trends in W&I insurance and synthetic warranties. Please RSVP to L&D.\n\nWhitfield Carter Learning & Development",
+      "htmlBody": "<div dir=\"ltr\">You are invited to the next Corporate Group know-how session on Thursday 23 April at 12.30pm in the Bishopsgate training room (lunch provided). Topic: recent trends in W&amp;I insurance and synthetic warranties. Please RSVP to L&amp;D.<br><br>Whitfield Carter Learning &amp; Development</div>"
+    }
+  ]
+}

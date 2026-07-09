@@ -1,0 +1,54 @@
+{
+  "id": "4fdaacc9470dae9e",
+  "messages": [
+    {
+      "id": "4fdaacc9470dae9e",
+      "snippet": "Dear Tom, Please find our client's Defence, served today. In summary: latent compressor defect on th",
+      "subject": "Defence - Hartwell v Cryovance (CL-2026-000214)",
+      "sender": "nadia.iqbal@pembertonrowe.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "alistair.whitlock@pembertonrowe.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-13T17:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear Tom,\n\nPlease find our client's Defence, served today. In summary: latent compressor defect on the first consignment; causation and total loss put in issue on both; and reliance on clause 11.3 as a reasonable, freely negotiated allocation of risk.\n\nRegards,\nNadia Iqbal\nPemberton Rowe LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Tom,<br><br>Please find our client&#x27;s Defence, served today. In summary: latent compressor defect on the first consignment; causation and total loss put in issue on both; and reliance on clause 11.3 as a reasonable, freely negotiated allocation of risk.<br><br>Regards,<br>Nadia Iqbal<br>Pemberton Rowe LLP</div>",
+      "attachmentIds": [
+        "5R1ea-enC7yGQyv5_OOyelaFlhg977hgPSF5_maoRpA"
+      ],
+      "attachments": [
+        {
+          "filename": "Cryovance_Defence.pdf",
+          "id": "5R1ea-enC7yGQyv5_OOyelaFlhg977hgPSF5_maoRpA",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "beb9d93e94751af5",
+      "snippet": "Sarah - Defence in. As expected they hang everything on 11.3 and put us to proof on causation/total ",
+      "subject": "FW: Defence - Hartwell v Cryovance (CL-2026-000214)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-13T18:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah - Defence in. As expected they hang everything on 11.3 and put us to proof on causation/total loss. The 'latent defect' point on consignment 1 doesn't touch consignment 2 (driver switched the unit off), which keeps our pattern argument intact. I'll send our directions letter and push for disclosure of the CAPA and tachograph records. Drafting the chronology and Stephen's statement now.\n\nTom\n\n--\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Fri, Mar 13, 2026 at 5:20 PM, Nadia Iqbal <nadia.iqbal@pembertonrowe.com> wrote:\n> Dear Tom,\n>\n> Please find our client's Defence, served today. In summary: latent compressor defect on the first consignment; causation and total loss put in issue on both; and reliance on clause 11.3 as a reasonable, freely negotiated allocation of risk.\n>\n> Regards,\n> Nadia Iqbal\n> Pemberton Rowe LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah - Defence in. As expected they hang everything on 11.3 and put us to proof on causation/total loss. The &#x27;latent defect&#x27; point on consignment 1 doesn&#x27;t touch consignment 2 (driver switched the unit off), which keeps our pattern argument intact. I&#x27;ll send our directions letter and push for disclosure of the CAPA and tachograph records. Drafting the chronology and Stephen&#x27;s statement now.<br><br>Tom<br><br>--<br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Mar 13, 2026 at 5:20 PM, Nadia Iqbal &lt;nadia.iqbal@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Tom,<br><br>Please find our client&#x27;s Defence, served today. In summary: latent compressor defect on the first consignment; causation and total loss put in issue on both; and reliance on clause 11.3 as a reasonable, freely negotiated allocation of risk.<br><br>Regards,<br>Nadia Iqbal<br>Pemberton Rowe LLP</div></blockquote></div></div>"
+    }
+  ]
+}

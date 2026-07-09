@@ -1,0 +1,24 @@
+{
+  "id": "aba34a74af6ff3f1",
+  "messages": [
+    {
+      "id": "aba34a74af6ff3f1",
+      "snippet": "All, The document management system (iManage) will be unavailable on Saturday 13 September between 0",
+      "subject": "Planned DMS maintenance - Saturday 13 September",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "donna.bridges@whitfieldcarter.com"
+      ],
+      "date": "2025-09-06T07:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "All,\n\nThe document management system (iManage) will be unavailable on Saturday 13 September between 07:00 and 11:00 BST for scheduled maintenance and indexing. Please check in any documents you are working on before close of play on Friday. Email and the network will be unaffected.\n\nIf you have an urgent need to access documents during the window, contact the helpdesk on x2200.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>The document management system (iManage) will be unavailable on Saturday 13 September between 07:00 and 11:00 BST for scheduled maintenance and indexing. Please check in any documents you are working on before close of play on Friday. Email and the network will be unaffected.<br><br>If you have an urgent need to access documents during the window, contact the helpdesk on x2200.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

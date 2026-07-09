@@ -1,0 +1,25 @@
+{
+  "id": "b89289e6ccb9e7c2",
+  "messages": [
+    {
+      "id": "b89289e6ccb9e7c2",
+      "snippet": "Hello, Our records show unposted time for March. Please ensure all narratives are submitted by close",
+      "subject": "Time recording reminder - March narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-01T08:15:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hello,\n\nOur records show unposted time for March. Please ensure all narratives are submitted by close of business on 3 April so we can run the month-end WIP report. Matters with a high WIP balance should be reviewed for interim billing.\n\nThank you\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hello,<br><br>Our records show unposted time for March. Please ensure all narratives are submitted by close of business on 3 April so we can run the month-end WIP report. Matters with a high WIP balance should be reviewed for interim billing.<br><br>Thank you<br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

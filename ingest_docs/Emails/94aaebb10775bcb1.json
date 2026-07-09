@@ -1,0 +1,24 @@
+{
+  "id": "94aaebb10775bcb1",
+  "messages": [
+    {
+      "id": "94aaebb10775bcb1",
+      "snippet": "Dear all, The firm's DMS will be unavailable on Saturday 13 December from 07:00 to 13:00 GMT for sch",
+      "subject": "Scheduled maintenance: document management system (Sat 13 Dec)",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-12-09T07:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Dear all,\n\nThe firm's DMS will be unavailable on Saturday 13 December from 07:00 to 13:00 GMT for scheduled maintenance and indexing. Please save any in-progress documents locally before the window. Email will be unaffected.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>The firm&#x27;s DMS will be unavailable on Saturday 13 December from 07:00 to 13:00 GMT for scheduled maintenance and indexing. Please save any in-progress documents locally before the window. Email will be unaffected.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

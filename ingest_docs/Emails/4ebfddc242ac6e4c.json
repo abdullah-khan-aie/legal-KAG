@@ -1,0 +1,54 @@
+{
+  "id": "4ebfddc242ac6e4c",
+  "messages": [
+    {
+      "id": "4ebfddc242ac6e4c",
+      "snippet": "Dear Alice, Great to speak earlier. As discussed, please find attached our engagement letter for the",
+      "subject": "Project Solstice - engagement letter",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "alice.wren@larkmoorbio.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-06-04T09:12:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Alice,\n\nGreat to speak earlier. As discussed, please find attached our engagement letter for the Series A round (internally Project Solstice). James Osei will lead day-to-day, supervised by me.\n\nOur fee estimate is £48,000-£56,000 plus VAT; separately the Company has agreed under the term sheet to bear Ardent's legal fees up to £35,000 plus VAT. If you're happy, please sign and return.\n\nBest,\n\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\">Dear Alice,<br><br>Great to speak earlier. As discussed, please find attached our engagement letter for the Series A round (internally Project Solstice). James Osei will lead day-to-day, supervised by me.<br><br>Our fee estimate is £48,000-£56,000 plus VAT; separately the Company has agreed under the term sheet to bear Ardent&#x27;s legal fees up to £35,000 plus VAT. If you&#x27;re happy, please sign and return.<br><br>Best,<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div>",
+      "attachmentIds": [
+        "R0WzVWIlsF-E0kKy0vHUm1MFNYSDYZ2XLN9c4TUx2WQ"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Solstice_EngagementLetter.docx",
+          "id": "R0WzVWIlsF-E0kKy0vHUm1MFNYSDYZ2XLN9c4TUx2WQ",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "2641209ebfbc7d98",
+      "snippet": "Hi Sarah, Thank you - countersigned copy attached separately by Marcus. Looking forward to getting g",
+      "subject": "RE: Project Solstice - engagement letter",
+      "sender": "alice.wren@larkmoorbio.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "marcus.veldt@larkmoorbio.com"
+      ],
+      "date": "2025-06-05T08:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Hi Sarah,\n\nThank you - countersigned copy attached separately by Marcus. Looking forward to getting going. Sanjay and I are around most of next week.\n\nAlice\n\nOn Wed, Jun 4, 2025 at 9:12 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Dear Alice,\n>\n> Great to speak earlier. As discussed, please find attached our engagement letter for the Series A round (internally Project Solstice). James Osei will lead day-to-day, supervised by me.\n>\n> Our fee estimate is £48,000-£56,000 plus VAT; separately the Company has agreed under the term sheet to bear Ardent's legal fees up to £35,000 plus VAT. If you're happy, please sign and return.\n>\n> Best,\n>\n> Sarah Whitfield\n> Partner | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Hi Sarah,<br><br>Thank you - countersigned copy attached separately by Marcus. Looking forward to getting going. Sanjay and I are around most of next week.<br><br>Alice</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jun 4, 2025 at 9:12 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Alice,<br><br>Great to speak earlier. As discussed, please find attached our engagement letter for the Series A round (internally Project Solstice). James Osei will lead day-to-day, supervised by me.<br><br>Our fee estimate is £48,000-£56,000 plus VAT; separately the Company has agreed under the term sheet to bear Ardent&#x27;s legal fees up to £35,000 plus VAT. If you&#x27;re happy, please sign and return.<br><br>Best,<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div></blockquote></div></div>"
+    }
+  ]
+}

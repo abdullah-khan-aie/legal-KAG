@@ -1,0 +1,45 @@
+{
+  "id": "dde50f5adc1875e2",
+  "messages": [
+    {
+      "id": "dde50f5adc1875e2",
+      "snippet": "Sarah, Unrelated to Aquilo, but the first annual CPI price review under the Stratton Energy supply a",
+      "subject": "Stratton - first annual price review coming up",
+      "sender": "rebecca.lund@harrowprecision.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-23T10:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Sarah,\n\nUnrelated to Aquilo, but the first annual CPI price review under the Stratton Energy supply agreement is due next month. Can someone confirm the indexation mechanism and the notice we need to give Stratton? Want to make sure we don't miss the window.\n\nRebecca",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Unrelated to Aquilo, but the first annual CPI price review under the Stratton Energy supply agreement is due next month. Can someone confirm the indexation mechanism and the notice we need to give Stratton? Want to make sure we don&#x27;t miss the window.<br><br>Rebecca</div>"
+    },
+    {
+      "id": "251193dcf59c8e33",
+      "snippet": "Rebecca, I'll pull the Stratton agreement and confirm the exact notice period and index this afterno",
+      "subject": "RE: Stratton - first annual price review coming up",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "rebecca.lund@harrowprecision.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-23T14:20:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Rebecca,\n\nI'll pull the Stratton agreement and confirm the exact notice period and index this afternoon - I think it's 30 days' notice before the anniversary. I'll set up a separate note so we keep it off the Aquilo file.\n\nElena\n\nOn Mon, Mar 23, 2026 at 10:00 AM, Rebecca Lund <rebecca.lund@harrowprecision.com> wrote:\n> Sarah,\n>\n> Unrelated to Aquilo, but the first annual CPI price review under the Stratton Energy supply agreement is due next month. Can someone confirm the indexation mechanism and the notice we need to give Stratton? Want to make sure we don't miss the window.\n>\n> Rebecca",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Rebecca,<br><br>I&#x27;ll pull the Stratton agreement and confirm the exact notice period and index this afternoon - I think it&#x27;s 30 days&#x27; notice before the anniversary. I&#x27;ll set up a separate note so we keep it off the Aquilo file.<br><br>Elena</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Mar 23, 2026 at 10:00 AM, Rebecca Lund &lt;rebecca.lund@harrowprecision.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Unrelated to Aquilo, but the first annual CPI price review under the Stratton Energy supply agreement is due next month. Can someone confirm the indexation mechanism and the notice we need to give Stratton? Want to make sure we don&#x27;t miss the window.<br><br>Rebecca</div></blockquote></div></div>"
+    }
+  ]
+}

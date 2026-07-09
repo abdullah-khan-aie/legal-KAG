@@ -1,0 +1,49 @@
+{
+  "id": "ae3e1f5a028c5477",
+  "messages": [
+    {
+      "id": "ae3e1f5a028c5477",
+      "snippet": "Sarah, James, Attached is the redline of the Particulars reflecting Harriet's amendments. The main c",
+      "subject": "Amended Particulars - redline for sign-off (recall now 286 units)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-01-28T08:55:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Sarah, James,\n\nAttached is the redline of the Particulars reflecting Harriet's amendments. The main change is the recall - it's grown from 214 to 286 units as more came back, so the rework head goes from £512,400 to £648,900 and the total from £1,421,650 to £1,558,150. Figures tie to the revised schedule of loss.\n\nIf you're happy I'll get the clean amended version finalised for issue.\n\nTom",
+      "htmlBody": "<div dir=\"ltr\">Sarah, James,<br><br>Attached is the redline of the Particulars reflecting Harriet&#x27;s amendments. The main change is the recall - it&#x27;s grown from 214 to 286 units as more came back, so the rework head goes from £512,400 to £648,900 and the total from £1,421,650 to £1,558,150. Figures tie to the revised schedule of loss.<br><br>If you&#x27;re happy I&#x27;ll get the clean amended version finalised for issue.<br><br>Tom</div>"
+    },
+    {
+      "id": "88f2dac460b1cdba",
+      "snippet": "Happy with the redline. Make sure the statement of truth date is updated and that the schedule of lo",
+      "subject": "RE: Amended Particulars - redline for sign-off (recall now 286 units)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-01-28T12:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Happy with the redline. Make sure the statement of truth date is updated and that the schedule of loss total reads £1,558,150 throughout. Then proceed to issue.\n\nSarah\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Tue, Jan 28, 2025 at 8:55 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Sarah, James,\n>\n> Attached is the redline of the Particulars reflecting Harriet's amendments. The main change is the recall - it's grown from 214 to 286 units as more came back, so the rework head goes from £512,400 to £648,900 and the total from £1,421,650 to £1,558,150. Figures tie to the revised schedule of loss.\n>\n> If you're happy I'll get the clean amended version finalised for issue.\n>\n> Tom",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Happy with the redline. Make sure the statement of truth date is updated and that the schedule of loss total reads £1,558,150 throughout. Then proceed to issue.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jan 28, 2025 at 8:55 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah, James,<br><br>Attached is the redline of the Particulars reflecting Harriet&#x27;s amendments. The main change is the recall - it&#x27;s grown from 214 to 286 units as more came back, so the rework head goes from £512,400 to £648,900 and the total from £1,421,650 to £1,558,150. Figures tie to the revised schedule of loss.<br><br>If you&#x27;re happy I&#x27;ll get the clean amended version finalised for issue.<br><br>Tom</div></blockquote></div></div>",
+      "attachmentIds": [
+        "BU3DEH3_mXVaQ-iGrh58uk7YNq80m9Gyu4U-ECmJMeQ"
+      ],
+      "attachments": [
+        {
+          "filename": "HPEvBrevdale_ParticularsOfClaim_v2_redline.docx",
+          "id": "BU3DEH3_mXVaQ-iGrh58uk7YNq80m9Gyu4U-ECmJMeQ",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

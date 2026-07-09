@@ -1,0 +1,21 @@
+{
+  "id": "8fa2aa7b647170dd",
+  "messages": [
+    {
+      "id": "8fa2aa7b647170dd",
+      "snippet": "All, Reminder that the firm's new document management system goes live this weekend. The DMS will be",
+      "subject": "Firm notice - document management system go-live this weekend",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2024-02-12T17:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "All,\n\nReminder that the firm's new document management system goes live this weekend. The DMS will be read-only from 6pm Friday until Monday morning. Please save any working drafts locally before close on Friday. IT will run a drop-in clinic on Tuesday.\n\nThanks,\nSarah",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>Reminder that the firm&#x27;s new document management system goes live this weekend. The DMS will be read-only from 6pm Friday until Monday morning. Please save any working drafts locally before close on Friday. IT will run a drop-in clinic on Tuesday.<br><br>Thanks,<br>Sarah</div>"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "69249afc2bcdda09",
+  "messages": [
+    {
+      "id": "69249afc2bcdda09",
+      "snippet": "Stephen, Following the CMC, disclosure is due by 26 June. Draft Claimant's disclosure index attached",
+      "subject": "Disclosure — draft index and what we need from you",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "stephen.okoro@hartwellpharma.com"
+      ],
+      "ccRecipients": [
+        "naomi.adeyemi@hartwellpharma.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-15T09:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Stephen,\n\nFollowing the CMC, disclosure is due by 26 June. Draft Claimant's disclosure index attached. The priority documents from your side are the batch manufacturing record for DP-2025-114, the full OOS-2025-037 file, the change-control SOP, and any correspondence touching the Reyland substitution. We've flagged the board note as likely privileged.\n\nCould you confirm the list is complete and identify a custodian for the email collection? Happy to walk through it.\n\nTom\n\n--\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Stephen,<br><br>Following the CMC, disclosure is due by 26 June. Draft Claimant&#x27;s disclosure index attached. The priority documents from your side are the batch manufacturing record for DP-2025-114, the full OOS-2025-037 file, the change-control SOP, and any correspondence touching the Reyland substitution. We&#x27;ve flagged the board note as likely privileged.<br><br>Could you confirm the list is complete and identify a custodian for the email collection? Happy to walk through it.<br><br>Tom<br><br>--<br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "STcFXUr7qDUNtZYPEl6gYtxRpTdft498u8ah7oGBh5s"
+      ],
+      "attachments": [
+        {
+          "filename": "Hartwell_v_Tessaract_DisclosureIndex.xlsx",
+          "id": "STcFXUr7qDUNtZYPEl6gYtxRpTdft498u8ah7oGBh5s",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    }
+  ]
+}

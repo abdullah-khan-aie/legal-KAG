@@ -1,0 +1,23 @@
+{
+  "id": "7cfd2e3f0a692ad7",
+  "messages": [
+    {
+      "id": "7cfd2e3f0a692ad7",
+      "snippet": "Colleagues, The DMS will be unavailable this Saturday 22 February from 07:00 to 13:00 for a schedule",
+      "subject": "[IT] Document management system maintenance — Saturday 22 Feb",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-02-18T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Colleagues,\n\nThe DMS will be unavailable this Saturday 22 February from 07:00 to 13:00 for a scheduled upgrade. Please check in any documents before Friday close of business. Email and calendar are unaffected.\n\nIT Helpdesk",
+      "htmlBody": "<div dir=\"ltr\">Colleagues,<br><br>The DMS will be unavailable this Saturday 22 February from 07:00 to 13:00 for a scheduled upgrade. Please check in any documents before Friday close of business. Email and calendar are unaffected.<br><br>IT Helpdesk</div>"
+    }
+  ]
+}

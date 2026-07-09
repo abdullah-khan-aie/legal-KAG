@@ -1,0 +1,55 @@
+{
+  "id": "04b68c08ecdc09ec",
+  "messages": [
+    {
+      "id": "04b68c08ecdc09ec",
+      "snippet": "Jonathan, Attached is our first draft of the share purchase agreement. As foreshadowed in the HoT, r",
+      "subject": "Project Cedar - SPA first draft",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "jonathan.vane@castlevane.com"
+      ],
+      "ccRecipients": [
+        "amelia.hart@castlevane.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-04T18:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Jonathan,\n\nAttached is our first draft of the share purchase agreement. As foreshadowed in the HoT, recourse for the general warranties is structured to the W&I policy. The draft includes the tax covenant, the restrictive covenants and a £1.2m retention. Specific indemnities for the Doyle matter and the HMRC R&D enquiry are flagged. Look forward to your mark-up.\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\n+44 (0)20 7946 0834",
+      "htmlBody": "<div dir=\"ltr\">Jonathan,<br><br>Attached is our first draft of the share purchase agreement. As foreshadowed in the HoT, recourse for the general warranties is structured to the W&amp;I policy. The draft includes the tax covenant, the restrictive covenants and a £1.2m retention. Specific indemnities for the Doyle matter and the HMRC R&amp;D enquiry are flagged. Look forward to your mark-up.<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0834</div>",
+      "attachmentIds": [
+        "8tzbm6wNJj5cJJvGiuYm5xCLA76eRl8cfibfWn5YjqU"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Cedar_SPA_v1.docx",
+          "id": "8tzbm6wNJj5cJJvGiuYm5xCLA76eRl8cfibfWn5YjqU",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "702e47da7d9ee7de",
+      "snippet": "James, Thank you. We're working through it. Our principal points will be on the liability cap (your ",
+      "subject": "RE: Project Cedar - SPA first draft",
+      "sender": "jonathan.vane@castlevane.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "amelia.hart@castlevane.com"
+      ],
+      "date": "2026-03-09T10:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nThank you. We're working through it. Our principal points will be on the liability cap (your nominal-recourse construction won't fly for everything - we'll want a genuine seller cap on the carved-out warranties), the de minimis and basket, and the general warranty time limit. Mark-up to follow next week.\n\nJonathan\n\nOn Wed, Mar 4, 2026 at 6:05 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Jonathan,\n>\n> Attached is our first draft of the share purchase agreement. As foreshadowed in the HoT, recourse for the general warranties is structured to the W&I policy. The draft includes the tax covenant, the restrictive covenants and a £1.2m retention. Specific indemnities for the Doyle matter and the HMRC R&D enquiry are flagged. Look forward to your mark-up.\n>\n> James Osei\n> Senior Associate | Whitfield Carter LLP\n> +44 (0)20 7946 0834",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Thank you. We&#x27;re working through it. Our principal points will be on the liability cap (your nominal-recourse construction won&#x27;t fly for everything - we&#x27;ll want a genuine seller cap on the carved-out warranties), the de minimis and basket, and the general warranty time limit. Mark-up to follow next week.<br><br>Jonathan</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Mar 4, 2026 at 6:05 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Jonathan,<br><br>Attached is our first draft of the share purchase agreement. As foreshadowed in the HoT, recourse for the general warranties is structured to the W&amp;I policy. The draft includes the tax covenant, the restrictive covenants and a £1.2m retention. Specific indemnities for the Doyle matter and the HMRC R&amp;D enquiry are flagged. Look forward to your mark-up.<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0834</div></blockquote></div></div>"
+    }
+  ]
+}

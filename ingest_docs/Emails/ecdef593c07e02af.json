@@ -1,0 +1,41 @@
+{
+  "id": "ecdef593c07e02af",
+  "messages": [
+    {
+      "id": "ecdef593c07e02af",
+      "snippet": "Dear Harriet, Grateful for your steer on categorisation before we finalise our advice note. Facts: l",
+      "subject": "Lyra — sentencing steer please (Calverton / HSE)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "h.stanford@eldonchambers.co.uk"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-20T11:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Harriet,\n\nGrateful for your steer on categorisation before we finalise our advice note. Facts: large org (turnover ~£62m); documented SSoW requiring lock-off but live-clearing tolerated; uncontrolled interlock keys; out-of-date PUWER assessment; serious injury (partial amputation of three fingers). We have a forensic report confirming foreseeable interlock defeat.\n\nWe think Medium culpability / Harm category 2 (Level A risk x Medium likelihood), starting point £600k, range £300k–£1.5m, landing around £450k before plea then £300k after a one-third plea. Are you comfortable, and how hard will the HSE push for High?\n\nTom\n\n--\nTom Gallagher\nAssociate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\">Dear Harriet,<br><br>Grateful for your steer on categorisation before we finalise our advice note. Facts: large org (turnover ~£62m); documented SSoW requiring lock-off but live-clearing tolerated; uncontrolled interlock keys; out-of-date PUWER assessment; serious injury (partial amputation of three fingers). We have a forensic report confirming foreseeable interlock defeat.<br><br>We think Medium culpability / Harm category 2 (Level A risk x Medium likelihood), starting point £600k, range £300k–£1.5m, landing around £450k before plea then £300k after a one-third plea. Are you comfortable, and how hard will the HSE push for High?<br><br>Tom<br><br>--<br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div>"
+    },
+    {
+      "id": "a104c83f4b11c161",
+      "snippet": "Tom, Medium / category 2 is right and defensible. The existence of a documented SSoW is the main bra",
+      "subject": "RE: Lyra — sentencing steer please (Calverton / HSE)",
+      "sender": "h.stanford@eldonchambers.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-21T08:50:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Tom,\n\nMedium / category 2 is right and defensible. The existence of a documented SSoW is the main brake on a High finding; the live-clearing tolerance and uncontrolled keys are what the HSE will lean on, but they fall short of the flagrant, systemic disregard High requires. I'd hold firm at Medium.\n\nOn harm, keep them in category 2 — the actual injury supports it and resists any drop to 3. Your £300k post-plea central estimate is sound; I'd flag a realistic £250k–£400k spread. Get the early plea indication in if they charge, to bank the third.\n\nHarriet Stanford\nEldon Chambers\n\nOn Mon, Apr 20, 2026 at 11:00 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Harriet,\n>\n> Grateful for your steer on categorisation before we finalise our advice note. Facts: large org (turnover ~£62m); documented SSoW requiring lock-off but live-clearing tolerated; uncontrolled interlock keys; out-of-date PUWER assessment; serious injury (partial amputation of three fingers). We have a forensic report confirming foreseeable interlock defeat.\n>\n> We think Medium culpability / Harm category 2 (Level A risk x Medium likelihood), starting point £600k, range £300k–£1.5m, landing around £450k before plea then £300k after a one-third plea. Are you comfortable, and how hard will the HSE push for High?\n>\n> Tom\n>\n> --\n> Tom Gallagher\n> Associate | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>Medium / category 2 is right and defensible. The existence of a documented SSoW is the main brake on a High finding; the live-clearing tolerance and uncontrolled keys are what the HSE will lean on, but they fall short of the flagrant, systemic disregard High requires. I&#x27;d hold firm at Medium.<br><br>On harm, keep them in category 2 — the actual injury supports it and resists any drop to 3. Your £300k post-plea central estimate is sound; I&#x27;d flag a realistic £250k–£400k spread. Get the early plea indication in if they charge, to bank the third.<br><br>Harriet Stanford<br>Eldon Chambers</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Apr 20, 2026 at 11:00 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Harriet,<br><br>Grateful for your steer on categorisation before we finalise our advice note. Facts: large org (turnover ~£62m); documented SSoW requiring lock-off but live-clearing tolerated; uncontrolled interlock keys; out-of-date PUWER assessment; serious injury (partial amputation of three fingers). We have a forensic report confirming foreseeable interlock defeat.<br><br>We think Medium culpability / Harm category 2 (Level A risk x Medium likelihood), starting point £600k, range £300k–£1.5m, landing around £450k before plea then £300k after a one-third plea. Are you comfortable, and how hard will the HSE push for High?<br><br>Tom<br><br>--<br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div></blockquote></div></div>"
+    }
+  ]
+}

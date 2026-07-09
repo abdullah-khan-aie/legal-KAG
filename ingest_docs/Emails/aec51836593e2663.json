@@ -1,0 +1,36 @@
+{
+  "id": "aec51836593e2663",
+  "messages": [
+    {
+      "id": "aec51836593e2663",
+      "snippet": "Oliver, Deepa, Disclosure letter attached against the Schedule 4 warranties. Specific disclosures co",
+      "subject": "Project Marlin - Disclosure Letter",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "priya.sato@brightwateranalytics.com"
+      ],
+      "date": "2026-01-23T16:45:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Oliver, Deepa,\n\nDisclosure letter attached against the Schedule 4 warranties. Specific disclosures cover the open-source components and pending Brightwater trade mark, the Halligan contractor claim (£18,400, disputed), the October MRR dip, the August data incident and the Pennine Mutual DPA re-signature, the customer #2 June 2026 renewal, and the EMI valuation point on the recent grants. Bundle index annexed.\n\nElena\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Oliver, Deepa,<br><br>Disclosure letter attached against the Schedule 4 warranties. Specific disclosures cover the open-source components and pending Brightwater trade mark, the Halligan contractor claim (£18,400, disputed), the October MRR dip, the August data incident and the Pennine Mutual DPA re-signature, the customer #2 June 2026 renewal, and the EMI valuation point on the recent grants. Bundle index annexed.<br><br>Elena<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "NdVFUeSrcNMQaByk2U9y_DYncIY4hkdlVTKgXeODSA8"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Marlin_DisclosureLetter.docx",
+          "id": "NdVFUeSrcNMQaByk2U9y_DYncIY4hkdlVTKgXeODSA8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

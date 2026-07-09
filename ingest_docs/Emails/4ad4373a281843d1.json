@@ -1,0 +1,52 @@
+{
+  "id": "4ad4373a281843d1",
+  "messages": [
+    {
+      "id": "4ad4373a281843d1",
+      "snippet": "Amelia, Our counter attached (tracked over your version). We've accepted the 18-month warranty and e",
+      "subject": "Project Falcon - SPA counter-mark-up",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "amelia.hart@castlevane.com"
+      ],
+      "ccRecipients": [
+        "jonathan.vane@castlevane.com",
+        "gregory.talbot@calderstonecapital.com"
+      ],
+      "date": "2026-01-09T17:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Amelia,\n\nOur counter attached (tracked over your version). We've accepted the 18-month warranty and escrow periods and the £40k de minimis. On the cap we've moved to 17.5% of consideration, and raised the basket to £350k. We think that's a fair overall package and hope we can settle on this basis.\n\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Amelia,<br><br>Our counter attached (tracked over your version). We&#x27;ve accepted the 18-month warranty and escrow periods and the £40k de minimis. On the cap we&#x27;ve moved to 17.5% of consideration, and raised the basket to £350k. We think that&#x27;s a fair overall package and hope we can settle on this basis.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "Uk8tMzu0-3T3P3EptGxD3G0bN6fz8L8Yng5bmjsU5XY"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Falcon_SPA_v3_redline.docx",
+          "id": "Uk8tMzu0-3T3P3EptGxD3G0bN6fz8L8Yng5bmjsU5XY",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "430409e09c1b7735",
+      "snippet": "James - thank you. Our clients accept 17.5% cap / £350k basket / £40k de minimis / 18-month periods.",
+      "subject": "RE: Project Falcon - SPA counter-mark-up",
+      "sender": "amelia.hart@castlevane.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "jonathan.vane@castlevane.com"
+      ],
+      "date": "2026-01-14T15:30:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "James - thank you. Our clients accept 17.5% cap / £350k basket / £40k de minimis / 18-month periods. We're agreed on the SPA financials subject to finalising the disclosure letter and schedules. Good progress.\n\nAmelia\n\nOn Fri, Jan 9, 2026 at 5:10 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Amelia,\n>\n> Our counter attached (tracked over your version). We've accepted the 18-month warranty and escrow periods and the £40k de minimis. On the cap we've moved to 17.5% of consideration, and raised the basket to £350k. We think that's a fair overall package and hope we can settle on this basis.\n>\n> James\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James - thank you. Our clients accept 17.5% cap / £350k basket / £40k de minimis / 18-month periods. We&#x27;re agreed on the SPA financials subject to finalising the disclosure letter and schedules. Good progress.<br><br>Amelia</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Jan 9, 2026 at 5:10 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Amelia,<br><br>Our counter attached (tracked over your version). We&#x27;ve accepted the 18-month warranty and escrow periods and the £40k de minimis. On the cap we&#x27;ve moved to 17.5% of consideration, and raised the basket to £350k. We think that&#x27;s a fair overall package and hope we can settle on this basis.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "a1062baff19debc0",
+  "messages": [
+    {
+      "id": "a1062baff19debc0",
+      "snippet": "James, Apologies, I think this may have come to you in error - it relates to Project Tempest rather ",
+      "subject": "Project Tempest - completion accounts query",
+      "sender": "jonathan.vane@castlevane.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-04-15T10:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James,\n\nApologies, I think this may have come to you in error - it relates to Project Tempest rather than Willow. Could you let me have the completion accounts working for Tempest when you have a moment? If you're not the right contact, please ignore.\n\nJonathan",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Apologies, I think this may have come to you in error - it relates to Project Tempest rather than Willow. Could you let me have the completion accounts working for Tempest when you have a moment? If you&#x27;re not the right contact, please ignore.<br><br>Jonathan</div>"
+    },
+    {
+      "id": "062b464033d00027",
+      "snippet": "Jonathan - yes, wrong matter I'm afraid; that one isn't with me. I think you want the Bracken team. ",
+      "subject": "RE: Project Tempest - completion accounts query",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "jonathan.vane@castlevane.com"
+      ],
+      "date": "2025-04-15T11:05:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Jonathan - yes, wrong matter I'm afraid; that one isn't with me. I think you want the Bracken team. Best to drop it to them directly. James\n\nOn Tue, Apr 15, 2025 at 10:30 AM, Jonathan Vane <jonathan.vane@castlevane.com> wrote:\n> James,\n>\n> Apologies, I think this may have come to you in error - it relates to Project Tempest rather than Willow. Could you let me have the completion accounts working for Tempest when you have a moment? If you're not the right contact, please ignore.\n>\n> Jonathan",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Jonathan - yes, wrong matter I&#x27;m afraid; that one isn&#x27;t with me. I think you want the Bracken team. Best to drop it to them directly. James</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Apr 15, 2025 at 10:30 AM, Jonathan Vane &lt;jonathan.vane@castlevane.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Apologies, I think this may have come to you in error - it relates to Project Tempest rather than Willow. Could you let me have the completion accounts working for Tempest when you have a moment? If you&#x27;re not the right contact, please ignore.<br><br>Jonathan</div></blockquote></div></div>"
+    }
+  ]
+}

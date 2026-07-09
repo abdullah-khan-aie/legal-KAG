@@ -1,0 +1,54 @@
+{
+  "id": "103f523d39995bbe",
+  "messages": [
+    {
+      "id": "103f523d39995bbe",
+      "snippet": "Sarah, The board approved the acquisition this morning. Signed minutes attached — authority for any ",
+      "subject": "Project Harbor — signed board minutes",
+      "sender": "isla.fournier@thornburyproperties.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-24T13:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nThe board approved the acquisition this morning. Signed minutes attached — authority for any one director to execute the Contract, TR1 and the rent deposit deed. We're cleared to exchange on the 27th.\n\nIsla",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>The board approved the acquisition this morning. Signed minutes attached — authority for any one director to execute the Contract, TR1 and the rent deposit deed. We&#x27;re cleared to exchange on the 27th.<br><br>Isla</div>",
+      "attachmentIds": [
+        "HgqlDfZQIC6_-XU_3rFPVhp3UTctw15IC4GovcgZYTs"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Harbor_BoardMinutes_Thornbury.pdf",
+          "id": "HgqlDfZQIC6_-XU_3rFPVhp3UTctw15IC4GovcgZYTs",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "939f8b448a1ffbbb",
+      "snippet": "Perfect, thank you Isla. Everything is lined up for Friday. James will circulate the completion stat",
+      "subject": "RE: Project Harbor — signed board minutes",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "isla.fournier@thornburyproperties.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "daniel.quigley@thornburyproperties.com"
+      ],
+      "date": "2026-02-24T14:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Perfect, thank you Isla. Everything is lined up for Friday. James will circulate the completion statement and the funds figure tomorrow. Sarah\n\n—\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Tue, Feb 24, 2026 at 1:15 PM, Isla Fournier <isla.fournier@thornburyproperties.com> wrote:\n> Sarah,\n>\n> The board approved the acquisition this morning. Signed minutes attached — authority for any one director to execute the Contract, TR1 and the rent deposit deed. We're cleared to exchange on the 27th.\n>\n> Isla",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Perfect, thank you Isla. Everything is lined up for Friday. James will circulate the completion statement and the funds figure tomorrow. Sarah<br><br>—<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Feb 24, 2026 at 1:15 PM, Isla Fournier &lt;isla.fournier@thornburyproperties.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>The board approved the acquisition this morning. Signed minutes attached — authority for any one director to execute the Contract, TR1 and the rent deposit deed. We&#x27;re cleared to exchange on the 27th.<br><br>Isla</div></blockquote></div></div>"
+    }
+  ]
+}

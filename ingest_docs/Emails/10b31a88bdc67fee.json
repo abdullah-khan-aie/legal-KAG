@@ -1,0 +1,23 @@
+{
+  "id": "10b31a88bdc67fee",
+  "messages": [
+    {
+      "id": "10b31a88bdc67fee",
+      "snippet": "All, The DMS (iManage) will be unavailable from 22:00 Saturday 17 August to 04:00 Sunday for schedul",
+      "subject": "[IT] Document management system maintenance - Saturday 17 August",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2024-08-14T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "All,\n\nThe DMS (iManage) will be unavailable from 22:00 Saturday 17 August to 04:00 Sunday for scheduled maintenance. Please check in any open documents before 21:00. Email is unaffected.\n\nIT Helpdesk",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>The DMS (iManage) will be unavailable from 22:00 Saturday 17 August to 04:00 Sunday for scheduled maintenance. Please check in any open documents before 21:00. Email is unaffected.<br><br>IT Helpdesk</div>"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "86ca978a671e810a",
+  "messages": [
+    {
+      "id": "86ca978a671e810a",
+      "snippet": "James, Our records show 11.5 hours of unposted time on your timesheet for the week commencing 26 Jan",
+      "subject": "Time recording - January narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-02T08:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "James,\n\nOur records show 11.5 hours of unposted time on your timesheet for the week commencing 26 January. Please add narratives and submit by close of play Wednesday so we can run the January client bills. Thank you.\n\nAccounts | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our records show 11.5 hours of unposted time on your timesheet for the week commencing 26 January. Please add narratives and submit by close of play Wednesday so we can run the January client bills. Thank you.<br><br>Accounts | Whitfield Carter LLP</div>"
+    }
+  ]
+}

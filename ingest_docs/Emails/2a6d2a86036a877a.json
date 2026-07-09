@@ -1,0 +1,23 @@
+{
+  "id": "2a6d2a86036a877a",
+  "messages": [
+    {
+      "id": "2a6d2a86036a877a",
+      "snippet": "Please ensure all April time is recorded and released by 17:00 on Friday 1 May so we can run month-e",
+      "subject": "Time recording — April month-end reminder",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-30T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Please ensure all April time is recorded and released by 17:00 on Friday 1 May so we can run month-end billing. Several matters currently show unposted time. Thank you.\n\nFinance / Accounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Please ensure all April time is recorded and released by 17:00 on Friday 1 May so we can run month-end billing. Several matters currently show unposted time. Thank you.<br><br>Finance / Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

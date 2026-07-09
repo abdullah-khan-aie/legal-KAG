@@ -1,0 +1,63 @@
+{
+  "id": "447a67dfbe6c5798",
+  "messages": [
+    {
+      "id": "447a67dfbe6c5798",
+      "snippet": "Sarah, We have a problem I'd like Whitfield Carter to take on. Ferncliffe Alloys supplied us Ti-6Al-",
+      "subject": "Titanium bar non-conformity — Ferncliffe Alloys",
+      "sender": "robert.falconer@halsteadaerospace.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "grace.underwood@halsteadaerospace.com"
+      ],
+      "date": "2024-04-15T08:42:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nWe have a problem I'd like Whitfield Carter to take on. Ferncliffe Alloys supplied us Ti-6Al-4V bar (heats FA-7733 and FA-7741) under our 2023 supply agreement for the CM-7 wing-rib fittings. It's come back non-conforming on chemistry and we've found alpha-case well outside our spec. We've already scrapped 312 finished fittings and stopped the Bay 4 cell.\n\nGrace will pull the cost numbers together. Can you and the team advise on recovery against Ferncliffe? Helen Forsythe (Ops) and Idris Cole (procurement) will be your day-to-day contacts.\n\nRobert\n\nRobert Falconer\nChief Executive Officer | Halstead Aerospace Limited",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>We have a problem I&#x27;d like Whitfield Carter to take on. Ferncliffe Alloys supplied us Ti-6Al-4V bar (heats FA-7733 and FA-7741) under our 2023 supply agreement for the CM-7 wing-rib fittings. It&#x27;s come back non-conforming on chemistry and we&#x27;ve found alpha-case well outside our spec. We&#x27;ve already scrapped 312 finished fittings and stopped the Bay 4 cell.<br><br>Grace will pull the cost numbers together. Can you and the team advise on recovery against Ferncliffe? Helen Forsythe (Ops) and Idris Cole (procurement) will be your day-to-day contacts.<br><br>Robert<br><br>Robert Falconer<br>Chief Executive Officer | Halstead Aerospace Limited</div>"
+    },
+    {
+      "id": "961ac988b346d239",
+      "snippet": "Robert, Thank you — yes, we can act. This looks like a straightforward breach-of-warranty/Sale of Go",
+      "subject": "RE: Titanium bar non-conformity — Ferncliffe Alloys",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "robert.falconer@halsteadaerospace.com"
+      ],
+      "ccRecipients": [
+        "grace.underwood@halsteadaerospace.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2024-04-15T11:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Robert,\n\nThank you — yes, we can act. This looks like a straightforward breach-of-warranty/Sale of Goods claim, but causation (was the alpha-case there on delivery or introduced in your process?) will be the battleground, so the metallurgy evidence will be everything. Please preserve all the bar, the retained coupons and the certificates, and don't let anyone scrap or reprocess the remaining stock.\n\nJames Osei will lead day to day. First steps: (1) get the independent lab report finalised; (2) lock down the incoming-inspection and storage records; (3) build the loss schedule. We'll send a short engagement note today.\n\nSarah\n\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0012\nConfidential and may be legally privileged.\n\nOn Mon, Apr 15, 2024 at 8:42 AM, Robert Falconer <robert.falconer@halsteadaerospace.com> wrote:\n> Sarah,\n>\n> We have a problem I'd like Whitfield Carter to take on. Ferncliffe Alloys supplied us Ti-6Al-4V bar (heats FA-7733 and FA-7741) under our 2023 supply agreement for the CM-7 wing-rib fittings. It's come back non-conforming on chemistry and we've found alpha-case well outside our spec. We've already scrapped 312 finished fittings and stopped the Bay 4 cell.\n>\n> Grace will pull the cost numbers together. Can you and the team advise on recovery against Ferncliffe? Helen Forsythe (Ops) and Idris Cole (procurement) will be your day-to-day contacts.\n>\n> Robert\n>\n> Robert Falconer\n> Chief Executive Officer | Halstead Aerospace Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Robert,<br><br>Thank you — yes, we can act. This looks like a straightforward breach-of-warranty/Sale of Goods claim, but causation (was the alpha-case there on delivery or introduced in your process?) will be the battleground, so the metallurgy evidence will be everything. Please preserve all the bar, the retained coupons and the certificates, and don&#x27;t let anyone scrap or reprocess the remaining stock.<br><br>James Osei will lead day to day. First steps: (1) get the independent lab report finalised; (2) lock down the incoming-inspection and storage records; (3) build the loss schedule. We&#x27;ll send a short engagement note today.<br><br>Sarah<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0012<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Apr 15, 2024 at 8:42 AM, Robert Falconer &lt;robert.falconer@halsteadaerospace.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>We have a problem I&#x27;d like Whitfield Carter to take on. Ferncliffe Alloys supplied us Ti-6Al-4V bar (heats FA-7733 and FA-7741) under our 2023 supply agreement for the CM-7 wing-rib fittings. It&#x27;s come back non-conforming on chemistry and we&#x27;ve found alpha-case well outside our spec. We&#x27;ve already scrapped 312 finished fittings and stopped the Bay 4 cell.<br><br>Grace will pull the cost numbers together. Can you and the team advise on recovery against Ferncliffe? Helen Forsythe (Ops) and Idris Cole (procurement) will be your day-to-day contacts.<br><br>Robert<br><br>Robert Falconer<br>Chief Executive Officer | Halstead Aerospace Limited</div></blockquote></div></div>"
+    },
+    {
+      "id": "c30a2df0dbc0e665",
+      "snippet": "Helen, Idris, Picking this up. Could you send me, when you have a moment: the supply agreement and o",
+      "subject": "RE: Titanium bar non-conformity — Ferncliffe Alloys",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "helen.forsythe@halsteadaerospace.com",
+        "idris.cole@halsteadaerospace.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2024-04-16T09:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Helen, Idris,\n\nPicking this up. Could you send me, when you have a moment: the supply agreement and our spec HAS-MAT-114, PO HAL-PO-44119, the Ferncliffe certs of conformity and mill certs, the incoming inspection report and NCR QN-2024-0337, and the scrap disposition record. I'll also want the Bay 4 idle-time log for the line-stop.\n\nNo rush today, but the sooner we have the document trail the sooner we can pin causation.\n\nJames\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\nT +44 (0)20 7946 0034\n\nOn Mon, Apr 15, 2024 at 11:05 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Robert,\n>\n> Thank you — yes, we can act. This looks like a straightforward breach-of-warranty/Sale of Goods claim, but causation (was the alpha-case there on delivery or introduced in your process?) will be the battleground, so the metallurgy evidence will be everything. Please preserve all the bar, the retained coupons and the certificates, and don't let anyone scrap or reprocess the remaining stock.\n>\n> James Osei will lead day to day. First steps: (1) get the independent lab report finalised; (2) lock down the incoming-inspection and storage records; (3) build the loss schedule. We'll send a short engagement note today.\n>\n> Sarah\n>\n> Sarah Whitfield\n> Partner | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 0012\n> Confidential and may be legally privileged.\n>\n> On Mon, Apr 15, 2024 at 8:42 AM, Robert Falconer <robert.falconer@halsteadaerospace.com> wrote:\n> > Sarah,\n> >\n> > We have a problem I'd like Whitfield Carter to take on. Ferncliffe Alloys supplied us Ti-6Al-4V bar (heats FA-7733 and FA-7741) under our 2023 supply agreement for the CM-7 wing-rib fittings. It's come back non-conforming on chemistry and we've found alpha-case well outside our spec. We've already scrapped 312 finished fittings and stopped the Bay 4 cell.\n> >\n> > Grace will pull the cost numbers together. Can you and the team advise on recovery against Ferncliffe? Helen Forsythe (Ops) and Idris Cole (procurement) will be your day-to-day contacts.\n> >\n> > Robert\n> >\n> > Robert Falconer\n> > Chief Executive Officer | Halstead Aerospace Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Helen, Idris,<br><br>Picking this up. Could you send me, when you have a moment: the supply agreement and our spec HAS-MAT-114, PO HAL-PO-44119, the Ferncliffe certs of conformity and mill certs, the incoming inspection report and NCR QN-2024-0337, and the scrap disposition record. I&#x27;ll also want the Bay 4 idle-time log for the line-stop.<br><br>No rush today, but the sooner we have the document trail the sooner we can pin causation.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>T +44 (0)20 7946 0034</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Apr 15, 2024 at 11:05 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Robert,<br><br>Thank you — yes, we can act. This looks like a straightforward breach-of-warranty/Sale of Goods claim, but causation (was the alpha-case there on delivery or introduced in your process?) will be the battleground, so the metallurgy evidence will be everything. Please preserve all the bar, the retained coupons and the certificates, and don&#x27;t let anyone scrap or reprocess the remaining stock.<br><br>James Osei will lead day to day. First steps: (1) get the independent lab report finalised; (2) lock down the incoming-inspection and storage records; (3) build the loss schedule. We&#x27;ll send a short engagement note today.<br><br>Sarah<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0012<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Apr 15, 2024 at 8:42 AM, Robert Falconer &lt;robert.falconer@halsteadaerospace.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>We have a problem I&#x27;d like Whitfield Carter to take on. Ferncliffe Alloys supplied us Ti-6Al-4V bar (heats FA-7733 and FA-7741) under our 2023 supply agreement for the CM-7 wing-rib fittings. It&#x27;s come back non-conforming on chemistry and we&#x27;ve found alpha-case well outside our spec. We&#x27;ve already scrapped 312 finished fittings and stopped the Bay 4 cell.<br><br>Grace will pull the cost numbers together. Can you and the team advise on recovery against Ferncliffe? Helen Forsythe (Ops) and Idris Cole (procurement) will be your day-to-day contacts.<br><br>Robert<br><br>Robert Falconer<br>Chief Executive Officer | Halstead Aerospace Limited</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

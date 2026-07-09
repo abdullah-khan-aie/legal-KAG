@@ -1,0 +1,21 @@
+{
+  "id": "537ed305d9cea2fc",
+  "messages": [
+    {
+      "id": "537ed305d9cea2fc",
+      "snippet": "Dear colleague, The document management system will be unavailable on Saturday 19 July from 07:00 to",
+      "subject": "Scheduled DMS maintenance - Saturday 19 July",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-07-15T07:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear colleague,\n\nThe document management system will be unavailable on Saturday 19 July from 07:00 to 11:00 BST for scheduled maintenance. Please save any open documents beforehand. Email is unaffected.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear colleague,<br><br>The document management system will be unavailable on Saturday 19 July from 07:00 to 11:00 BST for scheduled maintenance. Please save any open documents beforehand. Email is unaffected.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

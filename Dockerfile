@@ -1,12 +1,25 @@
-# Lodestone API + KAG pipeline (python:3.13-slim)
-FROM python:3.13-slim AS builder
+# syntax=docker/dockerfile:1
+# Lodestone API + KAG pipeline.
+#
+# Base image is pinned via the PYTHON_IMAGE arg and shared by both stages so
+# they can't drift apart. For strict, auditable reproducibility, override it
+# with a digest at build time:
+#   docker build --build-arg PYTHON_IMAGE=python:3.13-slim@sha256:<digest> .
+ARG PYTHON_IMAGE=python:3.13-slim
+
+# --- builder: resolve dependencies + project into /app/.venv --------------- #
+FROM ${PYTHON_IMAGE} AS builder
+
+# Pin uv for reproducible builds; bump deliberately (or pin by digest).
+ARG UV_VERSION=0.11.28
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     UV_COMPILE_BYTECODE=1 \
-    UV_LINK_MODE=copy
+    UV_LINK_MODE=copy \
+    UV_PYTHON_DOWNLOADS=0
 
-COPY --from=ghcr.io/astral-sh/uv:latest /uv /usr/local/bin/uv
+COPY --from=ghcr.io/astral-sh/uv:${UV_VERSION} /uv /usr/local/bin/uv
 
 WORKDIR /app
 
@@ -14,18 +27,24 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends build-essential \
     && rm -rf /var/lib/apt/lists/*
 
+# Dependencies first (they change rarely) so this layer caches independently of
+# the source. The uv cache is a BuildKit cache mount, so wheels are reused
+# across rebuilds instead of re-downloaded.
 COPY pyproject.toml uv.lock ./
-RUN uv sync --frozen --no-dev --no-install-project
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv sync --frozen --no-dev --no-install-project
 
 COPY kag ./kag
 COPY src ./src
 COPY Frontend ./Frontend
 COPY legal_schema.yaml ./
 
-RUN uv sync --frozen --no-dev
+RUN --mount=type=cache,target=/root/.cache/uv \
+    uv sync --frozen --no-dev
 
 
-FROM python:3.13-slim AS runtime
+# --- runtime: minimal image, no build tools, non-root ---------------------- #
+FROM ${PYTHON_IMAGE} AS runtime
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
@@ -43,6 +62,12 @@ COPY --from=builder --chown=appuser:appuser /app /app
 
 RUN mkdir -p /data/ingest \
     && chown -R appuser:appuser /data
+
+# Bake the (small, static) ingest corpus into the image so it ships to EC2 via
+# ECR -- no host file transfer needed on the SSM-only instance. The directory
+# scanner reads this path at ingest time (scan_dir / LODESTONE_SCAN_DIR=/data/ingest).
+# Do NOT mount a volume over /data/ingest or it will shadow these files.
+COPY --chown=appuser:appuser ingest_docs/ /data/ingest/
 
 USER appuser
 

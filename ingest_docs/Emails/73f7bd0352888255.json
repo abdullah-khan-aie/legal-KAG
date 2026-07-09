@@ -1,0 +1,38 @@
+{
+  "id": "73f7bd0352888255",
+  "messages": [
+    {
+      "id": "73f7bd0352888255",
+      "snippet": "Miriam — I've had a request from a search firm and would be grateful if the agreed reference could g",
+      "subject": "Reference request",
+      "sender": "d.whitford@protonmail.com",
+      "toRecipients": [
+        "miriam.cole@kingsfordgroup.com"
+      ],
+      "date": "2026-03-30T11:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Miriam — I've had a request from a search firm and would be grateful if the agreed reference could go out. As per the agreement it's to be CEO-signed within ten working days. Thanks, Daniel",
+      "htmlBody": "<div dir=\"ltr\">Miriam — I&#x27;ve had a request from a search firm and would be grateful if the agreed reference could go out. As per the agreement it&#x27;s to be CEO-signed within ten working days. Thanks, Daniel</div>"
+    },
+    {
+      "id": "20b6cc44667b94a6",
+      "snippet": "Daniel — noted. I'll have Charles sign the agreed-form reference and we'll send it directly to the s",
+      "subject": "RE: Reference request",
+      "sender": "miriam.cole@kingsfordgroup.com",
+      "toRecipients": [
+        "d.whitford@protonmail.com"
+      ],
+      "date": "2026-03-31T14:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Daniel — noted. I'll have Charles sign the agreed-form reference and we'll send it directly to the search firm within the ten working days. All the best. Miriam\n\nOn Mon, Mar 30, 2026 at 11:05 AM, Daniel Whitford <d.whitford@protonmail.com> wrote:\n> Miriam — I've had a request from a search firm and would be grateful if the agreed reference could go out. As per the agreement it's to be CEO-signed within ten working days. Thanks, Daniel",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Daniel — noted. I&#x27;ll have Charles sign the agreed-form reference and we&#x27;ll send it directly to the search firm within the ten working days. All the best. Miriam</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Mar 30, 2026 at 11:05 AM, Daniel Whitford &lt;d.whitford@protonmail.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Miriam — I&#x27;ve had a request from a search firm and would be grateful if the agreed reference could go out. As per the agreement it&#x27;s to be CEO-signed within ten working days. Thanks, Daniel</div></blockquote></div></div>"
+    }
+  ]
+}

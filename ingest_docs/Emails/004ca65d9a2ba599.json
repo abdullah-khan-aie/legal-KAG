@@ -1,0 +1,21 @@
+{
+  "id": "004ca65d9a2ba599",
+  "messages": [
+    {
+      "id": "004ca65d9a2ba599",
+      "snippet": "James, Our records show you have 6.5 hours of unposted time for the week ending 28 March. Please pos",
+      "subject": "Time recording reminder - March",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-04-03T09:15:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James,\n\nOur records show you have 6.5 hours of unposted time for the week ending 28 March. Please post all outstanding time by close of business Friday so we can finalise the March WIP report. Thank you.\n\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our records show you have 6.5 hours of unposted time for the week ending 28 March. Please post all outstanding time by close of business Friday so we can finalise the March WIP report. Thank you.<br><br>Accounts</div>"
+    }
+  ]
+}

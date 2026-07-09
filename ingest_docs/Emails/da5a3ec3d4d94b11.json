@@ -1,0 +1,54 @@
+{
+  "id": "da5a3ec3d4d94b11",
+  "messages": [
+    {
+      "id": "da5a3ec3d4d94b11",
+      "snippet": "James, Following our call, please take this as formal instruction for Thornbury to acquire the freeh",
+      "subject": "Project Quartz - instruction to act",
+      "sender": "isla.fournier@thornburyproperties.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-04T09:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James,\n\nFollowing our call, please take this as formal instruction for Thornbury to acquire the freehold of Quartz House, 14-18 Forbury Road, Reading. Agreed price with the seller (Calderdale Asset Holdings) is £8.45m, multi-let, four tenants. We'd like to target completion in early-to-mid May.\n\nCan you send the engagement letter and get title and searches moving?\n\nIsla",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Following our call, please take this as formal instruction for Thornbury to acquire the freehold of Quartz House, 14-18 Forbury Road, Reading. Agreed price with the seller (Calderdale Asset Holdings) is £8.45m, multi-let, four tenants. We&#x27;d like to target completion in early-to-mid May.<br><br>Can you send the engagement letter and get title and searches moving?<br><br>Isla</div>"
+    },
+    {
+      "id": "bf48f68621ce8596",
+      "snippet": "Isla, Thanks - delighted to act. Engagement letter attached for signature; our reference is WC-00166",
+      "subject": "RE: Project Quartz - instruction to act",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "isla.fournier@thornburyproperties.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-05T15:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Isla,\n\nThanks - delighted to act. Engagement letter attached for signature; our reference is WC-00166. Sarah is supervising partner and Elena will assist me day to day.\n\nWe'll order the official copies and pre-contract searches today and raise CPSE enquiries once we have the data room. Estimated fees £34k-£42k plus VAT and disbursements (SDLT will be £412,000 on the price).\n\nBest,\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Wed, Feb 4, 2026 at 9:12 AM, Isla Fournier <isla.fournier@thornburyproperties.com> wrote:\n> James,\n>\n> Following our call, please take this as formal instruction for Thornbury to acquire the freehold of Quartz House, 14-18 Forbury Road, Reading. Agreed price with the seller (Calderdale Asset Holdings) is £8.45m, multi-let, four tenants. We'd like to target completion in early-to-mid May.\n>\n> Can you send the engagement letter and get title and searches moving?\n>\n> Isla",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Isla,<br><br>Thanks - delighted to act. Engagement letter attached for signature; our reference is WC-00166. Sarah is supervising partner and Elena will assist me day to day.<br><br>We&#x27;ll order the official copies and pre-contract searches today and raise CPSE enquiries once we have the data room. Estimated fees £34k-£42k plus VAT and disbursements (SDLT will be £412,000 on the price).<br><br>Best,<br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 4, 2026 at 9:12 AM, Isla Fournier &lt;isla.fournier@thornburyproperties.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Following our call, please take this as formal instruction for Thornbury to acquire the freehold of Quartz House, 14-18 Forbury Road, Reading. Agreed price with the seller (Calderdale Asset Holdings) is £8.45m, multi-let, four tenants. We&#x27;d like to target completion in early-to-mid May.<br><br>Can you send the engagement letter and get title and searches moving?<br><br>Isla</div></blockquote></div></div>",
+      "attachmentIds": [
+        "o3wvnrrud0h0ruE0Fue50PbB4LeyQbqSY1HSd06U-UI"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Quartz_EngagementLetter.docx",
+          "id": "o3wvnrrud0h0ruE0Fue50PbB4LeyQbqSY1HSd06U-UI",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

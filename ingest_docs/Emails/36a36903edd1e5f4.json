@@ -1,0 +1,23 @@
+{
+  "id": "36a36903edd1e5f4",
+  "messages": [
+    {
+      "id": "36a36903edd1e5f4",
+      "snippet": "Hi all, A reminder that the firm's life-sciences group is running a lunchtime CPD seminar on \"Royalt",
+      "subject": "Invitation: Life Sciences licensing CPD seminar — 5 Feb",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-01-15T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi all,\n\nA reminder that the firm's life-sciences group is running a lunchtime CPD seminar on \"Royalty structures and milestone drafting in pharma licences\" on 5 February, 12:30 in the Bishopsgate training room. Sandwiches provided. Please reply if you'd like a place — counts for 1 hour CPD.\n\nDonna",
+      "htmlBody": "<div dir=\"ltr\">Hi all,<br><br>A reminder that the firm&#x27;s life-sciences group is running a lunchtime CPD seminar on &quot;Royalty structures and milestone drafting in pharma licences&quot; on 5 February, 12:30 in the Bishopsgate training room. Sandwiches provided. Please reply if you&#x27;d like a place — counts for 1 hour CPD.<br><br>Donna</div>"
+    }
+  ]
+}

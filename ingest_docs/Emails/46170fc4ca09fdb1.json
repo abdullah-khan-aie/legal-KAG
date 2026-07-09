@@ -1,0 +1,71 @@
+{
+  "id": "46170fc4ca09fdb1",
+  "messages": [
+    {
+      "id": "46170fc4ca09fdb1",
+      "snippet": "Jonathan, Please find our first draft of the Share Purchase Agreement. Headline points reflect the H",
+      "subject": "Project Granite — SPA first draft",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "jonathan.vane@castlevane.com"
+      ],
+      "ccRecipients": [
+        "amelia.hart@castlevane.com"
+      ],
+      "date": "2025-10-20T17:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Jonathan,\n\nPlease find our first draft of the Share Purchase Agreement. Headline points reflect the Heads: £41m equity consideration, £2.05m retention, full suite of business warranties and a tax covenant. The warranty cap is set at 100% of consideration with a 24-month general time limit, which we can discuss.\n\nLook forward to your mark-up.\n\nBest,\n\nJames Osei\nSenior Associate\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Jonathan,<br><br>Please find our first draft of the Share Purchase Agreement. Headline points reflect the Heads: £41m equity consideration, £2.05m retention, full suite of business warranties and a tax covenant. The warranty cap is set at 100% of consideration with a 24-month general time limit, which we can discuss.<br><br>Look forward to your mark-up.<br><br>Best,<br><br>James Osei<br>Senior Associate<br>Whitfield Carter LLP</div>"
+    },
+    {
+      "id": "1d98b0e21553a5c7",
+      "snippet": "James, Our mark-up is attached (redline against your v1). The principal changes: warranty cap reduce",
+      "subject": "RE: Project Granite — SPA first draft",
+      "sender": "jonathan.vane@castlevane.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "amelia.hart@castlevane.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-03T10:25:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "James,\n\nOur mark-up is attached (redline against your v1). The principal changes: warranty cap reduced to 25% of consideration, general time limit reduced to 18 months, de minimis raised to £50,000, restrictive covenants cut to two years, and a 'so far as the Sellers are aware' qualifier added to the warranty at clause 6.1. The retention should sit in escrow for 12 months only.\n\nHappy to talk these through.\n\nRegards,\n\nJonathan Vane\nPartner\nCastle & Vane LLP\n\nOn Mon, Oct 20, 2025 at 5:20 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Jonathan,\n>\n> Please find our first draft of the Share Purchase Agreement. Headline points reflect the Heads: £41m equity consideration, £2.05m retention, full suite of business warranties and a tax covenant. The warranty cap is set at 100% of consideration with a 24-month general time limit, which we can discuss.\n>\n> Look forward to your mark-up.\n>\n> Best,\n>\n> James Osei\n> Senior Associate\n> Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Our mark-up is attached (redline against your v1). The principal changes: warranty cap reduced to 25% of consideration, general time limit reduced to 18 months, de minimis raised to £50,000, restrictive covenants cut to two years, and a &#x27;so far as the Sellers are aware&#x27; qualifier added to the warranty at clause 6.1. The retention should sit in escrow for 12 months only.<br><br>Happy to talk these through.<br><br>Regards,<br><br>Jonathan Vane<br>Partner<br>Castle &amp; Vane LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Oct 20, 2025 at 5:20 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Jonathan,<br><br>Please find our first draft of the Share Purchase Agreement. Headline points reflect the Heads: £41m equity consideration, £2.05m retention, full suite of business warranties and a tax covenant. The warranty cap is set at 100% of consideration with a 24-month general time limit, which we can discuss.<br><br>Look forward to your mark-up.<br><br>Best,<br><br>James Osei<br>Senior Associate<br>Whitfield Carter LLP</div></blockquote></div></div>",
+      "attachmentIds": [
+        "iO18pfMbUtIvaMxxiUr5s9YCalddpMY8s0M3tevVNac"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Granite_SPA_v2_redline.docx",
+          "id": "iO18pfMbUtIvaMxxiUr5s9YCalddpMY8s0M3tevVNac",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "2365771cbaa2a88a",
+      "snippet": "Jonathan, Thanks. We'll take instructions, but my initial reaction is that a 25% cap is too low for ",
+      "subject": "RE: Project Granite — SPA first draft",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "jonathan.vane@castlevane.com"
+      ],
+      "ccRecipients": [
+        "amelia.hart@castlevane.com"
+      ],
+      "date": "2025-11-04T12:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Jonathan,\n\nThanks. We'll take instructions, but my initial reaction is that a 25% cap is too low for a deal of this size — we'll likely land around 50%. We'll also want to keep the 24-month limit and the three-year covenants. I'll send our response redline by the end of next week.\n\nBest,\n\nJames Osei\nSenior Associate\nWhitfield Carter LLP\n\nOn Mon, Nov 3, 2025 at 10:25 AM, Jonathan Vane <jonathan.vane@castlevane.com> wrote:\n> James,\n>\n> Our mark-up is attached (redline against your v1). The principal changes: warranty cap reduced to 25% of consideration, general time limit reduced to 18 months, de minimis raised to £50,000, restrictive covenants cut to two years, and a 'so far as the Sellers are aware' qualifier added to the warranty at clause 6.1. The retention should sit in escrow for 12 months only.\n>\n> Happy to talk these through.\n>\n> Regards,\n>\n> Jonathan Vane\n> Partner\n> Castle & Vane LLP\n>\n> On Mon, Oct 20, 2025 at 5:20 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > Jonathan,\n> >\n> > Please find our first draft of the Share Purchase Agreement. Headline points reflect the Heads: £41m equity consideration, £2.05m retention, full suite of business warranties and a tax covenant. The warranty cap is set at 100% of consideration with a 24-month general time limit, which we can discuss.\n> >\n> > Look forward to your mark-up.\n> >\n> > Best,\n> >\n> > James Osei\n> > Senior Associate\n> > Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Jonathan,<br><br>Thanks. We&#x27;ll take instructions, but my initial reaction is that a 25% cap is too low for a deal of this size — we&#x27;ll likely land around 50%. We&#x27;ll also want to keep the 24-month limit and the three-year covenants. I&#x27;ll send our response redline by the end of next week.<br><br>Best,<br><br>James Osei<br>Senior Associate<br>Whitfield Carter LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Nov 3, 2025 at 10:25 AM, Jonathan Vane &lt;jonathan.vane@castlevane.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Our mark-up is attached (redline against your v1). The principal changes: warranty cap reduced to 25% of consideration, general time limit reduced to 18 months, de minimis raised to £50,000, restrictive covenants cut to two years, and a &#x27;so far as the Sellers are aware&#x27; qualifier added to the warranty at clause 6.1. The retention should sit in escrow for 12 months only.<br><br>Happy to talk these through.<br><br>Regards,<br><br>Jonathan Vane<br>Partner<br>Castle &amp; Vane LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Oct 20, 2025 at 5:20 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Jonathan,<br><br>Please find our first draft of the Share Purchase Agreement. Headline points reflect the Heads: £41m equity consideration, £2.05m retention, full suite of business warranties and a tax covenant. The warranty cap is set at 100% of consideration with a 24-month general time limit, which we can discuss.<br><br>Look forward to your mark-up.<br><br>Best,<br><br>James Osei<br>Senior Associate<br>Whitfield Carter LLP</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

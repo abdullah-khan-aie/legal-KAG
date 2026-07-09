@@ -1,0 +1,65 @@
+{
+  "id": "46580434e57a8b05",
+  "messages": [
+    {
+      "id": "46580434e57a8b05",
+      "snippet": "Marcus, Nadia, Caldervale served its Defence and Counterclaim yesterday. As expected, it denies liab",
+      "subject": "Caldervale's Defence and Counterclaim served",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.penrose@penroserobotics.com"
+      ],
+      "ccRecipients": [
+        "nadia.verghese@penroserobotics.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-07-10T12:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Marcus, Nadia,\n\nCaldervale served its Defence and Counterclaim yesterday. As expected, it denies liability, says Milestone 4 was conditional on acceptance, defends the termination as lawful, and counterclaims £2.1m (peak-season losses £1.18m, remediation £265k, replacement system £655k).\n\nNothing in it surprises us, and the counterclaim's replacement-system head looks weak on mitigation/betterment. Our reply will press the dependency failures. Happy to walk you through it on a call.\n\nSarah\n\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0500\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Marcus, Nadia,<br><br>Caldervale served its Defence and Counterclaim yesterday. As expected, it denies liability, says Milestone 4 was conditional on acceptance, defends the termination as lawful, and counterclaims £2.1m (peak-season losses £1.18m, remediation £265k, replacement system £655k).<br><br>Nothing in it surprises us, and the counterclaim&#x27;s replacement-system head looks weak on mitigation/betterment. Our reply will press the dependency failures. Happy to walk you through it on a call.<br><br>Sarah<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "e6f6f831ff2fea6e",
+      "snippet": "Thanks Sarah. A call would be useful. To be clear on our side: the SKU master they gave us on 18 Sep",
+      "subject": "RE: Caldervale's Defence and Counterclaim served",
+      "sender": "nadia.verghese@penroserobotics.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "marcus.penrose@penroserobotics.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-07-10T14:25:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Thanks Sarah. A call would be useful. To be clear on our side: the SKU master they gave us on 18 September was demonstrably wrong on ~22% of active SKUs and we flagged it in writing two days later. Their 'corrected by 26 September' line doesn't match our records. Let's make sure that's front and centre.\n\nNadia Verghese\nGeneral Counsel, Penrose Robotics\n\nOn Thu, Jul 10, 2025 at 12:00 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Marcus, Nadia,\n>\n> Caldervale served its Defence and Counterclaim yesterday. As expected, it denies liability, says Milestone 4 was conditional on acceptance, defends the termination as lawful, and counterclaims £2.1m (peak-season losses £1.18m, remediation £265k, replacement system £655k).\n>\n> Nothing in it surprises us, and the counterclaim's replacement-system head looks weak on mitigation/betterment. Our reply will press the dependency failures. Happy to walk you through it on a call.\n>\n> Sarah\n>\n> Sarah Whitfield\n> Partner | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 0500\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks Sarah. A call would be useful. To be clear on our side: the SKU master they gave us on 18 September was demonstrably wrong on ~22% of active SKUs and we flagged it in writing two days later. Their &#x27;corrected by 26 September&#x27; line doesn&#x27;t match our records. Let&#x27;s make sure that&#x27;s front and centre.<br><br>Nadia Verghese<br>General Counsel, Penrose Robotics</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Jul 10, 2025 at 12:00 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Marcus, Nadia,<br><br>Caldervale served its Defence and Counterclaim yesterday. As expected, it denies liability, says Milestone 4 was conditional on acceptance, defends the termination as lawful, and counterclaims £2.1m (peak-season losses £1.18m, remediation £265k, replacement system £655k).<br><br>Nothing in it surprises us, and the counterclaim&#x27;s replacement-system head looks weak on mitigation/betterment. Our reply will press the dependency failures. Happy to walk you through it on a call.<br><br>Sarah<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    },
+    {
+      "id": "c5d2ee37b5778f2b",
+      "snippet": "Agreed. The data was a mess and the hosting was nowhere near spec. Let's keep the pressure on. Thurs",
+      "subject": "RE: Caldervale's Defence and Counterclaim served",
+      "sender": "marcus.penrose@penroserobotics.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "nadia.verghese@penroserobotics.com"
+      ],
+      "date": "2025-07-11T08:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Agreed. The data was a mess and the hosting was nowhere near spec. Let's keep the pressure on. Thursday afternoon works for the call.\n\nMarcus\n\nOn Thu, Jul 10, 2025 at 2:25 PM, Nadia Verghese <nadia.verghese@penroserobotics.com> wrote:\n> Thanks Sarah. A call would be useful. To be clear on our side: the SKU master they gave us on 18 September was demonstrably wrong on ~22% of active SKUs and we flagged it in writing two days later. Their 'corrected by 26 September' line doesn't match our records. Let's make sure that's front and centre.\n>\n> Nadia Verghese\n> General Counsel, Penrose Robotics\n>\n> On Thu, Jul 10, 2025 at 12:00 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> > Marcus, Nadia,\n> >\n> > Caldervale served its Defence and Counterclaim yesterday. As expected, it denies liability, says Milestone 4 was conditional on acceptance, defends the termination as lawful, and counterclaims £2.1m (peak-season losses £1.18m, remediation £265k, replacement system £655k).\n> >\n> > Nothing in it surprises us, and the counterclaim's replacement-system head looks weak on mitigation/betterment. Our reply will press the dependency failures. Happy to walk you through it on a call.\n> >\n> > Sarah\n> >\n> > Sarah Whitfield\n> > Partner | Whitfield Carter LLP\n> > 22 Bishopsgate, London EC2N 4BQ\n> > T +44 (0)20 7946 0500\n> > Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Agreed. The data was a mess and the hosting was nowhere near spec. Let&#x27;s keep the pressure on. Thursday afternoon works for the call.<br><br>Marcus</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Jul 10, 2025 at 2:25 PM, Nadia Verghese &lt;nadia.verghese@penroserobotics.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Thanks Sarah. A call would be useful. To be clear on our side: the SKU master they gave us on 18 September was demonstrably wrong on ~22% of active SKUs and we flagged it in writing two days later. Their &#x27;corrected by 26 September&#x27; line doesn&#x27;t match our records. Let&#x27;s make sure that&#x27;s front and centre.<br><br>Nadia Verghese<br>General Counsel, Penrose Robotics</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Jul 10, 2025 at 12:00 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Marcus, Nadia,<br><br>Caldervale served its Defence and Counterclaim yesterday. As expected, it denies liability, says Milestone 4 was conditional on acceptance, defends the termination as lawful, and counterclaims £2.1m (peak-season losses £1.18m, remediation £265k, replacement system £655k).<br><br>Nothing in it surprises us, and the counterclaim&#x27;s replacement-system head looks weak on mitigation/betterment. Our reply will press the dependency failures. Happy to walk you through it on a call.<br><br>Sarah<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

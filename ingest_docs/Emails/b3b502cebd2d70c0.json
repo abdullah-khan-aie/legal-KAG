@@ -1,0 +1,41 @@
+{
+  "id": "b3b502cebd2d70c0",
+  "messages": [
+    {
+      "id": "b3b502cebd2d70c0",
+      "snippet": "Dear Mark, Thank you for your time yesterday. I'm drafting your witness statement now. It will cover",
+      "subject": "WC-00115 - your witness statement",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "mark.tennant@sutherlandlogistics.co.uk"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-12-18T09:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Mark,\n\nThank you for your time yesterday. I'm drafting your witness statement now. It will cover: the set-up of the dedicated operation (the 9,000 pallet spaces, 11 operatives, 4 vehicles), the consistently good SLA performance, the unpaid invoices and your chasers to Karen Field, the 9 May termination, and the mitigation steps (vehicle redeployment and Halcyon).\n\nCould you dig out the monthly SLA reports for 2024 and the email chasers to Vantage? They'll be exhibits.\n\nBest,\nTom\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0000 | www.whitfieldcarter.com\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Mark,<br><br>Thank you for your time yesterday. I&#x27;m drafting your witness statement now. It will cover: the set-up of the dedicated operation (the 9,000 pallet spaces, 11 operatives, 4 vehicles), the consistently good SLA performance, the unpaid invoices and your chasers to Karen Field, the 9 May termination, and the mitigation steps (vehicle redeployment and Halcyon).<br><br>Could you dig out the monthly SLA reports for 2024 and the email chasers to Vantage? They&#x27;ll be exhibits.<br><br>Best,<br>Tom<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0000 | www.whitfieldcarter.com<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "a1931274095f84f3",
+      "snippet": "Tom, No problem. I've found the SLA reports - on-time despatch never dropped below 98.5% and accurac",
+      "subject": "RE: WC-00115 - your witness statement",
+      "sender": "mark.tennant@sutherlandlogistics.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-12-19T14:25:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom,\n\nNo problem. I've found the SLA reports - on-time despatch never dropped below 98.5% and accuracy was above 99.7% the whole time, so their \"service failures\" line is nonsense. I'll scan the chaser emails to Karen and send them over. They never once complained about service when I was chasing payment.\n\nMark\n\nOn Thu, Dec 18, 2025 at 9:40 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Mark,\n>\n> Thank you for your time yesterday. I'm drafting your witness statement now. It will cover: the set-up of the dedicated operation (the 9,000 pallet spaces, 11 operatives, 4 vehicles), the consistently good SLA performance, the unpaid invoices and your chasers to Karen Field, the 9 May termination, and the mitigation steps (vehicle redeployment and Halcyon).\n>\n> Could you dig out the monthly SLA reports for 2024 and the email chasers to Vantage? They'll be exhibits.\n>\n> Best,\n> Tom\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 0000 | www.whitfieldcarter.com\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>No problem. I&#x27;ve found the SLA reports - on-time despatch never dropped below 98.5% and accuracy was above 99.7% the whole time, so their &quot;service failures&quot; line is nonsense. I&#x27;ll scan the chaser emails to Karen and send them over. They never once complained about service when I was chasing payment.<br><br>Mark</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Dec 18, 2025 at 9:40 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Mark,<br><br>Thank you for your time yesterday. I&#x27;m drafting your witness statement now. It will cover: the set-up of the dedicated operation (the 9,000 pallet spaces, 11 operatives, 4 vehicles), the consistently good SLA performance, the unpaid invoices and your chasers to Karen Field, the 9 May termination, and the mitigation steps (vehicle redeployment and Halcyon).<br><br>Could you dig out the monthly SLA reports for 2024 and the email chasers to Vantage? They&#x27;ll be exhibits.<br><br>Best,<br>Tom<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0000 | www.whitfieldcarter.com<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

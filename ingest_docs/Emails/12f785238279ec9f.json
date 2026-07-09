@@ -1,0 +1,62 @@
+{
+  "id": "12f785238279ec9f",
+  "messages": [
+    {
+      "id": "12f785238279ec9f",
+      "snippet": "Dear Deepa, Please find attached the first draft of the settlement agreement reflecting the terms ag",
+      "subject": "Rashid — draft settlement agreement [SUBJECT TO CONTRACT]",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "deepa.kovac@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-04-02T15:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Deepa,\n\nPlease find attached the first draft of the settlement agreement reflecting the terms agreed in principle. The ex-gratia is shown at £68,000 pending your client's confirmation of the final figure; happy to update to £72,500 on the next turn. Grateful for your mark-up.\n\nKind regards,\nTom Gallagher\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0521\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Deepa,<br><br>Please find attached the first draft of the settlement agreement reflecting the terms agreed in principle. The ex-gratia is shown at £68,000 pending your client&#x27;s confirmation of the final figure; happy to update to £72,500 on the next turn. Grateful for your mark-up.<br><br>Kind regards,<br>Tom Gallagher<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0521<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "0L918atSdVpMy7dfwEb-JBzfKsQl8k0h6hsjliHHTRg"
+      ],
+      "attachments": [
+        {
+          "filename": "Rashid_SettlementAgreement_v1.docx",
+          "id": "0L918atSdVpMy7dfwEb-JBzfKsQl8k0h6hsjliHHTRg",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "75142f47e35fe29a",
+      "snippet": "Tom, Thank you. Our mark-up is attached. Key points: ex-gratia corrected to £72,500; fee contributio",
+      "subject": "RE: Rashid — draft settlement agreement [SUBJECT TO CONTRACT]",
+      "sender": "deepa.kovac@birchallstone.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-04-08T10:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom,\n\nThank you. Our mark-up is attached. Key points: ex-gratia corrected to £72,500; fee contribution to £1,500; and we've added a fixed period for providing the reference. Otherwise the draft is largely acceptable. If you can accept these we should be able to sign this week.\n\nDeepa\n\nOn Wed, Apr 2, 2025 at 3:20 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Deepa,\n>\n> Please find attached the first draft of the settlement agreement reflecting the terms agreed in principle. The ex-gratia is shown at £68,000 pending your client's confirmation of the final figure; happy to update to £72,500 on the next turn. Grateful for your mark-up.\n>\n> Kind regards,\n> Tom Gallagher\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 0521\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>Thank you. Our mark-up is attached. Key points: ex-gratia corrected to £72,500; fee contribution to £1,500; and we&#x27;ve added a fixed period for providing the reference. Otherwise the draft is largely acceptable. If you can accept these we should be able to sign this week.<br><br>Deepa</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Apr 2, 2025 at 3:20 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Deepa,<br><br>Please find attached the first draft of the settlement agreement reflecting the terms agreed in principle. The ex-gratia is shown at £68,000 pending your client&#x27;s confirmation of the final figure; happy to update to £72,500 on the next turn. Grateful for your mark-up.<br><br>Kind regards,<br>Tom Gallagher<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0521<br>Confidential and may be legally privileged.</div></blockquote></div></div>",
+      "attachmentIds": [
+        "yMdphFG09Q5JC4a6aSZKVGIU87w0csyzJ4C9Wmc_yZ0"
+      ],
+      "attachments": [
+        {
+          "filename": "Rashid_SettlementAgreement_v2_redline.docx",
+          "id": "yMdphFG09Q5JC4a6aSZKVGIU87w0csyzJ4C9Wmc_yZ0",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

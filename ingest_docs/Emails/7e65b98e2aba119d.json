@@ -1,0 +1,37 @@
+{
+  "id": "7e65b98e2aba119d",
+  "messages": [
+    {
+      "id": "7e65b98e2aba119d",
+      "snippet": "Tom, Nothing to do with Maybrook - on the Harrow Precision v Brevdale Castings matter, do you have t",
+      "subject": "Quick one - Brevdale disclosure index format",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-04-22T11:50:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Tom,\n\nNothing to do with Maybrook - on the Harrow Precision v Brevdale Castings matter, do you have the disclosure index template you used? Catherine wants the same column layout for the Pennington regulatory file and I'd rather not rebuild it. Cheers.\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>Nothing to do with Maybrook - on the Harrow Precision v Brevdale Castings matter, do you have the disclosure index template you used? Catherine wants the same column layout for the Pennington regulatory file and I&#x27;d rather not rebuild it. Cheers.<br><br>James</div>"
+    },
+    {
+      "id": "7230cffe813cbf4b",
+      "snippet": "Yep - it's in the Brevdale folder, the xlsx with the Doc ID / privilege columns. Copy it and strip t",
+      "subject": "RE: Quick one - Brevdale disclosure index format",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-04-22T12:10:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Yep - it's in the Brevdale folder, the xlsx with the Doc ID / privilege columns. Copy it and strip the data. Tom\n\nOn Wed, Apr 22, 2026 at 11:50 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Tom,\n>\n> Nothing to do with Maybrook - on the Harrow Precision v Brevdale Castings matter, do you have the disclosure index template you used? Catherine wants the same column layout for the Pennington regulatory file and I'd rather not rebuild it. Cheers.\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Yep - it&#x27;s in the Brevdale folder, the xlsx with the Doc ID / privilege columns. Copy it and strip the data. Tom</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Apr 22, 2026 at 11:50 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom,<br><br>Nothing to do with Maybrook - on the Harrow Precision v Brevdale Castings matter, do you have the disclosure index template you used? Catherine wants the same column layout for the Pennington regulatory file and I&#x27;d rather not rebuild it. Cheers.<br><br>James</div></blockquote></div></div>"
+    }
+  ]
+}

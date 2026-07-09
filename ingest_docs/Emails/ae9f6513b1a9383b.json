@@ -1,0 +1,67 @@
+{
+  "id": "ae9f6513b1a9383b",
+  "messages": [
+    {
+      "id": "ae9f6513b1a9383b",
+      "snippet": "James, Reviewed Ashworth's v2. Good news: they've accepted 24-hour breach notification and the 90-da",
+      "subject": "Meridian - Sentvia's v2 redline reviewed",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-11-13T10:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "James,\n\nReviewed Ashworth's v2. Good news: they've accepted 24-hour breach notification and the 90-day export right. On liability they've gone 100%/150% and bumped the uplift cap to 6%. I'd counter at 125% general cap (keep their 150% super-cap), and reject the 6% - hold at 5%. Our v3 counter-redline is ready.\n\nBest,\nElena Marchetti\nAssociate | Whitfield Carter LLP\n+44 (0)20 7946 0137\n\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Reviewed Ashworth&#x27;s v2. Good news: they&#x27;ve accepted 24-hour breach notification and the 90-day export right. On liability they&#x27;ve gone 100%/150% and bumped the uplift cap to 6%. I&#x27;d counter at 125% general cap (keep their 150% super-cap), and reject the 6% - hold at 5%. Our v3 counter-redline is ready.<br><br>Best,<br>Elena Marchetti<br>Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0137<br><br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "7554bb44f867624b",
+      "snippet": "Marcus, Thanks - we're nearly there. Our counter is attached. We've accepted your 150% data/confiden",
+      "subject": "RE: Project Meridian - Hartwell mark-up of the MSA",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.ashworth@ashworthquinn.com"
+      ],
+      "ccRecipients": [
+        "claire.dunne@ashworthquinn.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-11-20T16:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Marcus,\n\nThanks - we're nearly there. Our counter is attached. We've accepted your 150% data/confidentiality super-cap, but the general cap should sit at 125% given the criticality of the system, and we've held the price uplift at 5%. If Sentvia can live with that, we're done on the legal points.\n\nKind regards,\nJames Osei\nSenior Associate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0112\n\nConfidential and may be legally privileged.\n\nOn Thu, Nov 13, 2025 at 10:20 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> James,\n>\n> Reviewed Ashworth's v2. Good news: they've accepted 24-hour breach notification and the 90-day export right. On liability they've gone 100%/150% and bumped the uplift cap to 6%. I'd counter at 125% general cap (keep their 150% super-cap), and reject the 6% - hold at 5%. Our v3 counter-redline is ready.\n>\n> Best,\n> Elena Marchetti\n> Associate | Whitfield Carter LLP\n> +44 (0)20 7946 0137\n>\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Marcus,<br><br>Thanks - we&#x27;re nearly there. Our counter is attached. We&#x27;ve accepted your 150% data/confidentiality super-cap, but the general cap should sit at 125% given the criticality of the system, and we&#x27;ve held the price uplift at 5%. If Sentvia can live with that, we&#x27;re done on the legal points.<br><br>Kind regards,<br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0112<br><br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Nov 13, 2025 at 10:20 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Reviewed Ashworth&#x27;s v2. Good news: they&#x27;ve accepted 24-hour breach notification and the 90-day export right. On liability they&#x27;ve gone 100%/150% and bumped the uplift cap to 6%. I&#x27;d counter at 125% general cap (keep their 150% super-cap), and reject the 6% - hold at 5%. Our v3 counter-redline is ready.<br><br>Best,<br>Elena Marchetti<br>Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0137<br><br>Confidential and may be legally privileged.</div></blockquote></div></div>",
+      "attachmentIds": [
+        "rDj0zxNKjZCYG_PdpBhB1rWkZAiU6iKhuAQVdz-bkfM"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Meridian_MSA_v3_redline.docx",
+          "id": "rDj0zxNKjZCYG_PdpBhB1rWkZAiU6iKhuAQVdz-bkfM",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "3f1e41b50d8afa7e",
+      "snippet": "James, Sentvia accepts 125% general cap and 5% uplift. I'll have my team produce the execution versi",
+      "subject": "RE: Project Meridian - Hartwell mark-up of the MSA",
+      "sender": "marcus.ashworth@ashworthquinn.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "claire.dunne@ashworthquinn.com"
+      ],
+      "date": "2025-11-24T11:05:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "James,\n\nSentvia accepts 125% general cap and 5% uplift. I'll have my team produce the execution version reflecting these and the agreed schedules. Suggest we aim to exchange this week.\n\nMarcus Ashworth\nPartner | Ashworth Quinn LLP\nDX 41214 London\n\nOn Thu, Nov 20, 2025 at 4:30 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Marcus,\n>\n> Thanks - we're nearly there. Our counter is attached. We've accepted your 150% data/confidentiality super-cap, but the general cap should sit at 125% given the criticality of the system, and we've held the price uplift at 5%. If Sentvia can live with that, we're done on the legal points.\n>\n> Kind regards,\n> James Osei\n> Senior Associate | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0112\n>\n> Confidential and may be legally privileged.\n>\n> On Thu, Nov 13, 2025 at 10:20 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> > James,\n> >\n> > Reviewed Ashworth's v2. Good news: they've accepted 24-hour breach notification and the 90-day export right. On liability they've gone 100%/150% and bumped the uplift cap to 6%. I'd counter at 125% general cap (keep their 150% super-cap), and reject the 6% - hold at 5%. Our v3 counter-redline is ready.\n> >\n> > Best,\n> > Elena Marchetti\n> > Associate | Whitfield Carter LLP\n> > +44 (0)20 7946 0137\n> >\n> > Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Sentvia accepts 125% general cap and 5% uplift. I&#x27;ll have my team produce the execution version reflecting these and the agreed schedules. Suggest we aim to exchange this week.<br><br>Marcus Ashworth<br>Partner | Ashworth Quinn LLP<br>DX 41214 London</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Nov 20, 2025 at 4:30 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Marcus,<br><br>Thanks - we&#x27;re nearly there. Our counter is attached. We&#x27;ve accepted your 150% data/confidentiality super-cap, but the general cap should sit at 125% given the criticality of the system, and we&#x27;ve held the price uplift at 5%. If Sentvia can live with that, we&#x27;re done on the legal points.<br><br>Kind regards,<br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0112<br><br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Nov 13, 2025 at 10:20 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Reviewed Ashworth&#x27;s v2. Good news: they&#x27;ve accepted 24-hour breach notification and the 90-day export right. On liability they&#x27;ve gone 100%/150% and bumped the uplift cap to 6%. I&#x27;d counter at 125% general cap (keep their 150% super-cap), and reject the 6% - hold at 5%. Our v3 counter-redline is ready.<br><br>Best,<br>Elena Marchetti<br>Associate | Whitfield Carter LLP<br>+44 (0)20 7946 0137<br><br>Confidential and may be legally privileged.</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "346e1bc23531fdc3",
+  "messages": [
+    {
+      "id": "346e1bc23531fdc3",
+      "snippet": "James, Our tax DD on Wren & Hartley is clean - no material exposures beyond ordinary course. We're c",
+      "subject": "Project Falcon - tax structuring note",
+      "sender": "duncan.reeves@marlowtax.co.uk",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "gregory.talbot@calderstonecapital.com"
+      ],
+      "date": "2026-01-28T12:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nOur tax DD on Wren & Hartley is clean - no material exposures beyond ordinary course. We're comfortable with the tax covenant as drafted (seven-year limit). For the funds flow, note stamp duty at 0.5% on the consideration. Happy to dial in on the completion mechanics if useful.\n\nDuncan Reeves\nMarlow Tax & Advisory Ltd",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our tax DD on Wren &amp; Hartley is clean - no material exposures beyond ordinary course. We&#x27;re comfortable with the tax covenant as drafted (seven-year limit). For the funds flow, note stamp duty at 0.5% on the consideration. Happy to dial in on the completion mechanics if useful.<br><br>Duncan Reeves<br>Marlow Tax &amp; Advisory Ltd</div>"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "1df59c0f7cc9e1f4",
+  "messages": [
+    {
+      "id": "1df59c0f7cc9e1f4",
+      "snippet": "Tom, Draft disclosure list attached ahead of the 25 July production deadline. I've flagged the privi",
+      "subject": "Brampton v Hartwell - draft disclosure list for review",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-07-22T16:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Tom,\n\nDraft disclosure list attached ahead of the 25 July production deadline. I've flagged the privileged items (instruction letter to LFA, Catherine's advice) as listed but withheld. Could you sanity-check the privilege column before we send to Drummond Hale?\n\nElena",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>Draft disclosure list attached ahead of the 25 July production deadline. I&#x27;ve flagged the privileged items (instruction letter to LFA, Catherine&#x27;s advice) as listed but withheld. Could you sanity-check the privilege column before we send to Drummond Hale?<br><br>Elena</div>",
+      "attachmentIds": [
+        "3kjxt1QTpUIiexPxbiUr7vPKBn4TrJrUcs5WvYf6KOM"
+      ],
+      "attachments": [
+        {
+          "filename": "Kingsford_v_Hartwell_DisclosureIndex.xlsx",
+          "id": "3kjxt1QTpUIiexPxbiUr7vPKBn4TrJrUcs5WvYf6KOM",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "8545edf7dbc216de",
+      "snippet": "Looks good. Confirm the LFA report itself is listed as non-privileged - we're relying on it. Everyth",
+      "subject": "RE: Brampton v Hartwell - draft disclosure list for review",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-07-23T11:45:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Looks good. Confirm the LFA report itself is listed as non-privileged - we're relying on it. Everything else is fine to produce. Let's serve on the deadline.\n\nTom\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\nConfidential and may be legally privileged.\n\nOn Tue, Jul 22, 2025 at 4:30 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Tom,\n>\n> Draft disclosure list attached ahead of the 25 July production deadline. I've flagged the privileged items (instruction letter to LFA, Catherine's advice) as listed but withheld. Could you sanity-check the privilege column before we send to Drummond Hale?\n>\n> Elena",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Looks good. Confirm the LFA report itself is listed as non-privileged - we&#x27;re relying on it. Everything else is fine to produce. Let&#x27;s serve on the deadline.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jul 22, 2025 at 4:30 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom,<br><br>Draft disclosure list attached ahead of the 25 July production deadline. I&#x27;ve flagged the privileged items (instruction letter to LFA, Catherine&#x27;s advice) as listed but withheld. Could you sanity-check the privilege column before we send to Drummond Hale?<br><br>Elena</div></blockquote></div></div>"
+    }
+  ]
+}

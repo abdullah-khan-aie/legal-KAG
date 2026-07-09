@@ -1,0 +1,51 @@
+{
+  "id": "d3cfd0ae601a529e",
+  "messages": [
+    {
+      "id": "d3cfd0ae601a529e",
+      "snippet": "Tom, Attached is the cost-to-company breakdown at £247,500. Net to Geoff is about £145k after PAYE o",
+      "subject": "Hartnell - settlement cost-to-company breakdown",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-20T13:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Tom,\n\nAttached is the cost-to-company breakdown at £247,500. Net to Geoff is about £145k after PAYE on the taxable element; total cost to the Company is about £281k once employer NIC above the £30k threshold, the PMI continuation and the costs contribution are added. I've kept the £30k tax-free element on the standard ss.401-403 basis - we should flag to Karen that the PILON-equivalent portion is taxable.\n\nElena\n\nElena Marchetti\nAssociate | Employment\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>Attached is the cost-to-company breakdown at £247,500. Net to Geoff is about £145k after PAYE on the taxable element; total cost to the Company is about £281k once employer NIC above the £30k threshold, the PMI continuation and the costs contribution are added. I&#x27;ve kept the £30k tax-free element on the standard ss.401-403 basis - we should flag to Karen that the PILON-equivalent portion is taxable.<br><br>Elena<br><br>Elena Marchetti<br>Associate | Employment<br>Whitfield Carter LLP</div>",
+      "attachmentIds": [
+        "a6Yw5r1nI83i_7PqUn47C0-blc2ScZdI6CYUrNC1aXw"
+      ],
+      "attachments": [
+        {
+          "filename": "Ferris_SettlementBreakdown.xlsx",
+          "id": "a6Yw5r1nI83i_7PqUn47C0-blc2ScZdI6CYUrNC1aXw",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "8aa6b3899389f785",
+      "snippet": "Perfect, thanks. Let's send the figures to Karen with a short tax note for payroll. The £30k tax-fre",
+      "subject": "RE: Hartnell - settlement cost-to-company breakdown",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-20T17:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Perfect, thanks. Let's send the figures to Karen with a short tax note for payroll. The £30k tax-free / balance-taxable split is right on these facts.\n\nTom\n\nTom Gallagher\nAssociate | Employment\nWhitfield Carter LLP\nT: 020 7946 0021\n\nOn Fri, Feb 20, 2026 at 1:30 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Tom,\n>\n> Attached is the cost-to-company breakdown at £247,500. Net to Geoff is about £145k after PAYE on the taxable element; total cost to the Company is about £281k once employer NIC above the £30k threshold, the PMI continuation and the costs contribution are added. I've kept the £30k tax-free element on the standard ss.401-403 basis - we should flag to Karen that the PILON-equivalent portion is taxable.\n>\n> Elena\n>\n> Elena Marchetti\n> Associate | Employment\n> Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Perfect, thanks. Let&#x27;s send the figures to Karen with a short tax note for payroll. The £30k tax-free / balance-taxable split is right on these facts.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Employment<br>Whitfield Carter LLP<br>T: 020 7946 0021</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Feb 20, 2026 at 1:30 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom,<br><br>Attached is the cost-to-company breakdown at £247,500. Net to Geoff is about £145k after PAYE on the taxable element; total cost to the Company is about £281k once employer NIC above the £30k threshold, the PMI continuation and the costs contribution are added. I&#x27;ve kept the £30k tax-free element on the standard ss.401-403 basis - we should flag to Karen that the PILON-equivalent portion is taxable.<br><br>Elena<br><br>Elena Marchetti<br>Associate | Employment<br>Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

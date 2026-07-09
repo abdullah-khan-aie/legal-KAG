@@ -1,0 +1,22 @@
+{
+  "id": "ed2439de7ecf4d17",
+  "messages": [
+    {
+      "id": "ed2439de7ecf4d17",
+      "snippet": "Hiya - are you still on for netball Thursday? Think we're a player short. Also did you ever send me ",
+      "subject": "netball Thursday?",
+      "sender": "rebecca.stone@thornburyproperties.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-01-09T18:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hiya - are you still on for netball Thursday? Think we're a player short. Also did you ever send me that brunch place recommendation?\n\nBec x\n\n[Sent to the wrong Sarah - apologies if this isn't you!]",
+      "htmlBody": "<div dir=\"ltr\">Hiya - are you still on for netball Thursday? Think we&#x27;re a player short. Also did you ever send me that brunch place recommendation?<br><br>Bec x<br><br>[Sent to the wrong Sarah - apologies if this isn&#x27;t you!]</div>"
+    }
+  ]
+}

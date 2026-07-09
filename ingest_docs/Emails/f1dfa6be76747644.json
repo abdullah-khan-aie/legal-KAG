@@ -1,0 +1,55 @@
+{
+  "id": "f1dfa6be76747644",
+  "messages": [
+    {
+      "id": "f1dfa6be76747644",
+      "snippet": "Ingrid, Now we've completed, let's arrange the clause 4 technology transfer. I'll deliver the AB-COA",
+      "subject": "Project Quartz — technology transfer kick-off and patent schedule",
+      "sender": "marcus.tindall@aldridgebiomaterials.com",
+      "toRecipients": [
+        "ingrid.sauer@brandtpackaging.de"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-12-16T11:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Ingrid,\n\nNow we've completed, let's arrange the clause 4 technology transfer. I'll deliver the AB-COAT(TM) formulations, line parameters and QC protocols within the 30-day window, and we can schedule the first of the 15 assistance days at your Hilden line in January. For reference I attach the agreed schedule of Licensed Patents that forms Schedule 1.\n\nBest,\nMarcus",
+      "htmlBody": "<div dir=\"ltr\">Ingrid,<br><br>Now we&#x27;ve completed, let&#x27;s arrange the clause 4 technology transfer. I&#x27;ll deliver the AB-COAT(TM) formulations, line parameters and QC protocols within the 30-day window, and we can schedule the first of the 15 assistance days at your Hilden line in January. For reference I attach the agreed schedule of Licensed Patents that forms Schedule 1.<br><br>Best,<br>Marcus</div>",
+      "attachmentIds": [
+        "byoz18rRYOS0xlgWJKTaqmMVWVF7IUnAjBklVQKJ_vI"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Quartz_PatentSchedule.xlsx",
+          "id": "byoz18rRYOS0xlgWJKTaqmMVWVF7IUnAjBklVQKJ_vI",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "fad315745963218e",
+      "snippet": "Marcus, Perfect. Mid-January works for the first assistance days. Our process engineer will coordina",
+      "subject": "RE: Project Quartz — technology transfer kick-off and patent schedule",
+      "sender": "ingrid.sauer@brandtpackaging.de",
+      "toRecipients": [
+        "marcus.tindall@aldridgebiomaterials.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-12-18T09:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Marcus,\n\nPerfect. Mid-January works for the first assistance days. Our process engineer will coordinate. Thank you for the patent schedule.\n\nIngrid\n\nOn Tue, Dec 16, 2025 at 11:30 AM, Dr Marcus Tindall <marcus.tindall@aldridgebiomaterials.com> wrote:\n> Ingrid,\n>\n> Now we've completed, let's arrange the clause 4 technology transfer. I'll deliver the AB-COAT(TM) formulations, line parameters and QC protocols within the 30-day window, and we can schedule the first of the 15 assistance days at your Hilden line in January. For reference I attach the agreed schedule of Licensed Patents that forms Schedule 1.\n>\n> Best,\n> Marcus",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Marcus,<br><br>Perfect. Mid-January works for the first assistance days. Our process engineer will coordinate. Thank you for the patent schedule.<br><br>Ingrid</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Dec 16, 2025 at 11:30 AM, Dr Marcus Tindall &lt;marcus.tindall@aldridgebiomaterials.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Ingrid,<br><br>Now we&#x27;ve completed, let&#x27;s arrange the clause 4 technology transfer. I&#x27;ll deliver the AB-COAT(TM) formulations, line parameters and QC protocols within the 30-day window, and we can schedule the first of the 15 assistance days at your Hilden line in January. For reference I attach the agreed schedule of Licensed Patents that forms Schedule 1.<br><br>Best,<br>Marcus</div></blockquote></div></div>"
+    }
+  ]
+}

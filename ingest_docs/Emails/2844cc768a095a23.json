@@ -1,0 +1,77 @@
+{
+  "id": "2844cc768a095a23",
+  "messages": [
+    {
+      "id": "2844cc768a095a23",
+      "snippet": "James, Our mark-up attached (v2, tracked). Headline points for the Investor: - founder liability cap",
+      "subject": "Project Solstice - SSA mark-up (v2)",
+      "sender": "nadia.hargrove@hargroveassoc.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.pryce@hargroveassoc.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-07-18T11:35:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nOur mark-up attached (v2, tracked). Headline points for the Investor:\n- founder liability cap reduced from 2x to 1x gross annual salary;\n- de minimis raised to £20,000 and the basket to £100,000;\n- general warranty claim period extended from 18 to 24 months.\nTax warranty period (5 years) unchanged. Happy to discuss.\n\nNadia",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our mark-up attached (v2, tracked). Headline points for the Investor:<br>- founder liability cap reduced from 2x to 1x gross annual salary;<br>- de minimis raised to £20,000 and the basket to £100,000;<br>- general warranty claim period extended from 18 to 24 months.<br>Tax warranty period (5 years) unchanged. Happy to discuss.<br><br>Nadia</div>",
+      "attachmentIds": [
+        "KzrXCELZlsiMmwkHmiysS8y4ImO083RG4ErKG6qLpJU"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Solstice_SubscriptionShareholdersAgreement_v2_redline.docx",
+          "id": "KzrXCELZlsiMmwkHmiysS8y4ImO083RG4ErKG6qLpJU",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "3cf7f06f15827401",
+      "snippet": "Alice, Marcus, Ardent's mark-up is in. The main changes are: founder cap down to 1x salary (helpful ",
+      "subject": "FW: Project Solstice - SSA mark-up (v2)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "alice.wren@larkmoorbio.com",
+        "marcus.veldt@larkmoorbio.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-07-21T14:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Alice, Marcus,\n\nArdent's mark-up is in. The main changes are: founder cap down to 1x salary (helpful to you), de minimis up to £20k and basket up to £100k (also reduces your exposure), and the general warranty period out to 24 months (slightly worse for you, but market). On balance I'd accept the cap and thresholds, and I'll see whether they'll meet us at 21 months on the period.\n\nWill revert with our v3.\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n+44 (0)20 7946 1190\n\nOn Fri, Jul 18, 2025 at 11:35 AM, Nadia Hargrove <nadia.hargrove@hargroveassoc.com> wrote:\n> James,\n>\n> Our mark-up attached (v2, tracked). Headline points for the Investor:\n> - founder liability cap reduced from 2x to 1x gross annual salary;\n> - de minimis raised to £20,000 and the basket to £100,000;\n> - general warranty claim period extended from 18 to 24 months.\n> Tax warranty period (5 years) unchanged. Happy to discuss.\n>\n> Nadia",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Alice, Marcus,<br><br>Ardent&#x27;s mark-up is in. The main changes are: founder cap down to 1x salary (helpful to you), de minimis up to £20k and basket up to £100k (also reduces your exposure), and the general warranty period out to 24 months (slightly worse for you, but market). On balance I&#x27;d accept the cap and thresholds, and I&#x27;ll see whether they&#x27;ll meet us at 21 months on the period.<br><br>Will revert with our v3.<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1190</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Jul 18, 2025 at 11:35 AM, Nadia Hargrove &lt;nadia.hargrove@hargroveassoc.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Our mark-up attached (v2, tracked). Headline points for the Investor:<br>- founder liability cap reduced from 2x to 1x gross annual salary;<br>- de minimis raised to £20,000 and the basket to £100,000;<br>- general warranty claim period extended from 18 to 24 months.<br>Tax warranty period (5 years) unchanged. Happy to discuss.<br><br>Nadia</div></blockquote></div></div>"
+    },
+    {
+      "id": "4ba8ed81155c444f",
+      "snippet": "Agreed on the cap and thresholds. Fine to concede 24 months if it unblocks things - not worth fighti",
+      "subject": "RE: Project Solstice - SSA mark-up (v2)",
+      "sender": "marcus.veldt@larkmoorbio.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "alice.wren@larkmoorbio.com"
+      ],
+      "date": "2025-07-22T08:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Agreed on the cap and thresholds. Fine to concede 24 months if it unblocks things - not worth fighting. Thanks.\n\nMarcus Veldt\nCFO, Larkmoor Bioscience\n\nOn Mon, Jul 21, 2025 at 2:10 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Alice, Marcus,\n>\n> Ardent's mark-up is in. The main changes are: founder cap down to 1x salary (helpful to you), de minimis up to £20k and basket up to £100k (also reduces your exposure), and the general warranty period out to 24 months (slightly worse for you, but market). On balance I'd accept the cap and thresholds, and I'll see whether they'll meet us at 21 months on the period.\n>\n> Will revert with our v3.\n>\n> James Osei\n> Senior Associate | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> +44 (0)20 7946 1190\n>\n> On Fri, Jul 18, 2025 at 11:35 AM, Nadia Hargrove <nadia.hargrove@hargroveassoc.com> wrote:\n> > James,\n> >\n> > Our mark-up attached (v2, tracked). Headline points for the Investor:\n> > - founder liability cap reduced from 2x to 1x gross annual salary;\n> > - de minimis raised to £20,000 and the basket to £100,000;\n> > - general warranty claim period extended from 18 to 24 months.\n> > Tax warranty period (5 years) unchanged. Happy to discuss.\n> >\n> > Nadia",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Agreed on the cap and thresholds. Fine to concede 24 months if it unblocks things - not worth fighting. Thanks.<br><br>Marcus Veldt<br>CFO, Larkmoor Bioscience</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Jul 21, 2025 at 2:10 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Alice, Marcus,<br><br>Ardent&#x27;s mark-up is in. The main changes are: founder cap down to 1x salary (helpful to you), de minimis up to £20k and basket up to £100k (also reduces your exposure), and the general warranty period out to 24 months (slightly worse for you, but market). On balance I&#x27;d accept the cap and thresholds, and I&#x27;ll see whether they&#x27;ll meet us at 21 months on the period.<br><br>Will revert with our v3.<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1190</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Jul 18, 2025 at 11:35 AM, Nadia Hargrove &lt;nadia.hargrove@hargroveassoc.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Our mark-up attached (v2, tracked). Headline points for the Investor:<br>- founder liability cap reduced from 2x to 1x gross annual salary;<br>- de minimis raised to £20,000 and the basket to £100,000;<br>- general warranty claim period extended from 18 to 24 months.<br>Tax warranty period (5 years) unchanged. Happy to discuss.<br><br>Nadia</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

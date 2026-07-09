@@ -1,0 +1,39 @@
+{
+  "id": "e956bc55a7272dbc",
+  "messages": [
+    {
+      "id": "e956bc55a7272dbc",
+      "snippet": "James, Tom, Before Wednesday's call: I think we land the cap at 22.5% (£7.38m) and hold the basket a",
+      "subject": "Polaris - position on cap/basket before the call",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-09-16T18:25:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James, Tom,\n\nBefore Wednesday's call: I think we land the cap at 22.5% (£7.38m) and hold the basket at a level closer to £350-400k. The escrow is our real protection given the Leeds licence-to-alter and the Pennine change-of-control consent are still open. Tom - can you pull the DD risk list into a one-pager so we can point Castle & Vane at the specific exposures.\n\nSarah",
+      "htmlBody": "<div dir=\"ltr\">James, Tom,<br><br>Before Wednesday&#x27;s call: I think we land the cap at 22.5% (£7.38m) and hold the basket at a level closer to £350-400k. The escrow is our real protection given the Leeds licence-to-alter and the Pennine change-of-control consent are still open. Tom - can you pull the DD risk list into a one-pager so we can point Castle &amp; Vane at the specific exposures.<br><br>Sarah</div>"
+    },
+    {
+      "id": "6a3594302e6efee5",
+      "snippet": "Sarah, Will do - one-pager by end of day. For what it's worth the Leeds consent is the one I'd want ",
+      "subject": "RE: Polaris - position on cap/basket before the call",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-09-17T08:50:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah,\n\nWill do - one-pager by end of day. For what it's worth the Leeds consent is the one I'd want covered by a specific indemnity if it's not resolved pre-completion.\n\nTom\n\nOn Tue, Sep 16, 2025 at 6:25 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> James, Tom,\n>\n> Before Wednesday's call: I think we land the cap at 22.5% (£7.38m) and hold the basket at a level closer to £350-400k. The escrow is our real protection given the Leeds licence-to-alter and the Pennine change-of-control consent are still open. Tom - can you pull the DD risk list into a one-pager so we can point Castle & Vane at the specific exposures.\n>\n> Sarah",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah,<br><br>Will do - one-pager by end of day. For what it&#x27;s worth the Leeds consent is the one I&#x27;d want covered by a specific indemnity if it&#x27;s not resolved pre-completion.<br><br>Tom</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Sep 16, 2025 at 6:25 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James, Tom,<br><br>Before Wednesday&#x27;s call: I think we land the cap at 22.5% (£7.38m) and hold the basket at a level closer to £350-400k. The escrow is our real protection given the Leeds licence-to-alter and the Pennine change-of-control consent are still open. Tom - can you pull the DD risk list into a one-pager so we can point Castle &amp; Vane at the specific exposures.<br><br>Sarah</div></blockquote></div></div>"
+    }
+  ]
+}

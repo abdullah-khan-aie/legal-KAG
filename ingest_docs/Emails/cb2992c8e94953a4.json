@@ -1,0 +1,41 @@
+{
+  "id": "cb2992c8e94953a4",
+  "messages": [
+    {
+      "id": "cb2992c8e94953a4",
+      "snippet": "Tom, Good to speak just now. As discussed, the C-900 crushing plant we bought from Crayford last sum",
+      "subject": "C-900 crusher problems - need legal advice",
+      "sender": "owen.marsden@marldaleaggregates.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-02-11T09:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom,\n\nGood to speak just now. As discussed, the C-900 crushing plant we bought from Crayford last summer has been a disaster - bearing failures three times, hydraulics dropping out, and it has never once hit the 320 tonnes an hour they guaranteed. We've had a hired spread in since September just to keep the contracts going.\n\nWe want to know where we stand and to get money back. Karen Doust (my plant manager) has kept a full diary and all the weighbridge data. Can you take a look and tell us if we have a claim?\n\nOwen Marsden\nManaging Director, Marldale Aggregates Limited",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>Good to speak just now. As discussed, the C-900 crushing plant we bought from Crayford last summer has been a disaster - bearing failures three times, hydraulics dropping out, and it has never once hit the 320 tonnes an hour they guaranteed. We&#x27;ve had a hired spread in since September just to keep the contracts going.<br><br>We want to know where we stand and to get money back. Karen Doust (my plant manager) has kept a full diary and all the weighbridge data. Can you take a look and tell us if we have a claim?<br><br>Owen Marsden<br>Managing Director, Marldale Aggregates Limited</div>"
+    },
+    {
+      "id": "a66446a094e0c9bc",
+      "snippet": "Dear Owen, Thank you - it does sound as though you have a strong contractual claim for breach of the",
+      "subject": "RE: C-900 crusher problems - need legal advice",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "owen.marsden@marldaleaggregates.co.uk"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-02-11T14:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Owen,\n\nThank you - it does sound as though you have a strong contractual claim for breach of the performance and parts warranties, and likely under the Sale of Goods Act as well. The key will be the throughput data and Karen's breakdown records.\n\nI'll send our engagement letter today. In the meantime, please ask Karen not to alter or overwrite any of the PLC logs or the plant diary - those are exactly the documents we'll need.\n\nI'm copying Sarah Whitfield, who is supervising.\n\nTom Gallagher\nAssociate | Litigation\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 5500\n\nConfidential and may be legally privileged.\n\nOn Tue, Feb 11, 2025 at 9:12 AM, Owen Marsden <owen.marsden@marldaleaggregates.co.uk> wrote:\n> Tom,\n>\n> Good to speak just now. As discussed, the C-900 crushing plant we bought from Crayford last summer has been a disaster - bearing failures three times, hydraulics dropping out, and it has never once hit the 320 tonnes an hour they guaranteed. We've had a hired spread in since September just to keep the contracts going.\n>\n> We want to know where we stand and to get money back. Karen Doust (my plant manager) has kept a full diary and all the weighbridge data. Can you take a look and tell us if we have a claim?\n>\n> Owen Marsden\n> Managing Director, Marldale Aggregates Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Owen,<br><br>Thank you - it does sound as though you have a strong contractual claim for breach of the performance and parts warranties, and likely under the Sale of Goods Act as well. The key will be the throughput data and Karen&#x27;s breakdown records.<br><br>I&#x27;ll send our engagement letter today. In the meantime, please ask Karen not to alter or overwrite any of the PLC logs or the plant diary - those are exactly the documents we&#x27;ll need.<br><br>I&#x27;m copying Sarah Whitfield, who is supervising.<br><br>Tom Gallagher<br>Associate | Litigation<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 5500<br><br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Feb 11, 2025 at 9:12 AM, Owen Marsden &lt;owen.marsden@marldaleaggregates.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom,<br><br>Good to speak just now. As discussed, the C-900 crushing plant we bought from Crayford last summer has been a disaster - bearing failures three times, hydraulics dropping out, and it has never once hit the 320 tonnes an hour they guaranteed. We&#x27;ve had a hired spread in since September just to keep the contracts going.<br><br>We want to know where we stand and to get money back. Karen Doust (my plant manager) has kept a full diary and all the weighbridge data. Can you take a look and tell us if we have a claim?<br><br>Owen Marsden<br>Managing Director, Marldale Aggregates Limited</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "e4cf08c52a709cbc",
+  "messages": [
+    {
+      "id": "e4cf08c52a709cbc",
+      "snippet": "Hello both, A reminder that the firm's quarterly commercial property CLE seminar (this quarter: SDLT",
+      "subject": "CLE: Commercial property update seminar - 9 December",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-18T13:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hello both,\n\nA reminder that the firm's quarterly commercial property CLE seminar (this quarter: SDLT changes and the latest on the Building Safety Act) is on Tuesday 9 December, 4-6pm in the Bishopsgate boardroom, drinks after. Please RSVP to me by Friday for catering.\n\nDonna",
+      "htmlBody": "<div dir=\"ltr\">Hello both,<br><br>A reminder that the firm&#x27;s quarterly commercial property CLE seminar (this quarter: SDLT changes and the latest on the Building Safety Act) is on Tuesday 9 December, 4-6pm in the Bishopsgate boardroom, drinks after. Please RSVP to me by Friday for catering.<br><br>Donna</div>"
+    }
+  ]
+}

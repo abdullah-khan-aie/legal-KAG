@@ -1,0 +1,21 @@
+{
+  "id": "341bfead28b07527",
+  "messages": [
+    {
+      "id": "341bfead28b07527",
+      "snippet": "James — unrelated to Harborlight, but the Caspian / Stratton Energy MSA comes up for its first renew",
+      "subject": "Stratton MSA — renewal diary note",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-01-14T15:50:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James — unrelated to Harborlight, but the Caspian / Stratton Energy MSA comes up for its first renewal review in the spring. Worth a diary note to check the uplift mechanism and the change-control schedule before then. I'll add it to the Caspian client folder.\n\nElena",
+      "htmlBody": "<div dir=\"ltr\">James — unrelated to Harborlight, but the Caspian / Stratton Energy MSA comes up for its first renewal review in the spring. Worth a diary note to check the uplift mechanism and the change-control schedule before then. I&#x27;ll add it to the Caspian client folder.<br><br>Elena</div>"
+    }
+  ]
+}

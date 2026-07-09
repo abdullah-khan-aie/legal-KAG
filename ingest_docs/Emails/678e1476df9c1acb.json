@@ -1,0 +1,53 @@
+{
+  "id": "678e1476df9c1acb",
+  "messages": [
+    {
+      "id": "678e1476df9c1acb",
+      "snippet": "Robert, Grace, The settlement agreement has been executed by both parties and Ms Marsh has signed th",
+      "subject": "WC-00146 - Saxena settlement EXECUTED",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "robert.falconer@halsteadaerospace.com",
+        "grace.underwood@halsteadaerospace.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-02-24T17:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Robert, Grace,\n\nThe settlement agreement has been executed by both parties and Ms Marsh has signed the adviser's certificate. The executed copy is attached for your records. Headline terms: ex gratia £130,000, PILON £71,000, fee contribution £750+VAT, outplacement £4,000+VAT, agreed reference; her right to make protected disclosures and to contact the CAA is expressly preserved. Accounts will arrange the payments within 28 days. This concludes the employment matter.\n\nJames Osei\nSenior Associate | Employment\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0211",
+      "htmlBody": "<div dir=\"ltr\">Robert, Grace,<br><br>The settlement agreement has been executed by both parties and Ms Marsh has signed the adviser&#x27;s certificate. The executed copy is attached for your records. Headline terms: ex gratia £130,000, PILON £71,000, fee contribution £750+VAT, outplacement £4,000+VAT, agreed reference; her right to make protected disclosures and to contact the CAA is expressly preserved. Accounts will arrange the payments within 28 days. This concludes the employment matter.<br><br>James Osei<br>Senior Associate | Employment<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0211</div>",
+      "attachmentIds": [
+        "2B2ZACs5Zf9G4qmH28XqmEv3JzJ_gdtqOPWY2rIgiTw"
+      ],
+      "attachments": [
+        {
+          "filename": "Saxena_SettlementAgreement_Executed.pdf",
+          "id": "2B2ZACs5Zf9G4qmH28XqmEv3JzJ_gdtqOPWY2rIgiTw",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "5ad1f5bb076a92c4",
+      "snippet": "Thank you both - handled exactly as we'd hoped, with the safety point dealt with properly and separa",
+      "subject": "RE: WC-00146 - Saxena settlement EXECUTED",
+      "sender": "robert.falconer@halsteadaerospace.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "grace.underwood@halsteadaerospace.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-02-25T08:15:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Thank you both - handled exactly as we'd hoped, with the safety point dealt with properly and separately. Much appreciated.\n\nRobert\n\nOn Mon, Feb 24, 2025 at 5:30 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Robert, Grace,\n>\n> The settlement agreement has been executed by both parties and Ms Marsh has signed the adviser's certificate. The executed copy is attached for your records. Headline terms: ex gratia £130,000, PILON £71,000, fee contribution £750+VAT, outplacement £4,000+VAT, agreed reference; her right to make protected disclosures and to contact the CAA is expressly preserved. Accounts will arrange the payments within 28 days. This concludes the employment matter.\n>\n> James Osei\n> Senior Associate | Employment\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0211",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thank you both - handled exactly as we&#x27;d hoped, with the safety point dealt with properly and separately. Much appreciated.<br><br>Robert</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Feb 24, 2025 at 5:30 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Robert, Grace,<br><br>The settlement agreement has been executed by both parties and Ms Marsh has signed the adviser&#x27;s certificate. The executed copy is attached for your records. Headline terms: ex gratia £130,000, PILON £71,000, fee contribution £750+VAT, outplacement £4,000+VAT, agreed reference; her right to make protected disclosures and to contact the CAA is expressly preserved. Accounts will arrange the payments within 28 days. This concludes the employment matter.<br><br>James Osei<br>Senior Associate | Employment<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0211</div></blockquote></div></div>"
+    }
+  ]
+}

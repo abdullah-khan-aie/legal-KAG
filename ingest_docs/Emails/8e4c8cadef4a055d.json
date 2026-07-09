@@ -1,0 +1,24 @@
+{
+  "id": "8e4c8cadef4a055d",
+  "messages": [
+    {
+      "id": "8e4c8cadef4a055d",
+      "snippet": "Hello everyone, Save the date! Spring firm drinks will be at The Anthologist, Gresham Street, on Fri",
+      "subject": "Spring firm drinks — 13 March, The Anthologist",
+      "sender": "social.committee@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "donna.bridges@whitfieldcarter.com"
+      ],
+      "date": "2026-02-18T12:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hello everyone,\n\nSave the date! Spring firm drinks will be at The Anthologist, Gresham Street, on Friday 13 March from 6pm. First round on the firm. RSVP to the Social Committee by 6 March so we can confirm numbers.\n\nSee you there!",
+      "htmlBody": "<div dir=\"ltr\">Hello everyone,<br><br>Save the date! Spring firm drinks will be at The Anthologist, Gresham Street, on Friday 13 March from 6pm. First round on the firm. RSVP to the Social Committee by 6 March so we can confirm numbers.<br><br>See you there!</div>"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "37ab9a4f8b430b28",
+  "messages": [
+    {
+      "id": "37ab9a4f8b430b28",
+      "snippet": "Dear Mr Pryce, Please find attached a Notice of Proposal to impose conditions on Ashbourne Healthcar",
+      "subject": "Notice of Proposal - Maple Court Care Home",
+      "sender": "robert.adeyemi@cqc.org.uk",
+      "toRecipients": [
+        "daniel.pryce@ashbournehealthcare.com"
+      ],
+      "date": "2025-04-24T10:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear Mr Pryce,\n\nPlease find attached a Notice of Proposal to impose conditions on Ashbourne Healthcare Group Limited's registration in respect of Maple Court Care Home. The provider has 28 days from the date of the notice (by 22 May 2025) to make written representations.\n\nYours sincerely,\nRobert Adeyemi\nHead of Inspection (Adult Social Care, East of England)\nCare Quality Commission",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Pryce,<br><br>Please find attached a Notice of Proposal to impose conditions on Ashbourne Healthcare Group Limited&#x27;s registration in respect of Maple Court Care Home. The provider has 28 days from the date of the notice (by 22 May 2025) to make written representations.<br><br>Yours sincerely,<br>Robert Adeyemi<br>Head of Inspection (Adult Social Care, East of England)<br>Care Quality Commission</div>"
+    },
+    {
+      "id": "45fd103f08f0fd8f",
+      "snippet": "Sarah, Tom - the Notice of Proposal has landed. Two conditions: monthly medicines-governance reporti",
+      "subject": "FW: Notice of Proposal - Maple Court Care Home",
+      "sender": "daniel.pryce@ashbournehealthcare.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-04-24T10:25:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Sarah, Tom - the Notice of Proposal has landed. Two conditions: monthly medicines-governance reporting (fine) and no new admissions without CQC agreement (not fine). Can we get representations underway? Forwarding the notice.\n\nDaniel\n\nOn Thu, Apr 24, 2025 at 10:00 AM, Robert Adeyemi <robert.adeyemi@cqc.org.uk> wrote:\n> Dear Mr Pryce,\n>\n> Please find attached a Notice of Proposal to impose conditions on Ashbourne Healthcare Group Limited's registration in respect of Maple Court Care Home. The provider has 28 days from the date of the notice (by 22 May 2025) to make written representations.\n>\n> Yours sincerely,\n> Robert Adeyemi\n> Head of Inspection (Adult Social Care, East of England)\n> Care Quality Commission",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah, Tom - the Notice of Proposal has landed. Two conditions: monthly medicines-governance reporting (fine) and no new admissions without CQC agreement (not fine). Can we get representations underway? Forwarding the notice.<br><br>Daniel</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Apr 24, 2025 at 10:00 AM, Robert Adeyemi &lt;robert.adeyemi@cqc.org.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Mr Pryce,<br><br>Please find attached a Notice of Proposal to impose conditions on Ashbourne Healthcare Group Limited&#x27;s registration in respect of Maple Court Care Home. The provider has 28 days from the date of the notice (by 22 May 2025) to make written representations.<br><br>Yours sincerely,<br>Robert Adeyemi<br>Head of Inspection (Adult Social Care, East of England)<br>Care Quality Commission</div></blockquote></div></div>",
+      "attachmentIds": [
+        "bhyRP3KjDddYdeIJGL9vZCKwU76wY4YvqwP5n09v4EA"
+      ],
+      "attachments": [
+        {
+          "filename": "MapleCourt_CQC_NoticeOfProposal.pdf",
+          "id": "bhyRP3KjDddYdeIJGL9vZCKwU76wY4YvqwP5n09v4EA",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

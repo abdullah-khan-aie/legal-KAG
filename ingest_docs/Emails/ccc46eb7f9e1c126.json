@@ -1,0 +1,71 @@
+{
+  "id": "ccc46eb7f9e1c126",
+  "messages": [
+    {
+      "id": "ccc46eb7f9e1c126",
+      "snippet": "Dear Martin, Our marked-up contract is attached (redline against your draft). The principal amendmen",
+      "subject": "Kingsgate House – contract mark-up (our amendments)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "martin.greaves@marlowegreaves.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-04T16:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Martin,\n\nOur marked-up contract is attached (redline against your draft). The principal amendments are:\n\n1. Completion period reduced to 15 working days from exchange (we've pencilled 15 May).\n2. Clause 8 (insurance): the Seller to keep the Property insured to full reinstatement value until completion, with risk remaining with the Seller until completion – please reinstate Condition 7.1.\n3. Clause 6 (tenancies): no new lettings, variations or surrenders between exchange and completion without our client's consent, and rents to be collected in the ordinary course (not commuted or paid in advance).\n\nGrateful for your client's agreement to these. Most are standard buyer protections.",
+      "htmlBody": "<div dir=\"ltr\">Dear Martin,<br><br>Our marked-up contract is attached (redline against your draft). The principal amendments are:<br><br>1. Completion period reduced to 15 working days from exchange (we&#x27;ve pencilled 15 May).<br>2. Clause 8 (insurance): the Seller to keep the Property insured to full reinstatement value until completion, with risk remaining with the Seller until completion – please reinstate Condition 7.1.<br>3. Clause 6 (tenancies): no new lettings, variations or surrenders between exchange and completion without our client&#x27;s consent, and rents to be collected in the ordinary course (not commuted or paid in advance).<br><br>Grateful for your client&#x27;s agreement to these. Most are standard buyer protections.</div>",
+      "attachmentIds": [
+        "NUd_iOuCRZE-VizNBvtRhzDSnZKsPX1wOF9_EdP9YDA"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Redwood_SaleContract_v2_redline.docx",
+          "id": "NUd_iOuCRZE-VizNBvtRhzDSnZKsPX1wOF9_EdP9YDA",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "03a693bda8e0c80b",
+      "snippet": "Dear James, Thank you for the mark-up. Our client agrees to points 1 and 3. On point 2 (insurance), ",
+      "subject": "RE: Kingsgate House – contract mark-up (our amendments)",
+      "sender": "martin.greaves@marlowegreaves.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-06T12:48:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear James,\n\nThank you for the mark-up. Our client agrees to points 1 and 3. On point 2 (insurance), our client is content for risk to remain with the Seller until completion and will maintain its existing block policy; please confirm you do not require a separate noting of interest. Subject to that, I think we are agreed on the contract and can move to engrossments.\n\nKind regards,\nMartin\n\nOn Wed, Mar 4, 2026 at 4:20 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Dear Martin,\n>\n> Our marked-up contract is attached (redline against your draft). The principal amendments are:\n>\n> 1. Completion period reduced to 15 working days from exchange (we've pencilled 15 May).\n> 2. Clause 8 (insurance): the Seller to keep the Property insured to full reinstatement value until completion, with risk remaining with the Seller until completion – please reinstate Condition 7.1.\n> 3. Clause 6 (tenancies): no new lettings, variations or surrenders between exchange and completion without our client's consent, and rents to be collected in the ordinary course (not commuted or paid in advance).\n>\n> Grateful for your client's agreement to these. Most are standard buyer protections.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear James,<br><br>Thank you for the mark-up. Our client agrees to points 1 and 3. On point 2 (insurance), our client is content for risk to remain with the Seller until completion and will maintain its existing block policy; please confirm you do not require a separate noting of interest. Subject to that, I think we are agreed on the contract and can move to engrossments.<br><br>Kind regards,<br>Martin</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Mar 4, 2026 at 4:20 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Martin,<br><br>Our marked-up contract is attached (redline against your draft). The principal amendments are:<br><br>1. Completion period reduced to 15 working days from exchange (we&#x27;ve pencilled 15 May).<br>2. Clause 8 (insurance): the Seller to keep the Property insured to full reinstatement value until completion, with risk remaining with the Seller until completion – please reinstate Condition 7.1.<br>3. Clause 6 (tenancies): no new lettings, variations or surrenders between exchange and completion without our client&#x27;s consent, and rents to be collected in the ordinary course (not commuted or paid in advance).<br><br>Grateful for your client&#x27;s agreement to these. Most are standard buyer protections.</div></blockquote></div></div>"
+    },
+    {
+      "id": "e12a0a01ea8a7e83",
+      "snippet": "Martin, Noting of interest not required given risk stays with the Seller until completion – agreed. ",
+      "subject": "RE: Kingsgate House – contract mark-up (our amendments)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "martin.greaves@marlowegreaves.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-09T10:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Martin,\n\nNoting of interest not required given risk stays with the Seller until completion – agreed. Please prepare engrossments of the contract and TR1. We'll aim to exchange once searches are back and our client's board approval is in place.\n\nJames Osei\nSenior Associate\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n\nOn Fri, Mar 6, 2026 at 12:48 PM, Martin Greaves <martin.greaves@marlowegreaves.com> wrote:\n> Dear James,\n>\n> Thank you for the mark-up. Our client agrees to points 1 and 3. On point 2 (insurance), our client is content for risk to remain with the Seller until completion and will maintain its existing block policy; please confirm you do not require a separate noting of interest. Subject to that, I think we are agreed on the contract and can move to engrossments.\n>\n> Kind regards,\n> Martin\n>\n> On Wed, Mar 4, 2026 at 4:20 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > Dear Martin,\n> >\n> > Our marked-up contract is attached (redline against your draft). The principal amendments are:\n> >\n> > 1. Completion period reduced to 15 working days from exchange (we've pencilled 15 May).\n> > 2. Clause 8 (insurance): the Seller to keep the Property insured to full reinstatement value until completion, with risk remaining with the Seller until completion – please reinstate Condition 7.1.\n> > 3. Clause 6 (tenancies): no new lettings, variations or surrenders between exchange and completion without our client's consent, and rents to be collected in the ordinary course (not commuted or paid in advance).\n> >\n> > Grateful for your client's agreement to these. Most are standard buyer protections.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Martin,<br><br>Noting of interest not required given risk stays with the Seller until completion – agreed. Please prepare engrossments of the contract and TR1. We&#x27;ll aim to exchange once searches are back and our client&#x27;s board approval is in place.<br><br>James Osei<br>Senior Associate<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Mar 6, 2026 at 12:48 PM, Martin Greaves &lt;martin.greaves@marlowegreaves.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Dear James,<br><br>Thank you for the mark-up. Our client agrees to points 1 and 3. On point 2 (insurance), our client is content for risk to remain with the Seller until completion and will maintain its existing block policy; please confirm you do not require a separate noting of interest. Subject to that, I think we are agreed on the contract and can move to engrossments.<br><br>Kind regards,<br>Martin</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Mar 4, 2026 at 4:20 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Martin,<br><br>Our marked-up contract is attached (redline against your draft). The principal amendments are:<br><br>1. Completion period reduced to 15 working days from exchange (we&#x27;ve pencilled 15 May).<br>2. Clause 8 (insurance): the Seller to keep the Property insured to full reinstatement value until completion, with risk remaining with the Seller until completion – please reinstate Condition 7.1.<br>3. Clause 6 (tenancies): no new lettings, variations or surrenders between exchange and completion without our client&#x27;s consent, and rents to be collected in the ordinary course (not commuted or paid in advance).<br><br>Grateful for your client&#x27;s agreement to these. Most are standard buyer protections.</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

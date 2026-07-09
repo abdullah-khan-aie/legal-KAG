@@ -1,0 +1,24 @@
+{
+  "id": "6d36b5a3daf4e321",
+  "messages": [
+    {
+      "id": "6d36b5a3daf4e321",
+      "snippet": "Hello all, A reminder that the quarterly Real Estate CPD seminar (Building Safety Act and commercial",
+      "subject": "CPD: Real estate update seminar — 11 March, 12.30pm",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-02-19T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hello all,\n\nA reminder that the quarterly Real Estate CPD seminar (Building Safety Act and commercial lease update) is on 11 March at 12.30pm in the 5th floor training room, lunch provided. 1.5 CPD hours. Please reply to me if attending so I can confirm numbers.\n\nDonna",
+      "htmlBody": "<div dir=\"ltr\">Hello all,<br><br>A reminder that the quarterly Real Estate CPD seminar (Building Safety Act and commercial lease update) is on 11 March at 12.30pm in the 5th floor training room, lunch provided. 1.5 CPD hours. Please reply to me if attending so I can confirm numbers.<br><br>Donna</div>"
+    }
+  ]
+}

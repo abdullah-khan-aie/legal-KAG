@@ -8,11 +8,9 @@ __pycache__
 .ruff_cache
 .env
 .env.*
-!.env.docker.example
 infra/terraform/environments/terraform.tfstate*
 scratchpad
 reference
-ingest_docs
 material_ingest_cost_results.jsonl
 *.md
 !Frontend/README.md

@@ -1,0 +1,25 @@
+{
+  "id": "d7c08d5a04be1c27",
+  "messages": [
+    {
+      "id": "d7c08d5a04be1c27",
+      "snippet": "Sarah, Separate to the financing - on Project Zephyr, Wexbourne's procurement team have asked whethe",
+      "subject": "Project Zephyr - quick question on the Wexbourne licence",
+      "sender": "aisha.devlin@penroserobotics.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-05-12T13:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Sarah,\n\nSeparate to the financing - on Project Zephyr, Wexbourne's procurement team have asked whether the software licence permits use across their three new distribution centres without an uplift. Could someone confirm against the executed licence when you have a moment? No urgency this week.\n\nThanks,\nAisha",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Separate to the financing - on Project Zephyr, Wexbourne&#x27;s procurement team have asked whether the software licence permits use across their three new distribution centres without an uplift. Could someone confirm against the executed licence when you have a moment? No urgency this week.<br><br>Thanks,<br>Aisha</div>"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "40753921d52a8e54",
+  "messages": [
+    {
+      "id": "40753921d52a8e54",
+      "snippet": "Dear all, I'm pleased to confirm that the Logistics Services Agreement has been executed and is now ",
+      "subject": "Project Juniper - LSA executed",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "gordon.sutherland@sutherlandlogistics.co.uk",
+        "lesley.crane@sutherlandlogistics.co.uk",
+        "sandra.okafor@wexbourneretail.com",
+        "daniel.wexbourne@wexbourneretail.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "jonathan.vane@castlevane.com"
+      ],
+      "date": "2026-05-18T16:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear all,\n\nI'm pleased to confirm that the Logistics Services Agreement has been executed and is now effective, with go-live on 1 July 2026. The fully executed PDF is attached for your records. Congratulations to both teams.\n\nNext steps: mobilisation kicks off this week; Mark Tennant and the Wexbourne ops team to confirm the WMS/API integration sessions.\n\nKind regards,\nJames Osei\nWhitfield Carter LLP\n\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>I&#x27;m pleased to confirm that the Logistics Services Agreement has been executed and is now effective, with go-live on 1 July 2026. The fully executed PDF is attached for your records. Congratulations to both teams.<br><br>Next steps: mobilisation kicks off this week; Mark Tennant and the Wexbourne ops team to confirm the WMS/API integration sessions.<br><br>Kind regards,<br>James Osei<br>Whitfield Carter LLP<br><br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "OqCqu1NE4J0_t4zwKvXatMRYmj7hdJurh9dLoqhvzeM"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Juniper_LSA_Executed.pdf",
+          "id": "OqCqu1NE4J0_t4zwKvXatMRYmj7hdJurh9dLoqhvzeM",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "202b559d3e393b75",
+      "snippet": "Thank you James, and to the Sutherland team. We're looking forward to a smooth mobilisation and a lo",
+      "subject": "RE: Project Juniper - LSA executed",
+      "sender": "daniel.wexbourne@wexbourneretail.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "gordon.sutherland@sutherlandlogistics.co.uk",
+        "sandra.okafor@wexbourneretail.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-18T18:02:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Thank you James, and to the Sutherland team. We're looking forward to a smooth mobilisation and a long partnership. Daniel Wexbourne, CEO, Wexbourne Retail Group\n\nOn Mon, May 18, 2026 at 4:30 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Dear all,\n>\n> I'm pleased to confirm that the Logistics Services Agreement has been executed and is now effective, with go-live on 1 July 2026. The fully executed PDF is attached for your records. Congratulations to both teams.\n>\n> Next steps: mobilisation kicks off this week; Mark Tennant and the Wexbourne ops team to confirm the WMS/API integration sessions.\n>\n> Kind regards,\n> James Osei\n> Whitfield Carter LLP\n>\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thank you James, and to the Sutherland team. We&#x27;re looking forward to a smooth mobilisation and a long partnership. Daniel Wexbourne, CEO, Wexbourne Retail Group</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, May 18, 2026 at 4:30 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear all,<br><br>I&#x27;m pleased to confirm that the Logistics Services Agreement has been executed and is now effective, with go-live on 1 July 2026. The fully executed PDF is attached for your records. Congratulations to both teams.<br><br>Next steps: mobilisation kicks off this week; Mark Tennant and the Wexbourne ops team to confirm the WMS/API integration sessions.<br><br>Kind regards,<br>James Osei<br>Whitfield Carter LLP<br><br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

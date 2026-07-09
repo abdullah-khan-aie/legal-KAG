@@ -1,0 +1,23 @@
+{
+  "id": "5a7b643d82d46365",
+  "messages": [
+    {
+      "id": "5a7b643d82d46365",
+      "snippet": "The firm's DMS will be unavailable from 22:00 on Saturday 18 October until 06:00 Sunday 19 October f",
+      "subject": "[IT] Document management system maintenance - Saturday 18 October",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-10-15T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "The firm's DMS will be unavailable from 22:00 on Saturday 18 October until 06:00 Sunday 19 October for scheduled maintenance and an upgrade to search indexing. Please check in any open documents before Friday close. Contact the helpdesk on x4000 with any questions.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">The firm&#x27;s DMS will be unavailable from 22:00 on Saturday 18 October until 06:00 Sunday 19 October for scheduled maintenance and an upgrade to search indexing. Please check in any open documents before Friday close. Contact the helpdesk on x4000 with any questions.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

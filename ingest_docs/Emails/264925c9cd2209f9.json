@@ -1,0 +1,21 @@
+{
+  "id": "264925c9cd2209f9",
+  "messages": [
+    {
+      "id": "264925c9cd2209f9",
+      "snippet": "Elena - are you in for 5-a-side Thursday after work? We're one short. Pitch booked 6:30 at Finsbury.",
+      "subject": "5-a-side Thursday?",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-05T18:45:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Elena - are you in for 5-a-side Thursday after work? We're one short. Pitch booked 6:30 at Finsbury. Let me know. Tom",
+      "htmlBody": "<div dir=\"ltr\">Elena - are you in for 5-a-side Thursday after work? We&#x27;re one short. Pitch booked 6:30 at Finsbury. Let me know. Tom</div>"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "42c42c4e84e771a8",
+  "messages": [
+    {
+      "id": "42c42c4e84e771a8",
+      "snippet": "Aisha, Caspian is finalising the Aerelon licence. Ravensworth's debenture catches the licensed paten",
+      "subject": "Project Indigo - investor consent & deed of release",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "aisha.chowdhury@ravensworthventures.com"
+      ],
+      "ccRecipients": [
+        "sofia.trevino@caspiantech.io"
+      ],
+      "date": "2026-02-10T09:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Aisha,\n\nCaspian is finalising the Aerelon licence. Ravensworth's debenture catches the licensed patents, so we need (a) investor consent to the licence and (b) a short deed of release / non-disturbance over the patents in the schedule. Draft to follow this week - grateful if you could route for signature ahead of a mid-March signing.\n\nJames\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Aisha,<br><br>Caspian is finalising the Aerelon licence. Ravensworth&#x27;s debenture catches the licensed patents, so we need (a) investor consent to the licence and (b) a short deed of release / non-disturbance over the patents in the schedule. Draft to follow this week - grateful if you could route for signature ahead of a mid-March signing.<br><br>James<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "51cccf8a1a872d21",
+      "snippet": "James - consent is fine in principle subject to seeing the final terms. Send the deed and we'll turn",
+      "subject": "RE: Project Indigo - investor consent & deed of release",
+      "sender": "aisha.chowdhury@ravensworthventures.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sofia.trevino@caspiantech.io"
+      ],
+      "date": "2026-02-12T14:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James - consent is fine in principle subject to seeing the final terms. Send the deed and we'll turn it around. Aisha\n\nOn Tue, Feb 10, 2026 at 9:30 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Aisha,\n>\n> Caspian is finalising the Aerelon licence. Ravensworth's debenture catches the licensed patents, so we need (a) investor consent to the licence and (b) a short deed of release / non-disturbance over the patents in the schedule. Draft to follow this week - grateful if you could route for signature ahead of a mid-March signing.\n>\n> James\n>\n> —\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James - consent is fine in principle subject to seeing the final terms. Send the deed and we&#x27;ll turn it around. Aisha</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Feb 10, 2026 at 9:30 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Aisha,<br><br>Caspian is finalising the Aerelon licence. Ravensworth&#x27;s debenture catches the licensed patents, so we need (a) investor consent to the licence and (b) a short deed of release / non-disturbance over the patents in the schedule. Draft to follow this week - grateful if you could route for signature ahead of a mid-March signing.<br><br>James<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2faa03db15f3343b",
+  "messages": [
+    {
+      "id": "2faa03db15f3343b",
+      "snippet": "James, My working cap table is attached - this is our internal model, not for circulation to the com",
+      "subject": "Project Mosaic - working cap table (option pool modelling)",
+      "sender": "priya.anand@crestviewcapital.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "daniel.reeve@crestviewcapital.com"
+      ],
+      "date": "2024-08-06T13:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nMy working cap table is attached - this is our internal model, not for circulation to the company. It runs the enlarged option pool at 12% established pre-money and confirms we land at 22.2% fully diluted post-money on the GBP 4m at GBP 2.00. The pool dilutes the founder and existing holders but not us, as per the term sheet.\n\nCan you make sure the completion cap table in Schedule 1 of the SPA ties out to these numbers before we sign?\n\nPriya\n\nPriya Anand | Principal | Crestview Capital Partners",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>My working cap table is attached - this is our internal model, not for circulation to the company. It runs the enlarged option pool at 12% established pre-money and confirms we land at 22.2% fully diluted post-money on the GBP 4m at GBP 2.00. The pool dilutes the founder and existing holders but not us, as per the term sheet.<br><br>Can you make sure the completion cap table in Schedule 1 of the SPA ties out to these numbers before we sign?<br><br>Priya<br><br>Priya Anand | Principal | Crestview Capital Partners</div>",
+      "attachmentIds": [
+        "I3lMgfgkEW1214L6FtZx3xH2pBdlw9rGVCjwaOU-bkg"
+      ],
+      "attachments": [
+        {
+          "filename": "FairChain_captable_working.xlsx",
+          "id": "I3lMgfgkEW1214L6FtZx3xH2pBdlw9rGVCjwaOU-bkg",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "be3a69bfd6c3b6af",
+      "snippet": "Priya, Thanks - your numbers tie to the term sheet (2,000,000 Series A at GBP 2.00, 12% pool pre-mon",
+      "subject": "RE: Project Mosaic - working cap table (option pool modelling)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "priya.anand@crestviewcapital.com"
+      ],
+      "ccRecipients": [
+        "daniel.reeve@crestviewcapital.com"
+      ],
+      "date": "2024-08-07T09:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Priya,\n\nThanks - your numbers tie to the term sheet (2,000,000 Series A at GBP 2.00, 12% pool pre-money, 22.2% FD). I'll make the completion cap table at Schedule 1 Part 2 of the SPA reconcile to this and confirm against the company's register before signing. Treating your file as internal only.\n\nJames\n\nOn Tue, Aug 6, 2024 at 1:15 PM, Priya Anand <priya.anand@crestviewcapital.com> wrote:\n> James,\n>\n> My working cap table is attached - this is our internal model, not for circulation to the company. It runs the enlarged option pool at 12% established pre-money and confirms we land at 22.2% fully diluted post-money on the GBP 4m at GBP 2.00. The pool dilutes the founder and existing holders but not us, as per the term sheet.\n>\n> Can you make sure the completion cap table in Schedule 1 of the SPA ties out to these numbers before we sign?\n>\n> Priya\n>\n> Priya Anand | Principal | Crestview Capital Partners",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Priya,<br><br>Thanks - your numbers tie to the term sheet (2,000,000 Series A at GBP 2.00, 12% pool pre-money, 22.2% FD). I&#x27;ll make the completion cap table at Schedule 1 Part 2 of the SPA reconcile to this and confirm against the company&#x27;s register before signing. Treating your file as internal only.<br><br>James</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Aug 6, 2024 at 1:15 PM, Priya Anand &lt;priya.anand@crestviewcapital.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>My working cap table is attached - this is our internal model, not for circulation to the company. It runs the enlarged option pool at 12% established pre-money and confirms we land at 22.2% fully diluted post-money on the GBP 4m at GBP 2.00. The pool dilutes the founder and existing holders but not us, as per the term sheet.<br><br>Can you make sure the completion cap table in Schedule 1 of the SPA ties out to these numbers before we sign?<br><br>Priya<br><br>Priya Anand | Principal | Crestview Capital Partners</div></blockquote></div></div>"
+    }
+  ]
+}

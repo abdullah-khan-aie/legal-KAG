@@ -1,0 +1,48 @@
+{
+  "id": "933aa18ce8e60454",
+  "messages": [
+    {
+      "id": "933aa18ce8e60454",
+      "snippet": "Tom, Here is the Particulars with my tracked changes. The two substantive additions are the Schedule",
+      "subject": "Brightwater v Caldervale — Particulars (my mark-up)",
+      "sender": "h.stanford@eldonchambers.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-01-12T18:05:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Tom,\n\nHere is the Particulars with my tracked changes. The two substantive additions are the Schedule 4 exclusion sentence (maintenance windows + customer network/SSO, and the 14 June outage) and the specific interest rate (4% over base). Otherwise content as drafted. Happy for this to be served once Nadia has approved the statement of truth.\n\nHarriet",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>Here is the Particulars with my tracked changes. The two substantive additions are the Schedule 4 exclusion sentence (maintenance windows + customer network/SSO, and the 14 June outage) and the specific interest rate (4% over base). Otherwise content as drafted. Happy for this to be served once Nadia has approved the statement of truth.<br><br>Harriet</div>",
+      "attachmentIds": [
+        "7w9lmRdt2BIdTtfkSqBYbLDKIsrAokA8gG9-Wduvc_g"
+      ],
+      "attachments": [
+        {
+          "filename": "Brightwater_Caldervale_ParticularsOfClaim_v2_redline.docx",
+          "id": "7w9lmRdt2BIdTtfkSqBYbLDKIsrAokA8gG9-Wduvc_g",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "927bd690b4ffa6bc",
+      "snippet": "Nadia, Counsel has settled the Particulars (her mark-up attached). Could you review the factual para",
+      "subject": "RE: Brightwater v Caldervale — Particulars for approval",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "nadia.forsyth@brightwateranalytics.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-01-14T10:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Nadia,\n\nCounsel has settled the Particulars (her mark-up attached). Could you review the factual paragraphs and, if content, confirm you're happy to sign the statement of truth? We plan to issue and serve in the week of 19 January.\n\nTom\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n+44 (0)20 7946 1100\nConfidential and may be legally privileged.\n\nOn Mon, Jan 12, 2026 at 6:05 PM, Harriet Stanford <h.stanford@eldonchambers.co.uk> wrote:\n> Tom,\n>\n> Here is the Particulars with my tracked changes. The two substantive additions are the Schedule 4 exclusion sentence (maintenance windows + customer network/SSO, and the 14 June outage) and the specific interest rate (4% over base). Otherwise content as drafted. Happy for this to be served once Nadia has approved the statement of truth.\n>\n> Harriet",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Nadia,<br><br>Counsel has settled the Particulars (her mark-up attached). Could you review the factual paragraphs and, if content, confirm you&#x27;re happy to sign the statement of truth? We plan to issue and serve in the week of 19 January.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1100<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Jan 12, 2026 at 6:05 PM, Harriet Stanford &lt;h.stanford@eldonchambers.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom,<br><br>Here is the Particulars with my tracked changes. The two substantive additions are the Schedule 4 exclusion sentence (maintenance windows + customer network/SSO, and the 14 June outage) and the specific interest rate (4% over base). Otherwise content as drafted. Happy for this to be served once Nadia has approved the statement of truth.<br><br>Harriet</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "0175047bff9515c0",
+  "messages": [
+    {
+      "id": "0175047bff9515c0",
+      "snippet": "James, Following our call, I attach the heads of terms agreed in principle between our respective cl",
+      "subject": "Project Onyx — agreed heads of terms",
+      "sender": "martin.greaves@marlowegreaves.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-09T11:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nFollowing our call, I attach the heads of terms agreed in principle between our respective clients: price £18.65m, 10% deposit on exchange, sold subject to the four occupational leases, TOGC treatment, exchange targeted 13 March and completion 2 April. Exclusivity to 13 March.\n\nWe'll circulate the draft contract and data room link shortly.\n\nMartin Greaves\nPartner, Marlowe Greaves LLP",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Following our call, I attach the heads of terms agreed in principle between our respective clients: price £18.65m, 10% deposit on exchange, sold subject to the four occupational leases, TOGC treatment, exchange targeted 13 March and completion 2 April. Exclusivity to 13 March.<br><br>We&#x27;ll circulate the draft contract and data room link shortly.<br><br>Martin Greaves<br>Partner, Marlowe Greaves LLP</div>",
+      "attachmentIds": [
+        "-tMZgFOK_-Aqj_VmazmhPYU8p1BS_xvvGm5tmMqRF1s"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Onyx_HeadsOfTerms.docx",
+          "id": "-tMZgFOK_-Aqj_VmazmhPYU8p1BS_xvvGm5tmMqRF1s",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "6375d58278a24ee5",
+      "snippet": "Martin, Thank you — heads of terms noted and consistent with our instructions. We'll await the draft",
+      "subject": "RE: Project Onyx — agreed heads of terms",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "martin.greaves@marlowegreaves.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-09T16:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Martin,\n\nThank you — heads of terms noted and consistent with our instructions. We'll await the draft contract, title and replies to CPSE.1. Please confirm the existing charge to Pennine Business Bank will be discharged on completion.\n\nJames\n\nJames Osei\nSenior Associate | Real Estate\nWhitfield Carter LLP\n+44 (0)20 7946 0531\n\nOn Mon, Feb 9, 2026 at 11:05 AM, Martin Greaves <martin.greaves@marlowegreaves.com> wrote:\n> James,\n>\n> Following our call, I attach the heads of terms agreed in principle between our respective clients: price £18.65m, 10% deposit on exchange, sold subject to the four occupational leases, TOGC treatment, exchange targeted 13 March and completion 2 April. Exclusivity to 13 March.\n>\n> We'll circulate the draft contract and data room link shortly.\n>\n> Martin Greaves\n> Partner, Marlowe Greaves LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Martin,<br><br>Thank you — heads of terms noted and consistent with our instructions. We&#x27;ll await the draft contract, title and replies to CPSE.1. Please confirm the existing charge to Pennine Business Bank will be discharged on completion.<br><br>James<br><br>James Osei<br>Senior Associate | Real Estate<br>Whitfield Carter LLP<br>+44 (0)20 7946 0531</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Feb 9, 2026 at 11:05 AM, Martin Greaves &lt;martin.greaves@marlowegreaves.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Following our call, I attach the heads of terms agreed in principle between our respective clients: price £18.65m, 10% deposit on exchange, sold subject to the four occupational leases, TOGC treatment, exchange targeted 13 March and completion 2 April. Exclusivity to 13 March.<br><br>We&#x27;ll circulate the draft contract and data room link shortly.<br><br>Martin Greaves<br>Partner, Marlowe Greaves LLP</div></blockquote></div></div>"
+    }
+  ]
+}

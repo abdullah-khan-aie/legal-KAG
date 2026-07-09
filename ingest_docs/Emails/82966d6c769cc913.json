@@ -1,0 +1,22 @@
+{
+  "id": "82966d6c769cc913",
+  "messages": [
+    {
+      "id": "82966d6c769cc913",
+      "snippet": "Are you around for lunch on Friday? A few of us are going to the Vietnamese place near Liverpool Str",
+      "subject": "Lunch Friday?",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-04-10T12:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Are you around for lunch on Friday? A few of us are going to the Vietnamese place near Liverpool Street around 1. No work talk allowed. Let me know!\nE",
+      "htmlBody": "<div dir=\"ltr\">Are you around for lunch on Friday? A few of us are going to the Vietnamese place near Liverpool Street around 1. No work talk allowed. Let me know!<br>E</div>"
+    }
+  ]
+}

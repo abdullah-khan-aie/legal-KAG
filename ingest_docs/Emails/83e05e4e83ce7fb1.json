@@ -1,0 +1,56 @@
+{
+  "id": "83e05e4e83ce7fb1",
+  "messages": [
+    {
+      "id": "83e05e4e83ce7fb1",
+      "snippet": "Rebecca, Isla, The completion statement is attached. Balance due to the seller on completion is £12,",
+      "subject": "Project Cedar - completion statement & monies required",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "rebecca.stone@thornburyproperties.com",
+        "isla.fournier@thornburyproperties.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-12-04T11:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Rebecca, Isla,\n\nThe completion statement is attached. Balance due to the seller on completion is £12,771,452 (price £14.25m, less the £1.425m deposit and the £45k Unit 4 rent deposit, net of apportionments of £8,548 in your favour). Separately you'll need SDLT of £702,000 within 14 days (we'd estimated £706,250; it reconciles to £702,000 on the slice calculation), plus registration and our fees.\n\nPlease arrange for cleared funds to reach us by 10 December. Let me know if you'd like to talk it through.\n\nElena\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Rebecca, Isla,<br><br>The completion statement is attached. Balance due to the seller on completion is £12,771,452 (price £14.25m, less the £1.425m deposit and the £45k Unit 4 rent deposit, net of apportionments of £8,548 in your favour). Separately you&#x27;ll need SDLT of £702,000 within 14 days (we&#x27;d estimated £706,250; it reconciles to £702,000 on the slice calculation), plus registration and our fees.<br><br>Please arrange for cleared funds to reach us by 10 December. Let me know if you&#x27;d like to talk it through.<br><br>Elena<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "MfFhAvC_3r6ONfIRvFks4gAAFRqvskf8Ds7gra-0yvc"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Cedar_CompletionStatement.xlsx",
+          "id": "MfFhAvC_3r6ONfIRvFks4gAAFRqvskf8Ds7gra-0yvc",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "2cfa820e574bd58a",
+      "snippet": "Thanks Elena - funds will be with you by 9 December (Pennine drawdown plus our equity). Please confi",
+      "subject": "RE: Project Cedar - completion statement & monies required",
+      "sender": "rebecca.stone@thornburyproperties.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "isla.fournier@thornburyproperties.com"
+      ],
+      "date": "2025-12-05T09:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Thanks Elena - funds will be with you by 9 December (Pennine drawdown plus our equity). Please confirm your client account details by secure means. Rebecca\n\nOn Thu, Dec 4, 2025 at 11:05 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Rebecca, Isla,\n>\n> The completion statement is attached. Balance due to the seller on completion is £12,771,452 (price £14.25m, less the £1.425m deposit and the £45k Unit 4 rent deposit, net of apportionments of £8,548 in your favour). Separately you'll need SDLT of £702,000 within 14 days (we'd estimated £706,250; it reconciles to £702,000 on the slice calculation), plus registration and our fees.\n>\n> Please arrange for cleared funds to reach us by 10 December. Let me know if you'd like to talk it through.\n>\n> Elena\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks Elena - funds will be with you by 9 December (Pennine drawdown plus our equity). Please confirm your client account details by secure means. Rebecca</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Dec 4, 2025 at 11:05 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Rebecca, Isla,<br><br>The completion statement is attached. Balance due to the seller on completion is £12,771,452 (price £14.25m, less the £1.425m deposit and the £45k Unit 4 rent deposit, net of apportionments of £8,548 in your favour). Separately you&#x27;ll need SDLT of £702,000 within 14 days (we&#x27;d estimated £706,250; it reconciles to £702,000 on the slice calculation), plus registration and our fees.<br><br>Please arrange for cleared funds to reach us by 10 December. Let me know if you&#x27;d like to talk it through.<br><br>Elena<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

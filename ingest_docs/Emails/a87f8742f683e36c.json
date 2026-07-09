@@ -1,0 +1,39 @@
+{
+  "id": "a87f8742f683e36c",
+  "messages": [
+    {
+      "id": "a87f8742f683e36c",
+      "snippet": "James, Confirming the scaffold crew will be on site at Whitcombe Yard from 7am Thursday. Can you get",
+      "subject": "Re: Site access Thursday - Whitcombe Yard",
+      "sender": "gareth.pugh@meridianbuild.co.uk",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-14T13:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "James,\n\nConfirming the scaffold crew will be on site at Whitcombe Yard from 7am Thursday. Can you get the gate code from facilities and forward to the foreman? Also did Karen sort the skip permit?\n\nCheers\nGareth\n\nMeridian Build Ltd",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Confirming the scaffold crew will be on site at Whitcombe Yard from 7am Thursday. Can you get the gate code from facilities and forward to the foreman? Also did Karen sort the skip permit?<br><br>Cheers<br>Gareth<br><br>Meridian Build Ltd</div>"
+    },
+    {
+      "id": "5ed3353313b7875f",
+      "snippet": "Hi Gareth, I think this has reached the wrong James - I'm a solicitor at Whitfield Carter and don't ",
+      "subject": "RE: Site access Thursday - Whitcombe Yard",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "gareth.pugh@meridianbuild.co.uk"
+      ],
+      "date": "2025-10-14T13:40:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi Gareth,\n\nI think this has reached the wrong James - I'm a solicitor at Whitfield Carter and don't have anything to do with Whitcombe Yard or a James at Meridian. You may want to check the address. No worries.\n\nBest,\nJames Osei\n\nOn Tue, Oct 14, 2025 at 1:12 PM, Gareth Pugh <gareth.pugh@meridianbuild.co.uk> wrote:\n> James,\n>\n> Confirming the scaffold crew will be on site at Whitcombe Yard from 7am Thursday. Can you get the gate code from facilities and forward to the foreman? Also did Karen sort the skip permit?\n>\n> Cheers\n> Gareth\n>\n> Meridian Build Ltd",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Hi Gareth,<br><br>I think this has reached the wrong James - I&#x27;m a solicitor at Whitfield Carter and don&#x27;t have anything to do with Whitcombe Yard or a James at Meridian. You may want to check the address. No worries.<br><br>Best,<br>James Osei</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 14, 2025 at 1:12 PM, Gareth Pugh &lt;gareth.pugh@meridianbuild.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Confirming the scaffold crew will be on site at Whitcombe Yard from 7am Thursday. Can you get the gate code from facilities and forward to the foreman? Also did Karen sort the skip permit?<br><br>Cheers<br>Gareth<br><br>Meridian Build Ltd</div></blockquote></div></div>"
+    }
+  ]
+}

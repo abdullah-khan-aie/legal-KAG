@@ -1,0 +1,23 @@
+{
+  "id": "f45bf53994bc1c82",
+  "messages": [
+    {
+      "id": "f45bf53994bc1c82",
+      "snippet": "Join us for a CPD lunchtime seminar on recent developments in SDLT and TOGC treatment for commercial",
+      "subject": "Lunchtime seminar: SDLT and TOGC on commercial property - 26 March",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-10T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Join us for a CPD lunchtime seminar on recent developments in SDLT and TOGC treatment for commercial property transactions, presented by the Tax group. Wednesday 26 March, 12:30-13:30, Boardroom 4 (sandwiches provided). Register via the L&D portal.\n\nLearning & Development",
+      "htmlBody": "<div dir=\"ltr\">Join us for a CPD lunchtime seminar on recent developments in SDLT and TOGC treatment for commercial property transactions, presented by the Tax group. Wednesday 26 March, 12:30-13:30, Boardroom 4 (sandwiches provided). Register via the L&amp;D portal.<br><br>Learning &amp; Development</div>"
+    }
+  ]
+}

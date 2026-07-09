@@ -1,0 +1,24 @@
+{
+  "id": "e807ea4e8eab59e6",
+  "messages": [
+    {
+      "id": "e807ea4e8eab59e6",
+      "snippet": "Colleagues, Our records show unposted time for March. Please ensure all March time is recorded with ",
+      "subject": "Time recording - March narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-31T16:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Colleagues,\n\nOur records show unposted time for March. Please ensure all March time is recorded with proper narratives by close on Thursday 2 April so we can run the month-end WIP report. Matters with significant unbilled time will be flagged to the responsible partner.\n\nThanks,\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">Colleagues,<br><br>Our records show unposted time for March. Please ensure all March time is recorded with proper narratives by close on Thursday 2 April so we can run the month-end WIP report. Matters with significant unbilled time will be flagged to the responsible partner.<br><br>Thanks,<br>Accounts</div>"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "c15e89bd2fbf318c",
+  "messages": [
+    {
+      "id": "c15e89bd2fbf318c",
+      "snippet": "Dear Deepa, Please find the execution version attached, incorporating all agreed changes. Once your ",
+      "subject": "Rashid — execution version",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "deepa.kovac@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "patricia.vaughan@calvertonindustries.com"
+      ],
+      "date": "2025-04-10T17:45:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Deepa,\n\nPlease find the execution version attached, incorporating all agreed changes. Once your client has signed and you've completed the adviser's certificate, we'll arrange for the Company to countersign and the payments to follow within 28 days.\n\nKind regards,\nTom",
+      "htmlBody": "<div dir=\"ltr\">Dear Deepa,<br><br>Please find the execution version attached, incorporating all agreed changes. Once your client has signed and you&#x27;ve completed the adviser&#x27;s certificate, we&#x27;ll arrange for the Company to countersign and the payments to follow within 28 days.<br><br>Kind regards,<br>Tom</div>"
+    },
+    {
+      "id": "c5f4ec6b8b99f7ad",
+      "snippet": "Tom, Mr Rashid has signed and I've completed the certificate. Fully executed copy attached for your ",
+      "subject": "RE: Rashid — execution version",
+      "sender": "deepa.kovac@birchallstone.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "patricia.vaughan@calvertonindustries.com"
+      ],
+      "date": "2025-04-11T14:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Tom,\n\nMr Rashid has signed and I've completed the certificate. Fully executed copy attached for your records. Thank you for a constructive negotiation.\n\nDeepa Kovac\nBirchall Stone LLP\n\nOn Thu, Apr 10, 2025 at 5:45 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Deepa,\n>\n> Please find the execution version attached, incorporating all agreed changes. Once your client has signed and you've completed the adviser's certificate, we'll arrange for the Company to countersign and the payments to follow within 28 days.\n>\n> Kind regards,\n> Tom",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>Mr Rashid has signed and I&#x27;ve completed the certificate. Fully executed copy attached for your records. Thank you for a constructive negotiation.<br><br>Deepa Kovac<br>Birchall Stone LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Apr 10, 2025 at 5:45 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Deepa,<br><br>Please find the execution version attached, incorporating all agreed changes. Once your client has signed and you&#x27;ve completed the adviser&#x27;s certificate, we&#x27;ll arrange for the Company to countersign and the payments to follow within 28 days.<br><br>Kind regards,<br>Tom</div></blockquote></div></div>",
+      "attachmentIds": [
+        "CR-PouYo5F1RqhB_FzZEMREeU-d7F9d-C30wnoDmO7A"
+      ],
+      "attachments": [
+        {
+          "filename": "Rashid_SettlementAgreement_Executed.pdf",
+          "id": "CR-PouYo5F1RqhB_FzZEMREeU-d7F9d-C30wnoDmO7A",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

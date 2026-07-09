@@ -1,0 +1,62 @@
+{
+  "id": "8add4507611a3b10",
+  "messages": [
+    {
+      "id": "8add4507611a3b10",
+      "snippet": "Marcus, Priya, Attached are (1) the pro-forma cap table showing pre- and post-money positions (inves",
+      "subject": "Project Drake — pro-forma cap table & draft funds flow",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.penrose@penroserobotics.com",
+        "priya.forsyth@penroserobotics.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "eleanor.whitmore@calderbrookgrowth.com",
+        "duncan.reeves@marlowtax.co.uk"
+      ],
+      "date": "2025-11-06T15:45:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Marcus, Priya,\n\nAttached are (1) the pro-forma cap table showing pre- and post-money positions (investors 25%, enlarged pool 12% of post-money, founders the balance) and (2) the draft Funds Flow Statement for completion. Please check the bank details and the cost lines — legal fees, the capped investor-fee contribution, Marlow Tax's DD fee and the Companies House filing fee. Net proceeds to the company are shown at the foot.\n\nGrateful for confirmation so we can lock these before signing.\n\nJames\n\nJames Osei\nSenior Associate | Corporate\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\">Marcus, Priya,<br><br>Attached are (1) the pro-forma cap table showing pre- and post-money positions (investors 25%, enlarged pool 12% of post-money, founders the balance) and (2) the draft Funds Flow Statement for completion. Please check the bank details and the cost lines — legal fees, the capped investor-fee contribution, Marlow Tax&#x27;s DD fee and the Companies House filing fee. Net proceeds to the company are shown at the foot.<br><br>Grateful for confirmation so we can lock these before signing.<br><br>James<br><br>James Osei<br>Senior Associate | Corporate<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div>",
+      "attachmentIds": [
+        "UinqMI7wf726MMHpvUfPQ22h6Y9p3FKFPTjXUoGF6Ac",
+        "aT8sC3yxo29-xrsbvjXUMCwopmUVEAWwhCeLVRUpsP8"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Drake_CapTable_Pre_and_Post.xlsx",
+          "id": "UinqMI7wf726MMHpvUfPQ22h6Y9p3FKFPTjXUoGF6Ac",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        },
+        {
+          "filename": "Project_Drake_FundsFlow.xlsx",
+          "id": "aT8sC3yxo29-xrsbvjXUMCwopmUVEAWwhCeLVRUpsP8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "84599aafd8be7936",
+      "snippet": "James — cap table looks right and ties to our model. On the funds flow, our outbound account is the ",
+      "subject": "RE: Project Drake — pro-forma cap table & draft funds flow",
+      "sender": "priya.forsyth@penroserobotics.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "marcus.penrose@penroserobotics.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-07T10:18:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James — cap table looks right and ties to our model. On the funds flow, our outbound account is the Sterling Commercial Bank account you've listed; please use that. One correction: Marlow's DD fee should be £18,000 (ex VAT) — looks like that's what you have. Otherwise approved.\n\nPriya\n\nOn Thu, Nov 6, 2025 at 3:45 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Marcus, Priya,\n>\n> Attached are (1) the pro-forma cap table showing pre- and post-money positions (investors 25%, enlarged pool 12% of post-money, founders the balance) and (2) the draft Funds Flow Statement for completion. Please check the bank details and the cost lines — legal fees, the capped investor-fee contribution, Marlow Tax's DD fee and the Companies House filing fee. Net proceeds to the company are shown at the foot.\n>\n> Grateful for confirmation so we can lock these before signing.\n>\n> James\n>\n> James Osei\n> Senior Associate | Corporate\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James — cap table looks right and ties to our model. On the funds flow, our outbound account is the Sterling Commercial Bank account you&#x27;ve listed; please use that. One correction: Marlow&#x27;s DD fee should be £18,000 (ex VAT) — looks like that&#x27;s what you have. Otherwise approved.<br><br>Priya</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Nov 6, 2025 at 3:45 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Marcus, Priya,<br><br>Attached are (1) the pro-forma cap table showing pre- and post-money positions (investors 25%, enlarged pool 12% of post-money, founders the balance) and (2) the draft Funds Flow Statement for completion. Please check the bank details and the cost lines — legal fees, the capped investor-fee contribution, Marlow Tax&#x27;s DD fee and the Companies House filing fee. Net proceeds to the company are shown at the foot.<br><br>Grateful for confirmation so we can lock these before signing.<br><br>James<br><br>James Osei<br>Senior Associate | Corporate<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div></blockquote></div></div>"
+    }
+  ]
+}

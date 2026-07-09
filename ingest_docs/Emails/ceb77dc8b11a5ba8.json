@@ -1,0 +1,44 @@
+{
+  "id": "ceb77dc8b11a5ba8",
+  "messages": [
+    {
+      "id": "ceb77dc8b11a5ba8",
+      "snippet": "Amelia, Please find our first legal due diligence enquiry list for Project Cedar (sent via the data ",
+      "subject": "Project Cedar - legal DD enquiries",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "amelia.hart@castlevane.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-26T12:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Amelia,\n\nPlease find our first legal due diligence enquiry list for Project Cedar (sent via the data room Q&A). Priority items are the Caldera and Aerelon contracts, the NADCAP renewal position, the 2024 environmental report and the Doyle grievance file. Replies by 5 March would keep us on timetable.\n\nElena Marchetti\n\nElena Marchetti\nAssociate | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Amelia,<br><br>Please find our first legal due diligence enquiry list for Project Cedar (sent via the data room Q&amp;A). Priority items are the Caldera and Aerelon contracts, the NADCAP renewal position, the 2024 environmental report and the Doyle grievance file. Replies by 5 March would keep us on timetable.<br><br>Elena Marchetti<br><br>Elena Marchetti<br>Associate | Whitfield Carter LLP</div>"
+    },
+    {
+      "id": "46309ed94b2872d1",
+      "snippet": "Elena, Replies to the first enquiry list are now uploaded. We'll send supplemental replies on the ta",
+      "subject": "RE: Project Cedar - legal DD enquiries",
+      "sender": "amelia.hart@castlevane.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "jonathan.vane@castlevane.com"
+      ],
+      "date": "2026-03-02T15:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena,\n\nReplies to the first enquiry list are now uploaded. We'll send supplemental replies on the tax enquiry (HMRC R&D point) and the Caldera consent position next week. The Caldera change-of-control consent request has gone out.\n\nAmelia\n\nOn Thu, Feb 26, 2026 at 12:00 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Amelia,\n>\n> Please find our first legal due diligence enquiry list for Project Cedar (sent via the data room Q&A). Priority items are the Caldera and Aerelon contracts, the NADCAP renewal position, the 2024 environmental report and the Doyle grievance file. Replies by 5 March would keep us on timetable.\n>\n> Elena Marchetti\n>\n> Elena Marchetti\n> Associate | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena,<br><br>Replies to the first enquiry list are now uploaded. We&#x27;ll send supplemental replies on the tax enquiry (HMRC R&amp;D point) and the Caldera consent position next week. The Caldera change-of-control consent request has gone out.<br><br>Amelia</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Feb 26, 2026 at 12:00 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Amelia,<br><br>Please find our first legal due diligence enquiry list for Project Cedar (sent via the data room Q&amp;A). Priority items are the Caldera and Aerelon contracts, the NADCAP renewal position, the 2024 environmental report and the Doyle grievance file. Replies by 5 March would keep us on timetable.<br><br>Elena Marchetti<br><br>Elena Marchetti<br>Associate | Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

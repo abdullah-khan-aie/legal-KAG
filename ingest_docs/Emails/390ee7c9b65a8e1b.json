@@ -1,0 +1,24 @@
+{
+  "id": "390ee7c9b65a8e1b",
+  "messages": [
+    {
+      "id": "390ee7c9b65a8e1b",
+      "snippet": "Sarah, James, Hartington IP's final IP due diligence report on CAL-218 is in the data room. Headline",
+      "subject": "Hartington IP — CAL-218 due diligence report",
+      "sender": "stephen.okoro@hartwellpharma.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "helena.vance@hartwellpharma.com"
+      ],
+      "date": "2025-10-28T11:00:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Sarah, James,\n\nHartington IP's final IP due diligence report on CAL-218 is in the data room. Headline: core composition position is defensible; the EPO observation on the A family doesn't undermine the independent claims; FTO is moderate (Amgen and Boehringer families to watch). I'm comfortable proceeding.\n\nStephen Okoro\nCSO, Hartwell Pharma",
+      "htmlBody": "<div dir=\"ltr\">Sarah, James,<br><br>Hartington IP&#x27;s final IP due diligence report on CAL-218 is in the data room. Headline: core composition position is defensible; the EPO observation on the A family doesn&#x27;t undermine the independent claims; FTO is moderate (Amgen and Boehringer families to watch). I&#x27;m comfortable proceeding.<br><br>Stephen Okoro<br>CSO, Hartwell Pharma</div>"
+    }
+  ]
+}

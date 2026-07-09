@@ -1,0 +1,44 @@
+{
+  "id": "be2308310bde2119",
+  "messages": [
+    {
+      "id": "be2308310bde2119",
+      "snippet": "Sarah, We need to instruct you on a dispute. Our Walsall coatings subsidiary bought a bespoke membra",
+      "subject": "New instruction - effluent system dispute (Marldon)",
+      "sender": "richard.calloway@brackengroup.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "robert.ellis@brackengroup.com"
+      ],
+      "date": "2025-10-20T09:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nWe need to instruct you on a dispute. Our Walsall coatings subsidiary bought a bespoke membrane bioreactor effluent treatment system from Marldon Process Systems for £1.48m. It has never worked - eleven failures, lines down repeatedly. We terminated last month and have put in a replacement from Severnvale. Total losses are heading north of £2m.\n\nCan we get a call in the diary this week? Robert Ellis (Ops Director) has all the technical history.\n\nRichard",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>We need to instruct you on a dispute. Our Walsall coatings subsidiary bought a bespoke membrane bioreactor effluent treatment system from Marldon Process Systems for £1.48m. It has never worked - eleven failures, lines down repeatedly. We terminated last month and have put in a replacement from Severnvale. Total losses are heading north of £2m.<br><br>Can we get a call in the diary this week? Robert Ellis (Ops Director) has all the technical history.<br><br>Richard</div>"
+    },
+    {
+      "id": "88e09ac8101328af",
+      "snippet": "Richard, Happy to take this on. On the facts you describe this looks like a strong breach-of-contrac",
+      "subject": "RE: New instruction - effluent system dispute (Marldon)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "richard.calloway@brackengroup.com"
+      ],
+      "ccRecipients": [
+        "robert.ellis@brackengroup.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-10-20T11:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Richard,\n\nHappy to take this on. On the facts you describe this looks like a strong breach-of-contract / fitness-for-purpose claim, with the usual battleground being their standard-terms liability cap and any \"you overloaded it\" defence. I'm bringing in Tom Gallagher to run the day-to-day.\n\nThursday 2pm works our end. Please could Robert pull together the contract documents, the commissioning logs and the failure register before then.\n\nSarah Whitfield\n\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Mon, Oct 20, 2025 at 9:12 AM, Richard Calloway <richard.calloway@brackengroup.com> wrote:\n> Sarah,\n>\n> We need to instruct you on a dispute. Our Walsall coatings subsidiary bought a bespoke membrane bioreactor effluent treatment system from Marldon Process Systems for £1.48m. It has never worked - eleven failures, lines down repeatedly. We terminated last month and have put in a replacement from Severnvale. Total losses are heading north of £2m.\n>\n> Can we get a call in the diary this week? Robert Ellis (Ops Director) has all the technical history.\n>\n> Richard",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Richard,<br><br>Happy to take this on. On the facts you describe this looks like a strong breach-of-contract / fitness-for-purpose claim, with the usual battleground being their standard-terms liability cap and any &quot;you overloaded it&quot; defence. I&#x27;m bringing in Tom Gallagher to run the day-to-day.<br><br>Thursday 2pm works our end. Please could Robert pull together the contract documents, the commissioning logs and the failure register before then.<br><br>Sarah Whitfield<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Oct 20, 2025 at 9:12 AM, Richard Calloway &lt;richard.calloway@brackengroup.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>We need to instruct you on a dispute. Our Walsall coatings subsidiary bought a bespoke membrane bioreactor effluent treatment system from Marldon Process Systems for £1.48m. It has never worked - eleven failures, lines down repeatedly. We terminated last month and have put in a replacement from Severnvale. Total losses are heading north of £2m.<br><br>Can we get a call in the diary this week? Robert Ellis (Ops Director) has all the technical history.<br><br>Richard</div></blockquote></div></div>"
+    }
+  ]
+}

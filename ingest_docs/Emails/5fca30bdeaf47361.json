@@ -1,0 +1,43 @@
+{
+  "id": "5fca30bdeaf47361",
+  "messages": [
+    {
+      "id": "5fca30bdeaf47361",
+      "snippet": "Gordon, Lesley, Before we execute, Sutherland's board should formally approve entry into the LSA and",
+      "subject": "Project Juniper - board approval needed before signing",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "gordon.sutherland@sutherlandlogistics.co.uk",
+        "lesley.crane@sutherlandlogistics.co.uk"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-13T10:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Gordon, Lesley,\n\nBefore we execute, Sutherland's board should formally approve entry into the LSA and the mobilisation spend. I've drafted board minutes recording the key terms (4-year term, £420k mobilisation, ~£3.91m annual charges, 137.5%/£5.375m cap, 3.5% indexation) for your 14 May board. Let me know if you'd like any changes.\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Gordon, Lesley,<br><br>Before we execute, Sutherland&#x27;s board should formally approve entry into the LSA and the mobilisation spend. I&#x27;ve drafted board minutes recording the key terms (4-year term, £420k mobilisation, ~£3.91m annual charges, 137.5%/£5.375m cap, 3.5% indexation) for your 14 May board. Let me know if you&#x27;d like any changes.<br><br>James</div>"
+    },
+    {
+      "id": "027a58169a235e83",
+      "snippet": "James - board approved this morning, minutes signed. We approved mobilisation spend up to £450k to g",
+      "subject": "RE: Project Juniper - board approval needed before signing",
+      "sender": "gordon.sutherland@sutherlandlogistics.co.uk",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "lesley.crane@sutherlandlogistics.co.uk",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-14T12:05:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "James - board approved this morning, minutes signed. We approved mobilisation spend up to £450k to give a little headroom. Cleared to sign Monday. G\n\nOn Wed, May 13, 2026 at 10:00 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Gordon, Lesley,\n>\n> Before we execute, Sutherland's board should formally approve entry into the LSA and the mobilisation spend. I've drafted board minutes recording the key terms (4-year term, £420k mobilisation, ~£3.91m annual charges, 137.5%/£5.375m cap, 3.5% indexation) for your 14 May board. Let me know if you'd like any changes.\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James - board approved this morning, minutes signed. We approved mobilisation spend up to £450k to give a little headroom. Cleared to sign Monday. G</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, May 13, 2026 at 10:00 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Gordon, Lesley,<br><br>Before we execute, Sutherland&#x27;s board should formally approve entry into the LSA and the mobilisation spend. I&#x27;ve drafted board minutes recording the key terms (4-year term, £420k mobilisation, ~£3.91m annual charges, 137.5%/£5.375m cap, 3.5% indexation) for your 14 May board. Let me know if you&#x27;d like any changes.<br><br>James</div></blockquote></div></div>"
+    }
+  ]
+}

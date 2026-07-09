@@ -1,0 +1,53 @@
+{
+  "id": "09aab77b726b954b",
+  "messages": [
+    {
+      "id": "09aab77b726b954b",
+      "snippet": "Dear Eleanor, Please find attached the term sheet for Project Onyx, signed by Verdant, reflecting ou",
+      "subject": "Project Onyx - signed term sheet",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "eleanor.whitmore@calderbrookgrowth.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "liam.marsden@calderbrookgrowth.com"
+      ],
+      "date": "2025-12-04T11:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Eleanor,\n\nPlease find attached the term sheet for Project Onyx, signed by Verdant, reflecting our discussion on the cost-cap mechanics (payable on completion). We look forward to the DD request list and to progressing to long-form. We'll circulate a first draft of the subscription and shareholders' agreement next week.\n\nKind regards,\nSarah Whitfield\nPartner, Whitfield Carter LLP\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Eleanor,<br><br>Please find attached the term sheet for Project Onyx, signed by Verdant, reflecting our discussion on the cost-cap mechanics (payable on completion). We look forward to the DD request list and to progressing to long-form. We&#x27;ll circulate a first draft of the subscription and shareholders&#x27; agreement next week.<br><br>Kind regards,<br>Sarah Whitfield<br>Partner, Whitfield Carter LLP<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "SL5yT9FxuF786IxWFJEvdbDQb_srUVUO4O_Gbfl3QHY"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Onyx_TermSheet_SeriesB.docx",
+          "id": "SL5yT9FxuF786IxWFJEvdbDQb_srUVUO4O_Gbfl3QHY",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "4fd70288e7fab222",
+      "snippet": "Thanks Sarah - received and countersigned. I'm copying Adam Selby at Denham Lewis, who leads on our ",
+      "subject": "RE: Project Onyx - signed term sheet",
+      "sender": "eleanor.whitmore@calderbrookgrowth.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "liam.marsden@calderbrookgrowth.com",
+        "adam.selby@denhamlewis.com"
+      ],
+      "date": "2025-12-04T15:35:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Thanks Sarah - received and countersigned. I'm copying Adam Selby at Denham Lewis, who leads on our side, and Liam from our team. Adam will send the DD list shortly. We're keen to close by mid-March.\n\nEleanor Whitmore | Partner | Calderbrook Growth Partners LLP\n\nOn Thu, Dec 4, 2025 at 11:00 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Dear Eleanor,\n>\n> Please find attached the term sheet for Project Onyx, signed by Verdant, reflecting our discussion on the cost-cap mechanics (payable on completion). We look forward to the DD request list and to progressing to long-form. We'll circulate a first draft of the subscription and shareholders' agreement next week.\n>\n> Kind regards,\n> Sarah Whitfield\n> Partner, Whitfield Carter LLP\n>\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks Sarah - received and countersigned. I&#x27;m copying Adam Selby at Denham Lewis, who leads on our side, and Liam from our team. Adam will send the DD list shortly. We&#x27;re keen to close by mid-March.<br><br>Eleanor Whitmore | Partner | Calderbrook Growth Partners LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Dec 4, 2025 at 11:00 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Eleanor,<br><br>Please find attached the term sheet for Project Onyx, signed by Verdant, reflecting our discussion on the cost-cap mechanics (payable on completion). We look forward to the DD request list and to progressing to long-form. We&#x27;ll circulate a first draft of the subscription and shareholders&#x27; agreement next week.<br><br>Kind regards,<br>Sarah Whitfield<br>Partner, Whitfield Carter LLP<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "161248b5cc37a9a4",
+  "messages": [
+    {
+      "id": "161248b5cc37a9a4",
+      "snippet": "Aisha, Ahead of the pilot, a few technical points my team needs to close out: 1. Maximum concurrent ",
+      "subject": "Project Zephyr — technical due diligence questions",
+      "sender": "tom.reddick@wexbourneretail.com",
+      "toRecipients": [
+        "aisha.devlin@penroserobotics.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-28T11:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Aisha,\n\nAhead of the pilot, a few technical points my team needs to close out:\n\n1. Maximum concurrent AMRs the Core supports per site (we'll run ~180 at Lutterworth).\n2. Which WMS adapters are production-ready — we're on Manhattan at Daventry and Blue Yonder at Peterborough.\n3. Support coverage hours and the P1 response commitment.\n4. Confirmation the benefit-reporting (Insight) methodology will be the basis for the royalty calc.\n\nThanks,\nTom",
+      "htmlBody": "<div dir=\"ltr\">Aisha,<br><br>Ahead of the pilot, a few technical points my team needs to close out:<br><br>1. Maximum concurrent AMRs the Core supports per site (we&#x27;ll run ~180 at Lutterworth).<br>2. Which WMS adapters are production-ready — we&#x27;re on Manhattan at Daventry and Blue Yonder at Peterborough.<br>3. Support coverage hours and the P1 response commitment.<br>4. Confirmation the benefit-reporting (Insight) methodology will be the basis for the royalty calc.<br><br>Thanks,<br>Tom</div>"
+    },
+    {
+      "id": "a29505ef79d35e87",
+      "snippet": "Tom, Answers: 1. Core v6.2 supports up to 750 concurrent AMRs per site — 180 at Lutterworth is comfo",
+      "subject": "RE: Project Zephyr — technical due diligence questions",
+      "sender": "aisha.devlin@penroserobotics.com",
+      "toRecipients": [
+        "tom.reddick@wexbourneretail.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-29T09:35:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom,\n\nAnswers:\n1. Core v6.2 supports up to 750 concurrent AMRs per site — 180 at Lutterworth is comfortable.\n2. Both adapters are production-ready; Manhattan and Blue Yonder runbooks are in the Licensed Know-How (Schedule 2).\n3. P1 (production down) one-hour response, eight-hour target resolution; support 06:00–22:00 UK, seven days.\n4. Yes — Helmsman Insight benefit methodology is the agreed basis (Schedule 6, Part C) and feeds the royalty under Schedule 3.\n\nAisha\n\nOn Tue, Oct 28, 2025 at 11:00 AM, Tom Reddick <tom.reddick@wexbourneretail.com> wrote:\n> Aisha,\n>\n> Ahead of the pilot, a few technical points my team needs to close out:\n>\n> 1. Maximum concurrent AMRs the Core supports per site (we'll run ~180 at Lutterworth).\n> 2. Which WMS adapters are production-ready — we're on Manhattan at Daventry and Blue Yonder at Peterborough.\n> 3. Support coverage hours and the P1 response commitment.\n> 4. Confirmation the benefit-reporting (Insight) methodology will be the basis for the royalty calc.\n>\n> Thanks,\n> Tom",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>Answers:<br>1. Core v6.2 supports up to 750 concurrent AMRs per site — 180 at Lutterworth is comfortable.<br>2. Both adapters are production-ready; Manhattan and Blue Yonder runbooks are in the Licensed Know-How (Schedule 2).<br>3. P1 (production down) one-hour response, eight-hour target resolution; support 06:00–22:00 UK, seven days.<br>4. Yes — Helmsman Insight benefit methodology is the agreed basis (Schedule 6, Part C) and feeds the royalty under Schedule 3.<br><br>Aisha</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 28, 2025 at 11:00 AM, Tom Reddick &lt;tom.reddick@wexbourneretail.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Aisha,<br><br>Ahead of the pilot, a few technical points my team needs to close out:<br><br>1. Maximum concurrent AMRs the Core supports per site (we&#x27;ll run ~180 at Lutterworth).<br>2. Which WMS adapters are production-ready — we&#x27;re on Manhattan at Daventry and Blue Yonder at Peterborough.<br>3. Support coverage hours and the P1 response commitment.<br>4. Confirmation the benefit-reporting (Insight) methodology will be the basis for the royalty calc.<br><br>Thanks,<br>Tom</div></blockquote></div></div>"
+    },
+    {
+      "id": "5884d7349bb7ecd0",
+      "snippet": "Great, that all works. No further questions from us on the technical side. Thanks Aisha. Tom",
+      "subject": "RE: Project Zephyr — technical due diligence questions",
+      "sender": "tom.reddick@wexbourneretail.com",
+      "toRecipients": [
+        "aisha.devlin@penroserobotics.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-29T10:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Great, that all works. No further questions from us on the technical side. Thanks Aisha.\n\nTom\n\nOn Wed, Oct 29, 2025 at 9:35 AM, Aisha Devlin <aisha.devlin@penroserobotics.com> wrote:\n> Tom,\n>\n> Answers:\n> 1. Core v6.2 supports up to 750 concurrent AMRs per site — 180 at Lutterworth is comfortable.\n> 2. Both adapters are production-ready; Manhattan and Blue Yonder runbooks are in the Licensed Know-How (Schedule 2).\n> 3. P1 (production down) one-hour response, eight-hour target resolution; support 06:00–22:00 UK, seven days.\n> 4. Yes — Helmsman Insight benefit methodology is the agreed basis (Schedule 6, Part C) and feeds the royalty under Schedule 3.\n>\n> Aisha\n>\n> On Tue, Oct 28, 2025 at 11:00 AM, Tom Reddick <tom.reddick@wexbourneretail.com> wrote:\n> > Aisha,\n> >\n> > Ahead of the pilot, a few technical points my team needs to close out:\n> >\n> > 1. Maximum concurrent AMRs the Core supports per site (we'll run ~180 at Lutterworth).\n> > 2. Which WMS adapters are production-ready — we're on Manhattan at Daventry and Blue Yonder at Peterborough.\n> > 3. Support coverage hours and the P1 response commitment.\n> > 4. Confirmation the benefit-reporting (Insight) methodology will be the basis for the royalty calc.\n> >\n> > Thanks,\n> > Tom",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Great, that all works. No further questions from us on the technical side. Thanks Aisha.<br><br>Tom</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 29, 2025 at 9:35 AM, Aisha Devlin &lt;aisha.devlin@penroserobotics.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>Answers:<br>1. Core v6.2 supports up to 750 concurrent AMRs per site — 180 at Lutterworth is comfortable.<br>2. Both adapters are production-ready; Manhattan and Blue Yonder runbooks are in the Licensed Know-How (Schedule 2).<br>3. P1 (production down) one-hour response, eight-hour target resolution; support 06:00–22:00 UK, seven days.<br>4. Yes — Helmsman Insight benefit methodology is the agreed basis (Schedule 6, Part C) and feeds the royalty under Schedule 3.<br><br>Aisha</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Oct 28, 2025 at 11:00 AM, Tom Reddick &lt;tom.reddick@wexbourneretail.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Aisha,<br><br>Ahead of the pilot, a few technical points my team needs to close out:<br><br>1. Maximum concurrent AMRs the Core supports per site (we&#x27;ll run ~180 at Lutterworth).<br>2. Which WMS adapters are production-ready — we&#x27;re on Manhattan at Daventry and Blue Yonder at Peterborough.<br>3. Support coverage hours and the P1 response commitment.<br>4. Confirmation the benefit-reporting (Insight) methodology will be the basis for the royalty calc.<br><br>Thanks,<br>Tom</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

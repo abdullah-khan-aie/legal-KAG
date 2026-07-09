@@ -1,0 +1,34 @@
+{
+  "id": "9a6fbd5f519d1fbd",
+  "messages": [
+    {
+      "id": "9a6fbd5f519d1fbd",
+      "snippet": "Oliver, Attached is our first full draft of the Patent and Know-How Licence for HRX-218 (v1, clean).",
+      "subject": "Project Lyra — first draft Patent and Know-How Licence",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "date": "2025-12-22T12:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Oliver,\n\nAttached is our first full draft of the Patent and Know-How Licence for HRX-218 (v1, clean). Key points to flag: exclusive worldwide grant in the oncology field; the agreed milestone and royalty architecture; and clause 11 drafted with the IP warranties, the grant and confidentiality outside any cap. We've left diligence at Commercially Reasonable Efforts without a hard long-stop for now.\n\nLook forward to your mark-up in the new year.\n\nJames\n\n--\nJames Osei | Senior Associate, Corporate\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Oliver,<br><br>Attached is our first full draft of the Patent and Know-How Licence for HRX-218 (v1, clean). Key points to flag: exclusive worldwide grant in the oncology field; the agreed milestone and royalty architecture; and clause 11 drafted with the IP warranties, the grant and confidentiality outside any cap. We&#x27;ve left diligence at Commercially Reasonable Efforts without a hard long-stop for now.<br><br>Look forward to your mark-up in the new year.<br><br>James<br><br>--<br>James Osei | Senior Associate, Corporate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "EPU-q4QqiMzatGVsl_SFFtsjs8KyTc5K2h0sIqQrFWw"
+      ],
+      "attachments": [
+        {
+          "filename": "ProjectLyra_LicenceAgreement_v1.docx",
+          "id": "EPU-q4QqiMzatGVsl_SFFtsjs8KyTc5K2h0sIqQrFWw",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

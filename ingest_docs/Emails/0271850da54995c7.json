@@ -1,0 +1,23 @@
+{
+  "id": "0271850da54995c7",
+  "messages": [
+    {
+      "id": "0271850da54995c7",
+      "snippet": "Hi both, A reminder that January time narratives are due by close of play Wednesday so we can run th",
+      "subject": "Time recording — January narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-02T08:15:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi both,\n\nA reminder that January time narratives are due by close of play Wednesday so we can run the month-end bills. Our records show some unposted time against several matters. Please ensure all entries are submitted and narratives are client-ready.\n\nThanks,\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">Hi both,<br><br>A reminder that January time narratives are due by close of play Wednesday so we can run the month-end bills. Our records show some unposted time against several matters. Please ensure all entries are submitted and narratives are client-ready.<br><br>Thanks,<br>Accounts</div>"
+    }
+  ]
+}

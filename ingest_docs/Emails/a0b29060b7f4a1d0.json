@@ -1,0 +1,22 @@
+{
+  "id": "a0b29060b7f4a1d0",
+  "messages": [
+    {
+      "id": "a0b29060b7f4a1d0",
+      "snippet": "James - are we still on for the team dinner on Thursday at 7:30? I've booked San Carlo for six. Let ",
+      "subject": "Re: dinner Thursday",
+      "sender": "rebecca.stone@thornburyproperties.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-03-09T13:22:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James - are we still on for the team dinner on Thursday at 7:30? I've booked San Carlo for six. Let me know if the number changes.\n\nRebecca\n\n(Sorry James, ignore - wrong James in my address book!)",
+      "htmlBody": "<div dir=\"ltr\">James - are we still on for the team dinner on Thursday at 7:30? I&#x27;ve booked San Carlo for six. Let me know if the number changes.<br><br>Rebecca<br><br>(Sorry James, ignore - wrong James in my address book!)</div>"
+    }
+  ]
+}

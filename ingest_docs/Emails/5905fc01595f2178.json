@@ -1,0 +1,21 @@
+{
+  "id": "5905fc01595f2178",
+  "messages": [
+    {
+      "id": "5905fc01595f2178",
+      "snippet": "James - are you in for five-a-side Thursday at 7? We're a man short after Dev pulled his hamstring. ",
+      "subject": "Five-a-side Thursday?",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-04-09T19:14:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "James - are you in for five-a-side Thursday at 7? We're a man short after Dev pulled his hamstring. Pub after. Tom",
+      "htmlBody": "<div dir=\"ltr\">James - are you in for five-a-side Thursday at 7? We&#x27;re a man short after Dev pulled his hamstring. Pub after. Tom</div>"
+    }
+  ]
+}

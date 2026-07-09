@@ -1,0 +1,56 @@
+{
+  "id": "89202e3f164f07d7",
+  "messages": [
+    {
+      "id": "89202e3f164f07d7",
+      "snippet": "Sarah - the Caspian board approved the transaction this morning (Henry, Theo, Maya, Aisha present). ",
+      "subject": "Indigo - board approval & signing",
+      "sender": "sofia.trevino@caspiantech.io",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "maya.patel@caspiantech.io"
+      ],
+      "date": "2026-03-10T09:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah - the Caspian board approved the transaction this morning (Henry, Theo, Maya, Aisha present). We're clear to sign on 14 March. Can you circulate the completion checklist and confirm what we need executed on the day? Sofia",
+      "htmlBody": "<div dir=\"ltr\">Sarah - the Caspian board approved the transaction this morning (Henry, Theo, Maya, Aisha present). We&#x27;re clear to sign on 14 March. Can you circulate the completion checklist and confirm what we need executed on the day? Sofia</div>"
+    },
+    {
+      "id": "e349ee7a9860106a",
+      "snippet": "Sofia, Great news. Completion checklist attached. On the day we'll execute: the licence (2 originals",
+      "subject": "RE: Indigo - board approval & signing",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "sofia.trevino@caspiantech.io"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "maya.patel@caspiantech.io"
+      ],
+      "date": "2026-03-11T10:40:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sofia,\n\nGreat news. Completion checklist attached. On the day we'll execute: the licence (2 originals), the disclosure letter (acknowledged by Aerelon), the CL-PAT-004 deed of assignment, and the Ravensworth deed of release; plus certified board minutes from both sides. Aerelon's first £2.5m tranche follows within 10 business days. We'll handle recordal of the assignment and licence afterwards.\n\nSarah\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Tue, Mar 10, 2026 at 9:00 AM, Sofia Trevino <sofia.trevino@caspiantech.io> wrote:\n> Sarah - the Caspian board approved the transaction this morning (Henry, Theo, Maya, Aisha present). We're clear to sign on 14 March. Can you circulate the completion checklist and confirm what we need executed on the day? Sofia",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sofia,<br><br>Great news. Completion checklist attached. On the day we&#x27;ll execute: the licence (2 originals), the disclosure letter (acknowledged by Aerelon), the CL-PAT-004 deed of assignment, and the Ravensworth deed of release; plus certified board minutes from both sides. Aerelon&#x27;s first £2.5m tranche follows within 10 business days. We&#x27;ll handle recordal of the assignment and licence afterwards.<br><br>Sarah<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Mar 10, 2026 at 9:00 AM, Sofia Trevino &lt;sofia.trevino@caspiantech.io&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah - the Caspian board approved the transaction this morning (Henry, Theo, Maya, Aisha present). We&#x27;re clear to sign on 14 March. Can you circulate the completion checklist and confirm what we need executed on the day? Sofia</div></blockquote></div></div>",
+      "attachmentIds": [
+        "6AQgilvze9MibiZ8YTpTWDwhrpPXgThc1xQAZaIzaSs"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Indigo_CompletionChecklist.docx",
+          "id": "6AQgilvze9MibiZ8YTpTWDwhrpPXgThc1xQAZaIzaSs",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "20b2121e71b1eab6",
+  "messages": [
+    {
+      "id": "20b2121e71b1eab6",
+      "snippet": "Sarah, Quick one on the Brookmere MSA, not Skylark - their procurement want the uptime SLA bumped to",
+      "subject": "Brookmere master subscription agreement - one more point",
+      "sender": "maya.patel@caspiantech.io",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2024-11-07T09:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Sarah,\n\nQuick one on the Brookmere MSA, not Skylark - their procurement want the uptime SLA bumped to 99.9% before they'll sign. Can we hold at 99.5% or should we give it? Happy to jump on a call.\n\nMaya Patel\nCFO, Caspian Technologies",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Quick one on the Brookmere MSA, not Skylark - their procurement want the uptime SLA bumped to 99.9% before they&#x27;ll sign. Can we hold at 99.5% or should we give it? Happy to jump on a call.<br><br>Maya Patel<br>CFO, Caspian Technologies</div>"
+    }
+  ]
+}

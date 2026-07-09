@@ -1,0 +1,55 @@
+{
+  "id": "30b1b3af10267aa9",
+  "messages": [
+    {
+      "id": "30b1b3af10267aa9",
+      "snippet": "All, With completion set for Thursday 20 February, the completion checklist is attached. All conditi",
+      "subject": "Project Drake — completion checklist",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "mark.ferris@brackengroup.com",
+        "richard.calloway@brackengroup.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-18T10:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "All,\n\nWith completion set for Thursday 20 February, the completion checklist is attached. All conditions are now satisfied: CMA confirmed no reference on 6 February, Clydesford consent 30 January, Stratton consent 11 February. Documents are engrossed and held to order. Stephen Harwood's service agreement is agreed. We'll complete by exchange of signed documents and electronic transfer.\n\nElena",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>With completion set for Thursday 20 February, the completion checklist is attached. All conditions are now satisfied: CMA confirmed no reference on 6 February, Clydesford consent 30 January, Stratton consent 11 February. Documents are engrossed and held to order. Stephen Harwood&#x27;s service agreement is agreed. We&#x27;ll complete by exchange of signed documents and electronic transfer.<br><br>Elena</div>",
+      "attachmentIds": [
+        "b16b_edjKT4-E911CzMmex3_Czc0xGTigyBedlbq_q8"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Drake_CompletionChecklist.docx",
+          "id": "b16b_edjKT4-E911CzMmex3_Czc0xGTigyBedlbq_q8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "e32c0c818f7b0378",
+      "snippet": "Completed. Thanks to you, James, Sarah and the whole team for a clean process. Let's get the post-co",
+      "subject": "RE: Project Drake — completion checklist",
+      "sender": "mark.ferris@brackengroup.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-20T16:30:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Completed. Thanks to you, James, Sarah and the whole team for a clean process. Let's get the post-completion items (stamping, Companies House filings, the bible) moving and diary the completion accounts.\n\nMark\n\nOn Wed, Feb 18, 2026 at 10:00 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> All,\n>\n> With completion set for Thursday 20 February, the completion checklist is attached. All conditions are now satisfied: CMA confirmed no reference on 6 February, Clydesford consent 30 January, Stratton consent 11 February. Documents are engrossed and held to order. Stephen Harwood's service agreement is agreed. We'll complete by exchange of signed documents and electronic transfer.\n>\n> Elena",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Completed. Thanks to you, James, Sarah and the whole team for a clean process. Let&#x27;s get the post-completion items (stamping, Companies House filings, the bible) moving and diary the completion accounts.<br><br>Mark</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 18, 2026 at 10:00 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">All,<br><br>With completion set for Thursday 20 February, the completion checklist is attached. All conditions are now satisfied: CMA confirmed no reference on 6 February, Clydesford consent 30 January, Stratton consent 11 February. Documents are engrossed and held to order. Stephen Harwood&#x27;s service agreement is agreed. We&#x27;ll complete by exchange of signed documents and electronic transfer.<br><br>Elena</div></blockquote></div></div>"
+    }
+  ]
+}

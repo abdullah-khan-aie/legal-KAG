@@ -1,0 +1,21 @@
+{
+  "id": "786649fd6a9ed498",
+  "messages": [
+    {
+      "id": "786649fd6a9ed498",
+      "snippet": "James, our records show 9.5 hours of unposted time for the period to 31 October. Please submit your ",
+      "subject": "Time recording reminder - October",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-11-05T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James, our records show 9.5 hours of unposted time for the period to 31 October. Please submit your October time by Friday so we can finalise the monthly bills. Thanks - Accounts",
+      "htmlBody": "<div dir=\"ltr\">James, our records show 9.5 hours of unposted time for the period to 31 October. Please submit your October time by Friday so we can finalise the monthly bills. Thanks - Accounts</div>"
+    }
+  ]
+}

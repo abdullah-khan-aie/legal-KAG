@@ -1,0 +1,23 @@
+{
+  "id": "3a420709e44eb0be",
+  "messages": [
+    {
+      "id": "3a420709e44eb0be",
+      "snippet": "Dear all, The firm's document management system (NetDocuments) will be unavailable on Sunday 16 Marc",
+      "subject": "[IT] Document management system maintenance - Sunday 16 March",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-14T07:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear all,\n\nThe firm's document management system (NetDocuments) will be unavailable on Sunday 16 March between 06:00 and 12:00 for scheduled maintenance and a security patch. Please check in any documents you are working on before Friday close. Email will be unaffected.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>The firm&#x27;s document management system (NetDocuments) will be unavailable on Sunday 16 March between 06:00 and 12:00 for scheduled maintenance and a security patch. Please check in any documents you are working on before Friday close. Email will be unaffected.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

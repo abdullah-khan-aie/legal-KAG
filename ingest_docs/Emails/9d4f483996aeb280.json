@@ -1,0 +1,56 @@
+{
+  "id": "9d4f483996aeb280",
+  "messages": [
+    {
+      "id": "9d4f483996aeb280",
+      "snippet": "Dear Edward, Thank you for instructing us on the proposed letting of Floors 4 and 5 of Pinnacle Hous",
+      "subject": "Pinnacle House letting - engagement and next steps",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "edward.pennington@halgarthestates.com"
+      ],
+      "ccRecipients": [
+        "fiona.aldridge@halgarthestates.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2024-07-12T09:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Edward,\n\nThank you for instructing us on the proposed letting of Floors 4 and 5 of Pinnacle House to Brookmere Software. I attach our engagement letter and terms of business - please sign and return the acceptance at your convenience.\n\nElena Marchetti will run the matter day to day. Our next steps are to agree heads of terms with the tenant's side (Pemberton Rowe) and to put the agreement for lease and lease into draft. Our fee estimate is £14,500-£18,000 plus VAT and disbursements.\n\nKind regards\nSarah\n\nSarah Whitfield | Partner, Real Estate | Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\">Dear Edward,<br><br>Thank you for instructing us on the proposed letting of Floors 4 and 5 of Pinnacle House to Brookmere Software. I attach our engagement letter and terms of business - please sign and return the acceptance at your convenience.<br><br>Elena Marchetti will run the matter day to day. Our next steps are to agree heads of terms with the tenant&#x27;s side (Pemberton Rowe) and to put the agreement for lease and lease into draft. Our fee estimate is £14,500-£18,000 plus VAT and disbursements.<br><br>Kind regards<br>Sarah<br><br>Sarah Whitfield | Partner, Real Estate | Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ</div>",
+      "attachmentIds": [
+        "BPkas6Jc4mQX2wHQ9ajnpSiL5Sqt9pQKipmgGOlko4Q"
+      ],
+      "attachments": [
+        {
+          "filename": "Pinnacle_House_EngagementLetter.docx",
+          "id": "BPkas6Jc4mQX2wHQ9ajnpSiL5Sqt9pQKipmgGOlko4Q",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "ca2f9c67af80baac",
+      "snippet": "Sarah, Thanks - signed acceptance to follow from Fiona. We are keen to get Brookmere in by the Septe",
+      "subject": "RE: Pinnacle House letting - engagement and next steps",
+      "sender": "edward.pennington@halgarthestates.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "fiona.aldridge@halgarthestates.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2024-07-12T15:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nThanks - signed acceptance to follow from Fiona. We are keen to get Brookmere in by the September quarter day, so please push the timetable. Grace Okafor will be your main contact on our side for the property detail.\n\nEdward\n\nOn Fri, Jul 12, 2024 at 9:05 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Dear Edward,\n>\n> Thank you for instructing us on the proposed letting of Floors 4 and 5 of Pinnacle House to Brookmere Software. I attach our engagement letter and terms of business - please sign and return the acceptance at your convenience.\n>\n> Elena Marchetti will run the matter day to day. Our next steps are to agree heads of terms with the tenant's side (Pemberton Rowe) and to put the agreement for lease and lease into draft. Our fee estimate is £14,500-£18,000 plus VAT and disbursements.\n>\n> Kind regards\n> Sarah\n>\n> Sarah Whitfield | Partner, Real Estate | Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah,<br><br>Thanks - signed acceptance to follow from Fiona. We are keen to get Brookmere in by the September quarter day, so please push the timetable. Grace Okafor will be your main contact on our side for the property detail.<br><br>Edward</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Jul 12, 2024 at 9:05 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Edward,<br><br>Thank you for instructing us on the proposed letting of Floors 4 and 5 of Pinnacle House to Brookmere Software. I attach our engagement letter and terms of business - please sign and return the acceptance at your convenience.<br><br>Elena Marchetti will run the matter day to day. Our next steps are to agree heads of terms with the tenant&#x27;s side (Pemberton Rowe) and to put the agreement for lease and lease into draft. Our fee estimate is £14,500-£18,000 plus VAT and disbursements.<br><br>Kind regards<br>Sarah<br><br>Sarah Whitfield | Partner, Real Estate | Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ</div></blockquote></div></div>"
+    }
+  ]
+}

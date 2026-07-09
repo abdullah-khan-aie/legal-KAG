@@ -1,0 +1,21 @@
+{
+  "id": "4368ba56bb84b749",
+  "messages": [
+    {
+      "id": "4368ba56bb84b749",
+      "snippet": "Pharma Logistics Weekly Top stories this week: - Regulators signal tougher GDP audit expectations fo",
+      "subject": "This week: GDP audits tighten, cold-chain insurers raise premiums",
+      "sender": "news@pharmalogisticsweekly.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-05-19T06:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Pharma Logistics Weekly\n\nTop stories this week:\n- Regulators signal tougher GDP audit expectations for temperature-controlled distributors\n- Cold-chain cargo insurers raise premiums after a year of high-value biologics losses\n- Opinion: why route-control failures, not equipment, drive most excursions\n\nYou are receiving this because you subscribed. Unsubscribe at any time.",
+      "htmlBody": "<div dir=\"ltr\">Pharma Logistics Weekly<br><br>Top stories this week:<br>- Regulators signal tougher GDP audit expectations for temperature-controlled distributors<br>- Cold-chain cargo insurers raise premiums after a year of high-value biologics losses<br>- Opinion: why route-control failures, not equipment, drive most excursions<br><br>You are receiving this because you subscribed. Unsubscribe at any time.</div>"
+    }
+  ]
+}

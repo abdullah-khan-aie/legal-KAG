@@ -1,0 +1,21 @@
+{
+  "id": "5aad9bc1c0e7d5f9",
+  "messages": [
+    {
+      "id": "5aad9bc1c0e7d5f9",
+      "snippet": "Our records show you have 6.5 hours of unposted time for March. Please complete and submit your time",
+      "subject": "[Action required] March time entries outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-03-31T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Our records show you have 6.5 hours of unposted time for March. Please complete and submit your timesheets by 17:00 on 2 April so they can be included in the month-end billing run.\n\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Our records show you have 6.5 hours of unposted time for March. Please complete and submit your timesheets by 17:00 on 2 April so they can be included in the month-end billing run.<br><br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

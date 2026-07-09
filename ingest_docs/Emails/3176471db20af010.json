@@ -1,0 +1,44 @@
+{
+  "id": "3176471db20af010",
+  "messages": [
+    {
+      "id": "3176471db20af010",
+      "snippet": "Dear Julia, For the Caldera licence we need your freedom-to-operate confirmation on the QX-Clock fam",
+      "subject": "QX-Clock - FTO confirmation for licence",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "julia.hartington@hartingtonip.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-12-04T13:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Julia,\n\nFor the Caldera licence we need your freedom-to-operate confirmation on the QX-Clock family, in particular any third-party rights of relevance to QX-2 (the vapour-cell patent). Could you confirm your opinion in time for our disclosure letter (target 22 January signing)?\n\nKind regards,\nElena\n\nElena Marchetti\nAssociate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\">Dear Julia,<br><br>For the Caldera licence we need your freedom-to-operate confirmation on the QX-Clock family, in particular any third-party rights of relevance to QX-2 (the vapour-cell patent). Could you confirm your opinion in time for our disclosure letter (target 22 January signing)?<br><br>Kind regards,<br>Elena<br><br>Elena Marchetti<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div>"
+    },
+    {
+      "id": "d0da9bda3beaf96f",
+      "snippet": "Elena, Our FTO opinion is issued today. One European patent held by an unrelated vapour-cell supplie",
+      "subject": "RE: QX-Clock - FTO confirmation for licence",
+      "sender": "julia.hartington@hartingtonip.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-12-09T11:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena,\n\nOur FTO opinion is issued today. One European patent held by an unrelated vapour-cell supplier is of potential relevance to QX-2, but in our view the Licensed Products do not infringe it. Formal opinion to follow for Appendix 3 of your disclosure letter.\n\nJulia Hartington | Hartington IP\n\nOn Thu, Dec 4, 2025 at 1:00 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Dear Julia,\n>\n> For the Caldera licence we need your freedom-to-operate confirmation on the QX-Clock family, in particular any third-party rights of relevance to QX-2 (the vapour-cell patent). Could you confirm your opinion in time for our disclosure letter (target 22 January signing)?\n>\n> Kind regards,\n> Elena\n>\n> Elena Marchetti\n> Associate | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena,<br><br>Our FTO opinion is issued today. One European patent held by an unrelated vapour-cell supplier is of potential relevance to QX-2, but in our view the Licensed Products do not infringe it. Formal opinion to follow for Appendix 3 of your disclosure letter.<br><br>Julia Hartington | Hartington IP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Dec 4, 2025 at 1:00 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Julia,<br><br>For the Caldera licence we need your freedom-to-operate confirmation on the QX-Clock family, in particular any third-party rights of relevance to QX-2 (the vapour-cell patent). Could you confirm your opinion in time for our disclosure letter (target 22 January signing)?<br><br>Kind regards,<br>Elena<br><br>Elena Marchetti<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div></blockquote></div></div>"
+    }
+  ]
+}

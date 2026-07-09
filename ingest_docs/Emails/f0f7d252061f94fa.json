@@ -1,0 +1,24 @@
+{
+  "id": "f0f7d252061f94fa",
+  "messages": [
+    {
+      "id": "f0f7d252061f94fa",
+      "snippet": "Everyone, Two notices: (1) the office will close at 16:00 on Friday 27 March for essential electrica",
+      "subject": "Office closure & summer party - save the date",
+      "sender": "facilities@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "donna.bridges@whitfieldcarter.com"
+      ],
+      "date": "2026-03-19T15:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Everyone,\n\nTwo notices: (1) the office will close at 16:00 on Friday 27 March for essential electrical testing - please take laptops home. (2) Save the date - the firm summer party will be on Friday 26 June at the Drapers' Hall. Invitations to follow.\n\nFacilities Team",
+      "htmlBody": "<div dir=\"ltr\">Everyone,<br><br>Two notices: (1) the office will close at 16:00 on Friday 27 March for essential electrical testing - please take laptops home. (2) Save the date - the firm summer party will be on Friday 26 June at the Drapers&#x27; Hall. Invitations to follow.<br><br>Facilities Team</div>"
+    }
+  ]
+}

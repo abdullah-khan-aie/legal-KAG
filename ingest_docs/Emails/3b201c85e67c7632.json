@@ -1,0 +1,44 @@
+{
+  "id": "3b201c85e67c7632",
+  "messages": [
+    {
+      "id": "3b201c85e67c7632",
+      "snippet": "James, Our building survey of Meridian Quarter is complete. The building is in good order for its ag",
+      "subject": "Meridian Quarter - building survey findings",
+      "sender": "tom.vine@calderbankvine.co.uk",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "isobel.hartley@halbrookestates.com"
+      ],
+      "date": "2025-11-14T10:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nOur building survey of Meridian Quarter is complete. The building is in good order for its age; the main item is the flat roof covering above the 6th floor, with c.5-7 years' remaining life - we'd suggest a modest service charge sinking fund contribution. No structural concerns. Cat-A works to the 2nd floor (Unit 4) are sound. Full report to follow to Halbrook.\n\nTom Vine\nCalderbank Vine",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our building survey of Meridian Quarter is complete. The building is in good order for its age; the main item is the flat roof covering above the 6th floor, with c.5-7 years&#x27; remaining life - we&#x27;d suggest a modest service charge sinking fund contribution. No structural concerns. Cat-A works to the 2nd floor (Unit 4) are sound. Full report to follow to Halbrook.<br><br>Tom Vine<br>Calderbank Vine</div>"
+    },
+    {
+      "id": "980923baa56d9b12",
+      "snippet": "Tom, Thanks - helpful. The roof point is consistent with the service charge records in the data room",
+      "subject": "RE: Meridian Quarter - building survey findings",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.vine@calderbankvine.co.uk"
+      ],
+      "ccRecipients": [
+        "isobel.hartley@halbrookestates.com"
+      ],
+      "date": "2025-11-17T14:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Tom,\n\nThanks - helpful. The roof point is consistent with the service charge records in the data room. We'll factor it into the report on title and flag to the client; it doesn't change our view on title or value.\n\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Fri, Nov 14, 2025 at 10:00 AM, Tom Vine <tom.vine@calderbankvine.co.uk> wrote:\n> James,\n>\n> Our building survey of Meridian Quarter is complete. The building is in good order for its age; the main item is the flat roof covering above the 6th floor, with c.5-7 years' remaining life - we'd suggest a modest service charge sinking fund contribution. No structural concerns. Cat-A works to the 2nd floor (Unit 4) are sound. Full report to follow to Halbrook.\n>\n> Tom Vine\n> Calderbank Vine",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>Thanks - helpful. The roof point is consistent with the service charge records in the data room. We&#x27;ll factor it into the report on title and flag to the client; it doesn&#x27;t change our view on title or value.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Nov 14, 2025 at 10:00 AM, Tom Vine &lt;tom.vine@calderbankvine.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Our building survey of Meridian Quarter is complete. The building is in good order for its age; the main item is the flat roof covering above the 6th floor, with c.5-7 years&#x27; remaining life - we&#x27;d suggest a modest service charge sinking fund contribution. No structural concerns. Cat-A works to the 2nd floor (Unit 4) are sound. Full report to follow to Halbrook.<br><br>Tom Vine<br>Calderbank Vine</div></blockquote></div></div>"
+    }
+  ]
+}

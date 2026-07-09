@@ -1,0 +1,22 @@
+{
+  "id": "b5a6f18c57f0f163",
+  "messages": [
+    {
+      "id": "b5a6f18c57f0f163",
+      "snippet": "Dave — here's the February rota for the Midlands depot. Can you cover the Saturday early shift on th",
+      "subject": "Re: depot rota for February",
+      "sender": "mark.tennant@sutherlandlogistics.co.uk",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-01-30T19:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dave — here's the February rota for the Midlands depot. Can you cover the Saturday early shift on the 14th? Cheers, Mark\n\n[This message appears to have been sent to the wrong address — there is no 'Dave' here.]",
+      "htmlBody": "<div dir=\"ltr\">Dave — here&#x27;s the February rota for the Midlands depot. Can you cover the Saturday early shift on the 14th? Cheers, Mark<br><br>[This message appears to have been sent to the wrong address — there is no &#x27;Dave&#x27; here.]</div>"
+    }
+  ]
+}

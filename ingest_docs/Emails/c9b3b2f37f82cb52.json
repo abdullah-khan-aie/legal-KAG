@@ -1,0 +1,22 @@
+{
+  "id": "c9b3b2f37f82cb52",
+  "messages": [
+    {
+      "id": "c9b3b2f37f82cb52",
+      "snippet": "Hi both, Our records show unposted time for March. Please ensure all narratives are submitted by clo",
+      "subject": "Time recording - March narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-03T08:05:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi both,\n\nOur records show unposted time for March. Please ensure all narratives are submitted by close of play Friday so we can run the month-end WIP report and issue interim bills. Matters with significant unbilled WIP include WC-00166.\n\nThanks,\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">Hi both,<br><br>Our records show unposted time for March. Please ensure all narratives are submitted by close of play Friday so we can run the month-end WIP report and issue interim bills. Matters with significant unbilled WIP include WC-00166.<br><br>Thanks,<br>Accounts</div>"
+    }
+  ]
+}

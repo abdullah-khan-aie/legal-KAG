@@ -1,0 +1,43 @@
+{
+  "id": "204c61a1eacb5300",
+  "messages": [
+    {
+      "id": "204c61a1eacb5300",
+      "snippet": "Dear Sarah, Following our call yesterday, I'd like to formally instruct Whitfield Carter to advise W",
+      "subject": "Instruction - Martin Hale exit",
+      "sender": "karen.mensah@wexfordholdings.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "edward.pennington@wexfordholdings.com"
+      ],
+      "date": "2025-10-02T09:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear Sarah,\n\nFollowing our call yesterday, I'd like to formally instruct Whitfield Carter to advise Wexford on the exit of Martin Hale, our COO. As you know he raised a formal grievance on 12 September and we are concerned he may bring a tribunal claim. Edward (cc'd) has approved engaging you on this.\n\nWe'd like to reach a negotiated settlement if possible. Could you let us know next steps and your team?\n\nMany thanks,\nKaren Mensah\nHR Director, Wexford Holdings Limited",
+      "htmlBody": "<div dir=\"ltr\">Dear Sarah,<br><br>Following our call yesterday, I&#x27;d like to formally instruct Whitfield Carter to advise Wexford on the exit of Martin Hale, our COO. As you know he raised a formal grievance on 12 September and we are concerned he may bring a tribunal claim. Edward (cc&#x27;d) has approved engaging you on this.<br><br>We&#x27;d like to reach a negotiated settlement if possible. Could you let us know next steps and your team?<br><br>Many thanks,<br>Karen Mensah<br>HR Director, Wexford Holdings Limited</div>"
+    },
+    {
+      "id": "cfa97ce2152f756d",
+      "snippet": "Dear Karen, Thank you - we're glad to assist. Tom Gallagher (cc'd) will lead the day-to-day conduct ",
+      "subject": "RE: Instruction - Martin Hale exit",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "karen.mensah@wexfordholdings.com"
+      ],
+      "ccRecipients": [
+        "edward.pennington@wexfordholdings.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-10-02T14:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Karen,\n\nThank you - we're glad to assist. Tom Gallagher (cc'd) will lead the day-to-day conduct and I'll supervise. Our first step is to assess the merits of the unfair dismissal and any discrimination exposure, then make a without prejudice approach to Mr Hale's advisers. Could you send us the grievance letter, his service agreement and the recent reorganisation papers?\n\nWe'll circulate a short advice note this week.\n\nBest regards,\nSarah Whitfield\nPartner\n\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0000\nConfidential and may be legally privileged.\n\nOn Thu, Oct 2, 2025 at 9:12 AM, Karen Mensah <karen.mensah@wexfordholdings.com> wrote:\n> Dear Sarah,\n>\n> Following our call yesterday, I'd like to formally instruct Whitfield Carter to advise Wexford on the exit of Martin Hale, our COO. As you know he raised a formal grievance on 12 September and we are concerned he may bring a tribunal claim. Edward (cc'd) has approved engaging you on this.\n>\n> We'd like to reach a negotiated settlement if possible. Could you let us know next steps and your team?\n>\n> Many thanks,\n> Karen Mensah\n> HR Director, Wexford Holdings Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Karen,<br><br>Thank you - we&#x27;re glad to assist. Tom Gallagher (cc&#x27;d) will lead the day-to-day conduct and I&#x27;ll supervise. Our first step is to assess the merits of the unfair dismissal and any discrimination exposure, then make a without prejudice approach to Mr Hale&#x27;s advisers. Could you send us the grievance letter, his service agreement and the recent reorganisation papers?<br><br>We&#x27;ll circulate a short advice note this week.<br><br>Best regards,<br>Sarah Whitfield<br>Partner<br><br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0000<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 2, 2025 at 9:12 AM, Karen Mensah &lt;karen.mensah@wexfordholdings.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Sarah,<br><br>Following our call yesterday, I&#x27;d like to formally instruct Whitfield Carter to advise Wexford on the exit of Martin Hale, our COO. As you know he raised a formal grievance on 12 September and we are concerned he may bring a tribunal claim. Edward (cc&#x27;d) has approved engaging you on this.<br><br>We&#x27;d like to reach a negotiated settlement if possible. Could you let us know next steps and your team?<br><br>Many thanks,<br>Karen Mensah<br>HR Director, Wexford Holdings Limited</div></blockquote></div></div>"
+    }
+  ]
+}

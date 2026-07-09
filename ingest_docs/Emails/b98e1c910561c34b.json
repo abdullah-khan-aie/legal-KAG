@@ -1,0 +1,42 @@
+{
+  "id": "b98e1c910561c34b",
+  "messages": [
+    {
+      "id": "b98e1c910561c34b",
+      "snippet": "Dear Diane, We act for the buyer of Redwood House, 14 Aldersgate Street. Ahead of completion on 15 M",
+      "subject": "Redwood House — service charge reconciliation for completion",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "diane.calderbank@calderbankvine.co.uk"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-04-14T13:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Diane,\n\nWe act for the buyer of Redwood House, 14 Aldersgate Street. Ahead of completion on 15 May, please could you provide: (1) the certified service charge accounts to 31 Dec 2025; (2) an estimate of on-account service charge for the buyer's period (15 May–31 Dec 2026); and (3) confirmation of the void apportionment on the basement store. We'll need these to finalise the completion statement.\n\nKind regards,\nElena Marchetti\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nDX 134777 Bishopsgate | +44 (0)20 7946 0500\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Diane,<br><br>We act for the buyer of Redwood House, 14 Aldersgate Street. Ahead of completion on 15 May, please could you provide: (1) the certified service charge accounts to 31 Dec 2025; (2) an estimate of on-account service charge for the buyer&#x27;s period (15 May–31 Dec 2026); and (3) confirmation of the void apportionment on the basement store. We&#x27;ll need these to finalise the completion statement.<br><br>Kind regards,<br>Elena Marchetti<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>DX 134777 Bishopsgate | +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "c86d69220ae277c7",
+      "snippet": "Hi Elena, 2025 certified accounts show total expenditure of £214,600, recovered in full bar a £7,200",
+      "subject": "RE: Redwood House — service charge reconciliation for completion",
+      "sender": "diane.calderbank@calderbankvine.co.uk",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-04-16T09:55:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Hi Elena,\n\n2025 certified accounts show total expenditure of £214,600, recovered in full bar a £7,200 void on the basement store. On-account for the buyer's period to 31 Dec is estimated at £7,480. No reserve/sinking fund. I'll send the certified accounts pack separately.\n\nBest,\nDiane Calderbank\nCalderbank Vine\n\nOn Tue, Apr 14, 2026 at 1:20 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Dear Diane,\n>\n> We act for the buyer of Redwood House, 14 Aldersgate Street. Ahead of completion on 15 May, please could you provide: (1) the certified service charge accounts to 31 Dec 2025; (2) an estimate of on-account service charge for the buyer's period (15 May–31 Dec 2026); and (3) confirmation of the void apportionment on the basement store. We'll need these to finalise the completion statement.\n>\n> Kind regards,\n> Elena Marchetti\n>\n> —\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> DX 134777 Bishopsgate | +44 (0)20 7946 0500\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Hi Elena,<br><br>2025 certified accounts show total expenditure of £214,600, recovered in full bar a £7,200 void on the basement store. On-account for the buyer&#x27;s period to 31 Dec is estimated at £7,480. No reserve/sinking fund. I&#x27;ll send the certified accounts pack separately.<br><br>Best,<br>Diane Calderbank<br>Calderbank Vine</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Apr 14, 2026 at 1:20 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Diane,<br><br>We act for the buyer of Redwood House, 14 Aldersgate Street. Ahead of completion on 15 May, please could you provide: (1) the certified service charge accounts to 31 Dec 2025; (2) an estimate of on-account service charge for the buyer&#x27;s period (15 May–31 Dec 2026); and (3) confirmation of the void apportionment on the basement store. We&#x27;ll need these to finalise the completion statement.<br><br>Kind regards,<br>Elena Marchetti<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>DX 134777 Bishopsgate | +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

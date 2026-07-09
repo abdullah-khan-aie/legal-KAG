@@ -1,0 +1,35 @@
+{
+  "id": "18d8d3c2d6a818c0",
+  "messages": [
+    {
+      "id": "18d8d3c2d6a818c0",
+      "snippet": "Eleanor, Please find attached the first draft of the Share Purchase Agreement. Key commercial points",
+      "subject": "Project Quartz - SPA first draft",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "eleanor.bartlett@ashworthquinn.com"
+      ],
+      "ccRecipients": [
+        "callum.hawkins@ashworthquinn.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-12-10T11:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Eleanor,\n\nPlease find attached the first draft of the Share Purchase Agreement. Key commercial points are as per the Heads: £38.75m equity value (cash-free/debt-free, completion-accounts adjustment), 12-month retention, deferred consideration, and recourse principally to a buy-side W&I policy. You'll see the warranty package and tax covenant in the schedules.\n\nWe've pitched the Sellers' liability cap at 20% of consideration to open; I expect we'll land lower. Look forward to your mark-up.\n\nJames\n\n--\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Eleanor,<br><br>Please find attached the first draft of the Share Purchase Agreement. Key commercial points are as per the Heads: £38.75m equity value (cash-free/debt-free, completion-accounts adjustment), 12-month retention, deferred consideration, and recourse principally to a buy-side W&amp;I policy. You&#x27;ll see the warranty package and tax covenant in the schedules.<br><br>We&#x27;ve pitched the Sellers&#x27; liability cap at 20% of consideration to open; I expect we&#x27;ll land lower. Look forward to your mark-up.<br><br>James<br><br>--<br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "vR_LI1PTTN5s7r_lSH0Vs7R5qoxhl2E5MFF2spHe_XE"
+      ],
+      "attachments": [
+        {
+          "filename": "ProjectQuartz_SPA_v1.docx",
+          "id": "vR_LI1PTTN5s7r_lSH0Vs7R5qoxhl2E5MFF2spHe_XE",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

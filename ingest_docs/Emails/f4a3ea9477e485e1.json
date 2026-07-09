@@ -1,0 +1,23 @@
+{
+  "id": "f4a3ea9477e485e1",
+  "messages": [
+    {
+      "id": "f4a3ea9477e485e1",
+      "snippet": "Dear colleagues, A reminder that the quarterly Commercial Litigation update seminar (disclosure pilo",
+      "subject": "Reminder: Commercial Litigation update seminar — 18 March",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-03-04T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear colleagues,\n\nA reminder that the quarterly Commercial Litigation update seminar (disclosure pilot, Part 36 developments and recent Commercial Court decisions) takes place on 18 March, 13:00–14:30 in the Bishopsgate training suite. 1.5 CPD hours. Lunch provided. Please RSVP via the L&D portal.\n\nLearning & Development",
+      "htmlBody": "<div dir=\"ltr\">Dear colleagues,<br><br>A reminder that the quarterly Commercial Litigation update seminar (disclosure pilot, Part 36 developments and recent Commercial Court decisions) takes place on 18 March, 13:00–14:30 in the Bishopsgate training suite. 1.5 CPD hours. Lunch provided. Please RSVP via the L&amp;D portal.<br><br>Learning &amp; Development</div>"
+    }
+  ]
+}

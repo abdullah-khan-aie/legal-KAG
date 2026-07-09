@@ -1,0 +1,34 @@
+{
+  "id": "157a9c6a27f441e9",
+  "messages": [
+    {
+      "id": "157a9c6a27f441e9",
+      "snippet": "Miriam — draft board minute for tomorrow attached, authorising settlement up to the £190k ceiling an",
+      "subject": "Board minute for tomorrow — Whitford settlement",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "miriam.cole@kingsfordgroup.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-01-20T13:15:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Miriam — draft board minute for tomorrow attached, authorising settlement up to the £190k ceiling and delegating execution to any one director or the Company Secretary. The agreed number is £185k, comfortably inside the authority. Let me know if you want any changes before the meeting.\n\nTom\n\n--\nTom Gallagher\nAssociate | Whitfield Carter LLP\ntom.gallagher@whitfieldcarter.com",
+      "htmlBody": "<div dir=\"ltr\">Miriam — draft board minute for tomorrow attached, authorising settlement up to the £190k ceiling and delegating execution to any one director or the Company Secretary. The agreed number is £185k, comfortably inside the authority. Let me know if you want any changes before the meeting.<br><br>Tom<br><br>--<br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>tom.gallagher@whitfieldcarter.com</div>",
+      "attachmentIds": [
+        "wPs7s86oVVy5dlA9DLP65dkxy54MYjZKtobXqPtCke0"
+      ],
+      "attachments": [
+        {
+          "filename": "Whitford_BoardMinute_SettlementApproval.pdf",
+          "id": "wPs7s86oVVy5dlA9DLP65dkxy54MYjZKtobXqPtCke0",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

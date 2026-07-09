@@ -1,0 +1,22 @@
+{
+  "id": "e00fffab814a01a9",
+  "messages": [
+    {
+      "id": "e00fffab814a01a9",
+      "snippet": "Hi both, Reminder that the corporate department's lunchtime know-how session on current trends in wa",
+      "subject": "Corporate know-how session: W&I insurance trends (15 April)",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-04-02T13:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi both,\n\nReminder that the corporate department's lunchtime know-how session on current trends in warranty & indemnity insurance is on 15 April at 12:30 in Room 4.2. Sandwiches provided. Please let me know if you'd like to attend so I can confirm numbers.\n\nThanks,\nDonna",
+      "htmlBody": "<div dir=\"ltr\">Hi both,<br><br>Reminder that the corporate department&#x27;s lunchtime know-how session on current trends in warranty &amp; indemnity insurance is on 15 April at 12:30 in Room 4.2. Sandwiches provided. Please let me know if you&#x27;d like to attend so I can confirm numbers.<br><br>Thanks,<br>Donna</div>"
+    }
+  ]
+}

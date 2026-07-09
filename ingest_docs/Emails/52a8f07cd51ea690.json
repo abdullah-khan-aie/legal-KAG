@@ -1,0 +1,34 @@
+{
+  "id": "52a8f07cd51ea690",
+  "messages": [
+    {
+      "id": "52a8f07cd51ea690",
+      "snippet": "Alistair, Nadia, Our counter-draft is attached (tracked over your mark-up). Headlines: liability cap",
+      "subject": "Project Yarrow — LTSA counter-draft (Halstead)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "nadia.iqbal@pembertonrowe.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-12-09T17:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Alistair, Nadia,\n\nOur counter-draft is attached (tracked over your mark-up). Headlines: liability cap landed at 135%; delay-termination trigger countered to 6 weeks; we've accepted your 20% shortfall and the certification-delay relief (bounded to one contract year). We've also added an escalation cap of 5% and a carbon-fibre materials pass-through that only applies above a 10% annual index move — this reflects Halstead's input-cost exposure.\n\nWe think this is close. Shall we aim to settle on a call next week?\n\nElena\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Alistair, Nadia,<br><br>Our counter-draft is attached (tracked over your mark-up). Headlines: liability cap landed at 135%; delay-termination trigger countered to 6 weeks; we&#x27;ve accepted your 20% shortfall and the certification-delay relief (bounded to one contract year). We&#x27;ve also added an escalation cap of 5% and a carbon-fibre materials pass-through that only applies above a 10% annual index move — this reflects Halstead&#x27;s input-cost exposure.<br><br>We think this is close. Shall we aim to settle on a call next week?<br><br>Elena<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "32abNNrqPwt8UL5eQzMhxpBAC9yS9oiBaq1aEPYeWrU"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Yarrow_LTSA_v3_redline.docx",
+          "id": "32abNNrqPwt8UL5eQzMhxpBAC9yS9oiBaq1aEPYeWrU",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

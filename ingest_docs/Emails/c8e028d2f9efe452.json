@@ -1,0 +1,23 @@
+{
+  "id": "c8e028d2f9efe452",
+  "messages": [
+    {
+      "id": "c8e028d2f9efe452",
+      "snippet": "Hi all, A reminder that our quarterly CPD webinar, 'Recent developments in private M&A warranties an",
+      "subject": "CPD webinar: Recent developments in private M&A warranties (4 Feb)",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-01-27T12:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi all,\n\nA reminder that our quarterly CPD webinar, 'Recent developments in private M&A warranties and indemnities', takes place on 4 February at 13:00 (1 CPD hour). Lunch provided for those attending in the boardroom. Please register via the L&D portal.\n\nL&D Team",
+      "htmlBody": "<div dir=\"ltr\">Hi all,<br><br>A reminder that our quarterly CPD webinar, &#x27;Recent developments in private M&amp;A warranties and indemnities&#x27;, takes place on 4 February at 13:00 (1 CPD hour). Lunch provided for those attending in the boardroom. Please register via the L&amp;D portal.<br><br>L&amp;D Team</div>"
+    }
+  ]
+}

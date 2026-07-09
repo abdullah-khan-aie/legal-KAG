@@ -1,0 +1,34 @@
+{
+  "id": "7d521fd0d0898d0c",
+  "messages": [
+    {
+      "id": "7d521fd0d0898d0c",
+      "snippet": "Isobel, Marcus, Attached are the agreed heads of terms (subject to contract) reflecting the £14,750,",
+      "subject": "Project Indigo - heads of terms",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "isobel.hartley@halbrookestates.com",
+        "marcus.hartley@halbrookestates.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-10-15T11:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Isobel, Marcus,\n\nAttached are the agreed heads of terms (subject to contract) reflecting the £14,750,000 headline, 10% deposit on exchange and an 8-week exclusivity from 14 October. Completion target is 20 working days after exchange. Note the Unit 3 rent review and Unit 5 tenant break are flagged - we'll want these reflected in the price.\n\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Isobel, Marcus,<br><br>Attached are the agreed heads of terms (subject to contract) reflecting the £14,750,000 headline, 10% deposit on exchange and an 8-week exclusivity from 14 October. Completion target is 20 working days after exchange. Note the Unit 3 rent review and Unit 5 tenant break are flagged - we&#x27;ll want these reflected in the price.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "teTPWdDKW1O85Y8D4KVxaFXIP6CDVjID_zooJjHL45E"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Indigo_HeadsOfTerms.docx",
+          "id": "teTPWdDKW1O85Y8D4KVxaFXIP6CDVjID_zooJjHL45E",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

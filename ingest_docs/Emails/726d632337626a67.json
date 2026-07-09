@@ -1,0 +1,53 @@
+{
+  "id": "726d632337626a67",
+  "messages": [
+    {
+      "id": "726d632337626a67",
+      "snippet": "Sarah, We've received a letter from Ashworth Quinn LLP acting for Dr Rebecca Whitmore, our former Cl",
+      "subject": "Whitmore — potential tribunal claim",
+      "sender": "daniel.pryce@ashbournehealthcare.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "lorna.keane@ashbournehealthcare.com"
+      ],
+      "date": "2025-01-13T16:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nWe've received a letter from Ashworth Quinn LLP acting for Dr Rebecca Whitmore, our former Clinical Governance Lead at Ferndene Court. They're threatening an automatic unfair dismissal / whistleblowing claim off the back of the East Region restructuring. Given the CQC sensitivities you know about, we'd like Whitfield Carter to take this on.\n\nCan you take instructions and send across an engagement letter? Lorna ran the process and can give you the background.\n\nDaniel Pryce\nGeneral Counsel & Company Secretary\nAshbourne Healthcare Group Limited",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>We&#x27;ve received a letter from Ashworth Quinn LLP acting for Dr Rebecca Whitmore, our former Clinical Governance Lead at Ferndene Court. They&#x27;re threatening an automatic unfair dismissal / whistleblowing claim off the back of the East Region restructuring. Given the CQC sensitivities you know about, we&#x27;d like Whitfield Carter to take this on.<br><br>Can you take instructions and send across an engagement letter? Lorna ran the process and can give you the background.<br><br>Daniel Pryce<br>General Counsel &amp; Company Secretary<br>Ashbourne Healthcare Group Limited</div>"
+    },
+    {
+      "id": "c4cb85b459d087c1",
+      "snippet": "Daniel, Happy to act. Our engagement letter is attached — please sign and return the copy. Elena Mar",
+      "subject": "RE: Whitmore — potential tribunal claim",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.pryce@ashbournehealthcare.com"
+      ],
+      "ccRecipients": [
+        "lorna.keane@ashbournehealthcare.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-01-14T11:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Daniel,\n\nHappy to act. Our engagement letter is attached — please sign and return the copy. Elena Marchetti will run this day to day with Tom Gallagher supporting; I'll supervise.\n\nCould Lorna forward the redundancy consultation papers and Dr Whitmore's grievance file so we can assess merits quickly? We should get ahead of the ACAS early conciliation clock.\n\nBest,\nSarah\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com\nThis email is confidential and may be legally privileged.\n\nOn Mon, Jan 13, 2025 at 4:40 PM, Daniel Pryce <daniel.pryce@ashbournehealthcare.com> wrote:\n> Sarah,\n>\n> We've received a letter from Ashworth Quinn LLP acting for Dr Rebecca Whitmore, our former Clinical Governance Lead at Ferndene Court. They're threatening an automatic unfair dismissal / whistleblowing claim off the back of the East Region restructuring. Given the CQC sensitivities you know about, we'd like Whitfield Carter to take this on.\n>\n> Can you take instructions and send across an engagement letter? Lorna ran the process and can give you the background.\n>\n> Daniel Pryce\n> General Counsel & Company Secretary\n> Ashbourne Healthcare Group Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Daniel,<br><br>Happy to act. Our engagement letter is attached — please sign and return the copy. Elena Marchetti will run this day to day with Tom Gallagher supporting; I&#x27;ll supervise.<br><br>Could Lorna forward the redundancy consultation papers and Dr Whitmore&#x27;s grievance file so we can assess merits quickly? We should get ahead of the ACAS early conciliation clock.<br><br>Best,<br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Jan 13, 2025 at 4:40 PM, Daniel Pryce &lt;daniel.pryce@ashbournehealthcare.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>We&#x27;ve received a letter from Ashworth Quinn LLP acting for Dr Rebecca Whitmore, our former Clinical Governance Lead at Ferndene Court. They&#x27;re threatening an automatic unfair dismissal / whistleblowing claim off the back of the East Region restructuring. Given the CQC sensitivities you know about, we&#x27;d like Whitfield Carter to take this on.<br><br>Can you take instructions and send across an engagement letter? Lorna ran the process and can give you the background.<br><br>Daniel Pryce<br>General Counsel &amp; Company Secretary<br>Ashbourne Healthcare Group Limited</div></blockquote></div></div>",
+      "attachmentIds": [
+        "sYkVoR0gJZ-_uazvfwsKOBmFw1dg4nEm1m141krE-60"
+      ],
+      "attachments": [
+        {
+          "filename": "Whitmore_EngagementLetter.docx",
+          "id": "sYkVoR0gJZ-_uazvfwsKOBmFw1dg4nEm1m141krE-60",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

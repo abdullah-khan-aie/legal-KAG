@@ -1,0 +1,57 @@
+{
+  "id": "45307b66be033b70",
+  "messages": [
+    {
+      "id": "45307b66be033b70",
+      "snippet": "Oliver, Deepa, Attached is our response draft (tracked over your mark-up). We've accepted the £2m fo",
+      "subject": "Project Drake — company response (v3)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "eleanor.whitmore@calderbrookgrowth.com"
+      ],
+      "date": "2025-10-29T11:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Oliver, Deepa,\n\nAttached is our response draft (tracked over your mark-up). We've accepted the £2m founder cap, the third-anniversary survival period and the 18-month non-compete. On the basket we've countered at £225,000 (midpoint). We've also added a short use-of-proceeds reporting line at clause 5.1. Subject to those, we think we're substantially there.\n\nJames\n\nJames Osei\nSenior Associate | Corporate\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\">Oliver, Deepa,<br><br>Attached is our response draft (tracked over your mark-up). We&#x27;ve accepted the £2m founder cap, the third-anniversary survival period and the 18-month non-compete. On the basket we&#x27;ve countered at £225,000 (midpoint). We&#x27;ve also added a short use-of-proceeds reporting line at clause 5.1. Subject to those, we think we&#x27;re substantially there.<br><br>James<br><br>James Osei<br>Senior Associate | Corporate<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div>",
+      "attachmentIds": [
+        "llXZlAm4_N5LeJsz6u1MrT6fu_4KYcPUSPQyuO7RCeo"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Drake_SubscriptionAgreement_v3_redline.docx",
+          "id": "llXZlAm4_N5LeJsz6u1MrT6fu_4KYcPUSPQyuO7RCeo",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "d5a26dde5070db16",
+      "snippet": "James — Eleanor is comfortable with £225k and the reporting line is fine. I think that closes out th",
+      "subject": "RE: Project Drake — company response (v3)",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "eleanor.whitmore@calderbrookgrowth.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "date": "2025-10-31T14:08:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James — Eleanor is comfortable with £225k and the reporting line is fine. I think that closes out the open points. Let's agree to finalise and move to the ancillaries and the cap table / funds flow. We can aim for signing in the week of 10 November.\n\nOliver\n\nOn Wed, Oct 29, 2025 at 11:20 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Oliver, Deepa,\n>\n> Attached is our response draft (tracked over your mark-up). We've accepted the £2m founder cap, the third-anniversary survival period and the 18-month non-compete. On the basket we've countered at £225,000 (midpoint). We've also added a short use-of-proceeds reporting line at clause 5.1. Subject to those, we think we're substantially there.\n>\n> James\n>\n> James Osei\n> Senior Associate | Corporate\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James — Eleanor is comfortable with £225k and the reporting line is fine. I think that closes out the open points. Let&#x27;s agree to finalise and move to the ancillaries and the cap table / funds flow. We can aim for signing in the week of 10 November.<br><br>Oliver</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 29, 2025 at 11:20 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Oliver, Deepa,<br><br>Attached is our response draft (tracked over your mark-up). We&#x27;ve accepted the £2m founder cap, the third-anniversary survival period and the 18-month non-compete. On the basket we&#x27;ve countered at £225,000 (midpoint). We&#x27;ve also added a short use-of-proceeds reporting line at clause 5.1. Subject to those, we think we&#x27;re substantially there.<br><br>James<br><br>James Osei<br>Senior Associate | Corporate<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div></blockquote></div></div>"
+    }
+  ]
+}

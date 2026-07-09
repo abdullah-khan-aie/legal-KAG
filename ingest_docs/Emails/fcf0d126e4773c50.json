@@ -1,0 +1,54 @@
+{
+  "id": "fcf0d126e4773c50",
+  "messages": [
+    {
+      "id": "fcf0d126e4773c50",
+      "snippet": "Marcus, Attached is the completion statement for 28 March. In short: • Balance of purchase price due",
+      "subject": "Calderdale House — completion statement and funds required",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.penhaligon@ellwoodestates.com"
+      ],
+      "ccRecipients": [
+        "frances.ellwood@ellwoodestates.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-03-21T11:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Marcus,\n\nAttached is the completion statement for 28 March. In short:\n\n• Balance of purchase price due to seller: £7,756,996.15 (price £8.45m less the £845k deposit, plus net rent/service-charge apportionments, less the £29,250 Castleford rent deposit transferred to us)\n• SDLT: £412,000\n• HM Land Registry fee: £910\n• Our fees and disbursements (est.): £24,600\n• Total funds required from Ellwood Estates: £8,194,506.15\n\nPlease arrange for cleared funds to reach our client account by 27 March. The apportionments assume a 28 March completion; we'll reconfirm on the day.\n\nThanks,\nElena\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Marcus,<br><br>Attached is the completion statement for 28 March. In short:<br><br>• Balance of purchase price due to seller: £7,756,996.15 (price £8.45m less the £845k deposit, plus net rent/service-charge apportionments, less the £29,250 Castleford rent deposit transferred to us)<br>• SDLT: £412,000<br>• HM Land Registry fee: £910<br>• Our fees and disbursements (est.): £24,600<br>• Total funds required from Ellwood Estates: £8,194,506.15<br><br>Please arrange for cleared funds to reach our client account by 27 March. The apportionments assume a 28 March completion; we&#x27;ll reconfirm on the day.<br><br>Thanks,<br>Elena<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "SDJpJMoByr66DYXnqHNiBHZdIsFUEUSA6jxMJStc3e4"
+      ],
+      "attachments": [
+        {
+          "filename": "Calderdale_CompletionStatement.xlsx",
+          "id": "SDJpJMoByr66DYXnqHNiBHZdIsFUEUSA6jxMJStc3e4",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "0893ebb000331647",
+      "snippet": "Got it — £8,194,506.15 to your client account by 27 March. Transfer instructed for the 26th to be sa",
+      "subject": "RE: Calderdale House — completion statement and funds required",
+      "sender": "marcus.penhaligon@ellwoodestates.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "frances.ellwood@ellwoodestates.com"
+      ],
+      "date": "2025-03-24T08:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Got it — £8,194,506.15 to your client account by 27 March. Transfer instructed for the 26th to be safe. M.\n\nOn Fri, Mar 21, 2025 at 11:20 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Marcus,\n>\n> Attached is the completion statement for 28 March. In short:\n>\n> • Balance of purchase price due to seller: £7,756,996.15 (price £8.45m less the £845k deposit, plus net rent/service-charge apportionments, less the £29,250 Castleford rent deposit transferred to us)\n> • SDLT: £412,000\n> • HM Land Registry fee: £910\n> • Our fees and disbursements (est.): £24,600\n> • Total funds required from Ellwood Estates: £8,194,506.15\n>\n> Please arrange for cleared funds to reach our client account by 27 March. The apportionments assume a 28 March completion; we'll reconfirm on the day.\n>\n> Thanks,\n> Elena\n>\n> —\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Got it — £8,194,506.15 to your client account by 27 March. Transfer instructed for the 26th to be safe. M.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Mar 21, 2025 at 11:20 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Marcus,<br><br>Attached is the completion statement for 28 March. In short:<br><br>• Balance of purchase price due to seller: £7,756,996.15 (price £8.45m less the £845k deposit, plus net rent/service-charge apportionments, less the £29,250 Castleford rent deposit transferred to us)<br>• SDLT: £412,000<br>• HM Land Registry fee: £910<br>• Our fees and disbursements (est.): £24,600<br>• Total funds required from Ellwood Estates: £8,194,506.15<br><br>Please arrange for cleared funds to reach our client account by 27 March. The apportionments assume a 28 March completion; we&#x27;ll reconfirm on the day.<br><br>Thanks,<br>Elena<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

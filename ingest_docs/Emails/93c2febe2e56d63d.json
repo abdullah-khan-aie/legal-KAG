@@ -1,0 +1,48 @@
+{
+  "id": "93c2febe2e56d63d",
+  "messages": [
+    {
+      "id": "93c2febe2e56d63d",
+      "snippet": "Dear Inspector Whitlow, Further to our meeting on 4 March, please find the Company's written represe",
+      "subject": "Pennington Industries - written representations",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "karen.whitlow@hse.gov.uk"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-03-11T14:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Inspector Whitlow,\n\nFurther to our meeting on 4 March, please find the Company's written representations attached. In summary: the Company accepts that the guarding and the maintenance of the interlock fell short and that breaches of regulation 11 PUWER and section 2(1) HSWA occurred in respect of PT-DB-07; it asks that culpability be assessed as medium given the designed-in control and otherwise functioning system; and it sets out its co-operation and remediation. We will provide the forensic report and audit summary by 31 March.\n\nYours sincerely,\nSarah Whitfield\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Inspector Whitlow,<br><br>Further to our meeting on 4 March, please find the Company&#x27;s written representations attached. In summary: the Company accepts that the guarding and the maintenance of the interlock fell short and that breaches of regulation 11 PUWER and section 2(1) HSWA occurred in respect of PT-DB-07; it asks that culpability be assessed as medium given the designed-in control and otherwise functioning system; and it sets out its co-operation and remediation. We will provide the forensic report and audit summary by 31 March.<br><br>Yours sincerely,<br>Sarah Whitfield<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "Hg2F9tpJ1uPFi7_oACEj3GO8OuktYDZZFNKthUuFm2M"
+      ],
+      "attachments": [
+        {
+          "filename": "Sentinel_LetterToHSE_Representations.docx",
+          "id": "Hg2F9tpJ1uPFi7_oACEj3GO8OuktYDZZFNKthUuFm2M",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "2acd55e3c65f5293",
+      "snippet": "Dear Ms Whitfield, Thank you for the representations and the forensic report. I am considering the a",
+      "subject": "RE: Pennington Industries - written representations",
+      "sender": "karen.whitlow@hse.gov.uk",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-30T11:25:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Dear Ms Whitfield,\n\nThank you for the representations and the forensic report. I am considering the appropriate course. I am minded to accept that culpability is medium and harm category 2, subject to the audit summary. I will revert on whether the matter proceeds to prosecution on an agreed basis or otherwise.\n\nKaren Whitlow\n\nOn Wed, Mar 11, 2026 at 2:00 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Dear Inspector Whitlow,\n>\n> Further to our meeting on 4 March, please find the Company's written representations attached. In summary: the Company accepts that the guarding and the maintenance of the interlock fell short and that breaches of regulation 11 PUWER and section 2(1) HSWA occurred in respect of PT-DB-07; it asks that culpability be assessed as medium given the designed-in control and otherwise functioning system; and it sets out its co-operation and remediation. We will provide the forensic report and audit summary by 31 March.\n>\n> Yours sincerely,\n> Sarah Whitfield\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Ms Whitfield,<br><br>Thank you for the representations and the forensic report. I am considering the appropriate course. I am minded to accept that culpability is medium and harm category 2, subject to the audit summary. I will revert on whether the matter proceeds to prosecution on an agreed basis or otherwise.<br><br>Karen Whitlow</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Mar 11, 2026 at 2:00 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Inspector Whitlow,<br><br>Further to our meeting on 4 March, please find the Company&#x27;s written representations attached. In summary: the Company accepts that the guarding and the maintenance of the interlock fell short and that breaches of regulation 11 PUWER and section 2(1) HSWA occurred in respect of PT-DB-07; it asks that culpability be assessed as medium given the designed-in control and otherwise functioning system; and it sets out its co-operation and remediation. We will provide the forensic report and audit summary by 31 March.<br><br>Yours sincerely,<br>Sarah Whitfield<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

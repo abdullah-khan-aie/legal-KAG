@@ -1,0 +1,43 @@
+{
+  "id": "f4be4330e7c42563",
+  "messages": [
+    {
+      "id": "f4be4330e7c42563",
+      "snippet": "Dear Mr Gallagher, Please find served herewith our client's Schedule of Loss in the above matter. As",
+      "subject": "Whitcombe v Sutherland Logistics - Schedule of Loss",
+      "sender": "eleanor.bartlett@ashworthquinn.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-17T14:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear Mr Gallagher,\n\nPlease find served herewith our client's Schedule of Loss in the above matter. As you will see, our client's losses are pleaded at £163,369, reflecting his age, length of service and the difficulty he has faced in finding comparable employment. We remain open to a constructive without prejudice discussion at the appropriate time.\n\nWe look forward to receiving your client's disclosure in due course.\n\nYours sincerely,\nEleanor Bartlett\nPartner\nAshworth Quinn LLP\n8 Temple Row, Birmingham B2 5HG\nDDI 0121 246 7702",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Gallagher,<br><br>Please find served herewith our client&#x27;s Schedule of Loss in the above matter. As you will see, our client&#x27;s losses are pleaded at £163,369, reflecting his age, length of service and the difficulty he has faced in finding comparable employment. We remain open to a constructive without prejudice discussion at the appropriate time.<br><br>We look forward to receiving your client&#x27;s disclosure in due course.<br><br>Yours sincerely,<br>Eleanor Bartlett<br>Partner<br>Ashworth Quinn LLP<br>8 Temple Row, Birmingham B2 5HG<br>DDI 0121 246 7702</div>"
+    },
+    {
+      "id": "1e89c75fd85f792f",
+      "snippet": "Dear Ms Bartlett, Thank you for the Schedule of Loss, which we are reviewing with our client. Withou",
+      "subject": "RE: Whitcombe v Sutherland Logistics - Schedule of Loss",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "eleanor.bartlett@ashworthquinn.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-22T10:48:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Ms Bartlett,\n\nThank you for the Schedule of Loss, which we are reviewing with our client. Without prejudice to our position that the claim should not have been brought, we anticipate being in a position to open a without prejudice dialogue shortly. We will revert by the end of next week.\n\nBest wishes,\nTom Gallagher\nAssociate | Employment\nWhitfield Carter LLP\nT +44 (0)20 7946 0538\n\nConfidential and may be legally privileged.\n\nOn Fri, Apr 17, 2026 at 2:30 PM, Eleanor Bartlett <eleanor.bartlett@ashworthquinn.com> wrote:\n> Dear Mr Gallagher,\n>\n> Please find served herewith our client's Schedule of Loss in the above matter. As you will see, our client's losses are pleaded at £163,369, reflecting his age, length of service and the difficulty he has faced in finding comparable employment. We remain open to a constructive without prejudice discussion at the appropriate time.\n>\n> We look forward to receiving your client's disclosure in due course.\n>\n> Yours sincerely,\n> Eleanor Bartlett\n> Partner\n> Ashworth Quinn LLP\n> 8 Temple Row, Birmingham B2 5HG\n> DDI 0121 246 7702",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Ms Bartlett,<br><br>Thank you for the Schedule of Loss, which we are reviewing with our client. Without prejudice to our position that the claim should not have been brought, we anticipate being in a position to open a without prejudice dialogue shortly. We will revert by the end of next week.<br><br>Best wishes,<br>Tom Gallagher<br>Associate | Employment<br>Whitfield Carter LLP<br>T +44 (0)20 7946 0538<br><br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Apr 17, 2026 at 2:30 PM, Eleanor Bartlett &lt;eleanor.bartlett@ashworthquinn.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Mr Gallagher,<br><br>Please find served herewith our client&#x27;s Schedule of Loss in the above matter. As you will see, our client&#x27;s losses are pleaded at £163,369, reflecting his age, length of service and the difficulty he has faced in finding comparable employment. We remain open to a constructive without prejudice discussion at the appropriate time.<br><br>We look forward to receiving your client&#x27;s disclosure in due course.<br><br>Yours sincerely,<br>Eleanor Bartlett<br>Partner<br>Ashworth Quinn LLP<br>8 Temple Row, Birmingham B2 5HG<br>DDI 0121 246 7702</div></blockquote></div></div>"
+    }
+  ]
+}

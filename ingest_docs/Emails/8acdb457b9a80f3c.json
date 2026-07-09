@@ -1,0 +1,52 @@
+{
+  "id": "8acdb457b9a80f3c",
+  "messages": [
+    {
+      "id": "8acdb457b9a80f3c",
+      "snippet": "Tom - I've updated the recall cost model (attached). Gross ~£274k, net ~£164k assuming 55% recall-ex",
+      "subject": "CV-7 recall - cost model and insurer notification",
+      "sender": "nina.brandt@calderwellmobility.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-18T10:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom - I've updated the recall cost model (attached). Gross ~£274k, net ~£164k assuming 55% recall-expense recovery net of the £75k excess. I've notified our product liability and recall-expense insurers within the window per your advice. Can you confirm the notification wording was adequate?\n\nNina\n\n—\nCalderwell Mobility Limited\nPioneer House, Trafford Park, Manchester M17 1WA",
+      "htmlBody": "<div dir=\"ltr\">Tom - I&#x27;ve updated the recall cost model (attached). Gross ~£274k, net ~£164k assuming 55% recall-expense recovery net of the £75k excess. I&#x27;ve notified our product liability and recall-expense insurers within the window per your advice. Can you confirm the notification wording was adequate?<br><br>Nina<br><br>—<br>Calderwell Mobility Limited<br>Pioneer House, Trafford Park, Manchester M17 1WA</div>",
+      "attachmentIds": [
+        "L5wMAmq7_glLXvR7az0GciIoF3WHZgTTxsPkuCy4e7A"
+      ],
+      "attachments": [
+        {
+          "filename": "Recall_CostModel.xlsx",
+          "id": "L5wMAmq7_glLXvR7az0GciIoF3WHZgTTxsPkuCy4e7A",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "7e856621c3d9deaf",
+      "snippet": "Thanks Nina - the notification wording looks fine; I'd add the recall reference R/2025/118 and a lin",
+      "subject": "RE: CV-7 recall - cost model and insurer notification",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "nina.brandt@calderwellmobility.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-18T13:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Thanks Nina - the notification wording looks fine; I'd add the recall reference R/2025/118 and a line that no injury or damage has been attributed to date. Happy to settle it for you. The model looks sensible and ties to the plan figures.\n\nTom\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Tue, Nov 18, 2025 at 10:05 AM, Nina Brandt <nina.brandt@calderwellmobility.com> wrote:\n> Tom - I've updated the recall cost model (attached). Gross ~£274k, net ~£164k assuming 55% recall-expense recovery net of the £75k excess. I've notified our product liability and recall-expense insurers within the window per your advice. Can you confirm the notification wording was adequate?\n>\n> Nina\n>\n> —\n> Calderwell Mobility Limited\n> Pioneer House, Trafford Park, Manchester M17 1WA",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks Nina - the notification wording looks fine; I&#x27;d add the recall reference R/2025/118 and a line that no injury or damage has been attributed to date. Happy to settle it for you. The model looks sensible and ties to the plan figures.<br><br>Tom<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Nov 18, 2025 at 10:05 AM, Nina Brandt &lt;nina.brandt@calderwellmobility.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom - I&#x27;ve updated the recall cost model (attached). Gross ~£274k, net ~£164k assuming 55% recall-expense recovery net of the £75k excess. I&#x27;ve notified our product liability and recall-expense insurers within the window per your advice. Can you confirm the notification wording was adequate?<br><br>Nina<br><br>—<br>Calderwell Mobility Limited<br>Pioneer House, Trafford Park, Manchester M17 1WA</div></blockquote></div></div>"
+    }
+  ]
+}

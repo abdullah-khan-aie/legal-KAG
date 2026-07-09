@@ -1,0 +1,26 @@
+{
+  "id": "9bbc4a85fb75ade5",
+  "messages": [
+    {
+      "id": "9bbc4a85fb75ade5",
+      "snippet": "All, We have exchanged contracts this afternoon on Meridian Quarter at £14,250,000. The 10% deposit ",
+      "subject": "Project Indigo - EXCHANGED",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "isobel.hartley@halbrookestates.com",
+        "marcus.hartley@halbrookestates.com",
+        "priya.raman@halbrookestates.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-12-18T16:45:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "All,\n\nWe have exchanged contracts this afternoon on Meridian Quarter at £14,250,000. The 10% deposit of £1,425,000 has been paid to Pendle Voss as stakeholder. Completion is fixed for 12 February 2026. We now move to the completion workstream: DS1/undertaking, option to tax, rent deposit assignment and tenant authorities.\n\nCongratulations to the team.\n\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>We have exchanged contracts this afternoon on Meridian Quarter at £14,250,000. The 10% deposit of £1,425,000 has been paid to Pendle Voss as stakeholder. Completion is fixed for 12 February 2026. We now move to the completion workstream: DS1/undertaking, option to tax, rent deposit assignment and tenant authorities.<br><br>Congratulations to the team.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    }
+  ]
+}

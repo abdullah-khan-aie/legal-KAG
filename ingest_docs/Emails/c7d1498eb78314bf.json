@@ -1,0 +1,40 @@
+{
+  "id": "c7d1498eb78314bf",
+  "messages": [
+    {
+      "id": "c7d1498eb78314bf",
+      "snippet": "Before I send the grievance outcome tomorrow, can you sanity-check the draft? I'm partially upholdin",
+      "subject": "Draft grievance outcome — your eyes before it goes",
+      "sender": "miriam.cole@kingsfordgroup.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-12-18T10:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Before I send the grievance outcome tomorrow, can you sanity-check the draft? I'm partially upholding the consultation/communication point, not upholding the offsite complaint, and not upholding the detriment/whistleblowing point (which the Audit Committee referred to the auditors). Want to be sure I'm not creating admissions that hurt us on the s.103A risk.",
+      "htmlBody": "<div dir=\"ltr\">Before I send the grievance outcome tomorrow, can you sanity-check the draft? I&#x27;m partially upholding the consultation/communication point, not upholding the offsite complaint, and not upholding the detriment/whistleblowing point (which the Audit Committee referred to the auditors). Want to be sure I&#x27;m not creating admissions that hurt us on the s.103A risk.</div>"
+    },
+    {
+      "id": "b1d82a32fa82380c",
+      "snippet": "Miriam, The balance is right. Upholding the consultation point is fine and honest — it's a process f",
+      "subject": "RE: Draft grievance outcome — your eyes before it goes",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "miriam.cole@kingsfordgroup.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-12-18T13:35:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Miriam,\n\nThe balance is right. Upholding the consultation point is fine and honest — it's a process failing, not an admission on causation. On the detriment point, keep the language as \"I do not find you were subjected to detriment\" and note that the concerns were properly escalated to Audit Committee and auditors. Avoid saying the concerns were \"unfounded\" — we don't want to look like we dismissed a disclosure. I've made a couple of tracked tweaks; go ahead and send tomorrow.\n\nSarah\n\n--\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nsarah.whitfield@whitfieldcarter.com\nConfidential and may be legally privileged.\n\nOn Thu, Dec 18, 2025 at 10:10 AM, Miriam Cole <miriam.cole@kingsfordgroup.com> wrote:\n> Before I send the grievance outcome tomorrow, can you sanity-check the draft? I'm partially upholding the consultation/communication point, not upholding the offsite complaint, and not upholding the detriment/whistleblowing point (which the Audit Committee referred to the auditors). Want to be sure I'm not creating admissions that hurt us on the s.103A risk.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Miriam,<br><br>The balance is right. Upholding the consultation point is fine and honest — it&#x27;s a process failing, not an admission on causation. On the detriment point, keep the language as &quot;I do not find you were subjected to detriment&quot; and note that the concerns were properly escalated to Audit Committee and auditors. Avoid saying the concerns were &quot;unfounded&quot; — we don&#x27;t want to look like we dismissed a disclosure. I&#x27;ve made a couple of tracked tweaks; go ahead and send tomorrow.<br><br>Sarah<br><br>--<br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>sarah.whitfield@whitfieldcarter.com<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Dec 18, 2025 at 10:10 AM, Miriam Cole &lt;miriam.cole@kingsfordgroup.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Before I send the grievance outcome tomorrow, can you sanity-check the draft? I&#x27;m partially upholding the consultation/communication point, not upholding the offsite complaint, and not upholding the detriment/whistleblowing point (which the Audit Committee referred to the auditors). Want to be sure I&#x27;m not creating admissions that hurt us on the s.103A risk.</div></blockquote></div></div>"
+    }
+  ]
+}

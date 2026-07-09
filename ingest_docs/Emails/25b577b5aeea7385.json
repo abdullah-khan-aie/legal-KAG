@@ -1,0 +1,22 @@
+{
+  "id": "25b577b5aeea7385",
+  "messages": [
+    {
+      "id": "25b577b5aeea7385",
+      "snippet": "Sarah, James, Note the con-call with counsel on the Pennington Industries matter (Project Forge) has",
+      "subject": "Pennington - Project Forge: counsel call moved",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-01-09T16:45:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Sarah, James,\n\nNote the con-call with counsel on the Pennington Industries matter (Project Forge) has moved to Tuesday 14 January at 3pm. Catherine Rosenthal KC's clerk has confirmed. Nothing needed from you before then - just diary it.\n\nDonna",
+      "htmlBody": "<div dir=\"ltr\">Sarah, James,<br><br>Note the con-call with counsel on the Pennington Industries matter (Project Forge) has moved to Tuesday 14 January at 3pm. Catherine Rosenthal KC&#x27;s clerk has confirmed. Nothing needed from you before then - just diary it.<br><br>Donna</div>"
+    }
+  ]
+}

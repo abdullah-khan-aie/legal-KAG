@@ -1,0 +1,22 @@
+{
+  "id": "58e15e3d8c36988f",
+  "messages": [
+    {
+      "id": "58e15e3d8c36988f",
+      "snippet": "You are invited to a 90-minute CPD seminar on costs budgeting and getting Precedent H right, led by ",
+      "subject": "CPD seminar: Costs budgeting and Precedent H - 14 May, Lecture Room 2",
+      "sender": "events@whitfieldcarter.com",
+      "toRecipients": [
+        "litigation@whitfieldcarter.com"
+      ],
+      "date": "2025-04-22T09:15:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "You are invited to a 90-minute CPD seminar on costs budgeting and getting Precedent H right, led by our costs lawyers. Lunch provided. 1.5 CPD hours. Please RSVP to Donna.\n\nL&D, Whitfield Carter",
+      "htmlBody": "<div dir=\"ltr\">You are invited to a 90-minute CPD seminar on costs budgeting and getting Precedent H right, led by our costs lawyers. Lunch provided. 1.5 CPD hours. Please RSVP to Donna.<br><br>L&amp;D, Whitfield Carter</div>"
+    }
+  ]
+}

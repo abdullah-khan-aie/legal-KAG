@@ -1,0 +1,49 @@
+{
+  "id": "6aa57b4ea9ab48b4",
+  "messages": [
+    {
+      "id": "6aa57b4ea9ab48b4",
+      "snippet": "Patricia, Andrew, Please find attached our engagement letter for the HSE investigation (our referenc",
+      "subject": "Project Lyra — engagement letter",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "patricia.vaughan@calvertonindustries.com"
+      ],
+      "ccRecipients": [
+        "andrew.calverton@calvertonindustries.com"
+      ],
+      "date": "2026-03-24T16:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Patricia, Andrew,\n\nPlease find attached our engagement letter for the HSE investigation (our reference WC/CALV/LYRA). It sets out scope, the team, fees and — importantly — how we will handle privilege over the internal investigation materials.\n\nGrateful if Patricia could countersign and return. We have already started given the time-sensitivity, and Tom attended site on 20 March.\n\nSarah\n\n--\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nStrictly private and confidential.",
+      "htmlBody": "<div dir=\"ltr\">Patricia, Andrew,<br><br>Please find attached our engagement letter for the HSE investigation (our reference WC/CALV/LYRA). It sets out scope, the team, fees and — importantly — how we will handle privilege over the internal investigation materials.<br><br>Grateful if Patricia could countersign and return. We have already started given the time-sensitivity, and Tom attended site on 20 March.<br><br>Sarah<br><br>--<br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Strictly private and confidential.</div>",
+      "attachmentIds": [
+        "URrn00g03-xvimeDmW6YUBWr3cRSsDRRcGBAcwA6xqE"
+      ],
+      "attachments": [
+        {
+          "filename": "Lyra_EngagementLetter.docx",
+          "id": "URrn00g03-xvimeDmW6YUBWr3cRSsDRRcGBAcwA6xqE",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "7d16c71a58782b3b",
+      "snippet": "Sarah — countersigned copy on its way by courier, and the £15k on account has been requested from Ro",
+      "subject": "RE: Project Lyra — engagement letter",
+      "sender": "patricia.vaughan@calvertonindustries.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-25T11:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah — countersigned copy on its way by courier, and the £15k on account has been requested from Robert. Terms all agreed. Thank you for moving quickly.\n\nPatricia\n\nOn Tue, Mar 24, 2026 at 4:10 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Patricia, Andrew,\n>\n> Please find attached our engagement letter for the HSE investigation (our reference WC/CALV/LYRA). It sets out scope, the team, fees and — importantly — how we will handle privilege over the internal investigation materials.\n>\n> Grateful if Patricia could countersign and return. We have already started given the time-sensitivity, and Tom attended site on 20 March.\n>\n> Sarah\n>\n> --\n> Sarah Whitfield\n> Partner | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Strictly private and confidential.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah — countersigned copy on its way by courier, and the £15k on account has been requested from Robert. Terms all agreed. Thank you for moving quickly.<br><br>Patricia</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Mar 24, 2026 at 4:10 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Patricia, Andrew,<br><br>Please find attached our engagement letter for the HSE investigation (our reference WC/CALV/LYRA). It sets out scope, the team, fees and — importantly — how we will handle privilege over the internal investigation materials.<br><br>Grateful if Patricia could countersign and return. We have already started given the time-sensitivity, and Tom attended site on 20 March.<br><br>Sarah<br><br>--<br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Strictly private and confidential.</div></blockquote></div></div>"
+    }
+  ]
+}

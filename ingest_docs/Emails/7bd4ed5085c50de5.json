@@ -1,0 +1,26 @@
+{
+  "id": "7bd4ed5085c50de5",
+  "messages": [
+    {
+      "id": "7bd4ed5085c50de5",
+      "snippet": "Dear Mr Osei, We have today served our client's Defence by CE-File. In summary, Brevdale denies brea",
+      "subject": "HT-2025-000418 - Defence served",
+      "sender": "rachel.hargrove@hargroveassoc.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "david.lin@hargroveassoc.com"
+      ],
+      "date": "2025-04-09T16:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear Mr Osei,\n\nWe have today served our client's Defence by CE-File. In summary, Brevdale denies breach, puts the Claimant to proof on the sampling and causation, relies on the Claimant's machining and 24 bar proof test as contributory, and contends that liability is in any event capped at £916,800 under clause 12 and that the Stratton liability is too remote.\n\nWe will be ready to discuss directions ahead of the CMC.\n\nRachel Hargrove",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Osei,<br><br>We have today served our client&#x27;s Defence by CE-File. In summary, Brevdale denies breach, puts the Claimant to proof on the sampling and causation, relies on the Claimant&#x27;s machining and 24 bar proof test as contributory, and contends that liability is in any event capped at £916,800 under clause 12 and that the Stratton liability is too remote.<br><br>We will be ready to discuss directions ahead of the CMC.<br><br>Rachel Hargrove</div>"
+    }
+  ]
+}

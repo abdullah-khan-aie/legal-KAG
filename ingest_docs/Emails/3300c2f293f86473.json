@@ -1,0 +1,37 @@
+{
+  "id": "3300c2f293f86473",
+  "messages": [
+    {
+      "id": "3300c2f293f86473",
+      "snippet": "James, We've had a reference request for Gareth from a recruiter acting for a SaaS business. Can you",
+      "subject": "Hollis — reference request from prospective employer",
+      "sender": "diane.pryor@caspiantech.io",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-03-09T11:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nWe've had a reference request for Gareth from a recruiter acting for a SaaS business. Can you confirm we just use the agreed form at Schedule 1 of the settlement agreement and nothing more? I don't want to stray into the circumstances of his departure.\n\nDiane",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>We&#x27;ve had a reference request for Gareth from a recruiter acting for a SaaS business. Can you confirm we just use the agreed form at Schedule 1 of the settlement agreement and nothing more? I don&#x27;t want to stray into the circumstances of his departure.<br><br>Diane</div>"
+    },
+    {
+      "id": "3e0eb6c4205da7bd",
+      "snippet": "Diane, Yes — use only the agreed wording in Schedule 1 (dates, role, ended by reason of redundancy, ",
+      "subject": "RE: Hollis — reference request from prospective employer",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "diane.pryor@caspiantech.io"
+      ],
+      "date": "2026-03-09T12:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Diane,\n\nYes — use only the agreed wording in Schedule 1 (dates, role, ended by reason of redundancy, given without legal liability). Don't add anything about the grievance or the disclosure. If they push for more, route it back to me.\n\nJames\n\nJames Osei\nSenior Associate, Employment\nWhitfield Carter LLP\nConfidential and may be legally privileged.\n\nOn Mon, Mar 9, 2026 at 11:20 AM, Diane Pryor (Caspian HR) <diane.pryor@caspiantech.io> wrote:\n> James,\n>\n> We've had a reference request for Gareth from a recruiter acting for a SaaS business. Can you confirm we just use the agreed form at Schedule 1 of the settlement agreement and nothing more? I don't want to stray into the circumstances of his departure.\n>\n> Diane",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Diane,<br><br>Yes — use only the agreed wording in Schedule 1 (dates, role, ended by reason of redundancy, given without legal liability). Don&#x27;t add anything about the grievance or the disclosure. If they push for more, route it back to me.<br><br>James<br><br>James Osei<br>Senior Associate, Employment<br>Whitfield Carter LLP<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Mar 9, 2026 at 11:20 AM, Diane Pryor (Caspian HR) &lt;diane.pryor@caspiantech.io&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>We&#x27;ve had a reference request for Gareth from a recruiter acting for a SaaS business. Can you confirm we just use the agreed form at Schedule 1 of the settlement agreement and nothing more? I don&#x27;t want to stray into the circumstances of his departure.<br><br>Diane</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "b64aead3dd7d11b3",
+  "messages": [
+    {
+      "id": "b64aead3dd7d11b3",
+      "snippet": "Elena, Could you confirm the territories and status across the nine families for Schedule 1? We want",
+      "subject": "Indigo - patent schedule query",
+      "sender": "nadia.iqbal@pembertonrowe.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-03T10:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Elena,\n\nCould you confirm the territories and status across the nine families for Schedule 1? We want to check the pending US continuation on CL-PAT-009 and the EP position on CL-PAT-008 before we sign off the schedule.\n\nNadia\nPemberton Rowe LLP",
+      "htmlBody": "<div dir=\"ltr\">Elena,<br><br>Could you confirm the territories and status across the nine families for Schedule 1? We want to check the pending US continuation on CL-PAT-009 and the EP position on CL-PAT-008 before we sign off the schedule.<br><br>Nadia<br>Pemberton Rowe LLP</div>"
+    },
+    {
+      "id": "c81a24246a73a9b7",
+      "snippet": "Nadia, The agreed-form patent schedule is attached (28 national/regional rights across the nine fami",
+      "subject": "RE: Indigo - patent schedule query",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "nadia.iqbal@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "alan.foster@hartingtonip.com"
+      ],
+      "date": "2026-02-04T16:10:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Nadia,\n\nThe agreed-form patent schedule is attached (28 national/regional rights across the nine families). CL-PAT-008 GB is granted with EP pending (observation noted); CL-PAT-009 has GB granted with EP/US/JP pending. Hartington IP (copied) can field any prosecution questions.\n\nElena\n\nOn Tue, Feb 3, 2026 at 10:30 AM, Nadia Iqbal <nadia.iqbal@pembertonrowe.com> wrote:\n> Elena,\n>\n> Could you confirm the territories and status across the nine families for Schedule 1? We want to check the pending US continuation on CL-PAT-009 and the EP position on CL-PAT-008 before we sign off the schedule.\n>\n> Nadia\n> Pemberton Rowe LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Nadia,<br><br>The agreed-form patent schedule is attached (28 national/regional rights across the nine families). CL-PAT-008 GB is granted with EP pending (observation noted); CL-PAT-009 has GB granted with EP/US/JP pending. Hartington IP (copied) can field any prosecution questions.<br><br>Elena</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Feb 3, 2026 at 10:30 AM, Nadia Iqbal &lt;nadia.iqbal@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Elena,<br><br>Could you confirm the territories and status across the nine families for Schedule 1? We want to check the pending US continuation on CL-PAT-009 and the EP position on CL-PAT-008 before we sign off the schedule.<br><br>Nadia<br>Pemberton Rowe LLP</div></blockquote></div></div>",
+      "attachmentIds": [
+        "mWPy5E2B4wnBC7_S5lhyo3_r4-f0ntU9RIaWU2fMrXQ"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Indigo_PatentSchedule.xlsx",
+          "id": "mWPy5E2B4wnBC7_S5lhyo3_r4-f0ntU9RIaWU2fMrXQ",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    }
+  ]
+}

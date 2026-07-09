@@ -1,0 +1,44 @@
+{
+  "id": "c747242853aa80a9",
+  "messages": [
+    {
+      "id": "c747242853aa80a9",
+      "snippet": "James, On the £4m, the family interests will put in £3.0m and I'll subscribe £1.0m, all at completio",
+      "subject": "Project Willow - new equity mechanics",
+      "sender": "robert.dukes@calvertonindustries.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "patricia.vaughan@calvertonindustries.com"
+      ],
+      "date": "2026-05-11T10:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nOn the £4m, the family interests will put in £3.0m and I'll subscribe £1.0m, all at completion. Can you confirm the funds flow treatment and what board/shareholder resolutions we need? We'd like it structured so it counts towards the covenant cure if ever needed.\n\nRobert",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>On the £4m, the family interests will put in £3.0m and I&#x27;ll subscribe £1.0m, all at completion. Can you confirm the funds flow treatment and what board/shareholder resolutions we need? We&#x27;d like it structured so it counts towards the covenant cure if ever needed.<br><br>Robert</div>"
+    },
+    {
+      "id": "0e01f28f15d17790",
+      "snippet": "Robert, Confirmed - £3.0m / £1.0m split, applied per the funds flow (TLA prepayment £2.0m, fees, cos",
+      "subject": "RE: Project Willow - new equity mechanics",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "robert.dukes@calvertonindustries.com"
+      ],
+      "ccRecipients": [
+        "patricia.vaughan@calvertonindustries.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-05-11T15:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Robert,\n\nConfirmed - £3.0m / £1.0m split, applied per the funds flow (TLA prepayment £2.0m, fees, costs, and ~£1.54m retained for working capital). We'll need a board resolution and a shareholder resolution authorising the allotment; Elena will circulate drafts with the board pack. The subscription will be documented as subordinated shareholder funding so it qualifies for the equity-cure mechanic.\n\nJames\n\nOn Mon, May 11, 2026 at 10:05 AM, Robert Dukes <robert.dukes@calvertonindustries.com> wrote:\n> James,\n>\n> On the £4m, the family interests will put in £3.0m and I'll subscribe £1.0m, all at completion. Can you confirm the funds flow treatment and what board/shareholder resolutions we need? We'd like it structured so it counts towards the covenant cure if ever needed.\n>\n> Robert",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Robert,<br><br>Confirmed - £3.0m / £1.0m split, applied per the funds flow (TLA prepayment £2.0m, fees, costs, and ~£1.54m retained for working capital). We&#x27;ll need a board resolution and a shareholder resolution authorising the allotment; Elena will circulate drafts with the board pack. The subscription will be documented as subordinated shareholder funding so it qualifies for the equity-cure mechanic.<br><br>James</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, May 11, 2026 at 10:05 AM, Robert Dukes &lt;robert.dukes@calvertonindustries.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>On the £4m, the family interests will put in £3.0m and I&#x27;ll subscribe £1.0m, all at completion. Can you confirm the funds flow treatment and what board/shareholder resolutions we need? We&#x27;d like it structured so it counts towards the covenant cure if ever needed.<br><br>Robert</div></blockquote></div></div>"
+    }
+  ]
+}

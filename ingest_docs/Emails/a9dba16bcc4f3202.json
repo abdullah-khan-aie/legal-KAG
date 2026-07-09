@@ -1,0 +1,25 @@
+{
+  "id": "a9dba16bcc4f3202",
+  "messages": [
+    {
+      "id": "a9dba16bcc4f3202",
+      "snippet": "Dear all, Ahead of the 26 June disclosure deadline, Sarah would like to hold a review session to wal",
+      "subject": "Disclosure review session - Hartwell v Cryovance (proposed dates)",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "stephen.okoro@hartwellpharma.com",
+        "helena.vance@hartwellpharma.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-06-22T09:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear all,\n\nAhead of the 26 June disclosure deadline, Sarah would like to hold a review session to walk through Cryovance's disclosed vehicle, driver and CAPA records once received. Could you let me know your availability across 1-3 July? We expect to need around two hours, by video.\n\nKind regards,\nDonna Bridges\nPractice Assistant, Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>Ahead of the 26 June disclosure deadline, Sarah would like to hold a review session to walk through Cryovance&#x27;s disclosed vehicle, driver and CAPA records once received. Could you let me know your availability across 1-3 July? We expect to need around two hours, by video.<br><br>Kind regards,<br>Donna Bridges<br>Practice Assistant, Whitfield Carter LLP</div>"
+    }
+  ]
+}

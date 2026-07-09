@@ -1,0 +1,22 @@
+{
+  "id": "c7a590a55db23b4d",
+  "messages": [
+    {
+      "id": "c7a590a55db23b4d",
+      "snippet": "Dear all, Join us for a CPD lunchtime seminar on 25 February, 12:30-13:30 in the Bishopsgate trainin",
+      "subject": "Lunchtime seminar: 'Privilege in internal investigations' - 25 Feb",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-17T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear all,\n\nJoin us for a CPD lunchtime seminar on 25 February, 12:30-13:30 in the Bishopsgate training room: 'Maintaining privilege in corporate internal investigations'. Sandwiches provided. 1 hour CPD. Please RSVP via the intranet.\n\nKnowledge & Learning",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>Join us for a CPD lunchtime seminar on 25 February, 12:30-13:30 in the Bishopsgate training room: &#x27;Maintaining privilege in corporate internal investigations&#x27;. Sandwiches provided. 1 hour CPD. Please RSVP via the intranet.<br><br>Knowledge &amp; Learning</div>"
+    }
+  ]
+}

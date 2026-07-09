@@ -1,0 +1,45 @@
+{
+  "id": "7e9c2b6769b936db",
+  "messages": [
+    {
+      "id": "7e9c2b6769b936db",
+      "snippet": "Sarah, Draft letter of claim attached for your review. It follows the Pre-Action Protocol, sets out ",
+      "subject": "Calderwood - draft letter of claim for review",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-09-03T16:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Sarah,\n\nDraft letter of claim attached for your review. It follows the Pre-Action Protocol, sets out the 410 bar warranty and the delivery failures, references Richard's notice emails of 21 Aug, 9 Sep and 3 Oct 2024, and quantifies the loss at just over £3.8m. I've given them 21 days and flagged willingness to mediate.\n\nIf you're happy I'll finalise and send on our letterhead.\n\nTom\n\nTom Gallagher\nAssociate\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Draft letter of claim attached for your review. It follows the Pre-Action Protocol, sets out the 410 bar warranty and the delivery failures, references Richard&#x27;s notice emails of 21 Aug, 9 Sep and 3 Oct 2024, and quantifies the loss at just over £3.8m. I&#x27;ve given them 21 days and flagged willingness to mediate.<br><br>If you&#x27;re happy I&#x27;ll finalise and send on our letterhead.<br><br>Tom<br><br>Tom Gallagher<br>Associate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ</div>",
+      "attachmentIds": [
+        "iQZyjoC8cCZ-d0axo9ALcvXIqdtZJtVW_HgplLXiG_A"
+      ],
+      "attachments": [
+        {
+          "filename": "LetterBeforeAction_Calderwood.docx",
+          "id": "iQZyjoC8cCZ-d0axo9ALcvXIqdtZJtVW_HgplLXiG_A",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "7e37a2f82f2b4c00",
+      "snippet": "Tom, This is good. Two small points: make clear the termination date (28 Feb 2025) and keep the sche",
+      "subject": "RE: Calderwood - draft letter of claim for review",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-09-04T09:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Tom,\n\nThis is good. Two small points: make clear the termination date (28 Feb 2025) and keep the schedule-of-loss figures out of the body beyond the headline - we'll provide the detailed schedule with the Particulars. Otherwise approved to send.\n\nSarah\n\nSarah Whitfield\nPartner\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n\nOn Wed, Sep 3, 2025 at 4:05 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Sarah,\n>\n> Draft letter of claim attached for your review. It follows the Pre-Action Protocol, sets out the 410 bar warranty and the delivery failures, references Richard's notice emails of 21 Aug, 9 Sep and 3 Oct 2024, and quantifies the loss at just over £3.8m. I've given them 21 days and flagged willingness to mediate.\n>\n> If you're happy I'll finalise and send on our letterhead.\n>\n> Tom\n>\n> Tom Gallagher\n> Associate\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>This is good. Two small points: make clear the termination date (28 Feb 2025) and keep the schedule-of-loss figures out of the body beyond the headline - we&#x27;ll provide the detailed schedule with the Particulars. Otherwise approved to send.<br><br>Sarah<br><br>Sarah Whitfield<br>Partner<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Sep 3, 2025 at 4:05 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Draft letter of claim attached for your review. It follows the Pre-Action Protocol, sets out the 410 bar warranty and the delivery failures, references Richard&#x27;s notice emails of 21 Aug, 9 Sep and 3 Oct 2024, and quantifies the loss at just over £3.8m. I&#x27;ve given them 21 days and flagged willingness to mediate.<br><br>If you&#x27;re happy I&#x27;ll finalise and send on our letterhead.<br><br>Tom<br><br>Tom Gallagher<br>Associate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ</div></blockquote></div></div>"
+    }
+  ]
+}

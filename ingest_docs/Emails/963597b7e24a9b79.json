@@ -1,0 +1,52 @@
+{
+  "id": "963597b7e24a9b79",
+  "messages": [
+    {
+      "id": "963597b7e24a9b79",
+      "snippet": "Dear Anders, Following our call, I attach our engagement letter for the proposed licensing of the HX",
+      "subject": "Project Tamarisk — engagement letter",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "anders.halverson@halversonmaterials.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-09-12T09:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Anders,\n\nFollowing our call, I attach our engagement letter for the proposed licensing of the HX-7 technology to Northstar. It sets out our scope, the team (myself, James Osei and Elena Marchetti), and our fee estimate of £55,000–£75,000 plus VAT.\n\nIf you are happy, please sign and return the copy and we'll get started on the NDA straight away.\n\nKind regards,\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n+44 (0)20 7946 1200",
+      "htmlBody": "<div dir=\"ltr\">Dear Anders,<br><br>Following our call, I attach our engagement letter for the proposed licensing of the HX-7 technology to Northstar. It sets out our scope, the team (myself, James Osei and Elena Marchetti), and our fee estimate of £55,000–£75,000 plus VAT.<br><br>If you are happy, please sign and return the copy and we&#x27;ll get started on the NDA straight away.<br><br>Kind regards,<br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1200</div>",
+      "attachmentIds": [
+        "OYfFIBg8EgiVOo_LUQwpnAEcPATS0_ZGZMC9POyuX48"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Tamarisk_EngagementLetter.docx",
+          "id": "OYfFIBg8EgiVOo_LUQwpnAEcPATS0_ZGZMC9POyuX48",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "5ce7efcba0841696",
+      "snippet": "Sarah, Signed copy attached separately to Donna. Terms are fine. Let's move quickly — Northstar want",
+      "subject": "RE: Project Tamarisk — engagement letter",
+      "sender": "anders.halverson@halversonmaterials.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "rosalind.pierce@halversonmaterials.com"
+      ],
+      "date": "2025-09-15T16:05:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Sarah,\n\nSigned copy attached separately to Donna. Terms are fine. Let's move quickly — Northstar want to sign before year end.\n\nAnders\n\nOn Fri, Sep 12, 2025 at 9:20 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Dear Anders,\n>\n> Following our call, I attach our engagement letter for the proposed licensing of the HX-7 technology to Northstar. It sets out our scope, the team (myself, James Osei and Elena Marchetti), and our fee estimate of £55,000–£75,000 plus VAT.\n>\n> If you are happy, please sign and return the copy and we'll get started on the NDA straight away.\n>\n> Kind regards,\n> Sarah Whitfield\n> Partner | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> +44 (0)20 7946 1200",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah,<br><br>Signed copy attached separately to Donna. Terms are fine. Let&#x27;s move quickly — Northstar want to sign before year end.<br><br>Anders</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Sep 12, 2025 at 9:20 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Anders,<br><br>Following our call, I attach our engagement letter for the proposed licensing of the HX-7 technology to Northstar. It sets out our scope, the team (myself, James Osei and Elena Marchetti), and our fee estimate of £55,000–£75,000 plus VAT.<br><br>If you are happy, please sign and return the copy and we&#x27;ll get started on the NDA straight away.<br><br>Kind regards,<br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1200</div></blockquote></div></div>"
+    }
+  ]
+}

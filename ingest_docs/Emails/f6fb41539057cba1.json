@@ -1,0 +1,53 @@
+{
+  "id": "f6fb41539057cba1",
+  "messages": [
+    {
+      "id": "f6fb41539057cba1",
+      "snippet": "Dear Mr Greaves, Proceedings having been issued, please find served herewith by email the (Amended) ",
+      "subject": "Penrose v Caldervale CL-2025-000287 - Particulars of Claim served",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "martin.greaves@marlowegreaves.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-05-12T15:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Mr Greaves,\n\nProceedings having been issued, please find served herewith by email the (Amended) Particulars of Claim, sealed by the Court today, in Claim No. CL-2025-000287. The Schedule of Loss accompanies the Particulars. Hard copies follow by post.\n\nWe look forward to your client's Defence in due course.\n\nTom Gallagher\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Greaves,<br><br>Proceedings having been issued, please find served herewith by email the (Amended) Particulars of Claim, sealed by the Court today, in Claim No. CL-2025-000287. The Schedule of Loss accompanies the Particulars. Hard copies follow by post.<br><br>We look forward to your client&#x27;s Defence in due course.<br><br>Tom Gallagher<br>Whitfield Carter LLP</div>",
+      "attachmentIds": [
+        "Y3L5vI3c8Ou9hcEjFf_NzrGZJDaJCngwOc58beNMYPA"
+      ],
+      "attachments": [
+        {
+          "filename": "Penrose_AmendedParticularsOfClaim_Sealed.pdf",
+          "id": "Y3L5vI3c8Ou9hcEjFf_NzrGZJDaJCngwOc58beNMYPA",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "49bda6535c0ebb8a",
+      "snippet": "Received with thanks. We will file and serve our Defence and Counterclaim within time. Our client ma",
+      "subject": "RE: Penrose v Caldervale CL-2025-000287 - Particulars of Claim served",
+      "sender": "martin.greaves@marlowegreaves.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-05-13T10:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Received with thanks. We will file and serve our Defence and Counterclaim within time. Our client maintains that the system failed to meet the acceptance criteria and that the sums claimed are not due.\n\nMartin Greaves\n\nOn Mon, May 12, 2025 at 3:05 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Mr Greaves,\n>\n> Proceedings having been issued, please find served herewith by email the (Amended) Particulars of Claim, sealed by the Court today, in Claim No. CL-2025-000287. The Schedule of Loss accompanies the Particulars. Hard copies follow by post.\n>\n> We look forward to your client's Defence in due course.\n>\n> Tom Gallagher\n> Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Received with thanks. We will file and serve our Defence and Counterclaim within time. Our client maintains that the system failed to meet the acceptance criteria and that the sums claimed are not due.<br><br>Martin Greaves</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, May 12, 2025 at 3:05 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Mr Greaves,<br><br>Proceedings having been issued, please find served herewith by email the (Amended) Particulars of Claim, sealed by the Court today, in Claim No. CL-2025-000287. The Schedule of Loss accompanies the Particulars. Hard copies follow by post.<br><br>We look forward to your client&#x27;s Defence in due course.<br><br>Tom Gallagher<br>Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

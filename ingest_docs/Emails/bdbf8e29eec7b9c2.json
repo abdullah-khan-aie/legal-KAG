@@ -1,0 +1,25 @@
+{
+  "id": "bdbf8e29eec7b9c2",
+  "messages": [
+    {
+      "id": "bdbf8e29eec7b9c2",
+      "snippet": "Fiona, Now that we've completed, a reminder that the first management accounts pack under the amende",
+      "subject": "Harledge - first monthly reporting pack under the amended facility",
+      "sender": "tom.beckett@penninebusinessbank.com",
+      "toRecipients": [
+        "fiona.carrick@harledgefoods.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-01-26T09:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Fiona,\n\nNow that we've completed, a reminder that the first management accounts pack under the amended facility is due within 21 days of month-end, and the December management accounts evidencing the £2.1m EBITDA milestone trigger the £3m Tranche B. Please send through when ready and we'll progress the Tranche B drawdown.\n\nTom Beckett | Relationship Director | Pennine Business Bank plc",
+      "htmlBody": "<div dir=\"ltr\">Fiona,<br><br>Now that we&#x27;ve completed, a reminder that the first management accounts pack under the amended facility is due within 21 days of month-end, and the December management accounts evidencing the £2.1m EBITDA milestone trigger the £3m Tranche B. Please send through when ready and we&#x27;ll progress the Tranche B drawdown.<br><br>Tom Beckett | Relationship Director | Pennine Business Bank plc</div>"
+    }
+  ]
+}

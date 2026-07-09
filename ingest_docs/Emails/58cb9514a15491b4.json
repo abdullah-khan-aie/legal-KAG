@@ -1,0 +1,54 @@
+{
+  "id": "58cb9514a15491b4",
+  "messages": [
+    {
+      "id": "58cb9514a15491b4",
+      "snippet": "Sarah, Good to speak earlier. As discussed, we'd like to instruct Whitfield Carter on the acquisitio",
+      "subject": "Project Sable - Sable House, Deansgate - instruction",
+      "sender": "isla.fournier@thornburyproperties.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "daniel.quigley@thornburyproperties.com"
+      ],
+      "date": "2025-09-03T09:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nGood to speak earlier. As discussed, we'd like to instruct Whitfield Carter on the acquisition of Sable House, 40 Deansgate, Manchester. We've agreed heads of terms in principle with Ardent at £24.75m, subject to contract and DD.\n\nTheir agent is pushing for exchange by late October. Can you let me have an engagement letter and your fee estimate, and we'll get going on title and enquiries?\n\nBest,\nIsla\n\nIsla Fournier\nHead of Acquisitions\nThornbury Properties Limited",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Good to speak earlier. As discussed, we&#x27;d like to instruct Whitfield Carter on the acquisition of Sable House, 40 Deansgate, Manchester. We&#x27;ve agreed heads of terms in principle with Ardent at £24.75m, subject to contract and DD.<br><br>Their agent is pushing for exchange by late October. Can you let me have an engagement letter and your fee estimate, and we&#x27;ll get going on title and enquiries?<br><br>Best,<br>Isla<br><br>Isla Fournier<br>Head of Acquisitions<br>Thornbury Properties Limited</div>"
+    },
+    {
+      "id": "041569249b521d02",
+      "snippet": "Isla, Delighted to act for you again. Our engagement letter is attached, with a fee estimate of £58k",
+      "subject": "RE: Project Sable - Sable House, Deansgate - instruction",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "isla.fournier@thornburyproperties.com"
+      ],
+      "ccRecipients": [
+        "daniel.quigley@thornburyproperties.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-09-04T15:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Isla,\n\nDelighted to act for you again. Our engagement letter is attached, with a fee estimate of £58k-£68k plus VAT and disbursements to completion. James Osei will lead day to day with Elena Marchetti supporting.\n\nPlease send across the heads of terms and the agent's details and we'll request title and raise CPSE enquiries straight away. We can comfortably work to a late-October exchange.\n\nKind regards,\nSarah\n\nSarah Whitfield\nPartner | Real Estate\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0100\n\n---\nThis email and any attachments are confidential and may be legally privileged.\n\nOn Wed, Sep 3, 2025 at 9:12 AM, Isla Fournier <isla.fournier@thornburyproperties.com> wrote:\n> Sarah,\n>\n> Good to speak earlier. As discussed, we'd like to instruct Whitfield Carter on the acquisition of Sable House, 40 Deansgate, Manchester. We've agreed heads of terms in principle with Ardent at £24.75m, subject to contract and DD.\n>\n> Their agent is pushing for exchange by late October. Can you let me have an engagement letter and your fee estimate, and we'll get going on title and enquiries?\n>\n> Best,\n> Isla\n>\n> Isla Fournier\n> Head of Acquisitions\n> Thornbury Properties Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Isla,<br><br>Delighted to act for you again. Our engagement letter is attached, with a fee estimate of £58k-£68k plus VAT and disbursements to completion. James Osei will lead day to day with Elena Marchetti supporting.<br><br>Please send across the heads of terms and the agent&#x27;s details and we&#x27;ll request title and raise CPSE enquiries straight away. We can comfortably work to a late-October exchange.<br><br>Kind regards,<br>Sarah<br><br>Sarah Whitfield<br>Partner | Real Estate<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0100<br><br>---<br>This email and any attachments are confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Sep 3, 2025 at 9:12 AM, Isla Fournier &lt;isla.fournier@thornburyproperties.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Good to speak earlier. As discussed, we&#x27;d like to instruct Whitfield Carter on the acquisition of Sable House, 40 Deansgate, Manchester. We&#x27;ve agreed heads of terms in principle with Ardent at £24.75m, subject to contract and DD.<br><br>Their agent is pushing for exchange by late October. Can you let me have an engagement letter and your fee estimate, and we&#x27;ll get going on title and enquiries?<br><br>Best,<br>Isla<br><br>Isla Fournier<br>Head of Acquisitions<br>Thornbury Properties Limited</div></blockquote></div></div>",
+      "attachmentIds": [
+        "GwwR3-5Sm3AmmQd3MxMLzenSSrPIvdcL2IzkA9uTkjo"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Sable_EngagementLetter.docx",
+          "id": "GwwR3-5Sm3AmmQd3MxMLzenSSrPIvdcL2IzkA9uTkjo",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

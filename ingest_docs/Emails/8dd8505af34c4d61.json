@@ -1,0 +1,24 @@
+{
+  "id": "8dd8505af34c4d61",
+  "messages": [
+    {
+      "id": "8dd8505af34c4d61",
+      "snippet": "James, Our records show 9.5 hours of unposted time for the week ending 31 October. Please post or wr",
+      "subject": "Time recording overdue — October",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-03T08:15:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James,\n\nOur records show 9.5 hours of unposted time for the week ending 31 October. Please post or write off by Wednesday so we can run the October bills. If any of this relates to matters that should be billed on a fixed fee, let me know and I'll flag to the relevant partner.\n\nThanks,\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our records show 9.5 hours of unposted time for the week ending 31 October. Please post or write off by Wednesday so we can run the October bills. If any of this relates to matters that should be billed on a fixed fee, let me know and I&#x27;ll flag to the relevant partner.<br><br>Thanks,<br>Accounts</div>"
+    }
+  ]
+}

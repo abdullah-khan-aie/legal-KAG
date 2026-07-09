@@ -1,0 +1,44 @@
+{
+  "id": "e28d5fb5a175c7f9",
+  "messages": [
+    {
+      "id": "e28d5fb5a175c7f9",
+      "snippet": "Priya, We're targeting completion of the Cedarbridge acquisition on 12 December. Can you confirm the",
+      "subject": "Cedarbridge - funding confirmation for completion",
+      "sender": "rebecca.stone@thornburyproperties.com",
+      "toRecipients": [
+        "priya.sharma@penninebusinessbank.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-11-12T10:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Priya,\n\nWe're targeting completion of the Cedarbridge acquisition on 12 December. Can you confirm the senior facility drawdown conditions and the date by which you need the CP checklist satisfied? Our solicitors (James Osei at Whitfield Carter, copied) will liaise with you directly on the security and the certificate of title.\n\nRebecca Stone\nFinance Director, Thornbury Properties",
+      "htmlBody": "<div dir=\"ltr\">Priya,<br><br>We&#x27;re targeting completion of the Cedarbridge acquisition on 12 December. Can you confirm the senior facility drawdown conditions and the date by which you need the CP checklist satisfied? Our solicitors (James Osei at Whitfield Carter, copied) will liaise with you directly on the security and the certificate of title.<br><br>Rebecca Stone<br>Finance Director, Thornbury Properties</div>"
+    },
+    {
+      "id": "8e4e51008ce2480c",
+      "snippet": "Rebecca, Drawdown is available subject to the usual CPs: executed facility and security documents, c",
+      "subject": "RE: Cedarbridge - funding confirmation for completion",
+      "sender": "priya.sharma@penninebusinessbank.com",
+      "toRecipients": [
+        "rebecca.stone@thornburyproperties.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-11-13T16:48:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Rebecca,\n\nDrawdown is available subject to the usual CPs: executed facility and security documents, certificate of title in our agreed form, valuation (received), and evidence of the buyer's equity. Please have the certificate of title to us at least three business days before completion. Happy to take James's call on the security package.\n\nPriya Sharma\nPennine Business Bank plc\n\nOn Wed, Nov 12, 2025 at 10:15 AM, Rebecca Stone <rebecca.stone@thornburyproperties.com> wrote:\n> Priya,\n>\n> We're targeting completion of the Cedarbridge acquisition on 12 December. Can you confirm the senior facility drawdown conditions and the date by which you need the CP checklist satisfied? Our solicitors (James Osei at Whitfield Carter, copied) will liaise with you directly on the security and the certificate of title.\n>\n> Rebecca Stone\n> Finance Director, Thornbury Properties",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Rebecca,<br><br>Drawdown is available subject to the usual CPs: executed facility and security documents, certificate of title in our agreed form, valuation (received), and evidence of the buyer&#x27;s equity. Please have the certificate of title to us at least three business days before completion. Happy to take James&#x27;s call on the security package.<br><br>Priya Sharma<br>Pennine Business Bank plc</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Nov 12, 2025 at 10:15 AM, Rebecca Stone &lt;rebecca.stone@thornburyproperties.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Priya,<br><br>We&#x27;re targeting completion of the Cedarbridge acquisition on 12 December. Can you confirm the senior facility drawdown conditions and the date by which you need the CP checklist satisfied? Our solicitors (James Osei at Whitfield Carter, copied) will liaise with you directly on the security and the certificate of title.<br><br>Rebecca Stone<br>Finance Director, Thornbury Properties</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "5844686abb0256c3",
+  "messages": [
+    {
+      "id": "5844686abb0256c3",
+      "snippet": "Daniel, Our engagement letter for Project Harbor is attached. Fee estimate £160k-£195k plus VAT and ",
+      "subject": "Project Harbor - engagement letter",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.reeve@crestviewcapital.com"
+      ],
+      "ccRecipients": [
+        "donna.bridges@whitfieldcarter.com"
+      ],
+      "date": "2025-09-12T15:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Daniel,\n\nOur engagement letter for Project Harbor is attached. Fee estimate £160k-£195k plus VAT and disbursements, payment on account £25k. Please countersign and return. Looking forward to getting going.\n\nSarah\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Daniel,<br><br>Our engagement letter for Project Harbor is attached. Fee estimate £160k-£195k plus VAT and disbursements, payment on account £25k. Please countersign and return. Looking forward to getting going.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "_CUKtsPhtZ0-Dz-ywu5sohcGGgh8wzBSTJFOwbgdrIU"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Harbor_EngagementLetter.docx",
+          "id": "_CUKtsPhtZ0-Dz-ywu5sohcGGgh8wzBSTJFOwbgdrIU",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "441ca877f7c18f96",
+      "snippet": "Signed copy attached separately to Donna. Happy with the team and the estimate. Let's move. Daniel",
+      "subject": "RE: Project Harbor - engagement letter",
+      "sender": "daniel.reeve@crestviewcapital.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-09-15T08:55:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Signed copy attached separately to Donna. Happy with the team and the estimate. Let's move.\n\nDaniel\n\nOn Fri, Sep 12, 2025 at 3:20 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Daniel,\n>\n> Our engagement letter for Project Harbor is attached. Fee estimate £160k-£195k plus VAT and disbursements, payment on account £25k. Please countersign and return. Looking forward to getting going.\n>\n> Sarah\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Signed copy attached separately to Donna. Happy with the team and the estimate. Let&#x27;s move.<br><br>Daniel</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Sep 12, 2025 at 3:20 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Daniel,<br><br>Our engagement letter for Project Harbor is attached. Fee estimate £160k-£195k plus VAT and disbursements, payment on account £25k. Please countersign and return. Looking forward to getting going.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

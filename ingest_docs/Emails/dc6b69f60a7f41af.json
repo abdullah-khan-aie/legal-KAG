@@ -1,0 +1,22 @@
+{
+  "id": "dc6b69f60a7f41af",
+  "messages": [
+    {
+      "id": "dc6b69f60a7f41af",
+      "snippet": "Hi Sarah, LexAnalytics helps law firms cut contract review time by 60% with AI clause extraction. Wo",
+      "subject": "AI-powered contract review for Whitfield Carter?",
+      "sender": "hello@lexanalytics.io",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-12-02T08:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi Sarah,\n\nLexAnalytics helps law firms cut contract review time by 60% with AI clause extraction. Would you be open to a 20-minute demo for your corporate team this month? Happy to work around your schedule.\n\nBest,\nThe LexAnalytics Team\n\nUnsubscribe | lexanalytics.io",
+      "htmlBody": "<div dir=\"ltr\">Hi Sarah,<br><br>LexAnalytics helps law firms cut contract review time by 60% with AI clause extraction. Would you be open to a 20-minute demo for your corporate team this month? Happy to work around your schedule.<br><br>Best,<br>The LexAnalytics Team<br><br>Unsubscribe | lexanalytics.io</div>"
+    }
+  ]
+}

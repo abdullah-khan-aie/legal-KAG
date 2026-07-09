@@ -1,0 +1,22 @@
+{
+  "id": "fc1285dc1be865b6",
+  "messages": [
+    {
+      "id": "fc1285dc1be865b6",
+      "snippet": "Elena - when you have a moment, can you check the completion bundle for the Thornbury Properties sal",
+      "subject": "Thornbury - Project Sable completion bundle",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2024-09-10T16:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Elena - when you have a moment, can you check the completion bundle for the Thornbury Properties sale (Project Sable) went out to Marlowe Greaves? Separate matter, but you had the file open last week. Thanks. Sarah",
+      "htmlBody": "<div dir=\"ltr\">Elena - when you have a moment, can you check the completion bundle for the Thornbury Properties sale (Project Sable) went out to Marlowe Greaves? Separate matter, but you had the file open last week. Thanks. Sarah</div>"
+    }
+  ]
+}

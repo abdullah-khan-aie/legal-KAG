@@ -1,0 +1,23 @@
+{
+  "id": "6807229228914404",
+  "messages": [
+    {
+      "id": "6807229228914404",
+      "snippet": "Sofia, Maya chaired the grievance meeting yesterday with me. The outcome letter went out today: we d",
+      "subject": "Hollis grievance — outcome letter issued",
+      "sender": "diane.pryor@caspiantech.io",
+      "toRecipients": [
+        "sofia.trevino@caspiantech.io"
+      ],
+      "ccRecipients": [
+        "maya.patel@caspiantech.io"
+      ],
+      "date": "2025-11-18T13:05:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Sofia,\n\nMaya chaired the grievance meeting yesterday with me. The outcome letter went out today: we did not uphold the protected-disclosure/pretext allegation, partially upheld the September meeting exclusion point (an oversight) and resolved the bonus point. He has seven days to appeal. I've saved the outcome letter to the matter folder (Hollis_GrievanceOutcomeLetter).\n\nDiane Pryor\nHR, Caspian Technologies",
+      "htmlBody": "<div dir=\"ltr\">Sofia,<br><br>Maya chaired the grievance meeting yesterday with me. The outcome letter went out today: we did not uphold the protected-disclosure/pretext allegation, partially upheld the September meeting exclusion point (an oversight) and resolved the bonus point. He has seven days to appeal. I&#x27;ve saved the outcome letter to the matter folder (Hollis_GrievanceOutcomeLetter).<br><br>Diane Pryor<br>HR, Caspian Technologies</div>"
+    }
+  ]
+}

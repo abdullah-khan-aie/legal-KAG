@@ -1,0 +1,22 @@
+{
+  "id": "5164fea1c3bce6c8",
+  "messages": [
+    {
+      "id": "5164fea1c3bce6c8",
+      "snippet": "The document management system will be unavailable this Saturday 21 February from 20:00 to 23:00 for",
+      "subject": "[IT] DMS maintenance window — Sat 21 Feb 20:00-23:00",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-02-14T07:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "The document management system will be unavailable this Saturday 21 February from 20:00 to 23:00 for scheduled maintenance and indexing. Please save and close any open documents beforehand. No action is required.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">The document management system will be unavailable this Saturday 21 February from 20:00 to 23:00 for scheduled maintenance and indexing. Please save and close any open documents beforehand. No action is required.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

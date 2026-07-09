@@ -1,0 +1,58 @@
+{
+  "id": "f5e47b593b8f7633",
+  "messages": [
+    {
+      "id": "f5e47b593b8f7633",
+      "snippet": "Isla, Daniel, Rebecca, Draft report on title attached. Headlines: title is good and marketable; we r",
+      "subject": "Project Quartz - draft report on title",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "isla.fournier@thornburyproperties.com",
+        "daniel.quigley@thornburyproperties.com",
+        "rebecca.stone@thornburyproperties.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-24T16:45:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Isla, Daniel, Rebecca,\n\nDraft report on title attached. Headlines: title is good and marketable; we recommend proceeding. Three matters for the board's attention - the outstanding Meridian rent review (take conduct post-completion), a £6,800 Carrington service-charge retention, and discharge of the seller's bank charge on completion. SDLT will be £412,000.\n\nHappy to talk it through before the board meeting.\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Isla, Daniel, Rebecca,<br><br>Draft report on title attached. Headlines: title is good and marketable; we recommend proceeding. Three matters for the board&#x27;s attention - the outstanding Meridian rent review (take conduct post-completion), a £6,800 Carrington service-charge retention, and discharge of the seller&#x27;s bank charge on completion. SDLT will be £412,000.<br><br>Happy to talk it through before the board meeting.<br><br>James</div>",
+      "attachmentIds": [
+        "xKRbhcwyiojOJpbxAaPnxcApIuqP3JT-GDw9a5MWh14"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Quartz_ReportOnTitle_DRAFT.docx",
+          "id": "xKRbhcwyiojOJpbxAaPnxcApIuqP3JT-GDw9a5MWh14",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "9b7dcf6c30dc6083",
+      "snippet": "James, Clear, thank you. Board is comfortable with the three points. We'll approve at the board meet",
+      "subject": "RE: Project Quartz - draft report on title",
+      "sender": "daniel.quigley@thornburyproperties.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "isla.fournier@thornburyproperties.com",
+        "rebecca.stone@thornburyproperties.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-25T10:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nClear, thank you. Board is comfortable with the three points. We'll approve at the board meeting on 14 April and authorise signature. Please proceed towards exchange.\n\nDaniel\n\nOn Tue, Mar 24, 2026 at 4:45 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Isla, Daniel, Rebecca,\n>\n> Draft report on title attached. Headlines: title is good and marketable; we recommend proceeding. Three matters for the board's attention - the outstanding Meridian rent review (take conduct post-completion), a £6,800 Carrington service-charge retention, and discharge of the seller's bank charge on completion. SDLT will be £412,000.\n>\n> Happy to talk it through before the board meeting.\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Clear, thank you. Board is comfortable with the three points. We&#x27;ll approve at the board meeting on 14 April and authorise signature. Please proceed towards exchange.<br><br>Daniel</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Mar 24, 2026 at 4:45 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Isla, Daniel, Rebecca,<br><br>Draft report on title attached. Headlines: title is good and marketable; we recommend proceeding. Three matters for the board&#x27;s attention - the outstanding Meridian rent review (take conduct post-completion), a £6,800 Carrington service-charge retention, and discharge of the seller&#x27;s bank charge on completion. SDLT will be £412,000.<br><br>Happy to talk it through before the board meeting.<br><br>James</div></blockquote></div></div>"
+    }
+  ]
+}

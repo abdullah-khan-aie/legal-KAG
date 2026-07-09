@@ -1,0 +1,42 @@
+{
+  "id": "24684323ecde7903",
+  "messages": [
+    {
+      "id": "24684323ecde7903",
+      "snippet": "Zoe, Thank you for opening the data room. A few items appear to be missing or incomplete: 1. Service",
+      "subject": "Quartz House - data room / outstanding documents",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "zoe.abbott@marlowegreaves.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-20T10:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Zoe,\n\nThank you for opening the data room. A few items appear to be missing or incomplete:\n\n1. Service-charge accounts for y/e 31 Dec 2025 (only 2023 and 2024 uploaded)\n2. The rent deposit deed for Unit 2\n3. EPCs for Units 1 and 3\n4. Confirmation of the option to tax\n\nGrateful if these could be added.\n\nElena Marchetti\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Zoe,<br><br>Thank you for opening the data room. A few items appear to be missing or incomplete:<br><br>1. Service-charge accounts for y/e 31 Dec 2025 (only 2023 and 2024 uploaded)<br>2. The rent deposit deed for Unit 2<br>3. EPCs for Units 1 and 3<br>4. Confirmation of the option to tax<br><br>Grateful if these could be added.<br><br>Elena Marchetti<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "32185fa92ccaf37e",
+      "snippet": "Elena, All four items now uploaded to the data room. The option to tax was notified to HMRC with eff",
+      "subject": "RE: Quartz House - data room / outstanding documents",
+      "sender": "zoe.abbott@marlowegreaves.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-24T16:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Elena,\n\nAll four items now uploaded to the data room. The option to tax was notified to HMRC with effect from 1 April 2019; the notification letter is in folder 6.\n\nZoe\n\nOn Fri, Feb 20, 2026 at 10:30 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Zoe,\n>\n> Thank you for opening the data room. A few items appear to be missing or incomplete:\n>\n> 1. Service-charge accounts for y/e 31 Dec 2025 (only 2023 and 2024 uploaded)\n> 2. The rent deposit deed for Unit 2\n> 3. EPCs for Units 1 and 3\n> 4. Confirmation of the option to tax\n>\n> Grateful if these could be added.\n>\n> Elena Marchetti\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena,<br><br>All four items now uploaded to the data room. The option to tax was notified to HMRC with effect from 1 April 2019; the notification letter is in folder 6.<br><br>Zoe</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Feb 20, 2026 at 10:30 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Zoe,<br><br>Thank you for opening the data room. A few items appear to be missing or incomplete:<br><br>1. Service-charge accounts for y/e 31 Dec 2025 (only 2023 and 2024 uploaded)<br>2. The rent deposit deed for Unit 2<br>3. EPCs for Units 1 and 3<br>4. Confirmation of the option to tax<br><br>Grateful if these could be added.<br><br>Elena Marchetti<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

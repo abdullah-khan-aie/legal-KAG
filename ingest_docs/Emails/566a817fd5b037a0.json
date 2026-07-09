@@ -1,0 +1,35 @@
+{
+  "id": "566a817fd5b037a0",
+  "messages": [
+    {
+      "id": "566a817fd5b037a0",
+      "snippet": "Elena, Data room opens today. Please take first pass on corporate, commercial contracts and property",
+      "subject": "Quartz — diligence scope",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-01-08T08:45:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Elena,\n\nData room opens today. Please take first pass on corporate, commercial contracts and property. I'm flagging two things to watch: (1) the Wexbourne Retail supply agreement is ~18% of revenue and we suspect a change-of-control clause; (2) the Warrington lease has a 2026 tenant break. Marlow Tax are doing FDD/TDD. Let's aim to have a draft report by 12 Feb.\n\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Elena,<br><br>Data room opens today. Please take first pass on corporate, commercial contracts and property. I&#x27;m flagging two things to watch: (1) the Wexbourne Retail supply agreement is ~18% of revenue and we suspect a change-of-control clause; (2) the Warrington lease has a 2026 tenant break. Marlow Tax are doing FDD/TDD. Let&#x27;s aim to have a draft report by 12 Feb.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "4e0e7153bca6c629",
+      "snippet": "James — confirmed on both. The Wexbourne agreement (1 May 2023) does have a change-of-control termin",
+      "subject": "RE: Quartz — diligence scope",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-01-19T16:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "James — confirmed on both. The Wexbourne agreement (1 May 2023) does have a change-of-control termination right on 60 days' notice. Lease break is June 2026, and there's an outstanding rent review. There's also a Clydesford Bank debenture over the assets we'll need released at completion. Trade mark 'VelloSan' is registered in the UK; EU application pending. Writing it all up.\n\nElena\n\nOn Thu, Jan 8, 2026 at 8:45 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Elena,\n>\n> Data room opens today. Please take first pass on corporate, commercial contracts and property. I'm flagging two things to watch: (1) the Wexbourne Retail supply agreement is ~18% of revenue and we suspect a change-of-control clause; (2) the Warrington lease has a 2026 tenant break. Marlow Tax are doing FDD/TDD. Let's aim to have a draft report by 12 Feb.\n>\n> James\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James — confirmed on both. The Wexbourne agreement (1 May 2023) does have a change-of-control termination right on 60 days&#x27; notice. Lease break is June 2026, and there&#x27;s an outstanding rent review. There&#x27;s also a Clydesford Bank debenture over the assets we&#x27;ll need released at completion. Trade mark &#x27;VelloSan&#x27; is registered in the UK; EU application pending. Writing it all up.<br><br>Elena</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Jan 8, 2026 at 8:45 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Elena,<br><br>Data room opens today. Please take first pass on corporate, commercial contracts and property. I&#x27;m flagging two things to watch: (1) the Wexbourne Retail supply agreement is ~18% of revenue and we suspect a change-of-control clause; (2) the Warrington lease has a 2026 tenant break. Marlow Tax are doing FDD/TDD. Let&#x27;s aim to have a draft report by 12 Feb.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

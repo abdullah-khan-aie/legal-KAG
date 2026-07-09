@@ -1,0 +1,36 @@
+{
+  "id": "050e4c943d4c48b9",
+  "messages": [
+    {
+      "id": "050e4c943d4c48b9",
+      "snippet": "Isobel, Marcus, Priya, Our Report on Title is attached, copied to Gavin at Pennine Business Bank. He",
+      "subject": "Project Indigo - Report on Title",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "isobel.hartley@halbrookestates.com",
+        "marcus.hartley@halbrookestates.com",
+        "priya.raman@halbrookestates.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "gavin.doyle@penninebusinessbank.com"
+      ],
+      "date": "2025-11-28T17:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Isobel, Marcus, Priya,\n\nOur Report on Title is attached, copied to Gavin at Pennine Business Bank. Headlines: title is good and marketable; NIY c.7.0% on the £14.25m we are now targeting; conditions to completion are discharge of the Northbank charge, your option to tax (to preserve TOGC), the Unit 6 rent deposit assignment and tenant authorities. None of the open items prevents exchange.\n\nHappy to talk it through before the board meeting.\n\nSarah\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Isobel, Marcus, Priya,<br><br>Our Report on Title is attached, copied to Gavin at Pennine Business Bank. Headlines: title is good and marketable; NIY c.7.0% on the £14.25m we are now targeting; conditions to completion are discharge of the Northbank charge, your option to tax (to preserve TOGC), the Unit 6 rent deposit assignment and tenant authorities. None of the open items prevents exchange.<br><br>Happy to talk it through before the board meeting.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "cO5iRNNUFToqwNcSol1Q8zXg1NYjO3F6HY6srVaz0Yo"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Indigo_ReportOnTitle.pdf",
+          "id": "cO5iRNNUFToqwNcSol1Q8zXg1NYjO3F6HY6srVaz0Yo",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

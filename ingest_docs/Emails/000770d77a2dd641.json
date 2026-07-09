@@ -1,0 +1,22 @@
+{
+  "id": "000770d77a2dd641",
+  "messages": [
+    {
+      "id": "000770d77a2dd641",
+      "snippet": "Hi Tom, Great - so that's confirmed for the flat viewing at 11am Saturday, 14 Maple Court. The agent",
+      "subject": "Re: viewing on Saturday",
+      "sender": "g.hallam@northbridge-realty.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-04-02T18:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi Tom,\n\nGreat - so that's confirmed for the flat viewing at 11am Saturday, 14 Maple Court. The agent will meet you out front. Let me know if you need the postcode again.\n\nCheers,\nGreg\nNorthbridge Realty\n\n(Sorry if this isn't the right Tom - I was given this address by the office. Apologies for any confusion.)",
+      "htmlBody": "<div dir=\"ltr\">Hi Tom,<br><br>Great - so that&#x27;s confirmed for the flat viewing at 11am Saturday, 14 Maple Court. The agent will meet you out front. Let me know if you need the postcode again.<br><br>Cheers,<br>Greg<br>Northbridge Realty<br><br>(Sorry if this isn&#x27;t the right Tom - I was given this address by the office. Apologies for any confusion.)</div>"
+    }
+  ]
+}

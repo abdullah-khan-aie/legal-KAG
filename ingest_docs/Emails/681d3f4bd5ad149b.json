@@ -1,0 +1,22 @@
+{
+  "id": "681d3f4bd5ad149b",
+  "messages": [
+    {
+      "id": "681d3f4bd5ad149b",
+      "snippet": "Hi both, February time is not yet fully posted. Please ensure all narratives are entered and release",
+      "subject": "Time entry reminder — February WIP",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-03-03T16:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi both,\n\nFebruary time is not yet fully posted. Please ensure all narratives are entered and released by 5pm Wednesday so we can run the month-end WIP report. Chargeable target reminders will follow separately.\n\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">Hi both,<br><br>February time is not yet fully posted. Please ensure all narratives are entered and released by 5pm Wednesday so we can run the month-end WIP report. Chargeable target reminders will follow separately.<br><br>Accounts</div>"
+    }
+  ]
+}

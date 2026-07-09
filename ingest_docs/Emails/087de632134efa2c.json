@@ -1,0 +1,36 @@
+{
+  "id": "087de632134efa2c",
+  "messages": [
+    {
+      "id": "087de632134efa2c",
+      "snippet": "Helena, Rohan, Nadia, I'm pleased to confirm Project Onyx completed this afternoon. The £24m subscri",
+      "subject": "Project Onyx - completed; executed SSA attached",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "helena.voss@verdantenergysystems.com",
+        "rohan.bhatt@verdantenergysystems.com",
+        "nadia.fenwick@verdantenergysystems.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-13T18:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Helena, Rohan, Nadia,\n\nI'm pleased to confirm Project Onyx completed this afternoon. The £24m subscription monies have been received and the Series B shares allotted. Attached is the executed Subscription and Shareholders' Agreement; the executed Articles, IRA and board minutes will follow in the completion bible next week. We'll make the Companies House filings within the statutory deadline and update your statutory registers. Congratulations again.\n\nJames Osei | Whitfield Carter LLP\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Helena, Rohan, Nadia,<br><br>I&#x27;m pleased to confirm Project Onyx completed this afternoon. The £24m subscription monies have been received and the Series B shares allotted. Attached is the executed Subscription and Shareholders&#x27; Agreement; the executed Articles, IRA and board minutes will follow in the completion bible next week. We&#x27;ll make the Companies House filings within the statutory deadline and update your statutory registers. Congratulations again.<br><br>James Osei | Whitfield Carter LLP<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "VU-De3_ykYrMFB4osT2gWptAoN90i2ybvjirO69cUg0"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Onyx_SubscriptionAndShareholdersAgreement_Executed.pdf",
+          "id": "VU-De3_ykYrMFB4osT2gWptAoN90i2ybvjirO69cUg0",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

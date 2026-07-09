@@ -1,0 +1,21 @@
+{
+  "id": "f06fc62e72fc6106",
+  "messages": [
+    {
+      "id": "f06fc62e72fc6106",
+      "snippet": "Hi James, Our records show 6.4 hours of unposted time for May across two matters. Please complete yo",
+      "subject": "Time recording — May narratives outstanding",
+      "sender": "finance@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-06-02T08:05:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi James,\n\nOur records show 6.4 hours of unposted time for May across two matters. Please complete your narratives by close of play Wednesday so we can run the June bills. If any of this is non-chargeable, please mark it accordingly.\n\nThanks,\nFinance\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nDX 138760 Cheapside | +44 (0)20 7946 0991\nwww.whitfieldcarter.com\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Hi James,<br><br>Our records show 6.4 hours of unposted time for May across two matters. Please complete your narratives by close of play Wednesday so we can run the June bills. If any of this is non-chargeable, please mark it accordingly.<br><br>Thanks,<br>Finance<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>DX 138760 Cheapside | +44 (0)20 7946 0991<br>www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div>"
+    }
+  ]
+}

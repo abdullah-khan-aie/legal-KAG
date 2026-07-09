@@ -1,0 +1,22 @@
+{
+  "id": "64ea4e8f0a975f88",
+  "messages": [
+    {
+      "id": "64ea4e8f0a975f88",
+      "snippet": "Dear all, Join us on Thursday 21 May at 12:30 in the 8th-floor training room for a one-hour CPD sess",
+      "subject": "Lunchtime CLE: Recent developments in warranty & indemnity insurance",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-05-12T13:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear all,\n\nJoin us on Thursday 21 May at 12:30 in the 8th-floor training room for a one-hour CPD session on recent developments in W&I insurance on private M&A and growth equity deals, presented by guest speaker from Lockton. Sandwiches provided. 1 hour CPD.\n\nPlease RSVP via the learning portal.\n\nBest wishes,\nKnowledge & Learning Team",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>Join us on Thursday 21 May at 12:30 in the 8th-floor training room for a one-hour CPD session on recent developments in W&amp;I insurance on private M&amp;A and growth equity deals, presented by guest speaker from Lockton. Sandwiches provided. 1 hour CPD.<br><br>Please RSVP via the learning portal.<br><br>Best wishes,<br>Knowledge &amp; Learning Team</div>"
+    }
+  ]
+}

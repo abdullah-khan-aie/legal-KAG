@@ -1,0 +1,67 @@
+{
+  "id": "a08856f63c849e5e",
+  "messages": [
+    {
+      "id": "a08856f63c849e5e",
+      "snippet": "Charles, Miriam, Following the call, here is where we have landed on the heads of terms. Headline en",
+      "subject": "Project Atlas - Heads of Terms (subject to contract)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "charles.aldous@kingsfordgroup.com",
+        "miriam.cole@kingsfordgroup.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "nathan.reilly@kingsfordgroup.com"
+      ],
+      "date": "2025-10-24T11:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Charles, Miriam,\n\nFollowing the call, here is where we have landed on the heads of terms. Headline enterprise value of GBP 62m, equity value GBP 54.5m after net debt of c.GBP 7.5m. Consideration split: GBP 50m cash at completion, GBP 2.5m retention in escrow for 18 months, and up to GBP 2m deferred on a FY26 EBITDA earn-out. Exclusivity to 31 January. The document is marked subject to contract save for the binding paragraphs (exclusivity, costs, confidentiality, governing law).\n\nGrateful for any comments before we send to Harland Vesey.\n\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Charles, Miriam,<br><br>Following the call, here is where we have landed on the heads of terms. Headline enterprise value of GBP 62m, equity value GBP 54.5m after net debt of c.GBP 7.5m. Consideration split: GBP 50m cash at completion, GBP 2.5m retention in escrow for 18 months, and up to GBP 2m deferred on a FY26 EBITDA earn-out. Exclusivity to 31 January. The document is marked subject to contract save for the binding paragraphs (exclusivity, costs, confidentiality, governing law).<br><br>Grateful for any comments before we send to Harland Vesey.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "594ce0a498a492f4",
+      "snippet": "James, The structure works for us. One point - can we make clear the earn-out is uncapped on the dow",
+      "subject": "RE: Project Atlas - Heads of Terms (subject to contract)",
+      "sender": "miriam.cole@kingsfordgroup.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "nathan.reilly@kingsfordgroup.com",
+        "charles.aldous@kingsfordgroup.com"
+      ],
+      "date": "2025-10-24T16:22:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nThe structure works for us. One point - can we make clear the earn-out is uncapped on the downside only to the extent of the GBP 2m, i.e. no clawback of the cash consideration. Otherwise happy for this to go across.\n\nMiriam\n\nOn Fri, Oct 24, 2025 at 11:05 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Charles, Miriam,\n>\n> Following the call, here is where we have landed on the heads of terms. Headline enterprise value of GBP 62m, equity value GBP 54.5m after net debt of c.GBP 7.5m. Consideration split: GBP 50m cash at completion, GBP 2.5m retention in escrow for 18 months, and up to GBP 2m deferred on a FY26 EBITDA earn-out. Exclusivity to 31 January. The document is marked subject to contract save for the binding paragraphs (exclusivity, costs, confidentiality, governing law).\n>\n> Grateful for any comments before we send to Harland Vesey.\n>\n> James\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>The structure works for us. One point - can we make clear the earn-out is uncapped on the downside only to the extent of the GBP 2m, i.e. no clawback of the cash consideration. Otherwise happy for this to go across.<br><br>Miriam</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Oct 24, 2025 at 11:05 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Charles, Miriam,<br><br>Following the call, here is where we have landed on the heads of terms. Headline enterprise value of GBP 62m, equity value GBP 54.5m after net debt of c.GBP 7.5m. Consideration split: GBP 50m cash at completion, GBP 2.5m retention in escrow for 18 months, and up to GBP 2m deferred on a FY26 EBITDA earn-out. Exclusivity to 31 January. The document is marked subject to contract save for the binding paragraphs (exclusivity, costs, confidentiality, governing law).<br><br>Grateful for any comments before we send to Harland Vesey.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    },
+    {
+      "id": "4306f14f24d2a26b",
+      "snippet": "Miriam, Yes - the earn-out is purely additive (nil to GBP 2m), there is no clawback of the completio",
+      "subject": "RE: Project Atlas - Heads of Terms (subject to contract)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "miriam.cole@kingsfordgroup.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "nathan.reilly@kingsfordgroup.com",
+        "charles.aldous@kingsfordgroup.com"
+      ],
+      "date": "2025-10-24T17:01:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Miriam,\n\nYes - the earn-out is purely additive (nil to GBP 2m), there is no clawback of the completion cash. I will make that explicit and send to the other side tonight.\n\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.\n\nOn Fri, Oct 24, 2025 at 4:22 PM, Miriam Cole <miriam.cole@kingsfordgroup.com> wrote:\n> James,\n>\n> The structure works for us. One point - can we make clear the earn-out is uncapped on the downside only to the extent of the GBP 2m, i.e. no clawback of the cash consideration. Otherwise happy for this to go across.\n>\n> Miriam\n>\n> On Fri, Oct 24, 2025 at 11:05 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > Charles, Miriam,\n> >\n> > Following the call, here is where we have landed on the heads of terms. Headline enterprise value of GBP 62m, equity value GBP 54.5m after net debt of c.GBP 7.5m. Consideration split: GBP 50m cash at completion, GBP 2.5m retention in escrow for 18 months, and up to GBP 2m deferred on a FY26 EBITDA earn-out. Exclusivity to 31 January. The document is marked subject to contract save for the binding paragraphs (exclusivity, costs, confidentiality, governing law).\n> >\n> > Grateful for any comments before we send to Harland Vesey.\n> >\n> > James\n> >\n> > --\n> > Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> > This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Miriam,<br><br>Yes - the earn-out is purely additive (nil to GBP 2m), there is no clawback of the completion cash. I will make that explicit and send to the other side tonight.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Oct 24, 2025 at 4:22 PM, Miriam Cole &lt;miriam.cole@kingsfordgroup.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>The structure works for us. One point - can we make clear the earn-out is uncapped on the downside only to the extent of the GBP 2m, i.e. no clawback of the cash consideration. Otherwise happy for this to go across.<br><br>Miriam</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Oct 24, 2025 at 11:05 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Charles, Miriam,<br><br>Following the call, here is where we have landed on the heads of terms. Headline enterprise value of GBP 62m, equity value GBP 54.5m after net debt of c.GBP 7.5m. Consideration split: GBP 50m cash at completion, GBP 2.5m retention in escrow for 18 months, and up to GBP 2m deferred on a FY26 EBITDA earn-out. Exclusivity to 31 January. The document is marked subject to contract save for the binding paragraphs (exclusivity, costs, confidentiality, governing law).<br><br>Grateful for any comments before we send to Harland Vesey.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

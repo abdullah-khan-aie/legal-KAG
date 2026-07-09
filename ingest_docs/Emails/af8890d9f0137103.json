@@ -1,0 +1,35 @@
+{
+  "id": "af8890d9f0137103",
+  "messages": [
+    {
+      "id": "af8890d9f0137103",
+      "snippet": "Dear Oliver, Deepa, Please find attached the first draft of the Subscription Agreement for Project K",
+      "subject": "Project Kestrel - Subscription Agreement (first draft)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-10T14:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Oliver, Deepa,\n\nPlease find attached the first draft of the Subscription Agreement for Project Kestrel. Key commercial terms (2,000,000 Series B shares at £10.00, £20m) follow the signed term sheet. The Investor Rights Agreement and amended Articles will follow this week.\n\nWe look forward to your mark-up.\n\nKind regards,\nJames\nJames Osei  |  Senior Associate\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nwww.whitfieldcarter.com\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Oliver, Deepa,<br><br>Please find attached the first draft of the Subscription Agreement for Project Kestrel. Key commercial terms (2,000,000 Series B shares at £10.00, £20m) follow the signed term sheet. The Investor Rights Agreement and amended Articles will follow this week.<br><br>We look forward to your mark-up.<br><br>Kind regards,<br>James<br>James Osei  |  Senior Associate<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "mRM81Ng6ZvEtnBRneSWnYeK7DHZsX3_DalnSUPu-vp4"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Kestrel_SubscriptionAgreement_v1.docx",
+          "id": "mRM81Ng6ZvEtnBRneSWnYeK7DHZsX3_DalnSUPu-vp4",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

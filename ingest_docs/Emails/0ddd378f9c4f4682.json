@@ -1,0 +1,21 @@
+{
+  "id": "0ddd378f9c4f4682",
+  "messages": [
+    {
+      "id": "0ddd378f9c4f4682",
+      "snippet": "Dear Tom, Our records show unposted time for January across two of your matters. Please ensure all J",
+      "subject": "Time recording reminder - January WIP",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-02-26T16:10:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Dear Tom,\n\nOur records show unposted time for January across two of your matters. Please ensure all January time is recorded and released by Friday 28 February so we can run month-end billing. If any entries should be written off, let us know and we'll arrange.\n\nMany thanks,\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Tom,<br><br>Our records show unposted time for January across two of your matters. Please ensure all January time is recorded and released by Friday 28 February so we can run month-end billing. If any entries should be written off, let us know and we&#x27;ll arrange.<br><br>Many thanks,<br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

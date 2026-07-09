@@ -1,0 +1,25 @@
+{
+  "id": "00d096bbf682812f",
+  "messages": [
+    {
+      "id": "00d096bbf682812f",
+      "snippet": "Hi, Our records show unposted time from February against several matters. Please ensure all narrativ",
+      "subject": "Unposted time — February (reminder)",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-31T16:45:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi,\n\nOur records show unposted time from February against several matters. Please ensure all narratives are posted by close of play Wednesday so we can run the March bills. Partners, please review and approve drafts in the WIP queue.\n\nMany thanks,\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hi,<br><br>Our records show unposted time from February against several matters. Please ensure all narratives are posted by close of play Wednesday so we can run the March bills. Partners, please review and approve drafts in the WIP queue.<br><br>Many thanks,<br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

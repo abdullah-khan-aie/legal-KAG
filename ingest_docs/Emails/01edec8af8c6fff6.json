@@ -1,0 +1,55 @@
+{
+  "id": "01edec8af8c6fff6",
+  "messages": [
+    {
+      "id": "01edec8af8c6fff6",
+      "snippet": "Rebecca, Attached are the Heads of Terms (subject to contract). Key binding points are confidentiali",
+      "subject": "Project — Heads of Terms for signature",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "rebecca.lund@harrowprecision.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-01-21T11:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Rebecca,\n\nAttached are the Heads of Terms (subject to contract). Key binding points are confidentiality, a 60-day exclusivity period and costs. On liability we've put the opening position at 100% of trailing 12 months' charges — expect Stratton to push for more.\n\nHappy for you to sign and send to Robert Pearce at Stratton.\n\nBest,\nJames\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Rebecca,<br><br>Attached are the Heads of Terms (subject to contract). Key binding points are confidentiality, a 60-day exclusivity period and costs. On liability we&#x27;ve put the opening position at 100% of trailing 12 months&#x27; charges — expect Stratton to push for more.<br><br>Happy for you to sign and send to Robert Pearce at Stratton.<br><br>Best,<br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "fNrSoWd837ZL_qn2P9OVSMBgDpLjVF-9PU09xtqtC88"
+      ],
+      "attachments": [
+        {
+          "filename": "HPE_Stratton_HeadsOfTerms.docx",
+          "id": "fNrSoWd837ZL_qn2P9OVSMBgDpLjVF-9PU09xtqtC88",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "5b26ba364220daa5",
+      "snippet": "Thanks James — Daniel and I have signed. Sending to Robert now. Let's get the first full draft over ",
+      "subject": "RE: Project — Heads of Terms for signature",
+      "sender": "rebecca.lund@harrowprecision.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "daniel.harrow@harrowprecision.com"
+      ],
+      "date": "2025-01-22T08:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Thanks James — Daniel and I have signed. Sending to Robert now. Let's get the first full draft over to them quickly.\n\nRebecca\n\nOn Tue, Jan 21, 2025 at 11:05 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Rebecca,\n>\n> Attached are the Heads of Terms (subject to contract). Key binding points are confidentiality, a 60-day exclusivity period and costs. On liability we've put the opening position at 100% of trailing 12 months' charges — expect Stratton to push for more.\n>\n> Happy for you to sign and send to Robert Pearce at Stratton.\n>\n> Best,\n> James\n>\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks James — Daniel and I have signed. Sending to Robert now. Let&#x27;s get the first full draft over to them quickly.<br><br>Rebecca</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jan 21, 2025 at 11:05 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Rebecca,<br><br>Attached are the Heads of Terms (subject to contract). Key binding points are confidentiality, a 60-day exclusivity period and costs. On liability we&#x27;ve put the opening position at 100% of trailing 12 months&#x27; charges — expect Stratton to push for more.<br><br>Happy for you to sign and send to Robert Pearce at Stratton.<br><br>Best,<br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

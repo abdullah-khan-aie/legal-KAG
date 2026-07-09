@@ -1,0 +1,92 @@
+{
+  "id": "68447e29d6a950d2",
+  "messages": [
+    {
+      "id": "68447e29d6a950d2",
+      "snippet": "James, Please find our first draft of the sale contract (SCPC Third Edition). Deposit held as stakeh",
+      "subject": "Project Redwood — draft sale contract",
+      "sender": "alistair.whitlock@pembertonrowe.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "nadia.iqbal@pembertonrowe.com"
+      ],
+      "date": "2026-03-16T15:45:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "James,\n\nPlease find our first draft of the sale contract (SCPC Third Edition). Deposit held as stakeholder per the heads of terms, full title guarantee, TOGC mechanics in clause 4, and the rent review provisions in clause 13. Let us have your mark-up.\n\nAlistair",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Please find our first draft of the sale contract (SCPC Third Edition). Deposit held as stakeholder per the heads of terms, full title guarantee, TOGC mechanics in clause 4, and the rent review provisions in clause 13. Let us have your mark-up.<br><br>Alistair</div>"
+    },
+    {
+      "id": "4237203fa7db25a6",
+      "snippet": "Alistair, Our mark-up attached (v2 redline). Two substantive points: 1. Clause 9.2 — we've extended ",
+      "subject": "RE: Project Redwood — draft sale contract (our mark-up v2)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "nadia.iqbal@pembertonrowe.com"
+      ],
+      "date": "2026-03-20T11:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Alistair,\n\nOur mark-up attached (v2 redline). Two substantive points:\n\n1. Clause 9.2 — we've extended the arrears assignment window from three to six months; three is too tight for our client to chase tenant arrears.\n\n2. Clause 13 — we've added a £150,000 review retention held by us as stakeholder pending the Mercer Wells review, released to the seller once the reviewed rent is agreed, net of any sum due to the buyer. Given the size of the potential uplift we think a retention is justified.\n\nOtherwise we can largely live with the draft. Grateful for a quick turn.\n\nJames\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nDX 134777 Bishopsgate | +44 (0)20 7946 0500\nConfidential and may be legally privileged.\n\nOn Mon, Mar 16, 2026 at 3:45 PM, Alistair Whitlock <alistair.whitlock@pembertonrowe.com> wrote:\n> James,\n>\n> Please find our first draft of the sale contract (SCPC Third Edition). Deposit held as stakeholder per the heads of terms, full title guarantee, TOGC mechanics in clause 4, and the rent review provisions in clause 13. Let us have your mark-up.\n>\n> Alistair",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Alistair,<br><br>Our mark-up attached (v2 redline). Two substantive points:<br><br>1. Clause 9.2 — we&#x27;ve extended the arrears assignment window from three to six months; three is too tight for our client to chase tenant arrears.<br><br>2. Clause 13 — we&#x27;ve added a £150,000 review retention held by us as stakeholder pending the Mercer Wells review, released to the seller once the reviewed rent is agreed, net of any sum due to the buyer. Given the size of the potential uplift we think a retention is justified.<br><br>Otherwise we can largely live with the draft. Grateful for a quick turn.<br><br>James<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>DX 134777 Bishopsgate | +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Mar 16, 2026 at 3:45 PM, Alistair Whitlock &lt;alistair.whitlock@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Please find our first draft of the sale contract (SCPC Third Edition). Deposit held as stakeholder per the heads of terms, full title guarantee, TOGC mechanics in clause 4, and the rent review provisions in clause 13. Let us have your mark-up.<br><br>Alistair</div></blockquote></div></div>",
+      "attachmentIds": [
+        "b7xhBQgQpK8pOSmW_GKLmxuZiBRkd14Q1WaZ1Fapjh8"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Redwood_SaleContract_v2_redline.docx",
+          "id": "b7xhBQgQpK8pOSmW_GKLmxuZiBRkd14Q1WaZ1Fapjh8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "e0fa0705723452d9",
+      "snippet": "James, Seller has considered your v2. Responses (v3 redline to follow from Nadia): - Clause 9.2 — si",
+      "subject": "RE: Project Redwood — draft sale contract (seller response v3)",
+      "sender": "alistair.whitlock@pembertonrowe.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "nadia.iqbal@pembertonrowe.com"
+      ],
+      "date": "2026-04-08T16:25:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "James,\n\nSeller has considered your v2. Responses (v3 redline to follow from Nadia):\n\n- Clause 9.2 — six months agreed.\n- Clause 13 retention — agreed in principle but Hartmoor will only accept £100,000, not £150,000, and want a longstop: if the review isn't agreed or determined by 30 September 2026 the retention is released to them in full, with your client's accounting rights under 13.2 continuing. We think that's a fair compromise.\n\nIf that works we're essentially there and can aim to exchange w/c 21 April.\n\nAlistair\n\nOn Fri, Mar 20, 2026 at 11:05 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Alistair,\n>\n> Our mark-up attached (v2 redline). Two substantive points:\n>\n> 1. Clause 9.2 — we've extended the arrears assignment window from three to six months; three is too tight for our client to chase tenant arrears.\n>\n> 2. Clause 13 — we've added a £150,000 review retention held by us as stakeholder pending the Mercer Wells review, released to the seller once the reviewed rent is agreed, net of any sum due to the buyer. Given the size of the potential uplift we think a retention is justified.\n>\n> Otherwise we can largely live with the draft. Grateful for a quick turn.\n>\n> James\n>\n> —\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> DX 134777 Bishopsgate | +44 (0)20 7946 0500\n> Confidential and may be legally privileged.\n>\n> On Mon, Mar 16, 2026 at 3:45 PM, Alistair Whitlock <alistair.whitlock@pembertonrowe.com> wrote:\n> > James,\n> >\n> > Please find our first draft of the sale contract (SCPC Third Edition). Deposit held as stakeholder per the heads of terms, full title guarantee, TOGC mechanics in clause 4, and the rent review provisions in clause 13. Let us have your mark-up.\n> >\n> > Alistair",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Seller has considered your v2. Responses (v3 redline to follow from Nadia):<br><br>- Clause 9.2 — six months agreed.<br>- Clause 13 retention — agreed in principle but Hartmoor will only accept £100,000, not £150,000, and want a longstop: if the review isn&#x27;t agreed or determined by 30 September 2026 the retention is released to them in full, with your client&#x27;s accounting rights under 13.2 continuing. We think that&#x27;s a fair compromise.<br><br>If that works we&#x27;re essentially there and can aim to exchange w/c 21 April.<br><br>Alistair</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Mar 20, 2026 at 11:05 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Alistair,<br><br>Our mark-up attached (v2 redline). Two substantive points:<br><br>1. Clause 9.2 — we&#x27;ve extended the arrears assignment window from three to six months; three is too tight for our client to chase tenant arrears.<br><br>2. Clause 13 — we&#x27;ve added a £150,000 review retention held by us as stakeholder pending the Mercer Wells review, released to the seller once the reviewed rent is agreed, net of any sum due to the buyer. Given the size of the potential uplift we think a retention is justified.<br><br>Otherwise we can largely live with the draft. Grateful for a quick turn.<br><br>James<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>DX 134777 Bishopsgate | +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Mar 16, 2026 at 3:45 PM, Alistair Whitlock &lt;alistair.whitlock@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Please find our first draft of the sale contract (SCPC Third Edition). Deposit held as stakeholder per the heads of terms, full title guarantee, TOGC mechanics in clause 4, and the rent review provisions in clause 13. Let us have your mark-up.<br><br>Alistair</div></blockquote></div></div></blockquote></div></div>"
+    },
+    {
+      "id": "396b6e5ee692b1b0",
+      "snippet": "Alistair, We can accept £100,000 retention with the 30 September longstop as you describe. Please se",
+      "subject": "RE: Project Redwood — draft sale contract (seller response v3)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-09T09:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Alistair,\n\nWe can accept £100,000 retention with the 30 September longstop as you describe. Please send the v3 engrossment and we'll get it to our client to sign. Targeting exchange 24 April.\n\nJames\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nDX 134777 Bishopsgate | +44 (0)20 7946 0500\nConfidential and may be legally privileged.\n\nOn Wed, Apr 8, 2026 at 4:25 PM, Alistair Whitlock <alistair.whitlock@pembertonrowe.com> wrote:\n> James,\n>\n> Seller has considered your v2. Responses (v3 redline to follow from Nadia):\n>\n> - Clause 9.2 — six months agreed.\n> - Clause 13 retention — agreed in principle but Hartmoor will only accept £100,000, not £150,000, and want a longstop: if the review isn't agreed or determined by 30 September 2026 the retention is released to them in full, with your client's accounting rights under 13.2 continuing. We think that's a fair compromise.\n>\n> If that works we're essentially there and can aim to exchange w/c 21 April.\n>\n> Alistair\n>\n> On Fri, Mar 20, 2026 at 11:05 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > Alistair,\n> >\n> > Our mark-up attached (v2 redline). Two substantive points:\n> >\n> > 1. Clause 9.2 — we've extended the arrears assignment window from three to six months; three is too tight for our client to chase tenant arrears.\n> >\n> > 2. Clause 13 — we've added a £150,000 review retention held by us as stakeholder pending the Mercer Wells review, released to the seller once the reviewed rent is agreed, net of any sum due to the buyer. Given the size of the potential uplift we think a retention is justified.\n> >\n> > Otherwise we can largely live with the draft. Grateful for a quick turn.\n> >\n> > James\n> >\n> > —\n> > Whitfield Carter LLP\n> > 22 Bishopsgate, London EC2N 4BQ\n> > DX 134777 Bishopsgate | +44 (0)20 7946 0500\n> > Confidential and may be legally privileged.\n> >\n> > On Mon, Mar 16, 2026 at 3:45 PM, Alistair Whitlock <alistair.whitlock@pembertonrowe.com> wrote:\n> > > James,\n> > >\n> > > Please find our first draft of the sale contract (SCPC Third Edition). Deposit held as stakeholder per the heads of terms, full title guarantee, TOGC mechanics in clause 4, and the rent review provisions in clause 13. Let us have your mark-up.\n> > >\n> > > Alistair",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Alistair,<br><br>We can accept £100,000 retention with the 30 September longstop as you describe. Please send the v3 engrossment and we&#x27;ll get it to our client to sign. Targeting exchange 24 April.<br><br>James<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>DX 134777 Bishopsgate | +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Apr 8, 2026 at 4:25 PM, Alistair Whitlock &lt;alistair.whitlock@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Seller has considered your v2. Responses (v3 redline to follow from Nadia):<br><br>- Clause 9.2 — six months agreed.<br>- Clause 13 retention — agreed in principle but Hartmoor will only accept £100,000, not £150,000, and want a longstop: if the review isn&#x27;t agreed or determined by 30 September 2026 the retention is released to them in full, with your client&#x27;s accounting rights under 13.2 continuing. We think that&#x27;s a fair compromise.<br><br>If that works we&#x27;re essentially there and can aim to exchange w/c 21 April.<br><br>Alistair</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Mar 20, 2026 at 11:05 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Alistair,<br><br>Our mark-up attached (v2 redline). Two substantive points:<br><br>1. Clause 9.2 — we&#x27;ve extended the arrears assignment window from three to six months; three is too tight for our client to chase tenant arrears.<br><br>2. Clause 13 — we&#x27;ve added a £150,000 review retention held by us as stakeholder pending the Mercer Wells review, released to the seller once the reviewed rent is agreed, net of any sum due to the buyer. Given the size of the potential uplift we think a retention is justified.<br><br>Otherwise we can largely live with the draft. Grateful for a quick turn.<br><br>James<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>DX 134777 Bishopsgate | +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Mar 16, 2026 at 3:45 PM, Alistair Whitlock &lt;alistair.whitlock@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Please find our first draft of the sale contract (SCPC Third Edition). Deposit held as stakeholder per the heads of terms, full title guarantee, TOGC mechanics in clause 4, and the rent review provisions in clause 13. Let us have your mark-up.<br><br>Alistair</div></blockquote></div></div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "6490867f9f1ac64f",
+  "messages": [
+    {
+      "id": "6490867f9f1ac64f",
+      "snippet": "Hi Tom, Are we still on for 8 people at the Riverside on Saturday for Jonathan's birthday? Let me kn",
+      "subject": "Table for Saturday?",
+      "sender": "priya.anand@crestviewcapital.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-07-19T19:44:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi Tom,\n\nAre we still on for 8 people at the Riverside on Saturday for Jonathan's birthday? Let me know if I should bump the booking to 8:30. Also did anyone sort the cake?\n\nP\n\n(Sent from my phone)",
+      "htmlBody": "<div dir=\"ltr\">Hi Tom,<br><br>Are we still on for 8 people at the Riverside on Saturday for Jonathan&#x27;s birthday? Let me know if I should bump the booking to 8:30. Also did anyone sort the cake?<br><br>P<br><br>(Sent from my phone)</div>"
+    }
+  ]
+}

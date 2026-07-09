@@ -1,0 +1,49 @@
+{
+  "id": "83fd445301d8781b",
+  "messages": [
+    {
+      "id": "83fd445301d8781b",
+      "snippet": "Sarah, We'd like to instruct you on the acquisition of Kestrel House, 14 Forbury Road, Reading - a m",
+      "subject": "Project Larkspur - Kestrel House, Reading - instruction",
+      "sender": "isla.fournier@marchwoodpropertygroup.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-17T09:12:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Sarah,\n\nWe'd like to instruct you on the acquisition of Kestrel House, 14 Forbury Road, Reading - a multi-let office investment we've agreed in principle to buy from Brantwood Asset Management at £14.25m. Heads of terms are being finalised this week.\n\nCan you send over an engagement letter and the AML pack? Day-to-day contact our side is me, with Rebecca Stone on the funding.\n\nIsla\n\nIsla Fournier\nHead of Acquisitions\nMarchwood Property Group Limited",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>We&#x27;d like to instruct you on the acquisition of Kestrel House, 14 Forbury Road, Reading - a multi-let office investment we&#x27;ve agreed in principle to buy from Brantwood Asset Management at £14.25m. Heads of terms are being finalised this week.<br><br>Can you send over an engagement letter and the AML pack? Day-to-day contact our side is me, with Rebecca Stone on the funding.<br><br>Isla<br><br>Isla Fournier<br>Head of Acquisitions<br>Marchwood Property Group Limited</div>"
+    },
+    {
+      "id": "c785831748e18e99",
+      "snippet": "Isla, Delighted to act. Our engagement letter is attached - please countersign and return with the c",
+      "subject": "RE: Project Larkspur - Kestrel House, Reading - instruction",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "isla.fournier@marchwoodpropertygroup.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com",
+        "rebecca.stone@marchwoodpropertygroup.com"
+      ],
+      "date": "2026-02-19T15:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Isla,\n\nDelighted to act. Our engagement letter is attached - please countersign and return with the completed AML pack. Elena Marchetti will run the day-to-day; I'll keep partner oversight.\n\nWe've cleared conflicts and confirm we don't act for Brantwood. Fee estimate is £48-55k plus VAT and disbursements on the assumptions set out in the letter.\n\nKind regards\nSarah\n\nSarah Whitfield\nPartner - Real Estate\nWhitfield Carter LLP\n\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Tue, Feb 17, 2026 at 9:12 AM, Isla Fournier <isla.fournier@marchwoodpropertygroup.com> wrote:\n> Sarah,\n>\n> We'd like to instruct you on the acquisition of Kestrel House, 14 Forbury Road, Reading - a multi-let office investment we've agreed in principle to buy from Brantwood Asset Management at £14.25m. Heads of terms are being finalised this week.\n>\n> Can you send over an engagement letter and the AML pack? Day-to-day contact our side is me, with Rebecca Stone on the funding.\n>\n> Isla\n>\n> Isla Fournier\n> Head of Acquisitions\n> Marchwood Property Group Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Isla,<br><br>Delighted to act. Our engagement letter is attached - please countersign and return with the completed AML pack. Elena Marchetti will run the day-to-day; I&#x27;ll keep partner oversight.<br><br>We&#x27;ve cleared conflicts and confirm we don&#x27;t act for Brantwood. Fee estimate is £48-55k plus VAT and disbursements on the assumptions set out in the letter.<br><br>Kind regards<br>Sarah<br><br>Sarah Whitfield<br>Partner - Real Estate<br>Whitfield Carter LLP<br><br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Feb 17, 2026 at 9:12 AM, Isla Fournier &lt;isla.fournier@marchwoodpropertygroup.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>We&#x27;d like to instruct you on the acquisition of Kestrel House, 14 Forbury Road, Reading - a multi-let office investment we&#x27;ve agreed in principle to buy from Brantwood Asset Management at £14.25m. Heads of terms are being finalised this week.<br><br>Can you send over an engagement letter and the AML pack? Day-to-day contact our side is me, with Rebecca Stone on the funding.<br><br>Isla<br><br>Isla Fournier<br>Head of Acquisitions<br>Marchwood Property Group Limited</div></blockquote></div></div>",
+      "attachmentIds": [
+        "V7Olbn7IZt1XU7xjO_IQToQMvQELJWXCdM1dzKEUnjo"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Larkspur_EngagementLetter.docx",
+          "id": "V7Olbn7IZt1XU7xjO_IQToQMvQELJWXCdM1dzKEUnjo",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

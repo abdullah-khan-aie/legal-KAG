@@ -1,0 +1,54 @@
+{
+  "id": "db858ed3987fecea",
+  "messages": [
+    {
+      "id": "db858ed3987fecea",
+      "snippet": "Eleanor, Attached is v3 (redline against v2). As agreed we've taken the Sellers' liability cap to 10",
+      "subject": "Project Quartz - SPA v3 (cap at 10%)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "eleanor.bartlett@ashworthquinn.com"
+      ],
+      "ccRecipients": [
+        "callum.hawkins@ashworthquinn.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-01-22T17:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Eleanor,\n\nAttached is v3 (redline against v2). As agreed we've taken the Sellers' liability cap to 10% of consideration (£3,875,000), retained the 18-month general / 7-year tax periods, and added a fraud/wilful-concealment carve-out. This is on the basis the Northstar consent position and the HMRC R&D enquiry are disclosed - your client has confirmed both will be.\n\nIf this works we'll move to engrossment and target completion on 13 February.\n\nJames\n\n--\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Eleanor,<br><br>Attached is v3 (redline against v2). As agreed we&#x27;ve taken the Sellers&#x27; liability cap to 10% of consideration (£3,875,000), retained the 18-month general / 7-year tax periods, and added a fraud/wilful-concealment carve-out. This is on the basis the Northstar consent position and the HMRC R&amp;D enquiry are disclosed - your client has confirmed both will be.<br><br>If this works we&#x27;ll move to engrossment and target completion on 13 February.<br><br>James<br><br>--<br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "oqf4SgNwZVLHJyd9HZi-tiz9hmqjhlvUltja23OOzQM"
+      ],
+      "attachments": [
+        {
+          "filename": "ProjectQuartz_SPA_v3_redline.docx",
+          "id": "oqf4SgNwZVLHJyd9HZi-tiz9hmqjhlvUltja23OOzQM",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "7c5cd5a565a1af4f",
+      "snippet": "James - agreed and approved by our clients. 10% cap works. Please prepare the engrossment and the di",
+      "subject": "RE: Project Quartz - SPA v3 (cap at 10%)",
+      "sender": "eleanor.bartlett@ashworthquinn.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-01-26T10:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James - agreed and approved by our clients. 10% cap works. Please prepare the engrossment and the disclosure letter for signing. We confirm 13 February for completion.\n\nEleanor\n\nOn Thu, Jan 22, 2026 at 5:00 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Eleanor,\n>\n> Attached is v3 (redline against v2). As agreed we've taken the Sellers' liability cap to 10% of consideration (£3,875,000), retained the 18-month general / 7-year tax periods, and added a fraud/wilful-concealment carve-out. This is on the basis the Northstar consent position and the HMRC R&D enquiry are disclosed - your client has confirmed both will be.\n>\n> If this works we'll move to engrossment and target completion on 13 February.\n>\n> James\n>\n> --\n> Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James - agreed and approved by our clients. 10% cap works. Please prepare the engrossment and the disclosure letter for signing. We confirm 13 February for completion.<br><br>Eleanor</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Jan 22, 2026 at 5:00 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Eleanor,<br><br>Attached is v3 (redline against v2). As agreed we&#x27;ve taken the Sellers&#x27; liability cap to 10% of consideration (£3,875,000), retained the 18-month general / 7-year tax periods, and added a fraud/wilful-concealment carve-out. This is on the basis the Northstar consent position and the HMRC R&amp;D enquiry are disclosed - your client has confirmed both will be.<br><br>If this works we&#x27;ll move to engrossment and target completion on 13 February.<br><br>James<br><br>--<br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

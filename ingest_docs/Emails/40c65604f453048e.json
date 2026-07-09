@@ -1,0 +1,40 @@
+{
+  "id": "40c65604f453048e",
+  "messages": [
+    {
+      "id": "40c65604f453048e",
+      "snippet": "Hi James, Just confirming the buffet order for 25 people this Friday at the Old Street office - sand",
+      "subject": "Your order for Friday - confirmation needed",
+      "sender": "megan.fyfe@brightleaf-catering.co.uk",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-07-30T10:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi James,\n\nJust confirming the buffet order for 25 people this Friday at the Old Street office - sandwiches, salad platters and the fruit boxes. Could you confirm the dietary requirements you mentioned? Also is it still reception on the 3rd floor?\n\nMany thanks,\nMegan\nBrightleaf Catering",
+      "htmlBody": "<div dir=\"ltr\">Hi James,<br><br>Just confirming the buffet order for 25 people this Friday at the Old Street office - sandwiches, salad platters and the fruit boxes. Could you confirm the dietary requirements you mentioned? Also is it still reception on the 3rd floor?<br><br>Many thanks,<br>Megan<br>Brightleaf Catering</div>"
+    },
+    {
+      "id": "19176a46ae1ef2cc",
+      "snippet": "Hi Megan, I think you have the wrong James - there's no catering order from me and our office is at ",
+      "subject": "RE: Your order for Friday - confirmation needed",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "megan.fyfe@brightleaf-catering.co.uk"
+      ],
+      "date": "2025-07-30T11:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi Megan,\n\nI think you have the wrong James - there's no catering order from me and our office is at Bishopsgate. You may be after a different client. Best of luck sorting it.\n\nJames Osei\n\nOn Wed, Jul 30, 2025 at 10:45 AM, Megan Fyfe <megan.fyfe@brightleaf-catering.co.uk> wrote:\n> Hi James,\n>\n> Just confirming the buffet order for 25 people this Friday at the Old Street office - sandwiches, salad platters and the fruit boxes. Could you confirm the dietary requirements you mentioned? Also is it still reception on the 3rd floor?\n>\n> Many thanks,\n> Megan\n> Brightleaf Catering",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Hi Megan,<br><br>I think you have the wrong James - there&#x27;s no catering order from me and our office is at Bishopsgate. You may be after a different client. Best of luck sorting it.<br><br>James Osei</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jul 30, 2025 at 10:45 AM, Megan Fyfe &lt;megan.fyfe@brightleaf-catering.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Hi James,<br><br>Just confirming the buffet order for 25 people this Friday at the Old Street office - sandwiches, salad platters and the fruit boxes. Could you confirm the dietary requirements you mentioned? Also is it still reception on the 3rd floor?<br><br>Many thanks,<br>Megan<br>Brightleaf Catering</div></blockquote></div></div>"
+    }
+  ]
+}

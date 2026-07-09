@@ -1,0 +1,23 @@
+{
+  "id": "668b3c248c8cb513",
+  "messages": [
+    {
+      "id": "668b3c248c8cb513",
+      "snippet": "Join us Thursday 1pm in the Bishopsgate training room for a session on W&I insurance on private M&A ",
+      "subject": "Lunch & learn: warranty & indemnity insurance in M&A",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-01-22T13:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Join us Thursday 1pm in the Bishopsgate training room for a session on W&I insurance on private M&A deals, with a guest from a leading broker. Sandwiches provided. RSVP to Knowledge & Learning.",
+      "htmlBody": "<div dir=\"ltr\">Join us Thursday 1pm in the Bishopsgate training room for a session on W&amp;I insurance on private M&amp;A deals, with a guest from a leading broker. Sandwiches provided. RSVP to Knowledge &amp; Learning.</div>"
+    }
+  ]
+}

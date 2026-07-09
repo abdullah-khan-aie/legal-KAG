@@ -1,0 +1,53 @@
+{
+  "id": "462699ad3a5438bc",
+  "messages": [
+    {
+      "id": "462699ad3a5438bc",
+      "snippet": "Tom, My final report is attached. In short: mean raceway hardness 53.4 HRC against the 60 HRC requir",
+      "subject": "Pennington v Tregarth - metallurgical report (final)",
+      "sender": "a.renwick@argentmetallurgical.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2024-12-16T16:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom,\n\nMy final report is attached. In short: mean raceway hardness 53.4 HRC against the 60 HRC requirement, classic sub-surface fatigue spalling, microstructure consistent with under-hardening, and the three alternative causes (overload, over-temperature, poor lubrication) excluded as the primary mechanism. Mean life observed ~4,100 hours against the 30,000-hour L10.\n\nHappy to discuss before you settle the pleadings.\n\nAdrian",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>My final report is attached. In short: mean raceway hardness 53.4 HRC against the 60 HRC requirement, classic sub-surface fatigue spalling, microstructure consistent with under-hardening, and the three alternative causes (overload, over-temperature, poor lubrication) excluded as the primary mechanism. Mean life observed ~4,100 hours against the 30,000-hour L10.<br><br>Happy to discuss before you settle the pleadings.<br><br>Adrian</div>"
+    },
+    {
+      "id": "83d2eb6940e4545d",
+      "snippet": "Adrian, This is exactly what we needed - thank you. The exclusion of the alternative causes is parti",
+      "subject": "RE: Pennington v Tregarth - metallurgical report (final)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "a.renwick@argentmetallurgical.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2024-12-17T09:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Adrian,\n\nThis is exactly what we needed - thank you. The exclusion of the alternative causes is particularly helpful given Tregarth are already trailing a misapplication defence. We'll be in touch about a CPR 35 statement once proceedings are afoot.\n\nTom\n\nTom Gallagher\nAssociate, Dispute Resolution\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nwww.whitfieldcarter.com\n\nOn Mon, Dec 16, 2024 at 4:20 PM, Dr Adrian Renwick <a.renwick@argentmetallurgical.com> wrote:\n> Tom,\n>\n> My final report is attached. In short: mean raceway hardness 53.4 HRC against the 60 HRC requirement, classic sub-surface fatigue spalling, microstructure consistent with under-hardening, and the three alternative causes (overload, over-temperature, poor lubrication) excluded as the primary mechanism. Mean life observed ~4,100 hours against the 30,000-hour L10.\n>\n> Happy to discuss before you settle the pleadings.\n>\n> Adrian",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Adrian,<br><br>This is exactly what we needed - thank you. The exclusion of the alternative causes is particularly helpful given Tregarth are already trailing a misapplication defence. We&#x27;ll be in touch about a CPR 35 statement once proceedings are afoot.<br><br>Tom<br><br>Tom Gallagher<br>Associate, Dispute Resolution<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>www.whitfieldcarter.com</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Dec 16, 2024 at 4:20 PM, Dr Adrian Renwick &lt;a.renwick@argentmetallurgical.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom,<br><br>My final report is attached. In short: mean raceway hardness 53.4 HRC against the 60 HRC requirement, classic sub-surface fatigue spalling, microstructure consistent with under-hardening, and the three alternative causes (overload, over-temperature, poor lubrication) excluded as the primary mechanism. Mean life observed ~4,100 hours against the 30,000-hour L10.<br><br>Happy to discuss before you settle the pleadings.<br><br>Adrian</div></blockquote></div></div>",
+      "attachmentIds": [
+        "uK8nvqNHn0biYA_iXH-Evw6bhv-NYsbyZK1zMRcqEEs"
+      ],
+      "attachments": [
+        {
+          "filename": "PENvTregarth_ExpertReport_Argent.pdf",
+          "id": "uK8nvqNHn0biYA_iXH-Evw6bhv-NYsbyZK1zMRcqEEs",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

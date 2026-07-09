@@ -1,0 +1,24 @@
+{
+  "id": "5317d5096d39f040",
+  "messages": [
+    {
+      "id": "5317d5096d39f040",
+      "snippet": "Dear colleagues, Join us for a lunchtime CPD session, 'PD 57AD Disclosure Two Years On: Practical Le",
+      "subject": "Lunchtime CPD: PD 57AD disclosure two years on — 16 April",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-02T10:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear colleagues,\n\nJoin us for a lunchtime CPD session, 'PD 57AD Disclosure Two Years On: Practical Lessons', on 16 April at 12:30 in the Bishopsgate training room (lunch provided). 1 hour CPD. Register via the L&D portal.\n\nBest wishes,\nKnowledge & Learning Team",
+      "htmlBody": "<div dir=\"ltr\">Dear colleagues,<br><br>Join us for a lunchtime CPD session, &#x27;PD 57AD Disclosure Two Years On: Practical Lessons&#x27;, on 16 April at 12:30 in the Bishopsgate training room (lunch provided). 1 hour CPD. Register via the L&amp;D portal.<br><br>Best wishes,<br>Knowledge &amp; Learning Team</div>"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "269d7cbe73ba288c",
+  "messages": [
+    {
+      "id": "269d7cbe73ba288c",
+      "snippet": "Tom — confirming the warehouse demo is at 10am Thursday, ask for me at reception and bring photo ID ",
+      "subject": "Re: site visit Thursday",
+      "sender": "marcus.penrose@penroserobotics.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-03-11T19:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Tom — confirming the warehouse demo is at 10am Thursday, ask for me at reception and bring photo ID for the floor. Hard hats provided.\n\nMarcus\n\n[Sent from my phone]\n\n— Tom, apologies, I think this was meant for a different Tom at the engineering firm; please ignore. M.",
+      "htmlBody": "<div dir=\"ltr\">Tom — confirming the warehouse demo is at 10am Thursday, ask for me at reception and bring photo ID for the floor. Hard hats provided.<br><br>Marcus<br><br>[Sent from my phone]<br><br>— Tom, apologies, I think this was meant for a different Tom at the engineering firm; please ignore. M.</div>"
+    }
+  ]
+}

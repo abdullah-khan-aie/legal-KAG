@@ -1,0 +1,54 @@
+{
+  "id": "e98c180df65ed126",
+  "messages": [
+    {
+      "id": "e98c180df65ed126",
+      "snippet": "Dear Mr Whitlock, We enclose by way of service the Claimant's Particulars of Claim, issued in the Bu",
+      "subject": "Particulars of Claim served - Marldale v Crayford (BL-2025-LDS-000241)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "nadia.iqbal@pembertonrowe.com"
+      ],
+      "date": "2025-04-09T15:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Mr Whitlock,\n\nWe enclose by way of service the Claimant's Particulars of Claim, issued in the Business and Property Courts in Leeds under claim number BL-2025-LDS-000241. The Schedule of Loss is served herewith and follows separately.\n\nWe look forward to receiving the Defence in due course.\n\nYours faithfully\n\nTom Gallagher\nAssociate | Litigation\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 5500\n\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Whitlock,<br><br>We enclose by way of service the Claimant&#x27;s Particulars of Claim, issued in the Business and Property Courts in Leeds under claim number BL-2025-LDS-000241. The Schedule of Loss is served herewith and follows separately.<br><br>We look forward to receiving the Defence in due course.<br><br>Yours faithfully<br><br>Tom Gallagher<br>Associate | Litigation<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 5500<br><br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "ma7yybp1dkoR-twiyTsBixIGpwoAVFmRCCBIXGLVk44"
+      ],
+      "attachments": [
+        {
+          "filename": "Marldale_ParticularsOfClaim_Filed.pdf",
+          "id": "ma7yybp1dkoR-twiyTsBixIGpwoAVFmRCCBIXGLVk44",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "8efb278b293ccc2d",
+      "snippet": "Dear Mr Gallagher, Receipt acknowledged. We will serve the Defence and Counterclaim within time. We ",
+      "subject": "RE: Particulars of Claim served - Marldale v Crayford (BL-2025-LDS-000241)",
+      "sender": "nadia.iqbal@pembertonrowe.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "date": "2025-04-11T11:25:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Mr Gallagher,\n\nReceipt acknowledged. We will serve the Defence and Counterclaim within time. We maintain the position previously notified.\n\nNadia Iqbal\nAssociate, Pemberton Rowe LLP\n\nOn Wed, Apr 9, 2025 at 3:00 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Mr Whitlock,\n>\n> We enclose by way of service the Claimant's Particulars of Claim, issued in the Business and Property Courts in Leeds under claim number BL-2025-LDS-000241. The Schedule of Loss is served herewith and follows separately.\n>\n> We look forward to receiving the Defence in due course.\n>\n> Yours faithfully\n>\n> Tom Gallagher\n> Associate | Litigation\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 5500\n>\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Mr Gallagher,<br><br>Receipt acknowledged. We will serve the Defence and Counterclaim within time. We maintain the position previously notified.<br><br>Nadia Iqbal<br>Associate, Pemberton Rowe LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Apr 9, 2025 at 3:00 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Mr Whitlock,<br><br>We enclose by way of service the Claimant&#x27;s Particulars of Claim, issued in the Business and Property Courts in Leeds under claim number BL-2025-LDS-000241. The Schedule of Loss is served herewith and follows separately.<br><br>We look forward to receiving the Defence in due course.<br><br>Yours faithfully<br><br>Tom Gallagher<br>Associate | Litigation<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 5500<br><br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

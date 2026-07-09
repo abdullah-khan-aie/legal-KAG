@@ -1,0 +1,53 @@
+{
+  "id": "2655bccab180cb8d",
+  "messages": [
+    {
+      "id": "2655bccab180cb8d",
+      "snippet": "Dear Mr Velloran, Further to Daniel Reston's introduction, please find attached the mutual non-discl",
+      "subject": "Project Quartz — mutual NDA",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "geoffrey.velloran@velloranhygiene.com"
+      ],
+      "ccRecipients": [
+        "daniel.reston@strathmorecapital.com"
+      ],
+      "date": "2025-11-12T10:15:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Mr Velloran,\n\nFurther to Daniel Reston's introduction, please find attached the mutual non-disclosure agreement for the proposed transaction. It is in standard form (two-year term, mutual undertakings, 12-month non-solicit). If acceptable, please arrange signature and we can begin sharing information.\n\nKind regards,\nJames Osei\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Velloran,<br><br>Further to Daniel Reston&#x27;s introduction, please find attached the mutual non-disclosure agreement for the proposed transaction. It is in standard form (two-year term, mutual undertakings, 12-month non-solicit). If acceptable, please arrange signature and we can begin sharing information.<br><br>Kind regards,<br>James Osei<br>Whitfield Carter LLP</div>",
+      "attachmentIds": [
+        "9dE7OaqYhrJa2r9MUvXnu819eBrffeUVgIa003tyloU"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Quartz_NDA_Mutual.docx",
+          "id": "9dE7OaqYhrJa2r9MUvXnu819eBrffeUVgIa003tyloU",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "9199ba2b3a642683",
+      "snippet": "James, Thank you. The NDA looks fine to us. I'll sign and return a scanned copy tomorrow. We're keen",
+      "subject": "RE: Project Quartz — mutual NDA",
+      "sender": "geoffrey.velloran@velloranhygiene.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "daniel.reston@strathmorecapital.com"
+      ],
+      "date": "2025-11-12T16:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James,\n\nThank you. The NDA looks fine to us. I'll sign and return a scanned copy tomorrow. We're keen to move efficiently — Patricia and I have a good business here and want the right home for it.\n\nGeoffrey\n\nOn Wed, Nov 12, 2025 at 10:15 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Dear Mr Velloran,\n>\n> Further to Daniel Reston's introduction, please find attached the mutual non-disclosure agreement for the proposed transaction. It is in standard form (two-year term, mutual undertakings, 12-month non-solicit). If acceptable, please arrange signature and we can begin sharing information.\n>\n> Kind regards,\n> James Osei\n> Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Thank you. The NDA looks fine to us. I&#x27;ll sign and return a scanned copy tomorrow. We&#x27;re keen to move efficiently — Patricia and I have a good business here and want the right home for it.<br><br>Geoffrey</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Nov 12, 2025 at 10:15 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Mr Velloran,<br><br>Further to Daniel Reston&#x27;s introduction, please find attached the mutual non-disclosure agreement for the proposed transaction. It is in standard form (two-year term, mutual undertakings, 12-month non-solicit). If acceptable, please arrange signature and we can begin sharing information.<br><br>Kind regards,<br>James Osei<br>Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

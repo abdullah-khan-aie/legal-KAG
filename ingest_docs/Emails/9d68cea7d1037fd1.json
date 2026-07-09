@@ -1,0 +1,55 @@
+{
+  "id": "9d68cea7d1037fd1",
+  "messages": [
+    {
+      "id": "9d68cea7d1037fd1",
+      "snippet": "Daniel, Our final legal due diligence report is attached. Headlines: the business is well run and re",
+      "subject": "Project Beacon - legal DD report (final)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.reeve@crestviewcapital.com"
+      ],
+      "ccRecipients": [
+        "margaret.holloway@crestviewcapital.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-22T11:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Daniel,\n\nOur final legal due diligence report is attached. Headlines: the business is well run and records are in good order. Four items need specific protection in the SPA - (1) the Halcyon change-of-control clause (now covered by a customer consent letter), (2) the open HMRC R&D enquiry, (3) BRCGS certificate renewal timing, and (4) an intimated employment claim. We recommend specific indemnities for (2) and (4). None is a deal-breaker.\n\nHappy to walk you and Margaret through it.\n\nSarah\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0815\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Daniel,<br><br>Our final legal due diligence report is attached. Headlines: the business is well run and records are in good order. Four items need specific protection in the SPA - (1) the Halcyon change-of-control clause (now covered by a customer consent letter), (2) the open HMRC R&amp;D enquiry, (3) BRCGS certificate renewal timing, and (4) an intimated employment claim. We recommend specific indemnities for (2) and (4). None is a deal-breaker.<br><br>Happy to walk you and Margaret through it.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0815<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "imEeJ0rAzc9vtFZCun4bFE8fjPfs3npIZdoq6rt5_8k"
+      ],
+      "attachments": [
+        {
+          "filename": "Beacon_DueDiligenceReport.pdf",
+          "id": "imEeJ0rAzc9vtFZCun4bFE8fjPfs3npIZdoq6rt5_8k",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "e8753c54c6e19469",
+      "snippet": "Sarah - thanks, clear. Please make sure the HMRC R&D indemnity sits outside the de minimis/basket. O",
+      "subject": "RE: Project Beacon - legal DD report (final)",
+      "sender": "margaret.holloway@crestviewcapital.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "daniel.reeve@crestviewcapital.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-23T08:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah - thanks, clear. Please make sure the HMRC R&D indemnity sits outside the de minimis/basket. Otherwise we're comfortable to proceed.\n\nMargaret\n\nOn Wed, Oct 22, 2025 at 11:15 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Daniel,\n>\n> Our final legal due diligence report is attached. Headlines: the business is well run and records are in good order. Four items need specific protection in the SPA - (1) the Halcyon change-of-control clause (now covered by a customer consent letter), (2) the open HMRC R&D enquiry, (3) BRCGS certificate renewal timing, and (4) an intimated employment claim. We recommend specific indemnities for (2) and (4). None is a deal-breaker.\n>\n> Happy to walk you and Margaret through it.\n>\n> Sarah\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0815\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah - thanks, clear. Please make sure the HMRC R&amp;D indemnity sits outside the de minimis/basket. Otherwise we&#x27;re comfortable to proceed.<br><br>Margaret</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 22, 2025 at 11:15 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Daniel,<br><br>Our final legal due diligence report is attached. Headlines: the business is well run and records are in good order. Four items need specific protection in the SPA - (1) the Halcyon change-of-control clause (now covered by a customer consent letter), (2) the open HMRC R&amp;D enquiry, (3) BRCGS certificate renewal timing, and (4) an intimated employment claim. We recommend specific indemnities for (2) and (4). None is a deal-breaker.<br><br>Happy to walk you and Margaret through it.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0815<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

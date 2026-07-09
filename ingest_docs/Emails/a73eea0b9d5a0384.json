@@ -1,0 +1,47 @@
+{
+  "id": "a73eea0b9d5a0384",
+  "messages": [
+    {
+      "id": "a73eea0b9d5a0384",
+      "snippet": "Eleanor, Dan, I'm pleased to confirm that Project Quartz completed at 12:48 today. Ardenfield Quartz",
+      "subject": "Project Quartz - COMPLETED",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "eleanor.whitmore@ardenfieldcapital.com",
+        "daniel.reeve@ardenfieldcapital.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-13T13:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Eleanor, Dan,\n\nI'm pleased to confirm that Project Quartz completed at 12:48 today. Ardenfield Quartz Bidco now owns 100% of Whitmore Thermal Components. The £35.25m completion payment and £1.5m retention have been paid, the W&I policy has incepted and the furnace lease has been redeemed. Deferred consideration of £2.0m falls due on 13 February 2027.\n\nCongratulations to the team. We'll circulate the completion bible and the post-completion filings (SH01/SDRT, PSC updates) next week.\n\nSarah\n\n--\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Eleanor, Dan,<br><br>I&#x27;m pleased to confirm that Project Quartz completed at 12:48 today. Ardenfield Quartz Bidco now owns 100% of Whitmore Thermal Components. The £35.25m completion payment and £1.5m retention have been paid, the W&amp;I policy has incepted and the furnace lease has been redeemed. Deferred consideration of £2.0m falls due on 13 February 2027.<br><br>Congratulations to the team. We&#x27;ll circulate the completion bible and the post-completion filings (SH01/SDRT, PSC updates) next week.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "bc24755266332e1e",
+      "snippet": "Wonderful - thank you to you, James and Elena for getting us there cleanly. Great result on the 10% ",
+      "subject": "RE: Project Quartz - COMPLETED",
+      "sender": "eleanor.whitmore@ardenfieldcapital.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "daniel.reeve@ardenfieldcapital.com"
+      ],
+      "date": "2026-02-13T14:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Wonderful - thank you to you, James and Elena for getting us there cleanly. Great result on the 10% cap. Let's debrief next week.\n\nEleanor\n\nOn Fri, Feb 13, 2026 at 1:20 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Eleanor, Dan,\n>\n> I'm pleased to confirm that Project Quartz completed at 12:48 today. Ardenfield Quartz Bidco now owns 100% of Whitmore Thermal Components. The £35.25m completion payment and £1.5m retention have been paid, the W&I policy has incepted and the furnace lease has been redeemed. Deferred consideration of £2.0m falls due on 13 February 2027.\n>\n> Congratulations to the team. We'll circulate the completion bible and the post-completion filings (SH01/SDRT, PSC updates) next week.\n>\n> Sarah\n>\n> --\n> Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Wonderful - thank you to you, James and Elena for getting us there cleanly. Great result on the 10% cap. Let&#x27;s debrief next week.<br><br>Eleanor</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Feb 13, 2026 at 1:20 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Eleanor, Dan,<br><br>I&#x27;m pleased to confirm that Project Quartz completed at 12:48 today. Ardenfield Quartz Bidco now owns 100% of Whitmore Thermal Components. The £35.25m completion payment and £1.5m retention have been paid, the W&amp;I policy has incepted and the furnace lease has been redeemed. Deferred consideration of £2.0m falls due on 13 February 2027.<br><br>Congratulations to the team. We&#x27;ll circulate the completion bible and the post-completion filings (SH01/SDRT, PSC updates) next week.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

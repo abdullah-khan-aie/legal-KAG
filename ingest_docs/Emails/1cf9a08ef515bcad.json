@@ -1,0 +1,40 @@
+{
+  "id": "1cf9a08ef515bcad",
+  "messages": [
+    {
+      "id": "1cf9a08ef515bcad",
+      "snippet": "Sarah, Tom, Internal note on Halstead v Ferncliffe. Liability: strong. Frost's report nails causatio",
+      "subject": "Halstead v Ferncliffe — strategy and next steps (internal)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2024-07-16T10:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah, Tom,\n\nInternal note on Halstead v Ferncliffe.\n\nLiability: strong. Frost's report nails causation (beta-flecks pre-date delivery; alpha-case on un-machined sections). Their best point is the clause 12 acceptance/notification argument, answered by latency + the time full metallography takes.\n\nQuantum: ~£2.9m direct. Vulnerable heads are the £412k Caldera LD exposure (remoteness) and the 14-day line-stop. I'd plead both but treat the LDs as a give.\n\nProposal: instruct Catherine Rosenthal KC for an advice on merits/quantum before we issue; she can also settle the Particulars. Tom to start the chronology and the disclosure index.\n\nJames\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\nT +44 (0)20 7946 0034",
+      "htmlBody": "<div dir=\"ltr\">Sarah, Tom,<br><br>Internal note on Halstead v Ferncliffe.<br><br>Liability: strong. Frost&#x27;s report nails causation (beta-flecks pre-date delivery; alpha-case on un-machined sections). Their best point is the clause 12 acceptance/notification argument, answered by latency + the time full metallography takes.<br><br>Quantum: ~£2.9m direct. Vulnerable heads are the £412k Caldera LD exposure (remoteness) and the 14-day line-stop. I&#x27;d plead both but treat the LDs as a give.<br><br>Proposal: instruct Catherine Rosenthal KC for an advice on merits/quantum before we issue; she can also settle the Particulars. Tom to start the chronology and the disclosure index.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>T +44 (0)20 7946 0034</div>"
+    },
+    {
+      "id": "9e210060f1bd9ccb",
+      "snippet": "Will do. I'll have a draft chronology and a first cut of the disclosure index to you by end of next ",
+      "subject": "RE: Halstead v Ferncliffe — strategy and next steps (internal)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2024-07-16T14:02:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Will do. I'll have a draft chronology and a first cut of the disclosure index to you by end of next week, and I'll send Rosenthal's clerk the papers for the advice.\n\nTom\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\nT +44 (0)20 7946 0041\n\nOn Tue, Jul 16, 2024 at 10:30 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Sarah, Tom,\n>\n> Internal note on Halstead v Ferncliffe.\n>\n> Liability: strong. Frost's report nails causation (beta-flecks pre-date delivery; alpha-case on un-machined sections). Their best point is the clause 12 acceptance/notification argument, answered by latency + the time full metallography takes.\n>\n> Quantum: ~£2.9m direct. Vulnerable heads are the £412k Caldera LD exposure (remoteness) and the 14-day line-stop. I'd plead both but treat the LDs as a give.\n>\n> Proposal: instruct Catherine Rosenthal KC for an advice on merits/quantum before we issue; she can also settle the Particulars. Tom to start the chronology and the disclosure index.\n>\n> James\n>\n> James Osei\n> Senior Associate | Whitfield Carter LLP\n> T +44 (0)20 7946 0034",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Will do. I&#x27;ll have a draft chronology and a first cut of the disclosure index to you by end of next week, and I&#x27;ll send Rosenthal&#x27;s clerk the papers for the advice.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>T +44 (0)20 7946 0041</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jul 16, 2024 at 10:30 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah, Tom,<br><br>Internal note on Halstead v Ferncliffe.<br><br>Liability: strong. Frost&#x27;s report nails causation (beta-flecks pre-date delivery; alpha-case on un-machined sections). Their best point is the clause 12 acceptance/notification argument, answered by latency + the time full metallography takes.<br><br>Quantum: ~£2.9m direct. Vulnerable heads are the £412k Caldera LD exposure (remoteness) and the 14-day line-stop. I&#x27;d plead both but treat the LDs as a give.<br><br>Proposal: instruct Catherine Rosenthal KC for an advice on merits/quantum before we issue; she can also settle the Particulars. Tom to start the chronology and the disclosure index.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>T +44 (0)20 7946 0034</div></blockquote></div></div>"
+    }
+  ]
+}

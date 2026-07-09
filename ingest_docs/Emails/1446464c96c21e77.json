@@ -1,0 +1,53 @@
+{
+  "id": "1446464c96c21e77",
+  "messages": [
+    {
+      "id": "1446464c96c21e77",
+      "snippet": "Dear Rebecca, Our completion statement is attached. The balance due from Thornbury on completion is ",
+      "subject": "Project Redwood – completion statement (completion 15 May)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "rebecca.stone@thornburyproperties.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-05-11T11:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Rebecca,\n\nOur completion statement is attached. The balance due from Thornbury on completion is £16,537,108, made up of the purchase price (£18,500,000) less the deposit already paid (£1,850,000), less a rent apportionment in your favour of £149,692 (completion to the June quarter day), plus an insurance reimbursement to the Seller of £36,800.\n\nSeparately, SDLT of £914,500 and the HM Land Registry fee will be payable after completion. Please arrange for the balance to reach our client account by the morning of 15 May.",
+      "htmlBody": "<div dir=\"ltr\">Dear Rebecca,<br><br>Our completion statement is attached. The balance due from Thornbury on completion is £16,537,108, made up of the purchase price (£18,500,000) less the deposit already paid (£1,850,000), less a rent apportionment in your favour of £149,692 (completion to the June quarter day), plus an insurance reimbursement to the Seller of £36,800.<br><br>Separately, SDLT of £914,500 and the HM Land Registry fee will be payable after completion. Please arrange for the balance to reach our client account by the morning of 15 May.</div>",
+      "attachmentIds": [
+        "MNzE_bCHbUmaA3w2RiMC2_mFWOizxaV8bHfksX9nAY4"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Redwood_CompletionStatement.xlsx",
+          "id": "MNzE_bCHbUmaA3w2RiMC2_mFWOizxaV8bHfksX9nAY4",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "85e528c4cd9d6021",
+      "snippet": "Elena, Thank you – the completion statement ties to our model. Treasury will send the £16,537,108 to",
+      "subject": "RE: Project Redwood – completion statement (completion 15 May)",
+      "sender": "rebecca.stone@thornburyproperties.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-05-13T08:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena,\n\nThank you – the completion statement ties to our model. Treasury will send the £16,537,108 to your client account first thing on 15 May, and we'll hold the SDLT and registration fee ready to follow. Please confirm once you've completed.\n\nRebecca\n\nOn Mon, May 11, 2026 at 11:15 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Dear Rebecca,\n>\n> Our completion statement is attached. The balance due from Thornbury on completion is £16,537,108, made up of the purchase price (£18,500,000) less the deposit already paid (£1,850,000), less a rent apportionment in your favour of £149,692 (completion to the June quarter day), plus an insurance reimbursement to the Seller of £36,800.\n>\n> Separately, SDLT of £914,500 and the HM Land Registry fee will be payable after completion. Please arrange for the balance to reach our client account by the morning of 15 May.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena,<br><br>Thank you – the completion statement ties to our model. Treasury will send the £16,537,108 to your client account first thing on 15 May, and we&#x27;ll hold the SDLT and registration fee ready to follow. Please confirm once you&#x27;ve completed.<br><br>Rebecca</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, May 11, 2026 at 11:15 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Rebecca,<br><br>Our completion statement is attached. The balance due from Thornbury on completion is £16,537,108, made up of the purchase price (£18,500,000) less the deposit already paid (£1,850,000), less a rent apportionment in your favour of £149,692 (completion to the June quarter day), plus an insurance reimbursement to the Seller of £36,800.<br><br>Separately, SDLT of £914,500 and the HM Land Registry fee will be payable after completion. Please arrange for the balance to reach our client account by the morning of 15 May.</div></blockquote></div></div>"
+    }
+  ]
+}

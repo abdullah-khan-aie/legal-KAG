@@ -1,0 +1,54 @@
+{
+  "id": "43c4a2b41318dd4e",
+  "messages": [
+    {
+      "id": "43c4a2b41318dd4e",
+      "snippet": "James, Our mark-up attached (redline against your first draft). The headline pushes from our side: w",
+      "subject": "RE: Project Drake — SPA mark-up",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "deepa.kovac@birchallstone.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-10-23T12:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nOur mark-up attached (redline against your first draft). The headline pushes from our side: warranty cap down to 25% (£5.6m); general claims limit down to 18 months; de minimis up to £35k and basket up to £280k. We've left the environmental indemnity broadly as drafted but want to discuss the £250k cap. The earn-out and tax covenant are largely agreed.\n\nOliver",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our mark-up attached (redline against your first draft). The headline pushes from our side: warranty cap down to 25% (£5.6m); general claims limit down to 18 months; de minimis up to £35k and basket up to £280k. We&#x27;ve left the environmental indemnity broadly as drafted but want to discuss the £250k cap. The earn-out and tax covenant are largely agreed.<br><br>Oliver</div>",
+      "attachmentIds": [
+        "jimsHweJSZulR_hspVZW3eHxsc7PVrV-JXyEbvH_Kkk"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Drake_SPA_v2_redline.docx",
+          "id": "jimsHweJSZulR_hspVZW3eHxsc7PVrV-JXyEbvH_Kkk",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "4e3eac57f7e04326",
+      "snippet": "Oliver, Thanks. 25% is too low for a founder sale of this size; we'll come back at a compromise. 18 ",
+      "subject": "RE: Project Drake — SPA mark-up",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-10-24T09:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Oliver,\n\nThanks. 25% is too low for a founder sale of this size; we'll come back at a compromise. 18 months is acceptable in principle if we can hold the tax covenant at seven years. De minimis we can live with at £30k. Will revert with a buyer's draft shortly.\n\nJames\n\nOn Thu, Oct 23, 2025 at 12:15 PM, Oliver Jennings <oliver.jennings@birchallstone.com> wrote:\n> James,\n>\n> Our mark-up attached (redline against your first draft). The headline pushes from our side: warranty cap down to 25% (£5.6m); general claims limit down to 18 months; de minimis up to £35k and basket up to £280k. We've left the environmental indemnity broadly as drafted but want to discuss the £250k cap. The earn-out and tax covenant are largely agreed.\n>\n> Oliver",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Oliver,<br><br>Thanks. 25% is too low for a founder sale of this size; we&#x27;ll come back at a compromise. 18 months is acceptable in principle if we can hold the tax covenant at seven years. De minimis we can live with at £30k. Will revert with a buyer&#x27;s draft shortly.<br><br>James</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 23, 2025 at 12:15 PM, Oliver Jennings &lt;oliver.jennings@birchallstone.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Our mark-up attached (redline against your first draft). The headline pushes from our side: warranty cap down to 25% (£5.6m); general claims limit down to 18 months; de minimis up to £35k and basket up to £280k. We&#x27;ve left the environmental indemnity broadly as drafted but want to discuss the £250k cap. The earn-out and tax covenant are largely agreed.<br><br>Oliver</div></blockquote></div></div>"
+    }
+  ]
+}

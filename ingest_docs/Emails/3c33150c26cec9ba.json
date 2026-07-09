@@ -1,0 +1,23 @@
+{
+  "id": "3c33150c26cec9ba",
+  "messages": [
+    {
+      "id": "3c33150c26cec9ba",
+      "snippet": "Hello both, The litigation group is running a CLE lunch on exclusion clauses and UCTA reasonableness",
+      "subject": "Lunchtime seminar: UCTA after the 2024 cases (Thu 1 May)",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-04-22T10:10:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hello both,\n\nThe litigation group is running a CLE lunch on exclusion clauses and UCTA reasonableness on Thursday 1 May, 12:30 in the 8th floor training room. Sandwiches provided. Let me know if you'd like a place.\n\nDonna",
+      "htmlBody": "<div dir=\"ltr\">Hello both,<br><br>The litigation group is running a CLE lunch on exclusion clauses and UCTA reasonableness on Thursday 1 May, 12:30 in the 8th floor training room. Sandwiches provided. Let me know if you&#x27;d like a place.<br><br>Donna</div>"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "b207dde4b3a24318",
+  "messages": [
+    {
+      "id": "b207dde4b3a24318",
+      "snippet": "Dear Dr Feld, We are considering instructing you as expert in proceedings concerning two temperature",
+      "subject": "Potential expert instruction - GDP cold-chain (Hartwell v Cryovance)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.feld@thermalassurance.co.uk"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-03-20T11:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Dr Feld,\n\nWe are considering instructing you as expert in proceedings concerning two temperature excursions affecting biological drug substance carried by a GDP cold-chain provider. The issues likely to fall within your remit are: whether the provider's qualification, maintenance, alarming and route-control fell below the standard of a reasonable GDP-accredited cold-chain operator; and the effect of the recorded excursions (peaks 19.4C and 14.1C) on product stability.\n\nBefore we send formal instructions, could you confirm independence (no prior engagement by Cryovance Cold Chain Limited) and availability for a report by mid-October and a 5-day trial in January 2027?\n\nKind regards,\nElena Marchetti\n\n--\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Dr Feld,<br><br>We are considering instructing you as expert in proceedings concerning two temperature excursions affecting biological drug substance carried by a GDP cold-chain provider. The issues likely to fall within your remit are: whether the provider&#x27;s qualification, maintenance, alarming and route-control fell below the standard of a reasonable GDP-accredited cold-chain operator; and the effect of the recorded excursions (peaks 19.4C and 14.1C) on product stability.<br><br>Before we send formal instructions, could you confirm independence (no prior engagement by Cryovance Cold Chain Limited) and availability for a report by mid-October and a 5-day trial in January 2027?<br><br>Kind regards,<br>Elena Marchetti<br><br>--<br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "cf4c9869d94ac21a",
+      "snippet": "Dear Elena, Thank you. I confirm I have had no prior dealings with Cryovance Cold Chain Limited and ",
+      "subject": "RE: Potential expert instruction - GDP cold-chain (Hartwell v Cryovance)",
+      "sender": "marcus.feld@thermalassurance.co.uk",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-03-23T09:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Elena,\n\nThank you. I confirm I have had no prior dealings with Cryovance Cold Chain Limited and foresee no conflict. The timetable is workable. On a preliminary view, leaving a refrigerated unit switched off during a rest break, on a validated route, is not something a competent GDP operator should permit, and the failure to alarm the first excursion is itself a serious deficiency. I look forward to your formal instructions and the data-logger records.\n\nBest regards,\nMarcus Feld\nThermal Assurance Consulting Ltd\n\nOn Fri, Mar 20, 2026 at 11:30 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Dear Dr Feld,\n>\n> We are considering instructing you as expert in proceedings concerning two temperature excursions affecting biological drug substance carried by a GDP cold-chain provider. The issues likely to fall within your remit are: whether the provider's qualification, maintenance, alarming and route-control fell below the standard of a reasonable GDP-accredited cold-chain operator; and the effect of the recorded excursions (peaks 19.4C and 14.1C) on product stability.\n>\n> Before we send formal instructions, could you confirm independence (no prior engagement by Cryovance Cold Chain Limited) and availability for a report by mid-October and a 5-day trial in January 2027?\n>\n> Kind regards,\n> Elena Marchetti\n>\n> --\n> Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Elena,<br><br>Thank you. I confirm I have had no prior dealings with Cryovance Cold Chain Limited and foresee no conflict. The timetable is workable. On a preliminary view, leaving a refrigerated unit switched off during a rest break, on a validated route, is not something a competent GDP operator should permit, and the failure to alarm the first excursion is itself a serious deficiency. I look forward to your formal instructions and the data-logger records.<br><br>Best regards,<br>Marcus Feld<br>Thermal Assurance Consulting Ltd</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Mar 20, 2026 at 11:30 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Dr Feld,<br><br>We are considering instructing you as expert in proceedings concerning two temperature excursions affecting biological drug substance carried by a GDP cold-chain provider. The issues likely to fall within your remit are: whether the provider&#x27;s qualification, maintenance, alarming and route-control fell below the standard of a reasonable GDP-accredited cold-chain operator; and the effect of the recorded excursions (peaks 19.4C and 14.1C) on product stability.<br><br>Before we send formal instructions, could you confirm independence (no prior engagement by Cryovance Cold Chain Limited) and availability for a report by mid-October and a 5-day trial in January 2027?<br><br>Kind regards,<br>Elena Marchetti<br><br>--<br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

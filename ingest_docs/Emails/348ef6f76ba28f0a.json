@@ -1,0 +1,55 @@
+{
+  "id": "348ef6f76ba28f0a",
+  "messages": [
+    {
+      "id": "348ef6f76ba28f0a",
+      "snippet": "Dear Eleanor, Deepa, Further to acceptance, please find the first draft of the Settlement Agreement ",
+      "subject": "Whitmore — draft Settlement Agreement (v1) for your review",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "eleanor.bartlett@ashworthquinn.com",
+        "deepa.kovac@ashworthquinn.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-03-24T10:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Eleanor, Deepa,\n\nFurther to acceptance, please find the first draft of the Settlement Agreement (v1). It reflects the agreed £185,000 termination payment, £5,000+VAT fees contribution, mutual confidentiality and non-derogatory undertakings, and the agreed reference at Schedule 2. Grateful for any comments and for Deepa to confirm she will act as relevant independent adviser.\n\nBest,\nTom Gallagher\nWhitfield Carter LLP\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Eleanor, Deepa,<br><br>Further to acceptance, please find the first draft of the Settlement Agreement (v1). It reflects the agreed £185,000 termination payment, £5,000+VAT fees contribution, mutual confidentiality and non-derogatory undertakings, and the agreed reference at Schedule 2. Grateful for any comments and for Deepa to confirm she will act as relevant independent adviser.<br><br>Best,<br>Tom Gallagher<br>Whitfield Carter LLP<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "n3EGfLWKJ0FzY2Sl3CFefHhtZPyXQUF5tQEK_4oO9wc"
+      ],
+      "attachments": [
+        {
+          "filename": "Whitmore_SettlementAgreement_v1.docx",
+          "id": "n3EGfLWKJ0FzY2Sl3CFefHhtZPyXQUF5tQEK_4oO9wc",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "1004a5b227224425",
+      "snippet": "Dear Tom, Thank you. I confirm I will act as relevant independent adviser. Our mark-up follows separ",
+      "subject": "RE: Whitmore — draft Settlement Agreement (v1) for your review",
+      "sender": "deepa.kovac@ashworthquinn.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "eleanor.bartlett@ashworthquinn.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-04-01T10:35:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear Tom,\n\nThank you. I confirm I will act as relevant independent adviser. Our mark-up follows separately with tracked changes — the main points are (i) reducing the payment window to 14 days, (ii) broadening the non-derogatory undertaking to cover directors as well as the senior leadership team, and (iii) a confidentiality carve-out allowing our client to explain the reason for leaving to a prospective employer, consistent with the reference. Subject to those, we are content.\n\nDeepa Kovac\nAshworth Quinn LLP\n\nOn Mon, Mar 24, 2025 at 10:30 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Eleanor, Deepa,\n>\n> Further to acceptance, please find the first draft of the Settlement Agreement (v1). It reflects the agreed £185,000 termination payment, £5,000+VAT fees contribution, mutual confidentiality and non-derogatory undertakings, and the agreed reference at Schedule 2. Grateful for any comments and for Deepa to confirm she will act as relevant independent adviser.\n>\n> Best,\n> Tom Gallagher\n> Whitfield Carter LLP\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Tom,<br><br>Thank you. I confirm I will act as relevant independent adviser. Our mark-up follows separately with tracked changes — the main points are (i) reducing the payment window to 14 days, (ii) broadening the non-derogatory undertaking to cover directors as well as the senior leadership team, and (iii) a confidentiality carve-out allowing our client to explain the reason for leaving to a prospective employer, consistent with the reference. Subject to those, we are content.<br><br>Deepa Kovac<br>Ashworth Quinn LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Mar 24, 2025 at 10:30 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Eleanor, Deepa,<br><br>Further to acceptance, please find the first draft of the Settlement Agreement (v1). It reflects the agreed £185,000 termination payment, £5,000+VAT fees contribution, mutual confidentiality and non-derogatory undertakings, and the agreed reference at Schedule 2. Grateful for any comments and for Deepa to confirm she will act as relevant independent adviser.<br><br>Best,<br>Tom Gallagher<br>Whitfield Carter LLP<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

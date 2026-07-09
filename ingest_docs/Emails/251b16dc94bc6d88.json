@@ -1,0 +1,35 @@
+{
+  "id": "251b16dc94bc6d88",
+  "messages": [
+    {
+      "id": "251b16dc94bc6d88",
+      "snippet": "Priya, Helena, Final completion statement attached for Monday. Balance due from the buyer is £13,176",
+      "subject": "Meridian - completion statement",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "priya.bhardwaj@aldouswrencapital.com",
+        "helena.wren@aldouswrencapital.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-01-16T15:10:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Priya, Helena,\n\nFinal completion statement attached for Monday. Balance due from the buyer is £13,176,548.61; with the £8.55m Pennine advance, the equity contribution is £4,626,548.61. The apportionments tab shows the rent and service charge credits (the seller collected the December quarter in advance) and the insurance debit.\n\nElena\n\n--\nElena Marchetti\nAssociate | Whitfield Carter LLP\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Priya, Helena,<br><br>Final completion statement attached for Monday. Balance due from the buyer is £13,176,548.61; with the £8.55m Pennine advance, the equity contribution is £4,626,548.61. The apportionments tab shows the rent and service charge credits (the seller collected the December quarter in advance) and the insurance debit.<br><br>Elena<br><br>--<br>Elena Marchetti<br>Associate | Whitfield Carter LLP<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "K8aFuOVU8N2WDW2O7YFG01LUjqCVmXkpcCQZF4lDmxE"
+      ],
+      "attachments": [
+        {
+          "filename": "Meridian_CompletionStatement.xlsx",
+          "id": "K8aFuOVU8N2WDW2O7YFG01LUjqCVmXkpcCQZF4lDmxE",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    }
+  ]
+}

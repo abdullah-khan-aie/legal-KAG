@@ -1,0 +1,67 @@
+{
+  "id": "3177774ee8c20c5f",
+  "messages": [
+    {
+      "id": "3177774ee8c20c5f",
+      "snippet": "Sarah, We have a problem. Caldervale Underwriting sent us a letter on 17 October terminating the Pol",
+      "subject": "Caldervale — they've terminated",
+      "sender": "nadia.forsyth@brightwateranalytics.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-10-29T16:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah,\n\nWe have a problem. Caldervale Underwriting sent us a letter on 17 October terminating the Polaris contract with immediate effect, claiming the platform hasn't met the availability SLA. It hasn't — our monitoring is clean. They still owe us the £90k Milestone 2 from a year ago, and there are two years left to run at £420k a year. This feels like buyer's remorse after they got bought.\n\nCan you take this on?\n\nNadia",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>We have a problem. Caldervale Underwriting sent us a letter on 17 October terminating the Polaris contract with immediate effect, claiming the platform hasn&#x27;t met the availability SLA. It hasn&#x27;t — our monitoring is clean. They still owe us the £90k Milestone 2 from a year ago, and there are two years left to run at £420k a year. This feels like buyer&#x27;s remorse after they got bought.<br><br>Can you take this on?<br><br>Nadia</div>"
+    },
+    {
+      "id": "982bf99731628b06",
+      "snippet": "Nadia, Yes, we'll act. On the face of it this looks like a wrongful termination and a strong claim —",
+      "subject": "RE: Caldervale — they've terminated",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "nadia.forsyth@brightwateranalytics.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-10-30T09:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Nadia,\n\nYes, we'll act. On the face of it this looks like a wrongful termination and a strong claim — the unpaid milestone plus the balance of the term. Two things will matter: (1) the Schedule 4 measurement methodology (does it exclude maintenance and their own network?), and (2) whether they gave any contractual termination notice with a remedy period.\n\nTom Gallagher will run it day to day. Engagement letter to follow.\n\nSarah Whitfield\nPartner | Whitfield Carter LLP\n+44 (0)20 7946 1100\n\nOn Wed, Oct 29, 2025 at 4:40 PM, Nadia Forsyth <nadia.forsyth@brightwateranalytics.com> wrote:\n> Sarah,\n>\n> We have a problem. Caldervale Underwriting sent us a letter on 17 October terminating the Polaris contract with immediate effect, claiming the platform hasn't met the availability SLA. It hasn't — our monitoring is clean. They still owe us the £90k Milestone 2 from a year ago, and there are two years left to run at £420k a year. This feels like buyer's remorse after they got bought.\n>\n> Can you take this on?\n>\n> Nadia",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Nadia,<br><br>Yes, we&#x27;ll act. On the face of it this looks like a wrongful termination and a strong claim — the unpaid milestone plus the balance of the term. Two things will matter: (1) the Schedule 4 measurement methodology (does it exclude maintenance and their own network?), and (2) whether they gave any contractual termination notice with a remedy period.<br><br>Tom Gallagher will run it day to day. Engagement letter to follow.<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>+44 (0)20 7946 1100</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 29, 2025 at 4:40 PM, Nadia Forsyth &lt;nadia.forsyth@brightwateranalytics.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>We have a problem. Caldervale Underwriting sent us a letter on 17 October terminating the Polaris contract with immediate effect, claiming the platform hasn&#x27;t met the availability SLA. It hasn&#x27;t — our monitoring is clean. They still owe us the £90k Milestone 2 from a year ago, and there are two years left to run at £420k a year. This feels like buyer&#x27;s remorse after they got bought.<br><br>Can you take this on?<br><br>Nadia</div></blockquote></div></div>"
+    },
+    {
+      "id": "3ab54b30598c3bef",
+      "snippet": "Nadia, Good to be helping. Our engagement letter is attached — please sign and return the copy. Coul",
+      "subject": "RE: Caldervale — engagement letter",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "nadia.forsyth@brightwateranalytics.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-03T11:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Nadia,\n\nGood to be helping. Our engagement letter is attached — please sign and return the copy. Could you also send me the signed Acceptance Certificate, the Milestone 2 invoice, and the availability monitoring exports for 2025? Those three documents are the heart of the case.\n\nBest,\nTom\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n+44 (0)20 7946 1100\nConfidential and may be legally privileged.\n\nOn Thu, Oct 30, 2025 at 9:05 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Nadia,\n>\n> Yes, we'll act. On the face of it this looks like a wrongful termination and a strong claim — the unpaid milestone plus the balance of the term. Two things will matter: (1) the Schedule 4 measurement methodology (does it exclude maintenance and their own network?), and (2) whether they gave any contractual termination notice with a remedy period.\n>\n> Tom Gallagher will run it day to day. Engagement letter to follow.\n>\n> Sarah Whitfield\n> Partner | Whitfield Carter LLP\n> +44 (0)20 7946 1100\n>\n> On Wed, Oct 29, 2025 at 4:40 PM, Nadia Forsyth <nadia.forsyth@brightwateranalytics.com> wrote:\n> > Sarah,\n> >\n> > We have a problem. Caldervale Underwriting sent us a letter on 17 October terminating the Polaris contract with immediate effect, claiming the platform hasn't met the availability SLA. It hasn't — our monitoring is clean. They still owe us the £90k Milestone 2 from a year ago, and there are two years left to run at £420k a year. This feels like buyer's remorse after they got bought.\n> >\n> > Can you take this on?\n> >\n> > Nadia",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Nadia,<br><br>Good to be helping. Our engagement letter is attached — please sign and return the copy. Could you also send me the signed Acceptance Certificate, the Milestone 2 invoice, and the availability monitoring exports for 2025? Those three documents are the heart of the case.<br><br>Best,<br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1100<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 30, 2025 at 9:05 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Nadia,<br><br>Yes, we&#x27;ll act. On the face of it this looks like a wrongful termination and a strong claim — the unpaid milestone plus the balance of the term. Two things will matter: (1) the Schedule 4 measurement methodology (does it exclude maintenance and their own network?), and (2) whether they gave any contractual termination notice with a remedy period.<br><br>Tom Gallagher will run it day to day. Engagement letter to follow.<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>+44 (0)20 7946 1100</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 29, 2025 at 4:40 PM, Nadia Forsyth &lt;nadia.forsyth@brightwateranalytics.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>We have a problem. Caldervale Underwriting sent us a letter on 17 October terminating the Polaris contract with immediate effect, claiming the platform hasn&#x27;t met the availability SLA. It hasn&#x27;t — our monitoring is clean. They still owe us the £90k Milestone 2 from a year ago, and there are two years left to run at £420k a year. This feels like buyer&#x27;s remorse after they got bought.<br><br>Can you take this on?<br><br>Nadia</div></blockquote></div></div></blockquote></div></div>",
+      "attachmentIds": [
+        "9zl-2TVHxo2DwT7zoFSuWCtwiF14rUyA_tpvllODRkg"
+      ],
+      "attachments": [
+        {
+          "filename": "Brightwater_Caldervale_EngagementLetter.docx",
+          "id": "9zl-2TVHxo2DwT7zoFSuWCtwiF14rUyA_tpvllODRkg",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

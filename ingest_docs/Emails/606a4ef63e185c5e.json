@@ -1,0 +1,43 @@
+{
+  "id": "606a4ef63e185c5e",
+  "messages": [
+    {
+      "id": "606a4ef63e185c5e",
+      "snippet": "Derek, Thank you for your time. I've drafted your witness statement covering your role, the machine,",
+      "subject": "Your account of 14 January - draft statement",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "derek.fenn@penningtonindustries.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-02-23T10:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Derek,\n\nThank you for your time. I've drafted your witness statement covering your role, the machine, what you did on the day and the maintenance position. Please read it carefully - it must be in your own words and accurate. Of particular importance is paragraph 5 on the missed October test; please confirm you're comfortable it's a fair account. We can adjust before you sign.\n\nElena Marchetti\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Derek,<br><br>Thank you for your time. I&#x27;ve drafted your witness statement covering your role, the machine, what you did on the day and the maintenance position. Please read it carefully - it must be in your own words and accurate. Of particular importance is paragraph 5 on the missed October test; please confirm you&#x27;re comfortable it&#x27;s a fair account. We can adjust before you sign.<br><br>Elena Marchetti<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "ef2947480c5f303a",
+      "snippet": "Elena, Thank you. It reads accurately. On paragraph 5 - yes, I accept the October test wasn't done a",
+      "subject": "RE: Your account of 14 January - draft statement",
+      "sender": "derek.fenn@penningtonindustries.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-02-26T18:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Elena,\n\nThank you. It reads accurately. On paragraph 5 - yes, I accept the October test wasn't done and that I didn't pick it up; the scheduling didn't flag it to me and I accept it should have. I'm content to sign. I'll drop the signed copy to you tomorrow.\n\nDerek\n\nOn Mon, Feb 23, 2026 at 10:20 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Derek,\n>\n> Thank you for your time. I've drafted your witness statement covering your role, the machine, what you did on the day and the maintenance position. Please read it carefully - it must be in your own words and accurate. Of particular importance is paragraph 5 on the missed October test; please confirm you're comfortable it's a fair account. We can adjust before you sign.\n>\n> Elena Marchetti\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena,<br><br>Thank you. It reads accurately. On paragraph 5 - yes, I accept the October test wasn&#x27;t done and that I didn&#x27;t pick it up; the scheduling didn&#x27;t flag it to me and I accept it should have. I&#x27;m content to sign. I&#x27;ll drop the signed copy to you tomorrow.<br><br>Derek</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Feb 23, 2026 at 10:20 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Derek,<br><br>Thank you for your time. I&#x27;ve drafted your witness statement covering your role, the machine, what you did on the day and the maintenance position. Please read it carefully - it must be in your own words and accurate. Of particular importance is paragraph 5 on the missed October test; please confirm you&#x27;re comfortable it&#x27;s a fair account. We can adjust before you sign.<br><br>Elena Marchetti<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

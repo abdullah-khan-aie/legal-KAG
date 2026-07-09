@@ -1,0 +1,42 @@
+{
+  "id": "67fbbbce46a73a28",
+  "messages": [
+    {
+      "id": "67fbbbce46a73a28",
+      "snippet": "James, Board is set for Monday 15th at 10am to approve the acquisition and the facility. Could you j",
+      "subject": "Indigo - board meeting Monday",
+      "sender": "isobel.hartley@halbrookestates.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "priya.raman@halbrookestates.com"
+      ],
+      "date": "2025-12-13T12:00:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "James,\n\nBoard is set for Monday 15th at 10am to approve the acquisition and the facility. Could you join for the title item and walk the board through the report? We'll need certified board minutes for the bank and the data room afterwards.\n\nIsobel",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Board is set for Monday 15th at 10am to approve the acquisition and the facility. Could you join for the title item and walk the board through the report? We&#x27;ll need certified board minutes for the bank and the data room afterwards.<br><br>Isobel</div>"
+    },
+    {
+      "id": "23d91f40267db1b2",
+      "snippet": "Isobel, Happy to join Monday at 10. I'll summarise the report on title and the conditions to complet",
+      "subject": "RE: Indigo - board meeting Monday",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "isobel.hartley@halbrookestates.com"
+      ],
+      "ccRecipients": [
+        "priya.raman@halbrookestates.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-12-13T15:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Isobel,\n\nHappy to join Monday at 10. I'll summarise the report on title and the conditions to completion. We'll prepare the board minutes for signature and certification.\n\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Sat, Dec 13, 2025 at 12:00 PM, Isobel Hartley <isobel.hartley@halbrookestates.com> wrote:\n> James,\n>\n> Board is set for Monday 15th at 10am to approve the acquisition and the facility. Could you join for the title item and walk the board through the report? We'll need certified board minutes for the bank and the data room afterwards.\n>\n> Isobel",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Isobel,<br><br>Happy to join Monday at 10. I&#x27;ll summarise the report on title and the conditions to completion. We&#x27;ll prepare the board minutes for signature and certification.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Sat, Dec 13, 2025 at 12:00 PM, Isobel Hartley &lt;isobel.hartley@halbrookestates.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Board is set for Monday 15th at 10am to approve the acquisition and the facility. Could you join for the title item and walk the board through the report? We&#x27;ll need certified board minutes for the bank and the data room afterwards.<br><br>Isobel</div></blockquote></div></div>"
+    }
+  ]
+}

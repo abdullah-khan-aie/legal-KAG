@@ -1,0 +1,23 @@
+{
+  "id": "c06c8345490b6d40",
+  "messages": [
+    {
+      "id": "c06c8345490b6d40",
+      "snippet": "Hi all, Reminder that the Finance group's lunch & learn on SONIA fallbacks and recent LMA documentat",
+      "subject": "Lunch & learn: SONIA transition and loan documentation - 24 April",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-15T12:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi all,\n\nReminder that the Finance group's lunch & learn on SONIA fallbacks and recent LMA documentation updates is on Thursday 24 April at 12:30 in Room 4.2. Sandwiches provided. Please RSVP to me by Tuesday.\n\nDonna\nPractice Assistant, Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hi all,<br><br>Reminder that the Finance group&#x27;s lunch &amp; learn on SONIA fallbacks and recent LMA documentation updates is on Thursday 24 April at 12:30 in Room 4.2. Sandwiches provided. Please RSVP to me by Tuesday.<br><br>Donna<br>Practice Assistant, Whitfield Carter LLP</div>"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "9f7f3edc6e5a9091",
+  "messages": [
+    {
+      "id": "9f7f3edc6e5a9091",
+      "snippet": "Daniel, Priya, Draft completion statement attached. The balance due from you on completion (15 May) ",
+      "subject": "Project Ember — draft completion statement & funds",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.hartley@marchwoodpropertygroup.com",
+        "priya.sandhu@marchwoodpropertygroup.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-28T15:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Daniel, Priya,\n\nDraft completion statement attached. The balance due from you on completion (15 May) is approximately £21,701,299, made up of the price less the deposit, plus/less the apportionments and the rent deposits credited to you, and the £100k retention held by us. This excludes SDLT (£1,227,000) and Land Registry fees, which we'll deal with after completion.\n\nPlease arrange for completion funds to reach our client account by 12.00 on 14 May. Let me know if anything looks off.\n\nJames\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0537",
+      "htmlBody": "<div dir=\"ltr\">Daniel, Priya,<br><br>Draft completion statement attached. The balance due from you on completion (15 May) is approximately £21,701,299, made up of the price less the deposit, plus/less the apportionments and the rent deposits credited to you, and the £100k retention held by us. This excludes SDLT (£1,227,000) and Land Registry fees, which we&#x27;ll deal with after completion.<br><br>Please arrange for completion funds to reach our client account by 12.00 on 14 May. Let me know if anything looks off.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0537</div>",
+      "attachmentIds": [
+        "yCTHup54uKi34t8F42TMeFvyY0XDhhxGwYTRRgmDRNU"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Ember_CompletionStatement.xlsx",
+          "id": "yCTHup54uKi34t8F42TMeFvyY0XDhhxGwYTRRgmDRNU",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "46b948f51c3031b7",
+      "snippet": "James — thank you. The figures tie to our model. Deposit of £2.475m is going out today; the completi",
+      "subject": "RE: Project Ember — draft completion statement & funds",
+      "sender": "priya.sandhu@marchwoodpropertygroup.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "daniel.hartley@marchwoodpropertygroup.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-29T09:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James — thank you. The figures tie to our model. Deposit of £2.475m is going out today; the completion balance will be drawn partly under the Pennine facility and partly from cash and will be with you by the morning of 14 May. Priya\n\nOn Tue, Apr 28, 2026 at 3:30 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Daniel, Priya,\n>\n> Draft completion statement attached. The balance due from you on completion (15 May) is approximately £21,701,299, made up of the price less the deposit, plus/less the apportionments and the rent deposits credited to you, and the £100k retention held by us. This excludes SDLT (£1,227,000) and Land Registry fees, which we'll deal with after completion.\n>\n> Please arrange for completion funds to reach our client account by 12.00 on 14 May. Let me know if anything looks off.\n>\n> James\n>\n> James Osei\n> Senior Associate | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 0537",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James — thank you. The figures tie to our model. Deposit of £2.475m is going out today; the completion balance will be drawn partly under the Pennine facility and partly from cash and will be with you by the morning of 14 May. Priya</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Apr 28, 2026 at 3:30 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Daniel, Priya,<br><br>Draft completion statement attached. The balance due from you on completion (15 May) is approximately £21,701,299, made up of the price less the deposit, plus/less the apportionments and the rent deposits credited to you, and the £100k retention held by us. This excludes SDLT (£1,227,000) and Land Registry fees, which we&#x27;ll deal with after completion.<br><br>Please arrange for completion funds to reach our client account by 12.00 on 14 May. Let me know if anything looks off.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0537</div></blockquote></div></div>"
+    }
+  ]
+}

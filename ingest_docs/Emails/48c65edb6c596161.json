@@ -1,0 +1,34 @@
+{
+  "id": "48c65edb6c596161",
+  "messages": [
+    {
+      "id": "48c65edb6c596161",
+      "snippet": "Grace, Following our call, please find attached our engagement letter for the CMA review (we've give",
+      "subject": "Project Forge — engagement letter",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "gunderwood@penningtonindustries.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-11-10T16:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Grace,\n\nFollowing our call, please find attached our engagement letter for the CMA review (we've given it the internal codename Project Forge). It sets out scope, team, fee estimate and our standard terms. If you're happy, please sign and return the acknowledgement on the last page.\n\nWe'll send a draft response to the CMA's initial enquiry letter shortly.\n\nBest\nSarah\n\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0512\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Grace,<br><br>Following our call, please find attached our engagement letter for the CMA review (we&#x27;ve given it the internal codename Project Forge). It sets out scope, team, fee estimate and our standard terms. If you&#x27;re happy, please sign and return the acknowledgement on the last page.<br><br>We&#x27;ll send a draft response to the CMA&#x27;s initial enquiry letter shortly.<br><br>Best<br>Sarah<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0512<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "2h2LzsaT6vgylP-n6hbixLxIK7xjNoeG88pqwaVfJ-M"
+      ],
+      "attachments": [
+        {
+          "filename": "Forge_EngagementLetter.docx",
+          "id": "2h2LzsaT6vgylP-n6hbixLxIK7xjNoeG88pqwaVfJ-M",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

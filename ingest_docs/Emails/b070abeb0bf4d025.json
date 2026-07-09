@@ -1,0 +1,42 @@
+{
+  "id": "b070abeb0bf4d025",
+  "messages": [
+    {
+      "id": "b070abeb0bf4d025",
+      "snippet": "Sarah — confirming Hartwell will pay the £6,000,000 upfront fee to Calderbrook on 13 February per cl",
+      "subject": "Project Lyra — upfront payment authorisation",
+      "sender": "gregory.mercer@hartwellpharma.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-09T10:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah — confirming Hartwell will pay the £6,000,000 upfront fee to Calderbrook on 13 February per clause 3.1. Can you confirm Calderbrook's account details from Birchall Stone and that the deal-economics / funds-flow figures we have are final? Want to make sure the legal and patent-recordal disbursements are captured too.\n\nGregory",
+      "htmlBody": "<div dir=\"ltr\">Sarah — confirming Hartwell will pay the £6,000,000 upfront fee to Calderbrook on 13 February per clause 3.1. Can you confirm Calderbrook&#x27;s account details from Birchall Stone and that the deal-economics / funds-flow figures we have are final? Want to make sure the legal and patent-recordal disbursements are captured too.<br><br>Gregory</div>"
+    },
+    {
+      "id": "6bec15d586743bfb",
+      "snippet": "Gregory — confirmed, the funds-flow you have is final: £6m to Calderbrook plus our fees, Hartington ",
+      "subject": "RE: Project Lyra — upfront payment authorisation",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "gregory.mercer@hartwellpharma.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-09T15:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Gregory — confirmed, the funds-flow you have is final: £6m to Calderbrook plus our fees, Hartington IP and the EPO/USPTO recordal disbursements. I'll get the account details confirmed by Birchall Stone in writing before you release. James is filing the licensee recordal on the patent registers this week.\n\nSarah\n\n--\nSarah Whitfield | Partner, Corporate\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0118\nConfidential and may be legally privileged.\n\nOn Mon, Feb 9, 2026 at 10:05 AM, Gregory Mercer <gregory.mercer@hartwellpharma.com> wrote:\n> Sarah — confirming Hartwell will pay the £6,000,000 upfront fee to Calderbrook on 13 February per clause 3.1. Can you confirm Calderbrook's account details from Birchall Stone and that the deal-economics / funds-flow figures we have are final? Want to make sure the legal and patent-recordal disbursements are captured too.\n>\n> Gregory",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Gregory — confirmed, the funds-flow you have is final: £6m to Calderbrook plus our fees, Hartington IP and the EPO/USPTO recordal disbursements. I&#x27;ll get the account details confirmed by Birchall Stone in writing before you release. James is filing the licensee recordal on the patent registers this week.<br><br>Sarah<br><br>--<br>Sarah Whitfield | Partner, Corporate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0118<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Feb 9, 2026 at 10:05 AM, Gregory Mercer &lt;gregory.mercer@hartwellpharma.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah — confirming Hartwell will pay the £6,000,000 upfront fee to Calderbrook on 13 February per clause 3.1. Can you confirm Calderbrook&#x27;s account details from Birchall Stone and that the deal-economics / funds-flow figures we have are final? Want to make sure the legal and patent-recordal disbursements are captured too.<br><br>Gregory</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "4fdbf19ad09cae3c",
+  "messages": [
+    {
+      "id": "4fdbf19ad09cae3c",
+      "snippet": "James, Our records show unposted time for the period 21-30 April. Please complete your narratives by",
+      "subject": "Time entry reminder — April narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-05-12T08:05:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "James,\n\nOur records show unposted time for the period 21-30 April. Please complete your narratives by Friday so we can run the month-end bills. Several matters are affected. Contact accounts if you need a matter number.\n\nAccounts | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our records show unposted time for the period 21-30 April. Please complete your narratives by Friday so we can run the month-end bills. Several matters are affected. Contact accounts if you need a matter number.<br><br>Accounts | Whitfield Carter LLP</div>"
+    }
+  ]
+}

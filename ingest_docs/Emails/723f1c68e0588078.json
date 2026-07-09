@@ -1,0 +1,21 @@
+{
+  "id": "723f1c68e0588078",
+  "messages": [
+    {
+      "id": "723f1c68e0588078",
+      "snippet": "Hi Tom, Our records show 11.5 hours of unposted time for May across two matters. Please post your na",
+      "subject": "Time recording - May narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-05-30T16:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi Tom,\n\nOur records show 11.5 hours of unposted time for May across two matters. Please post your narratives by close of play Monday so we can run the month-end bill run. Thanks.\n\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">Hi Tom,<br><br>Our records show 11.5 hours of unposted time for May across two matters. Please post your narratives by close of play Monday so we can run the month-end bill run. Thanks.<br><br>Accounts</div>"
+    }
+  ]
+}

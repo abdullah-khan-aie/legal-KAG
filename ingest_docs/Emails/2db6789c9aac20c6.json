@@ -1,0 +1,45 @@
+{
+  "id": "2db6789c9aac20c6",
+  "messages": [
+    {
+      "id": "2db6789c9aac20c6",
+      "snippet": "Dear Sirs, Thank you for the 3-month interim completion report (received 8 December) showing 71% com",
+      "subject": "Calderwell CV-7 R/2025/118 - 3-month interim review",
+      "sender": "karen.whitlow@dvsa.gov.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-12-11T14:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Sirs,\n\nThank you for the 3-month interim completion report (received 8 December) showing 71% completion (1,519 of 2,140), mostly via OTA. The Branch is content with progress and the priority given to the connected fleet. Please proceed with the January recorded-delivery reminders and DVLA keeper re-check, and continue reporting at the 6 and 12-month milestones.\n\nK. Whitlow, DVSA",
+      "htmlBody": "<div dir=\"ltr\">Dear Sirs,<br><br>Thank you for the 3-month interim completion report (received 8 December) showing 71% completion (1,519 of 2,140), mostly via OTA. The Branch is content with progress and the priority given to the connected fleet. Please proceed with the January recorded-delivery reminders and DVLA keeper re-check, and continue reporting at the 6 and 12-month milestones.<br><br>K. Whitlow, DVSA</div>"
+    },
+    {
+      "id": "21ba972e81be8b8f",
+      "snippet": "Good news - DVSA are content with the 3-month position (71% complete, 1,519 vehicles). They've asked",
+      "subject": "FW: R/2025/118 - DVSA content with progress (71%)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.calderwell@calderwellmobility.com",
+        "nina.brandt@calderwellmobility.com",
+        "raj.mehta@calderwellmobility.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-12-11T16:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Good news - DVSA are content with the 3-month position (71% complete, 1,519 vehicles). They've asked us to push on with the January reminders and keeper re-check and to report again at 6 and 12 months. Completion tracker and cost model are in the DMS - net recall cost currently modelled at ~£164k after insurance recovery.\n\nTom\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Thu, Dec 11, 2025 at 2:00 PM, Karen Whitlow <karen.whitlow@dvsa.gov.uk> wrote:\n> Dear Sirs,\n>\n> Thank you for the 3-month interim completion report (received 8 December) showing 71% completion (1,519 of 2,140), mostly via OTA. The Branch is content with progress and the priority given to the connected fleet. Please proceed with the January recorded-delivery reminders and DVLA keeper re-check, and continue reporting at the 6 and 12-month milestones.\n>\n> K. Whitlow, DVSA",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Good news - DVSA are content with the 3-month position (71% complete, 1,519 vehicles). They&#x27;ve asked us to push on with the January reminders and keeper re-check and to report again at 6 and 12 months. Completion tracker and cost model are in the DMS - net recall cost currently modelled at ~£164k after insurance recovery.<br><br>Tom<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Dec 11, 2025 at 2:00 PM, Karen Whitlow &lt;karen.whitlow@dvsa.gov.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Sirs,<br><br>Thank you for the 3-month interim completion report (received 8 December) showing 71% completion (1,519 of 2,140), mostly via OTA. The Branch is content with progress and the priority given to the connected fleet. Please proceed with the January recorded-delivery reminders and DVLA keeper re-check, and continue reporting at the 6 and 12-month milestones.<br><br>K. Whitlow, DVSA</div></blockquote></div></div>"
+    }
+  ]
+}

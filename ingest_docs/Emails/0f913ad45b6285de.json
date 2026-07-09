@@ -1,0 +1,57 @@
+{
+  "id": "0f913ad45b6285de",
+  "messages": [
+    {
+      "id": "0f913ad45b6285de",
+      "snippet": "Oliver, Deepa, Attached is our revised draft (v3, redline against v2). We've moved the founder cap t",
+      "subject": "Project Falcon - revised SSA (v3)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "marcus.pell@westbridgegrowth.com",
+        "marcus.penrose@penroserobotics.com"
+      ],
+      "date": "2026-05-22T16:35:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Oliver, Deepa,\n\nAttached is our revised draft (v3, redline against v2). We've moved the founder cap to £3.5m, de minimis to £35k, basket to £350k and general warranty survival to 2 years (tax remains 7). With the 18-month non-compete already agreed, we believe this closes out the open commercial points. Subject to your confirmation we'll prepare the execution version.\n\nJames\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Oliver, Deepa,<br><br>Attached is our revised draft (v3, redline against v2). We&#x27;ve moved the founder cap to £3.5m, de minimis to £35k, basket to £350k and general warranty survival to 2 years (tax remains 7). With the 18-month non-compete already agreed, we believe this closes out the open commercial points. Subject to your confirmation we&#x27;ll prepare the execution version.<br><br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "f2pLcTDS-FQCwnQTLDqKH6P-czvQnGovZ2XT2-Dc9mk"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Falcon_SubscriptionAgreement_v3_redline.docx",
+          "id": "f2pLcTDS-FQCwnQTLDqKH6P-czvQnGovZ2XT2-Dc9mk",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "99be2ebf3a3e63e6",
+      "snippet": "James, Agreed on all points - £3.5m founder cap, £35k/£350k de minimis and basket, 2-year general su",
+      "subject": "RE: Project Falcon - revised SSA (v3)",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "marcus.pell@westbridgegrowth.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-25T11:48:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nAgreed on all points - £3.5m founder cap, £35k/£350k de minimis and basket, 2-year general survival, 7-year tax. Please prepare the execution version. We're clear to complete on 29 May.\n\nOliver\n\nOn Fri, May 22, 2026 at 4:35 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Oliver, Deepa,\n>\n> Attached is our revised draft (v3, redline against v2). We've moved the founder cap to £3.5m, de minimis to £35k, basket to £350k and general warranty survival to 2 years (tax remains 7). With the 18-month non-compete already agreed, we believe this closes out the open commercial points. Subject to your confirmation we'll prepare the execution version.\n>\n> James\n>\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Agreed on all points - £3.5m founder cap, £35k/£350k de minimis and basket, 2-year general survival, 7-year tax. Please prepare the execution version. We&#x27;re clear to complete on 29 May.<br><br>Oliver</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, May 22, 2026 at 4:35 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Oliver, Deepa,<br><br>Attached is our revised draft (v3, redline against v2). We&#x27;ve moved the founder cap to £3.5m, de minimis to £35k, basket to £350k and general warranty survival to 2 years (tax remains 7). With the 18-month non-compete already agreed, we believe this closes out the open commercial points. Subject to your confirmation we&#x27;ll prepare the execution version.<br><br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

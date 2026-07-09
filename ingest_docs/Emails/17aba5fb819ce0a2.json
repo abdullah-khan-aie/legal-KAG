@@ -1,0 +1,22 @@
+{
+  "id": "17aba5fb819ce0a2",
+  "messages": [
+    {
+      "id": "17aba5fb819ce0a2",
+      "snippet": "Dear colleague, The firm's document management system (FileSite) will be unavailable this Sunday 16 ",
+      "subject": "[IT] Document management system maintenance — Sunday 16 Nov",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-11-15T07:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear colleague,\n\nThe firm's document management system (FileSite) will be unavailable this Sunday 16 November between 06:00 and 10:00 for scheduled maintenance and a security patch. Please save and check in any open documents before Friday evening. Email and calendar are unaffected.\n\nIf you have any questions, raise a ticket on the IT portal.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear colleague,<br><br>The firm&#x27;s document management system (FileSite) will be unavailable this Sunday 16 November between 06:00 and 10:00 for scheduled maintenance and a security patch. Please save and check in any open documents before Friday evening. Email and calendar are unaffected.<br><br>If you have any questions, raise a ticket on the IT portal.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

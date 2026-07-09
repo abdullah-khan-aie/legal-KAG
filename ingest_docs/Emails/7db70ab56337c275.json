@@ -1,0 +1,24 @@
+{
+  "id": "7db70ab56337c275",
+  "messages": [
+    {
+      "id": "7db70ab56337c275",
+      "snippet": "Hi Accounts, WC-00199 (Meridian Signal Analytics – Harcourt Beverages MSSA) has now completed. Pleas",
+      "subject": "WC-00199 Meridian/Harcourt – please raise final invoice",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "accounts@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-05T09:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Hi Accounts,\n\nWC-00199 (Meridian Signal Analytics – Harcourt Beverages MSSA) has now completed. Please raise the final invoice to Meridian (Henry Calderwood, CFO). Total recorded time comes to £33,400 plus VAT, within the £28–38k estimate. Narrative: drafting and negotiation of MSSA, Order Form, SOW, SLA and DPA through to execution on 3 November 2025.\n\nThanks,\nDonna Bridges | PA to Sarah Whitfield\n\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Hi Accounts,<br><br>WC-00199 (Meridian Signal Analytics – Harcourt Beverages MSSA) has now completed. Please raise the final invoice to Meridian (Henry Calderwood, CFO). Total recorded time comes to £33,400 plus VAT, within the £28–38k estimate. Narrative: drafting and negotiation of MSSA, Order Form, SOW, SLA and DPA through to execution on 3 November 2025.<br><br>Thanks,<br>Donna Bridges | PA to Sarah Whitfield<br><br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>"
+    }
+  ]
+}

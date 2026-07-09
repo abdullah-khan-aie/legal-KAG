@@ -1,0 +1,34 @@
+{
+  "id": "fb916169b64b576f",
+  "messages": [
+    {
+      "id": "fb916169b64b576f",
+      "snippet": "James, Aisha, Our freedom-to-operate and patent-validity opinion is attached (privileged). In short:",
+      "subject": "Project Zephyr — FTO & validity opinion (final)",
+      "sender": "alan.foster@hartingtonip.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "aisha.devlin@penroserobotics.com"
+      ],
+      "date": "2025-11-04T12:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James, Aisha,\n\nOur freedom-to-operate and patent-validity opinion is attached (privileged). In short: overall FTO risk LOW; granted decentralised-control claims valid and not infringing the third-party cluster we identified; one dependent-claim caution on EP3892511. We recommend the IP indemnity be limited to use within the licensed field, which I see clause 7 already does, and that Penrose keep prosecuting the pending applications.\n\nNothing here should stop the deal proceeding.\n\nAlan\n\nDr Alan Foster\nPartner / Chartered Patent Attorney, Hartington IP",
+      "htmlBody": "<div dir=\"ltr\">James, Aisha,<br><br>Our freedom-to-operate and patent-validity opinion is attached (privileged). In short: overall FTO risk LOW; granted decentralised-control claims valid and not infringing the third-party cluster we identified; one dependent-claim caution on EP3892511. We recommend the IP indemnity be limited to use within the licensed field, which I see clause 7 already does, and that Penrose keep prosecuting the pending applications.<br><br>Nothing here should stop the deal proceeding.<br><br>Alan<br><br>Dr Alan Foster<br>Partner / Chartered Patent Attorney, Hartington IP</div>",
+      "attachmentIds": [
+        "9ds8u7axTCMbldoNpGfWMtxMHYe-A7vPwGNL4jfmdGg"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Zephyr_FTO_Opinion.pdf",
+          "id": "9ds8u7axTCMbldoNpGfWMtxMHYe-A7vPwGNL4jfmdGg",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

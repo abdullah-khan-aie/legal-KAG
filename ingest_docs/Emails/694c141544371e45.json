@@ -1,0 +1,36 @@
+{
+  "id": "694c141544371e45",
+  "messages": [
+    {
+      "id": "694c141544371e45",
+      "snippet": "Sarah, Drafting the report on title. Main points to flag to Marchwood: the carried-forward service c",
+      "subject": "Larkspur - report on title - points for client",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-30T12:10:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah,\n\nDrafting the report on title. Main points to flag to Marchwood: the carried-forward service charge deficit (£18,400) - I've built an adjustment into the completion statement; the outstanding Aldermere rent review (conduct to be assigned); and the TOGC conditions (option to tax + HMRC notification before completion). Searches are clear.\n\nI'll have the report to you for review tomorrow.\n\nElena",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Drafting the report on title. Main points to flag to Marchwood: the carried-forward service charge deficit (£18,400) - I&#x27;ve built an adjustment into the completion statement; the outstanding Aldermere rent review (conduct to be assigned); and the TOGC conditions (option to tax + HMRC notification before completion). Searches are clear.<br><br>I&#x27;ll have the report to you for review tomorrow.<br><br>Elena</div>"
+    },
+    {
+      "id": "ad4b3db36c9194e7",
+      "snippet": "Good. Make sure the report is explicit that we don't complete until the discharge undertaking is in ",
+      "subject": "RE: Larkspur - report on title - points for client",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-30T13:25:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Good. Make sure the report is explicit that we don't complete until the discharge undertaking is in agreed form. Also confirm the buyer arranges its own insurance from exchange - the contract puts risk on the buyer. Otherwise sounds on track.\n\nSarah\n\nOn Mon, Mar 30, 2026 at 12:10 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Sarah,\n>\n> Drafting the report on title. Main points to flag to Marchwood: the carried-forward service charge deficit (£18,400) - I've built an adjustment into the completion statement; the outstanding Aldermere rent review (conduct to be assigned); and the TOGC conditions (option to tax + HMRC notification before completion). Searches are clear.\n>\n> I'll have the report to you for review tomorrow.\n>\n> Elena",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Good. Make sure the report is explicit that we don&#x27;t complete until the discharge undertaking is in agreed form. Also confirm the buyer arranges its own insurance from exchange - the contract puts risk on the buyer. Otherwise sounds on track.<br><br>Sarah</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Mar 30, 2026 at 12:10 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Drafting the report on title. Main points to flag to Marchwood: the carried-forward service charge deficit (£18,400) - I&#x27;ve built an adjustment into the completion statement; the outstanding Aldermere rent review (conduct to be assigned); and the TOGC conditions (option to tax + HMRC notification before completion). Searches are clear.<br><br>I&#x27;ll have the report to you for review tomorrow.<br><br>Elena</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "25a159dd9bc64560",
+  "messages": [
+    {
+      "id": "25a159dd9bc64560",
+      "snippet": "Marcus, Nadia, Please find attached the draft Letter Before Action to Calderhall for your approval, ",
+      "subject": "Verdant v Calderhall - draft Letter Before Action for approval",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.calder@verdantenergysystems.com",
+        "nadia.fenwick@verdantenergysystems.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-02-06T15:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Marcus, Nadia,\n\nPlease find attached the draft Letter Before Action to Calderhall for your approval, together with the draft Schedule of Loss it refers to. The LBA gives Calderhall 14 days to respond and expressly puts them on notice of the clause 9 repair/replace point.\n\nGrateful for any comments by end of tomorrow so we can get this out on Friday. Figures in the schedule total 2,475,200 - please sense-check the EPC LD and lost-revenue numbers against your records.\n\nTom\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\">Marcus, Nadia,<br><br>Please find attached the draft Letter Before Action to Calderhall for your approval, together with the draft Schedule of Loss it refers to. The LBA gives Calderhall 14 days to respond and expressly puts them on notice of the clause 9 repair/replace point.<br><br>Grateful for any comments by end of tomorrow so we can get this out on Friday. Figures in the schedule total 2,475,200 - please sense-check the EPC LD and lost-revenue numbers against your records.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div>",
+      "attachmentIds": [
+        "UvTYUmTAiJBoRRo_TK_7vW2Z-diksVZ1jH9Gq74shQQ",
+        "uGUWmxLn7g7SOredYtk75xjOQrXdNSHS3k8dY6y5-yQ"
+      ],
+      "attachments": [
+        {
+          "filename": "Verdant_LetterBeforeAction.pdf",
+          "id": "UvTYUmTAiJBoRRo_TK_7vW2Z-diksVZ1jH9Gq74shQQ",
+          "mimeType": "application/pdf"
+        },
+        {
+          "filename": "Verdant_v_Calderhall_ScheduleOfLoss.xlsx",
+          "id": "uGUWmxLn7g7SOredYtk75xjOQrXdNSHS3k8dY6y5-yQ",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "3047ca7709f8582a",
+      "snippet": "Tom - approved with one change: the EPC LDs are 80k/week for 8 weeks = 640k, which matches. Please g",
+      "subject": "RE: Verdant v Calderhall - draft Letter Before Action for approval",
+      "sender": "nadia.fenwick@verdantenergysystems.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "marcus.calder@verdantenergysystems.com"
+      ],
+      "date": "2025-02-07T09:05:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Tom - approved with one change: the EPC LDs are 80k/week for 8 weeks = 640k, which matches. Please go ahead and send. Nadia Fenwick | General Counsel | Verdant Energy Systems\n\nOn Thu, Feb 6, 2025 at 3:30 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Marcus, Nadia,\n>\n> Please find attached the draft Letter Before Action to Calderhall for your approval, together with the draft Schedule of Loss it refers to. The LBA gives Calderhall 14 days to respond and expressly puts them on notice of the clause 9 repair/replace point.\n>\n> Grateful for any comments by end of tomorrow so we can get this out on Friday. Figures in the schedule total 2,475,200 - please sense-check the EPC LD and lost-revenue numbers against your records.\n>\n> Tom\n>\n> Tom Gallagher\n> Associate | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom - approved with one change: the EPC LDs are 80k/week for 8 weeks = 640k, which matches. Please go ahead and send. Nadia Fenwick | General Counsel | Verdant Energy Systems</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Feb 6, 2025 at 3:30 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Marcus, Nadia,<br><br>Please find attached the draft Letter Before Action to Calderhall for your approval, together with the draft Schedule of Loss it refers to. The LBA gives Calderhall 14 days to respond and expressly puts them on notice of the clause 9 repair/replace point.<br><br>Grateful for any comments by end of tomorrow so we can get this out on Friday. Figures in the schedule total 2,475,200 - please sense-check the EPC LD and lost-revenue numbers against your records.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div></blockquote></div></div>"
+    }
+  ]
+}

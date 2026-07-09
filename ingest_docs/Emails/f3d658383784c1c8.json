@@ -1,0 +1,22 @@
+{
+  "id": "f3d658383784c1c8",
+  "messages": [
+    {
+      "id": "f3d658383784c1c8",
+      "snippet": "Hi - are you still on for 5-a-side Saturday morning? We're a man short. Pitch booked 10am at Shoredi",
+      "subject": "Saturday 5-a-side",
+      "sender": "rob.penhaligon@gmail.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-11-21T19:42:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi - are you still on for 5-a-side Saturday morning? We're a man short. Pitch booked 10am at Shoreditch Powerleague. Let me know!\n\nRob\n\n(Sorry if wrong Elena - got this address from the league sheet.)",
+      "htmlBody": "<div dir=\"ltr\">Hi - are you still on for 5-a-side Saturday morning? We&#x27;re a man short. Pitch booked 10am at Shoreditch Powerleague. Let me know!<br><br>Rob<br><br>(Sorry if wrong Elena - got this address from the league sheet.)</div>"
+    }
+  ]
+}

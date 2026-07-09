@@ -1,0 +1,34 @@
+{
+  "id": "10b00837e6552d2c",
+  "messages": [
+    {
+      "id": "10b00837e6552d2c",
+      "snippet": "Catherine, Tom, Attached is our final legal due diligence report. There are no deal-breakers. The fo",
+      "subject": "Project Willow - legal due diligence report (final)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "catherine.barlow@hallorancapital.com",
+        "tom.reid@hallorancapital.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-05-06T18:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Catherine, Tom,\n\nAttached is our final legal due diligence report. There are no deal-breakers. The four matters to note are the Pennine consent (a completion condition), the pending environmental permit variation, the Doyle employment matter (we recommend a specific indemnity capped at £75,000), and the open HMRC R&D enquiry (covered by the tax covenant and a £40,000 reserve in the completion accounts). Happy to talk it through.\n\nSarah",
+      "htmlBody": "<div dir=\"ltr\">Catherine, Tom,<br><br>Attached is our final legal due diligence report. There are no deal-breakers. The four matters to note are the Pennine consent (a completion condition), the pending environmental permit variation, the Doyle employment matter (we recommend a specific indemnity capped at £75,000), and the open HMRC R&amp;D enquiry (covered by the tax covenant and a £40,000 reserve in the completion accounts). Happy to talk it through.<br><br>Sarah</div>",
+      "attachmentIds": [
+        "RosCNad1_cKsghmWq-HMFWOPG8JyQJlj2KtpF_BtFo0"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Willow_DueDiligenceReport.pdf",
+          "id": "RosCNad1_cKsghmWq-HMFWOPG8JyQJlj2KtpF_BtFo0",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

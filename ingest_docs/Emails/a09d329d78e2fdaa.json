@@ -1,0 +1,53 @@
+{
+  "id": "a09d329d78e2fdaa",
+  "messages": [
+    {
+      "id": "a09d329d78e2fdaa",
+      "snippet": "James, Our redline attached. The headline moves: (1) territory expanded to worldwide excluding the U",
+      "subject": "Project Quartz — Licence mark-up (our redline)",
+      "sender": "adam.selby@denhamlewis.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "marcus.webb@denhamlewis.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-11-06T11:25:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nOur redline attached. The headline moves: (1) territory expanded to worldwide excluding the US, Canada and Mexico; (2) royalty reduced to 4.0%; (3) upfront reduced to £1.25m. We've left the liability cap for now but Klaus will want it tied to 12 months' fees. Most other changes are clarifications.\n\nAdam\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our redline attached. The headline moves: (1) territory expanded to worldwide excluding the US, Canada and Mexico; (2) royalty reduced to 4.0%; (3) upfront reduced to £1.25m. We&#x27;ve left the liability cap for now but Klaus will want it tied to 12 months&#x27; fees. Most other changes are clarifications.<br><br>Adam<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "AGUg8_OeOc9y45HgGL__JyQwSyqgZfe0gCrrL5FrDVM"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Quartz_PatentLicence_v2_redline.docx",
+          "id": "AGUg8_OeOc9y45HgGL__JyQwSyqgZfe0gCrrL5FrDVM",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "915ee3fbb72f5fe9",
+      "snippet": "As predicted. 4.0% is too low - we counter at 5.0% and accept the £1.25m upfront (consistent with ou",
+      "subject": "FW: Project Quartz — Licence mark-up (our redline)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-11-06T16:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "As predicted. 4.0% is too low - we counter at 5.0% and accept the £1.25m upfront (consistent with our trade). Territory: counter to EEA/UK/Switzerland. I'll prepare our response redline (v3).\n\nJames\n\nOn Thu, Nov 6, 2025 at 11:25 AM, Adam Selby <adam.selby@denhamlewis.com> wrote:\n> James,\n>\n> Our redline attached. The headline moves: (1) territory expanded to worldwide excluding the US, Canada and Mexico; (2) royalty reduced to 4.0%; (3) upfront reduced to £1.25m. We've left the liability cap for now but Klaus will want it tied to 12 months' fees. Most other changes are clarifications.\n>\n> Adam\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">As predicted. 4.0% is too low - we counter at 5.0% and accept the £1.25m upfront (consistent with our trade). Territory: counter to EEA/UK/Switzerland. I&#x27;ll prepare our response redline (v3).<br><br>James</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Nov 6, 2025 at 11:25 AM, Adam Selby &lt;adam.selby@denhamlewis.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Our redline attached. The headline moves: (1) territory expanded to worldwide excluding the US, Canada and Mexico; (2) royalty reduced to 4.0%; (3) upfront reduced to £1.25m. We&#x27;ve left the liability cap for now but Klaus will want it tied to 12 months&#x27; fees. Most other changes are clarifications.<br><br>Adam<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

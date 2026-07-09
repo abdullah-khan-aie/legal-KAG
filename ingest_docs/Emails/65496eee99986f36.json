@@ -1,0 +1,34 @@
+{
+  "id": "65496eee99986f36",
+  "messages": [
+    {
+      "id": "65496eee99986f36",
+      "snippet": "Oliver, Deepa, Our first draft of the Patent and Know-How Licence is attached (v1, clean). It follow",
+      "subject": "Project Lyra — Patent & Know-How Licence (first draft)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "date": "2025-03-31T17:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Oliver, Deepa,\n\nOur first draft of the Patent and Know-How Licence is attached (v1, clean). It follows the agreed heads of terms. Key clauses to note: grant and field (clause 2), diligence/first-sale longstop (clause 3), the financial provisions (clause 5), warranties (clause 7) and the liability cap in clause 8.4 (currently 150% of sums paid in the preceding 12 months). We look forward to your mark-up.\n\nElena Marchetti\nAssociate\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Oliver, Deepa,<br><br>Our first draft of the Patent and Know-How Licence is attached (v1, clean). It follows the agreed heads of terms. Key clauses to note: grant and field (clause 2), diligence/first-sale longstop (clause 3), the financial provisions (clause 5), warranties (clause 7) and the liability cap in clause 8.4 (currently 150% of sums paid in the preceding 12 months). We look forward to your mark-up.<br><br>Elena Marchetti<br>Associate<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "svc3i6_AVQ9KOJ-eo3_DF7XD0GuxKoVSF_ostlp8bLs"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Lyra_PatentLicence_v1.docx",
+          "id": "svc3i6_AVQ9KOJ-eo3_DF7XD0GuxKoVSF_ostlp8bLs",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "133821e99bf8d00e",
+  "messages": [
+    {
+      "id": "133821e99bf8d00e",
+      "snippet": "Richard, Ahead of the Board, our advice note on likely sentencing exposure is attached, with Counsel",
+      "subject": "Sentinel - exposure if prosecuted (privileged)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "rpennington@penningtonindustries.com"
+      ],
+      "ccRecipients": [
+        "npatel@penningtonindustries.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-03-20T16:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Richard,\n\nAhead of the Board, our advice note on likely sentencing exposure is attached, with Counsel. We are aiming for medium culpability / harm category 2, which on the Company's turnover gives a starting point of GBP 540,000. With full mitigation we target GBP 400,000 before plea credit, ~GBP 266,000 after an early plea, plus HSE costs of about GBP 18,400. If the HSE establishes high culpability the numbers roughly double, which is why agreeing the basis matters. This is privileged - please keep it to the Board.\n\nSarah\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Richard,<br><br>Ahead of the Board, our advice note on likely sentencing exposure is attached, with Counsel. We are aiming for medium culpability / harm category 2, which on the Company&#x27;s turnover gives a starting point of GBP 540,000. With full mitigation we target GBP 400,000 before plea credit, ~GBP 266,000 after an early plea, plus HSE costs of about GBP 18,400. If the HSE establishes high culpability the numbers roughly double, which is why agreeing the basis matters. This is privileged - please keep it to the Board.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "_aQiFl8p2RfhS6vuU5tTSGc1WhVij-0_cQSJbA4dGsQ"
+      ],
+      "attachments": [
+        {
+          "filename": "Sentinel_SentencingExposure_AdviceNote.docx",
+          "id": "_aQiFl8p2RfhS6vuU5tTSGc1WhVij-0_cQSJbA4dGsQ",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "ce91bd5a421c1347",
+      "snippet": "Sarah, Understood and noted. The Board will want to make appropriate provision in the accounts once ",
+      "subject": "RE: Sentinel - exposure if prosecuted (privileged)",
+      "sender": "rpennington@penningtonindustries.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "npatel@penningtonindustries.com"
+      ],
+      "date": "2026-03-23T08:50:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Sarah,\n\nUnderstood and noted. The Board will want to make appropriate provision in the accounts once the range firms up - Naomi will liaise with you and the auditors. We are committed to doing the remediation properly regardless. Let's get the basis agreed if we can.\n\nRichard\n\nOn Fri, Mar 20, 2026 at 4:00 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Richard,\n>\n> Ahead of the Board, our advice note on likely sentencing exposure is attached, with Counsel. We are aiming for medium culpability / harm category 2, which on the Company's turnover gives a starting point of GBP 540,000. With full mitigation we target GBP 400,000 before plea credit, ~GBP 266,000 after an early plea, plus HSE costs of about GBP 18,400. If the HSE establishes high culpability the numbers roughly double, which is why agreeing the basis matters. This is privileged - please keep it to the Board.\n>\n> Sarah\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah,<br><br>Understood and noted. The Board will want to make appropriate provision in the accounts once the range firms up - Naomi will liaise with you and the auditors. We are committed to doing the remediation properly regardless. Let&#x27;s get the basis agreed if we can.<br><br>Richard</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Mar 20, 2026 at 4:00 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Richard,<br><br>Ahead of the Board, our advice note on likely sentencing exposure is attached, with Counsel. We are aiming for medium culpability / harm category 2, which on the Company&#x27;s turnover gives a starting point of GBP 540,000. With full mitigation we target GBP 400,000 before plea credit, ~GBP 266,000 after an early plea, plus HSE costs of about GBP 18,400. If the HSE establishes high culpability the numbers roughly double, which is why agreeing the basis matters. This is privileged - please keep it to the Board.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "bcae991101cc4886",
+  "messages": [
+    {
+      "id": "bcae991101cc4886",
+      "snippet": "James - two points on the DPA (Schedule 3) before we sign off: (1) can Caspian confirm production ho",
+      "subject": "Brookmere MSA - DPA queries",
+      "sender": "rupa.carver@brookmeream.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "eleanor.whitford@brookmeream.com"
+      ],
+      "date": "2025-12-18T11:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James - two points on the DPA (Schedule 3) before we sign off: (1) can Caspian confirm production hosting stays in the UK for the full term? (2) we'd like 48-hour breach notification rather than 'without undue delay' alone. Rupa Carver, Head of Legal, Brookmere",
+      "htmlBody": "<div dir=\"ltr\">James - two points on the DPA (Schedule 3) before we sign off: (1) can Caspian confirm production hosting stays in the UK for the full term? (2) we&#x27;d like 48-hour breach notification rather than &#x27;without undue delay&#x27; alone. Rupa Carver, Head of Legal, Brookmere</div>"
+    },
+    {
+      "id": "ebd4044e18d3cb73",
+      "snippet": "Rupa, (1) Confirmed - production Customer Data is hosted in the UK (AWS eu-west-2) and Schedule 3 sa",
+      "subject": "RE: Brookmere MSA - DPA queries",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "rupa.carver@brookmeream.com"
+      ],
+      "ccRecipients": [
+        "eleanor.whitford@brookmeream.com",
+        "daniel.okonkwo@caspiantech.io"
+      ],
+      "date": "2025-12-19T09:40:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Rupa,\n\n(1) Confirmed - production Customer Data is hosted in the UK (AWS eu-west-2) and Schedule 3 says so. (2) Agreed - the DPA already provides for notification 'without undue delay and in any event within 48 hours', which should meet your point. No change needed but happy to highlight it on the call.\n\nJames\n\n--\nJames Osei\nSenior Associate, Commercial\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Thu, Dec 18, 2025 at 11:00 AM, Rupa Carver <rupa.carver@brookmeream.com> wrote:\n> James - two points on the DPA (Schedule 3) before we sign off: (1) can Caspian confirm production hosting stays in the UK for the full term? (2) we'd like 48-hour breach notification rather than 'without undue delay' alone. Rupa Carver, Head of Legal, Brookmere",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Rupa,<br><br>(1) Confirmed - production Customer Data is hosted in the UK (AWS eu-west-2) and Schedule 3 says so. (2) Agreed - the DPA already provides for notification &#x27;without undue delay and in any event within 48 hours&#x27;, which should meet your point. No change needed but happy to highlight it on the call.<br><br>James<br><br>--<br>James Osei<br>Senior Associate, Commercial<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Dec 18, 2025 at 11:00 AM, Rupa Carver &lt;rupa.carver@brookmeream.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James - two points on the DPA (Schedule 3) before we sign off: (1) can Caspian confirm production hosting stays in the UK for the full term? (2) we&#x27;d like 48-hour breach notification rather than &#x27;without undue delay&#x27; alone. Rupa Carver, Head of Legal, Brookmere</div></blockquote></div></div>"
+    }
+  ]
+}

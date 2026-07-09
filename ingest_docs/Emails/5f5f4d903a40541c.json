@@ -1,0 +1,54 @@
+{
+  "id": "5f5f4d903a40541c",
+  "messages": [
+    {
+      "id": "5f5f4d903a40541c",
+      "snippet": "James, Our mark-up attached (tracked). Principal points for Aerelon: extend exclusivity to seven yea",
+      "subject": "Project Indigo - Licence mark-up (v2)",
+      "sender": "alistair.whitlock@pembertonrowe.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "nadia.iqbal@pembertonrowe.com",
+        "robert.haines@aerelonaviation.com"
+      ],
+      "date": "2026-01-22T11:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nOur mark-up attached (tracked). Principal points for Aerelon: extend exclusivity to seven years; reduce the minimum annual royalty to £900k; raise the general liability cap to 150% of fees; increase the IP indemnity cap to £15m; and reduce default interest to 2% over base. The rest is largely agreed. Let's find a time to talk the commercials through.\n\nAlistair\nPemberton Rowe LLP",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our mark-up attached (tracked). Principal points for Aerelon: extend exclusivity to seven years; reduce the minimum annual royalty to £900k; raise the general liability cap to 150% of fees; increase the IP indemnity cap to £15m; and reduce default interest to 2% over base. The rest is largely agreed. Let&#x27;s find a time to talk the commercials through.<br><br>Alistair<br>Pemberton Rowe LLP</div>",
+      "attachmentIds": [
+        "rNWI0EgWCvBPHG1szzsz_48ejLKOTFdtmbumZOvfIvY"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Indigo_Licence_v2_redline.docx",
+          "id": "rNWI0EgWCvBPHG1szzsz_48ejLKOTFdtmbumZOvfIvY",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "c1913c1c480b761e",
+      "snippet": "Sarah - PR's redline in. Exclusivity 7yrs and min royalty cut to £900k are the live commercial point",
+      "subject": "FW: Project Indigo - Licence mark-up (v2)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-01-23T08:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah - PR's redline in. Exclusivity 7yrs and min royalty cut to £900k are the live commercial points; the liability asks are negotiable. Suggest we land exclusivity at six years and min royalty around £1.05m, and offer 125% on the cap. Will take client instructions. James\n\nOn Thu, Jan 22, 2026 at 11:10 AM, Alistair Whitlock <alistair.whitlock@pembertonrowe.com> wrote:\n> James,\n>\n> Our mark-up attached (tracked). Principal points for Aerelon: extend exclusivity to seven years; reduce the minimum annual royalty to £900k; raise the general liability cap to 150% of fees; increase the IP indemnity cap to £15m; and reduce default interest to 2% over base. The rest is largely agreed. Let's find a time to talk the commercials through.\n>\n> Alistair\n> Pemberton Rowe LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah - PR&#x27;s redline in. Exclusivity 7yrs and min royalty cut to £900k are the live commercial points; the liability asks are negotiable. Suggest we land exclusivity at six years and min royalty around £1.05m, and offer 125% on the cap. Will take client instructions. James</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Jan 22, 2026 at 11:10 AM, Alistair Whitlock &lt;alistair.whitlock@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Our mark-up attached (tracked). Principal points for Aerelon: extend exclusivity to seven years; reduce the minimum annual royalty to £900k; raise the general liability cap to 150% of fees; increase the IP indemnity cap to £15m; and reduce default interest to 2% over base. The rest is largely agreed. Let&#x27;s find a time to talk the commercials through.<br><br>Alistair<br>Pemberton Rowe LLP</div></blockquote></div></div>"
+    }
+  ]
+}

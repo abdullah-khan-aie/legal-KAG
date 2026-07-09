@@ -1,0 +1,38 @@
+{
+  "id": "118cf62e7660a059",
+  "messages": [
+    {
+      "id": "118cf62e7660a059",
+      "snippet": "Tom - separate from Ashfield: are you free to witness signatures on the Project Quartz (Strathmore /",
+      "subject": "Quick one - Project Quartz signing pack",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-10-02T09:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Tom - separate from Ashfield: are you free to witness signatures on the Project Quartz (Strathmore / Velloran Hygiene) completion pack this afternoon? James is out and Elena's at the mediation prep. Should take ten minutes.\n\nSarah\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Tom - separate from Ashfield: are you free to witness signatures on the Project Quartz (Strathmore / Velloran Hygiene) completion pack this afternoon? James is out and Elena&#x27;s at the mediation prep. Should take ten minutes.<br><br>Sarah<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "c515fb4fd097c2e5",
+      "snippet": "Yes - I'm around from 3pm. Send the pack over and I'll come up. Tom",
+      "subject": "RE: Quick one - Project Quartz signing pack",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-10-02T09:18:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Yes - I'm around from 3pm. Send the pack over and I'll come up.\n\nTom\n\nOn Thu, Oct 2, 2025 at 9:05 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Tom - separate from Ashfield: are you free to witness signatures on the Project Quartz (Strathmore / Velloran Hygiene) completion pack this afternoon? James is out and Elena's at the mediation prep. Should take ten minutes.\n>\n> Sarah\n>\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Yes - I&#x27;m around from 3pm. Send the pack over and I&#x27;ll come up.<br><br>Tom</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 2, 2025 at 9:05 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom - separate from Ashfield: are you free to witness signatures on the Project Quartz (Strathmore / Velloran Hygiene) completion pack this afternoon? James is out and Elena&#x27;s at the mediation prep. Should take ten minutes.<br><br>Sarah<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

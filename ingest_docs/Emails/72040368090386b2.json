@@ -1,0 +1,21 @@
+{
+  "id": "72040368090386b2",
+  "messages": [
+    {
+      "id": "72040368090386b2",
+      "snippet": "Tom - can you chase Kingsford for the missing signature pages on the Project Drake SPA? Completion i",
+      "subject": "Project Drake - signature pages",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-03-18T16:20:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Tom - can you chase Kingsford for the missing signature pages on the Project Drake SPA? Completion is meant to be Friday and we're still short two. Thanks - sorry, I think I meant to send this to Tina, not you. Ignore!\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Tom - can you chase Kingsford for the missing signature pages on the Project Drake SPA? Completion is meant to be Friday and we&#x27;re still short two. Thanks - sorry, I think I meant to send this to Tina, not you. Ignore!<br><br>James</div>"
+    }
+  ]
+}

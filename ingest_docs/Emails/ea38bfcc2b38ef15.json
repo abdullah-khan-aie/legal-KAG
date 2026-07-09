@@ -1,0 +1,36 @@
+{
+  "id": "ea38bfcc2b38ef15",
+  "messages": [
+    {
+      "id": "ea38bfcc2b38ef15",
+      "snippet": "Liam, Draft of your first witness statement is ready for review. The key paragraphs are: the commerc",
+      "subject": "Your witness statement — draft for review",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "liam.okafor@brightwateranalytics.com"
+      ],
+      "date": "2026-04-08T11:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Liam,\n\nDraft of your first witness statement is ready for review. The key paragraphs are: the commercial negotiation with Catherine Vane; the go-live sign-off by Aldous; the change in the relationship after Caldervale was acquired; and — most important — that no 30-day remedy notice was ever served and that the 14 June outage was their SSO. Please check every factual detail and let me have comments.\n\nTom\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n+44 (0)20 7946 1100\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Liam,<br><br>Draft of your first witness statement is ready for review. The key paragraphs are: the commercial negotiation with Catherine Vane; the go-live sign-off by Aldous; the change in the relationship after Caldervale was acquired; and — most important — that no 30-day remedy notice was ever served and that the 14 June outage was their SSO. Please check every factual detail and let me have comments.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1100<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "601a4bae5d947849",
+      "snippet": "Tom, Read it — accurate. Two tweaks: it was their new Head of Analytics who drove the complaints fro",
+      "subject": "RE: Your witness statement — draft for review",
+      "sender": "liam.okafor@brightwateranalytics.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-04-10T13:35:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Tom,\n\nRead it — accurate. Two tweaks: it was their new Head of Analytics who drove the complaints from March, and the 14 June outage ticket from our side clearly attributes it to their SSO provider, which I can exhibit. Otherwise happy to sign.\n\nLiam\n\nOn Wed, Apr 8, 2026 at 11:00 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Liam,\n>\n> Draft of your first witness statement is ready for review. The key paragraphs are: the commercial negotiation with Catherine Vane; the go-live sign-off by Aldous; the change in the relationship after Caldervale was acquired; and — most important — that no 30-day remedy notice was ever served and that the 14 June outage was their SSO. Please check every factual detail and let me have comments.\n>\n> Tom\n>\n> Tom Gallagher\n> Associate | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> +44 (0)20 7946 1100\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom,<br><br>Read it — accurate. Two tweaks: it was their new Head of Analytics who drove the complaints from March, and the 14 June outage ticket from our side clearly attributes it to their SSO provider, which I can exhibit. Otherwise happy to sign.<br><br>Liam</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Apr 8, 2026 at 11:00 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Liam,<br><br>Draft of your first witness statement is ready for review. The key paragraphs are: the commercial negotiation with Catherine Vane; the go-live sign-off by Aldous; the change in the relationship after Caldervale was acquired; and — most important — that no 30-day remedy notice was ever served and that the 14 June outage was their SSO. Please check every factual detail and let me have comments.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1100<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

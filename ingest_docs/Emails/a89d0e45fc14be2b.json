@@ -1,0 +1,55 @@
+{
+  "id": "a89d0e45fc14be2b",
+  "messages": [
+    {
+      "id": "a89d0e45fc14be2b",
+      "snippet": "All, With the SSA agreed we're set to complete on 29 May. Attached is the funds flow statement. Inve",
+      "subject": "Project Falcon - completion mechanics & funds flow",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "priya.forsyth@penroserobotics.com",
+        "marcus.pell@westbridgegrowth.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "eleanor.whitmore@calderbrookgrowth.com",
+        "robert.aldridge@aldridgeseed.com"
+      ],
+      "date": "2026-05-27T15:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "All,\n\nWith the SSA agreed we're set to complete on 29 May. Attached is the funds flow statement. Investor monies to reach our client account by 9.30am: Westbridge £11.0m, Calderbrook £2.0m, Aldridge Seed £1.0m. Net to company after costs is £13,847,500. We'll hold a board meeting to allot the shares and issue certificates on receipt.\n\nPlease confirm the bank details have been picked up.\n\nJames\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>With the SSA agreed we&#x27;re set to complete on 29 May. Attached is the funds flow statement. Investor monies to reach our client account by 9.30am: Westbridge £11.0m, Calderbrook £2.0m, Aldridge Seed £1.0m. Net to company after costs is £13,847,500. We&#x27;ll hold a board meeting to allot the shares and issue certificates on receipt.<br><br>Please confirm the bank details have been picked up.<br><br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "BZzJkeaNBkZuyS-RAbvKaVlNwNBYAXoH67UKroAL4Cc"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Falcon_FundsFlow.xlsx",
+          "id": "BZzJkeaNBkZuyS-RAbvKaVlNwNBYAXoH67UKroAL4Cc",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "1b6ae792f88f1919",
+      "snippet": "Confirmed - bank details verified by phone. We're ready our end. Marcus and Aisha will be available ",
+      "subject": "RE: Project Falcon - completion mechanics & funds flow",
+      "sender": "priya.forsyth@penroserobotics.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-28T09:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Confirmed - bank details verified by phone. We're ready our end. Marcus and Aisha will be available to sign from 9am on the 29th.\n\nPriya\n\nOn Wed, May 27, 2026 at 3:00 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> All,\n>\n> With the SSA agreed we're set to complete on 29 May. Attached is the funds flow statement. Investor monies to reach our client account by 9.30am: Westbridge £11.0m, Calderbrook £2.0m, Aldridge Seed £1.0m. Net to company after costs is £13,847,500. We'll hold a board meeting to allot the shares and issue certificates on receipt.\n>\n> Please confirm the bank details have been picked up.\n>\n> James\n>\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Confirmed - bank details verified by phone. We&#x27;re ready our end. Marcus and Aisha will be available to sign from 9am on the 29th.<br><br>Priya</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, May 27, 2026 at 3:00 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">All,<br><br>With the SSA agreed we&#x27;re set to complete on 29 May. Attached is the funds flow statement. Investor monies to reach our client account by 9.30am: Westbridge £11.0m, Calderbrook £2.0m, Aldridge Seed £1.0m. Net to company after costs is £13,847,500. We&#x27;ll hold a board meeting to allot the shares and issue certificates on receipt.<br><br>Please confirm the bank details have been picked up.<br><br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "id": "a1180130331c8623",
+  "messages": [
+    {
+      "id": "a1180130331c8623",
+      "snippet": "Dear Mr Osei, Please find served our client's Defence and Counterclaim. Our client counterclaims £64",
+      "subject": "Caspian v Harburn — Defence and Counterclaim served",
+      "sender": "nadia.iqbal@pembertonrowe.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "date": "2026-03-27T16:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Mr Osei,\n\nPlease find served our client's Defence and Counterclaim. Our client counterclaims £640,500. We remain open to mediation.\n\nNadia Iqbal\nPemberton Rowe LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Osei,<br><br>Please find served our client&#x27;s Defence and Counterclaim. Our client counterclaims £640,500. We remain open to mediation.<br><br>Nadia Iqbal<br>Pemberton Rowe LLP</div>",
+      "attachmentIds": [
+        "Ksks9M-fX88_qns-kZJcWRJXxf8hCaMVuQ6ty_21YBM"
+      ],
+      "attachments": [
+        {
+          "filename": "Harburn_DefenceAndCounterclaim.pdf",
+          "id": "Ksks9M-fX88_qns-kZJcWRJXxf8hCaMVuQ6ty_21YBM",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "b2b08f434acf062e",
+      "snippet": "Dear Ms Iqbal, Receipt acknowledged. We will serve a Reply and Defence to Counterclaim in due course",
+      "subject": "RE: Caspian v Harburn — Defence and Counterclaim served",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "nadia.iqbal@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "alistair.whitlock@pembertonrowe.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-31T09:40:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Ms Iqbal,\n\nReceipt acknowledged. We will serve a Reply and Defence to Counterclaim in due course. Your counterclaim does not engage with the exclusive-remedy provision or the clause 9.4 cap; we reserve our position. We'll respond on directions ahead of the CMC.\n\nJames Osei\n\n—\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Fri, Mar 27, 2026 at 4:00 PM, Nadia Iqbal <nadia.iqbal@pembertonrowe.com> wrote:\n> Dear Mr Osei,\n>\n> Please find served our client's Defence and Counterclaim. Our client counterclaims £640,500. We remain open to mediation.\n>\n> Nadia Iqbal\n> Pemberton Rowe LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Ms Iqbal,<br><br>Receipt acknowledged. We will serve a Reply and Defence to Counterclaim in due course. Your counterclaim does not engage with the exclusive-remedy provision or the clause 9.4 cap; we reserve our position. We&#x27;ll respond on directions ahead of the CMC.<br><br>James Osei<br><br>—<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Mar 27, 2026 at 4:00 PM, Nadia Iqbal &lt;nadia.iqbal@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Mr Osei,<br><br>Please find served our client&#x27;s Defence and Counterclaim. Our client counterclaims £640,500. We remain open to mediation.<br><br>Nadia Iqbal<br>Pemberton Rowe LLP</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "eefa1b3241c99002",
+  "messages": [
+    {
+      "id": "eefa1b3241c99002",
+      "snippet": "Dear Adam, Paul, Further to the draft agreement, please find the Statement of Work (Schedule 1), the",
+      "subject": "Caspian Atlas — Schedules 1, 3 and 4",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "adam.selby@denhamlewis.com",
+        "paul.bennett@harborlightretail.com"
+      ],
+      "ccRecipients": [
+        "daniel.okonkwo@caspiantech.io"
+      ],
+      "date": "2025-11-05T12:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Adam, Paul,\n\nFurther to the draft agreement, please find the Statement of Work (Schedule 1), the SLA (Schedule 3) and the Data Processing Agreement (Schedule 4). The SLA reflects a 99.5% availability target as our opening position. The DPA is on our standard processor terms.\n\nGrateful for any comments alongside your mark-up of the main agreement.\n\nKind regards,\nElena Marchetti\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0100 | whitfieldcarter.com",
+      "htmlBody": "<div dir=\"ltr\">Dear Adam, Paul,<br><br>Further to the draft agreement, please find the Statement of Work (Schedule 1), the SLA (Schedule 3) and the Data Processing Agreement (Schedule 4). The SLA reflects a 99.5% availability target as our opening position. The DPA is on our standard processor terms.<br><br>Grateful for any comments alongside your mark-up of the main agreement.<br><br>Kind regards,<br>Elena Marchetti<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0100 | whitfieldcarter.com</div>",
+      "attachmentIds": [
+        "PZ_eCpq1mRCXAPW77ZwAsOgKbUrsEyzciZ0ja2XwTVY",
+        "HU0P0_MzgWXLpSXpikAFHBifnp2I78bH7vU2QdqxFRs",
+        "zFr81Sz7wsInoPNC6yIsEq0kSOtWuOrHKYPk9QABWWQ"
+      ],
+      "attachments": [
+        {
+          "filename": "Caspian_Harborlight_Schedule1_SOW.docx",
+          "id": "PZ_eCpq1mRCXAPW77ZwAsOgKbUrsEyzciZ0ja2XwTVY",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "filename": "Caspian_Harborlight_Schedule3_SLA.docx",
+          "id": "HU0P0_MzgWXLpSXpikAFHBifnp2I78bH7vU2QdqxFRs",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        },
+        {
+          "filename": "Caspian_Harborlight_Schedule4_DPA.docx",
+          "id": "zFr81Sz7wsInoPNC6yIsEq0kSOtWuOrHKYPk9QABWWQ",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

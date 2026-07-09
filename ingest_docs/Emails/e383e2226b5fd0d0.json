@@ -1,0 +1,25 @@
+{
+  "id": "e383e2226b5fd0d0",
+  "messages": [
+    {
+      "id": "e383e2226b5fd0d0",
+      "snippet": "Colleagues, The document management system (iManage) will be unavailable from 20:00 on Saturday 17 J",
+      "subject": "Planned DMS maintenance — Saturday 17 January",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-01-14T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Colleagues,\n\nThe document management system (iManage) will be unavailable from 20:00 on Saturday 17 January until approximately 02:00 Sunday for scheduled maintenance and indexing. Please check in any open documents before then. Email will be unaffected.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Colleagues,<br><br>The document management system (iManage) will be unavailable from 20:00 on Saturday 17 January until approximately 02:00 Sunday for scheduled maintenance and indexing. Please check in any open documents before then. Email will be unaffected.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

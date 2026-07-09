@@ -1,0 +1,63 @@
+{
+  "id": "7de8acbc38fe1f46",
+  "messages": [
+    {
+      "id": "7de8acbc38fe1f46",
+      "snippet": "All, Please find attached (1) the executed settlement agreement, and (2) a breakdown of the settleme",
+      "subject": "Whitcombe - executed settlement agreement & payment breakdown",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "lesley.crane@sutherlandlogistics.co.uk",
+        "gordon.sutherland@sutherlandlogistics.co.uk",
+        "diane.pryor@sutherlandlogistics.co.uk"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-06-09T10:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "All,\n\nPlease find attached (1) the executed settlement agreement, and (2) a breakdown of the settlement and the tax treatment for payroll. The £30,000 termination element is paid free of tax under ss.401-403 ITEPA; PAYE should be applied to the £78,000 compensatory element at the appropriate rate. The total cost to the Company, including the £15,000 costs contribution, is £123,000.\n\nWith the agreement signed and the advice given, the matter is now concluded subject to payment and the withdrawal being processed by the Tribunal. It's been a pleasure - do let me know if anything else is needed.\n\nBest wishes,\nTom Gallagher\nAssociate | Employment\nWhitfield Carter LLP\nT +44 (0)20 7946 0538\n\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>Please find attached (1) the executed settlement agreement, and (2) a breakdown of the settlement and the tax treatment for payroll. The £30,000 termination element is paid free of tax under ss.401-403 ITEPA; PAYE should be applied to the £78,000 compensatory element at the appropriate rate. The total cost to the Company, including the £15,000 costs contribution, is £123,000.<br><br>With the agreement signed and the advice given, the matter is now concluded subject to payment and the withdrawal being processed by the Tribunal. It&#x27;s been a pleasure - do let me know if anything else is needed.<br><br>Best wishes,<br>Tom Gallagher<br>Associate | Employment<br>Whitfield Carter LLP<br>T +44 (0)20 7946 0538<br><br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "FVnHNcDZ1NNGXiMPzSyFor5rBxV9nc1fHwb84ceLE68",
+        "ooHKPzkGDPWErMgEDe-apj4QPw7z3bXv-ZPdiI1K7mk"
+      ],
+      "attachments": [
+        {
+          "filename": "Whitcombe_SettlementAgreement_Executed.pdf",
+          "id": "FVnHNcDZ1NNGXiMPzSyFor5rBxV9nc1fHwb84ceLE68",
+          "mimeType": "application/pdf"
+        },
+        {
+          "filename": "Whitcombe_SettlementBreakdown.xlsx",
+          "id": "ooHKPzkGDPWErMgEDe-apj4QPw7z3bXv-ZPdiI1K7mk",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "23f080f23e021b2c",
+      "snippet": "Tom, Sarah - thank you both, and the wider team. A sensible outcome and handled well. We'll get the ",
+      "subject": "RE: Whitcombe - executed settlement agreement & payment breakdown",
+      "sender": "gordon.sutherland@sutherlandlogistics.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "lesley.crane@sutherlandlogistics.co.uk",
+        "diane.pryor@sutherlandlogistics.co.uk"
+      ],
+      "date": "2026-06-09T18:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom, Sarah - thank you both, and the wider team. A sensible outcome and handled well. We'll get the payments processed. Gordon\n\nOn Tue, Jun 9, 2026 at 10:20 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> All,\n>\n> Please find attached (1) the executed settlement agreement, and (2) a breakdown of the settlement and the tax treatment for payroll. The £30,000 termination element is paid free of tax under ss.401-403 ITEPA; PAYE should be applied to the £78,000 compensatory element at the appropriate rate. The total cost to the Company, including the £15,000 costs contribution, is £123,000.\n>\n> With the agreement signed and the advice given, the matter is now concluded subject to payment and the withdrawal being processed by the Tribunal. It's been a pleasure - do let me know if anything else is needed.\n>\n> Best wishes,\n> Tom Gallagher\n> Associate | Employment\n> Whitfield Carter LLP\n> T +44 (0)20 7946 0538\n>\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom, Sarah - thank you both, and the wider team. A sensible outcome and handled well. We&#x27;ll get the payments processed. Gordon</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jun 9, 2026 at 10:20 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">All,<br><br>Please find attached (1) the executed settlement agreement, and (2) a breakdown of the settlement and the tax treatment for payroll. The £30,000 termination element is paid free of tax under ss.401-403 ITEPA; PAYE should be applied to the £78,000 compensatory element at the appropriate rate. The total cost to the Company, including the £15,000 costs contribution, is £123,000.<br><br>With the agreement signed and the advice given, the matter is now concluded subject to payment and the withdrawal being processed by the Tribunal. It&#x27;s been a pleasure - do let me know if anything else is needed.<br><br>Best wishes,<br>Tom Gallagher<br>Associate | Employment<br>Whitfield Carter LLP<br>T +44 (0)20 7946 0538<br><br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

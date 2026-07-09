@@ -1,0 +1,66 @@
+{
+  "id": "4a047fda31f0ac50",
+  "messages": [
+    {
+      "id": "4a047fda31f0ac50",
+      "snippet": "Dear Sarah, We have a serious problem with one of our contract API suppliers, Tessaract Bioreagents,",
+      "subject": "Defective API batch — potential claim against Tessaract Bioreagents",
+      "sender": "naomi.adeyemi@hartwellpharma.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "stephen.okoro@hartwellpharma.com",
+        "helena.vance@hartwellpharma.com"
+      ],
+      "date": "2025-10-20T09:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear Sarah,\n\nWe have a serious problem with one of our contract API suppliers, Tessaract Bioreagents, and would like to instruct Whitfield Carter.\n\nIn short: a batch of HX-218 API (TX-HX218-0461) they certified as compliant turned out to contain an out-of-spec impurity. It wrecked a clinical manufacturing lot. Our investigation, now backed by an independent lab, traces the impurity to Tessaract swapping a starting-material supplier without telling us — no change control at all. Stephen (CSO) has the technical detail.\n\nOur exposure is already north of £3m once you count the wasted campaign, replacement API and the knock-on clinical delay. There is a £250k liability cap in the supply agreement which we will obviously want to get round.\n\nCan we set up a call this week?\n\nKind regards,\nNaomi Adeyemi\nGeneral Counsel & Company Secretary, Hartwell Pharma",
+      "htmlBody": "<div dir=\"ltr\">Dear Sarah,<br><br>We have a serious problem with one of our contract API suppliers, Tessaract Bioreagents, and would like to instruct Whitfield Carter.<br><br>In short: a batch of HX-218 API (TX-HX218-0461) they certified as compliant turned out to contain an out-of-spec impurity. It wrecked a clinical manufacturing lot. Our investigation, now backed by an independent lab, traces the impurity to Tessaract swapping a starting-material supplier without telling us — no change control at all. Stephen (CSO) has the technical detail.<br><br>Our exposure is already north of £3m once you count the wasted campaign, replacement API and the knock-on clinical delay. There is a £250k liability cap in the supply agreement which we will obviously want to get round.<br><br>Can we set up a call this week?<br><br>Kind regards,<br>Naomi Adeyemi<br>General Counsel &amp; Company Secretary, Hartwell Pharma</div>"
+    },
+    {
+      "id": "65f3ee87dd2dfe05",
+      "snippet": "Dear Naomi, Thank you — we would be glad to act. This sounds like a strong breach-of-contract claim,",
+      "subject": "RE: Defective API batch — potential claim against Tessaract Bioreagents",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "naomi.adeyemi@hartwellpharma.com"
+      ],
+      "ccRecipients": [
+        "stephen.okoro@hartwellpharma.com",
+        "helena.vance@hartwellpharma.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-10-20T14:38:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Naomi,\n\nThank you — we would be glad to act. This sounds like a strong breach-of-contract claim, and the change-control point is potentially the key that unlocks the cap (most well-drafted caps carve out deliberate breach, and on the face of it that is what you have).\n\nTo get us started, please could Stephen send the supply agreement (with the quality agreement and Schedule 3), the CoA for the batch, the OOS investigation, and the Wraysbury report. I'll bring in Tom Gallagher as senior associate.\n\nI have time Thursday at 2pm or Friday morning. Shall we say Thursday?\n\nKind regards,\nSarah\n\n--\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Mon, Oct 20, 2025 at 9:12 AM, Naomi Adeyemi <naomi.adeyemi@hartwellpharma.com> wrote:\n> Dear Sarah,\n>\n> We have a serious problem with one of our contract API suppliers, Tessaract Bioreagents, and would like to instruct Whitfield Carter.\n>\n> In short: a batch of HX-218 API (TX-HX218-0461) they certified as compliant turned out to contain an out-of-spec impurity. It wrecked a clinical manufacturing lot. Our investigation, now backed by an independent lab, traces the impurity to Tessaract swapping a starting-material supplier without telling us — no change control at all. Stephen (CSO) has the technical detail.\n>\n> Our exposure is already north of £3m once you count the wasted campaign, replacement API and the knock-on clinical delay. There is a £250k liability cap in the supply agreement which we will obviously want to get round.\n>\n> Can we set up a call this week?\n>\n> Kind regards,\n> Naomi Adeyemi\n> General Counsel & Company Secretary, Hartwell Pharma",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Naomi,<br><br>Thank you — we would be glad to act. This sounds like a strong breach-of-contract claim, and the change-control point is potentially the key that unlocks the cap (most well-drafted caps carve out deliberate breach, and on the face of it that is what you have).<br><br>To get us started, please could Stephen send the supply agreement (with the quality agreement and Schedule 3), the CoA for the batch, the OOS investigation, and the Wraysbury report. I&#x27;ll bring in Tom Gallagher as senior associate.<br><br>I have time Thursday at 2pm or Friday morning. Shall we say Thursday?<br><br>Kind regards,<br>Sarah<br><br>--<br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Oct 20, 2025 at 9:12 AM, Naomi Adeyemi &lt;naomi.adeyemi@hartwellpharma.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Sarah,<br><br>We have a serious problem with one of our contract API suppliers, Tessaract Bioreagents, and would like to instruct Whitfield Carter.<br><br>In short: a batch of HX-218 API (TX-HX218-0461) they certified as compliant turned out to contain an out-of-spec impurity. It wrecked a clinical manufacturing lot. Our investigation, now backed by an independent lab, traces the impurity to Tessaract swapping a starting-material supplier without telling us — no change control at all. Stephen (CSO) has the technical detail.<br><br>Our exposure is already north of £3m once you count the wasted campaign, replacement API and the knock-on clinical delay. There is a £250k liability cap in the supply agreement which we will obviously want to get round.<br><br>Can we set up a call this week?<br><br>Kind regards,<br>Naomi Adeyemi<br>General Counsel &amp; Company Secretary, Hartwell Pharma</div></blockquote></div></div>"
+    },
+    {
+      "id": "8a27df9321f903db",
+      "snippet": "Thursday 2pm works. Stephen will send the documents across today. Thank you Sarah — this is a relief",
+      "subject": "RE: Defective API batch — potential claim against Tessaract Bioreagents",
+      "sender": "naomi.adeyemi@hartwellpharma.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "stephen.okoro@hartwellpharma.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-10-21T08:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Thursday 2pm works. Stephen will send the documents across today. Thank you Sarah — this is a relief.\n\nNaomi\n\nOn Mon, Oct 20, 2025 at 2:38 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Dear Naomi,\n>\n> Thank you — we would be glad to act. This sounds like a strong breach-of-contract claim, and the change-control point is potentially the key that unlocks the cap (most well-drafted caps carve out deliberate breach, and on the face of it that is what you have).\n>\n> To get us started, please could Stephen send the supply agreement (with the quality agreement and Schedule 3), the CoA for the batch, the OOS investigation, and the Wraysbury report. I'll bring in Tom Gallagher as senior associate.\n>\n> I have time Thursday at 2pm or Friday morning. Shall we say Thursday?\n>\n> Kind regards,\n> Sarah\n>\n> --\n> Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.\n>\n> On Mon, Oct 20, 2025 at 9:12 AM, Naomi Adeyemi <naomi.adeyemi@hartwellpharma.com> wrote:\n> > Dear Sarah,\n> >\n> > We have a serious problem with one of our contract API suppliers, Tessaract Bioreagents, and would like to instruct Whitfield Carter.\n> >\n> > In short: a batch of HX-218 API (TX-HX218-0461) they certified as compliant turned out to contain an out-of-spec impurity. It wrecked a clinical manufacturing lot. Our investigation, now backed by an independent lab, traces the impurity to Tessaract swapping a starting-material supplier without telling us — no change control at all. Stephen (CSO) has the technical detail.\n> >\n> > Our exposure is already north of £3m once you count the wasted campaign, replacement API and the knock-on clinical delay. There is a £250k liability cap in the supply agreement which we will obviously want to get round.\n> >\n> > Can we set up a call this week?\n> >\n> > Kind regards,\n> > Naomi Adeyemi\n> > General Counsel & Company Secretary, Hartwell Pharma",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thursday 2pm works. Stephen will send the documents across today. Thank you Sarah — this is a relief.<br><br>Naomi</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Oct 20, 2025 at 2:38 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Dear Naomi,<br><br>Thank you — we would be glad to act. This sounds like a strong breach-of-contract claim, and the change-control point is potentially the key that unlocks the cap (most well-drafted caps carve out deliberate breach, and on the face of it that is what you have).<br><br>To get us started, please could Stephen send the supply agreement (with the quality agreement and Schedule 3), the CoA for the batch, the OOS investigation, and the Wraysbury report. I&#x27;ll bring in Tom Gallagher as senior associate.<br><br>I have time Thursday at 2pm or Friday morning. Shall we say Thursday?<br><br>Kind regards,<br>Sarah<br><br>--<br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Oct 20, 2025 at 9:12 AM, Naomi Adeyemi &lt;naomi.adeyemi@hartwellpharma.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Sarah,<br><br>We have a serious problem with one of our contract API suppliers, Tessaract Bioreagents, and would like to instruct Whitfield Carter.<br><br>In short: a batch of HX-218 API (TX-HX218-0461) they certified as compliant turned out to contain an out-of-spec impurity. It wrecked a clinical manufacturing lot. Our investigation, now backed by an independent lab, traces the impurity to Tessaract swapping a starting-material supplier without telling us — no change control at all. Stephen (CSO) has the technical detail.<br><br>Our exposure is already north of £3m once you count the wasted campaign, replacement API and the knock-on clinical delay. There is a £250k liability cap in the supply agreement which we will obviously want to get round.<br><br>Can we set up a call this week?<br><br>Kind regards,<br>Naomi Adeyemi<br>General Counsel &amp; Company Secretary, Hartwell Pharma</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

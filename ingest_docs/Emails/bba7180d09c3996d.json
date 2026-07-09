@@ -1,0 +1,21 @@
+{
+  "id": "bba7180d09c3996d",
+  "messages": [
+    {
+      "id": "bba7180d09c3996d",
+      "snippet": "Dear colleague, The firm's document management system (Whitfield DMS) will be upgraded this Saturday",
+      "subject": "[Action required] Document management system upgrade - Saturday 8 February",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-02-04T07:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear colleague,\n\nThe firm's document management system (Whitfield DMS) will be upgraded this Saturday 8 February between 07:00 and 14:00. During this window the DMS and document check-in/out will be unavailable. Please check in any documents you are working on before Friday 18:00.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear colleague,<br><br>The firm&#x27;s document management system (Whitfield DMS) will be upgraded this Saturday 8 February between 07:00 and 14:00. During this window the DMS and document check-in/out will be unavailable. Please check in any documents you are working on before Friday 18:00.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

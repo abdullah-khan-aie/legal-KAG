@@ -1,0 +1,85 @@
+{
+  "id": "5b64ac757b373eb2",
+  "messages": [
+    {
+      "id": "5b64ac757b373eb2",
+      "snippet": "Ms Whitfield — our client will accept £200,000 ex gratia, a £1,000+VAT fees contribution, payment wi",
+      "subject": "Whitford — our counter",
+      "sender": "geoffrey.vesey@harlandvesey.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-01-13T16:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Ms Whitfield — our client will accept £200,000 ex gratia, a £1,000+VAT fees contribution, payment within 14 days, and a CEO-signed reference. He will not go below £190,000. We will mark up the draft agreement accordingly and send it across tomorrow. Geoffrey Vesey, Harland Vesey LLP",
+      "htmlBody": "<div dir=\"ltr\">Ms Whitfield — our client will accept £200,000 ex gratia, a £1,000+VAT fees contribution, payment within 14 days, and a CEO-signed reference. He will not go below £190,000. We will mark up the draft agreement accordingly and send it across tomorrow. Geoffrey Vesey, Harland Vesey LLP</div>"
+    },
+    {
+      "id": "9514ef4ad7a3ad22",
+      "snippet": "As foreshadowed, our mark-up of the settlement agreement is attached (tracked). Principal changes: e",
+      "subject": "RE: Whitford — our counter (marked-up SA attached)",
+      "sender": "geoffrey.vesey@harlandvesey.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "priya.nair@harlandvesey.com"
+      ],
+      "date": "2026-01-14T11:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "As foreshadowed, our mark-up of the settlement agreement is attached (tracked). Principal changes: ex gratia £150,000 to £200,000; fees £500 to £1,000; payment 28 to 14 days; and a strengthened reference clause (CEO-signed, ten working days). We're otherwise content with your drafting.\n\nGeoffrey Vesey\n\nOn Tue, Jan 13, 2026 at 4:30 PM, Geoffrey Vesey <geoffrey.vesey@harlandvesey.com> wrote:\n> Ms Whitfield — our client will accept £200,000 ex gratia, a £1,000+VAT fees contribution, payment within 14 days, and a CEO-signed reference. He will not go below £190,000. We will mark up the draft agreement accordingly and send it across tomorrow. Geoffrey Vesey, Harland Vesey LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">As foreshadowed, our mark-up of the settlement agreement is attached (tracked). Principal changes: ex gratia £150,000 to £200,000; fees £500 to £1,000; payment 28 to 14 days; and a strengthened reference clause (CEO-signed, ten working days). We&#x27;re otherwise content with your drafting.<br><br>Geoffrey Vesey</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jan 13, 2026 at 4:30 PM, Geoffrey Vesey &lt;geoffrey.vesey@harlandvesey.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Ms Whitfield — our client will accept £200,000 ex gratia, a £1,000+VAT fees contribution, payment within 14 days, and a CEO-signed reference. He will not go below £190,000. We will mark up the draft agreement accordingly and send it across tomorrow. Geoffrey Vesey, Harland Vesey LLP</div></blockquote></div></div>",
+      "attachmentIds": [
+        "JPCuyvd3Dq-LXhN_3O0Xj5iKwNj2XR2sEyPFS_a8o_Y"
+      ],
+      "attachments": [
+        {
+          "filename": "Whitford_SettlementAgreement_v2_redline.docx",
+          "id": "JPCuyvd3Dq-LXhN_3O0Xj5iKwNj2XR2sEyPFS_a8o_Y",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "39e4e877e3a8a881",
+      "snippet": "Mr Vesey, Thank you for the mark-up. Our client is prepared to move to £185,000 ex gratia, a £750+VA",
+      "subject": "RE: Whitford — our counter (marked-up SA attached)",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "geoffrey.vesey@harlandvesey.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-01-16T15:40:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Mr Vesey,\n\nThank you for the mark-up. Our client is prepared to move to £185,000 ex gratia, a £750+VAT fees contribution, and payment within 14 days. We accept your reference amendments (CEO-signed, ten working days). We are not able to reach £190,000. On that basis we have instructions to settle and will turn the agreement to a clean execution version.\n\nPlease confirm your client's acceptance.\n\nSarah Whitfield\n\n--\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nsarah.whitfield@whitfieldcarter.com\nConfidential and may be legally privileged.\n\nOn Wed, Jan 14, 2026 at 11:00 AM, Geoffrey Vesey <geoffrey.vesey@harlandvesey.com> wrote:\n> As foreshadowed, our mark-up of the settlement agreement is attached (tracked). Principal changes: ex gratia £150,000 to £200,000; fees £500 to £1,000; payment 28 to 14 days; and a strengthened reference clause (CEO-signed, ten working days). We're otherwise content with your drafting.\n>\n> Geoffrey Vesey\n>\n> On Tue, Jan 13, 2026 at 4:30 PM, Geoffrey Vesey <geoffrey.vesey@harlandvesey.com> wrote:\n> > Ms Whitfield — our client will accept £200,000 ex gratia, a £1,000+VAT fees contribution, payment within 14 days, and a CEO-signed reference. He will not go below £190,000. We will mark up the draft agreement accordingly and send it across tomorrow. Geoffrey Vesey, Harland Vesey LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Mr Vesey,<br><br>Thank you for the mark-up. Our client is prepared to move to £185,000 ex gratia, a £750+VAT fees contribution, and payment within 14 days. We accept your reference amendments (CEO-signed, ten working days). We are not able to reach £190,000. On that basis we have instructions to settle and will turn the agreement to a clean execution version.<br><br>Please confirm your client&#x27;s acceptance.<br><br>Sarah Whitfield<br><br>--<br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>sarah.whitfield@whitfieldcarter.com<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jan 14, 2026 at 11:00 AM, Geoffrey Vesey &lt;geoffrey.vesey@harlandvesey.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">As foreshadowed, our mark-up of the settlement agreement is attached (tracked). Principal changes: ex gratia £150,000 to £200,000; fees £500 to £1,000; payment 28 to 14 days; and a strengthened reference clause (CEO-signed, ten working days). We&#x27;re otherwise content with your drafting.<br><br>Geoffrey Vesey</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jan 13, 2026 at 4:30 PM, Geoffrey Vesey &lt;geoffrey.vesey@harlandvesey.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Ms Whitfield — our client will accept £200,000 ex gratia, a £1,000+VAT fees contribution, payment within 14 days, and a CEO-signed reference. He will not go below £190,000. We will mark up the draft agreement accordingly and send it across tomorrow. Geoffrey Vesey, Harland Vesey LLP</div></blockquote></div></div></blockquote></div></div>"
+    },
+    {
+      "id": "f37af19e8b3815de",
+      "snippet": "Ms Whitfield — our client accepts £185,000 on those terms. Please send the execution version and we'",
+      "subject": "RE: Whitford — our counter (marked-up SA attached)",
+      "sender": "geoffrey.vesey@harlandvesey.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-01-19T10:12:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Ms Whitfield — our client accepts £185,000 on those terms. Please send the execution version and we'll arrange for our client to sign, with our adviser's certificate. Geoffrey Vesey\n\nOn Fri, Jan 16, 2026 at 3:40 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Mr Vesey,\n>\n> Thank you for the mark-up. Our client is prepared to move to £185,000 ex gratia, a £750+VAT fees contribution, and payment within 14 days. We accept your reference amendments (CEO-signed, ten working days). We are not able to reach £190,000. On that basis we have instructions to settle and will turn the agreement to a clean execution version.\n>\n> Please confirm your client's acceptance.\n>\n> Sarah Whitfield\n>\n> --\n> Sarah Whitfield\n> Partner | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> sarah.whitfield@whitfieldcarter.com\n> Confidential and may be legally privileged.\n>\n> On Wed, Jan 14, 2026 at 11:00 AM, Geoffrey Vesey <geoffrey.vesey@harlandvesey.com> wrote:\n> > As foreshadowed, our mark-up of the settlement agreement is attached (tracked). Principal changes: ex gratia £150,000 to £200,000; fees £500 to £1,000; payment 28 to 14 days; and a strengthened reference clause (CEO-signed, ten working days). We're otherwise content with your drafting.\n> >\n> > Geoffrey Vesey\n> >\n> > On Tue, Jan 13, 2026 at 4:30 PM, Geoffrey Vesey <geoffrey.vesey@harlandvesey.com> wrote:\n> > > Ms Whitfield — our client will accept £200,000 ex gratia, a £1,000+VAT fees contribution, payment within 14 days, and a CEO-signed reference. He will not go below £190,000. We will mark up the draft agreement accordingly and send it across tomorrow. Geoffrey Vesey, Harland Vesey LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Ms Whitfield — our client accepts £185,000 on those terms. Please send the execution version and we&#x27;ll arrange for our client to sign, with our adviser&#x27;s certificate. Geoffrey Vesey</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Jan 16, 2026 at 3:40 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Mr Vesey,<br><br>Thank you for the mark-up. Our client is prepared to move to £185,000 ex gratia, a £750+VAT fees contribution, and payment within 14 days. We accept your reference amendments (CEO-signed, ten working days). We are not able to reach £190,000. On that basis we have instructions to settle and will turn the agreement to a clean execution version.<br><br>Please confirm your client&#x27;s acceptance.<br><br>Sarah Whitfield<br><br>--<br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>sarah.whitfield@whitfieldcarter.com<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jan 14, 2026 at 11:00 AM, Geoffrey Vesey &lt;geoffrey.vesey@harlandvesey.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">As foreshadowed, our mark-up of the settlement agreement is attached (tracked). Principal changes: ex gratia £150,000 to £200,000; fees £500 to £1,000; payment 28 to 14 days; and a strengthened reference clause (CEO-signed, ten working days). We&#x27;re otherwise content with your drafting.<br><br>Geoffrey Vesey</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jan 13, 2026 at 4:30 PM, Geoffrey Vesey &lt;geoffrey.vesey@harlandvesey.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Ms Whitfield — our client will accept £200,000 ex gratia, a £1,000+VAT fees contribution, payment within 14 days, and a CEO-signed reference. He will not go below £190,000. We will mark up the draft agreement accordingly and send it across tomorrow. Geoffrey Vesey, Harland Vesey LLP</div></blockquote></div></div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

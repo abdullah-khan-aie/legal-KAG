@@ -1,0 +1,38 @@
+{
+  "id": "452ebf610a7720b2",
+  "messages": [
+    {
+      "id": "452ebf610a7720b2",
+      "snippet": "James - are you in for 5-a-side this Thursday at the Shoreditch pitch, 7pm? Need to confirm numbers ",
+      "subject": "5-a-side Thursday?",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-11-19T18:50:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James - are you in for 5-a-side this Thursday at the Shoreditch pitch, 7pm? Need to confirm numbers by tomorrow. Elena's in. Cheers, Tom",
+      "htmlBody": "<div dir=\"ltr\">James - are you in for 5-a-side this Thursday at the Shoreditch pitch, 7pm? Need to confirm numbers by tomorrow. Elena&#x27;s in. Cheers, Tom</div>"
+    },
+    {
+      "id": "acb5058720ad97ef",
+      "snippet": "I'm in. Might be a few minutes late, on a completion call. James",
+      "subject": "RE: 5-a-side Thursday?",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-11-19T19:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "I'm in. Might be a few minutes late, on a completion call. James\n\nOn Wed, Nov 19, 2025 at 6:50 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> James - are you in for 5-a-side this Thursday at the Shoreditch pitch, 7pm? Need to confirm numbers by tomorrow. Elena's in. Cheers, Tom",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">I&#x27;m in. Might be a few minutes late, on a completion call. James</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Nov 19, 2025 at 6:50 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James - are you in for 5-a-side this Thursday at the Shoreditch pitch, 7pm? Need to confirm numbers by tomorrow. Elena&#x27;s in. Cheers, Tom</div></blockquote></div></div>"
+    }
+  ]
+}

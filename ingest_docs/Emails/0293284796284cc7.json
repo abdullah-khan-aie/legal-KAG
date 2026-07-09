@@ -1,0 +1,37 @@
+{
+  "id": "0293284796284cc7",
+  "messages": [
+    {
+      "id": "0293284796284cc7",
+      "snippet": "James - are you still good for Sunday? Mum's doing the roast for about 1:30. Also it's Dad's 70th th",
+      "subject": "Sunday lunch + Dad's birthday",
+      "sender": "mark.osei88@gmail.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-09-21T19:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James - are you still good for Sunday? Mum's doing the roast for about 1:30. Also it's Dad's 70th the following weekend, we're trying to sort a surprise - can you chip in for the watch? I'll send the link. Don't be late this time. M",
+      "htmlBody": "<div dir=\"ltr\">James - are you still good for Sunday? Mum&#x27;s doing the roast for about 1:30. Also it&#x27;s Dad&#x27;s 70th the following weekend, we&#x27;re trying to sort a surprise - can you chip in for the watch? I&#x27;ll send the link. Don&#x27;t be late this time. M</div>"
+    },
+    {
+      "id": "ebfd5bf6079a0c80",
+      "snippet": "Yes I'll be there, might be a few mins late - big completion this week. Count me in for the watch, s",
+      "subject": "RE: Sunday lunch + Dad's birthday",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "mark.osei88@gmail.com"
+      ],
+      "date": "2025-09-22T08:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Yes I'll be there, might be a few mins late - big completion this week. Count me in for the watch, send the link. J\n\nOn Sun, Sep 21, 2025 at 7:30 PM, Mark Osei <mark.osei88@gmail.com> wrote:\n> James - are you still good for Sunday? Mum's doing the roast for about 1:30. Also it's Dad's 70th the following weekend, we're trying to sort a surprise - can you chip in for the watch? I'll send the link. Don't be late this time. M",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Yes I&#x27;ll be there, might be a few mins late - big completion this week. Count me in for the watch, send the link. J</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Sun, Sep 21, 2025 at 7:30 PM, Mark Osei &lt;mark.osei88@gmail.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James - are you still good for Sunday? Mum&#x27;s doing the roast for about 1:30. Also it&#x27;s Dad&#x27;s 70th the following weekend, we&#x27;re trying to sort a surprise - can you chip in for the watch? I&#x27;ll send the link. Don&#x27;t be late this time. M</div></blockquote></div></div>"
+    }
+  ]
+}

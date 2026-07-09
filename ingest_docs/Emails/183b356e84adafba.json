@@ -1,0 +1,59 @@
+{
+  "id": "183b356e84adafba",
+  "messages": [
+    {
+      "id": "183b356e84adafba",
+      "snippet": "Dear Tom, My advice is attached. In short: strong on liability for the affected heats; the real risk",
+      "subject": "Calverton v Ferncliffe - Advice on merits and quantum",
+      "sender": "h.stanford@eldonchambers.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-01-21T16:00:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Dear Tom,\n\nMy advice is attached. In short: strong on liability for the affected heats; the real risk is quantum, especially the Wexbourne loss of profit and the limitation clause at clause 11. I have assessed overall prospects at better than 65% and put a risk-adjusted value of roughly 1.0-1.4m against the pleaded sum. I recommend a Part 35 metallurgy report addressing causation and an openness to mediation once that is in.\n\nHappy to discuss.\n\nHarriet Stanford\nEldon Chambers",
+      "htmlBody": "<div dir=\"ltr\">Dear Tom,<br><br>My advice is attached. In short: strong on liability for the affected heats; the real risk is quantum, especially the Wexbourne loss of profit and the limitation clause at clause 11. I have assessed overall prospects at better than 65% and put a risk-adjusted value of roughly 1.0-1.4m against the pleaded sum. I recommend a Part 35 metallurgy report addressing causation and an openness to mediation once that is in.<br><br>Happy to discuss.<br><br>Harriet Stanford<br>Eldon Chambers</div>",
+      "attachmentIds": [
+        "284W-X85XMPwAjql1bM1BPwUboWu4Q5qvIZTiKA2OD8"
+      ],
+      "attachments": [
+        {
+          "filename": "Calverton_CounselAdvice_Merits.pdf",
+          "id": "284W-X85XMPwAjql1bM1BPwUboWu4Q5qvIZTiKA2OD8",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "8c3bede3aa9decd4",
+      "snippet": "Patricia, Harriet Stanford's advice is in (attached). Headlines: liability strong on the bad heats; ",
+      "subject": "Counsel's advice - headline points",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "patricia.vaughan@calvertonindustries.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "andrew.calverton@calvertonindustries.com"
+      ],
+      "date": "2026-01-22T09:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Patricia,\n\nHarriet Stanford's advice is in (attached). Headlines: liability strong on the bad heats; main risks are the Wexbourne loss-of-profit head and Ferncliffe's limitation clause, which she thinks is arguable both ways. Risk-adjusted value around 1.0-1.4m. She recommends a Part 35 metallurgy report on causation and staying open to mediation.\n\nGiven this, I suggest we issue and serve, instruct Dr Iqbal formally, and propose mediation in parallel. Andrew - this fits your wish to keep momentum while controlling cost.\n\nTom Gallagher\nAssociate, Dispute Resolution\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0148\n\nConfidential and may be legally privileged.\n\nOn Wed, Jan 21, 2026 at 4:00 PM, Harriet Stanford <h.stanford@eldonchambers.co.uk> wrote:\n> Dear Tom,\n>\n> My advice is attached. In short: strong on liability for the affected heats; the real risk is quantum, especially the Wexbourne loss of profit and the limitation clause at clause 11. I have assessed overall prospects at better than 65% and put a risk-adjusted value of roughly 1.0-1.4m against the pleaded sum. I recommend a Part 35 metallurgy report addressing causation and an openness to mediation once that is in.\n>\n> Happy to discuss.\n>\n> Harriet Stanford\n> Eldon Chambers",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Patricia,<br><br>Harriet Stanford&#x27;s advice is in (attached). Headlines: liability strong on the bad heats; main risks are the Wexbourne loss-of-profit head and Ferncliffe&#x27;s limitation clause, which she thinks is arguable both ways. Risk-adjusted value around 1.0-1.4m. She recommends a Part 35 metallurgy report on causation and staying open to mediation.<br><br>Given this, I suggest we issue and serve, instruct Dr Iqbal formally, and propose mediation in parallel. Andrew - this fits your wish to keep momentum while controlling cost.<br><br>Tom Gallagher<br>Associate, Dispute Resolution<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0148<br><br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Jan 21, 2026 at 4:00 PM, Harriet Stanford &lt;h.stanford@eldonchambers.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Tom,<br><br>My advice is attached. In short: strong on liability for the affected heats; the real risk is quantum, especially the Wexbourne loss of profit and the limitation clause at clause 11. I have assessed overall prospects at better than 65% and put a risk-adjusted value of roughly 1.0-1.4m against the pleaded sum. I recommend a Part 35 metallurgy report addressing causation and an openness to mediation once that is in.<br><br>Happy to discuss.<br><br>Harriet Stanford<br>Eldon Chambers</div></blockquote></div></div>",
+      "attachmentIds": [
+        "ZM_wQWwSj421xyVu4m9QQpt3rZfhLtJ3FA1LBwXb-w0"
+      ],
+      "attachments": [
+        {
+          "filename": "Calverton_CounselAdvice_Merits.pdf",
+          "id": "ZM_wQWwSj421xyVu4m9QQpt3rZfhLtJ3FA1LBwXb-w0",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

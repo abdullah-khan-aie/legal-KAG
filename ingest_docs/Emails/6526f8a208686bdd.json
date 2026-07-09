@@ -1,0 +1,21 @@
+{
+  "id": "6526f8a208686bdd",
+  "messages": [
+    {
+      "id": "6526f8a208686bdd",
+      "snippet": "Dear James, Our records show you have unposted time for the period 1-31 May. Please ensure all time ",
+      "subject": "REMINDER: May time entries due by 3 June",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-06-01T08:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear James,\n\nOur records show you have unposted time for the period 1-31 May. Please ensure all time entries are recorded and released in the system by 17:00 on Wednesday 3 June so that May bills can be raised on schedule.\n\nIf you have any queries about a specific matter narrative, contact the billing team.\n\nRegards,\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear James,<br><br>Our records show you have unposted time for the period 1-31 May. Please ensure all time entries are recorded and released in the system by 17:00 on Wednesday 3 June so that May bills can be raised on schedule.<br><br>If you have any queries about a specific matter narrative, contact the billing team.<br><br>Regards,<br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

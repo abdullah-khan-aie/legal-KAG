@@ -1,0 +1,55 @@
+{
+  "id": "19302502f68197ff",
+  "messages": [
+    {
+      "id": "19302502f68197ff",
+      "snippet": "James, Attached is our mark-up of the licence on behalf of Verrell. The principal changes are: runni",
+      "subject": "Project Cedar — Licence Agreement (Verrell mark-up)",
+      "sender": "deepa.kovac@birchallstone.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "oliver.jennings@birchallstone.com",
+        "nathan.holt@verrellbeauty.com",
+        "caroline.devereux@verrellbeauty.com"
+      ],
+      "date": "2025-12-02T11:20:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "James,\n\nAttached is our mark-up of the licence on behalf of Verrell. The principal changes are: running royalty reduced to 5%; cure period extended to 45 days; third-party-royalty deduction increased to 60%; and the liability cap reduced to £3m. We've left the field, territory and improvements regime untouched.\n\nHappy to talk these through.\n\nDeepa Kovac\nBirchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Attached is our mark-up of the licence on behalf of Verrell. The principal changes are: running royalty reduced to 5%; cure period extended to 45 days; third-party-royalty deduction increased to 60%; and the liability cap reduced to £3m. We&#x27;ve left the field, territory and improvements regime untouched.<br><br>Happy to talk these through.<br><br>Deepa Kovac<br>Birchall Stone LLP</div>",
+      "attachmentIds": [
+        "DeCWbDrAJNfXgEB1i50wVuccxk595uM7Sfc7mGhVTag"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Cedar_LicenceAgreement_v2_redline.docx",
+          "id": "DeCWbDrAJNfXgEB1i50wVuccxk595uM7Sfc7mGhVTag",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "b01271ec8c2caf7a",
+      "snippet": "Sarah, Verrell's mark-up is in. Their changes are commercial rather than structural — 5% royalty, 45",
+      "subject": "FW: Project Cedar — Licence Agreement (Verrell mark-up)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-12-03T09:10:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah,\n\nVerrell's mark-up is in. Their changes are commercial rather than structural — 5% royalty, 45-day cure, 60% stacking deduction, £3m cap. My instinct is we can give the 45-day cure and probably meet them around 5.5% on the rate, but hold the cap nearer £4m. I'll prepare our counter once you've spoken to Alice and Marcus on the rate.\n\nJames\n\nOn Tue, Dec 2, 2025 at 11:20 AM, Deepa Kovac <deepa.kovac@birchallstone.com> wrote:\n> James,\n>\n> Attached is our mark-up of the licence on behalf of Verrell. The principal changes are: running royalty reduced to 5%; cure period extended to 45 days; third-party-royalty deduction increased to 60%; and the liability cap reduced to £3m. We've left the field, territory and improvements regime untouched.\n>\n> Happy to talk these through.\n>\n> Deepa Kovac\n> Birchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah,<br><br>Verrell&#x27;s mark-up is in. Their changes are commercial rather than structural — 5% royalty, 45-day cure, 60% stacking deduction, £3m cap. My instinct is we can give the 45-day cure and probably meet them around 5.5% on the rate, but hold the cap nearer £4m. I&#x27;ll prepare our counter once you&#x27;ve spoken to Alice and Marcus on the rate.<br><br>James</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Dec 2, 2025 at 11:20 AM, Deepa Kovac &lt;deepa.kovac@birchallstone.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Attached is our mark-up of the licence on behalf of Verrell. The principal changes are: running royalty reduced to 5%; cure period extended to 45 days; third-party-royalty deduction increased to 60%; and the liability cap reduced to £3m. We&#x27;ve left the field, territory and improvements regime untouched.<br><br>Happy to talk these through.<br><br>Deepa Kovac<br>Birchall Stone LLP</div></blockquote></div></div>"
+    }
+  ]
+}

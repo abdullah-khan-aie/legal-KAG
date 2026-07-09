@@ -1,0 +1,43 @@
+{
+  "id": "013e1a9e5a22e045",
+  "messages": [
+    {
+      "id": "013e1a9e5a22e045",
+      "snippet": "Fiona, We're on track for an Effective Date of Monday 19 January. Outstanding from your side: the si",
+      "subject": "Project Harbor - completion checklist for 19 January",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "fiona.carrick@harledgefoods.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-01-12T11:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Fiona,\n\nWe're on track for an Effective Date of Monday 19 January. Outstanding from your side: the signed solvency certificate (two directors), confirmation the £5m from the family holdco has hit the blocked account, and the executed board minutes. We'll handle the debentures and the Tenterden charge engrossments.\n\nCould you confirm the £5m timing? Pennine want it in the blocked account by the 14th.\n\nElena\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Fiona,<br><br>We&#x27;re on track for an Effective Date of Monday 19 January. Outstanding from your side: the signed solvency certificate (two directors), confirmation the £5m from the family holdco has hit the blocked account, and the executed board minutes. We&#x27;ll handle the debentures and the Tenterden charge engrossments.<br><br>Could you confirm the £5m timing? Pennine want it in the blocked account by the 14th.<br><br>Elena<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "93a3d63ace2ef920",
+      "snippet": "Elena, £5m landed in the blocked account this afternoon - confirmation attached to the bank portal. ",
+      "subject": "RE: Project Harbor - completion checklist for 19 January",
+      "sender": "fiona.carrick@harledgefoods.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-01-14T14:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena,\n\n£5m landed in the blocked account this afternoon - confirmation attached to the bank portal. Board met on the 16th (minutes being finalised) and both directors have signed the solvency certificate. We're good to go for Monday.\n\nFiona\n\nOn Mon, Jan 12, 2026 at 11:30 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Fiona,\n>\n> We're on track for an Effective Date of Monday 19 January. Outstanding from your side: the signed solvency certificate (two directors), confirmation the £5m from the family holdco has hit the blocked account, and the executed board minutes. We'll handle the debentures and the Tenterden charge engrossments.\n>\n> Could you confirm the £5m timing? Pennine want it in the blocked account by the 14th.\n>\n> Elena\n>\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena,<br><br>£5m landed in the blocked account this afternoon - confirmation attached to the bank portal. Board met on the 16th (minutes being finalised) and both directors have signed the solvency certificate. We&#x27;re good to go for Monday.<br><br>Fiona</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Jan 12, 2026 at 11:30 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Fiona,<br><br>We&#x27;re on track for an Effective Date of Monday 19 January. Outstanding from your side: the signed solvency certificate (two directors), confirmation the £5m from the family holdco has hit the blocked account, and the executed board minutes. We&#x27;ll handle the debentures and the Tenterden charge engrossments.<br><br>Could you confirm the £5m timing? Pennine want it in the blocked account by the 14th.<br><br>Elena<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

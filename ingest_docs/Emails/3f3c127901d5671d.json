@@ -1,0 +1,37 @@
+{
+  "id": "3f3c127901d5671d",
+  "messages": [
+    {
+      "id": "3f3c127901d5671d",
+      "snippet": "Tom, Separate matter - on the Okafor employment tribunal settlement, finance are asking when the agr",
+      "subject": "Okafor tribunal - settlement sum query",
+      "sender": "daniel.pryce@ashbournehealthcare.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-05-06T11:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Tom,\n\nSeparate matter - on the Okafor employment tribunal settlement, finance are asking when the agreed sum is due to be paid out and whether the COT3 has been finalised. Can you point me to whoever is handling that (I think it was the employment team, not you)? Sorry to land it on you.\n\nDaniel",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>Separate matter - on the Okafor employment tribunal settlement, finance are asking when the agreed sum is due to be paid out and whether the COT3 has been finalised. Can you point me to whoever is handling that (I think it was the employment team, not you)? Sorry to land it on you.<br><br>Daniel</div>"
+    },
+    {
+      "id": "0b64ee1397a96881",
+      "snippet": "Daniel, That's the employment team - I'll forward to them and they'll come back on the payment timin",
+      "subject": "RE: Okafor tribunal - settlement sum query",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.pryce@ashbournehealthcare.com"
+      ],
+      "date": "2025-05-06T11:25:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Daniel,\n\nThat's the employment team - I'll forward to them and they'll come back on the payment timing and the COT3. Keeping it off the Maple Court file as it's unrelated.\n\nTom\n\nOn Tue, May 6, 2025 at 11:00 AM, Daniel Pryce <daniel.pryce@ashbournehealthcare.com> wrote:\n> Tom,\n>\n> Separate matter - on the Okafor employment tribunal settlement, finance are asking when the agreed sum is due to be paid out and whether the COT3 has been finalised. Can you point me to whoever is handling that (I think it was the employment team, not you)? Sorry to land it on you.\n>\n> Daniel",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Daniel,<br><br>That&#x27;s the employment team - I&#x27;ll forward to them and they&#x27;ll come back on the payment timing and the COT3. Keeping it off the Maple Court file as it&#x27;s unrelated.<br><br>Tom</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, May 6, 2025 at 11:00 AM, Daniel Pryce &lt;daniel.pryce@ashbournehealthcare.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom,<br><br>Separate matter - on the Okafor employment tribunal settlement, finance are asking when the agreed sum is due to be paid out and whether the COT3 has been finalised. Can you point me to whoever is handling that (I think it was the employment team, not you)? Sorry to land it on you.<br><br>Daniel</div></blockquote></div></div>"
+    }
+  ]
+}

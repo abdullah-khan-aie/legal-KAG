@@ -1,0 +1,24 @@
+{
+  "id": "b13b9a4b52cf3efc",
+  "messages": [
+    {
+      "id": "b13b9a4b52cf3efc",
+      "snippet": "Hi all, Reminder that the firm's CPD lunchtime session 'Regulatory enforcement and appeals to the Fi",
+      "subject": "CPD: Regulatory enforcement & the First-tier Tribunal - lunchtime session 2 Apr",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-03-25T12:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi all,\n\nReminder that the firm's CPD lunchtime session 'Regulatory enforcement and appeals to the First-tier Tribunal' is on Wednesday 2 April, 12:30-13:30 in the Bishopsgate room. Sandwiches provided. RSVP to me if attending.\n\nDonna Bridges\nPractice Assistant",
+      "htmlBody": "<div dir=\"ltr\">Hi all,<br><br>Reminder that the firm&#x27;s CPD lunchtime session &#x27;Regulatory enforcement and appeals to the First-tier Tribunal&#x27; is on Wednesday 2 April, 12:30-13:30 in the Bishopsgate room. Sandwiches provided. RSVP to me if attending.<br><br>Donna Bridges<br>Practice Assistant</div>"
+    }
+  ]
+}

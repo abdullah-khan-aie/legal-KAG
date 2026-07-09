@@ -1,0 +1,24 @@
+{
+  "id": "e1506947c7d5ce5b",
+  "messages": [
+    {
+      "id": "e1506947c7d5ce5b",
+      "snippet": "Dear colleagues, A reminder that this month's CPD session, 'Warranty & indemnity insurance in mid-ma",
+      "subject": "Lunchtime CPD — 'Warranty & indemnity insurance in mid-market M&A'",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-10-15T11:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear colleagues,\n\nA reminder that this month's CPD session, 'Warranty & indemnity insurance in mid-market M&A', takes place on Thursday 23 October at 12.30pm in the Bishopsgate training room. Sandwiches provided. RSVP to me by Tuesday for catering numbers.\n\nDonna Bridges\nPractice Assistant",
+      "htmlBody": "<div dir=\"ltr\">Dear colleagues,<br><br>A reminder that this month&#x27;s CPD session, &#x27;Warranty &amp; indemnity insurance in mid-market M&amp;A&#x27;, takes place on Thursday 23 October at 12.30pm in the Bishopsgate training room. Sandwiches provided. RSVP to me by Tuesday for catering numbers.<br><br>Donna Bridges<br>Practice Assistant</div>"
+    }
+  ]
+}

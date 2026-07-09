@@ -1,0 +1,49 @@
+{
+  "id": "18de704ecc9cbad3",
+  "messages": [
+    {
+      "id": "18de704ecc9cbad3",
+      "snippet": "Tom, My final report is attached, signed with the statement of truth. Conclusions unchanged from the",
+      "subject": "Final expert report - Ashfield/Marwick MD-450 failures",
+      "sender": "alan.renshaw@renshawdrive.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-09-12T13:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom,\n\nMy final report is attached, signed with the statement of truth. Conclusions unchanged from the preliminary findings: the failures were caused by an undersized output bearing and inadequate case-hardening of the bevel pinion - both manufacturing defects. I deal expressly with and reject Marwick's misalignment / overloading / maintenance points; the records don't support them.\n\nThe calculated L10 bearing life at rated load (~5,800 hours) matches the six-to-nine-month in-service failures very closely.\n\nRegards\nAlan Renshaw\nRenshaw Drive Engineering Consultants",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>My final report is attached, signed with the statement of truth. Conclusions unchanged from the preliminary findings: the failures were caused by an undersized output bearing and inadequate case-hardening of the bevel pinion - both manufacturing defects. I deal expressly with and reject Marwick&#x27;s misalignment / overloading / maintenance points; the records don&#x27;t support them.<br><br>The calculated L10 bearing life at rated load (~5,800 hours) matches the six-to-nine-month in-service failures very closely.<br><br>Regards<br>Alan Renshaw<br>Renshaw Drive Engineering Consultants</div>"
+    },
+    {
+      "id": "58d1a4e8bf8156c9",
+      "snippet": "Harriet - Renshaw's final report attached for your opinion. With this I think we're in a strong posi",
+      "subject": "FW: Final expert report - Ashfield/Marwick MD-450 failures",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "h.stanford@eldonchambers.co.uk"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-09-12T15:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Harriet - Renshaw's final report attached for your opinion. With this I think we're in a strong position going into mediation. Grateful for your written advice on quantum and settlement range.\n\nTom\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com\nConfidential and may be legally privileged.\n\nOn Fri, Sep 12, 2025 at 1:05 PM, Dr Alan Renshaw <alan.renshaw@renshawdrive.co.uk> wrote:\n> Tom,\n>\n> My final report is attached, signed with the statement of truth. Conclusions unchanged from the preliminary findings: the failures were caused by an undersized output bearing and inadequate case-hardening of the bevel pinion - both manufacturing defects. I deal expressly with and reject Marwick's misalignment / overloading / maintenance points; the records don't support them.\n>\n> The calculated L10 bearing life at rated load (~5,800 hours) matches the six-to-nine-month in-service failures very closely.\n>\n> Regards\n> Alan Renshaw\n> Renshaw Drive Engineering Consultants",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Harriet - Renshaw&#x27;s final report attached for your opinion. With this I think we&#x27;re in a strong position going into mediation. Grateful for your written advice on quantum and settlement range.<br><br>Tom<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ | www.whitfieldcarter.com<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Sep 12, 2025 at 1:05 PM, Dr Alan Renshaw &lt;alan.renshaw@renshawdrive.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom,<br><br>My final report is attached, signed with the statement of truth. Conclusions unchanged from the preliminary findings: the failures were caused by an undersized output bearing and inadequate case-hardening of the bevel pinion - both manufacturing defects. I deal expressly with and reject Marwick&#x27;s misalignment / overloading / maintenance points; the records don&#x27;t support them.<br><br>The calculated L10 bearing life at rated load (~5,800 hours) matches the six-to-nine-month in-service failures very closely.<br><br>Regards<br>Alan Renshaw<br>Renshaw Drive Engineering Consultants</div></blockquote></div></div>",
+      "attachmentIds": [
+        "x_Uwx1EAN4sCJOUecI338ZtTgWOCQ7AbSe7ztaVTKnc"
+      ],
+      "attachments": [
+        {
+          "filename": "AshfieldDynamics_ExpertReport_Renshaw.pdf",
+          "id": "x_Uwx1EAN4sCJOUecI338ZtTgWOCQ7AbSe7ztaVTKnc",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

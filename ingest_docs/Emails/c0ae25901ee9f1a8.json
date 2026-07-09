@@ -1,0 +1,22 @@
+{
+  "id": "c0ae25901ee9f1a8",
+  "messages": [
+    {
+      "id": "c0ae25901ee9f1a8",
+      "snippet": "James, Our records show 6.5 hours recorded in December without narratives across two matters. Please",
+      "subject": "Time recording - December narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-01-30T16:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "James,\n\nOur records show 6.5 hours recorded in December without narratives across two matters. Please add narratives by Monday so we can finalise the January bills. WIP write-off deadline is the 5th.\n\nThanks,\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our records show 6.5 hours recorded in December without narratives across two matters. Please add narratives by Monday so we can finalise the January bills. WIP write-off deadline is the 5th.<br><br>Thanks,<br>Accounts</div>"
+    }
+  ]
+}

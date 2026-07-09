@@ -1,0 +1,22 @@
+{
+  "id": "f73d38477b238c78",
+  "messages": [
+    {
+      "id": "f73d38477b238c78",
+      "snippet": "James, Our records show 7.5 hours of unposted time for March across two matters. Please complete you",
+      "subject": "Time recording — outstanding narratives for March",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-04-21T08:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James,\n\nOur records show 7.5 hours of unposted time for March across two matters. Please complete your narratives by Friday so we can finalise the April bills. If any time should be written off, flag it to the supervising partner.\n\nThanks,\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our records show 7.5 hours of unposted time for March across two matters. Please complete your narratives by Friday so we can finalise the April bills. If any time should be written off, flag it to the supervising partner.<br><br>Thanks,<br>Accounts</div>"
+    }
+  ]
+}

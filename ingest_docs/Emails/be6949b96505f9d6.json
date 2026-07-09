@@ -1,0 +1,23 @@
+{
+  "id": "be6949b96505f9d6",
+  "messages": [
+    {
+      "id": "be6949b96505f9d6",
+      "snippet": "All, The DMS will be unavailable from 22:00 Saturday 23 November to 06:00 Sunday 24 November for sch",
+      "subject": "[IT] Document management system maintenance - Saturday 23 November",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-11-20T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "All,\n\nThe DMS will be unavailable from 22:00 Saturday 23 November to 06:00 Sunday 24 November for scheduled maintenance and indexing. Please check in any open documents before then. Email and the deal data rooms are unaffected.\n\nIT Helpdesk",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>The DMS will be unavailable from 22:00 Saturday 23 November to 06:00 Sunday 24 November for scheduled maintenance and indexing. Please check in any open documents before then. Email and the deal data rooms are unaffected.<br><br>IT Helpdesk</div>"
+    }
+  ]
+}

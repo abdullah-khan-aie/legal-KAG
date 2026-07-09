@@ -1,0 +1,46 @@
+{
+  "id": "a79f5322a915d66e",
+  "messages": [
+    {
+      "id": "a79f5322a915d66e",
+      "snippet": "Dear Mr Rashid, We act for Calverton Industries Limited. Please find attached a letter setting out, ",
+      "subject": "WITHOUT PREJUDICE & SUBJECT TO CONTRACT — proposed terms",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "imran.rashid@protonmail.com"
+      ],
+      "date": "2025-03-12T10:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Mr Rashid,\n\nWe act for Calverton Industries Limited. Please find attached a letter setting out, on a without-prejudice basis and as a protected conversation under s.111A ERA 1996, proposed terms for an agreed exit. We strongly recommend you take independent legal advice; the Company will contribute towards your reasonable legal fees.\n\nYours sincerely,\nTom Gallagher\nWhitfield Carter LLP\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0521\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Rashid,<br><br>We act for Calverton Industries Limited. Please find attached a letter setting out, on a without-prejudice basis and as a protected conversation under s.111A ERA 1996, proposed terms for an agreed exit. We strongly recommend you take independent legal advice; the Company will contribute towards your reasonable legal fees.<br><br>Yours sincerely,<br>Tom Gallagher<br>Whitfield Carter LLP<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0521<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "S8LfhqLePh-J2uU46KbFNEs1RW4M4kIiG2pcZNh7U5s"
+      ],
+      "attachments": [
+        {
+          "filename": "Rashid_WithoutPrejudiceLetter.docx",
+          "id": "S8LfhqLePh-J2uU46KbFNEs1RW4M4kIiG2pcZNh7U5s",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "b9c9db275deaba0f",
+      "snippet": "Mr Gallagher, I've received your letter. I've instructed Birchall Stone to advise me. I think the of",
+      "subject": "RE: WITHOUT PREJUDICE & SUBJECT TO CONTRACT — proposed terms",
+      "sender": "imran.rashid@protonmail.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-03-17T19:42:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Mr Gallagher,\n\nI've received your letter. I've instructed Birchall Stone to advise me. I think the offer significantly undervalues my claims, particularly the discrimination element, but I'm willing to engage. My solicitor Deepa Kovac will be in touch.\n\nImran Rashid\n\nOn Wed, Mar 12, 2025 at 10:05 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Mr Rashid,\n>\n> We act for Calverton Industries Limited. Please find attached a letter setting out, on a without-prejudice basis and as a protected conversation under s.111A ERA 1996, proposed terms for an agreed exit. We strongly recommend you take independent legal advice; the Company will contribute towards your reasonable legal fees.\n>\n> Yours sincerely,\n> Tom Gallagher\n> Whitfield Carter LLP\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 0521\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Mr Gallagher,<br><br>I&#x27;ve received your letter. I&#x27;ve instructed Birchall Stone to advise me. I think the offer significantly undervalues my claims, particularly the discrimination element, but I&#x27;m willing to engage. My solicitor Deepa Kovac will be in touch.<br><br>Imran Rashid</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Mar 12, 2025 at 10:05 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Mr Rashid,<br><br>We act for Calverton Industries Limited. Please find attached a letter setting out, on a without-prejudice basis and as a protected conversation under s.111A ERA 1996, proposed terms for an agreed exit. We strongly recommend you take independent legal advice; the Company will contribute towards your reasonable legal fees.<br><br>Yours sincerely,<br>Tom Gallagher<br>Whitfield Carter LLP<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0521<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

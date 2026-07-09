@@ -1,0 +1,23 @@
+{
+  "id": "978ac86290c13fd3",
+  "messages": [
+    {
+      "id": "978ac86290c13fd3",
+      "snippet": "Dear colleagues, The IP group is hosting a lunchtime CPD seminar on recent developments in patent an",
+      "subject": "CPD seminar: Developments in patent licensing - 27 November",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2024-10-30T12:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear colleagues,\n\nThe IP group is hosting a lunchtime CPD seminar on recent developments in patent and technology licensing on 27 November, 12:30-13:30, Room 4. Sandwiches provided. RSVP to Learning.\n\nWC Learning & Development",
+      "htmlBody": "<div dir=\"ltr\">Dear colleagues,<br><br>The IP group is hosting a lunchtime CPD seminar on recent developments in patent and technology licensing on 27 November, 12:30-13:30, Room 4. Sandwiches provided. RSVP to Learning.<br><br>WC Learning &amp; Development</div>"
+    }
+  ]
+}

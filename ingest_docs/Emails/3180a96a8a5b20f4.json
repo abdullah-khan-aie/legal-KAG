@@ -1,0 +1,58 @@
+{
+  "id": "3180a96a8a5b20f4",
+  "messages": [
+    {
+      "id": "3180a96a8a5b20f4",
+      "snippet": "Gareth, Fiona, Please find attached the Company's consensual restructuring proposal, prepared with M",
+      "subject": "Project Willow - consensual restructuring proposal",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "gareth.sully@penninebusinessbank.com",
+        "fiona.pennington@penninebusinessbank.com"
+      ],
+      "ccRecipients": [
+        "dominic.pendle@pendlevoss.com",
+        "sarah.whitfield@whitfieldcarter.com",
+        "patricia.vaughan@calvertonindustries.com"
+      ],
+      "date": "2026-04-28T12:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Gareth, Fiona,\n\nPlease find attached the Company's consensual restructuring proposal, prepared with Marlow. Headlines: £4.0m new shareholder equity, £2.0m TLA prepayment (reducing TLA to £12.0m), a new £3.0m super-senior WC facility, covenant reset stepping to 3.50x, +150bps margin to 5.25% and a £150k amendment fee. Sources and uses tie at £4.0m.\n\nWe'd welcome the Bank's feedback so we can move to documentation and sign by 22 May.\n\nJames Osei\nSenior Associate, Restructuring & Finance\nWhitfield Carter LLP\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Gareth, Fiona,<br><br>Please find attached the Company&#x27;s consensual restructuring proposal, prepared with Marlow. Headlines: £4.0m new shareholder equity, £2.0m TLA prepayment (reducing TLA to £12.0m), a new £3.0m super-senior WC facility, covenant reset stepping to 3.50x, +150bps margin to 5.25% and a £150k amendment fee. Sources and uses tie at £4.0m.<br><br>We&#x27;d welcome the Bank&#x27;s feedback so we can move to documentation and sign by 22 May.<br><br>James Osei<br>Senior Associate, Restructuring &amp; Finance<br>Whitfield Carter LLP<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "cvaP7E1htz01hKkWXMD9C1W-d9jmyquDlsTvXnAFjF4"
+      ],
+      "attachments": [
+        {
+          "filename": "Willow_RestructuringProposal.pdf",
+          "id": "cvaP7E1htz01hKkWXMD9C1W-d9jmyquDlsTvXnAFjF4",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "c48c00022547e719",
+      "snippet": "James, Thank you - credit are supportive in principle. Likely pushback on margin (we'll be looking n",
+      "subject": "RE: Project Willow - consensual restructuring proposal",
+      "sender": "gareth.sully@penninebusinessbank.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "fiona.pennington@penninebusinessbank.com",
+        "dominic.pendle@pendlevoss.com"
+      ],
+      "date": "2026-04-30T17:25:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nThank you - credit are supportive in principle. Likely pushback on margin (we'll be looking nearer 5.75%) and the opening leverage level, and we'll want the amendment fee revisited. Pendle Voss will revert on the documentation. Gareth\n\nGareth Sully\nDirector, Restructuring & Recoveries | Pennine Business Bank plc\n\nOn Tue, Apr 28, 2026 at 12:00 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Gareth, Fiona,\n>\n> Please find attached the Company's consensual restructuring proposal, prepared with Marlow. Headlines: £4.0m new shareholder equity, £2.0m TLA prepayment (reducing TLA to £12.0m), a new £3.0m super-senior WC facility, covenant reset stepping to 3.50x, +150bps margin to 5.25% and a £150k amendment fee. Sources and uses tie at £4.0m.\n>\n> We'd welcome the Bank's feedback so we can move to documentation and sign by 22 May.\n>\n> James Osei\n> Senior Associate, Restructuring & Finance\n> Whitfield Carter LLP\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Thank you - credit are supportive in principle. Likely pushback on margin (we&#x27;ll be looking nearer 5.75%) and the opening leverage level, and we&#x27;ll want the amendment fee revisited. Pendle Voss will revert on the documentation. Gareth<br><br>Gareth Sully<br>Director, Restructuring &amp; Recoveries | Pennine Business Bank plc</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Apr 28, 2026 at 12:00 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Gareth, Fiona,<br><br>Please find attached the Company&#x27;s consensual restructuring proposal, prepared with Marlow. Headlines: £4.0m new shareholder equity, £2.0m TLA prepayment (reducing TLA to £12.0m), a new £3.0m super-senior WC facility, covenant reset stepping to 3.50x, +150bps margin to 5.25% and a £150k amendment fee. Sources and uses tie at £4.0m.<br><br>We&#x27;d welcome the Bank&#x27;s feedback so we can move to documentation and sign by 22 May.<br><br>James Osei<br>Senior Associate, Restructuring &amp; Finance<br>Whitfield Carter LLP<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

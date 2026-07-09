@@ -1,0 +1,25 @@
+{
+  "id": "24c28075b918030c",
+  "messages": [
+    {
+      "id": "24c28075b918030c",
+      "snippet": "Hi both, A reminder that April time narratives are due by close of play Friday for billing. James, y",
+      "subject": "Time recording - April narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-01T08:15:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Hi both,\n\nA reminder that April time narratives are due by close of play Friday for billing. James, you have 14.5 hours unposted; Elena, 6.0 hours. Please ensure matter numbers are correct (several entries last month had no matter reference).\n\nMany thanks,\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">Hi both,<br><br>A reminder that April time narratives are due by close of play Friday for billing. James, you have 14.5 hours unposted; Elena, 6.0 hours. Please ensure matter numbers are correct (several entries last month had no matter reference).<br><br>Many thanks,<br>Accounts</div>"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "268461dc63bc77b9",
+  "messages": [
+    {
+      "id": "268461dc63bc77b9",
+      "snippet": "Sarah - are you in for 5-a-side at 7 tonight? Short a player. Ignore if this went to the wrong Sarah",
+      "subject": "5-a-side tonight?",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-01-15T12:40:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Sarah - are you in for 5-a-side at 7 tonight? Short a player. Ignore if this went to the wrong Sarah, meant it for Sarah in disputes! Tom",
+      "htmlBody": "<div dir=\"ltr\">Sarah - are you in for 5-a-side at 7 tonight? Short a player. Ignore if this went to the wrong Sarah, meant it for Sarah in disputes! Tom</div>"
+    }
+  ]
+}

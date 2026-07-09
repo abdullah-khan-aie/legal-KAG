@@ -1,0 +1,40 @@
+{
+  "id": "23afe3688cfd3359",
+  "messages": [
+    {
+      "id": "23afe3688cfd3359",
+      "snippet": "Rebecca, Isla, Completion statement attached. Balance due from Thornbury on completion is £28,706,60",
+      "subject": "Project Harbor — completion statement & funds",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "rebecca.stone@thornburyproperties.com",
+        "isla.fournier@thornburyproperties.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-25T16:50:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Rebecca, Isla,\n\nCompletion statement attached. Balance due from Thornbury on completion is £28,706,607.86 (price £32.4m less the £3.24m deposit, net of apportionments and including the £15k Penrose retention and the assigned Brunswick rent deposit). Please arrange for cleared funds to reach our client account by 10.00am on 27 February. SDLT of £1,609,500 follows within 14 days.\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Rebecca, Isla,<br><br>Completion statement attached. Balance due from Thornbury on completion is £28,706,607.86 (price £32.4m less the £3.24m deposit, net of apportionments and including the £15k Penrose retention and the assigned Brunswick rent deposit). Please arrange for cleared funds to reach our client account by 10.00am on 27 February. SDLT of £1,609,500 follows within 14 days.<br><br>James</div>"
+    },
+    {
+      "id": "3c2561fac1cb4f14",
+      "snippet": "Noted James — funds instruction placed with the bank for value 27 Feb. We'll confirm once sent. Rebe",
+      "subject": "RE: Project Harbor — completion statement & funds",
+      "sender": "rebecca.stone@thornburyproperties.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-26T09:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Noted James — funds instruction placed with the bank for value 27 Feb. We'll confirm once sent. Rebecca\n\nOn Wed, Feb 25, 2026 at 4:50 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Rebecca, Isla,\n>\n> Completion statement attached. Balance due from Thornbury on completion is £28,706,607.86 (price £32.4m less the £3.24m deposit, net of apportionments and including the £15k Penrose retention and the assigned Brunswick rent deposit). Please arrange for cleared funds to reach our client account by 10.00am on 27 February. SDLT of £1,609,500 follows within 14 days.\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Noted James — funds instruction placed with the bank for value 27 Feb. We&#x27;ll confirm once sent. Rebecca</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 25, 2026 at 4:50 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Rebecca, Isla,<br><br>Completion statement attached. Balance due from Thornbury on completion is £28,706,607.86 (price £32.4m less the £3.24m deposit, net of apportionments and including the £15k Penrose retention and the assigned Brunswick rent deposit). Please arrange for cleared funds to reach our client account by 10.00am on 27 February. SDLT of £1,609,500 follows within 14 days.<br><br>James</div></blockquote></div></div>"
+    }
+  ]
+}

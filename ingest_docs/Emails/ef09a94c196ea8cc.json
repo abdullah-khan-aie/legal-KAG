@@ -1,0 +1,37 @@
+{
+  "id": "ef09a94c196ea8cc",
+  "messages": [
+    {
+      "id": "ef09a94c196ea8cc",
+      "snippet": "Sarah - unrelated to Quartz, but Caspian Technologies chased again on the Stratton Energy MSA renewa",
+      "subject": "Caspian - MSA renewal chaser",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-01-19T15:10:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Sarah - unrelated to Quartz, but Caspian Technologies chased again on the Stratton Energy MSA renewal. They want a call this week. Shall I hold them until after the 22nd when Quartz is signed? Elena",
+      "htmlBody": "<div dir=\"ltr\">Sarah - unrelated to Quartz, but Caspian Technologies chased again on the Stratton Energy MSA renewal. They want a call this week. Shall I hold them until after the 22nd when Quartz is signed? Elena</div>"
+    },
+    {
+      "id": "4ce9465f6ad25b14",
+      "snippet": "Yes, push to Friday. One thing at a time. Sarah",
+      "subject": "RE: Caspian - MSA renewal chaser",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-01-19T15:35:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Yes, push to Friday. One thing at a time. Sarah\n\nOn Mon, Jan 19, 2026 at 3:10 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Sarah - unrelated to Quartz, but Caspian Technologies chased again on the Stratton Energy MSA renewal. They want a call this week. Shall I hold them until after the 22nd when Quartz is signed? Elena",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Yes, push to Friday. One thing at a time. Sarah</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Jan 19, 2026 at 3:10 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah - unrelated to Quartz, but Caspian Technologies chased again on the Stratton Energy MSA renewal. They want a call this week. Shall I hold them until after the 22nd when Quartz is signed? Elena</div></blockquote></div></div>"
+    }
+  ]
+}

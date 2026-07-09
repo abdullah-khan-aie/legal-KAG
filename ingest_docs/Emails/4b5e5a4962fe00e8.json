@@ -1,0 +1,25 @@
+{
+  "id": "4b5e5a4962fe00e8",
+  "messages": [
+    {
+      "id": "4b5e5a4962fe00e8",
+      "snippet": "Colleagues, The document management system (iManage) will be unavailable this Saturday 18 October be",
+      "subject": "[IT] Planned DMS maintenance window - Saturday 18 Oct",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "donna.bridges@whitfieldcarter.com"
+      ],
+      "date": "2025-10-15T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Colleagues,\n\nThe document management system (iManage) will be unavailable this Saturday 18 October between 06:00 and 10:00 for scheduled maintenance. Please save and close any open documents beforehand. Email will not be affected.\n\nIT Helpdesk",
+      "htmlBody": "<div dir=\"ltr\">Colleagues,<br><br>The document management system (iManage) will be unavailable this Saturday 18 October between 06:00 and 10:00 for scheduled maintenance. Please save and close any open documents beforehand. Email will not be affected.<br><br>IT Helpdesk</div>"
+    }
+  ]
+}

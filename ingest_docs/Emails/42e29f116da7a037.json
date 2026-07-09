@@ -1,0 +1,23 @@
+{
+  "id": "42e29f116da7a037",
+  "messages": [
+    {
+      "id": "42e29f116da7a037",
+      "snippet": "The employment & disputes team dinner is booked for Thursday 27 February at Coq d'Argent, 7:30pm. Pl",
+      "subject": "Employment team dinner — 27 February, Coq d'Argent",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-11T15:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "The employment & disputes team dinner is booked for Thursday 27 February at Coq d'Argent, 7:30pm. Please let me know dietary requirements by Friday. Partners' guests welcome.\n\nDonna Bridges",
+      "htmlBody": "<div dir=\"ltr\">The employment &amp; disputes team dinner is booked for Thursday 27 February at Coq d&#x27;Argent, 7:30pm. Please let me know dietary requirements by Friday. Partners&#x27; guests welcome.<br><br>Donna Bridges</div>"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "3fa962464895d8e5",
+  "messages": [
+    {
+      "id": "3fa962464895d8e5",
+      "snippet": "Charles, Everything is in order for completion tomorrow. Your board minutes approving the acquisitio",
+      "subject": "Project Atlas - ready for completion",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "charles.aldous@kingsfordgroup.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "nathan.reilly@kingsfordgroup.com"
+      ],
+      "date": "2026-01-22T17:50:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Charles,\n\nEverything is in order for completion tomorrow. Your board minutes approving the acquisition are signed, the SPA and disclosure letter are agreed and engrossed, the escrow letter with Wycombe Trust is signed, and the EMI options have been exercised conditionally on completion so you will acquire 100%. We will hold documents to order and release on confirmation of funds. I will call you once completion has taken place.\n\nCongratulations in advance.\n\nSarah\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Charles,<br><br>Everything is in order for completion tomorrow. Your board minutes approving the acquisition are signed, the SPA and disclosure letter are agreed and engrossed, the escrow letter with Wycombe Trust is signed, and the EMI options have been exercised conditionally on completion so you will acquire 100%. We will hold documents to order and release on confirmation of funds. I will call you once completion has taken place.<br><br>Congratulations in advance.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "f9ede9f1059a1693",
+      "snippet": "Sarah, Thank you and the whole team - this has been a well-run process. Speak tomorrow. Charles",
+      "subject": "RE: Project Atlas - ready for completion",
+      "sender": "charles.aldous@kingsfordgroup.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-01-22T18:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nThank you and the whole team - this has been a well-run process. Speak tomorrow.\n\nCharles\n\nOn Thu, Jan 22, 2026 at 5:50 PM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Charles,\n>\n> Everything is in order for completion tomorrow. Your board minutes approving the acquisition are signed, the SPA and disclosure letter are agreed and engrossed, the escrow letter with Wycombe Trust is signed, and the EMI options have been exercised conditionally on completion so you will acquire 100%. We will hold documents to order and release on confirmation of funds. I will call you once completion has taken place.\n>\n> Congratulations in advance.\n>\n> Sarah\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah,<br><br>Thank you and the whole team - this has been a well-run process. Speak tomorrow.<br><br>Charles</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Jan 22, 2026 at 5:50 PM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Charles,<br><br>Everything is in order for completion tomorrow. Your board minutes approving the acquisition are signed, the SPA and disclosure letter are agreed and engrossed, the escrow letter with Wycombe Trust is signed, and the EMI options have been exercised conditionally on completion so you will acquire 100%. We will hold documents to order and release on confirmation of funds. I will call you once completion has taken place.<br><br>Congratulations in advance.<br><br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

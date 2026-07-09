@@ -1,0 +1,52 @@
+{
+  "id": "ed246003d7264327",
+  "messages": [
+    {
+      "id": "ed246003d7264327",
+      "snippet": "Elena, Please find attached our client's replies to your CPSE.1 enquiries. You'll see the option to ",
+      "subject": "Project Onyx — replies to CPSE.1 enquiries",
+      "sender": "zoe.abbott@marlowegreaves.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-24T14:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena,\n\nPlease find attached our client's replies to your CPSE.1 enquiries. You'll see the option to tax confirmation at 11.1, the rent deposit position at 16.1 and a note on the Unit D arrears at 15.1. Building regs and planning documents are in folder 4 of the data room.\n\nZoe Abbott\nMarlowe Greaves LLP",
+      "htmlBody": "<div dir=\"ltr\">Elena,<br><br>Please find attached our client&#x27;s replies to your CPSE.1 enquiries. You&#x27;ll see the option to tax confirmation at 11.1, the rent deposit position at 16.1 and a note on the Unit D arrears at 15.1. Building regs and planning documents are in folder 4 of the data room.<br><br>Zoe Abbott<br>Marlowe Greaves LLP</div>",
+      "attachmentIds": [
+        "_fThv-2FwEw3hB1dvrkd_9cUOIMsyeSLcLVMA6ZppNE"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Onyx_CPSE1_Replies.docx",
+          "id": "_fThv-2FwEw3hB1dvrkd_9cUOIMsyeSLcLVMA6ZppNE",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "e2cfcfc25a186d3e",
+      "snippet": "Thanks Zoe. Two follow-ups: (1) please confirm the rent deposit deeds for Units B and D are uncondit",
+      "subject": "RE: Project Onyx — replies to CPSE.1 enquiries",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "zoe.abbott@marlowegreaves.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-26T09:50:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Thanks Zoe. Two follow-ups: (1) please confirm the rent deposit deeds for Units B and D are unconditional and will be assigned on completion; (2) please send the HMRC option to tax acknowledgement referenced at 11.1 — it doesn't appear to be in folder 9.2 yet.\n\nElena\n\nElena Marchetti\nAssociate | Real Estate\nWhitfield Carter LLP\n+44 (0)20 7946 0548\n\nOn Tue, Feb 24, 2026 at 2:20 PM, Zoe Abbott <zoe.abbott@marlowegreaves.com> wrote:\n> Elena,\n>\n> Please find attached our client's replies to your CPSE.1 enquiries. You'll see the option to tax confirmation at 11.1, the rent deposit position at 16.1 and a note on the Unit D arrears at 15.1. Building regs and planning documents are in folder 4 of the data room.\n>\n> Zoe Abbott\n> Marlowe Greaves LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks Zoe. Two follow-ups: (1) please confirm the rent deposit deeds for Units B and D are unconditional and will be assigned on completion; (2) please send the HMRC option to tax acknowledgement referenced at 11.1 — it doesn&#x27;t appear to be in folder 9.2 yet.<br><br>Elena<br><br>Elena Marchetti<br>Associate | Real Estate<br>Whitfield Carter LLP<br>+44 (0)20 7946 0548</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Feb 24, 2026 at 2:20 PM, Zoe Abbott &lt;zoe.abbott@marlowegreaves.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Elena,<br><br>Please find attached our client&#x27;s replies to your CPSE.1 enquiries. You&#x27;ll see the option to tax confirmation at 11.1, the rent deposit position at 16.1 and a note on the Unit D arrears at 15.1. Building regs and planning documents are in folder 4 of the data room.<br><br>Zoe Abbott<br>Marlowe Greaves LLP</div></blockquote></div></div>"
+    }
+  ]
+}

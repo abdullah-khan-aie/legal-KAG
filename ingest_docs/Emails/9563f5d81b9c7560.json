@@ -1,0 +1,53 @@
+{
+  "id": "9563f5d81b9c7560",
+  "messages": [
+    {
+      "id": "9563f5d81b9c7560",
+      "snippet": "Sarah — service agreement attached. Salary £215k, 12 months' notice both ways. The FY2025 bonus of £",
+      "subject": "Vholes service agreement + figures",
+      "sender": "lorna.keane@ashbournehealthcare.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "daniel.pryce@ashbournehealthcare.com"
+      ],
+      "date": "2026-02-04T11:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Sarah — service agreement attached. Salary £215k, 12 months' notice both ways. The FY2025 bonus of £43,000 was approved by RemCo in January but hasn't been paid. Adrian started 14 March 2016.\n\nLorna",
+      "htmlBody": "<div dir=\"ltr\">Sarah — service agreement attached. Salary £215k, 12 months&#x27; notice both ways. The FY2025 bonus of £43,000 was approved by RemCo in January but hasn&#x27;t been paid. Adrian started 14 March 2016.<br><br>Lorna</div>",
+      "attachmentIds": [
+        "SBZ9OdngnUZvbyiGsNnrJxFMUDbZy0_zYcfOyjgFy0c"
+      ],
+      "attachments": [
+        {
+          "filename": "Vholes_ServiceAgreement_2019.docx",
+          "id": "SBZ9OdngnUZvbyiGsNnrJxFMUDbZy0_zYcfOyjgFy0c",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "6d42d73ebd88fb56",
+      "snippet": "Thanks Lorna. Noted — 12-month notice is the main cost driver. We'll work up a full advice note on t",
+      "subject": "RE: Vholes service agreement + figures",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "lorna.keane@ashbournehealthcare.com"
+      ],
+      "ccRecipients": [
+        "daniel.pryce@ashbournehealthcare.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-02-05T15:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Thanks Lorna. Noted — 12-month notice is the main cost driver. We'll work up a full advice note on the package and the covenants and get it to the Board ahead of the 13th. Short version: the client and employee non-solicit covenants look solid; the 12-month non-compete is the weak link and I'd want to trade it down.\n\nSarah\n\nSarah Whitfield\nPartner — Employment\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0100\n\nOn Wed, Feb 4, 2026 at 11:40 AM, Lorna Keane <lorna.keane@ashbournehealthcare.com> wrote:\n> Sarah — service agreement attached. Salary £215k, 12 months' notice both ways. The FY2025 bonus of £43,000 was approved by RemCo in January but hasn't been paid. Adrian started 14 March 2016.\n>\n> Lorna",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks Lorna. Noted — 12-month notice is the main cost driver. We&#x27;ll work up a full advice note on the package and the covenants and get it to the Board ahead of the 13th. Short version: the client and employee non-solicit covenants look solid; the 12-month non-compete is the weak link and I&#x27;d want to trade it down.<br><br>Sarah<br><br>Sarah Whitfield<br>Partner — Employment<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0100</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 4, 2026 at 11:40 AM, Lorna Keane &lt;lorna.keane@ashbournehealthcare.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah — service agreement attached. Salary £215k, 12 months&#x27; notice both ways. The FY2025 bonus of £43,000 was approved by RemCo in January but hasn&#x27;t been paid. Adrian started 14 March 2016.<br><br>Lorna</div></blockquote></div></div>"
+    }
+  ]
+}

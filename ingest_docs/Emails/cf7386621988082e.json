@@ -1,0 +1,24 @@
+{
+  "id": "cf7386621988082e",
+  "messages": [
+    {
+      "id": "cf7386621988082e",
+      "snippet": "Sarah, Quick note on a different matter: we've now received the second settlement instalment from Cr",
+      "subject": "Crossfield matter - settlement instalment received",
+      "sender": "gunderwood@penningtonindustries.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-04-15T14:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Sarah,\n\nQuick note on a different matter: we've now received the second settlement instalment from Crossfield Engineering, so that one is fully resolved on our side. Thank you again for getting it over the line last year.\n\nSeparately I'll come back to you on Tregarth - nothing further needed from you today on that.\n\nGrace",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Quick note on a different matter: we&#x27;ve now received the second settlement instalment from Crossfield Engineering, so that one is fully resolved on our side. Thank you again for getting it over the line last year.<br><br>Separately I&#x27;ll come back to you on Tregarth - nothing further needed from you today on that.<br><br>Grace</div>"
+    }
+  ]
+}

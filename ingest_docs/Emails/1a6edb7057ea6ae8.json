@@ -1,0 +1,37 @@
+{
+  "id": "1a6edb7057ea6ae8",
+  "messages": [
+    {
+      "id": "1a6edb7057ea6ae8",
+      "snippet": "Oliver, Deepa, Please find attached the first draft of the Series B Subscription and Shareholders' A",
+      "subject": "Project Tempest — Subscription Agreement (first draft)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "daniel.calderwell@calderwellmobility.com",
+        "eleanor.whitmore@marisdalegrowth.com"
+      ],
+      "date": "2025-11-21T16:15:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Oliver, Deepa,\n\nPlease find attached the first draft of the Series B Subscription and Shareholders' Agreement for your review, together with the draft Investor Rights Agreement and amended Articles to follow under separate cover. Key commercial terms track the term sheet. We look forward to your mark-up.\n\nJames\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Oliver, Deepa,<br><br>Please find attached the first draft of the Series B Subscription and Shareholders&#x27; Agreement for your review, together with the draft Investor Rights Agreement and amended Articles to follow under separate cover. Key commercial terms track the term sheet. We look forward to your mark-up.<br><br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "C-cr2SQYRUf1Kfotcb28r36JzKRLkV6AVjw2BW5-Mf8"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Tempest_SubscriptionAgreement_v1.docx",
+          "id": "C-cr2SQYRUf1Kfotcb28r36JzKRLkV6AVjw2BW5-Mf8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

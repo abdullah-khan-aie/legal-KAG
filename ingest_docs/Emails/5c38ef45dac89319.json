@@ -1,0 +1,53 @@
+{
+  "id": "5c38ef45dac89319",
+  "messages": [
+    {
+      "id": "5c38ef45dac89319",
+      "snippet": "Oliver, Our counter is attached (tracked, v3). To land this: royalty at 6.0% (up from your 5.75%), l",
+      "subject": "Project Lyra — Licence v3 (our counter-mark-up)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "date": "2025-05-06T16:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Oliver,\n\nOur counter is attached (tracked, v3). To land this: royalty at 6.0% (up from your 5.75%), liability cap at 125% (up from your 100%), and — as a cash-flow concession — we've split the £2m milestone into two equal £1m tranches, the second on the first anniversary of first commercial sale. The 36-month longstop stays as you proposed. We think that's a fair place to close. Let us know and we'll turn the execution version.\n\nJames Osei\nSenior Associate\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Oliver,<br><br>Our counter is attached (tracked, v3). To land this: royalty at 6.0% (up from your 5.75%), liability cap at 125% (up from your 100%), and — as a cash-flow concession — we&#x27;ve split the £2m milestone into two equal £1m tranches, the second on the first anniversary of first commercial sale. The 36-month longstop stays as you proposed. We think that&#x27;s a fair place to close. Let us know and we&#x27;ll turn the execution version.<br><br>James Osei<br>Senior Associate<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "Ee1SEJSnuEU25O2OLc2Phe3TePnv5ha4Oskh2rRMe3s"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Lyra_PatentLicence_v3_redline.docx",
+          "id": "Ee1SEJSnuEU25O2OLc2Phe3TePnv5ha4Oskh2rRMe3s",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "fba76180062afbde",
+      "snippet": "James, Marrick accepts. 6.0% royalty, 125% cap, 36-month longstop and the split milestone all agreed",
+      "subject": "RE: Project Lyra — Licence v3 (our counter-mark-up)",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "deepa.kovac@birchallstone.com"
+      ],
+      "date": "2025-05-09T11:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James,\n\nMarrick accepts. 6.0% royalty, 125% cap, 36-month longstop and the split milestone all agreed. The milestone split is genuinely helpful for us. Please prepare the execution version and the disclosure letter and we'll fix a completion date.\n\nOliver\n\nOn Tue, May 6, 2025 at 4:30 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Oliver,\n>\n> Our counter is attached (tracked, v3). To land this: royalty at 6.0% (up from your 5.75%), liability cap at 125% (up from your 100%), and — as a cash-flow concession — we've split the £2m milestone into two equal £1m tranches, the second on the first anniversary of first commercial sale. The 36-month longstop stays as you proposed. We think that's a fair place to close. Let us know and we'll turn the execution version.\n>\n> James Osei\n> Senior Associate\n>\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Marrick accepts. 6.0% royalty, 125% cap, 36-month longstop and the split milestone all agreed. The milestone split is genuinely helpful for us. Please prepare the execution version and the disclosure letter and we&#x27;ll fix a completion date.<br><br>Oliver</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, May 6, 2025 at 4:30 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Oliver,<br><br>Our counter is attached (tracked, v3). To land this: royalty at 6.0% (up from your 5.75%), liability cap at 125% (up from your 100%), and — as a cash-flow concession — we&#x27;ve split the £2m milestone into two equal £1m tranches, the second on the first anniversary of first commercial sale. The 36-month longstop stays as you proposed. We think that&#x27;s a fair place to close. Let us know and we&#x27;ll turn the execution version.<br><br>James Osei<br>Senior Associate<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

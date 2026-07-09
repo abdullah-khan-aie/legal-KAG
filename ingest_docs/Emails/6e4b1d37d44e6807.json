@@ -1,0 +1,25 @@
+{
+  "id": "6e4b1d37d44e6807",
+  "messages": [
+    {
+      "id": "6e4b1d37d44e6807",
+      "snippet": "Sarah, Quick one on Project Atlas (the Brampton Leisure acquisition) - our finance team has a questi",
+      "subject": "Project Atlas - completion accounts query",
+      "sender": "nathan.reilly@kingsfordgroup.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-01-22T10:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Sarah,\n\nQuick one on Project Atlas (the Brampton Leisure acquisition) - our finance team has a question on the retention release mechanics in the completion accounts. Could someone give Miriam a call this week? Not urgent but we'd like it tidied before the deferred consideration falls due.\n\nThanks,\nNathan Reilly\nKingsford Group",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Quick one on Project Atlas (the Brampton Leisure acquisition) - our finance team has a question on the retention release mechanics in the completion accounts. Could someone give Miriam a call this week? Not urgent but we&#x27;d like it tidied before the deferred consideration falls due.<br><br>Thanks,<br>Nathan Reilly<br>Kingsford Group</div>"
+    }
+  ]
+}

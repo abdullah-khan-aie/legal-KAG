@@ -1,0 +1,41 @@
+{
+  "id": "017ddc5110c9f665",
+  "messages": [
+    {
+      "id": "017ddc5110c9f665",
+      "snippet": "Sarah, James, Board approved this morning. We're cleared to proceed at £21.75m through the SPV (to b",
+      "subject": "Project Redwood — board approval",
+      "sender": "tom.beckworth@calderfieldcapital.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-03-05T13:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah, James,\n\nBoard approved this morning. We're cleared to proceed at £21.75m through the SPV (to be named Calderfield Redwood Propco Limited). Funding from equity, senior debt to follow at SPV level after completion. Please push for exchange around 24 April.\n\nMinutes being finalised — I'll send them over for the file.\n\nTom",
+      "htmlBody": "<div dir=\"ltr\">Sarah, James,<br><br>Board approved this morning. We&#x27;re cleared to proceed at £21.75m through the SPV (to be named Calderfield Redwood Propco Limited). Funding from equity, senior debt to follow at SPV level after completion. Please push for exchange around 24 April.<br><br>Minutes being finalised — I&#x27;ll send them over for the file.<br><br>Tom</div>"
+    },
+    {
+      "id": "2c56c9e0239ee888",
+      "snippet": "Great news, Tom. We'll progress the contract with Pemberton Rowe and come back on the retention poin",
+      "subject": "RE: Project Redwood — board approval",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.beckworth@calderfieldcapital.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-03-05T14:02:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Great news, Tom. We'll progress the contract with Pemberton Rowe and come back on the retention point. Please send the SPV incorporation details and we'll run AML on the directors.\n\nSarah\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nDX 134777 Bishopsgate | +44 (0)20 7946 0500\nConfidential and may be legally privileged.\n\nOn Thu, Mar 5, 2026 at 1:10 PM, Tom Beckworth <tom.beckworth@calderfieldcapital.com> wrote:\n> Sarah, James,\n>\n> Board approved this morning. We're cleared to proceed at £21.75m through the SPV (to be named Calderfield Redwood Propco Limited). Funding from equity, senior debt to follow at SPV level after completion. Please push for exchange around 24 April.\n>\n> Minutes being finalised — I'll send them over for the file.\n>\n> Tom",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Great news, Tom. We&#x27;ll progress the contract with Pemberton Rowe and come back on the retention point. Please send the SPV incorporation details and we&#x27;ll run AML on the directors.<br><br>Sarah<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>DX 134777 Bishopsgate | +44 (0)20 7946 0500<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Mar 5, 2026 at 1:10 PM, Tom Beckworth &lt;tom.beckworth@calderfieldcapital.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah, James,<br><br>Board approved this morning. We&#x27;re cleared to proceed at £21.75m through the SPV (to be named Calderfield Redwood Propco Limited). Funding from equity, senior debt to follow at SPV level after completion. Please push for exchange around 24 April.<br><br>Minutes being finalised — I&#x27;ll send them over for the file.<br><br>Tom</div></blockquote></div></div>"
+    }
+  ]
+}

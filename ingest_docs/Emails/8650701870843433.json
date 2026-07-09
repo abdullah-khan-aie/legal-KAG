@@ -1,0 +1,56 @@
+{
+  "id": "8650701870843433",
+  "messages": [
+    {
+      "id": "8650701870843433",
+      "snippet": "Marcus, Aisha, Attached is our first draft of the Subscription and Shareholders' Agreement for your ",
+      "subject": "Project Falcon - first draft Subscription & Shareholders' Agreement",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.penrose@penroserobotics.com",
+        "aisha.devlin@penroserobotics.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "priya.forsyth@penroserobotics.com"
+      ],
+      "date": "2026-04-28T12:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Marcus, Aisha,\n\nAttached is our first draft of the Subscription and Shareholders' Agreement for your review before we send to Birchall Stone. This is our opening position - note the founder warranty cap is drafted at £4m and survival at 3 years; we expect Westbridge to push these. The non-compete is at 24 months.\n\nLet us know any comments and we'll release to the other side.\n\nJames\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Marcus, Aisha,<br><br>Attached is our first draft of the Subscription and Shareholders&#x27; Agreement for your review before we send to Birchall Stone. This is our opening position - note the founder warranty cap is drafted at £4m and survival at 3 years; we expect Westbridge to push these. The non-compete is at 24 months.<br><br>Let us know any comments and we&#x27;ll release to the other side.<br><br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "AaA0ni7upBbLnPD5_PgEz0e1VpieGFoAoszfK4vPiso"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Falcon_SubscriptionAgreement_v1.docx",
+          "id": "AaA0ni7upBbLnPD5_PgEz0e1VpieGFoAoszfK4vPiso",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "fe3dafb7478ed13f",
+      "snippet": "James, Looks good. One thing - I'd want the IP assignment wording to be watertight given our patent ",
+      "subject": "RE: Project Falcon - first draft Subscription & Shareholders' Agreement",
+      "sender": "aisha.devlin@penroserobotics.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "marcus.penrose@penroserobotics.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-29T08:55:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nLooks good. One thing - I'd want the IP assignment wording to be watertight given our patent applications. Otherwise happy for you to send to Birchall Stone.\n\nAisha\n\nOn Tue, Apr 28, 2026 at 12:40 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Marcus, Aisha,\n>\n> Attached is our first draft of the Subscription and Shareholders' Agreement for your review before we send to Birchall Stone. This is our opening position - note the founder warranty cap is drafted at £4m and survival at 3 years; we expect Westbridge to push these. The non-compete is at 24 months.\n>\n> Let us know any comments and we'll release to the other side.\n>\n> James\n>\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Looks good. One thing - I&#x27;d want the IP assignment wording to be watertight given our patent applications. Otherwise happy for you to send to Birchall Stone.<br><br>Aisha</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Apr 28, 2026 at 12:40 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Marcus, Aisha,<br><br>Attached is our first draft of the Subscription and Shareholders&#x27; Agreement for your review before we send to Birchall Stone. This is our opening position - note the founder warranty cap is drafted at £4m and survival at 3 years; we expect Westbridge to push these. The non-compete is at 24 months.<br><br>Let us know any comments and we&#x27;ll release to the other side.<br><br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

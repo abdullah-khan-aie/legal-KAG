@@ -1,0 +1,47 @@
+{
+  "id": "bf9294d459c264ba",
+  "messages": [
+    {
+      "id": "bf9294d459c264ba",
+      "snippet": "Tom, Howard, I'm pleased to confirm we exchanged contracts at 2.50 pm today on the agreed terms. Com",
+      "subject": "Project Onyx — EXCHANGED",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.beckworth@calderfieldcapital.com",
+        "howard.calderfield@calderfieldcapital.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-03-13T15:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Tom, Howard,\n\nI'm pleased to confirm we exchanged contracts at 2.50 pm today on the agreed terms. Completion is fixed for 7 April 2026. The deposit of £1,865,000 has been released to Marlowe Greaves to hold as stakeholder. We'll now move to the pre-completion steps: engrossing the transfer, OS1 priority search, and agreeing the completion statement and apportionments.\n\nCongratulations on getting here.\n\nJames\n\nJames Osei\nSenior Associate | Real Estate\nWhitfield Carter LLP\n+44 (0)20 7946 0531",
+      "htmlBody": "<div dir=\"ltr\">Tom, Howard,<br><br>I&#x27;m pleased to confirm we exchanged contracts at 2.50 pm today on the agreed terms. Completion is fixed for 7 April 2026. The deposit of £1,865,000 has been released to Marlowe Greaves to hold as stakeholder. We&#x27;ll now move to the pre-completion steps: engrossing the transfer, OS1 priority search, and agreeing the completion statement and apportionments.<br><br>Congratulations on getting here.<br><br>James<br><br>James Osei<br>Senior Associate | Real Estate<br>Whitfield Carter LLP<br>+44 (0)20 7946 0531</div>"
+    },
+    {
+      "id": "f7e934cb1ac44928",
+      "snippet": "Excellent news, thank you to the whole team. Onwards to completion. Howard Calderfield Managing Dire",
+      "subject": "RE: Project Onyx — EXCHANGED",
+      "sender": "howard.calderfield@calderfieldcapital.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.beckworth@calderfieldcapital.com"
+      ],
+      "date": "2026-03-13T16:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Excellent news, thank you to the whole team. Onwards to completion.\n\nHoward Calderfield\nManaging Director, Calderfield Capital Partners\n\nOn Fri, Mar 13, 2026 at 3:05 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Tom, Howard,\n>\n> I'm pleased to confirm we exchanged contracts at 2.50 pm today on the agreed terms. Completion is fixed for 7 April 2026. The deposit of £1,865,000 has been released to Marlowe Greaves to hold as stakeholder. We'll now move to the pre-completion steps: engrossing the transfer, OS1 priority search, and agreeing the completion statement and apportionments.\n>\n> Congratulations on getting here.\n>\n> James\n>\n> James Osei\n> Senior Associate | Real Estate\n> Whitfield Carter LLP\n> +44 (0)20 7946 0531",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Excellent news, thank you to the whole team. Onwards to completion.<br><br>Howard Calderfield<br>Managing Director, Calderfield Capital Partners</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Mar 13, 2026 at 3:05 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom, Howard,<br><br>I&#x27;m pleased to confirm we exchanged contracts at 2.50 pm today on the agreed terms. Completion is fixed for 7 April 2026. The deposit of £1,865,000 has been released to Marlowe Greaves to hold as stakeholder. We&#x27;ll now move to the pre-completion steps: engrossing the transfer, OS1 priority search, and agreeing the completion statement and apportionments.<br><br>Congratulations on getting here.<br><br>James<br><br>James Osei<br>Senior Associate | Real Estate<br>Whitfield Carter LLP<br>+44 (0)20 7946 0531</div></blockquote></div></div>"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "2d69652e43279e57",
+  "messages": [
+    {
+      "id": "2d69652e43279e57",
+      "snippet": "Marcus, Draft of your first witness statement is ready for your review (I'll send via the secure por",
+      "subject": "Your witness statement - draft for review",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "marcus.penrose@penroserobotics.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-10-15T13:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Marcus,\n\nDraft of your first witness statement is ready for your review (I'll send via the secure portal). It covers the Agreement and acceptance regime, Caldervale's data and host-environment failures, the promotional surge, the invoices and the termination. Please check the dates and the technical detail, especially the 22% SKU figure and the 31ms latency, and let me have any comments by Friday so we can finalise ahead of exchange.\n\nTom\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\nT +44 (0)20 7946 0500",
+      "htmlBody": "<div dir=\"ltr\">Marcus,<br><br>Draft of your first witness statement is ready for your review (I&#x27;ll send via the secure portal). It covers the Agreement and acceptance regime, Caldervale&#x27;s data and host-environment failures, the promotional surge, the invoices and the termination. Please check the dates and the technical detail, especially the 22% SKU figure and the 31ms latency, and let me have any comments by Friday so we can finalise ahead of exchange.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>T +44 (0)20 7946 0500</div>"
+    },
+    {
+      "id": "481932bc90040064",
+      "snippet": "Tom - read it, it's accurate. One tweak: the host-latency call with Tovey was 9 October, not 10. Ais",
+      "subject": "RE: Your witness statement - draft for review",
+      "sender": "marcus.penrose@penroserobotics.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "aisha.devlin@penroserobotics.com"
+      ],
+      "date": "2025-10-17T17:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Tom - read it, it's accurate. One tweak: the host-latency call with Tovey was 9 October, not 10. Aisha can confirm the 31ms figure from our monitoring export. Otherwise happy to sign.\n\nMarcus\n\nOn Wed, Oct 15, 2025 at 1:20 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Marcus,\n>\n> Draft of your first witness statement is ready for your review (I'll send via the secure portal). It covers the Agreement and acceptance regime, Caldervale's data and host-environment failures, the promotional surge, the invoices and the termination. Please check the dates and the technical detail, especially the 22% SKU figure and the 31ms latency, and let me have any comments by Friday so we can finalise ahead of exchange.\n>\n> Tom\n>\n> Tom Gallagher\n> Associate | Whitfield Carter LLP\n> T +44 (0)20 7946 0500",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom - read it, it&#x27;s accurate. One tweak: the host-latency call with Tovey was 9 October, not 10. Aisha can confirm the 31ms figure from our monitoring export. Otherwise happy to sign.<br><br>Marcus</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 15, 2025 at 1:20 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Marcus,<br><br>Draft of your first witness statement is ready for your review (I&#x27;ll send via the secure portal). It covers the Agreement and acceptance regime, Caldervale&#x27;s data and host-environment failures, the promotional surge, the invoices and the termination. Please check the dates and the technical detail, especially the 22% SKU figure and the 31ms latency, and let me have any comments by Friday so we can finalise ahead of exchange.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>T +44 (0)20 7946 0500</div></blockquote></div></div>"
+    },
+    {
+      "id": "5f7a43691bb9f04d",
+      "snippet": "Confirmed - average host latency was 31ms over the acceptance window (peaks above 60ms). I have the ",
+      "subject": "RE: Your witness statement - draft for review",
+      "sender": "aisha.devlin@penroserobotics.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com",
+        "marcus.penrose@penroserobotics.com"
+      ],
+      "date": "2025-10-18T09:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Confirmed - average host latency was 31ms over the acceptance window (peaks above 60ms). I have the raw export if disclosure needs it. The Schedule 5 spec was sub-5ms, so it was wildly out.\n\nAisha\n\nOn Fri, Oct 17, 2025 at 5:50 PM, Dr Marcus Penrose <marcus.penrose@penroserobotics.com> wrote:\n> Tom - read it, it's accurate. One tweak: the host-latency call with Tovey was 9 October, not 10. Aisha can confirm the 31ms figure from our monitoring export. Otherwise happy to sign.\n>\n> Marcus\n>\n> On Wed, Oct 15, 2025 at 1:20 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> > Marcus,\n> >\n> > Draft of your first witness statement is ready for your review (I'll send via the secure portal). It covers the Agreement and acceptance regime, Caldervale's data and host-environment failures, the promotional surge, the invoices and the termination. Please check the dates and the technical detail, especially the 22% SKU figure and the 31ms latency, and let me have any comments by Friday so we can finalise ahead of exchange.\n> >\n> > Tom\n> >\n> > Tom Gallagher\n> > Associate | Whitfield Carter LLP\n> > T +44 (0)20 7946 0500",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Confirmed - average host latency was 31ms over the acceptance window (peaks above 60ms). I have the raw export if disclosure needs it. The Schedule 5 spec was sub-5ms, so it was wildly out.<br><br>Aisha</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Oct 17, 2025 at 5:50 PM, Dr Marcus Penrose &lt;marcus.penrose@penroserobotics.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Tom - read it, it&#x27;s accurate. One tweak: the host-latency call with Tovey was 9 October, not 10. Aisha can confirm the 31ms figure from our monitoring export. Otherwise happy to sign.<br><br>Marcus</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 15, 2025 at 1:20 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Marcus,<br><br>Draft of your first witness statement is ready for your review (I&#x27;ll send via the secure portal). It covers the Agreement and acceptance regime, Caldervale&#x27;s data and host-environment failures, the promotional surge, the invoices and the termination. Please check the dates and the technical detail, especially the 22% SKU figure and the 31ms latency, and let me have any comments by Friday so we can finalise ahead of exchange.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>T +44 (0)20 7946 0500</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

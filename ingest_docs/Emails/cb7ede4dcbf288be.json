@@ -1,0 +1,38 @@
+{
+  "id": "cb7ede4dcbf288be",
+  "messages": [
+    {
+      "id": "cb7ede4dcbf288be",
+      "snippet": "James, Good to be working with you. Attaching our client's marked heads of terms for Quartz House. W",
+      "subject": "Quartz House, Reading - heads of terms",
+      "sender": "martin.greaves@marlowegreaves.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-12T11:05:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "James,\n\nGood to be working with you. Attaching our client's marked heads of terms for Quartz House. We've added a six-week exclusivity in your client's favour and a confidentiality provision. Subject to contract throughout.\n\nWe'll have the data room open by the end of the week.\n\nMartin Greaves\nMarlowe Greaves LLP",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Good to be working with you. Attaching our client&#x27;s marked heads of terms for Quartz House. We&#x27;ve added a six-week exclusivity in your client&#x27;s favour and a confidentiality provision. Subject to contract throughout.<br><br>We&#x27;ll have the data room open by the end of the week.<br><br>Martin Greaves<br>Marlowe Greaves LLP</div>"
+    },
+    {
+      "id": "10c11f174f988c22",
+      "snippet": "Martin, The heads of terms are agreed subject to contract - thank you. We confirm exclusivity to 26 ",
+      "subject": "RE: Quartz House, Reading - heads of terms",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "martin.greaves@marlowegreaves.com"
+      ],
+      "ccRecipients": [
+        "isla.fournier@thornburyproperties.com"
+      ],
+      "date": "2026-02-13T14:22:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Martin,\n\nThe heads of terms are agreed subject to contract - thank you. We confirm exclusivity to 26 March. We'll revert with enquiries once the data room is live.\n\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Thu, Feb 12, 2026 at 11:05 AM, Martin Greaves <martin.greaves@marlowegreaves.com> wrote:\n> James,\n>\n> Good to be working with you. Attaching our client's marked heads of terms for Quartz House. We've added a six-week exclusivity in your client's favour and a confidentiality provision. Subject to contract throughout.\n>\n> We'll have the data room open by the end of the week.\n>\n> Martin Greaves\n> Marlowe Greaves LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Martin,<br><br>The heads of terms are agreed subject to contract - thank you. We confirm exclusivity to 26 March. We&#x27;ll revert with enquiries once the data room is live.<br><br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Feb 12, 2026 at 11:05 AM, Martin Greaves &lt;martin.greaves@marlowegreaves.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Good to be working with you. Attaching our client&#x27;s marked heads of terms for Quartz House. We&#x27;ve added a six-week exclusivity in your client&#x27;s favour and a confidentiality provision. Subject to contract throughout.<br><br>We&#x27;ll have the data room open by the end of the week.<br><br>Martin Greaves<br>Marlowe Greaves LLP</div></blockquote></div></div>"
+    }
+  ]
+}

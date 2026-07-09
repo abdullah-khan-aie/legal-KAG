@@ -1,0 +1,24 @@
+{
+  "id": "c0e3e1073583c2ef",
+  "messages": [
+    {
+      "id": "c0e3e1073583c2ef",
+      "snippet": "All, The document management system (FileSite) will be unavailable this Saturday 14 September from 0",
+      "subject": "[IT] Planned DMS maintenance - Saturday 14 Sept",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-09-12T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "All,\n\nThe document management system (FileSite) will be unavailable this Saturday 14 September from 06:00 to 12:00 for scheduled maintenance and indexing. Please ensure any documents are checked in before Friday close. Email is unaffected.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>The document management system (FileSite) will be unavailable this Saturday 14 September from 06:00 to 12:00 for scheduled maintenance and indexing. Please ensure any documents are checked in before Friday close. Email is unaffected.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

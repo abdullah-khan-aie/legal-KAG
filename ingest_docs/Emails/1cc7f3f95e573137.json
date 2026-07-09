@@ -1,0 +1,34 @@
+{
+  "id": "1cc7f3f95e573137",
+  "messages": [
+    {
+      "id": "1cc7f3f95e573137",
+      "snippet": "Dear Daniel, Our Report on Title for Kingsgate House is attached. Headline: the freehold title (NGL4",
+      "subject": "Project Redwood – Report on Title",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.quigley@thornburyproperties.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "rebecca.stone@thornburyproperties.com"
+      ],
+      "date": "2026-03-24T18:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Daniel,\n\nOur Report on Title for Kingsgate House is attached. Headline: the freehold title (NGL482190) is good and marketable and may safely be acquired at £18,500,000. There is one charge in favour of Northbank Plc which will be discharged on completion. The Property is sold subject to six occupational leases producing £1,362,200 p.a.; two leases contain tenant break options (2028 and 2029) which we've flagged for asset management. SDLT will be £914,500.\n\nWe're content to proceed to exchange subject to clear pre-completion searches and your board approval. Happy to talk it through.",
+      "htmlBody": "<div dir=\"ltr\">Dear Daniel,<br><br>Our Report on Title for Kingsgate House is attached. Headline: the freehold title (NGL482190) is good and marketable and may safely be acquired at £18,500,000. There is one charge in favour of Northbank Plc which will be discharged on completion. The Property is sold subject to six occupational leases producing £1,362,200 p.a.; two leases contain tenant break options (2028 and 2029) which we&#x27;ve flagged for asset management. SDLT will be £914,500.<br><br>We&#x27;re content to proceed to exchange subject to clear pre-completion searches and your board approval. Happy to talk it through.</div>",
+      "attachmentIds": [
+        "cVqaYYKF52Nvb5B-yGe6_PMREfvstCZFgoDtrZ81rRU"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Redwood_ReportOnTitle.pdf",
+          "id": "cVqaYYKF52Nvb5B-yGe6_PMREfvstCZFgoDtrZ81rRU",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

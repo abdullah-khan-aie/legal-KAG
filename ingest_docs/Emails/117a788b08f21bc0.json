@@ -1,0 +1,42 @@
+{
+  "id": "117a788b08f21bc0",
+  "messages": [
+    {
+      "id": "117a788b08f21bc0",
+      "snippet": "Anders, For the board meeting on 8 December I've prepared draft minutes approving the Licence and au",
+      "subject": "Project Tamarisk — board approval & signing",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "anders.halverson@halversonmaterials.com"
+      ],
+      "ccRecipients": [
+        "donna.bridges@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-12-05T10:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Anders,\n\nFor the board meeting on 8 December I've prepared draft minutes approving the Licence and authorising any one director to execute (sent separately for review). Once approved, we'll be ready to exchange signature pages on 11 December. Could you confirm who will sign for Halverson?\n\nSarah\n\nKind regards,\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n+44 (0)20 7946 1200",
+      "htmlBody": "<div dir=\"ltr\">Anders,<br><br>For the board meeting on 8 December I&#x27;ve prepared draft minutes approving the Licence and authorising any one director to execute (sent separately for review). Once approved, we&#x27;ll be ready to exchange signature pages on 11 December. Could you confirm who will sign for Halverson?<br><br>Sarah<br><br>Kind regards,<br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1200</div>"
+    },
+    {
+      "id": "9dc838bd001d8ad3",
+      "snippet": "I'll sign for Halverson. Board is lined up for the 8th — no issues expected. Let's confirm Northstar",
+      "subject": "RE: Project Tamarisk — board approval & signing",
+      "sender": "anders.halverson@halversonmaterials.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-12-05T18:22:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "I'll sign for Halverson. Board is lined up for the 8th — no issues expected. Let's confirm Northstar are good for the 11th.\n\nAnders\n\nOn Fri, Dec 5, 2025 at 10:00 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Anders,\n>\n> For the board meeting on 8 December I've prepared draft minutes approving the Licence and authorising any one director to execute (sent separately for review). Once approved, we'll be ready to exchange signature pages on 11 December. Could you confirm who will sign for Halverson?\n>\n> Sarah\n>\n> Kind regards,\n> Sarah Whitfield\n> Partner | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> +44 (0)20 7946 1200",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">I&#x27;ll sign for Halverson. Board is lined up for the 8th — no issues expected. Let&#x27;s confirm Northstar are good for the 11th.<br><br>Anders</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Dec 5, 2025 at 10:00 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Anders,<br><br>For the board meeting on 8 December I&#x27;ve prepared draft minutes approving the Licence and authorising any one director to execute (sent separately for review). Once approved, we&#x27;ll be ready to exchange signature pages on 11 December. Could you confirm who will sign for Halverson?<br><br>Sarah<br><br>Kind regards,<br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1200</div></blockquote></div></div>"
+    }
+  ]
+}

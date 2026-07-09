@@ -1,0 +1,41 @@
+{
+  "id": "d9bebd245a88101a",
+  "messages": [
+    {
+      "id": "d9bebd245a88101a",
+      "snippet": "Dear Dr Iqbal, We act for Calverton Industries in an HSE investigation following a serious injury on",
+      "subject": "Instruction — interlock failure analysis, Excelon EX-450 (Calverton)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "f.iqbal@wraysburymaterials.co.uk"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-03-30T10:15:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Dr Iqbal,\n\nWe act for Calverton Industries in an HSE investigation following a serious injury on a thread-rolling cell. We would like to instruct you to examine cell CR-TR-12 (Excelon EX-450) and report on: (a) how the guard interlock came to be defeated; (b) whether the arrangement meets BS EN ISO 14119 against reasonably foreseeable defeat; and (c) whether the defeat would have been apparent on inspection.\n\nThe report should be addressed to this firm and marked as prepared for the dominant purpose of anticipated proceedings. Site access can be arranged via Neil Tasker. Are you available to attend next week?\n\nElena Marchetti\nAssociate | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Dr Iqbal,<br><br>We act for Calverton Industries in an HSE investigation following a serious injury on a thread-rolling cell. We would like to instruct you to examine cell CR-TR-12 (Excelon EX-450) and report on: (a) how the guard interlock came to be defeated; (b) whether the arrangement meets BS EN ISO 14119 against reasonably foreseeable defeat; and (c) whether the defeat would have been apparent on inspection.<br><br>The report should be addressed to this firm and marked as prepared for the dominant purpose of anticipated proceedings. Site access can be arranged via Neil Tasker. Are you available to attend next week?<br><br>Elena Marchetti<br>Associate | Whitfield Carter LLP</div>"
+    },
+    {
+      "id": "00bc3b1635cdd973",
+      "snippet": "Dear Elena, Happy to assist and available Thursday 9 April. From your description this sounds like t",
+      "subject": "RE: Instruction — interlock failure analysis, Excelon EX-450 (Calverton)",
+      "sender": "f.iqbal@wraysburymaterials.co.uk",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-31T09:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Elena,\n\nHappy to assist and available Thursday 9 April. From your description this sounds like the classic spare-actuator defeat on an older tongue-and-slot interlock — I'll confirm on examination. Please ask Mr Tasker to leave the cell undisturbed and to retain any spare actuators from the maintenance store.\n\nFaisal Iqbal\nWraysbury Materials & Engineering Laboratory\n\nOn Mon, Mar 30, 2026 at 10:15 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Dear Dr Iqbal,\n>\n> We act for Calverton Industries in an HSE investigation following a serious injury on a thread-rolling cell. We would like to instruct you to examine cell CR-TR-12 (Excelon EX-450) and report on: (a) how the guard interlock came to be defeated; (b) whether the arrangement meets BS EN ISO 14119 against reasonably foreseeable defeat; and (c) whether the defeat would have been apparent on inspection.\n>\n> The report should be addressed to this firm and marked as prepared for the dominant purpose of anticipated proceedings. Site access can be arranged via Neil Tasker. Are you available to attend next week?\n>\n> Elena Marchetti\n> Associate | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Elena,<br><br>Happy to assist and available Thursday 9 April. From your description this sounds like the classic spare-actuator defeat on an older tongue-and-slot interlock — I&#x27;ll confirm on examination. Please ask Mr Tasker to leave the cell undisturbed and to retain any spare actuators from the maintenance store.<br><br>Faisal Iqbal<br>Wraysbury Materials &amp; Engineering Laboratory</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Mar 30, 2026 at 10:15 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Dr Iqbal,<br><br>We act for Calverton Industries in an HSE investigation following a serious injury on a thread-rolling cell. We would like to instruct you to examine cell CR-TR-12 (Excelon EX-450) and report on: (a) how the guard interlock came to be defeated; (b) whether the arrangement meets BS EN ISO 14119 against reasonably foreseeable defeat; and (c) whether the defeat would have been apparent on inspection.<br><br>The report should be addressed to this firm and marked as prepared for the dominant purpose of anticipated proceedings. Site access can be arranged via Neil Tasker. Are you available to attend next week?<br><br>Elena Marchetti<br>Associate | Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

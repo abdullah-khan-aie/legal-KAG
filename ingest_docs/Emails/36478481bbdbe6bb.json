@@ -1,0 +1,22 @@
+{
+  "id": "36478481bbdbe6bb",
+  "messages": [
+    {
+      "id": "36478481bbdbe6bb",
+      "snippet": "All, Reminder that August time recording must be entered and submitted by 5pm this Friday for month-",
+      "subject": "Firm notice - month-end time recording due Friday",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2024-08-30T17:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "All,\n\nReminder that August time recording must be entered and submitted by 5pm this Friday for month-end billing. Please make sure all WIP is up to date and any disbursements are coded to the correct matter. Practice management will lock the period over the weekend.\n\nThanks,\nSarah",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>Reminder that August time recording must be entered and submitted by 5pm this Friday for month-end billing. Please make sure all WIP is up to date and any disbursements are coded to the correct matter. Practice management will lock the period over the weekend.<br><br>Thanks,<br>Sarah</div>"
+    }
+  ]
+}

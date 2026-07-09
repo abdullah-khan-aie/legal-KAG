@@ -1,0 +1,40 @@
+{
+  "id": "0f970538440751fb",
+  "messages": [
+    {
+      "id": "0f970538440751fb",
+      "snippet": "Dear Sirs, Please find the Defendant's Defence served by email today, hard copy to follow. Our clien",
+      "subject": "CL-2026-000148 — Defence served",
+      "sender": "deepa.kovac@birchallstone.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-02-13T15:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Dear Sirs,\n\nPlease find the Defendant's Defence served by email today, hard copy to follow. Our client maintains that termination was lawful and relies on the availability figures and the £160,000 set-off.\n\nDeepa Kovac\nBirchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Sirs,<br><br>Please find the Defendant&#x27;s Defence served by email today, hard copy to follow. Our client maintains that termination was lawful and relies on the availability figures and the £160,000 set-off.<br><br>Deepa Kovac<br>Birchall Stone LLP</div>"
+    },
+    {
+      "id": "1b4010b3040c4c76",
+      "snippet": "Nadia, Liam, The Defence is in. No surprises. They admit the contract, the term, the figures and tha",
+      "subject": "FW: Caldervale Defence — first read",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "nadia.forsyth@brightwateranalytics.com",
+        "liam.okafor@brightwateranalytics.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-16T09:25:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Nadia, Liam,\n\nThe Defence is in. No surprises. They admit the contract, the term, the figures and that Aldous signed the Acceptance Certificate. They deny the availability point but — crucially — they still haven't applied the Schedule 4 methodology, and they plead the £160k set-off without a single invoice. Their case rests on raw availability numbers we say are wrong. We'll plead a Reply hitting the methodology and the missing clause 16.3 notice. This strengthens, not weakens, our position.\n\nTom\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n+44 (0)20 7946 1100\nConfidential and may be legally privileged.\n\nOn Fri, Feb 13, 2026 at 3:10 PM, Deepa Kovac <deepa.kovac@birchallstone.com> wrote:\n> Dear Sirs,\n>\n> Please find the Defendant's Defence served by email today, hard copy to follow. Our client maintains that termination was lawful and relies on the availability figures and the £160,000 set-off.\n>\n> Deepa Kovac\n> Birchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Nadia, Liam,<br><br>The Defence is in. No surprises. They admit the contract, the term, the figures and that Aldous signed the Acceptance Certificate. They deny the availability point but — crucially — they still haven&#x27;t applied the Schedule 4 methodology, and they plead the £160k set-off without a single invoice. Their case rests on raw availability numbers we say are wrong. We&#x27;ll plead a Reply hitting the methodology and the missing clause 16.3 notice. This strengthens, not weakens, our position.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>+44 (0)20 7946 1100<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Feb 13, 2026 at 3:10 PM, Deepa Kovac &lt;deepa.kovac@birchallstone.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Sirs,<br><br>Please find the Defendant&#x27;s Defence served by email today, hard copy to follow. Our client maintains that termination was lawful and relies on the availability figures and the £160,000 set-off.<br><br>Deepa Kovac<br>Birchall Stone LLP</div></blockquote></div></div>"
+    }
+  ]
+}

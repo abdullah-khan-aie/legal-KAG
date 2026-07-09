@@ -1,0 +1,21 @@
+{
+  "id": "bd5aca4e39b6907c",
+  "messages": [
+    {
+      "id": "bd5aca4e39b6907c",
+      "snippet": "Join us on 15 April, 12:30-13:30, for a seminar on recent developments in warranty & indemnity insur",
+      "subject": "Lunchtime seminar: recent developments in W&I insurance",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "corporate@whitfieldcarter.com"
+      ],
+      "date": "2026-04-06T09:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Join us on 15 April, 12:30-13:30, for a seminar on recent developments in warranty & indemnity insurance in mid-market deals. Sandwiches provided. Register with L&D.",
+      "htmlBody": "<div dir=\"ltr\">Join us on 15 April, 12:30-13:30, for a seminar on recent developments in warranty &amp; indemnity insurance in mid-market deals. Sandwiches provided. Register with L&amp;D.</div>"
+    }
+  ]
+}

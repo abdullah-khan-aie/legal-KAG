@@ -1,0 +1,24 @@
+{
+  "id": "d29917cedb71ebd6",
+  "messages": [
+    {
+      "id": "d29917cedb71ebd6",
+      "snippet": "Please ensure all March time is recorded by 12:00 on 2 April. Several matters are showing gaps. Than",
+      "subject": "Time recording - March close",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-31T16:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Please ensure all March time is recorded by 12:00 on 2 April. Several matters are showing gaps. Thank you.\n\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">Please ensure all March time is recorded by 12:00 on 2 April. Several matters are showing gaps. Thank you.<br><br>Accounts</div>"
+    }
+  ]
+}

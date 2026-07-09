@@ -1,0 +1,24 @@
+{
+  "id": "9e8e76f617f0d11f",
+  "messages": [
+    {
+      "id": "9e8e76f617f0d11f",
+      "snippet": "Dear Gordon, We issued the Claim Form in the Circuit Commercial Court this morning. The claim number",
+      "subject": "WC-00115 - claim issued today",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "gordon.sutherland@sutherlandlogistics.co.uk"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "lesley.crane@sutherlandlogistics.co.uk"
+      ],
+      "date": "2025-10-06T13:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Gordon,\n\nWe issued the Claim Form in the Circuit Commercial Court this morning. The claim number is CC-2025-LON-000389. The total claimed is £1,099,250 plus interest and costs (£487,250 unpaid invoices and £612,000 damages for wrongful termination).\n\nThe Particulars of Claim, settled by Harriet Stanford of counsel, will be served shortly. We'll keep you updated.\n\nBest regards,\nTom\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0000 | www.whitfieldcarter.com\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Gordon,<br><br>We issued the Claim Form in the Circuit Commercial Court this morning. The claim number is CC-2025-LON-000389. The total claimed is £1,099,250 plus interest and costs (£487,250 unpaid invoices and £612,000 damages for wrongful termination).<br><br>The Particulars of Claim, settled by Harriet Stanford of counsel, will be served shortly. We&#x27;ll keep you updated.<br><br>Best regards,<br>Tom<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0000 | www.whitfieldcarter.com<br>Confidential and may be legally privileged.</div>"
+    }
+  ]
+}

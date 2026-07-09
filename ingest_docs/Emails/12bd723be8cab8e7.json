@@ -1,0 +1,55 @@
+{
+  "id": "12bd723be8cab8e7",
+  "messages": [
+    {
+      "id": "12bd723be8cab8e7",
+      "snippet": "Adam, Good to be working opposite you again. Further to our call, I attach the mutual NDA for Projec",
+      "subject": "Project Cedar — mutual NDA for execution",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "adam.selby@denhamlewis.com"
+      ],
+      "ccRecipients": [
+        "daniel.okonjo@calderamobility.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-09-22T11:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Adam,\n\nGood to be working opposite you again. Further to our call, I attach the mutual NDA for Project Cedar (Halstead Aerospace / Caldera Mobility). It is on a balanced, five-year confidentiality footing and should be uncontroversial. Subject to any comments from your side, we propose both parties sign this week so the technical exchange can begin.\n\nGrateful for your sign-off or mark-up by Thursday.\n\nKind regards,\nJames\n\nJames Osei | Senior Associate\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0521\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Adam,<br><br>Good to be working opposite you again. Further to our call, I attach the mutual NDA for Project Cedar (Halstead Aerospace / Caldera Mobility). It is on a balanced, five-year confidentiality footing and should be uncontroversial. Subject to any comments from your side, we propose both parties sign this week so the technical exchange can begin.<br><br>Grateful for your sign-off or mark-up by Thursday.<br><br>Kind regards,<br>James<br><br>James Osei | Senior Associate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0521<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "tsiGQhsW-N_7LRklkkx9dSwQimI_Bze8ZqP2ZE3xR8c"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Cedar_NDA_Mutual.docx",
+          "id": "tsiGQhsW-N_7LRklkkx9dSwQimI_Bze8ZqP2ZE3xR8c",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "e67a7f3bf54bf65b",
+      "snippet": "James, Likewise. The NDA looks fine to us — no changes. Daniel is arranging signature on the Caldera",
+      "subject": "RE: Project Cedar — mutual NDA for execution",
+      "sender": "adam.selby@denhamlewis.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "daniel.okonjo@calderamobility.com",
+        "marcus.webb@denhamlewis.com"
+      ],
+      "date": "2025-09-22T16:48:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nLikewise. The NDA looks fine to us — no changes. Daniel is arranging signature on the Caldera side and we'll return a PDF tomorrow. Heads of terms next; I'll send you our first cut early next week.\n\nAdam\n\nAdam Selby | Partner | Denham Lewis LLP\n\nOn Mon, Sep 22, 2025 at 11:05 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Adam,\n>\n> Good to be working opposite you again. Further to our call, I attach the mutual NDA for Project Cedar (Halstead Aerospace / Caldera Mobility). It is on a balanced, five-year confidentiality footing and should be uncontroversial. Subject to any comments from your side, we propose both parties sign this week so the technical exchange can begin.\n>\n> Grateful for your sign-off or mark-up by Thursday.\n>\n> Kind regards,\n> James\n>\n> James Osei | Senior Associate\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 0521\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Likewise. The NDA looks fine to us — no changes. Daniel is arranging signature on the Caldera side and we&#x27;ll return a PDF tomorrow. Heads of terms next; I&#x27;ll send you our first cut early next week.<br><br>Adam<br><br>Adam Selby | Partner | Denham Lewis LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Sep 22, 2025 at 11:05 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Adam,<br><br>Good to be working opposite you again. Further to our call, I attach the mutual NDA for Project Cedar (Halstead Aerospace / Caldera Mobility). It is on a balanced, five-year confidentiality footing and should be uncontroversial. Subject to any comments from your side, we propose both parties sign this week so the technical exchange can begin.<br><br>Grateful for your sign-off or mark-up by Thursday.<br><br>Kind regards,<br>James<br><br>James Osei | Senior Associate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0521<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

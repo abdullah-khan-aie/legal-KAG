@@ -1,0 +1,23 @@
+{
+  "id": "0f50ba11ed049e01",
+  "messages": [
+    {
+      "id": "0f50ba11ed049e01",
+      "snippet": "Hello, Our records show unposted time for November against several matters in your names. Please ens",
+      "subject": "Time recording outstanding - November",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-12-01T08:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hello,\n\nOur records show unposted time for November against several matters in your names. Please ensure all November time is recorded and released by close of business on Wednesday 3 December so we can run the month-end WIP report and December invoicing. Partners are asked to review draft bills on the Atlas and Kestrel matters in particular.\n\nThank you,\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hello,<br><br>Our records show unposted time for November against several matters in your names. Please ensure all November time is recorded and released by close of business on Wednesday 3 December so we can run the month-end WIP report and December invoicing. Partners are asked to review draft bills on the Atlas and Kestrel matters in particular.<br><br>Thank you,<br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

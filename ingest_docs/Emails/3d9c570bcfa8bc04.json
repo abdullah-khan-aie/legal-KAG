@@ -1,0 +1,21 @@
+{
+  "id": "3d9c570bcfa8bc04",
+  "messages": [
+    {
+      "id": "3d9c570bcfa8bc04",
+      "snippet": "Dear all, The firm's document management system (FileSite) will be unavailable this Saturday 6 Septe",
+      "subject": "Scheduled maintenance: document management system Sat 6 Sep",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "all.staff@whitfieldcarter.com"
+      ],
+      "date": "2025-09-03T07:30:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Dear all,\n\nThe firm's document management system (FileSite) will be unavailable this Saturday 6 September from 07:00 to 13:00 for a scheduled upgrade. Please check in any open documents before Friday evening. Email will be unaffected. Contact the helpdesk on x2200 with any questions.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>The firm&#x27;s document management system (FileSite) will be unavailable this Saturday 6 September from 07:00 to 13:00 for a scheduled upgrade. Please check in any open documents before Friday evening. Email will be unaffected. Contact the helpdesk on x2200 with any questions.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "83b990eb2d17fac7",
+  "messages": [
+    {
+      "id": "83b990eb2d17fac7",
+      "snippet": "Dear Mr Whitlock, We understand you act for Cryovance Cold Chain Limited. Please find attached our l",
+      "subject": "Letter before action - Hartwell Pharma / Cryovance Cold Chain",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "date": "2025-11-07T11:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Mr Whitlock,\n\nWe understand you act for Cryovance Cold Chain Limited. Please find attached our letter before action on behalf of Hartwell Pharma Limited concerning two temperature excursions in September and October 2025 affecting consignments of HRX-118 drug substance.\n\nThe letter sets out our client's claim (direct losses of 3,286,000 plus interest) and the records we require. We look forward to a substantive response within 21 days.\n\nYours faithfully,\nTom Gallagher\nWhitfield Carter LLP\n\n--\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Whitlock,<br><br>We understand you act for Cryovance Cold Chain Limited. Please find attached our letter before action on behalf of Hartwell Pharma Limited concerning two temperature excursions in September and October 2025 affecting consignments of HRX-118 drug substance.<br><br>The letter sets out our client&#x27;s claim (direct losses of 3,286,000 plus interest) and the records we require. We look forward to a substantive response within 21 days.<br><br>Yours faithfully,<br>Tom Gallagher<br>Whitfield Carter LLP<br><br>--<br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "VOEk5MJGn-f_UervCM2XOpK_z0n1MelQQSfn5IfJoXA"
+      ],
+      "attachments": [
+        {
+          "filename": "Hartwell_LetterBeforeAction.pdf",
+          "id": "VOEk5MJGn-f_UervCM2XOpK_z0n1MelQQSfn5IfJoXA",
+          "mimeType": "application/pdf"
+        }
+      ]
+    },
+    {
+      "id": "362c5d4efd845f87",
+      "snippet": "Dear Mr Gallagher, We acknowledge your letter. Liability is not admitted. Our client accepts that tw",
+      "subject": "RE: Letter before action - Hartwell Pharma / Cryovance Cold Chain",
+      "sender": "alistair.whitlock@pembertonrowe.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-28T15:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Mr Gallagher,\n\nWe acknowledge your letter. Liability is not admitted. Our client accepts that two deviations occurred but does not accept your characterisation, your causation case or your quantum, and relies in any event on clause 11.3 of the Services Agreement (cap: greater of 500,000 or 430,000 charges paid). Our open response follows separately. Our client is willing to discuss the matter without prejudice.\n\nYours faithfully,\nAlistair Whitlock\nPemberton Rowe LLP\n\nOn Fri, Nov 7, 2025 at 11:00 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Mr Whitlock,\n>\n> We understand you act for Cryovance Cold Chain Limited. Please find attached our letter before action on behalf of Hartwell Pharma Limited concerning two temperature excursions in September and October 2025 affecting consignments of HRX-118 drug substance.\n>\n> The letter sets out our client's claim (direct losses of 3,286,000 plus interest) and the records we require. We look forward to a substantive response within 21 days.\n>\n> Yours faithfully,\n> Tom Gallagher\n> Whitfield Carter LLP\n>\n> --\n> Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Mr Gallagher,<br><br>We acknowledge your letter. Liability is not admitted. Our client accepts that two deviations occurred but does not accept your characterisation, your causation case or your quantum, and relies in any event on clause 11.3 of the Services Agreement (cap: greater of 500,000 or 430,000 charges paid). Our open response follows separately. Our client is willing to discuss the matter without prejudice.<br><br>Yours faithfully,<br>Alistair Whitlock<br>Pemberton Rowe LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Nov 7, 2025 at 11:00 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Mr Whitlock,<br><br>We understand you act for Cryovance Cold Chain Limited. Please find attached our letter before action on behalf of Hartwell Pharma Limited concerning two temperature excursions in September and October 2025 affecting consignments of HRX-118 drug substance.<br><br>The letter sets out our client&#x27;s claim (direct losses of 3,286,000 plus interest) and the records we require. We look forward to a substantive response within 21 days.<br><br>Yours faithfully,<br>Tom Gallagher<br>Whitfield Carter LLP<br><br>--<br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

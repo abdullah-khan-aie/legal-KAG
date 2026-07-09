@@ -1,0 +1,55 @@
+{
+  "id": "003b71d653b47221",
+  "messages": [
+    {
+      "id": "003b71d653b47221",
+      "snippet": "James, Heads of terms as agreed with the agents attached. Price £14.25m, 10% deposit, target exchang",
+      "subject": "Kingsmoor - agreed heads of terms",
+      "sender": "helena.wren@aldouswrencapital.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "marcus.aldous@aldouswrencapital.com"
+      ],
+      "date": "2026-02-13T10:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nHeads of terms as agreed with the agents attached. Price £14.25m, 10% deposit, target exchange 27 March, completion 24 April. TOGC. Six-week exclusivity. Please work to these.\n\nHelena",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Heads of terms as agreed with the agents attached. Price £14.25m, 10% deposit, target exchange 27 March, completion 24 April. TOGC. Six-week exclusivity. Please work to these.<br><br>Helena</div>",
+      "attachmentIds": [
+        "taT6br0nvZ36ePqfRM79yTpND3tPs020QKweVQunKg4"
+      ],
+      "attachments": [
+        {
+          "filename": "Kingsmoor_HeadsOfTerms.docx",
+          "id": "taT6br0nvZ36ePqfRM79yTpND3tPs020QKweVQunKg4",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "8ac4e2860eb392d0",
+      "snippet": "Thanks Helena - noted. We'll set up the SPV incorporation (AWC Kingsmoor Propco Limited) and get the",
+      "subject": "RE: Kingsmoor - agreed heads of terms",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "helena.wren@aldouswrencapital.com"
+      ],
+      "ccRecipients": [
+        "marcus.aldous@aldouswrencapital.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-02-13T16:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Thanks Helena - noted. We'll set up the SPV incorporation (AWC Kingsmoor Propco Limited) and get the VAT registration and option to tax in motion for the TOGC. I'll revert once Marlowe Greaves send the draft contract and title.\n\nJames Osei\nSenior Associate | Real Estate\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0500\n\nOn Fri, Feb 13, 2026 at 10:15 AM, Helena Wren <helena.wren@aldouswrencapital.com> wrote:\n> James,\n>\n> Heads of terms as agreed with the agents attached. Price £14.25m, 10% deposit, target exchange 27 March, completion 24 April. TOGC. Six-week exclusivity. Please work to these.\n>\n> Helena",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks Helena - noted. We&#x27;ll set up the SPV incorporation (AWC Kingsmoor Propco Limited) and get the VAT registration and option to tax in motion for the TOGC. I&#x27;ll revert once Marlowe Greaves send the draft contract and title.<br><br>James Osei<br>Senior Associate | Real Estate<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0500</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Feb 13, 2026 at 10:15 AM, Helena Wren &lt;helena.wren@aldouswrencapital.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Heads of terms as agreed with the agents attached. Price £14.25m, 10% deposit, target exchange 27 March, completion 24 April. TOGC. Six-week exclusivity. Please work to these.<br><br>Helena</div></blockquote></div></div>"
+    }
+  ]
+}

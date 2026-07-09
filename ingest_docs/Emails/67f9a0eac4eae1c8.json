@@ -1,0 +1,21 @@
+{
+  "id": "67f9a0eac4eae1c8",
+  "messages": [
+    {
+      "id": "67f9a0eac4eae1c8",
+      "snippet": "Dear all, The document management system will be unavailable this Saturday 14 March from 07:00 to 11",
+      "subject": "Planned DMS maintenance - Saturday 14 March",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "all.staff@whitfieldcarter.com"
+      ],
+      "date": "2026-03-11T08:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Dear all,\n\nThe document management system will be unavailable this Saturday 14 March from 07:00 to 11:00 for scheduled maintenance. Please save and close all documents beforehand. Email is unaffected.\n\nIT Helpdesk",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>The document management system will be unavailable this Saturday 14 March from 07:00 to 11:00 for scheduled maintenance. Please save and close all documents beforehand. Email is unaffected.<br><br>IT Helpdesk</div>"
+    }
+  ]
+}

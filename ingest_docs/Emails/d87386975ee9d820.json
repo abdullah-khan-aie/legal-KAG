@@ -1,0 +1,36 @@
+{
+  "id": "d87386975ee9d820",
+  "messages": [
+    {
+      "id": "d87386975ee9d820",
+      "snippet": "James, just to confirm before payroll runs the figures: PILON £71,000 through PAYE; ex gratia £130,0",
+      "subject": "Saxena - payment processing and tax treatment",
+      "sender": "grace.underwood@halsteadaerospace.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-02-26T11:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James, just to confirm before payroll runs the figures: PILON £71,000 through PAYE; ex gratia £130,000 with the first £30,000 tax-free and the balance taxed; £750+VAT fees direct to Drummond Hale; outplacement direct to the provider. Total cost to us comes out around £232,000 including employer's NIC. Does that match your record?\n\nGrace",
+      "htmlBody": "<div dir=\"ltr\">James, just to confirm before payroll runs the figures: PILON £71,000 through PAYE; ex gratia £130,000 with the first £30,000 tax-free and the balance taxed; £750+VAT fees direct to Drummond Hale; outplacement direct to the provider. Total cost to us comes out around £232,000 including employer&#x27;s NIC. Does that match your record?<br><br>Grace</div>"
+    },
+    {
+      "id": "37a707a25adcee63",
+      "snippet": "Grace - yes, that all matches. The £30,000 tax-free element is under ss.401-403 ITEPA; balance of th",
+      "subject": "RE: Saxena - payment processing and tax treatment",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "grace.underwood@halsteadaerospace.com"
+      ],
+      "date": "2025-02-26T14:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Grace - yes, that all matches. The £30,000 tax-free element is under ss.401-403 ITEPA; balance of the ex gratia is taxable. Fee contribution invoice should be addressed to Dr Saxena but marked payable by Halstead. All correct on our side.\n\nJames Osei\nSenior Associate | Employment\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0211\n\nOn Wed, Feb 26, 2025 at 11:00 AM, Grace Underwood <grace.underwood@halsteadaerospace.com> wrote:\n> James, just to confirm before payroll runs the figures: PILON £71,000 through PAYE; ex gratia £130,000 with the first £30,000 tax-free and the balance taxed; £750+VAT fees direct to Drummond Hale; outplacement direct to the provider. Total cost to us comes out around £232,000 including employer's NIC. Does that match your record?\n>\n> Grace",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Grace - yes, that all matches. The £30,000 tax-free element is under ss.401-403 ITEPA; balance of the ex gratia is taxable. Fee contribution invoice should be addressed to Dr Saxena but marked payable by Halstead. All correct on our side.<br><br>James Osei<br>Senior Associate | Employment<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0211</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 26, 2025 at 11:00 AM, Grace Underwood &lt;grace.underwood@halsteadaerospace.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James, just to confirm before payroll runs the figures: PILON £71,000 through PAYE; ex gratia £130,000 with the first £30,000 tax-free and the balance taxed; £750+VAT fees direct to Drummond Hale; outplacement direct to the provider. Total cost to us comes out around £232,000 including employer&#x27;s NIC. Does that match your record?<br><br>Grace</div></blockquote></div></div>"
+    }
+  ]
+}

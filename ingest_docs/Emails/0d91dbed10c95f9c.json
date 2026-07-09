@@ -1,0 +1,35 @@
+{
+  "id": "0d91dbed10c95f9c",
+  "messages": [
+    {
+      "id": "0d91dbed10c95f9c",
+      "snippet": "James, Sterling's comments are in the attached redline. The principal commercial changes: margin upl",
+      "subject": "RE: Project Mallory — A&R agreement, first draft (Sterling mark-up)",
+      "sender": "rebecca.lang@drummondhale.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "olivia.marsh@drummondhale.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-12T11:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James,\n\nSterling's comments are in the attached redline. The principal commercial changes: margin uplift to 200bps (4.50%) rather than 175bps; amendment fee to 1.00% (£420,000); and the March 2026 net leverage covenant tightened to 5.00x. The bank views these as the price of the new money and the covenant relief. Other comments are minor/legal.\n\nHappy to discuss — I expect Richard will want to push back on pricing.\n\nRebecca Lang\nAssociate | Drummond Hale LLP",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Sterling&#x27;s comments are in the attached redline. The principal commercial changes: margin uplift to 200bps (4.50%) rather than 175bps; amendment fee to 1.00% (£420,000); and the March 2026 net leverage covenant tightened to 5.00x. The bank views these as the price of the new money and the covenant relief. Other comments are minor/legal.<br><br>Happy to discuss — I expect Richard will want to push back on pricing.<br><br>Rebecca Lang<br>Associate | Drummond Hale LLP</div>",
+      "attachmentIds": [
+        "UiQTcaENR_DVxWfHKlpUZhWfW-gWYVGWXMEN1Kvq834"
+      ],
+      "attachments": [
+        {
+          "filename": "Mallory_AmendmentAndRestatementAgreement_v2_redline.docx",
+          "id": "UiQTcaENR_DVxWfHKlpUZhWfW-gWYVGWXMEN1Kvq834",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

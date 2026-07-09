@@ -1,0 +1,54 @@
+{
+  "id": "c9b53e22631bda66",
+  "messages": [
+    {
+      "id": "c9b53e22631bda66",
+      "snippet": "Robert, Your draft witness statement is attached for review ahead of exchange on 8 May. Please check",
+      "subject": "Draft witness statement for review - R Ellis",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "robert.ellis@brackengroup.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-05-02T10:10:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Robert,\n\nYour draft witness statement is attached for review ahead of exchange on 8 May. Please check the failure-event count (we've said eleven) and the nine-day Line 2 outage in March 2025, and confirm the lost-production figures match finance's records. Tom Morrow's statement is in a separate email.\n\nElena Marchetti\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Robert,<br><br>Your draft witness statement is attached for review ahead of exchange on 8 May. Please check the failure-event count (we&#x27;ve said eleven) and the nine-day Line 2 outage in March 2025, and confirm the lost-production figures match finance&#x27;s records. Tom Morrow&#x27;s statement is in a separate email.<br><br>Elena Marchetti<br>Whitfield Carter LLP</div>",
+      "attachmentIds": [
+        "y_5r5J3BtuiH9Ks4qudH_YQeGQm3JptZLq6EkGnL-6M"
+      ],
+      "attachments": [
+        {
+          "filename": "WitnessStatement_REllis.docx",
+          "id": "y_5r5J3BtuiH9Ks4qudH_YQeGQm3JptZLq6EkGnL-6M",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "2d15bc647d812c00",
+      "snippet": "All correct - eleven events, nine-day Line 2 outage, and the lost-production numbers tie to finance.",
+      "subject": "RE: Draft witness statement for review - R Ellis",
+      "sender": "robert.ellis@brackengroup.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-05-05T13:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "All correct - eleven events, nine-day Line 2 outage, and the lost-production numbers tie to finance. One typo in paragraph 4 (Severnvale, not Severndale). Otherwise happy to sign.\n\nRobert\n\nOn Sat, May 2, 2026 at 10:10 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Robert,\n>\n> Your draft witness statement is attached for review ahead of exchange on 8 May. Please check the failure-event count (we've said eleven) and the nine-day Line 2 outage in March 2025, and confirm the lost-production figures match finance's records. Tom Morrow's statement is in a separate email.\n>\n> Elena Marchetti\n> Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">All correct - eleven events, nine-day Line 2 outage, and the lost-production numbers tie to finance. One typo in paragraph 4 (Severnvale, not Severndale). Otherwise happy to sign.<br><br>Robert</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Sat, May 2, 2026 at 10:10 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Robert,<br><br>Your draft witness statement is attached for review ahead of exchange on 8 May. Please check the failure-event count (we&#x27;ve said eleven) and the nine-day Line 2 outage in March 2025, and confirm the lost-production figures match finance&#x27;s records. Tom Morrow&#x27;s statement is in a separate email.<br><br>Elena Marchetti<br>Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

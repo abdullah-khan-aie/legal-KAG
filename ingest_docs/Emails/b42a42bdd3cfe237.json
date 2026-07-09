@@ -1,0 +1,23 @@
+{
+  "id": "b42a42bdd3cfe237",
+  "messages": [
+    {
+      "id": "b42a42bdd3cfe237",
+      "snippet": "Dear Susan, Thank you for populating the data room. We have a short list of outstanding enquiries be",
+      "subject": "Project Granite — outstanding due diligence enquiries",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "susan.pryce@caldervalefoods.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-10T10:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Susan,\n\nThank you for populating the data room. We have a short list of outstanding enquiries before we can finalise our due diligence report:\n\n1. Copies of the three material customer contracts referenced in folder 4.2 (only summaries are uploaded).\n2. The Northborough Dairies supply agreement including any side letters — we need to review the change-of-control clause.\n3. Confirmation of the current shareholder loan balance to be repaid at completion.\n4. The latest HMRC correspondence on the VAT rebate query.\n\nGrateful if these could be uploaded by the end of next week.\n\nKind regards,\n\nElena Marchetti\nAssociate\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Susan,<br><br>Thank you for populating the data room. We have a short list of outstanding enquiries before we can finalise our due diligence report:<br><br>1. Copies of the three material customer contracts referenced in folder 4.2 (only summaries are uploaded).<br>2. The Northborough Dairies supply agreement including any side letters — we need to review the change-of-control clause.<br>3. Confirmation of the current shareholder loan balance to be repaid at completion.<br>4. The latest HMRC correspondence on the VAT rebate query.<br><br>Grateful if these could be uploaded by the end of next week.<br><br>Kind regards,<br><br>Elena Marchetti<br>Associate<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

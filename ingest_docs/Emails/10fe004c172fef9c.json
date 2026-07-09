@@ -1,0 +1,45 @@
+{
+  "id": "10fe004c172fef9c",
+  "messages": [
+    {
+      "id": "10fe004c172fef9c",
+      "snippet": "James, Draft disclosure schedule from our side is in the data room (folder 8). We've disclosed the A",
+      "subject": "Project Lyra — disclosure schedule and Aldridge Seed release",
+      "sender": "deepa.kovac@birchallstone.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "oliver.jennings@birchallstone.com"
+      ],
+      "date": "2026-01-27T14:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nDraft disclosure schedule from our side is in the data room (folder 8). We've disclosed the Aldridge Seed charge with the conditional deed of release at 5.5; an executed unconditional release will be delivered at completion. Please confirm Hartwell is content to take the charge as a disclosed-but-managed item rather than a condition precedent.\n\nDeepa",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Draft disclosure schedule from our side is in the data room (folder 8). We&#x27;ve disclosed the Aldridge Seed charge with the conditional deed of release at 5.5; an executed unconditional release will be delivered at completion. Please confirm Hartwell is content to take the charge as a disclosed-but-managed item rather than a condition precedent.<br><br>Deepa</div>"
+    },
+    {
+      "id": "800239d8a6206275",
+      "snippet": "Deepa — content, provided the executed release of the charge over the Licensed Patents is a delivera",
+      "subject": "RE: Project Lyra — disclosure schedule and Aldridge Seed release",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "deepa.kovac@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "oliver.jennings@birchallstone.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-01-28T09:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Deepa — content, provided the executed release of the charge over the Licensed Patents is a deliverable at completion (it's on our checklist as item B2). On that basis we'll take it as disclosed. We'll send our comments on the disclosure schedule today.\n\nJames\n\n--\nJames Osei | Senior Associate, Corporate\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Tue, Jan 27, 2026 at 2:10 PM, Deepa Kovac <deepa.kovac@birchallstone.com> wrote:\n> James,\n>\n> Draft disclosure schedule from our side is in the data room (folder 8). We've disclosed the Aldridge Seed charge with the conditional deed of release at 5.5; an executed unconditional release will be delivered at completion. Please confirm Hartwell is content to take the charge as a disclosed-but-managed item rather than a condition precedent.\n>\n> Deepa",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Deepa — content, provided the executed release of the charge over the Licensed Patents is a deliverable at completion (it&#x27;s on our checklist as item B2). On that basis we&#x27;ll take it as disclosed. We&#x27;ll send our comments on the disclosure schedule today.<br><br>James<br><br>--<br>James Osei | Senior Associate, Corporate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Jan 27, 2026 at 2:10 PM, Deepa Kovac &lt;deepa.kovac@birchallstone.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Draft disclosure schedule from our side is in the data room (folder 8). We&#x27;ve disclosed the Aldridge Seed charge with the conditional deed of release at 5.5; an executed unconditional release will be delivered at completion. Please confirm Hartwell is content to take the charge as a disclosed-but-managed item rather than a condition precedent.<br><br>Deepa</div></blockquote></div></div>"
+    }
+  ]
+}

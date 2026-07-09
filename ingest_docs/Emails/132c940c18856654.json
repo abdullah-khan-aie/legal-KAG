@@ -1,0 +1,21 @@
+{
+  "id": "132c940c18856654",
+  "messages": [
+    {
+      "id": "132c940c18856654",
+      "snippet": "Tom, Our records show 6.5 hours of unposted time for March across two matters. Please complete your ",
+      "subject": "Time recording reminder - March narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-04-03T08:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Tom,\n\nOur records show 6.5 hours of unposted time for March across two matters. Please complete your narratives by 5pm Friday so we can run the April bills. Thank you.\n\nAccounts | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>Our records show 6.5 hours of unposted time for March across two matters. Please complete your narratives by 5pm Friday so we can run the April bills. Thank you.<br><br>Accounts | Whitfield Carter LLP</div>"
+    }
+  ]
+}

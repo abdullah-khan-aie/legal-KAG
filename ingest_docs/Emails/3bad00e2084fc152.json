@@ -1,0 +1,53 @@
+{
+  "id": "3bad00e2084fc152",
+  "messages": [
+    {
+      "id": "3bad00e2084fc152",
+      "snippet": "Dear Sirs, We act for Brampton Leisure Limited. Please find attached our Letter of Claim under the P",
+      "subject": "Letter of Claim - Brampton Leisure Ltd / Hartwell Construction Ltd - The Vault Birmingham",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "olivia.marsh@drummondhale.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2024-11-14T11:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Sirs,\n\nWe act for Brampton Leisure Limited. Please find attached our Letter of Claim under the Pre-Action Protocol for Construction and Engineering Disputes in relation to defective works at The Vault Birmingham. We look forward to your acknowledgement within 14 days and your full Letter of Response within 28 days thereafter.\n\nYours faithfully,\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Sirs,<br><br>We act for Brampton Leisure Limited. Please find attached our Letter of Claim under the Pre-Action Protocol for Construction and Engineering Disputes in relation to defective works at The Vault Birmingham. We look forward to your acknowledgement within 14 days and your full Letter of Response within 28 days thereafter.<br><br>Yours faithfully,<br>Whitfield Carter LLP</div>",
+      "attachmentIds": [
+        "5-A7RqnLYUOrt_K4r07443MsVLCKZbHKikjQfon1m04"
+      ],
+      "attachments": [
+        {
+          "filename": "Kingsford_LetterBeforeAction.docx",
+          "id": "5-A7RqnLYUOrt_K4r07443MsVLCKZbHKikjQfon1m04",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "a116ea927753e9b5",
+      "snippet": "Dear Sirs, We acknowledge receipt of your Letter of Claim dated 14 November 2024 and confirm that we",
+      "subject": "RE: Letter of Claim - Brampton Leisure Ltd / Hartwell Construction Ltd - The Vault Birmingham",
+      "sender": "olivia.marsh@drummondhale.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2024-11-18T14:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear Sirs,\n\nWe acknowledge receipt of your Letter of Claim dated 14 November 2024 and confirm that we act for Hartwell Construction Ltd. We will provide our client's full Letter of Response within the protocol period. Liability is not admitted.\n\nYours faithfully,\nOlivia Marsh\nDrummond Hale LLP\n\nOn Thu, Nov 14, 2024 at 11:00 AM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Dear Sirs,\n>\n> We act for Brampton Leisure Limited. Please find attached our Letter of Claim under the Pre-Action Protocol for Construction and Engineering Disputes in relation to defective works at The Vault Birmingham. We look forward to your acknowledgement within 14 days and your full Letter of Response within 28 days thereafter.\n>\n> Yours faithfully,\n> Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Sirs,<br><br>We acknowledge receipt of your Letter of Claim dated 14 November 2024 and confirm that we act for Hartwell Construction Ltd. We will provide our client&#x27;s full Letter of Response within the protocol period. Liability is not admitted.<br><br>Yours faithfully,<br>Olivia Marsh<br>Drummond Hale LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Nov 14, 2024 at 11:00 AM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Sirs,<br><br>We act for Brampton Leisure Limited. Please find attached our Letter of Claim under the Pre-Action Protocol for Construction and Engineering Disputes in relation to defective works at The Vault Birmingham. We look forward to your acknowledgement within 14 days and your full Letter of Response within 28 days thereafter.<br><br>Yours faithfully,<br>Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

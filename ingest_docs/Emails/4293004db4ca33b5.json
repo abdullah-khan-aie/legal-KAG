@@ -1,0 +1,22 @@
+{
+  "id": "4293004db4ca33b5",
+  "messages": [
+    {
+      "id": "4293004db4ca33b5",
+      "snippet": "Dear Subscriber, Join our 90-minute CPD webinar on 12 May covering recent developments in commercial",
+      "subject": "Webinar: Commercial contracts update 2026 - liability & AI clauses",
+      "sender": "events@lawsociety.org.uk",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-04-18T11:00:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Dear Subscriber,\n\nJoin our 90-minute CPD webinar on 12 May covering recent developments in commercial contracting, including limitation of liability post-Pinewood, AI service clauses, and indexation in long-term agreements. 1.5 CPD hours. Members £45.\n\nRegister online. Unsubscribe at any time.",
+      "htmlBody": "<div dir=\"ltr\">Dear Subscriber,<br><br>Join our 90-minute CPD webinar on 12 May covering recent developments in commercial contracting, including limitation of liability post-Pinewood, AI service clauses, and indexation in long-term agreements. 1.5 CPD hours. Members £45.<br><br>Register online. Unsubscribe at any time.</div>"
+    }
+  ]
+}

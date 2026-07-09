@@ -1,0 +1,26 @@
+{
+  "id": "a600ace20b7044a5",
+  "messages": [
+    {
+      "id": "a600ace20b7044a5",
+      "snippet": "Dear all, Confirming the Halstead board meeting on Tuesday 12 November at 10:00 to approve the Calde",
+      "subject": "Project Skylark - Board meeting 12 November",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "robert.falconer@halsteadaerospace.com",
+        "grace.underwood@halsteadaerospace.com",
+        "priya.saxena@halsteadaerospace.com",
+        "helen.forsythe@halsteadaerospace.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2024-11-08T09:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear all,\n\nConfirming the Halstead board meeting on Tuesday 12 November at 10:00 to approve the Caldera licence. Sarah and James will join by video. Board pack (advice note, v3 agreed form and FTO summary) will be circulated Monday.\n\nDonna Bridges\nPractice Assistant, Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>Confirming the Halstead board meeting on Tuesday 12 November at 10:00 to approve the Caldera licence. Sarah and James will join by video. Board pack (advice note, v3 agreed form and FTO summary) will be circulated Monday.<br><br>Donna Bridges<br>Practice Assistant, Whitfield Carter LLP</div>"
+    }
+  ]
+}

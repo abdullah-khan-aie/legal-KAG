@@ -1,0 +1,23 @@
+{
+  "id": "570517f56f58a846",
+  "messages": [
+    {
+      "id": "570517f56f58a846",
+      "snippet": "Please note that March time narratives are due by close of play Wednesday 2 April so we can run clie",
+      "subject": "Time recording - March narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-01T08:15:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Please note that March time narratives are due by close of play Wednesday 2 April so we can run client bills. Several entries on your open matters are missing narratives. Contact the finance team with any queries.\n\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">Please note that March time narratives are due by close of play Wednesday 2 April so we can run client bills. Several entries on your open matters are missing narratives. Contact the finance team with any queries.<br><br>Accounts</div>"
+    }
+  ]
+}

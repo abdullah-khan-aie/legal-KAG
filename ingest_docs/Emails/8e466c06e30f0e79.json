@@ -1,0 +1,33 @@
+{
+  "id": "8e466c06e30f0e79",
+  "messages": [
+    {
+      "id": "8e466c06e30f0e79",
+      "snippet": "Dear Mr Tindale, Proceedings have been issued in the Circuit Commercial Court, claim number BL-2025-",
+      "subject": "Pennington Industries v Tregarth Bearings - Claim issued (BL-2025-000418)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "geraint.tindale@tindalemarsh.co.uk"
+      ],
+      "ccRecipients": [
+        "aileen.marsh@tindalemarsh.co.uk"
+      ],
+      "date": "2025-02-10T10:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Mr Tindale,\n\nProceedings have been issued in the Circuit Commercial Court, claim number BL-2025-000418. By way of service, we attach the issued Particulars of Claim. The Schedule of Loss has been served under separate cover.\n\nWe look forward to receiving your client's Defence in due course.\n\nYours faithfully,\nTom Gallagher\nWhitfield Carter LLP\n\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Tindale,<br><br>Proceedings have been issued in the Circuit Commercial Court, claim number BL-2025-000418. By way of service, we attach the issued Particulars of Claim. The Schedule of Loss has been served under separate cover.<br><br>We look forward to receiving your client&#x27;s Defence in due course.<br><br>Yours faithfully,<br>Tom Gallagher<br>Whitfield Carter LLP<br><br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "JIoaKkoAFt1Xxek6STl8Fzdaurq8LDFbcxyW2eRcWZI"
+      ],
+      "attachments": [
+        {
+          "filename": "PENvTregarth_ParticularsOfClaim_Issued.pdf",
+          "id": "JIoaKkoAFt1Xxek6STl8Fzdaurq8LDFbcxyW2eRcWZI",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

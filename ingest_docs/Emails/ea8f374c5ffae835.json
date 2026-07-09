@@ -1,0 +1,50 @@
+{
+  "id": "ea8f374c5ffae835",
+  "messages": [
+    {
+      "id": "ea8f374c5ffae835",
+      "snippet": "Sarah, Elena, Ahead of Thursday's call with Brightwater, I've drafted the attached issues note on th",
+      "subject": "Helio — negotiation issues note for client call",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-08T08:50:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah, Elena,\n\nAhead of Thursday's call with Brightwater, I've drafted the attached issues note on the Castle & Vane mark-up. Headline recommendation is to land the cap at 125% and offer a fixed £3m super-cap (down from our £5m) in place of their uncapped ask, hold the line on termination for convenience, and keep the anonymised-data right with tightened wording. Fallback package is in section 6.\n\nGrateful for any steer before I send to the client.\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0100",
+      "htmlBody": "<div dir=\"ltr\">Sarah, Elena,<br><br>Ahead of Thursday&#x27;s call with Brightwater, I&#x27;ve drafted the attached issues note on the Castle &amp; Vane mark-up. Headline recommendation is to land the cap at 125% and offer a fixed £3m super-cap (down from our £5m) in place of their uncapped ask, hold the line on termination for convenience, and keep the anonymised-data right with tightened wording. Fallback package is in section 6.<br><br>Grateful for any steer before I send to the client.<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0100</div>",
+      "attachmentIds": [
+        "a-A6uaf-kMMq3MYovYfwenhMj4AbK_tXtnFURT-mbc4"
+      ],
+      "attachments": [
+        {
+          "filename": "BrightwaterPennine_NegotiationIssuesNote.docx",
+          "id": "a-A6uaf-kMMq3MYovYfwenhMj4AbK_tXtnFURT-mbc4",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "f75f8816c30fe52c",
+      "snippet": "Good note. Agree with the 125% / £3m landing zone — that's well within Brightwater's PI cover. Push ",
+      "subject": "RE: Helio — negotiation issues note for client call",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-08T12:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Good note. Agree with the 125% / £3m landing zone — that's well within Brightwater's PI cover. Push back firmly on uncapped data-protection liability; that is the one we cannot give. Happy for you to take the client through it.\n\nSarah Whitfield\nPartner | Whitfield Carter LLP\n\nOn Wed, Apr 8, 2026 at 8:50 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Sarah, Elena,\n>\n> Ahead of Thursday's call with Brightwater, I've drafted the attached issues note on the Castle & Vane mark-up. Headline recommendation is to land the cap at 125% and offer a fixed £3m super-cap (down from our £5m) in place of their uncapped ask, hold the line on termination for convenience, and keep the anonymised-data right with tightened wording. Fallback package is in section 6.\n>\n> Grateful for any steer before I send to the client.\n>\n> James Osei\n> Senior Associate | Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 0100",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Good note. Agree with the 125% / £3m landing zone — that&#x27;s well within Brightwater&#x27;s PI cover. Push back firmly on uncapped data-protection liability; that is the one we cannot give. Happy for you to take the client through it.<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Apr 8, 2026 at 8:50 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah, Elena,<br><br>Ahead of Thursday&#x27;s call with Brightwater, I&#x27;ve drafted the attached issues note on the Castle &amp; Vane mark-up. Headline recommendation is to land the cap at 125% and offer a fixed £3m super-cap (down from our £5m) in place of their uncapped ask, hold the line on termination for convenience, and keep the anonymised-data right with tightened wording. Fallback package is in section 6.<br><br>Grateful for any steer before I send to the client.<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0100</div></blockquote></div></div>"
+    }
+  ]
+}

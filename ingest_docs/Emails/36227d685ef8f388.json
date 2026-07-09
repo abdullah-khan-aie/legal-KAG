@@ -1,0 +1,59 @@
+{
+  "id": "36227d685ef8f388",
+  "messages": [
+    {
+      "id": "36227d685ef8f388",
+      "snippet": "James, Please find our mark-up of the Subscription and Shareholders' Agreement attached (redline aga",
+      "subject": "Project Falcon - SSA mark-up (v2)",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "deepa.kovac@birchallstone.com",
+        "marcus.pell@westbridgegrowth.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-05-11T18:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nPlease find our mark-up of the Subscription and Shareholders' Agreement attached (redline against your first draft). Principal changes: founder warranty cap reduced to £3.75m, and the founder non-compete reduced to 18 months. We've left the company cap at £14m. We can discuss the de minimis and basket on a call.\n\nOliver Jennings\nBirchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Please find our mark-up of the Subscription and Shareholders&#x27; Agreement attached (redline against your first draft). Principal changes: founder warranty cap reduced to £3.75m, and the founder non-compete reduced to 18 months. We&#x27;ve left the company cap at £14m. We can discuss the de minimis and basket on a call.<br><br>Oliver Jennings<br>Birchall Stone LLP</div>",
+      "attachmentIds": [
+        "VkE0eXEuEkLAjYFIBcJDcwRUJEkvW9juN-lUN8lMBMs"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Falcon_SubscriptionAgreement_v2_redline.docx",
+          "id": "VkE0eXEuEkLAjYFIBcJDcwRUJEkvW9juN-lUN8lMBMs",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "860fa5c4dbe7d754",
+      "snippet": "Oliver, Thanks. The 18-month non-compete is agreed. On the founder cap we'll come back to you - the ",
+      "subject": "RE: Project Falcon - SSA mark-up (v2)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "deepa.kovac@birchallstone.com",
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-05-13T10:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Oliver,\n\nThanks. The 18-month non-compete is agreed. On the founder cap we'll come back to you - the client can live with £3.5m if we tighten the de minimis and basket to £35k / £350k and bring general survival to 2 years. I'll send a revised draft shortly.\n\nJames\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Mon, May 11, 2026 at 6:20 PM, Oliver Jennings <oliver.jennings@birchallstone.com> wrote:\n> James,\n>\n> Please find our mark-up of the Subscription and Shareholders' Agreement attached (redline against your first draft). Principal changes: founder warranty cap reduced to £3.75m, and the founder non-compete reduced to 18 months. We've left the company cap at £14m. We can discuss the de minimis and basket on a call.\n>\n> Oliver Jennings\n> Birchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Oliver,<br><br>Thanks. The 18-month non-compete is agreed. On the founder cap we&#x27;ll come back to you - the client can live with £3.5m if we tighten the de minimis and basket to £35k / £350k and bring general survival to 2 years. I&#x27;ll send a revised draft shortly.<br><br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, May 11, 2026 at 6:20 PM, Oliver Jennings &lt;oliver.jennings@birchallstone.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James,<br><br>Please find our mark-up of the Subscription and Shareholders&#x27; Agreement attached (redline against your first draft). Principal changes: founder warranty cap reduced to £3.75m, and the founder non-compete reduced to 18 months. We&#x27;ve left the company cap at £14m. We can discuss the de minimis and basket on a call.<br><br>Oliver Jennings<br>Birchall Stone LLP</div></blockquote></div></div>"
+    }
+  ]
+}

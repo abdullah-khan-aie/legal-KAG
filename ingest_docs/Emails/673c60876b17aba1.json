@@ -1,0 +1,23 @@
+{
+  "id": "673c60876b17aba1",
+  "messages": [
+    {
+      "id": "673c60876b17aba1",
+      "snippet": "A reminder that the technology group's CPD seminar on AI clauses and UK GDPR in commercial contracts",
+      "subject": "CPD seminar: AI and data protection in commercial contracts – 19 Nov",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-05T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "A reminder that the technology group's CPD seminar on AI clauses and UK GDPR in commercial contracts takes place at 12:30 on 19 November in the 8th-floor seminar room (lunch provided). 1.5 CPD hours. Please reply to reserve a place.\n\nDonna Bridges\nPractice Assistant",
+      "htmlBody": "<div dir=\"ltr\">A reminder that the technology group&#x27;s CPD seminar on AI clauses and UK GDPR in commercial contracts takes place at 12:30 on 19 November in the 8th-floor seminar room (lunch provided). 1.5 CPD hours. Please reply to reserve a place.<br><br>Donna Bridges<br>Practice Assistant</div>"
+    }
+  ]
+}

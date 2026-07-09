@@ -1,0 +1,21 @@
+{
+  "id": "2971d137af4b8bbd",
+  "messages": [
+    {
+      "id": "2971d137af4b8bbd",
+      "snippet": "Hello, Join our complimentary 90-minute webinar covering the latest tribunal decisions, the new duty",
+      "subject": "Webinar: Employment law update - Autumn 2025",
+      "sender": "events@brysonlegal.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-11-10T10:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hello,\n\nJoin our complimentary 90-minute webinar covering the latest tribunal decisions, the new duty to prevent sexual harassment, and changes to settlement agreement practice. 18 November, 12:30pm. 1.5 CPD hours.\n\nRegister online to reserve your place.\n\nBryson Legal Training",
+      "htmlBody": "<div dir=\"ltr\">Hello,<br><br>Join our complimentary 90-minute webinar covering the latest tribunal decisions, the new duty to prevent sexual harassment, and changes to settlement agreement practice. 18 November, 12:30pm. 1.5 CPD hours.<br><br>Register online to reserve your place.<br><br>Bryson Legal Training</div>"
+    }
+  ]
+}

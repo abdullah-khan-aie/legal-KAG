@@ -1,0 +1,35 @@
+{
+  "id": "8524244f73b3ecba",
+  "messages": [
+    {
+      "id": "8524244f73b3ecba",
+      "snippet": "Alistair, Nadia, Good to be working with you. Attached is our first draft of the Patent and Technolo",
+      "subject": "Project Zephyr — first draft Patent & Technology Licence (v1)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "alistair.whitlock@pembertonrowe.com",
+        "nadia.iqbal@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "sandra.okafor@wexbourneretail.com",
+        "marcus.penrose@penroserobotics.com"
+      ],
+      "date": "2025-09-23T16:10:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Alistair, Nadia,\n\nGood to be working with you. Attached is our first draft of the Patent and Technology Licence Agreement (v1) for Project Zephyr, reflecting the term sheet positions. Key schedules: Schedule 1 (licensed patents), Schedule 3 (financial terms), Schedule 4 (deployment milestones).\n\nWe've drafted the exclusivity at clause 2.2 (three years, retail fulfilment field), royalty at Schedule 3 (5.0%, £2m cap), and the liability cap at clause 8.3 (£5m per 12 months). We look forward to your mark-up.\n\nKind regards,\nJames\n\nJames Osei\nSenior Associate | Corporate & Technology\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0519\n\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Alistair, Nadia,<br><br>Good to be working with you. Attached is our first draft of the Patent and Technology Licence Agreement (v1) for Project Zephyr, reflecting the term sheet positions. Key schedules: Schedule 1 (licensed patents), Schedule 3 (financial terms), Schedule 4 (deployment milestones).<br><br>We&#x27;ve drafted the exclusivity at clause 2.2 (three years, retail fulfilment field), royalty at Schedule 3 (5.0%, £2m cap), and the liability cap at clause 8.3 (£5m per 12 months). We look forward to your mark-up.<br><br>Kind regards,<br>James<br><br>James Osei<br>Senior Associate | Corporate &amp; Technology<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0519<br><br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "J5h0886zdJ2V_uRtqNfupf9nVjrLkcZB6lZzrW0PxQQ"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Zephyr_LicenceAgreement_v1.docx",
+          "id": "J5h0886zdJ2V_uRtqNfupf9nVjrLkcZB6lZzrW0PxQQ",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

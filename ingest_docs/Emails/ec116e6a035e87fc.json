@@ -1,0 +1,23 @@
+{
+  "id": "ec116e6a035e87fc",
+  "messages": [
+    {
+      "id": "ec116e6a035e87fc",
+      "snippet": "You are invited to a one-hour CPD webinar on recent developments in UK patent and technology licensi",
+      "subject": "CLE webinar: Developments in UK patent licensing - 5 Feb",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-01-20T12:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "You are invited to a one-hour CPD webinar on recent developments in UK patent and technology licensing, including FRAND, exhaustion and post-Brexit SPC practice. Thursday 5 February, 12.30pm, online. Register via the L&D portal.\n\nKnowledge & Learning",
+      "htmlBody": "<div dir=\"ltr\">You are invited to a one-hour CPD webinar on recent developments in UK patent and technology licensing, including FRAND, exhaustion and post-Brexit SPC practice. Thursday 5 February, 12.30pm, online. Register via the L&amp;D portal.<br><br>Knowledge &amp; Learning</div>"
+    }
+  ]
+}

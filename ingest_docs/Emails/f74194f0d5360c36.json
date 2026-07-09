@@ -1,0 +1,52 @@
+{
+  "id": "f74194f0d5360c36",
+  "messages": [
+    {
+      "id": "f74194f0d5360c36",
+      "snippet": "Oliver, Ahead of data room access, please find attached the confidentiality agreement for Project Dr",
+      "subject": "Project Drake — confidentiality agreement",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-08-01T15:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Oliver,\n\nAhead of data room access, please find attached the confidentiality agreement for Project Drake for your clients' signature. It is on broadly standard terms — two-year term, 12-month non-solicit. Grateful if you could turn this around so we can get into diligence.\n\nKind regards,\nElena Marchetti\nAssociate, Whitfield Carter LLP\n\n—\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Oliver,<br><br>Ahead of data room access, please find attached the confidentiality agreement for Project Drake for your clients&#x27; signature. It is on broadly standard terms — two-year term, 12-month non-solicit. Grateful if you could turn this around so we can get into diligence.<br><br>Kind regards,<br>Elena Marchetti<br>Associate, Whitfield Carter LLP<br><br>—<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "ewG_QY08xsO-kVoxHueMWcFgd7oLbvjHY7JE91dlezE"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Drake_NDA.docx",
+          "id": "ewG_QY08xsO-kVoxHueMWcFgd7oLbvjHY7JE91dlezE",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "b1e9970c1de3eba5",
+      "snippet": "Elena, The Tidewells are content with the NDA as drafted. Executed copy attached on our side; we'll ",
+      "subject": "Project Drake — confidentiality agreement",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "date": "2025-08-04T10:05:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Elena,\n\nThe Tidewells are content with the NDA as drafted. Executed copy attached on our side; we'll open the data room on receipt of the buyer's counterpart. Deepa Kovac will be your day-to-day contact here.\n\nOliver\n\nOn Fri, Aug 1, 2025 at 3:40 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Oliver,\n>\n> Ahead of data room access, please find attached the confidentiality agreement for Project Drake for your clients' signature. It is on broadly standard terms — two-year term, 12-month non-solicit. Grateful if you could turn this around so we can get into diligence.\n>\n> Kind regards,\n> Elena Marchetti\n> Associate, Whitfield Carter LLP\n>\n> —\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena,<br><br>The Tidewells are content with the NDA as drafted. Executed copy attached on our side; we&#x27;ll open the data room on receipt of the buyer&#x27;s counterpart. Deepa Kovac will be your day-to-day contact here.<br><br>Oliver</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Aug 1, 2025 at 3:40 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Oliver,<br><br>Ahead of data room access, please find attached the confidentiality agreement for Project Drake for your clients&#x27; signature. It is on broadly standard terms — two-year term, 12-month non-solicit. Grateful if you could turn this around so we can get into diligence.<br><br>Kind regards,<br>Elena Marchetti<br>Associate, Whitfield Carter LLP<br><br>—<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

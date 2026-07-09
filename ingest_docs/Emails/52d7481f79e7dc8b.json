@@ -1,0 +1,43 @@
+{
+  "id": "52d7481f79e7dc8b",
+  "messages": [
+    {
+      "id": "52d7481f79e7dc8b",
+      "snippet": "Helena, Our building survey of Kingsmoor House is complete. Overall the building is in good conditio",
+      "subject": "Kingsmoor House - building survey report",
+      "sender": "david.calderbank@calderbankvine.co.uk",
+      "toRecipients": [
+        "helena.wren@aldouswrencapital.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-26T15:45:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Helena,\n\nOur building survey of Kingsmoor House is complete. Overall the building is in good condition following the 2016 refurbishment. Priority items: roof coverings nearing end of serviceable life (budget c.£120k over 3-5 years) and lift modernisation on the north core (c.£85k). Nothing that should hold up the purchase. Full report circulated separately.\n\nDavid Calderbank\nCalderbank Vine",
+      "htmlBody": "<div dir=\"ltr\">Helena,<br><br>Our building survey of Kingsmoor House is complete. Overall the building is in good condition following the 2016 refurbishment. Priority items: roof coverings nearing end of serviceable life (budget c.£120k over 3-5 years) and lift modernisation on the north core (c.£85k). Nothing that should hold up the purchase. Full report circulated separately.<br><br>David Calderbank<br>Calderbank Vine</div>"
+    },
+    {
+      "id": "e5b89752d0102b85",
+      "snippet": "James - noted the roof and lift capex. We reflected a small price chip in the negotiation. No change",
+      "subject": "RE: Kingsmoor House - building survey report",
+      "sender": "helena.wren@aldouswrencapital.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "david.calderbank@calderbankvine.co.uk"
+      ],
+      "date": "2026-02-26T18:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "James - noted the roof and lift capex. We reflected a small price chip in the negotiation. No change to plan.\n\nHelena\n\nOn Thu, Feb 26, 2026 at 3:45 PM, David Calderbank <david.calderbank@calderbankvine.co.uk> wrote:\n> Helena,\n>\n> Our building survey of Kingsmoor House is complete. Overall the building is in good condition following the 2016 refurbishment. Priority items: roof coverings nearing end of serviceable life (budget c.£120k over 3-5 years) and lift modernisation on the north core (c.£85k). Nothing that should hold up the purchase. Full report circulated separately.\n>\n> David Calderbank\n> Calderbank Vine",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James - noted the roof and lift capex. We reflected a small price chip in the negotiation. No change to plan.<br><br>Helena</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Feb 26, 2026 at 3:45 PM, David Calderbank &lt;david.calderbank@calderbankvine.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Helena,<br><br>Our building survey of Kingsmoor House is complete. Overall the building is in good condition following the 2016 refurbishment. Priority items: roof coverings nearing end of serviceable life (budget c.£120k over 3-5 years) and lift modernisation on the north core (c.£85k). Nothing that should hold up the purchase. Full report circulated separately.<br><br>David Calderbank<br>Calderbank Vine</div></blockquote></div></div>"
+    }
+  ]
+}

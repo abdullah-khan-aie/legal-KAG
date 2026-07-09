@@ -1,0 +1,48 @@
+{
+  "id": "7c5930af903cdda3",
+  "messages": [
+    {
+      "id": "7c5930af903cdda3",
+      "snippet": "Oliver, v3 circulated separately (tracked). We've accepted your 4.5% royalty, the 2x liability cap, ",
+      "subject": "Project Tamarisk — Licence v3 (our mark-up)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "date": "2025-11-21T16:45:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Oliver,\n\nv3 circulated separately (tracked). We've accepted your 4.5% royalty, the 2x liability cap, the 30 June 2029 longstop and the deemed sub-licence consent. The single change we're asking for in return is the minimum annual royalty from Year 3, which we've moved from £350,000 to £500,000 to reflect the lower rate. Subject to that, we think we're there.\n\nElena Marchetti\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Oliver,<br><br>v3 circulated separately (tracked). We&#x27;ve accepted your 4.5% royalty, the 2x liability cap, the 30 June 2029 longstop and the deemed sub-licence consent. The single change we&#x27;re asking for in return is the minimum annual royalty from Year 3, which we&#x27;ve moved from £350,000 to £500,000 to reflect the lower rate. Subject to that, we think we&#x27;re there.<br><br>Elena Marchetti<br>Whitfield Carter LLP</div>"
+    },
+    {
+      "id": "fcf9853695ab3cc5",
+      "snippet": "Elena, Northstar accepts the £500,000 minimum annual royalty. I think that closes the last open poin",
+      "subject": "RE: Project Tamarisk — Licence v3 (our mark-up)",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "gareth.sinclair@northstarcell.com"
+      ],
+      "date": "2025-11-25T12:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Elena,\n\nNorthstar accepts the £500,000 minimum annual royalty. I think that closes the last open point. Please prepare an execution version and a signing checklist and let's aim to sign in the week of 8 December.\n\nOliver\n\nOn Fri, Nov 21, 2025 at 4:45 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Oliver,\n>\n> v3 circulated separately (tracked). We've accepted your 4.5% royalty, the 2x liability cap, the 30 June 2029 longstop and the deemed sub-licence consent. The single change we're asking for in return is the minimum annual royalty from Year 3, which we've moved from £350,000 to £500,000 to reflect the lower rate. Subject to that, we think we're there.\n>\n> Elena Marchetti\n> Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena,<br><br>Northstar accepts the £500,000 minimum annual royalty. I think that closes the last open point. Please prepare an execution version and a signing checklist and let&#x27;s aim to sign in the week of 8 December.<br><br>Oliver</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Nov 21, 2025 at 4:45 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Oliver,<br><br>v3 circulated separately (tracked). We&#x27;ve accepted your 4.5% royalty, the 2x liability cap, the 30 June 2029 longstop and the deemed sub-licence consent. The single change we&#x27;re asking for in return is the minimum annual royalty from Year 3, which we&#x27;ve moved from £350,000 to £500,000 to reflect the lower rate. Subject to that, we think we&#x27;re there.<br><br>Elena Marchetti<br>Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

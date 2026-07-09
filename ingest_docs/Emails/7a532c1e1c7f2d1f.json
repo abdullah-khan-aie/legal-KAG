@@ -1,0 +1,44 @@
+{
+  "id": "7a532c1e1c7f2d1f",
+  "messages": [
+    {
+      "id": "7a532c1e1c7f2d1f",
+      "snippet": "Rebecca, The board pack for Thursday is circulated, including the final-form Supply Agreement and th",
+      "subject": "Board meeting 24 April — supply agreement approval",
+      "sender": "naomi.patel@harrowprecision.com",
+      "toRecipients": [
+        "rebecca.lund@harrowprecision.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-04-22T10:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Rebecca,\n\nThe board pack for Thursday is circulated, including the final-form Supply Agreement and the negotiation summary. The resolution will authorise you to execute. I'll minute the meeting and confirm the resolution to Whitfield Carter afterwards.\n\nNaomi Patel\nCompany Secretary, Harrow Precision Engineering",
+      "htmlBody": "<div dir=\"ltr\">Rebecca,<br><br>The board pack for Thursday is circulated, including the final-form Supply Agreement and the negotiation summary. The resolution will authorise you to execute. I&#x27;ll minute the meeting and confirm the resolution to Whitfield Carter afterwards.<br><br>Naomi Patel<br>Company Secretary, Harrow Precision Engineering</div>"
+    },
+    {
+      "id": "cd2654d038176467",
+      "snippet": "James, The board approved entry into the Supply Agreement this morning and authorised Rebecca Lund t",
+      "subject": "RE: Board meeting 24 April — supply agreement approval",
+      "sender": "naomi.patel@harrowprecision.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "rebecca.lund@harrowprecision.com"
+      ],
+      "date": "2025-04-24T11:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nThe board approved entry into the Supply Agreement this morning and authorised Rebecca Lund to execute. Signed minutes to follow for the file. Please proceed to completion.\n\nNaomi\n\nOn Tue, Apr 22, 2025 at 10:15 AM, Naomi Patel <naomi.patel@harrowprecision.com> wrote:\n> Rebecca,\n>\n> The board pack for Thursday is circulated, including the final-form Supply Agreement and the negotiation summary. The resolution will authorise you to execute. I'll minute the meeting and confirm the resolution to Whitfield Carter afterwards.\n>\n> Naomi Patel\n> Company Secretary, Harrow Precision Engineering",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>The board approved entry into the Supply Agreement this morning and authorised Rebecca Lund to execute. Signed minutes to follow for the file. Please proceed to completion.<br><br>Naomi</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Apr 22, 2025 at 10:15 AM, Naomi Patel &lt;naomi.patel@harrowprecision.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Rebecca,<br><br>The board pack for Thursday is circulated, including the final-form Supply Agreement and the negotiation summary. The resolution will authorise you to execute. I&#x27;ll minute the meeting and confirm the resolution to Whitfield Carter afterwards.<br><br>Naomi Patel<br>Company Secretary, Harrow Precision Engineering</div></blockquote></div></div>"
+    }
+  ]
+}

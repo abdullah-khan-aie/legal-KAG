@@ -1,0 +1,22 @@
+{
+  "id": "8502e383d2ee2e4b",
+  "messages": [
+    {
+      "id": "8502e383d2ee2e4b",
+      "snippet": "Dear Elena, Our records show 6.5 hours of unposted time for February across two matters. Please comp",
+      "subject": "Time recording reminder — February narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-03-18T16:45:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Dear Elena,\n\nOur records show 6.5 hours of unposted time for February across two matters. Please complete your narratives by Friday so we can run the March client bills. If you believe this is in error, let us know.\n\nRegards,\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Elena,<br><br>Our records show 6.5 hours of unposted time for February across two matters. Please complete your narratives by Friday so we can run the March client bills. If you believe this is in error, let us know.<br><br>Regards,<br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

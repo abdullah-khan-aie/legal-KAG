@@ -1,0 +1,35 @@
+{
+  "id": "2d6d4c41f75d2072",
+  "messages": [
+    {
+      "id": "2d6d4c41f75d2072",
+      "snippet": "Robert, Grace, Attached is the signing checklist. Caldera's board passed its written resolutions tod",
+      "subject": "Project Skylark - signing checklist and timetable",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "robert.falconer@halsteadaerospace.com",
+        "grace.underwood@halsteadaerospace.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "date": "2024-11-13T14:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Robert, Grace,\n\nAttached is the signing checklist. Caldera's board passed its written resolutions today, Halstead approved yesterday, and the agreed form is locked. We'll circulate the execution version PDF tomorrow (14 Nov) for signature. The £4.5m upfront falls due within 10 business days of the Effective Date.\n\nJames\n\nJames Osei\nSenior Associate | Whitfield Carter LLP\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Robert, Grace,<br><br>Attached is the signing checklist. Caldera&#x27;s board passed its written resolutions today, Halstead approved yesterday, and the agreed form is locked. We&#x27;ll circulate the execution version PDF tomorrow (14 Nov) for signature. The £4.5m upfront falls due within 10 business days of the Effective Date.<br><br>James<br><br>James Osei<br>Senior Associate | Whitfield Carter LLP<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "A997lRpQakjlXabOsym9R9of05Xgr57COOswd9XYbrw"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Skylark_SigningChecklist.docx",
+          "id": "A997lRpQakjlXabOsym9R9of05Xgr57COOswd9XYbrw",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

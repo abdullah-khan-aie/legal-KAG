@@ -1,0 +1,24 @@
+{
+  "id": "ea15b83b257a3775",
+  "messages": [
+    {
+      "id": "ea15b83b257a3775",
+      "snippet": "Please process the following for D. Whitford, to reach him within 14 days of 26 Feb: (1) PILON of £2",
+      "subject": "Payroll instruction — Whitford settlement",
+      "sender": "miriam.cole@kingsfordgroup.com",
+      "toRecipients": [
+        "accounts@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-02-27T09:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Please process the following for D. Whitford, to reach him within 14 days of 26 Feb: (1) PILON of £245,000 through payroll (tax + NI); (2) ex gratia £185,000, first £30,000 tax-free, balance taxed; (3) accrued holiday £4,712 (taxed). Separately pay Harland Vesey LLP £750 + VAT on their invoice addressed to Mr Whitford. Reference WC-00198. Miriam",
+      "htmlBody": "<div dir=\"ltr\">Please process the following for D. Whitford, to reach him within 14 days of 26 Feb: (1) PILON of £245,000 through payroll (tax + NI); (2) ex gratia £185,000, first £30,000 tax-free, balance taxed; (3) accrued holiday £4,712 (taxed). Separately pay Harland Vesey LLP £750 + VAT on their invoice addressed to Mr Whitford. Reference WC-00198. Miriam</div>"
+    }
+  ]
+}

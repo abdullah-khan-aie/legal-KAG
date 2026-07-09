@@ -1,0 +1,35 @@
+{
+  "id": "9e77f79f766d9fe7",
+  "messages": [
+    {
+      "id": "9e77f79f766d9fe7",
+      "snippet": "Tom, The disclosure index is finalised - 18 documents listed, two withheld for privilege (the intern",
+      "subject": "Disclosure list ready - Marldon",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-04-28T11:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Tom,\n\nThe disclosure index is finalised - 18 documents listed, two withheld for privilege (the internal strategy memo and counsel's advice). The enquiry data pack is BG-001. Ready to exchange with Thackeray Wolfe by the 30 April deadline. Do you want to review the privilege calls before it goes?\n\nElena",
+      "htmlBody": "<div dir=\"ltr\">Tom,<br><br>The disclosure index is finalised - 18 documents listed, two withheld for privilege (the internal strategy memo and counsel&#x27;s advice). The enquiry data pack is BG-001. Ready to exchange with Thackeray Wolfe by the 30 April deadline. Do you want to review the privilege calls before it goes?<br><br>Elena</div>"
+    },
+    {
+      "id": "a551f38498fb10ae",
+      "snippet": "Privilege calls look right. Send the index across on the 30th and confirm inspection arrangements fo",
+      "subject": "RE: Disclosure list ready - Marldon",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-04-29T09:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Privilege calls look right. Send the index across on the 30th and confirm inspection arrangements for the 14th.\n\nTom Gallagher\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n\nOn Tue, Apr 28, 2026 at 11:20 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Tom,\n>\n> The disclosure index is finalised - 18 documents listed, two withheld for privilege (the internal strategy memo and counsel's advice). The enquiry data pack is BG-001. Ready to exchange with Thackeray Wolfe by the 30 April deadline. Do you want to review the privilege calls before it goes?\n>\n> Elena",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Privilege calls look right. Send the index across on the 30th and confirm inspection arrangements for the 14th.<br><br>Tom Gallagher<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Apr 28, 2026 at 11:20 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom,<br><br>The disclosure index is finalised - 18 documents listed, two withheld for privilege (the internal strategy memo and counsel&#x27;s advice). The enquiry data pack is BG-001. Ready to exchange with Thackeray Wolfe by the 30 April deadline. Do you want to review the privilege calls before it goes?<br><br>Elena</div></blockquote></div></div>"
+    }
+  ]
+}

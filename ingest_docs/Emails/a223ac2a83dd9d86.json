@@ -1,0 +1,21 @@
+{
+  "id": "a223ac2a83dd9d86",
+  "messages": [
+    {
+      "id": "a223ac2a83dd9d86",
+      "snippet": "Elena - are you in for five-a-side tonight at 7? We're one short and Marcus dropped out. Pitch booke",
+      "subject": "Five-a-side tonight?",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-10T12:40:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Elena - are you in for five-a-side tonight at 7? We're one short and Marcus dropped out. Pitch booked at the Bishopsgate centre. Let me know ASAP.\n\nTom\n\n(Sorry - meant to send this to the other Elena in litigation, but you're welcome to play if you fancy it!)",
+      "htmlBody": "<div dir=\"ltr\">Elena - are you in for five-a-side tonight at 7? We&#x27;re one short and Marcus dropped out. Pitch booked at the Bishopsgate centre. Let me know ASAP.<br><br>Tom<br><br>(Sorry - meant to send this to the other Elena in litigation, but you&#x27;re welcome to play if you fancy it!)</div>"
+    }
+  ]
+}

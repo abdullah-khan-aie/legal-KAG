@@ -1,0 +1,21 @@
+{
+  "id": "eff2bbf744ab6211",
+  "messages": [
+    {
+      "id": "eff2bbf744ab6211",
+      "snippet": "Dear all, The firm's document management system will be unavailable for scheduled maintenance this S",
+      "subject": "[IT] Document management system maintenance — Saturday 15 Nov",
+      "sender": "it.helpdesk@whitfieldcarter.com",
+      "toRecipients": [
+        "all-staff@whitfieldcarter.com"
+      ],
+      "date": "2025-11-12T08:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Dear all,\n\nThe firm's document management system will be unavailable for scheduled maintenance this Saturday 15 November between 07:00 and 11:00. Please check in any open documents before Friday close. Email and calendar are unaffected.\n\nIT Helpdesk\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>The firm&#x27;s document management system will be unavailable for scheduled maintenance this Saturday 15 November between 07:00 and 11:00. Please check in any open documents before Friday close. Email and calendar are unaffected.<br><br>IT Helpdesk<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

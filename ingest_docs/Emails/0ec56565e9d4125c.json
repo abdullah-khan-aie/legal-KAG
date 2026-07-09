@@ -1,0 +1,25 @@
+{
+  "id": "0ec56565e9d4125c",
+  "messages": [
+    {
+      "id": "0ec56565e9d4125c",
+      "snippet": "Hi all, A reminder that April time needs to be posted by 12:00 on 2 May for the monthly bill run. Se",
+      "subject": "Time recording – April narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-04-30T16:45:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi all,\n\nA reminder that April time needs to be posted by 12:00 on 2 May for the monthly bill run. Several matters still show gaps. Please also add narratives to any unnarrated entries – the billing partners have asked for fuller descriptions this quarter.\n\nThank you,\nAccounts\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Hi all,<br><br>A reminder that April time needs to be posted by 12:00 on 2 May for the monthly bill run. Several matters still show gaps. Please also add narratives to any unnarrated entries – the billing partners have asked for fuller descriptions this quarter.<br><br>Thank you,<br>Accounts<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "ea5a18d4b7f4ad11",
+  "messages": [
+    {
+      "id": "ea5a18d4b7f4ad11",
+      "snippet": "Sarah, As you know we've had a reservation of rights letter from Sterling following the September co",
+      "subject": "Sterling reservation of rights — urgent",
+      "sender": "rpennington@penningtonindustries.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-10T09:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nAs you know we've had a reservation of rights letter from Sterling following the September covenant test. The board is meeting on 1 December and we need to move quickly. Can Whitfield Carter act for us on the restructuring? Grace can get you the September compliance certificate and the latest management accounts today.\n\nBest,\nRichard\n\nRichard Pennington\nChair & Chief Executive\nPennington Industries Limited",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>As you know we&#x27;ve had a reservation of rights letter from Sterling following the September covenant test. The board is meeting on 1 December and we need to move quickly. Can Whitfield Carter act for us on the restructuring? Grace can get you the September compliance certificate and the latest management accounts today.<br><br>Best,<br>Richard<br><br>Richard Pennington<br>Chair &amp; Chief Executive<br>Pennington Industries Limited</div>"
+    },
+    {
+      "id": "269a590de47ac24e",
+      "snippet": "Richard, Yes, we'd be glad to act. I've run our conflicts check — all clear. I attach our engagement",
+      "subject": "RE: Sterling reservation of rights — urgent",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "rpennington@penningtonindustries.com"
+      ],
+      "ccRecipients": [
+        "gunderwood@penningtonindustries.com",
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-11-12T15:40:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Richard,\n\nYes, we'd be glad to act. I've run our conflicts check — all clear. I attach our engagement letter (our ref WC-00161, codename Project Mallory) setting out scope, team and fees; please sign and return the enclosed copy. James Osei (Senior Associate) and Elena Marchetti will support me.\n\nFirst priorities: (1) appoint an independent business reviewer acceptable to Sterling — I suggest Duncan Reeves at Marlow Tax; (2) start a weekly 13-week cashflow to the bank; (3) hold the line on any shareholder payments. I'll circulate an options paper before the board meeting.\n\nBest,\nSarah\n\nSarah Whitfield\nPartner | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0000\n\nThis email is confidential and may be legally privileged. If you are not the intended recipient please notify the sender and delete it.\n\nOn Mon, Nov 10, 2025 at 9:05 AM, Richard Pennington <rpennington@penningtonindustries.com> wrote:\n> Sarah,\n>\n> As you know we've had a reservation of rights letter from Sterling following the September covenant test. The board is meeting on 1 December and we need to move quickly. Can Whitfield Carter act for us on the restructuring? Grace can get you the September compliance certificate and the latest management accounts today.\n>\n> Best,\n> Richard\n>\n> Richard Pennington\n> Chair & Chief Executive\n> Pennington Industries Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Richard,<br><br>Yes, we&#x27;d be glad to act. I&#x27;ve run our conflicts check — all clear. I attach our engagement letter (our ref WC-00161, codename Project Mallory) setting out scope, team and fees; please sign and return the enclosed copy. James Osei (Senior Associate) and Elena Marchetti will support me.<br><br>First priorities: (1) appoint an independent business reviewer acceptable to Sterling — I suggest Duncan Reeves at Marlow Tax; (2) start a weekly 13-week cashflow to the bank; (3) hold the line on any shareholder payments. I&#x27;ll circulate an options paper before the board meeting.<br><br>Best,<br>Sarah<br><br>Sarah Whitfield<br>Partner | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0000<br><br>This email is confidential and may be legally privileged. If you are not the intended recipient please notify the sender and delete it.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Nov 10, 2025 at 9:05 AM, Richard Pennington &lt;rpennington@penningtonindustries.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>As you know we&#x27;ve had a reservation of rights letter from Sterling following the September covenant test. The board is meeting on 1 December and we need to move quickly. Can Whitfield Carter act for us on the restructuring? Grace can get you the September compliance certificate and the latest management accounts today.<br><br>Best,<br>Richard<br><br>Richard Pennington<br>Chair &amp; Chief Executive<br>Pennington Industries Limited</div></blockquote></div></div>",
+      "attachmentIds": [
+        "ygmj5AjY-i6H6m-Cb8uuaHttbjVEZc4xa9jde77aB9g"
+      ],
+      "attachments": [
+        {
+          "filename": "Mallory_EngagementLetter.docx",
+          "id": "ygmj5AjY-i6H6m-Cb8uuaHttbjVEZc4xa9jde77aB9g",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

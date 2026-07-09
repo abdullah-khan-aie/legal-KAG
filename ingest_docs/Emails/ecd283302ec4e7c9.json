@@ -1,0 +1,42 @@
+{
+  "id": "ecd283302ec4e7c9",
+  "messages": [
+    {
+      "id": "ecd283302ec4e7c9",
+      "snippet": "Marisa, The investors' counsel have picked up the third-party observation on GB2410882.1 and the Nor",
+      "subject": "Calderwell / Project Tempest — patent observation",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "m.caldwell@hartingtonip.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-11-12T10:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Marisa,\n\nThe investors' counsel have picked up the third-party observation on GB2410882.1 and the Northstar firmware letter. Could you confirm your opinion that novelty is unaffected still holds, so we can attach it to the disclosure exercise? We'll reference it at item 3.4 of the bundle.\n\nThanks,\nJames\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Marisa,<br><br>The investors&#x27; counsel have picked up the third-party observation on GB2410882.1 and the Northstar firmware letter. Could you confirm your opinion that novelty is unaffected still holds, so we can attach it to the disclosure exercise? We&#x27;ll reference it at item 3.4 of the bundle.<br><br>Thanks,<br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "d4b7f85eb9684806",
+      "snippet": "James — yes, our view is unchanged: the observation does not affect novelty or inventive step of the",
+      "subject": "RE: Calderwell / Project Tempest — patent observation",
+      "sender": "m.caldwell@hartingtonip.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-11-13T09:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James — yes, our view is unchanged: the observation does not affect novelty or inventive step of the granted claims as drafted. Our written opinion (dated 18 Sept) can be relied upon for the disclosure. Happy to take a call with Birchall Stone if helpful.\n\nOn Wed, Nov 12, 2025 at 10:00 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Marisa,\n>\n> The investors' counsel have picked up the third-party observation on GB2410882.1 and the Northstar firmware letter. Could you confirm your opinion that novelty is unaffected still holds, so we can attach it to the disclosure exercise? We'll reference it at item 3.4 of the bundle.\n>\n> Thanks,\n> James\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James — yes, our view is unchanged: the observation does not affect novelty or inventive step of the granted claims as drafted. Our written opinion (dated 18 Sept) can be relied upon for the disclosure. Happy to take a call with Birchall Stone if helpful.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Nov 12, 2025 at 10:00 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Marisa,<br><br>The investors&#x27; counsel have picked up the third-party observation on GB2410882.1 and the Northstar firmware letter. Could you confirm your opinion that novelty is unaffected still holds, so we can attach it to the disclosure exercise? We&#x27;ll reference it at item 3.4 of the bundle.<br><br>Thanks,<br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

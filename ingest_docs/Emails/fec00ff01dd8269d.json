@@ -1,0 +1,54 @@
+{
+  "id": "fec00ff01dd8269d",
+  "messages": [
+    {
+      "id": "fec00ff01dd8269d",
+      "snippet": "Sarah, Following our call, the board has approved instructing Whitfield Carter on the Tregarth beari",
+      "subject": "Defective Tregarth bearings - need to take action",
+      "sender": "gunderwood@penningtonindustries.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "hdoyle@penningtonindustries.com"
+      ],
+      "date": "2024-10-21T09:12:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Sarah,\n\nFollowing our call, the board has approved instructing Whitfield Carter on the Tregarth bearing failures. We are now well over 30 pump failures and the recall is costing us serious money. Henry has the metallurgy in hand.\n\nCan you send across an engagement letter and let us know next steps? We want to move quickly.\n\nGrace\n\nGrace Underwood\nGroup Finance Director\nPennington Industries Limited",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>Following our call, the board has approved instructing Whitfield Carter on the Tregarth bearing failures. We are now well over 30 pump failures and the recall is costing us serious money. Henry has the metallurgy in hand.<br><br>Can you send across an engagement letter and let us know next steps? We want to move quickly.<br><br>Grace<br><br>Grace Underwood<br>Group Finance Director<br>Pennington Industries Limited</div>"
+    },
+    {
+      "id": "60acf91e96d4ae47",
+      "snippet": "Grace, Thank you - good to have the green light. Our engagement letter is attached. Tom Gallagher wi",
+      "subject": "RE: Defective Tregarth bearings - need to take action",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "gunderwood@penningtonindustries.com"
+      ],
+      "ccRecipients": [
+        "hdoyle@penningtonindustries.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2024-10-22T11:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Grace,\n\nThank you - good to have the green light. Our engagement letter is attached. Tom Gallagher will lead day-to-day; I'll have overall conduct.\n\nThe immediate priorities are (1) firming up the metallurgical evidence and (2) getting a letter before action out to Tregarth. Please keep all failed bearings and your failure log preserved - they are key evidence.\n\nBest,\nSarah\n\nSarah Whitfield\nPartner, Dispute Resolution\nWhitfield Carter LLP\n\nConfidential and may be legally privileged.\n\nOn Mon, Oct 21, 2024 at 9:12 AM, Grace Underwood <gunderwood@penningtonindustries.com> wrote:\n> Sarah,\n>\n> Following our call, the board has approved instructing Whitfield Carter on the Tregarth bearing failures. We are now well over 30 pump failures and the recall is costing us serious money. Henry has the metallurgy in hand.\n>\n> Can you send across an engagement letter and let us know next steps? We want to move quickly.\n>\n> Grace\n>\n> Grace Underwood\n> Group Finance Director\n> Pennington Industries Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Grace,<br><br>Thank you - good to have the green light. Our engagement letter is attached. Tom Gallagher will lead day-to-day; I&#x27;ll have overall conduct.<br><br>The immediate priorities are (1) firming up the metallurgical evidence and (2) getting a letter before action out to Tregarth. Please keep all failed bearings and your failure log preserved - they are key evidence.<br><br>Best,<br>Sarah<br><br>Sarah Whitfield<br>Partner, Dispute Resolution<br>Whitfield Carter LLP<br><br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Oct 21, 2024 at 9:12 AM, Grace Underwood &lt;gunderwood@penningtonindustries.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>Following our call, the board has approved instructing Whitfield Carter on the Tregarth bearing failures. We are now well over 30 pump failures and the recall is costing us serious money. Henry has the metallurgy in hand.<br><br>Can you send across an engagement letter and let us know next steps? We want to move quickly.<br><br>Grace<br><br>Grace Underwood<br>Group Finance Director<br>Pennington Industries Limited</div></blockquote></div></div>",
+      "attachmentIds": [
+        "OwsNDg0doYJ1ksGCC70AeBkoL8JQK_EqA5IfIrHDrG8"
+      ],
+      "attachments": [
+        {
+          "filename": "PENvTregarth_EngagementLetter.docx",
+          "id": "OwsNDg0doYJ1ksGCC70AeBkoL8JQK_EqA5IfIrHDrG8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "e42893aacde6e8e1",
+  "messages": [
+    {
+      "id": "e42893aacde6e8e1",
+      "snippet": "Dear James, Our mark-up of the contract attached. Key points from the Seller: (1) completion date mo",
+      "subject": "Kingsmoor - contract mark-up (our comments)",
+      "sender": "zoe.abbott@marlowegreaves.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "martin.greaves@marlowegreaves.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-05T10:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Dear James,\n\nOur mark-up of the contract attached. Key points from the Seller: (1) completion date moved to 1 May to fit the Seller's timetable; (2) a modest price adjustment to £14,150,000 reflecting the survey points; (3) contract rate to the Law Society rate; and (4) the Seller's liability limited to 15% of the price with a 6-month notice period and a £25,000 de minimis. We're content in principle with a retention for the Aldermere review.\n\nRegards,\n\nZoe Abbott\nAssociate | Marlowe Greaves LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear James,<br><br>Our mark-up of the contract attached. Key points from the Seller: (1) completion date moved to 1 May to fit the Seller&#x27;s timetable; (2) a modest price adjustment to £14,150,000 reflecting the survey points; (3) contract rate to the Law Society rate; and (4) the Seller&#x27;s liability limited to 15% of the price with a 6-month notice period and a £25,000 de minimis. We&#x27;re content in principle with a retention for the Aldermere review.<br><br>Regards,<br><br>Zoe Abbott<br>Associate | Marlowe Greaves LLP</div>",
+      "attachmentIds": [
+        "5teR0ZBel6PmQ7KyJJdpWxAb6CyJnuBUe_79nXqNJX0"
+      ],
+      "attachments": [
+        {
+          "filename": "Kingsmoor_ContractForSale_v2_redline.docx",
+          "id": "5teR0ZBel6PmQ7KyJJdpWxAb6CyJnuBUe_79nXqNJX0",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "003ee3d0328fd430",
+      "snippet": "Dear Zoe, Thank you. We can accept the £14.15m price, the 1 May completion date and the Law Society ",
+      "subject": "RE: Kingsmoor - contract mark-up (our comments)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "zoe.abbott@marlowegreaves.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2026-03-06T12:00:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Dear Zoe,\n\nThank you. We can accept the £14.15m price, the 1 May completion date and the Law Society contract rate. On liability we can't accept 15%/6 months - we'll come back with the cap at 100% of the price and 18 months' notice, and a £10k de minisis, plus the retention mechanism at clause 9.3. Counter-markup to follow.\n\nRegards,\n\nJames Osei\nSenior Associate | Real Estate\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0500\n\nOn Thu, Mar 5, 2026 at 10:20 AM, Zoe Abbott <zoe.abbott@marlowegreaves.com> wrote:\n> Dear James,\n>\n> Our mark-up of the contract attached. Key points from the Seller: (1) completion date moved to 1 May to fit the Seller's timetable; (2) a modest price adjustment to £14,150,000 reflecting the survey points; (3) contract rate to the Law Society rate; and (4) the Seller's liability limited to 15% of the price with a 6-month notice period and a £25,000 de minimis. We're content in principle with a retention for the Aldermere review.\n>\n> Regards,\n>\n> Zoe Abbott\n> Associate | Marlowe Greaves LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Dear Zoe,<br><br>Thank you. We can accept the £14.15m price, the 1 May completion date and the Law Society contract rate. On liability we can&#x27;t accept 15%/6 months - we&#x27;ll come back with the cap at 100% of the price and 18 months&#x27; notice, and a £10k de minisis, plus the retention mechanism at clause 9.3. Counter-markup to follow.<br><br>Regards,<br><br>James Osei<br>Senior Associate | Real Estate<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ | +44 (0)20 7946 0500</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Mar 5, 2026 at 10:20 AM, Zoe Abbott &lt;zoe.abbott@marlowegreaves.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear James,<br><br>Our mark-up of the contract attached. Key points from the Seller: (1) completion date moved to 1 May to fit the Seller&#x27;s timetable; (2) a modest price adjustment to £14,150,000 reflecting the survey points; (3) contract rate to the Law Society rate; and (4) the Seller&#x27;s liability limited to 15% of the price with a 6-month notice period and a £25,000 de minimis. We&#x27;re content in principle with a retention for the Aldermere review.<br><br>Regards,<br><br>Zoe Abbott<br>Associate | Marlowe Greaves LLP</div></blockquote></div></div>"
+    }
+  ]
+}

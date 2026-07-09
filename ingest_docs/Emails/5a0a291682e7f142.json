@@ -1,0 +1,21 @@
+{
+  "id": "5a0a291682e7f142",
+  "messages": [
+    {
+      "id": "5a0a291682e7f142",
+      "snippet": "James, Our records show 9.5 hours unposted for the week ending 6 February. Please complete your time",
+      "subject": "Time recording overdue — week ending 6 February",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-09T08:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "James,\n\nOur records show 9.5 hours unposted for the week ending 6 February. Please complete your time entries by end of day Tuesday so we can issue February bills on schedule. Matters with WIP over 30 days are flagged for partner review.\n\nRegards,\nAccounts | Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our records show 9.5 hours unposted for the week ending 6 February. Please complete your time entries by end of day Tuesday so we can issue February bills on schedule. Matters with WIP over 30 days are flagged for partner review.<br><br>Regards,<br>Accounts | Whitfield Carter LLP</div>"
+    }
+  ]
+}

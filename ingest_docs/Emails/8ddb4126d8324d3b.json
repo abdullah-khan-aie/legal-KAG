@@ -1,0 +1,55 @@
+{
+  "id": "8ddb4126d8324d3b",
+  "messages": [
+    {
+      "id": "8ddb4126d8324d3b",
+      "snippet": "Miriam, Nathan, My note of yesterday's protected conversation is attached. Key points: Daniel is res",
+      "subject": "Protected conversation 11 Dec — file note",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "miriam.cole@kingsfordgroup.com",
+        "nathan.reilly@kingsfordgroup.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-12-12T14:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Miriam, Nathan,\n\nMy note of yesterday's protected conversation is attached. Key points: Daniel is reserving on constructive dismissal and protected-disclosure detriment (the Brampton Leisure revenue-recognition point from July); he reacted badly to the £150k ex gratia as an opener. Next step is our without-prejudice letter recording the offer, going out Monday with a first draft agreement.\n\nPlease flag any corrections to the note.\n\nTom\n\n--\nTom Gallagher\nAssociate | Whitfield Carter LLP\ntom.gallagher@whitfieldcarter.com",
+      "htmlBody": "<div dir=\"ltr\">Miriam, Nathan,<br><br>My note of yesterday&#x27;s protected conversation is attached. Key points: Daniel is reserving on constructive dismissal and protected-disclosure detriment (the Brampton Leisure revenue-recognition point from July); he reacted badly to the £150k ex gratia as an opener. Next step is our without-prejudice letter recording the offer, going out Monday with a first draft agreement.<br><br>Please flag any corrections to the note.<br><br>Tom<br><br>--<br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>tom.gallagher@whitfieldcarter.com</div>",
+      "attachmentIds": [
+        "Me_pXIccu9vz650JYXLw_71PYekpK8X9L0OJK0eQ6RA"
+      ],
+      "attachments": [
+        {
+          "filename": "Whitford_ProtectedConversation_FileNote.docx",
+          "id": "Me_pXIccu9vz650JYXLw_71PYekpK8X9L0OJK0eQ6RA",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "a262eb06f98206e3",
+      "snippet": "Tom — note looks right to me. One correction: the offsite was 25-26 September, not just 25th. Otherw",
+      "subject": "RE: Protected conversation 11 Dec — file note",
+      "sender": "nathan.reilly@kingsfordgroup.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "miriam.cole@kingsfordgroup.com"
+      ],
+      "date": "2025-12-12T17:02:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Tom — note looks right to me. One correction: the offsite was 25-26 September, not just 25th. Otherwise agreed. Nathan\n\nOn Fri, Dec 12, 2025 at 2:40 PM, Tom Gallagher <tom.gallagher@whitfieldcarter.com> wrote:\n> Miriam, Nathan,\n>\n> My note of yesterday's protected conversation is attached. Key points: Daniel is reserving on constructive dismissal and protected-disclosure detriment (the Brampton Leisure revenue-recognition point from July); he reacted badly to the £150k ex gratia as an opener. Next step is our without-prejudice letter recording the offer, going out Monday with a first draft agreement.\n>\n> Please flag any corrections to the note.\n>\n> Tom\n>\n> --\n> Tom Gallagher\n> Associate | Whitfield Carter LLP\n> tom.gallagher@whitfieldcarter.com",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Tom — note looks right to me. One correction: the offsite was 25-26 September, not just 25th. Otherwise agreed. Nathan</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Dec 12, 2025 at 2:40 PM, Tom Gallagher &lt;tom.gallagher@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Miriam, Nathan,<br><br>My note of yesterday&#x27;s protected conversation is attached. Key points: Daniel is reserving on constructive dismissal and protected-disclosure detriment (the Brampton Leisure revenue-recognition point from July); he reacted badly to the £150k ex gratia as an opener. Next step is our without-prejudice letter recording the offer, going out Monday with a first draft agreement.<br><br>Please flag any corrections to the note.<br><br>Tom<br><br>--<br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>tom.gallagher@whitfieldcarter.com</div></blockquote></div></div>"
+    }
+  ]
+}

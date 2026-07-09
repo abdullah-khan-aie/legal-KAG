@@ -1,0 +1,54 @@
+{
+  "id": "1d0c603870973f94",
+  "messages": [
+    {
+      "id": "1d0c603870973f94",
+      "snippet": "Adam, Our turn on the MSA attached as a redline against your last draft. The substantive changes: - ",
+      "subject": "Project Cedar — MSA v2 (redline)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "adam.selby@denhamlewis.com"
+      ],
+      "ccRecipients": [
+        "elena.marchetti@whitfieldcarter.com",
+        "marcus.webb@denhamlewis.com"
+      ],
+      "date": "2025-11-24T10:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Adam,\n\nOur turn on the MSA attached as a redline against your last draft. The substantive changes:\n\n- Clause 3.2: exclusivity narrowed to the Schedule 1 CM-7 assemblies, with a carve-out for Halstead's pre-existing composite know-how.\n- Clause 13.3: Foreground IPR tightened to exclude general process improvements, and the licence-back is now perpetual and royalty-free.\n\nWe've left the payment terms and the liability cap for discussion on the 26th. Look forward to the call.\n\nKind regards,\nJames\n\nJames Osei | Senior Associate\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0521\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Adam,<br><br>Our turn on the MSA attached as a redline against your last draft. The substantive changes:<br><br>- Clause 3.2: exclusivity narrowed to the Schedule 1 CM-7 assemblies, with a carve-out for Halstead&#x27;s pre-existing composite know-how.<br>- Clause 13.3: Foreground IPR tightened to exclude general process improvements, and the licence-back is now perpetual and royalty-free.<br><br>We&#x27;ve left the payment terms and the liability cap for discussion on the 26th. Look forward to the call.<br><br>Kind regards,<br>James<br><br>James Osei | Senior Associate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0521<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "XS9digSO4Rpoe_NpbTEnJKpES5DZQRpsFu6RCjK0B8k"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Cedar_MSA_v2_redline.docx",
+          "id": "XS9digSO4Rpoe_NpbTEnJKpES5DZQRpsFu6RCjK0B8k",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "e9d68a81e3671f96",
+      "snippet": "James, Following the call: we can accept the narrower exclusivity and the IPR changes. In return Cal",
+      "subject": "RE: Project Cedar — MSA v2 (redline)",
+      "sender": "adam.selby@denhamlewis.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "marcus.webb@denhamlewis.com"
+      ],
+      "date": "2025-11-26T16:55:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nFollowing the call: we can accept the narrower exclusivity and the IPR changes. In return Caldera wants payment terms moved to 60 days (I've marked that in your redline) and a first-year floor on the liability cap. I'll send our v3 turn tomorrow with those points and we should be very close.\n\nAdam\n\nOn Mon, Nov 24, 2025 at 10:30 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Adam,\n>\n> Our turn on the MSA attached as a redline against your last draft. The substantive changes:\n>\n> - Clause 3.2: exclusivity narrowed to the Schedule 1 CM-7 assemblies, with a carve-out for Halstead's pre-existing composite know-how.\n> - Clause 13.3: Foreground IPR tightened to exclude general process improvements, and the licence-back is now perpetual and royalty-free.\n>\n> We've left the payment terms and the liability cap for discussion on the 26th. Look forward to the call.\n>\n> Kind regards,\n> James\n>\n> James Osei | Senior Associate\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 0521\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Following the call: we can accept the narrower exclusivity and the IPR changes. In return Caldera wants payment terms moved to 60 days (I&#x27;ve marked that in your redline) and a first-year floor on the liability cap. I&#x27;ll send our v3 turn tomorrow with those points and we should be very close.<br><br>Adam</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Nov 24, 2025 at 10:30 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Adam,<br><br>Our turn on the MSA attached as a redline against your last draft. The substantive changes:<br><br>- Clause 3.2: exclusivity narrowed to the Schedule 1 CM-7 assemblies, with a carve-out for Halstead&#x27;s pre-existing composite know-how.<br>- Clause 13.3: Foreground IPR tightened to exclude general process improvements, and the licence-back is now perpetual and royalty-free.<br><br>We&#x27;ve left the payment terms and the liability cap for discussion on the 26th. Look forward to the call.<br><br>Kind regards,<br>James<br><br>James Osei | Senior Associate<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0521<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

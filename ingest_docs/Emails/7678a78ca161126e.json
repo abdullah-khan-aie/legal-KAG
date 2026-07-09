@@ -1,0 +1,23 @@
+{
+  "id": "7678a78ca161126e",
+  "messages": [
+    {
+      "id": "7678a78ca161126e",
+      "snippet": "You're invited to our December know-how seminar on drafting and negotiating limitation of liability ",
+      "subject": "Lunchtime seminar: drafting limitation of liability clauses (12 Dec)",
+      "sender": "learning@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-12-01T09:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "You're invited to our December know-how seminar on drafting and negotiating limitation of liability and indemnity clauses in commercial contracts, with a focus on caps, carve-outs and consequential-loss exclusions. Thursday 12 December, 12:30, Training Room 2. Sandwiches provided. RSVP to Knowledge & Learning.",
+      "htmlBody": "<div dir=\"ltr\">You&#x27;re invited to our December know-how seminar on drafting and negotiating limitation of liability and indemnity clauses in commercial contracts, with a focus on caps, carve-outs and consequential-loss exclusions. Thursday 12 December, 12:30, Training Room 2. Sandwiches provided. RSVP to Knowledge &amp; Learning.</div>"
+    }
+  ]
+}

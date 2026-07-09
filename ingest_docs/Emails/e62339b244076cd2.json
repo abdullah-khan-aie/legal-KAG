@@ -1,0 +1,48 @@
+{
+  "id": "e62339b244076cd2",
+  "messages": [
+    {
+      "id": "e62339b244076cd2",
+      "snippet": "All, We're targeting signing on 9 April and completion on 17 April. Subscription monies (£55m) to WC",
+      "subject": "Project Slate - completion mechanics",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com",
+        "priya.forsyth@penroserobotics.com",
+        "nadia.verghese@penroserobotics.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "rohan.mistry@thornabygrowth.com"
+      ],
+      "date": "2026-04-08T16:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "All,\n\nWe're targeting signing on 9 April and completion on 17 April. Subscription monies (£55m) to WC client account by 16 April. Signing pages to be collected in counterpart via DocuSign. Board and shareholder resolutions circulated separately. Please flag any issues with the timetable.\n\nJames\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>We&#x27;re targeting signing on 9 April and completion on 17 April. Subscription monies (£55m) to WC client account by 16 April. Signing pages to be collected in counterpart via DocuSign. Board and shareholder resolutions circulated separately. Please flag any issues with the timetable.<br><br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    },
+    {
+      "id": "876a6d6fee07ca72",
+      "snippet": "Works for us. Thornaby's £42m will be wired to arrive on 16 April. Bianca will join as our board dir",
+      "subject": "RE: Project Slate - completion mechanics",
+      "sender": "rohan.mistry@thornabygrowth.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "bianca.sato@thornabygrowth.com"
+      ],
+      "date": "2026-04-09T08:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Works for us. Thornaby's £42m will be wired to arrive on 16 April. Bianca will join as our board director from completion.\n\nRohan\n\nOn Wed, Apr 8, 2026 at 4:00 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> All,\n>\n> We're targeting signing on 9 April and completion on 17 April. Subscription monies (£55m) to WC client account by 16 April. Signing pages to be collected in counterpart via DocuSign. Board and shareholder resolutions circulated separately. Please flag any issues with the timetable.\n>\n> James\n>\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Works for us. Thornaby&#x27;s £42m will be wired to arrive on 16 April. Bianca will join as our board director from completion.<br><br>Rohan</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Apr 8, 2026 at 4:00 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">All,<br><br>We&#x27;re targeting signing on 9 April and completion on 17 April. Subscription monies (£55m) to WC client account by 16 April. Signing pages to be collected in counterpart via DocuSign. Board and shareholder resolutions circulated separately. Please flag any issues with the timetable.<br><br>James<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

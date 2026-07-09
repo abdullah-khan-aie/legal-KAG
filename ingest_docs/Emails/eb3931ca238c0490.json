@@ -1,0 +1,53 @@
+{
+  "id": "eb3931ca238c0490",
+  "messages": [
+    {
+      "id": "eb3931ca238c0490",
+      "snippet": "Elena, Attached is the draft Disclosure Letter for review. The principal specific disclosures are: t",
+      "subject": "Project Quartz — draft Disclosure Letter",
+      "sender": "deepa.kovac@birchallstone.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "oliver.jennings@birchallstone.com"
+      ],
+      "date": "2026-02-20T15:20:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Elena,\n\nAttached is the draft Disclosure Letter for review. The principal specific disclosures are: the Wexbourne change-of-control clause (no consent yet); the warehouse grievance (exposure < £15k); the EU trade mark application pending; the lease break and rent review; and the December stock provisioning adjustment of £72k. The data room index is annexed. Grateful for comments.\n\nDeepa Kovac\nBirchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\">Elena,<br><br>Attached is the draft Disclosure Letter for review. The principal specific disclosures are: the Wexbourne change-of-control clause (no consent yet); the warehouse grievance (exposure &lt; £15k); the EU trade mark application pending; the lease break and rent review; and the December stock provisioning adjustment of £72k. The data room index is annexed. Grateful for comments.<br><br>Deepa Kovac<br>Birchall Stone LLP</div>",
+      "attachmentIds": [
+        "L94JZAuu0kbELc47v1sVDS2cNa4wu9at-CCechpp3nQ"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Quartz_DisclosureLetter.docx",
+          "id": "L94JZAuu0kbELc47v1sVDS2cNa4wu9at-CCechpp3nQ",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "2f43ce861d11bfe3",
+      "snippet": "Deepa — thank you. A few points: please cross-refer the Wexbourne disclosure to the specific indemni",
+      "subject": "RE: Project Quartz — draft Disclosure Letter",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "deepa.kovac@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2026-02-24T11:35:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Deepa — thank you. A few points: please cross-refer the Wexbourne disclosure to the specific indemnity in clause 9, and confirm the £72k stock adjustment is reflected in the completion accounts policies (Schedule 6). Otherwise we're comfortable. Elena\n\nOn Fri, Feb 20, 2026 at 3:20 PM, Deepa Kovac <deepa.kovac@birchallstone.com> wrote:\n> Elena,\n>\n> Attached is the draft Disclosure Letter for review. The principal specific disclosures are: the Wexbourne change-of-control clause (no consent yet); the warehouse grievance (exposure < £15k); the EU trade mark application pending; the lease break and rent review; and the December stock provisioning adjustment of £72k. The data room index is annexed. Grateful for comments.\n>\n> Deepa Kovac\n> Birchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Deepa — thank you. A few points: please cross-refer the Wexbourne disclosure to the specific indemnity in clause 9, and confirm the £72k stock adjustment is reflected in the completion accounts policies (Schedule 6). Otherwise we&#x27;re comfortable. Elena</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Feb 20, 2026 at 3:20 PM, Deepa Kovac &lt;deepa.kovac@birchallstone.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Elena,<br><br>Attached is the draft Disclosure Letter for review. The principal specific disclosures are: the Wexbourne change-of-control clause (no consent yet); the warehouse grievance (exposure &lt; £15k); the EU trade mark application pending; the lease break and rent review; and the December stock provisioning adjustment of £72k. The data room index is annexed. Grateful for comments.<br><br>Deepa Kovac<br>Birchall Stone LLP</div></blockquote></div></div>"
+    }
+  ]
+}

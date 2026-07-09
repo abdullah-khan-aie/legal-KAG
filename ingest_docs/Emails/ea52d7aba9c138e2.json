@@ -1,0 +1,21 @@
+{
+  "id": "ea52d7aba9c138e2",
+  "messages": [
+    {
+      "id": "ea52d7aba9c138e2",
+      "snippet": "James, Our records show 11.4 hours unposted for February across two matters. Please complete your na",
+      "subject": "Time recording - February narratives outstanding",
+      "sender": "accounts@whitfieldcarter.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-03-03T16:00:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "James,\n\nOur records show 11.4 hours unposted for February across two matters. Please complete your narratives by close on Friday so we can run the March bills. Partners have asked that all WIP over 60 days is either billed or written off this quarter.\n\nThanks,\nAccounts",
+      "htmlBody": "<div dir=\"ltr\">James,<br><br>Our records show 11.4 hours unposted for February across two matters. Please complete your narratives by close on Friday so we can run the March bills. Partners have asked that all WIP over 60 days is either billed or written off this quarter.<br><br>Thanks,<br>Accounts</div>"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "7944444358fcb0a0",
+  "messages": [
+    {
+      "id": "7944444358fcb0a0",
+      "snippet": "Elena, Our mark-up attached (v2). Headlines for the Licensee: upfront down to £1.0m and royalty to 6",
+      "subject": "Project Umbra - Licence Agreement v2 (our mark-up)",
+      "sender": "nadia.iqbal@pembertonrowe.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "alistair.whitlock@pembertonrowe.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-12-08T16:35:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena,\n\nOur mark-up attached (v2). Headlines for the Licensee: upfront down to £1.0m and royalty to 6.5%; warranty period up to 24 months; liability cap up to the greater of £5m / 200% with a £7.5m IP indemnity cap; term out to seven years; exclusivity 'even as to the Licensor'. Let's get on a call.\n\nNadia",
+      "htmlBody": "<div dir=\"ltr\">Elena,<br><br>Our mark-up attached (v2). Headlines for the Licensee: upfront down to £1.0m and royalty to 6.5%; warranty period up to 24 months; liability cap up to the greater of £5m / 200% with a £7.5m IP indemnity cap; term out to seven years; exclusivity &#x27;even as to the Licensor&#x27;. Let&#x27;s get on a call.<br><br>Nadia</div>"
+    },
+    {
+      "id": "87da5d116f7bec13",
+      "snippet": "Henry, Sofia - Pemberton Rowe's mark-up is in. They've pushed the economics down (£1.0m / 6.5%) and ",
+      "subject": "FW: Project Umbra - Licence Agreement v2 (their mark-up)",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "henry.larsson@caspiantech.io",
+        "sofia.trevino@caspiantech.io"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-12-09T08:50:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Henry, Sofia - Pemberton Rowe's mark-up is in. They've pushed the economics down (£1.0m / 6.5%) and the liability caps up. My view: land ~£1.25m / 7.5%, cap at greater of £3m / 150% and £5m IP indemnity, keep the five-year term. Thoughts before I respond?\n\nElena\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Mon, Dec 8, 2025 at 4:35 PM, Nadia Iqbal <nadia.iqbal@pembertonrowe.com> wrote:\n> Elena,\n>\n> Our mark-up attached (v2). Headlines for the Licensee: upfront down to £1.0m and royalty to 6.5%; warranty period up to 24 months; liability cap up to the greater of £5m / 200% with a £7.5m IP indemnity cap; term out to seven years; exclusivity 'even as to the Licensor'. Let's get on a call.\n>\n> Nadia",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Henry, Sofia - Pemberton Rowe&#x27;s mark-up is in. They&#x27;ve pushed the economics down (£1.0m / 6.5%) and the liability caps up. My view: land ~£1.25m / 7.5%, cap at greater of £3m / 150% and £5m IP indemnity, keep the five-year term. Thoughts before I respond?<br><br>Elena<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Dec 8, 2025 at 4:35 PM, Nadia Iqbal &lt;nadia.iqbal@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Elena,<br><br>Our mark-up attached (v2). Headlines for the Licensee: upfront down to £1.0m and royalty to 6.5%; warranty period up to 24 months; liability cap up to the greater of £5m / 200% with a £7.5m IP indemnity cap; term out to seven years; exclusivity &#x27;even as to the Licensor&#x27;. Let&#x27;s get on a call.<br><br>Nadia</div></blockquote></div></div>",
+      "attachmentIds": [
+        "pVkQBp1PGQLbvjm--dxu8v08ZP7RovPxEUFi4KIYMdg"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Umbra_PatentSoftwareLicence_v2_redline.docx",
+          "id": "pVkQBp1PGQLbvjm--dxu8v08ZP7RovPxEUFi4KIYMdg",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "4f0ea29ff8e92595",
+      "snippet": "Agreed with your landing zone. Don't move below 7.5% and hold the term at five years. Go back with v",
+      "subject": "RE: Project Umbra - Licence Agreement v2 (their mark-up)",
+      "sender": "henry.larsson@caspiantech.io",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sofia.trevino@caspiantech.io",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-12-09T13:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Agreed with your landing zone. Don't move below 7.5% and hold the term at five years. Go back with v3. Henry\n\nOn Tue, Dec 9, 2025 at 8:50 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Henry, Sofia - Pemberton Rowe's mark-up is in. They've pushed the economics down (£1.0m / 6.5%) and the liability caps up. My view: land ~£1.25m / 7.5%, cap at greater of £3m / 150% and £5m IP indemnity, keep the five-year term. Thoughts before I respond?\n>\n> Elena\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.\n>\n> On Mon, Dec 8, 2025 at 4:35 PM, Nadia Iqbal <nadia.iqbal@pembertonrowe.com> wrote:\n> > Elena,\n> >\n> > Our mark-up attached (v2). Headlines for the Licensee: upfront down to £1.0m and royalty to 6.5%; warranty period up to 24 months; liability cap up to the greater of £5m / 200% with a £7.5m IP indemnity cap; term out to seven years; exclusivity 'even as to the Licensor'. Let's get on a call.\n> >\n> > Nadia",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Agreed with your landing zone. Don&#x27;t move below 7.5% and hold the term at five years. Go back with v3. Henry</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, Dec 9, 2025 at 8:50 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Henry, Sofia - Pemberton Rowe&#x27;s mark-up is in. They&#x27;ve pushed the economics down (£1.0m / 6.5%) and the liability caps up. My view: land ~£1.25m / 7.5%, cap at greater of £3m / 150% and £5m IP indemnity, keep the five-year term. Thoughts before I respond?<br><br>Elena<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Dec 8, 2025 at 4:35 PM, Nadia Iqbal &lt;nadia.iqbal@pembertonrowe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Elena,<br><br>Our mark-up attached (v2). Headlines for the Licensee: upfront down to £1.0m and royalty to 6.5%; warranty period up to 24 months; liability cap up to the greater of £5m / 200% with a £7.5m IP indemnity cap; term out to seven years; exclusivity &#x27;even as to the Licensor&#x27;. Let&#x27;s get on a call.<br><br>Nadia</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

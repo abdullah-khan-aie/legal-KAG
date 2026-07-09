@@ -1,0 +1,40 @@
+{
+  "id": "9baae0158eaefcca",
+  "messages": [
+    {
+      "id": "9baae0158eaefcca",
+      "snippet": "Hi Tom, Great, I've booked us in at the Cinnamon Club for 7:30 on Saturday under 'Sharma, 8 people'.",
+      "subject": "Re: Saturday — table for 8?",
+      "sender": "priya.sharma@meridiandental.co.uk",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-04-17T19:42:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi Tom,\n\nGreat, I've booked us in at the Cinnamon Club for 7:30 on Saturday under 'Sharma, 8 people'. Can you let Raj and Meena know? Also did you ever find your sister's number — I still owe her for the concert tickets!\n\nSee you Saturday,\nPriya x",
+      "htmlBody": "<div dir=\"ltr\">Hi Tom,<br><br>Great, I&#x27;ve booked us in at the Cinnamon Club for 7:30 on Saturday under &#x27;Sharma, 8 people&#x27;. Can you let Raj and Meena know? Also did you ever find your sister&#x27;s number — I still owe her for the concert tickets!<br><br>See you Saturday,<br>Priya x</div>"
+    },
+    {
+      "id": "4f83671f028b1304",
+      "snippet": "Hi Priya — I think you've got the wrong Tom! No Saturday dinner in my diary and I don't have a siste",
+      "subject": "Re: Saturday — table for 8?",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "priya.sharma@meridiandental.co.uk"
+      ],
+      "date": "2025-04-17T20:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT",
+        "CATEGORY_FORUMS"
+      ],
+      "plaintextBody": "Hi Priya — I think you've got the wrong Tom! No Saturday dinner in my diary and I don't have a sister. Hope you find the right person before the booking. All the best, Tom Gallagher (Whitfield Carter LLP)\n\nOn Thu, Apr 17, 2025 at 7:42 PM, Priya Sharma <priya.sharma@meridiandental.co.uk> wrote:\n> Hi Tom,\n>\n> Great, I've booked us in at the Cinnamon Club for 7:30 on Saturday under 'Sharma, 8 people'. Can you let Raj and Meena know? Also did you ever find your sister's number — I still owe her for the concert tickets!\n>\n> See you Saturday,\n> Priya x",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Hi Priya — I think you&#x27;ve got the wrong Tom! No Saturday dinner in my diary and I don&#x27;t have a sister. Hope you find the right person before the booking. All the best, Tom Gallagher (Whitfield Carter LLP)</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Apr 17, 2025 at 7:42 PM, Priya Sharma &lt;priya.sharma@meridiandental.co.uk&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Hi Tom,<br><br>Great, I&#x27;ve booked us in at the Cinnamon Club for 7:30 on Saturday under &#x27;Sharma, 8 people&#x27;. Can you let Raj and Meena know? Also did you ever find your sister&#x27;s number — I still owe her for the concert tickets!<br><br>See you Saturday,<br>Priya x</div></blockquote></div></div>"
+    }
+  ]
+}

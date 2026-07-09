@@ -1,0 +1,75 @@
+{
+  "id": "e3756e713013fe66",
+  "messages": [
+    {
+      "id": "e3756e713013fe66",
+      "snippet": "Daniel, Sofia, My note on the Denham Lewis mark-up is attached. The headline is the liability cap — ",
+      "subject": "Harborlight mark-up — points for decision",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.okonkwo@caspiantech.io",
+        "sofia.trevino@caspiantech.io"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2025-11-21T09:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Daniel, Sofia,\n\nMy note on the Denham Lewis mark-up is attached. The headline is the liability cap — they've gone to 200% and carved out data protection entirely. My recommendation is to land at 150% of trailing 12-month fees and resist the carve-out. On payment, I'd hold net 30. On the SLA, Operations have confirmed 99.7% is sustainable but 99.9% is not, so we should offer 99.7% with an enhanced service-credit table.\n\nCan you confirm the cap and payment positions and I'll prepare v3?\n\nKind regards,\nJames Osei\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nT +44 (0)20 7946 0100 | whitfieldcarter.com",
+      "htmlBody": "<div dir=\"ltr\">Daniel, Sofia,<br><br>My note on the Denham Lewis mark-up is attached. The headline is the liability cap — they&#x27;ve gone to 200% and carved out data protection entirely. My recommendation is to land at 150% of trailing 12-month fees and resist the carve-out. On payment, I&#x27;d hold net 30. On the SLA, Operations have confirmed 99.7% is sustainable but 99.9% is not, so we should offer 99.7% with an enhanced service-credit table.<br><br>Can you confirm the cap and payment positions and I&#x27;ll prepare v3?<br><br>Kind regards,<br>James Osei<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0100 | whitfieldcarter.com</div>",
+      "attachmentIds": [
+        "NSQhs7LFyR4D7Tf3X6B0srkPMmC9NcpBUEs19Hc6kzo"
+      ],
+      "attachments": [
+        {
+          "filename": "Caspian_Harborlight_AdviceNote_v2review.docx",
+          "id": "NSQhs7LFyR4D7Tf3X6B0srkPMmC9NcpBUEs19Hc6kzo",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "33bb8a93ab2794ca",
+      "snippet": "James, Agreed on all three. 150% cap is acceptable to the board; resist the data-protection carve-ou",
+      "subject": "RE: Harborlight mark-up — points for decision",
+      "sender": "sofia.trevino@caspiantech.io",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "daniel.okonkwo@caspiantech.io",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-24T11:15:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nAgreed on all three. 150% cap is acceptable to the board; resist the data-protection carve-out but we can live with a separate higher sub-limit for data breaches if they insist. Hold net 30. 99.7% on the SLA is fine — Theo's team confirmed the same number to me. Please prepare v3.\n\nSofia Trevino\nGeneral Counsel, Caspian Technologies\n\nOn Fri, Nov 21, 2025 at 9:30 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Daniel, Sofia,\n>\n> My note on the Denham Lewis mark-up is attached. The headline is the liability cap — they've gone to 200% and carved out data protection entirely. My recommendation is to land at 150% of trailing 12-month fees and resist the carve-out. On payment, I'd hold net 30. On the SLA, Operations have confirmed 99.7% is sustainable but 99.9% is not, so we should offer 99.7% with an enhanced service-credit table.\n>\n> Can you confirm the cap and payment positions and I'll prepare v3?\n>\n> Kind regards,\n> James Osei\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> T +44 (0)20 7946 0100 | whitfieldcarter.com",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Agreed on all three. 150% cap is acceptable to the board; resist the data-protection carve-out but we can live with a separate higher sub-limit for data breaches if they insist. Hold net 30. 99.7% on the SLA is fine — Theo&#x27;s team confirmed the same number to me. Please prepare v3.<br><br>Sofia Trevino<br>General Counsel, Caspian Technologies</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Nov 21, 2025 at 9:30 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Daniel, Sofia,<br><br>My note on the Denham Lewis mark-up is attached. The headline is the liability cap — they&#x27;ve gone to 200% and carved out data protection entirely. My recommendation is to land at 150% of trailing 12-month fees and resist the carve-out. On payment, I&#x27;d hold net 30. On the SLA, Operations have confirmed 99.7% is sustainable but 99.9% is not, so we should offer 99.7% with an enhanced service-credit table.<br><br>Can you confirm the cap and payment positions and I&#x27;ll prepare v3?<br><br>Kind regards,<br>James Osei<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0100 | whitfieldcarter.com</div></blockquote></div></div>"
+    },
+    {
+      "id": "ede4c27934987592",
+      "snippet": "+1. Commercially I'd rather concede net 45 than move off 150% on the cap, so keep the cap as the pri",
+      "subject": "RE: Harborlight mark-up — points for decision",
+      "sender": "daniel.okonkwo@caspiantech.io",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "sofia.trevino@caspiantech.io"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-24T13:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "+1. Commercially I'd rather concede net 45 than move off 150% on the cap, so keep the cap as the priority if it comes to a trade. Thanks.\n\nDaniel\n\nOn Mon, Nov 24, 2025 at 11:15 AM, Sofia Trevino <sofia.trevino@caspiantech.io> wrote:\n> James,\n>\n> Agreed on all three. 150% cap is acceptable to the board; resist the data-protection carve-out but we can live with a separate higher sub-limit for data breaches if they insist. Hold net 30. 99.7% on the SLA is fine — Theo's team confirmed the same number to me. Please prepare v3.\n>\n> Sofia Trevino\n> General Counsel, Caspian Technologies\n>\n> On Fri, Nov 21, 2025 at 9:30 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > Daniel, Sofia,\n> >\n> > My note on the Denham Lewis mark-up is attached. The headline is the liability cap — they've gone to 200% and carved out data protection entirely. My recommendation is to land at 150% of trailing 12-month fees and resist the carve-out. On payment, I'd hold net 30. On the SLA, Operations have confirmed 99.7% is sustainable but 99.9% is not, so we should offer 99.7% with an enhanced service-credit table.\n> >\n> > Can you confirm the cap and payment positions and I'll prepare v3?\n> >\n> > Kind regards,\n> > James Osei\n> > Whitfield Carter LLP\n> > 22 Bishopsgate, London EC2N 4BQ\n> > T +44 (0)20 7946 0100 | whitfieldcarter.com",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">+1. Commercially I&#x27;d rather concede net 45 than move off 150% on the cap, so keep the cap as the priority if it comes to a trade. Thanks.<br><br>Daniel</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Nov 24, 2025 at 11:15 AM, Sofia Trevino &lt;sofia.trevino@caspiantech.io&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Agreed on all three. 150% cap is acceptable to the board; resist the data-protection carve-out but we can live with a separate higher sub-limit for data breaches if they insist. Hold net 30. 99.7% on the SLA is fine — Theo&#x27;s team confirmed the same number to me. Please prepare v3.<br><br>Sofia Trevino<br>General Counsel, Caspian Technologies</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Nov 21, 2025 at 9:30 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Daniel, Sofia,<br><br>My note on the Denham Lewis mark-up is attached. The headline is the liability cap — they&#x27;ve gone to 200% and carved out data protection entirely. My recommendation is to land at 150% of trailing 12-month fees and resist the carve-out. On payment, I&#x27;d hold net 30. On the SLA, Operations have confirmed 99.7% is sustainable but 99.9% is not, so we should offer 99.7% with an enhanced service-credit table.<br><br>Can you confirm the cap and payment positions and I&#x27;ll prepare v3?<br><br>Kind regards,<br>James Osei<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>T +44 (0)20 7946 0100 | whitfieldcarter.com</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

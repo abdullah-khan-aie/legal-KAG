@@ -1,0 +1,37 @@
+{
+  "id": "215ad2847869b90d",
+  "messages": [
+    {
+      "id": "215ad2847869b90d",
+      "snippet": "Dear Mr Gallagher, Please find served by email the Defence in this matter. A hard copy follows. We w",
+      "subject": "Defence served - HT-2026-000214",
+      "sender": "lauren.wolfe@thackeraywolfe.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-03-18T16:50:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Dear Mr Gallagher,\n\nPlease find served by email the Defence in this matter. A hard copy follows. We will be ready to discuss directions at the CMC on 19 March.\n\nLauren Wolfe\nThackeray Wolfe LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Mr Gallagher,<br><br>Please find served by email the Defence in this matter. A hard copy follows. We will be ready to discuss directions at the CMC on 19 March.<br><br>Lauren Wolfe<br>Thackeray Wolfe LLP</div>"
+    },
+    {
+      "id": "d339e3f06ff07d5a",
+      "snippet": "Sarah, Richard, Defence in. As expected they plead the 1,200 mg/l design basis, the standard-terms c",
+      "subject": "RE: Defence served - HT-2026-000214",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "richard.calloway@brackengroup.com"
+      ],
+      "date": "2026-03-19T08:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Sarah, Richard,\n\nDefence in. As expected they plead the 1,200 mg/l design basis, the standard-terms cap at £1.48m, an exclusion of consequential loss (the £558k lost production), and a maintenance allegation. Nothing we didn't anticipate. The data-pack disclosure remains our answer on the first point. CMC is this afternoon - I'll report after.\n\nTom Gallagher\n\nTom Gallagher\nAssociate | Whitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\n\nOn Wed, Mar 18, 2026 at 4:50 PM, Lauren Wolfe <lauren.wolfe@thackeraywolfe.com> wrote:\n> Dear Mr Gallagher,\n>\n> Please find served by email the Defence in this matter. A hard copy follows. We will be ready to discuss directions at the CMC on 19 March.\n>\n> Lauren Wolfe\n> Thackeray Wolfe LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah, Richard,<br><br>Defence in. As expected they plead the 1,200 mg/l design basis, the standard-terms cap at £1.48m, an exclusion of consequential loss (the £558k lost production), and a maintenance allegation. Nothing we didn&#x27;t anticipate. The data-pack disclosure remains our answer on the first point. CMC is this afternoon - I&#x27;ll report after.<br><br>Tom Gallagher<br><br>Tom Gallagher<br>Associate | Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Mar 18, 2026 at 4:50 PM, Lauren Wolfe &lt;lauren.wolfe@thackeraywolfe.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Mr Gallagher,<br><br>Please find served by email the Defence in this matter. A hard copy follows. We will be ready to discuss directions at the CMC on 19 March.<br><br>Lauren Wolfe<br>Thackeray Wolfe LLP</div></blockquote></div></div>"
+    }
+  ]
+}

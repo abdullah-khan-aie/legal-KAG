@@ -1,0 +1,45 @@
+{
+  "id": "15ea8f049383d7ae",
+  "messages": [
+    {
+      "id": "15ea8f049383d7ae",
+      "snippet": "Liam, For Model C disclosure by 15 May we need: the raw availability monitoring exports for Jan–Oct ",
+      "subject": "Disclosure — availability data and the document list",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "liam.okafor@brightwateranalytics.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-05-05T11:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Liam,\n\nFor Model C disclosure by 15 May we need: the raw availability monitoring exports for Jan–Oct 2025, the Schedule 4 methodology note, the 14 June SSO incident ticket, and the Milestone 2 invoice. I'm building our List of Documents now (the disclosure index) and our updated Schedule of Loss for the bundle. Can your team get me the monitoring exports by Friday?\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Liam,<br><br>For Model C disclosure by 15 May we need: the raw availability monitoring exports for Jan–Oct 2025, the Schedule 4 methodology note, the 14 June SSO incident ticket, and the Milestone 2 invoice. I&#x27;m building our List of Documents now (the disclosure index) and our updated Schedule of Loss for the bundle. Can your team get me the monitoring exports by Friday?<br><br>James</div>"
+    },
+    {
+      "id": "251c0998d93f93e2",
+      "snippet": "James, Yes — monitoring exports and the SSO ticket will be with you Thursday. The exports already ap",
+      "subject": "RE: Disclosure — availability data and the document list",
+      "sender": "liam.okafor@brightwateranalytics.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2026-05-06T09:05:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James,\n\nYes — monitoring exports and the SSO ticket will be with you Thursday. The exports already apply the maintenance/network exclusions, so they show >99.5% every month. The invoice I'll resend.\n\nLiam\n\nOn Tue, May 5, 2026 at 11:30 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Liam,\n>\n> For Model C disclosure by 15 May we need: the raw availability monitoring exports for Jan–Oct 2025, the Schedule 4 methodology note, the 14 June SSO incident ticket, and the Milestone 2 invoice. I'm building our List of Documents now (the disclosure index) and our updated Schedule of Loss for the bundle. Can your team get me the monitoring exports by Friday?\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>Yes — monitoring exports and the SSO ticket will be with you Thursday. The exports already apply the maintenance/network exclusions, so they show &gt;99.5% every month. The invoice I&#x27;ll resend.<br><br>Liam</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Tue, May 5, 2026 at 11:30 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Liam,<br><br>For Model C disclosure by 15 May we need: the raw availability monitoring exports for Jan–Oct 2025, the Schedule 4 methodology note, the 14 June SSO incident ticket, and the Milestone 2 invoice. I&#x27;m building our List of Documents now (the disclosure index) and our updated Schedule of Loss for the bundle. Can your team get me the monitoring exports by Friday?<br><br>James</div></blockquote></div></div>"
+    }
+  ]
+}

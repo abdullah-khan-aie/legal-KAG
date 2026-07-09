@@ -1,0 +1,39 @@
+{
+  "id": "a33835cd31f2db96",
+  "messages": [
+    {
+      "id": "a33835cd31f2db96",
+      "snippet": "Tom, Sarah, The Tribunal has sent through Geoff's ET1 (case 2601839/2026) - claims are s.103A automa",
+      "subject": "Hartnell - ET1 received, ET3 due",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-18T11:50:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Tom, Sarah,\n\nThe Tribunal has sent through Geoff's ET1 (case 2601839/2026) - claims are s.103A automatic unfair dismissal, s.98 unfair dismissal, s.47B detriment and age discrimination, as expected. The ET3 response is due by 17 March. Given we expect to settle, I'll prepare protective Grounds of Resistance to file in good time. Diarised.\n\nElena\n\nElena Marchetti\nAssociate | Employment\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Tom, Sarah,<br><br>The Tribunal has sent through Geoff&#x27;s ET1 (case 2601839/2026) - claims are s.103A automatic unfair dismissal, s.98 unfair dismissal, s.47B detriment and age discrimination, as expected. The ET3 response is due by 17 March. Given we expect to settle, I&#x27;ll prepare protective Grounds of Resistance to file in good time. Diarised.<br><br>Elena<br><br>Elena Marchetti<br>Associate | Employment<br>Whitfield Carter LLP</div>"
+    },
+    {
+      "id": "7b0da75685cb1889",
+      "snippet": "Thanks Elena. Yes, file protectively - keep the Polkey and mitigation points in and add a line notin",
+      "subject": "RE: Hartnell - ET1 received, ET3 due",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2026-02-18T15:12:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Thanks Elena. Yes, file protectively - keep the Polkey and mitigation points in and add a line noting the settlement is being finalised. We don't want to miss the deadline if the paperwork slips.\n\nTom\n\nTom Gallagher\nAssociate | Employment\nWhitfield Carter LLP\nT: 020 7946 0021\n\nOn Wed, Feb 18, 2026 at 11:50 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Tom, Sarah,\n>\n> The Tribunal has sent through Geoff's ET1 (case 2601839/2026) - claims are s.103A automatic unfair dismissal, s.98 unfair dismissal, s.47B detriment and age discrimination, as expected. The ET3 response is due by 17 March. Given we expect to settle, I'll prepare protective Grounds of Resistance to file in good time. Diarised.\n>\n> Elena\n>\n> Elena Marchetti\n> Associate | Employment\n> Whitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks Elena. Yes, file protectively - keep the Polkey and mitigation points in and add a line noting the settlement is being finalised. We don&#x27;t want to miss the deadline if the paperwork slips.<br><br>Tom<br><br>Tom Gallagher<br>Associate | Employment<br>Whitfield Carter LLP<br>T: 020 7946 0021</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Feb 18, 2026 at 11:50 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Tom, Sarah,<br><br>The Tribunal has sent through Geoff&#x27;s ET1 (case 2601839/2026) - claims are s.103A automatic unfair dismissal, s.98 unfair dismissal, s.47B detriment and age discrimination, as expected. The ET3 response is due by 17 March. Given we expect to settle, I&#x27;ll prepare protective Grounds of Resistance to file in good time. Diarised.<br><br>Elena<br><br>Elena Marchetti<br>Associate | Employment<br>Whitfield Carter LLP</div></blockquote></div></div>"
+    }
+  ]
+}

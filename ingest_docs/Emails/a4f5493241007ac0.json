@@ -1,0 +1,48 @@
+{
+  "id": "a4f5493241007ac0",
+  "messages": [
+    {
+      "id": "a4f5493241007ac0",
+      "snippet": "Sarah, As flagged on the call, we've tripped both the leverage and DSCR covenants at the September q",
+      "subject": "Harledge / Pennine covenant breach - need your help urgently",
+      "sender": "fiona.carrick@harledgefoods.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-10-08T09:12:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Sarah,\n\nAs flagged on the call, we've tripped both the leverage and DSCR covenants at the September quarter-end. Pennine's restructuring team are circling and we need a standstill while we put a plan together. Can you take this on? Robert wants us moving this week.\n\nFiona\n\nFiona Carrick | CFO | Harledge Foods Group Limited",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>As flagged on the call, we&#x27;ve tripped both the leverage and DSCR covenants at the September quarter-end. Pennine&#x27;s restructuring team are circling and we need a standstill while we put a plan together. Can you take this on? Robert wants us moving this week.<br><br>Fiona<br><br>Fiona Carrick | CFO | Harledge Foods Group Limited</div>"
+    },
+    {
+      "id": "5e899bba5b65deb1",
+      "snippet": "Fiona, Yes, we'd be glad to act. I've attached our engagement letter setting out scope, team and fee",
+      "subject": "RE: Harledge / Pennine covenant breach - need your help urgently",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "fiona.carrick@harledgefoods.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-09T15:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Fiona,\n\nYes, we'd be glad to act. I've attached our engagement letter setting out scope, team and fees - James Osei will run the day-to-day with Elena Marchetti supporting. Please sign and return and we'll get straight onto the standstill with Pennine.\n\nWe should also schedule a short call on directors' duties given where things are.\n\nSarah\n\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.\n\nOn Wed, Oct 8, 2025 at 9:12 AM, Fiona Carrick <fiona.carrick@harledgefoods.com> wrote:\n> Sarah,\n>\n> As flagged on the call, we've tripped both the leverage and DSCR covenants at the September quarter-end. Pennine's restructuring team are circling and we need a standstill while we put a plan together. Can you take this on? Robert wants us moving this week.\n>\n> Fiona\n>\n> Fiona Carrick | CFO | Harledge Foods Group Limited",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Fiona,<br><br>Yes, we&#x27;d be glad to act. I&#x27;ve attached our engagement letter setting out scope, team and fees - James Osei will run the day-to-day with Elena Marchetti supporting. Please sign and return and we&#x27;ll get straight onto the standstill with Pennine.<br><br>We should also schedule a short call on directors&#x27; duties given where things are.<br><br>Sarah<br><br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 8, 2025 at 9:12 AM, Fiona Carrick &lt;fiona.carrick@harledgefoods.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>As flagged on the call, we&#x27;ve tripped both the leverage and DSCR covenants at the September quarter-end. Pennine&#x27;s restructuring team are circling and we need a standstill while we put a plan together. Can you take this on? Robert wants us moving this week.<br><br>Fiona<br><br>Fiona Carrick | CFO | Harledge Foods Group Limited</div></blockquote></div></div>",
+      "attachmentIds": [
+        "O0Y8nVSoWAWpcdMQ-1yEl2kxyh3gFcDDF-04gBLippU"
+      ],
+      "attachments": [
+        {
+          "filename": "ProjectHarbor_EngagementLetter.docx",
+          "id": "O0Y8nVSoWAWpcdMQ-1yEl2kxyh3gFcDDF-04gBLippU",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

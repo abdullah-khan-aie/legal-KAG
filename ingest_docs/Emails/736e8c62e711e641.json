@@ -1,0 +1,52 @@
+{
+  "id": "736e8c62e711e641",
+  "messages": [
+    {
+      "id": "736e8c62e711e641",
+      "snippet": "Charles, Good to speak earlier. As discussed, I attach the mutual non-disclosure agreement for the p",
+      "subject": "Project Atlas - mutual NDA for signature",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "charles.aldous@kingsfordgroup.com"
+      ],
+      "ccRecipients": [
+        "nathan.reilly@kingsfordgroup.com"
+      ],
+      "date": "2025-10-13T09:12:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Charles,\n\nGood to speak earlier. As discussed, I attach the mutual non-disclosure agreement for the proposed acquisition of Brampton Leisure. It is on standard terms - 2 year duration, mutual, with a 12-month non-solicit of their senior team. Once you are happy, please arrange signature and we will get it counter-signed by Brampton so we can open the data room.\n\nKind regards,\nSarah\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Charles,<br><br>Good to speak earlier. As discussed, I attach the mutual non-disclosure agreement for the proposed acquisition of Brampton Leisure. It is on standard terms - 2 year duration, mutual, with a 12-month non-solicit of their senior team. Once you are happy, please arrange signature and we will get it counter-signed by Brampton so we can open the data room.<br><br>Kind regards,<br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "KV3-Jir0Ct3W1yTbJS9OSgDJm9JNC6TVmxpkCvrcf70"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Atlas_NDA.docx",
+          "id": "KV3-Jir0Ct3W1yTbJS9OSgDJm9JNC6TVmxpkCvrcf70",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "b5324e823f6189b2",
+      "snippet": "Sarah, Thanks - this looks fine to me. Nathan will sign on our behalf this afternoon and send it acr",
+      "subject": "RE: Project Atlas - mutual NDA for signature",
+      "sender": "charles.aldous@kingsfordgroup.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "nathan.reilly@kingsfordgroup.com"
+      ],
+      "date": "2025-10-13T14:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Sarah,\n\nThanks - this looks fine to me. Nathan will sign on our behalf this afternoon and send it across to Brampton's side. Keen to move quickly while we have their attention.\n\nCharles\n\nOn Mon, Oct 13, 2025 at 9:12 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Charles,\n>\n> Good to speak earlier. As discussed, I attach the mutual non-disclosure agreement for the proposed acquisition of Brampton Leisure. It is on standard terms - 2 year duration, mutual, with a 12-month non-solicit of their senior team. Once you are happy, please arrange signature and we will get it counter-signed by Brampton so we can open the data room.\n>\n> Kind regards,\n> Sarah\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> This email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Sarah,<br><br>Thanks - this looks fine to me. Nathan will sign on our behalf this afternoon and send it across to Brampton&#x27;s side. Keen to move quickly while we have their attention.<br><br>Charles</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Oct 13, 2025 at 9:12 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Charles,<br><br>Good to speak earlier. As discussed, I attach the mutual non-disclosure agreement for the proposed acquisition of Brampton Leisure. It is on standard terms - 2 year duration, mutual, with a 12-month non-solicit of their senior team. Once you are happy, please arrange signature and we will get it counter-signed by Brampton so we can open the data room.<br><br>Kind regards,<br>Sarah<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

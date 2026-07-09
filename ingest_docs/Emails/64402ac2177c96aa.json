@@ -1,0 +1,43 @@
+{
+  "id": "64402ac2177c96aa",
+  "messages": [
+    {
+      "id": "64402ac2177c96aa",
+      "snippet": "Sarah, We're at agreed form on the lease after accepting the tenant's three points (six-month break ",
+      "subject": "Pinnacle House - status and engrossment",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2024-08-23T10:30:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Sarah,\n\nWe're at agreed form on the lease after accepting the tenant's three points (six-month break notice, 28-day forfeiture, 3% interest). Client has approved. I'll engross the lease and rent deposit deed and serve the contracting-out notice this week, aiming for exchange w/c 26 August and completion on 29 September. Lender consent from Clydesford is the only open item.\n\nElena",
+      "htmlBody": "<div dir=\"ltr\">Sarah,<br><br>We&#x27;re at agreed form on the lease after accepting the tenant&#x27;s three points (six-month break notice, 28-day forfeiture, 3% interest). Client has approved. I&#x27;ll engross the lease and rent deposit deed and serve the contracting-out notice this week, aiming for exchange w/c 26 August and completion on 29 September. Lender consent from Clydesford is the only open item.<br><br>Elena</div>"
+    },
+    {
+      "id": "5925fd4f2ec8e183",
+      "snippet": "Good. Chase the bank consent - that's the critical path. Otherwise content. Sarah",
+      "subject": "RE: Pinnacle House - status and engrossment",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2024-08-23T12:05:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Good. Chase the bank consent - that's the critical path. Otherwise content.\n\nSarah\n\nOn Fri, Aug 23, 2024 at 10:30 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Sarah,\n>\n> We're at agreed form on the lease after accepting the tenant's three points (six-month break notice, 28-day forfeiture, 3% interest). Client has approved. I'll engross the lease and rent deposit deed and serve the contracting-out notice this week, aiming for exchange w/c 26 August and completion on 29 September. Lender consent from Clydesford is the only open item.\n>\n> Elena",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Good. Chase the bank consent - that&#x27;s the critical path. Otherwise content.<br><br>Sarah</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Aug 23, 2024 at 10:30 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Sarah,<br><br>We&#x27;re at agreed form on the lease after accepting the tenant&#x27;s three points (six-month break notice, 28-day forfeiture, 3% interest). Client has approved. I&#x27;ll engross the lease and rent deposit deed and serve the contracting-out notice this week, aiming for exchange w/c 26 August and completion on 29 September. Lender consent from Clydesford is the only open item.<br><br>Elena</div></blockquote></div></div>"
+    }
+  ]
+}

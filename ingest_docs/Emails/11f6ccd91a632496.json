@@ -1,0 +1,53 @@
+{
+  "id": "11f6ccd91a632496",
+  "messages": [
+    {
+      "id": "11f6ccd91a632496",
+      "snippet": "Gregory, For the board pack - the royalty and milestone model reflecting the current terms (upfront,",
+      "subject": "Project Vertex - royalty & milestone model",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "gregory.mercer@hartwellpharma.com"
+      ],
+      "ccRecipients": [
+        "naomi.adeyemi@hartwellpharma.com"
+      ],
+      "date": "2025-08-22T15:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Gregory,\n\nFor the board pack - the royalty and milestone model reflecting the current terms (upfront, milestones to £54m, tiered royalties 6/9/12%). The projection tab is illustrative on net sales; the milestone and assumptions tabs set out the contractual triggers. Shout if you'd like the net-sales ramp flexed.\n\nJames",
+      "htmlBody": "<div dir=\"ltr\">Gregory,<br><br>For the board pack - the royalty and milestone model reflecting the current terms (upfront, milestones to £54m, tiered royalties 6/9/12%). The projection tab is illustrative on net sales; the milestone and assumptions tabs set out the contractual triggers. Shout if you&#x27;d like the net-sales ramp flexed.<br><br>James</div>",
+      "attachmentIds": [
+        "FGdEHAheh641w7b0LwOStjBL1XMes8vYvpkB5b1Y5cE"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Vertex_RoyaltyModel.xlsx",
+          "id": "FGdEHAheh641w7b0LwOStjBL1XMes8vYvpkB5b1Y5cE",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "207374b398e17f29",
+      "snippet": "Thanks James - this is exactly what I needed for Tuesday's board. One question: does the 50% generic",
+      "subject": "RE: Project Vertex - royalty & milestone model",
+      "sender": "gregory.mercer@hartwellpharma.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "naomi.adeyemi@hartwellpharma.com"
+      ],
+      "date": "2025-08-22T18:02:00Z",
+      "labelIds": [
+        "INBOX",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Thanks James - this is exactly what I needed for Tuesday's board. One question: does the 50% generic reduction apply per country or globally? Want to make sure the model footnote matches the drafting.\n\nGregory\n\nOn Fri, Aug 22, 2025 at 3:40 PM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Gregory,\n>\n> For the board pack - the royalty and milestone model reflecting the current terms (upfront, milestones to £54m, tiered royalties 6/9/12%). The projection tab is illustrative on net sales; the milestone and assumptions tabs set out the contractual triggers. Shout if you'd like the net-sales ramp flexed.\n>\n> James",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks James - this is exactly what I needed for Tuesday&#x27;s board. One question: does the 50% generic reduction apply per country or globally? Want to make sure the model footnote matches the drafting.<br><br>Gregory</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Aug 22, 2025 at 3:40 PM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Gregory,<br><br>For the board pack - the royalty and milestone model reflecting the current terms (upfront, milestones to £54m, tiered royalties 6/9/12%). The projection tab is illustrative on net sales; the milestone and assumptions tabs set out the contractual triggers. Shout if you&#x27;d like the net-sales ramp flexed.<br><br>James</div></blockquote></div></div>"
+    }
+  ]
+}

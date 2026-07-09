@@ -1,0 +1,53 @@
+{
+  "id": "211f003d71f4b675",
+  "messages": [
+    {
+      "id": "211f003d71f4b675",
+      "snippet": "Rachel, Our client has approved the attached term sheet. Subject to contract as usual, but the bindi",
+      "subject": "Project Lumen - Term Sheet for company sign-off",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "rachel.hargrove@hargroveassoc.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "margaret.holloway@crestviewcapital.com"
+      ],
+      "date": "2023-11-22T09:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Rachel,\n\nOur client has approved the attached term sheet. Subject to contract as usual, but the binding provisions (confidentiality, the 45-day exclusivity, costs) are intended to bite on signature. Grateful if you could take your client and the founders through it - we'd like signature by the lapse date of 8 December.\n\nBest,\nJames\n\n--\nWhitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Rachel,<br><br>Our client has approved the attached term sheet. Subject to contract as usual, but the binding provisions (confidentiality, the 45-day exclusivity, costs) are intended to bite on signature. Grateful if you could take your client and the founders through it - we&#x27;d like signature by the lapse date of 8 December.<br><br>Best,<br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "OH_c-nvaUny0LH-H_35x4GiOLc96bjaPQakxr35--X8"
+      ],
+      "attachments": [
+        {
+          "filename": "D1_TermSheet_SeriesB_Luminos.docx",
+          "id": "OH_c-nvaUny0LH-H_35x4GiOLc96bjaPQakxr35--X8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "30e72ed3cdb51019",
+      "snippet": "James, The company and both founders are signing today, 27 November. Exclusivity at 45 days is accep",
+      "subject": "RE: Project Lumen - Term Sheet for company sign-off",
+      "sender": "rachel.hargrove@hargroveassoc.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "priya@luminos.ai",
+        "david.lin@hargroveassoc.com"
+      ],
+      "date": "2023-11-27T16:20:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "James,\n\nThe company and both founders are signing today, 27 November. Exclusivity at 45 days is accepted. We'll target the documentation timetable to bring completion in by the end of March.\n\nRachel\n\nOn Wed, Nov 22, 2023 at 9:05 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Rachel,\n>\n> Our client has approved the attached term sheet. Subject to contract as usual, but the binding provisions (confidentiality, the 45-day exclusivity, costs) are intended to bite on signature. Grateful if you could take your client and the founders through it - we'd like signature by the lapse date of 8 December.\n>\n> Best,\n> James\n>\n> --\n> Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">James,<br><br>The company and both founders are signing today, 27 November. Exclusivity at 45 days is accepted. We&#x27;ll target the documentation timetable to bring completion in by the end of March.<br><br>Rachel</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Nov 22, 2023 at 9:05 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Rachel,<br><br>Our client has approved the attached term sheet. Subject to contract as usual, but the binding provisions (confidentiality, the 45-day exclusivity, costs) are intended to bite on signature. Grateful if you could take your client and the founders through it - we&#x27;d like signature by the lapse date of 8 December.<br><br>Best,<br>James<br><br>--<br>Whitfield Carter LLP | 22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}
