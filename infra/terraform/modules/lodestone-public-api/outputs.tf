@@ -1,6 +1,6 @@
 output "api_endpoint" {
-  description = "Public HTTPS URL for the Lodestone app."
-  value       = var.enabled ? aws_apigatewayv2_stage.default[0].invoke_url : null
+  description = "Public HTTPS URL for the Lodestone app (REST API stage invoke URL, e.g. https://<id>.execute-api.<region>.amazonaws.com/prod)."
+  value       = var.enabled ? aws_api_gateway_stage.default[0].invoke_url : null
 }
 
 output "nlb_dns_name" {

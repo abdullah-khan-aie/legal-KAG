@@ -95,6 +95,7 @@ module "lodestone_public_api" {
   source = "../modules/lodestone-public-api"
 
   name            = local.name
+  region          = var.region
   enabled         = var.lodestone_app_enabled && var.lodestone_public_api_enabled
   vpc_id          = module.network.vpc_id
   subnet_ids      = [module.network.public_subnet_id]
