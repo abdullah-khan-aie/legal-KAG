@@ -78,8 +78,6 @@ async def generate_chat_title(messages: list[dict[str, str]], settings: Settings
         model=settings.llm_model,
         temperature=0.2,
         max_tokens=32,
-        max_rate=settings.llm_max_rate,
-        time_period=settings.llm_time_period,
         name=f"chat_title:{settings.bedrock_region}:{settings.llm_model}",
     )
     try:
