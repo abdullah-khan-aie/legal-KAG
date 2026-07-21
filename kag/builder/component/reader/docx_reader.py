@@ -120,8 +120,8 @@ class DocxReader(ReaderABC):
             chunks.append(chunk)
         return chunks
 
-    @staticmethod
-    def _get_heading_level(paragraph: Paragraph) -> tuple[int, bool]:
+    @classmethod
+    def _get_heading_level(cls, paragraph: Paragraph) -> tuple[int, bool]:
         """Determine a paragraph's heading level and whether it is a true heading.
 
         Args:
@@ -172,14 +172,16 @@ class DocxReader(ReaderABC):
                     except ValueError:
                         pass
 
-        # 3. Check for special formatting as fallback - Less reliable
-        if paragraph.runs:
-            first_run = paragraph.runs[0]
+        # 3. Check for special formatting as fallback - Less reliable.
+        # Use the tracked-change/hyperlink-aware walker so a heading whose first
+        # run is wrapped in <w:ins>/<w:del>/<w:hyperlink> is not missed here.
+        first_run = next((run for run, _ in cls._iter_paragraph_runs(paragraph)), None)
+        if first_run is not None:
             if first_run.bold or (
                 first_run.font.size and first_run.font.size > 12 * 20
             ):  # Size in twips (20 twips = 1 point)
                 # If text is numbered (e.g., "1.", "1.1", "1.1.1")
-                text = paragraph.text.strip()
+                text = cls._paragraph_plain_text(paragraph).strip()
                 if text and text[0].isdigit():
                     # Count the number of dot-separated numbers
                     parts = text.split(" ", 1)[0].rstrip(".")
@@ -189,6 +191,50 @@ class DocxReader(ReaderABC):
                 return 1, False
 
         return 0, False
+
+    # WordprocessingML main namespace, used to identify run wrappers by tag.
+    _W_NS = "http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+
+    @classmethod
+    def _iter_paragraph_runs(cls, paragraph: Paragraph):
+        """Yield ``(run, change)`` for every run in the paragraph, in document order.
+
+        ``paragraph.runs`` only returns ``<w:r>`` elements that are *direct*
+        children of ``<w:p>``. Runs nested inside ``<w:ins>`` (tracked insertion),
+        ``<w:del>`` (tracked deletion) or ``<w:hyperlink>`` are silently dropped,
+        so redline edits and linked text vanish. This walks the paragraph body
+        recursively and returns each run together with its change type
+        (``"ins"``, ``"del"`` or ``None``), preserving reading order.
+
+        Args:
+            paragraph: A python-docx paragraph object.
+        """
+        from docx.text.run import Run
+
+        def walk(parent, change):
+            for child in parent:
+                tag = child.tag.split("}")[-1]
+                if tag == "r":
+                    yield Run(child, paragraph), change
+                elif tag == "ins":
+                    yield from walk(child, "ins")
+                elif tag == "del":
+                    yield from walk(child, "del")
+                elif tag == "hyperlink":
+                    # Hyperlink is not itself a change; keep the enclosing change.
+                    yield from walk(child, change)
+
+        yield from walk(paragraph._element, None)
+
+    @classmethod
+    def _paragraph_plain_text(cls, paragraph: Paragraph) -> str:
+        """Concatenate the untagged text of every run, including tracked/linked runs.
+
+        Used where a paragraph's raw text is needed (empty-paragraph detection,
+        heading titles) so that a fully tracked-change paragraph is not treated
+        as empty and dropped.
+        """
+        return "".join(cls._extract_run_text(run) for run, _ in cls._iter_paragraph_runs(paragraph))
 
     @staticmethod
     def _extract_run_text(run) -> str:
@@ -202,7 +248,9 @@ class DocxReader(ReaderABC):
         # Handle special elements
         if hasattr(run, "_element") and run._element is not None:
             for elem in run._element:
-                if elem.tag.endswith("tab"):
+                if elem.tag.endswith("delText"):  # tracked-deletion text (not <w:t>)
+                    text += elem.text or ""
+                elif elem.tag.endswith("tab"):
                     text += "\t"
                 elif elem.tag.endswith("br"):  # Line break
                     text += "\n"
@@ -250,7 +298,7 @@ class DocxReader(ReaderABC):
             if paragraph.alignment in alignment_map:
                 text_parts.append(f"[align={alignment_map[paragraph.alignment]}]")
 
-        for run in paragraph.runs:
+        for run, change in self._iter_paragraph_runs(paragraph):
             run_text = self._extract_run_text(run)
             if run_text.strip():
                 formatted_text = run_text
@@ -293,6 +341,12 @@ class DocxReader(ReaderABC):
                     # Highlight color
                     if hasattr(run.font, "highlight_color") and run.font.highlight_color:
                         formatted_text = f"<mark>{formatted_text}</mark>"
+
+                # Tag tracked changes inline so redline edits survive ingestion.
+                if change == "ins":
+                    formatted_text = f"[ins: {formatted_text}]"
+                elif change == "del":
+                    formatted_text = f"[del: {formatted_text}]"
 
                 text_parts.append(formatted_text)
 
@@ -420,7 +474,9 @@ class DocxReader(ReaderABC):
                     heading_level, is_real_heading = self._get_heading_level(para)
                     is_list = bool(para._element.pPr and para._element.pPr.numPr)
 
-                    text = para.text.strip()
+                    # Plain text incl. tracked-change/hyperlink runs, so a fully
+                    # redlined paragraph is not seen as empty and skipped below.
+                    text = self._paragraph_plain_text(para).strip()
 
                     # Check for footnotes in the paragraph
                     footnotes = []

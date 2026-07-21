@@ -1,5 +1,5 @@
-from .bedrock_claude_client import BedrockClaudeClient
+from .anthropic_client import AnthropicLLMClient
 
 __all__ = [
-    "BedrockClaudeClient",
+    "AnthropicLLMClient",
 ]

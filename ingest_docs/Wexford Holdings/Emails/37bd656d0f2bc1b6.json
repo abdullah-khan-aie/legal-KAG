@@ -1,0 +1,74 @@
+{
+  "id": "37bd656d0f2bc1b6",
+  "messages": [
+    {
+      "id": "37bd656d0f2bc1b6",
+      "snippet": "Daniel, Nina, Attached is the draft Series B term sheet reflecting the headline terms: £18m new mone",
+      "subject": "Project Tempest — draft term sheet",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.calderwell@calderwellmobility.com",
+        "nina.brandt@calderwellmobility.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-10-22T11:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Daniel, Nina,\n\nAttached is the draft Series B term sheet reflecting the headline terms: £18m new money at a £42m pre-money (£60m post), £3.00/share, 1x non-participating liquidation preference and broad-based weighted-average anti-dilution. Marisdale lead at £12m, Westbridge co-invest £6m.\n\nWorth a call before we send to Birchall Stone? The exclusivity and the founder vesting are the points I'd flag for you.\n\nJames\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Daniel, Nina,<br><br>Attached is the draft Series B term sheet reflecting the headline terms: £18m new money at a £42m pre-money (£60m post), £3.00/share, 1x non-participating liquidation preference and broad-based weighted-average anti-dilution. Marisdale lead at £12m, Westbridge co-invest £6m.<br><br>Worth a call before we send to Birchall Stone? The exclusivity and the founder vesting are the points I&#x27;d flag for you.<br><br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "WC9RryETBLUvXeQ4aLb00wZ_2bHzIH1PVXIpYzfLLg8"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Tempest_TermSheet.docx",
+          "id": "WC9RryETBLUvXeQ4aLb00wZ_2bHzIH1PVXIpYzfLLg8",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "090653ca308824a4",
+      "snippet": "Thanks James. Daniel and I are comfortable with the economics. One question — the option pool is sho",
+      "subject": "RE: Project Tempest — draft term sheet",
+      "sender": "nina.brandt@calderwellmobility.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "daniel.calderwell@calderwellmobility.com"
+      ],
+      "date": "2025-10-23T08:55:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Thanks James. Daniel and I are comfortable with the economics. One question — the option pool is shown as 7% pre-money; we'd assumed it came out of pre-money, can you confirm that's the case (i.e. existing shareholders bear it)? If so we're happy to circulate.\n\nOn Wed, Oct 22, 2025 at 11:20 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> Daniel, Nina,\n>\n> Attached is the draft Series B term sheet reflecting the headline terms: £18m new money at a £42m pre-money (£60m post), £3.00/share, 1x non-participating liquidation preference and broad-based weighted-average anti-dilution. Marisdale lead at £12m, Westbridge co-invest £6m.\n>\n> Worth a call before we send to Birchall Stone? The exclusivity and the founder vesting are the points I'd flag for you.\n>\n> James\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks James. Daniel and I are comfortable with the economics. One question — the option pool is shown as 7% pre-money; we&#x27;d assumed it came out of pre-money, can you confirm that&#x27;s the case (i.e. existing shareholders bear it)? If so we&#x27;re happy to circulate.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 22, 2025 at 11:20 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Daniel, Nina,<br><br>Attached is the draft Series B term sheet reflecting the headline terms: £18m new money at a £42m pre-money (£60m post), £3.00/share, 1x non-participating liquidation preference and broad-based weighted-average anti-dilution. Marisdale lead at £12m, Westbridge co-invest £6m.<br><br>Worth a call before we send to Birchall Stone? The exclusivity and the founder vesting are the points I&#x27;d flag for you.<br><br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    },
+    {
+      "id": "1aacdedf1774e3f7",
+      "snippet": "Confirmed — the 7% pool sits in the pre-money, so the existing shareholders bear the dilution, not t",
+      "subject": "RE: Project Tempest — draft term sheet",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "nina.brandt@calderwellmobility.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "daniel.calderwell@calderwellmobility.com"
+      ],
+      "date": "2025-10-23T10:12:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Confirmed — the 7% pool sits in the pre-money, so the existing shareholders bear the dilution, not the new investors. That's standard and it's how the pre/post numbers tie. I'll send to Birchall Stone today with a 45-day exclusivity.\n\nOn Thu, Oct 23, 2025 at 8:55 AM, Nina Brandt <nina.brandt@calderwellmobility.com> wrote:\n> Thanks James. Daniel and I are comfortable with the economics. One question — the option pool is shown as 7% pre-money; we'd assumed it came out of pre-money, can you confirm that's the case (i.e. existing shareholders bear it)? If so we're happy to circulate.\n>\n> On Wed, Oct 22, 2025 at 11:20 AM, James Osei <james.osei@whitfieldcarter.com> wrote:\n> > Daniel, Nina,\n> >\n> > Attached is the draft Series B term sheet reflecting the headline terms: £18m new money at a £42m pre-money (£60m post), £3.00/share, 1x non-participating liquidation preference and broad-based weighted-average anti-dilution. Marisdale lead at £12m, Westbridge co-invest £6m.\n> >\n> > Worth a call before we send to Birchall Stone? The exclusivity and the founder vesting are the points I'd flag for you.\n> >\n> > James\n> >\n> > --\n> > Whitfield Carter LLP\n> > 22 Bishopsgate, London EC2N 4BQ\n> > Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Confirmed — the 7% pool sits in the pre-money, so the existing shareholders bear the dilution, not the new investors. That&#x27;s standard and it&#x27;s how the pre/post numbers tie. I&#x27;ll send to Birchall Stone today with a 45-day exclusivity.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 23, 2025 at 8:55 AM, Nina Brandt &lt;nina.brandt@calderwellmobility.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Thanks James. Daniel and I are comfortable with the economics. One question — the option pool is shown as 7% pre-money; we&#x27;d assumed it came out of pre-money, can you confirm that&#x27;s the case (i.e. existing shareholders bear it)? If so we&#x27;re happy to circulate.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Oct 22, 2025 at 11:20 AM, James Osei &lt;james.osei@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Daniel, Nina,<br><br>Attached is the draft Series B term sheet reflecting the headline terms: £18m new money at a £42m pre-money (£60m post), £3.00/share, 1x non-participating liquidation preference and broad-based weighted-average anti-dilution. Marisdale lead at £12m, Westbridge co-invest £6m.<br><br>Worth a call before we send to Birchall Stone? The exclusivity and the founder vesting are the points I&#x27;d flag for you.<br><br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

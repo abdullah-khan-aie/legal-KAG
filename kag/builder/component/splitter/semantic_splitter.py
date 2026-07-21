@@ -67,6 +67,12 @@ class SemanticSplitter:
         # and kills the whole document -- so pass such chunks through unchanged.
         if not org_chunk.content or not org_chunk.content.strip():
             return [org_chunk]
+        # Chunks already within the target size need no segmentation. Skipping the
+        # LLM call here avoids wasting a request (and the JSON-parse noise) on tiny
+        # boilerplate chunks like footers/page markers, and mirrors the old
+        # length-splitter behaviour of only splitting oversized chunks.
+        if len(org_chunk.content) <= chunk_size:
+            return [org_chunk]
         try:
             result = self.llm.invoke({"input": org_chunk.content}, self.semantic_seg_op)
         except Exception as e:  # noqa: BLE001

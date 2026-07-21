@@ -1,0 +1,51 @@
+{
+  "id": "542f38d21835b0dc",
+  "messages": [
+    {
+      "id": "542f38d21835b0dc",
+      "snippet": "Fiona, We're set to complete on Monday 29 September. Completion statement attached. The Tenant will ",
+      "subject": "Pinnacle House - completion 29 September: statement and funds",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "fiona.aldridge@halgarthestates.com"
+      ],
+      "ccRecipients": [
+        "grace.okafor@halgarthestates.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2024-09-25T09:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Fiona,\n\nWe're set to complete on Monday 29 September. Completion statement attached. The Tenant will pay on completion: rent deposit £183,750 plus VAT, apportioned insurance rent and on-account service charge - total set out in the statement. The first principal rent (£153,125, one quarter) falls on 29 June 2025 after the nine-month rent-free period. Board approved the grant on 26 September.\n\nElena",
+      "htmlBody": "<div dir=\"ltr\">Fiona,<br><br>We&#x27;re set to complete on Monday 29 September. Completion statement attached. The Tenant will pay on completion: rent deposit £183,750 plus VAT, apportioned insurance rent and on-account service charge - total set out in the statement. The first principal rent (£153,125, one quarter) falls on 29 June 2025 after the nine-month rent-free period. Board approved the grant on 26 September.<br><br>Elena</div>",
+      "attachmentIds": [
+        "z7mRm28WZQWokd3umdDwLA0ixqUripdZJSS_XQaJQnY"
+      ],
+      "attachments": [
+        {
+          "filename": "Pinnacle_House_CompletionStatement.xlsx",
+          "id": "z7mRm28WZQWokd3umdDwLA0ixqUripdZJSS_XQaJQnY",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    },
+    {
+      "id": "3b10eba30de1fe8d",
+      "snippet": "Elena - statement agreed, figures tie to our model. We'll expect the rent deposit into the designate",
+      "subject": "RE: Pinnacle House - completion 29 September: statement and funds",
+      "sender": "fiona.aldridge@halgarthestates.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "date": "2024-09-26T13:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena - statement agreed, figures tie to our model. We'll expect the rent deposit into the designated account. Please send the executed lease and bank's certified copy after completion.\n\nFiona\n\nOn Wed, Sep 25, 2024 at 9:00 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Fiona,\n>\n> We're set to complete on Monday 29 September. Completion statement attached. The Tenant will pay on completion: rent deposit £183,750 plus VAT, apportioned insurance rent and on-account service charge - total set out in the statement. The first principal rent (£153,125, one quarter) falls on 29 June 2025 after the nine-month rent-free period. Board approved the grant on 26 September.\n>\n> Elena",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena - statement agreed, figures tie to our model. We&#x27;ll expect the rent deposit into the designated account. Please send the executed lease and bank&#x27;s certified copy after completion.<br><br>Fiona</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Wed, Sep 25, 2024 at 9:00 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Fiona,<br><br>We&#x27;re set to complete on Monday 29 September. Completion statement attached. The Tenant will pay on completion: rent deposit £183,750 plus VAT, apportioned insurance rent and on-account service charge - total set out in the statement. The first principal rent (£153,125, one quarter) falls on 29 June 2025 after the nine-month rent-free period. Board approved the grant on 26 September.<br><br>Elena</div></blockquote></div></div>"
+    }
+  ]
+}

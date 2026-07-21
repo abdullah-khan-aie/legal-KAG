@@ -1,0 +1,35 @@
+{
+  "id": "d65333d52f0c4461",
+  "messages": [
+    {
+      "id": "d65333d52f0c4461",
+      "snippet": "Edward, Fiona, I'm pleased to confirm that the acquisition of Calder Vale Foods Limited completed th",
+      "subject": "Project Granite — COMPLETED",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "edward.pennington@wexfordholdings.com",
+        "fiona.aldridge@wexfordholdings.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "jonathan.vane@castlevane.com"
+      ],
+      "date": "2025-12-12T15:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Edward, Fiona,\n\nI'm pleased to confirm that the acquisition of Calder Vale Foods Limited completed this afternoon. The Share Purchase Agreement has been executed by all parties and is attached in its execution form. Funds have been remitted in accordance with the funds flow and the escrow is in place.\n\nWe will circulate the completion bible in the new year and deal with the post-completion items (SH01 filing, stamp duty, and the Northborough consent). Congratulations to everyone involved.\n\nBest,\n\nJames Osei\nSenior Associate\nWhitfield Carter LLP\n\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Edward, Fiona,<br><br>I&#x27;m pleased to confirm that the acquisition of Calder Vale Foods Limited completed this afternoon. The Share Purchase Agreement has been executed by all parties and is attached in its execution form. Funds have been remitted in accordance with the funds flow and the escrow is in place.<br><br>We will circulate the completion bible in the new year and deal with the post-completion items (SH01 filing, stamp duty, and the Northborough consent). Congratulations to everyone involved.<br><br>Best,<br><br>James Osei<br>Senior Associate<br>Whitfield Carter LLP<br><br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "n_cGMf4Mdsn99tFYWNsA0KBiVO4UF-MWl7sktAPyKN4"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Granite_SPA_Executed.pdf",
+          "id": "n_cGMf4Mdsn99tFYWNsA0KBiVO4UF-MWl7sktAPyKN4",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

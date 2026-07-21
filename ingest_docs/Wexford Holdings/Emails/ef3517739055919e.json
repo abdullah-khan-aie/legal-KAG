@@ -1,0 +1,38 @@
+{
+  "id": "ef3517739055919e",
+  "messages": [
+    {
+      "id": "ef3517739055919e",
+      "snippet": "All, I'm pleased to confirm that the restructuring completed today. The Agent has confirmed satisfac",
+      "subject": "Project Tempest - COMPLETION",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "fiona.aldridge@wexfordholdings.com",
+        "gavin.ross@sterlingcommercialbank.com",
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "tom.gallagher@whitfieldcarter.com",
+        "neil.ashby@wexfordconsumerbrands.com",
+        "duncan.reeves@marlowtax.co.uk"
+      ],
+      "date": "2026-02-27T15:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "All,\n\nI'm pleased to confirm that the restructuring completed today. The Agent has confirmed satisfaction of the conditions precedent and the Effective Date has occurred. The super-senior facility has drawn, the £4m shareholder contribution is in, the Facility B paydown and the fees have been made per the funds flow, and the amended and restated facilities are now in force to 30 June 2028.\n\nThe executed Amendment and Restatement Agreement is attached for the file. Thank you all for a quick and constructive process - particularly the Sterling and Pemberton Rowe teams. We'll circulate a completion bible in due course.\n\nJames\n\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">All,<br><br>I&#x27;m pleased to confirm that the restructuring completed today. The Agent has confirmed satisfaction of the conditions precedent and the Effective Date has occurred. The super-senior facility has drawn, the £4m shareholder contribution is in, the Facility B paydown and the fees have been made per the funds flow, and the amended and restated facilities are now in force to 30 June 2028.<br><br>The executed Amendment and Restatement Agreement is attached for the file. Thank you all for a quick and constructive process - particularly the Sterling and Pemberton Rowe teams. We&#x27;ll circulate a completion bible in due course.<br><br>James<br><br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "tOpOeeVcAT89sziF41RXZiazrdqCuFHLKcqS-6uNNK8"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Tempest_AmendmentAndRestatementAgreement_Executed.pdf",
+          "id": "tOpOeeVcAT89sziF41RXZiazrdqCuFHLKcqS-6uNNK8",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

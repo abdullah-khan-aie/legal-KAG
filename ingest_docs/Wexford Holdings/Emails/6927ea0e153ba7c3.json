@@ -1,0 +1,33 @@
+{
+  "id": "6927ea0e153ba7c3",
+  "messages": [
+    {
+      "id": "6927ea0e153ba7c3",
+      "snippet": "Dear Fiona, Attached is the draft funds flow for completion on Friday. In summary, Wexford will remi",
+      "subject": "Project Granite — draft completion funds flow",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "fiona.aldridge@wexfordholdings.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-12-10T11:15:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Fiona,\n\nAttached is the draft funds flow for completion on Friday. In summary, Wexford will remit a total of £42.5m: £38.95m to the Sellers via Castle & Vane's client account, £2.05m into the escrow account, and £1.5m to repay the shareholder loans. Please confirm the Facility A drawdown is arranged and check the account details on the second tab.\n\nWe will also need the buyer's stamp duty payment of £205,000 within 30 days of completion.\n\nKind regards,\n\nElena Marchetti\nAssociate\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear Fiona,<br><br>Attached is the draft funds flow for completion on Friday. In summary, Wexford will remit a total of £42.5m: £38.95m to the Sellers via Castle &amp; Vane&#x27;s client account, £2.05m into the escrow account, and £1.5m to repay the shareholder loans. Please confirm the Facility A drawdown is arranged and check the account details on the second tab.<br><br>We will also need the buyer&#x27;s stamp duty payment of £205,000 within 30 days of completion.<br><br>Kind regards,<br><br>Elena Marchetti<br>Associate<br>Whitfield Carter LLP</div>",
+      "attachmentIds": [
+        "0FEALQ-UEoVxfa61ox8sbGG1zySGB4ycBeLCKH1E9qY"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Granite_FundsFlow.xlsx",
+          "id": "0FEALQ-UEoVxfa61ox8sbGG1zySGB4ycBeLCKH1E9qY",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    }
+  ]
+}

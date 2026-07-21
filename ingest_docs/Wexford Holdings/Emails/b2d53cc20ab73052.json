@@ -1,0 +1,26 @@
+{
+  "id": "b2d53cc20ab73052",
+  "messages": [
+    {
+      "id": "b2d53cc20ab73052",
+      "snippet": "Daniel, Sarah, Delighted — Marisdale has countersigned the term sheet, and Westbridge are in for the",
+      "subject": "Project Tempest — term sheet countersigned",
+      "sender": "eleanor.whitmore@marisdalegrowth.com",
+      "toRecipients": [
+        "daniel.calderwell@calderwellmobility.com",
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "rajiv.banerjee@marisdalegrowth.com",
+        "oliver.jennings@birchallstone.com"
+      ],
+      "date": "2025-10-27T17:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD"
+      ],
+      "plaintextBody": "Daniel, Sarah,\n\nDelighted — Marisdale has countersigned the term sheet, and Westbridge are in for their £6m. We're excited to lead this round. Oliver Jennings at Birchall Stone will run the legal for us; he'll be in touch with your team to kick off due diligence.\n\nLet's aim for completion in early February.\n\nEleanor",
+      "htmlBody": "<div dir=\"ltr\">Daniel, Sarah,<br><br>Delighted — Marisdale has countersigned the term sheet, and Westbridge are in for their £6m. We&#x27;re excited to lead this round. Oliver Jennings at Birchall Stone will run the legal for us; he&#x27;ll be in touch with your team to kick off due diligence.<br><br>Let&#x27;s aim for completion in early February.<br><br>Eleanor</div>"
+    }
+  ]
+}

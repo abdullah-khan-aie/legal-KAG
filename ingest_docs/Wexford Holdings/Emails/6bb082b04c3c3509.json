@@ -1,0 +1,34 @@
+{
+  "id": "6bb082b04c3c3509",
+  "messages": [
+    {
+      "id": "6bb082b04c3c3509",
+      "snippet": "Edward, Grace, Please find attached the mutual non-disclosure agreement, now executed by both sides.",
+      "subject": "Project Granite — executed NDA",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "edward.pennington@wexfordholdings.com",
+        "grace.okafor@wexfordholdings.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-09-08T15:40:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Edward, Grace,\n\nPlease find attached the mutual non-disclosure agreement, now executed by both sides. With the NDA in place we can begin sharing information and start preparing the Heads of Terms for the proposed acquisition of Calder Vale Foods.\n\nJames will set up the data room access this week and circulate a first due-diligence request list shortly.\n\nKind regards,\n\nSarah Whitfield\nPartner\nWhitfield Carter LLP\n\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Edward, Grace,<br><br>Please find attached the mutual non-disclosure agreement, now executed by both sides. With the NDA in place we can begin sharing information and start preparing the Heads of Terms for the proposed acquisition of Calder Vale Foods.<br><br>James will set up the data room access this week and circulate a first due-diligence request list shortly.<br><br>Kind regards,<br><br>Sarah Whitfield<br>Partner<br>Whitfield Carter LLP<br><br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "9jVZuNEfzFVgY7CurU804oFgrN81f1x3iXV9AmCQERE"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Granite_NDA_Executed.pdf",
+          "id": "9jVZuNEfzFVgY7CurU804oFgrN81f1x3iXV9AmCQERE",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

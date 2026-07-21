@@ -1,0 +1,51 @@
+{
+  "id": "5d86de77a48467d6",
+  "messages": [
+    {
+      "id": "5d86de77a48467d6",
+      "snippet": "Dear Daniel, Great to speak earlier. As discussed, please find attached our engagement letter for th",
+      "subject": "Project Tempest — engagement",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.calderwell@calderwellmobility.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-09T09:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Daniel,\n\nGreat to speak earlier. As discussed, please find attached our engagement letter for the Series B (Project Tempest). It sets out scope, the team and our fee estimate of £85k–£110k, plus the agreed company contributions to legal fees at completion.\n\nOnce you've signed and returned it, and we've cleared the AML formalities, we'll get straight onto the term sheet.\n\nKind regards,\nSarah\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear Daniel,<br><br>Great to speak earlier. As discussed, please find attached our engagement letter for the Series B (Project Tempest). It sets out scope, the team and our fee estimate of £85k–£110k, plus the agreed company contributions to legal fees at completion.<br><br>Once you&#x27;ve signed and returned it, and we&#x27;ve cleared the AML formalities, we&#x27;ll get straight onto the term sheet.<br><br>Kind regards,<br>Sarah<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "UVd7QUTm6dkS5wDrJl8Tn3nDk5ow6GM2KqljC0ILsXM"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Tempest_EngagementLetter.docx",
+          "id": "UVd7QUTm6dkS5wDrJl8Tn3nDk5ow6GM2KqljC0ILsXM",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "68d22990b043e6cb",
+      "snippet": "Hi Sarah, Signed copy attached. Nina (our CFO, copied going forward) will handle the AML paperwork f",
+      "subject": "RE: Project Tempest — engagement",
+      "sender": "daniel.calderwell@calderwellmobility.com",
+      "toRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-10-10T16:40:00Z",
+      "labelIds": [
+        "INBOX"
+      ],
+      "plaintextBody": "Hi Sarah,\n\nSigned copy attached. Nina (our CFO, copied going forward) will handle the AML paperwork from our side. Keen to move quickly — Marisdale want to sign before year end ideally.\n\nBest,\nDaniel\n\nOn Thu, Oct 9, 2025 at 9:05 AM, Sarah Whitfield <sarah.whitfield@whitfieldcarter.com> wrote:\n> Dear Daniel,\n>\n> Great to speak earlier. As discussed, please find attached our engagement letter for the Series B (Project Tempest). It sets out scope, the team and our fee estimate of £85k–£110k, plus the agreed company contributions to legal fees at completion.\n>\n> Once you've signed and returned it, and we've cleared the AML formalities, we'll get straight onto the term sheet.\n>\n> Kind regards,\n> Sarah\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Hi Sarah,<br><br>Signed copy attached. Nina (our CFO, copied going forward) will handle the AML paperwork from our side. Keen to move quickly — Marisdale want to sign before year end ideally.<br><br>Best,<br>Daniel</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Thu, Oct 9, 2025 at 9:05 AM, Sarah Whitfield &lt;sarah.whitfield@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Dear Daniel,<br><br>Great to speak earlier. As discussed, please find attached our engagement letter for the Series B (Project Tempest). It sets out scope, the team and our fee estimate of £85k–£110k, plus the agreed company contributions to legal fees at completion.<br><br>Once you&#x27;ve signed and returned it, and we&#x27;ve cleared the AML formalities, we&#x27;ll get straight onto the term sheet.<br><br>Kind regards,<br>Sarah<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div></blockquote></div></div>"
+    }
+  ]
+}

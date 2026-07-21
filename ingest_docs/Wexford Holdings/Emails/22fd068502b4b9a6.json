@@ -1,0 +1,33 @@
+{
+  "id": "22fd068502b4b9a6",
+  "messages": [
+    {
+      "id": "22fd068502b4b9a6",
+      "snippet": "Dear Ms Bartlett, Further to our call, please find attached the first draft of the settlement agreem",
+      "subject": "WITHOUT PREJUDICE - Hale settlement agreement (first draft)",
+      "sender": "tom.gallagher@whitfieldcarter.com",
+      "toRecipients": [
+        "eleanor.bartlett@ashworthquinn.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com"
+      ],
+      "date": "2025-11-25T15:45:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear Ms Bartlett,\n\nFurther to our call, please find attached the first draft of the settlement agreement reflecting the terms discussed: PILON of £92,500, accrued holiday of £7,115 and an ex gratia payment of £100,000, with an agreed reference at Schedule 2 and the adviser's certificate at Schedule 1. We've assumed the claim will be withdrawn within 7 days of the agreement taking effect.\n\nGrateful for your client's comments.",
+      "htmlBody": "<div dir=\"ltr\">Dear Ms Bartlett,<br><br>Further to our call, please find attached the first draft of the settlement agreement reflecting the terms discussed: PILON of £92,500, accrued holiday of £7,115 and an ex gratia payment of £100,000, with an agreed reference at Schedule 2 and the adviser&#x27;s certificate at Schedule 1. We&#x27;ve assumed the claim will be withdrawn within 7 days of the agreement taking effect.<br><br>Grateful for your client&#x27;s comments.</div>",
+      "attachmentIds": [
+        "qNhCz1NyXBhs0Frz9-h39fRrlUQPCfvQBufvpdb9xXA"
+      ],
+      "attachments": [
+        {
+          "filename": "Hale_SettlementAgreement_v1.docx",
+          "id": "qNhCz1NyXBhs0Frz9-h39fRrlUQPCfvQBufvpdb9xXA",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

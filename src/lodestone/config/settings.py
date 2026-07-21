@@ -81,28 +81,31 @@ class Settings(BaseSettings):
     # fields that DO keep a default are called out inline below.
 
     schema_path: str
-    bedrock_region: str
     llm_model: str
 
-    # The LLM client has a built-in request limiter: a process-global AsyncLimiter,
-    # keyed by client name and shared across every extractor sub-call. It defaults
-    # to effectively no-op (max_rate=1000, time_period=1). On this low-quota Bedrock
-    # account, limiting worker concurrency alone still throttles, because a
-    # per-minute quota is indifferent to how many workers run; a rate limiter caps
-    # calls-per-minute directly, relieving both the request-per-minute and
-    # token-per-minute ceilings. Allow llm_max_rate calls per llm_time_period
-    # seconds. Tune empirically (the quota isn't visible): lower the rate if
-    # throttling persists, raise it once clean. Kept out of the secret so it stays
-    # easy to tune; add it to the secret to make it required.
-    llm_max_rate: float = 1
-    llm_time_period: float = 20
-
-    # Embeddings: bare Cohere model id, called in its own region (independent of
-    # the LLM). input_type is "search_document" for ingest ("search_query" for
-    # retrieval).
-    embed_region: str
+    # Embeddings: called directly against Cohere's API (not Bedrock). embed_model
+    # is a bare Cohere Embed model id, e.g. "embed-v4.0". input_type is
+    # "search_document" for ingest ("search_query" for retrieval).
     embed_model: str
     embed_input_type: str
+    # Embedding length. Single source of truth: it's both requested from Cohere
+    # (output_dimension) and used to size the Neo4j vector indexes, so the indexed
+    # vectors and query vectors always match. 1536 is Embed v4's native (untruncated)
+    # size -- highest retrieval fidelity; 256/512/1024 are smaller Matryoshka
+    # truncations. Changing this after indexes exist requires dropping them first.
+    embed_dimension: int = 1536
+
+    # Anthropic API key for the direct (non-Bedrock) Claude client, read from the
+    # secret and passed as a SecretStr so it stays masked in logs (unwrapped only
+    # when the Anthropic SDK client is constructed). Leave unset to fall back to
+    # the SDK's ANTHROPIC_API_KEY environment variable.
+    anthropic_api_key: SecretStr | None = None
+
+    # Cohere API key for the direct (non-Bedrock) embedding client, read from the
+    # secret and passed as a SecretStr so it stays masked in logs (unwrapped only
+    # when the Cohere SDK client is constructed). Leave unset to fall back to the
+    # SDK's CO_API_KEY environment variable.
+    cohere_api_key: SecretStr | None = None
 
     # Neo4j graph store (the pipeline always persists + entity-links against it).
     neo4j_uri: str = "bolt://localhost:7687"
@@ -118,7 +121,12 @@ class Settings(BaseSettings):
     # so ingestion and retrieval stay in lockstep. Set via LODESTONE_INDEX_LIST as
     # a JSON array, e.g. '["summary_index","chunk_index","atomic_query_index"]'.
     # NOT in the secret: kept defaulted. Add to the secret to make required.
-    index_list: list[str] = ["spo_graph_index", "summary_index"]
+    index_list: list[str] = [
+        "spo_graph_index",
+        "summary_index",
+        "chunk_index",
+        "atomic_query_index",
+    ]
 
     # Ingestion: local folder the directory scanner reads, and how many documents
     # to ingest concurrently (bounded to respect Bedrock rate limits).
@@ -137,6 +145,19 @@ class Settings(BaseSettings):
 
     log_level: str
     log_format: Literal["console", "json"]
+
+    # Langfuse tracing (optional). Keys live in the secret; kept defaulted so a
+    # missing key doesn't fail startup and tracing stays OFF unless explicitly
+    # enabled. When enable_observability is True the three keys must be present.
+    enable_observability: bool = False
+    langfuse_public_key: SecretStr | None = None
+    langfuse_secret_key: SecretStr | None = None
+    langfuse_base_url: SecretStr | None = None
+    environment: str = "dev"
+
+    llm_input_cost_per_token: float
+    llm_output_cost_per_token: float
+    embed_cost_per_token: float
 
 
 @lru_cache(maxsize=1)

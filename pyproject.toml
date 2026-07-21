@@ -7,7 +7,10 @@ dependencies = [
     "httpx",                 # OpenAI-compatible embedding HTTP adapter (fallback)
     "pydantic>=2",           # settings models (src/config)
     "pydantic-settings[aws-secrets-manager]>=2",  # env config + AWS Secrets Manager source (src/config)
-    "boto3",                 # Amazon Bedrock runtime (Cohere Embed via invoke_model)
+    "boto3",                 # AWS Secrets Manager source (src/config)
+    "anthropic>=0.40",       # direct Anthropic Claude API (AsyncAnthropic + Anthropic)
+    "cohere",                # direct Cohere Embed API (async + sync clients)
+    "langfuse>=3,<4",        # tracing/observability for ingestion + query pipelines
     # --- ingestion (kag builder) ---
     "pyyaml",                # local YAML schema client
     "tenacity",              # retry decorators in extractors/vectorizer/retrievers
@@ -16,6 +19,7 @@ dependencies = [
     "pdfminer.six",          # PDF reader
     "PyPDF2",                # PDF reader
     "python-docx",           # docx reader
+    "openpyxl",              # xlsx reader (pandas .xlsx engine)
     "beautifulsoup4",        # markdown reader (HTML parse)
     "tabulate",              # markdown reader (DataFrame.to_markdown)
     # --- graph store (kag graphstore) ---
@@ -38,6 +42,7 @@ dependencies = [
     # --- API layer (src/lodestone/main.py) ---
     "fastapi",               # HTTP API application
     "uvicorn[standard]",     # ASGI server
+    "rouge>=1.0.1",
 ]
 
 [dependency-groups]

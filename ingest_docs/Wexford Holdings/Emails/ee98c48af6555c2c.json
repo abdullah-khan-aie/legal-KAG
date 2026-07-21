@@ -1,0 +1,26 @@
+{
+  "id": "ee98c48af6555c2c",
+  "messages": [
+    {
+      "id": "ee98c48af6555c2c",
+      "snippet": "Dear all, To confirm the completion call is booked for Friday 12 December at 2.00pm. Dial-in details",
+      "subject": "Project Granite — completion call Friday 12 December, 2.00pm",
+      "sender": "donna.bridges@whitfieldcarter.com",
+      "toRecipients": [
+        "edward.pennington@wexfordholdings.com",
+        "fiona.aldridge@wexfordholdings.com",
+        "robert.calder@caldervalefoods.com",
+        "jonathan.vane@castlevane.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-12-09T14:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear all,\n\nTo confirm the completion call is booked for Friday 12 December at 2.00pm. Dial-in details are below; please join five minutes early so we can confirm the signing order. Engrossments will be circulated for e-signature via the data room beforehand.\n\nDial-in: +44 20 7946 0000, PIN 884213#\n\nKind regards,\n\nDonna Bridges\nPractice Assistant\nWhitfield Carter LLP",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>To confirm the completion call is booked for Friday 12 December at 2.00pm. Dial-in details are below; please join five minutes early so we can confirm the signing order. Engrossments will be circulated for e-signature via the data room beforehand.<br><br>Dial-in: +44 20 7946 0000, PIN 884213#<br><br>Kind regards,<br><br>Donna Bridges<br>Practice Assistant<br>Whitfield Carter LLP</div>"
+    }
+  ]
+}

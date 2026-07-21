@@ -1,0 +1,38 @@
+{
+  "id": "ca989faa11f62ece",
+  "messages": [
+    {
+      "id": "ca989faa11f62ece",
+      "snippet": "Dear all, I'm pleased to confirm that the Series B financing of Calderwell Mobility Limited complete",
+      "subject": "Project Tempest — COMPLETED",
+      "sender": "sarah.whitfield@whitfieldcarter.com",
+      "toRecipients": [
+        "daniel.calderwell@calderwellmobility.com",
+        "nina.brandt@calderwellmobility.com",
+        "eleanor.whitmore@marisdalegrowth.com",
+        "marcus.hale@westbridgegrowth.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com",
+        "oliver.jennings@birchallstone.com"
+      ],
+      "date": "2026-02-06T15:00:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Dear all,\n\nI'm pleased to confirm that the Series B financing of Calderwell Mobility Limited completed today. The £18m subscription monies have been received, the Series B shares allotted, and the board and shareholder resolutions passed. Congratulations to everyone.\n\nThe executed Subscription and Shareholders' Agreement is attached. We'll circulate the completion bible and make the Companies House filings (SH01, special resolution, director changes) over the next fortnight.\n\nWith thanks,\nSarah\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Dear all,<br><br>I&#x27;m pleased to confirm that the Series B financing of Calderwell Mobility Limited completed today. The £18m subscription monies have been received, the Series B shares allotted, and the board and shareholder resolutions passed. Congratulations to everyone.<br><br>The executed Subscription and Shareholders&#x27; Agreement is attached. We&#x27;ll circulate the completion bible and make the Companies House filings (SH01, special resolution, director changes) over the next fortnight.<br><br>With thanks,<br>Sarah<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "X0NuXHunDKHDmNAKadqbmeHhk4TVPMYM00Wrr3PBcGA"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Tempest_SubscriptionAgreement_Executed.pdf",
+          "id": "X0NuXHunDKHDmNAKadqbmeHhk4TVPMYM00Wrr3PBcGA",
+          "mimeType": "application/pdf"
+        }
+      ]
+    }
+  ]
+}

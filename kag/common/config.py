@@ -6,20 +6,30 @@
 # This carries those fields without the OpenSPG config/server framework.
 
 
-def get_default_chat_llm_config():
-    """Stand-in for kag.common.config.get_default_chat_llm_config.
+def get_default_chat_llm_config(task_id=None):
+    """Return the project's default chat-LLM config dict (upstream behaviour).
 
-    In kag this returns the project's default chat-LLM config dict (consumed by
-    ``LLMClient.from_config(...)`` as a fallback when no llm is passed). Server-free
-    we bind the LLMClient explicitly, so this default is never instantiated; it
-    returns an empty config to satisfy the import + fallback expression.
+    Consumed by ``LLMClient.from_config(...)`` as the fallback when an executor is
+    built without an explicit llm (e.g. the summary / context-select LLMs of
+    ``KAGHybridRetrievalExecutor`` when ``enable_summary`` is on and the pipeline
+    yaml doesn't wire them). Most of the server-free build binds the LLM
+    explicitly via the ``{chat_llm}`` placeholder, but this fallback must still
+    resolve to the real client -- so the app seeds it into the kag runtime config
+    at the composition root (``bootstrap.initialize_graph_schema``). We raise
+    rather than return ``{}`` so a missing seed fails loudly at build time instead
+    of surfacing as a ``NotImplementedError`` from a bare base client when called.
     """
-    return {}
+    from kag.common.conf import KAGConfigAccessor
 
-
-def get_default_vectorize_model_config():
-    """Stand-in for the default vectorize-model config (see above)."""
-    return {}
+    all_config = KAGConfigAccessor.get_config(task_id).all_config
+    if "chat_llm" in all_config:
+        return all_config["chat_llm"]
+    if "llm" in all_config:
+        return all_config["llm"]
+    raise RuntimeError(
+        "default chat_llm config not found; seed it at startup via "
+        "KAG_CONFIG.all_config['chat_llm'] (see bootstrap.initialize_graph_schema)."
+    )
 
 
 class LogicFormConfiguration:

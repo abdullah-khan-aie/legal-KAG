@@ -11,9 +11,18 @@ logger = logging.getLogger()
 
 @RetrieverABC.register("text_chunk_retriever")
 class TextChunkRetriever(RetrieverABC):
-    def __init__(self, search_api: SearchApiABC = None, top_k: int = 10, **kwargs):
+    def __init__(
+        self,
+        search_api: SearchApiABC = None,
+        top_k: int = 10,
+        index_name: str | None = None,
+        **kwargs,
+    ):
         super().__init__(top_k, **kwargs)
         self.search_api = search_api
+        # Optional dedicated full-text index to query (e.g. the narrow chunk-content
+        # index). When None the search api uses its default index.
+        self.index_name = index_name
         self.schema_helper: SchemaUtils = SchemaUtils(LogicFormConfiguration({}))
 
     def invoke(self, task, **kwargs) -> RetrieverOutput:
@@ -24,6 +33,7 @@ class TextChunkRetriever(RetrieverABC):
                 label_constraints=[self.schema_helper.get_label_within_prefix(CHUNK_TYPE)],
                 query_string=query,
                 topk=top_k,
+                params={"index_name": self.index_name} if self.index_name else None,
             )
 
             chunks = []

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+import contextvars
 from contextlib import contextmanager
 
 from kag.builder.component.aligner.kag_aligner import KAGAligner
@@ -11,10 +12,12 @@ from kag.builder.component.extractor.summary_extractor import SummaryExtractor
 from kag.builder.component.postprocessor.kag_postprocessor import KAGPostProcessor
 from kag.builder.component.reader.dict_reader import DictReader
 from kag.builder.component.reader.docx_reader import DocxReader
+from kag.builder.component.reader.email_reader import EmailReader
 from kag.builder.component.reader.markdown_reader import MarkDownReader
 from kag.builder.component.reader.mix_reader import MixReader
 from kag.builder.component.reader.pdf_reader import PDFReader
 from kag.builder.component.reader.txt_reader import TXTReader
+from kag.builder.component.reader.xlsx_reader import XlsxReader
 from kag.builder.component.splitter.length_splitter import LengthSplitter
 from kag.builder.component.vectorizer.batch_vectorizer import BatchVectorizer
 from kag.builder.component.writer.graph_store_writer import GraphStoreWriter
@@ -27,7 +30,6 @@ from kag.builder.prompt.spg_prompt import (
 )
 from kag.common.tools.search_api.impl.neo4j_search_client import Neo4jSearchClient
 from kag.interface import LLMClient, VectorizeModelABC
-from kag.schema.client import SchemaClient
 from src.lodestone.exceptions import (
     ChunkingError,
     DocumentReadError,
@@ -36,6 +38,7 @@ from src.lodestone.exceptions import (
     GraphStoreError,
     LodestoneError,
 )
+from src.lodestone.observability import tracing as obs
 
 # Bounded capacity of the shared extraction work queue: submission blocks once
 # this many items are buffered, applying backpressure instead of letting the
@@ -79,20 +82,24 @@ class IngestionPipeline:
         self._workers: list[asyncio.Task] = []
         self._workers_lock = asyncio.Lock()
 
-        # 1) reader: auto-routes by file extension (txt/pdf/docx/md) or dict input.
+        # 1) reader: auto-routes by file extension (txt/pdf/docx/md/xlsx) or dict input.
         self._reader = MixReader(
             txt_reader=TXTReader(),
             pdf_reader=PDFReader(llm=self._llm),
             docx_reader=DocxReader(llm=self._llm),
             md_reader=MarkDownReader(),
             dict_reader=DictReader(),
+            xlsx_reader=XlsxReader(),
+            email_reader=EmailReader(),
         )
 
-        # 2) splitter: sliding-window split by character length. It makes no LLM
-        #    call, so it avoids the Bedrock rate limit that a semantic (per-node)
-        #    splitter would hit. The docx reader already emits one chunk per
-        #    clause via its heading tree, so semantic boundaries are largely set
-        #    before the splitter runs; this stage only caps oversized chunks.
+        # 2) splitter: sliding-window split by character length. Makes no LLM call.
+        #    NOTE: we trialled the LLM SemanticSplitter, but its changed chunk
+        #    boundaries regressed the multi-hop pipelines' tier-3 detail retrieval
+        #    (deep_thought 0.943 -> 0.886 on the doc goldset) while only the
+        #    single-shot retriever benefited. Reverted to the length splitter; the
+        #    docx/pdf readers already emit heading/outline-aligned chunks, so this
+        #    stage just caps oversized ones.
         self._splitter = LengthSplitter(split_length=1500, window_length=150)
 
         # 3) extractors (run concurrently per chunk). When ``extractors`` is
@@ -129,9 +136,9 @@ class IngestionPipeline:
             search_client=Neo4jSearchClient(graph_store),
         )
 
-        # 7) write: persist the SubGraph to Neo4j.
-        schema = SchemaClient(schema_path=schema_path).load()
-        self._writer = GraphStoreWriter(graph_store, schema=schema, namespace=namespace)
+        # 7) write: persist the SubGraph to Neo4j. Vector/text indexes are created
+        # at startup (bootstrap.initialize_graph_schema), not here.
+        self._writer = GraphStoreWriter(graph_store, namespace=namespace)
 
     @contextmanager
     def _stage(self, error_cls: type[LodestoneError], message: str, source: str):
@@ -161,8 +168,16 @@ class IngestionPipeline:
                 return
             queue: asyncio.Queue = asyncio.Queue(maxsize=_EXTRACT_QUEUE_CAPACITY)
             loop = asyncio.get_running_loop()
+            # Spawn each worker in a FRESH, empty context. The pool is created
+            # lazily during the first document's "extract" span, so a plain
+            # create_task would copy that span as the workers' ambient context and
+            # every worker would carry it for the whole process -- leaking it into
+            # later documents and re-parenting their spans (the trace would then be
+            # named after a worker's extractor instead of the document). A clean
+            # contextvars.Context() gives each worker no ambient span; extractions
+            # attach only via the explicit trace_context we pass per item.
             self._workers = [
-                loop.create_task(self._extract_worker(queue))
+                loop.create_task(self._extract_worker(queue), context=contextvars.Context())
                 for _ in range(self._model_execute_num)
             ]
             self._work_queue = queue
@@ -175,10 +190,19 @@ class IngestionPipeline:
         `_extract_all` can await them in order.
         """
         while True:
-            extractor, chunk, future = await queue.get()
+            extractor, chunk, future, parent = await queue.get()
             try:
                 if not future.done():
-                    result = await extractor.ainvoke(chunk)
+                    # Re-attach to the document's "extract" span: the worker pool
+                    # is process-global and doesn't inherit the per-document
+                    # context, so ``parent`` (a trace_context) nests each
+                    # extraction -- and its LLM generations -- under the right
+                    # document. ``parent`` is None when tracing is off.
+                    if parent is not None:
+                        with obs.span(type(extractor).__name__, parent=parent):
+                            result = await extractor.ainvoke(chunk)
+                    else:
+                        result = await extractor.ainvoke(chunk)
                     future.set_result(result)
             except Exception as err:  # deliver to the awaiter, keep the worker alive
                 if not future.done():
@@ -186,13 +210,14 @@ class IngestionPipeline:
             finally:
                 queue.task_done()
 
-    async def _extract_all(self, chunks: list) -> list:
+    async def _extract_all(self, chunks: list, parent: dict | None = None) -> list:
         """Submit every (chunk, extractor) to the shared pool and gather results.
 
         Enqueue one item per chunk-extractor pair, then collect the futures in
         submission order. Only `model_execute_num` run at once; the rest wait in
         the queue, and submission itself blocks once the queue is full, which
-        applies backpressure to the caller.
+        applies backpressure to the caller. ``parent`` is the document's "extract"
+        span (as a trace_context) so the worker can nest each extraction under it.
         """
         await self._ensure_workers()
         assert self._work_queue is not None
@@ -201,32 +226,45 @@ class IngestionPipeline:
         for chunk in chunks:
             for extractor in self._extractors:
                 future: asyncio.Future = loop.create_future()
-                await self._work_queue.put((extractor, chunk, future))
+                await self._work_queue.put((extractor, chunk, future, parent))
                 futures.append(future)
         return await asyncio.gather(*futures)
 
     async def ingest(self, source: str) -> SubGraph:
-        """Ingest a document (file path, or a dict for dict_reader) into the graph."""
-        # read (IO/LLM-bound) + semantic split run off the event loop
+        """Ingest a document (file path, or a dict for dict_reader) into the graph.
+
+        Runs under the current Langfuse document span (opened by the runner); each
+        stage below becomes a child span, and extraction/embedding LLM calls nest
+        beneath as generations with token cost.
+        """
+        # read (IO/LLM-bound) + semantic split run off the event loop; the read/
+        # split spans are created inside _read_and_split (the copied context nests
+        # them under the document span).
         chunks = await asyncio.to_thread(self._read_and_split, source)
 
         # extract every chunk with every extractor via the shared worker pool
         # (bounded to model_execute_num, global across documents), then merge.
-        with self._stage(ExtractionError, "extraction failed", source):
-            subgraph_lists = await self._extract_all(chunks)
+        # ``current_parent`` captures this "extract" span so the detached worker
+        # pool can re-attach each extraction's generations under this document.
+        with obs.span("extract"), self._stage(ExtractionError, "extraction failed", source):
+            subgraph_lists = await self._extract_all(chunks, obs.current_parent())
             all_subgraphs = [sg for subgraphs in subgraph_lists for sg in subgraphs]
-            merged = await asyncio.to_thread(self._aligner.invoke, all_subgraphs)
+            with obs.span("align"):
+                merged = await asyncio.to_thread(self._aligner.invoke, all_subgraphs)
 
         # embed index-marked fields (real async vectorizer)
-        with self._stage(EmbeddingError, "embedding failed", source):
+        with obs.span("embed"), self._stage(EmbeddingError, "embedding failed", source):
             merged = (await self._vectorizer.ainvoke(merged))[0]
 
         # filter + entity-link against the graph store, off the event loop
-        with self._stage(GraphStoreError, "post-processing / entity linking failed", source):
+        with (
+            obs.span("postprocess"),
+            self._stage(GraphStoreError, "post-processing / entity linking failed", source),
+        ):
             merged = (await asyncio.to_thread(self._postprocessor.invoke, merged))[0]
 
         # persist to Neo4j
-        with self._stage(GraphStoreError, "failed to persist graph", source):
+        with obs.span("write"), self._stage(GraphStoreError, "failed to persist graph", source):
             await asyncio.to_thread(self._writer.invoke, merged)
 
         return merged
@@ -236,16 +274,22 @@ class IngestionPipeline:
         return asyncio.run(self.ingest(source))
 
     def _read_and_split(self, source: str) -> list[Chunk]:
-        """Read the source (extension-routed) and semantically split it (sync)."""
+        """Read the source (extension-routed) and semantically split it (sync).
+
+        Runs in a worker thread; the document span's context is copied in, so the
+        ``read`` and ``split`` spans nest under it. Both are no-cost stages.
+        """
         try:
-            documents = self._reader.invoke(source)
+            with obs.span("read"):
+                documents = self._reader.invoke(source)
         except Exception as err:
             raise DocumentReadError("failed to read document", details={"source": source}) from err
 
         chunks: list[Chunk] = []
         try:
-            for document in documents:
-                chunks.extend(self._splitter.invoke(document))
+            with obs.span("split"):
+                for document in documents:
+                    chunks.extend(self._splitter.invoke(document))
         except Exception as err:
             raise ChunkingError("failed to split document", details={"source": source}) from err
         return chunks

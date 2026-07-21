@@ -74,8 +74,37 @@ class PDFReader(ReaderABC):
         return level_outlines
 
     @staticmethod
-    def extract_content_from_outline(page_contents, level_outlines) -> list[Chunk]:
+    def extract_content_from_outline(
+        page_contents, page_contents_spaced, level_outlines
+    ) -> list[Chunk]:
+        # ``page_contents`` is whitespace-stripped: section boundaries are located
+        # by fuzzy-matching outline titles against it space-insensitively (PDF
+        # extraction spacing is unreliable). ``page_contents_spaced`` is the same
+        # characters with whitespace preserved; we map the stripped offsets back
+        # onto it so the stored chunk text keeps its spaces (otherwise Latin text
+        # is run together, e.g. "atenantbreakatyear7").
         total_content = "".join(page_contents)
+        spaced_total = "".join(page_contents_spaced)
+
+        # Stripping only deletes characters, so ``total_content`` is a subsequence
+        # of ``spaced_total``; a two-pointer walk maps each stripped index to its
+        # readable index. The trailing sentinel lets an end-exclusive bound
+        # (``next_start`` or the string length) map cleanly.
+        index_map: list[int] = []
+        j = 0
+        for ch in total_content:
+            while j < len(spaced_total) and spaced_total[j] != ch:
+                j += 1
+            index_map.append(j)
+            j += 1
+        index_map.append(len(spaced_total))
+
+        def readable_slice(start: int, end: int) -> str:
+            s = index_map[start] if 0 <= start < len(index_map) else len(spaced_total)
+            if end is None or end < 0:
+                return spaced_total[s:]
+            e = index_map[end] if end < len(index_map) else len(spaced_total)
+            return spaced_total[s:e]
 
         def get_content_start(outline, page_contents):
             page_start = outline[2]
@@ -171,11 +200,23 @@ class PDFReader(ReaderABC):
                 else -1
             )
             if start >= 0 and next_start >= 0:
-                content = total_content[start:next_start]
+                content = readable_slice(start, next_start)
                 final_content.append((outline[0], outline[1], start, next_start, content))
             elif start >= 0 and next_start < 0 and idx + 1 == len(level_outlines):
-                content = total_content[start:]
+                content = readable_slice(start, -1)
                 final_content.append((outline[0], outline[1], start, -1, content))
+
+        # Capture any front-matter that precedes the first outline entry. The loop
+        # above only slices from the first bookmark onward, so a document's preamble
+        # (e.g. meeting attendance/quorum, party recitals, a cover block) sitting
+        # ahead of the first heading would otherwise be dropped entirely. Prepend it
+        # as its own chunk so that content is retrievable.
+        if final_content:
+            first_start = final_content[0][2]
+            if isinstance(first_start, int) and first_start > 0:
+                preamble = readable_slice(0, first_start)
+                if preamble.strip():
+                    final_content.insert(0, ("Preamble", 0, 0, first_start, preamble))
         return final_content
 
     def convert_finel_content_to_chunks(self, final_content) -> tuple[list[Chunk], SubGraph]:
@@ -451,7 +492,7 @@ class PDFReader(ReaderABC):
             else:
                 split_words = []  # noqa
 
-                page_contents = []
+                raw_pages = []
 
                 with open(data, "rb") as file:
                     for idx, page_layout in enumerate(extract_pages(file)):
@@ -459,9 +500,12 @@ class PDFReader(ReaderABC):
                         for element in page_layout:
                             if hasattr(element, "get_text"):
                                 content = content + element.get_text()
-                        content = content.replace("\n", "")
-                        page_contents.append(content)
+                        raw_pages.append(content)
 
+                # Stripped text (whitespace removed) -- used ONLY to locate section
+                # boundaries by fuzzy-matching outline titles. Kept byte-identical to
+                # upstream so matching accuracy is unchanged.
+                page_contents = [content.replace("\n", "") for content in raw_pages]
                 # use a regex to remove all whitespace (spaces, tabs, newlines, etc.)
                 page_contents = [re.sub(r"\s+", "", content) for content in page_contents]
                 page_contents = [
@@ -470,8 +514,13 @@ class PDFReader(ReaderABC):
                 ]
                 page_contents = ["".join(content.split()) for content in page_contents]
 
+                # Readable text (whitespace preserved; newlines -> spaces so words are
+                # not glued across line breaks). The stored chunk content is sliced
+                # from this, using offsets located on the stripped text above.
+                page_contents_spaced = [content.replace("\n", " ") for content in raw_pages]
+
                 final_content = self.extract_content_from_outline(
-                    page_contents, self.level_outlines
+                    page_contents, page_contents_spaced, self.level_outlines
                 )
                 chunks, subgraph = self.convert_finel_content_to_chunks(final_content)
 

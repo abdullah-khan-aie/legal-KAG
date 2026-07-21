@@ -1,0 +1,54 @@
+{
+  "id": "be22fbe55e57a1d1",
+  "messages": [
+    {
+      "id": "be22fbe55e57a1d1",
+      "snippet": "Nadia, Further to our call, I attach the draft heads of terms for the letting of Floors 4-5 Pinnacle",
+      "subject": "Pinnacle House, Leeds - heads of terms",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "nadia.iqbal@pembertonrowe.com"
+      ],
+      "ccRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2024-07-19T11:20:00Z",
+      "labelIds": [
+        "SENT",
+        "IMPORTANT"
+      ],
+      "plaintextBody": "Nadia,\n\nFurther to our call, I attach the draft heads of terms for the letting of Floors 4-5 Pinnacle House. Key points: 15-year term from 29 September, headline rent £612,500 pa (£32.50 psf), 9 months rent free, tenant break at year 7, rent deposit of six months' rent, contracted out of the 1954 Act. Grateful for your comments.\n\nBest\nElena",
+      "htmlBody": "<div dir=\"ltr\">Nadia,<br><br>Further to our call, I attach the draft heads of terms for the letting of Floors 4-5 Pinnacle House. Key points: 15-year term from 29 September, headline rent £612,500 pa (£32.50 psf), 9 months rent free, tenant break at year 7, rent deposit of six months&#x27; rent, contracted out of the 1954 Act. Grateful for your comments.<br><br>Best<br>Elena</div>",
+      "attachmentIds": [
+        "RFqS8F_twxVtLZtnA9jy9ifB4g1g_Olv_hfZVlCJU9g"
+      ],
+      "attachments": [
+        {
+          "filename": "Pinnacle_House_HeadsOfTerms.docx",
+          "id": "RFqS8F_twxVtLZtnA9jy9ifB4g1g_Olv_hfZVlCJU9g",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    },
+    {
+      "id": "c47b570ca23f01a9",
+      "snippet": "Elena, Thank you. Brookmere are broadly content but have asked us to push on three points at the lea",
+      "subject": "RE: Pinnacle House, Leeds - heads of terms",
+      "sender": "nadia.iqbal@pembertonrowe.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "alistair.whitlock@pembertonrowe.com",
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2024-07-23T16:10:00Z",
+      "labelIds": [
+        "INBOX",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Elena,\n\nThank you. Brookmere are broadly content but have asked us to push on three points at the lease stage: a shorter break notice period (they would like six months rather than nine), a longer rent-suspension period and a softer forfeiture trigger. The commercial terms (rent, rent free, term) are agreed. We'll deal with the detail on the lease mark-up.\n\nNadia\n\nOn Fri, Jul 19, 2024 at 11:20 AM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Nadia,\n>\n> Further to our call, I attach the draft heads of terms for the letting of Floors 4-5 Pinnacle House. Key points: 15-year term from 29 September, headline rent £612,500 pa (£32.50 psf), 9 months rent free, tenant break at year 7, rent deposit of six months' rent, contracted out of the 1954 Act. Grateful for your comments.\n>\n> Best\n> Elena",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Elena,<br><br>Thank you. Brookmere are broadly content but have asked us to push on three points at the lease stage: a shorter break notice period (they would like six months rather than nine), a longer rent-suspension period and a softer forfeiture trigger. The commercial terms (rent, rent free, term) are agreed. We&#x27;ll deal with the detail on the lease mark-up.<br><br>Nadia</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Fri, Jul 19, 2024 at 11:20 AM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">Nadia,<br><br>Further to our call, I attach the draft heads of terms for the letting of Floors 4-5 Pinnacle House. Key points: 15-year term from 29 September, headline rent £612,500 pa (£32.50 psf), 9 months rent free, tenant break at year 7, rent deposit of six months&#x27; rent, contracted out of the 1954 Act. Grateful for your comments.<br><br>Best<br>Elena</div></blockquote></div></div>"
+    }
+  ]
+}

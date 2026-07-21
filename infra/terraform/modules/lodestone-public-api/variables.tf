@@ -2,6 +2,11 @@ variable "name" {
   type = string
 }
 
+variable "region" {
+  description = "AWS region, used by the STREAM-mode AWS CLI provisioner."
+  type        = string
+}
+
 variable "enabled" {
   type    = bool
   default = false

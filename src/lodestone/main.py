@@ -9,7 +9,7 @@ from fastapi.responses import RedirectResponse
 from fastapi.staticfiles import StaticFiles
 
 from .api.routes import ingestion_router, query_router
-from .bootstrap import get_ingestion_pipeline, get_query_pipeline
+from .bootstrap import get_ingestion_pipeline, get_query_pipeline, initialize_graph_schema
 from .config import get_settings
 from .observability import configure_logging, get_logger
 
@@ -25,7 +25,12 @@ _FRONTEND_DIR = Path(__file__).resolve().parents[2] / "Frontend"
 async def lifespan(_app: FastAPI) -> AsyncIterator[None]:
     """Run startup/shutdown once per worker process."""
     # Startup: configure logging before anything logs or serves a request.
-    configure_logging(get_settings())
+    settings = get_settings()
+    configure_logging(settings)
+    # Register the schema's Neo4j vector/text indexes up front (the server-free
+    # analog of the OpenSPG server's schema-registration step), so entity linking
+    # and query-time vector search have their indexes before the first write.
+    initialize_graph_schema(settings)
     # Build the (cached) ingestion and query pipelines once at startup -- this
     # establishes the Neo4j connections, model clients, and registered
     # extractors/retrievers now, rather than on the first request.

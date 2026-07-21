@@ -217,6 +217,23 @@ class LLMClient(Registrable):
         raise NotImplementedError
         yield  # pragma: no cover - marks this as an async generator
 
+    def structured_output(self, schema, prompt: str = "", **kwargs):
+        """Return a schema-validated model instance for ``prompt``.
+
+        ``schema`` is a pydantic ``BaseModel`` subclass; the return value is an
+        instance of it. Subclasses that support structured output (e.g. Bedrock
+        tool-use) override this; the default raises so a prompt that opts into
+        ``output_schema()`` against a non-supporting client fails clearly.
+        """
+        raise NotImplementedError(
+            f"{type(self).__name__} does not implement structured_output, but a "
+            "prompt declared output_schema(). Implement it or drop the schema."
+        )
+
+    async def astructured_output(self, schema, prompt: str = "", **kwargs):
+        """Async counterpart of ``structured_output`` (see it for details)."""
+        raise NotImplementedError(f"{type(self).__name__} does not implement astructured_output.")
+
     @retry(
         stop=stop_after_attempt(3),
         wait=wait_exponential(multiplier=10, max=60),
@@ -315,12 +332,31 @@ class LLMClient(Registrable):
         logger.debug(f"Prompt: {prompt}")
         if not prompt:
             return result
+        # Structured-output opt-in: when a prompt declares an output_schema(), route
+        # through the model's schema-validated path (Bedrock tool-use) instead of
+        # parsing free text, and hand the validated model instance to parse_response.
+        schema = prompt_op.output_schema()
+        if schema is not None:
+            try:
+                obj = self.structured_output(schema, prompt=prompt, **kwargs)
+                return prompt_op.parse_response(obj, model=self.model, **variables)
+            except Exception as e:
+                import traceback
+
+                logger.info(
+                    f"Error {e} during structured invocation: {traceback.format_exc()}. "
+                    f"prompt={prompt}"
+                )
+                if with_except:
+                    raise RuntimeError(
+                        f"LLM structured invoke exception, info: {e}\nllm input: \n{prompt}"
+                    )
+                return result
         response = ""
         tools = kwargs.get("tools", None)
         if tools:
             with_json_parse = False
         try:
-            self.sync_limiter.acquire()
             response = (
                 self.call_with_json_parse(prompt=prompt, **kwargs)
                 if with_json_parse
@@ -371,33 +407,51 @@ class LLMClient(Registrable):
             prompt = ""
             kwargs["messages"] = prompt
 
+        # Structured-output opt-in (see invoke): schema-validated path via tool-use.
+        schema = prompt_op.output_schema()
+        if schema is not None:
+            try:
+                obj = await self.astructured_output(schema, prompt=prompt, **kwargs)
+                return prompt_op.parse_response(obj, model=self.model, **variables)
+            except Exception as e:
+                import traceback
+
+                logger.info(
+                    f"Error {e} during structured ainvocation: {traceback.format_exc()}. "
+                    f"prompt={prompt}"
+                )
+                if with_except:
+                    raise RuntimeError(
+                        f"LLM structured invoke exception, info: {e}\nllm input: \n{prompt}"
+                    )
+                return result
+
         response = ""
         tools = kwargs.get("tools", None)
         if tools:
             with_json_parse = False
 
-        async with self.limiter:
-            try:
-                response = await (
-                    self.acall_with_json_parse(prompt=prompt, **kwargs)
-                    if with_json_parse
-                    else self.acall(prompt, **kwargs)
-                )
-                if tools:
-                    return response
-                else:
-                    result = prompt_op.parse_response(response, model=self.model, **variables)
-                    logger.debug(f"Result: {result}")
-            except Exception as e:
-                import traceback
+        try:
+            response = await (
+                self.acall_with_json_parse(prompt=prompt, **kwargs)
+                if with_json_parse
+                else self.acall(prompt, **kwargs)
+            )
+            if tools:
+                return response
+            else:
+                result = prompt_op.parse_response(response, model=self.model, **variables)
+                logger.debug(f"Result: {result}")
+        except Exception as e:
+            import traceback
 
-                logger.info(
-                    f"Error {e} during invocation: {traceback.format_exc()} prompt={prompt} response={response}"
+            logger.info(
+                f"Error {e} during invocation: {traceback.format_exc()} prompt={prompt} response={response}"
+            )
+            if with_except:
+                raise RuntimeError(
+                    f"LLM invoke exception, info: {e}\nllm input: \n{prompt}\nllm output: \n{response}"
                 )
-                if with_except:
-                    raise RuntimeError(
-                        f"LLM invoke exception, info: {e}\nllm input: \n{prompt}\nllm output: \n{response}"
-                    )
         return result
 
     def batch(
@@ -465,23 +519,20 @@ class LLMClient(Registrable):
 
         for idx, prompt in enumerate(prompts, start=0):
             logger.debug(f"Prompt_{idx}: {prompt}")
-            async with self.limiter:
-                try:
-                    response = await (
-                        self.acall_with_json_parse(prompt=prompt)
-                        if with_json_parse
-                        else self.acall(prompt)
-                    )
-                    logger.debug(f"Response_{idx}: {response}")
-                    result = prompt_op.parse_response(
-                        response, idx=idx, model=self.model, **variables
-                    )
-                    logger.debug(f"Result_{idx}: {result}")
-                    results.extend(result)
-                except Exception as e:
-                    logger.error(f"Error processing prompt {idx}: {e}")
-                    logger.debug(traceback.format_exc())
-                    continue
+            try:
+                response = await (
+                    self.acall_with_json_parse(prompt=prompt)
+                    if with_json_parse
+                    else self.acall(prompt)
+                )
+                logger.debug(f"Response_{idx}: {response}")
+                result = prompt_op.parse_response(response, idx=idx, model=self.model, **variables)
+                logger.debug(f"Result_{idx}: {result}")
+                results.extend(result)
+            except Exception as e:
+                logger.error(f"Error processing prompt {idx}: {e}")
+                logger.debug(traceback.format_exc())
+                continue
         return results
 
     def check(self):

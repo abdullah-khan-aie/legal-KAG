@@ -1,0 +1,36 @@
+{
+  "id": "1082d0e3a80887da",
+  "messages": [
+    {
+      "id": "1082d0e3a80887da",
+      "snippet": "Fiona, Gavin, Attached is the completion funds flow for 27 February. Sources of £12.0m (£8.0m super-",
+      "subject": "Project Tempest - completion funds flow",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "fiona.aldridge@wexfordholdings.com",
+        "gavin.ross@sterlingcommercialbank.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "priya.sharma@sterlingcommercialbank.com",
+        "alistair.whitlock@pembertonrowe.com"
+      ],
+      "date": "2026-02-20T16:20:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Fiona, Gavin,\n\nAttached is the completion funds flow for 27 February. Sources of £12.0m (£8.0m super-senior drawdown plus the £4.0m shareholder contribution) fund the £3.0m Facility B paydown, fees of c.£0.6m (amendment fee £210k, arrangement fee £160k, agency, legal and IBR costs) and £8.0m of net cash to WCB's balance sheet for working capital. It ties to nil.\n\nGavin - please confirm Sterling's account details for the fee payments. Fiona - please arrange for the £4.0m shareholder contribution to be available in cleared funds on completion morning.\n\nJames\n\nWhitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ\nThis email is confidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Fiona, Gavin,<br><br>Attached is the completion funds flow for 27 February. Sources of £12.0m (£8.0m super-senior drawdown plus the £4.0m shareholder contribution) fund the £3.0m Facility B paydown, fees of c.£0.6m (amendment fee £210k, arrangement fee £160k, agency, legal and IBR costs) and £8.0m of net cash to WCB&#x27;s balance sheet for working capital. It ties to nil.<br><br>Gavin - please confirm Sterling&#x27;s account details for the fee payments. Fiona - please arrange for the £4.0m shareholder contribution to be available in cleared funds on completion morning.<br><br>James<br><br>Whitfield Carter LLP, 22 Bishopsgate, London EC2N 4BQ<br>This email is confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "NuxM7biRG6c6eZvQHSqkEFpRSU7CoLQPwjgUtxDA_oo"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Tempest_FundsFlow_Completion.xlsx",
+          "id": "NuxM7biRG6c6eZvQHSqkEFpRSU7CoLQPwjgUtxDA_oo",
+          "mimeType": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        }
+      ]
+    }
+  ]
+}

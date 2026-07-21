@@ -79,7 +79,7 @@ jobs:
           docker rm -f lodestone 2>/dev/null || true
           if [ -n "$LOG_GROUP" ]; then
             docker run -d --name lodestone --restart unless-stopped \
-              -p 8080:8080 -v /data/ingest:/data/ingest \
+              -p 8080:8080 \
               -e AWS_SECRETS_MANAGER_SECRET_ID=lodestone/env \
               -e AWS_SECRETS_MANAGER_REGION="$REGION" \
               -e AWS_REGION="$REGION" --memory=6g \
@@ -88,7 +88,7 @@ jobs:
               "$IMAGE"
           else
             docker run -d --name lodestone --restart unless-stopped \
-              -p 8080:8080 -v /data/ingest:/data/ingest \
+              -p 8080:8080 \
               -e AWS_SECRETS_MANAGER_SECRET_ID=lodestone/env \
               -e AWS_SECRETS_MANAGER_REGION="$REGION" \
               -e AWS_REGION="$REGION" --memory=6g \

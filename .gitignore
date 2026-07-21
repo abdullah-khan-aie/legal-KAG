@@ -19,7 +19,6 @@ venv/
 .env
 .env.*
 !.env.example
-!.env.docker.example
 .deploy-keys/
 
 # IDE
@@ -34,8 +33,18 @@ inspection_result
 reference/
 *.pdf
 
-# Local ingestion test documents (create the folder locally; not tracked)
-ingest_docs/
+# Ingest corpus is baked into the Docker image (COPY ingest_docs in Dockerfile),
+# so it must be tracked -- but ONLY the document types the scanner ingests.
+# Everything else that lands in the corpus folders (OOXML extraction scratch,
+# corpus build scripts, Office lock/temp files) stays ignored.
+ingest_docs/**
+!ingest_docs/**/
+!ingest_docs/**/*.pdf
+!ingest_docs/**/*.docx
+!ingest_docs/**/*.xlsx
+!ingest_docs/**/*.json
+!ingest_docs/**/*.txt
+!ingest_docs/**/*.md
 
 # Terraform (state can contain secrets; never commit state or tfvars)
 **/.terraform/*
@@ -50,3 +59,6 @@ override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+# evaluation run outputs (not tracked)
+eval_results.json
+eval_*.json

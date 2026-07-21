@@ -14,6 +14,13 @@ from kag.schema.client import IndexTypeEnum
 
 logger = logging.getLogger(__name__)
 
+# Dedicated Neo4j full-text index over Chunk.content only, used by
+# text_chunk_retriever. Kept separate from "_default_text_index" (which spans all
+# schema text fields) so per-term clause fanout stays at 1 field and never trips
+# Lucene's maxClauseCount. Must match the index_name wired in the chunk_index
+# retriever config.
+CHUNK_TEXT_INDEX_NAME = "_chunk_text_index"
+
 
 class SingletonMeta(ABCMeta):
     """Thread-safe singleton metaclass keyed on connection parameters."""
@@ -159,14 +166,26 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
         self._drop_all_graph(self._allGraph)
         self._create_all_graph(self._allGraph)
 
-    def initialize_schema(self, schema_types):
+    def initialize_schema(self, schema_types, vector_dimensions=768, namespace=""):
+        # Create the type-specific indexes on the SAME namespaced labels the writer
+        # persists to and the retriever queries (GraphStoreWriter.format_label /
+        # LocalSchemaLoader._full apply this identical rule). Without this the
+        # indexes sit on bare labels while the data lives on ``<namespace>.<Type>``,
+        # so every type-specific vector/text search hits an empty index.
+        def _with_ns(label):
+            if not namespace or "." in label:
+                return label
+            return f"{namespace}.{label}"
+
         for spg_type in schema_types:
-            label = spg_type
+            label = _with_ns(spg_type)
             properties = schema_types[spg_type].properties
             if properties:
                 for property_key in properties:
                     if property_key == "name":
-                        self.create_vector_index(label, property_key)
+                        self.create_vector_index(
+                            label, property_key, vector_dimensions=vector_dimensions
+                        )
                     index_type = properties[property_key].index_type
                     if index_type:
                         if index_type == IndexTypeEnum.Text:
@@ -175,7 +194,9 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
                             IndexTypeEnum.Vector,
                             IndexTypeEnum.TextAndVector,
                         ):
-                            self.create_vector_index(label, property_key)
+                            self.create_vector_index(
+                                label, property_key, vector_dimensions=vector_dimensions
+                            )
                         elif index_type in (
                             IndexTypeEnum.SparseVector,
                             IndexTypeEnum.TextAndSparseVector,
@@ -184,9 +205,21 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
                         else:
                             logger.info(f"Undefined IndexTypeEnum {index_type}")
         labels, property_keys = self._collect_text_index_info(schema_types)
+        labels = [_with_ns(label) for label in labels]
         self.create_text_index(labels, property_keys)
-        self.create_vector_index("Entity", "name")
-        self.create_vector_index("Entity", "desc")
+        # Dedicated single-field full-text index for chunk retrieval. The broad
+        # _default_text_index above spans every text property of every type, and
+        # Neo4j expands each query term across every (label, property) field, so a
+        # normal question (terms x dozens of fields) blows past Lucene's 1024
+        # maxClauseCount. Chunk text search only needs Chunk.content, so give it its
+        # own narrow index (fanout = 1 field); text_chunk_retriever targets it by
+        # name. Chunk is a builtin type with no schema properties, so its content is
+        # not in the union index anyway -- this also makes chunk text search work.
+        self.create_text_index([_with_ns("Chunk")], ["content"], index_name=CHUNK_TEXT_INDEX_NAME)
+        # "Entity" is the generic cross-type label added (bare) as an extra label on
+        # every node, so its indexes stay unprefixed to match.
+        self.create_vector_index("Entity", "name", vector_dimensions=vector_dimensions)
+        self.create_vector_index("Entity", "desc", vector_dimensions=vector_dimensions)
         self.refresh_vector_index_meta(force=True)
 
     @staticmethod
@@ -969,12 +1002,15 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
             query_vector = query_text_or_vector
 
         def do_vector_search(tx):
+            # Build the query one clause per line, each prefixed with "\n",
+            # mirroring the OpenSPG original (Neo4jIndexUtils.vectorSearch), so no
+            # two clauses can abut without a separator.
             if ef_search is not None:
                 query = (
-                    "CALL db.index.vector.queryNodes($index_name, $ef_search, $query_vector) "
-                    "YIELD node, score "
-                    "RETURN node, score, labels(node) as __labels__"
-                    f"LIMIT {topk}"
+                    "CALL db.index.vector.queryNodes($index_name, $ef_search, $query_vector)"
+                    "\nYIELD node, score"
+                    "\nRETURN node, score, labels(node) as __labels__"
+                    f"\nLIMIT {topk}"
                 )
                 res = tx.run(
                     query,
@@ -984,9 +1020,9 @@ class Neo4jClient(GraphStore, metaclass=SingletonMeta):
                 )
             else:
                 query = (
-                    "CALL db.index.vector.queryNodes($index_name, $topk, $query_vector) "
-                    "YIELD node, score "
-                    "RETURN node, score, labels(node) as __labels__"
+                    "CALL db.index.vector.queryNodes($index_name, $topk, $query_vector)"
+                    "\nYIELD node, score"
+                    "\nRETURN node, score, labels(node) as __labels__"
                 )
                 res = tx.run(query, query_vector=query_vector, topk=topk, index_name=index_name)
             data = res.data()

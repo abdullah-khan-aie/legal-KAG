@@ -1,0 +1,35 @@
+{
+  "id": "e989e8ba60ee4ba9",
+  "messages": [
+    {
+      "id": "e989e8ba60ee4ba9",
+      "snippet": "Oliver, Deepa, As promised, attached is our v2 redline against your comments. The tracked changes sh",
+      "subject": "Project Tempest — Subscription Agreement v2 (redline)",
+      "sender": "james.osei@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "sarah.whitfield@whitfieldcarter.com",
+        "eleanor.whitmore@marisdalegrowth.com"
+      ],
+      "date": "2025-12-08T16:30:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Oliver, Deepa,\n\nAs promised, attached is our v2 redline against your comments. The tracked changes show: founder cap reduced to £1.5m; de minimis to £35k; basket to £180k; general warranty limit extended to 24 months; and the Westbridge observer right expanded to include board papers (cl. 7.2). Everything else is as before. I think this should be close to final on the limitations.\n\nJames\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Oliver, Deepa,<br><br>As promised, attached is our v2 redline against your comments. The tracked changes show: founder cap reduced to £1.5m; de minimis to £35k; basket to £180k; general warranty limit extended to 24 months; and the Westbridge observer right expanded to include board papers (cl. 7.2). Everything else is as before. I think this should be close to final on the limitations.<br><br>James<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>",
+      "attachmentIds": [
+        "tG8mJ1W2-w33AwaCfqpgOo0OQQ0FTzPExSFuRzeSDTQ"
+      ],
+      "attachments": [
+        {
+          "filename": "Project_Tempest_SubscriptionAgreement_v2_redline.docx",
+          "id": "tG8mJ1W2-w33AwaCfqpgOo0OQQ0FTzPExSFuRzeSDTQ",
+          "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
+        }
+      ]
+    }
+  ]
+}

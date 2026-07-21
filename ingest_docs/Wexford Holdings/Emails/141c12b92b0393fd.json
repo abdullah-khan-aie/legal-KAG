@@ -1,0 +1,21 @@
+{
+  "id": "141c12b92b0393fd",
+  "messages": [
+    {
+      "id": "141c12b92b0393fd",
+      "snippet": "Tom - ignore my last, wrong thread. This was meant for the Calderwell Project Tempest financing team",
+      "subject": "Project Tempest - subscription docs",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "tom.gallagher@whitfieldcarter.com"
+      ],
+      "date": "2025-11-12T16:45:00Z",
+      "labelIds": [
+        "SENT",
+        "CATEGORY_UPDATES"
+      ],
+      "plaintextBody": "Tom - ignore my last, wrong thread. This was meant for the Calderwell Project Tempest financing team, not the recall matter. Please disregard.\n\nElena\n\n—\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.",
+      "htmlBody": "<div dir=\"ltr\">Tom - ignore my last, wrong thread. This was meant for the Calderwell Project Tempest financing team, not the recall matter. Please disregard.<br><br>Elena<br><br>—<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div>"
+    }
+  ]
+}

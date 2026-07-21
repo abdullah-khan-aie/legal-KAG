@@ -1,8 +1,21 @@
 import json
 from string import Template
 
+from pydantic import BaseModel, Field
+
 from kag.interface import PromptABC
 from kag.schema.local_loader import LocalSchemaLoader
+
+
+class NamedEntity(BaseModel):
+    name: str = Field(description="The entity mention as it appears in the text.")
+    category: str = Field(description="The entity type/category from the schema.")
+
+
+class NERResult(BaseModel):
+    named_entities: list[NamedEntity] = Field(
+        default_factory=list, description="All entities extracted from the input."
+    )
 
 
 @PromptABC.register("default_question_ner")
@@ -40,7 +53,12 @@ class QuestionNER(PromptABC):
     def template_variables(self) -> list[str]:
         return ["input"]
 
-    def parse_response(self, response: str, **kwargs):
+    def output_schema(self):
+        return NERResult
+
+    def parse_response(self, response, **kwargs):
+        if isinstance(response, NERResult):
+            return [{"name": e.name, "category": e.category} for e in response.named_entities]
         rsp = response
         if isinstance(rsp, str):
             rsp = json.loads(rsp)

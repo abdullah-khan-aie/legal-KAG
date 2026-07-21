@@ -586,12 +586,17 @@ class ParseLogicForm:
 
 def extract_steps_and_actions(text):
     # extract Step and the following Action
+    # Tolerant label match: `\s*\d*\s*` before the colon accepts "Step1:",
+    # "Step 1:", "Step:", "Step 1 :" (and likewise for Action). The index is
+    # cosmetic (never consumed); tolerating the whitespace/index noise real models
+    # emit keeps parsing deterministic per the planner prompt's "XXX: YYY" rule.
     step_pattern = re.compile(
-        r"([Ss][Tt][Ee][Pp]\d+):\s*(.*?)(?=\s*[Aa][Cc][Tt][Ii][Oo][Nn]\d+:|\s*[Ss][Tt][Ee][Pp]\d+:|$)",
+        r"([Ss][Tt][Ee][Pp]\s*\d*\s*):\s*(.*?)"
+        r"(?=\s*[Aa][Cc][Tt][Ii][Oo][Nn]\s*\d*\s*:|\s*[Ss][Tt][Ee][Pp]\s*\d*\s*:|$)",
         re.DOTALL,
     )
     action_pattern = re.compile(
-        r"([Aa][Cc][Tt][Ii][Oo][Nn]\d+):\s*(.*?)(?=\s*[Ss][Tt][Ee][Pp]\d+:|$)",
+        r"([Aa][Cc][Tt][Ii][Oo][Nn]\s*\d*\s*):\s*(.*?)(?=\s*[Ss][Tt][Ee][Pp]\s*\d*\s*:|$)",
         re.DOTALL,
     )
 
@@ -638,7 +643,7 @@ def parse_logic_form_with_str(response):
             if action is not None:
                 logic_forms.append(action)
         elif line.startswith("Action"):
-            logic_forms_regex = re.search(r"Action\d+:(.*)", line)
+            logic_forms_regex = re.search(r"Action\s*\d*\s*:(.*)", line)
             if logic_forms_regex:
                 logic_forms.append(logic_forms_regex.group(1))
                 if len(logic_forms) - len(sub_querys) == 1:

@@ -1,7 +1,0 @@
-# Local laptop overlay: mount AWS SSO profile so the container can read Secrets Manager.
-#   docker compose -f docker-compose.yml -f docker-compose.local.yml up -d --build
-
-services:
-  lodestone:
-    volumes:
-      - ${AWS_SHARED_CREDENTIALS_DIR:-${HOME}/.aws}:/home/appuser/.aws:ro

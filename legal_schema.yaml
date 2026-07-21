@@ -387,6 +387,23 @@ types:
         type: Text
         index: TextAndVector
 
+  AtomicQuery:
+    type: ENTITY
+    desc: >-
+      An independent, answerable question extracted from a chunk by the
+      atomic-query index; retrieval matches a user question against these
+      (question-to-question) then follows sourceChunk to the answer text.
+    properties:
+      title:
+        type: Text
+        index: TextAndVector
+      sourceChunk:
+        type: Chunk
+        desc: the text chunk this atomic question was extracted from and links back to
+      similar:
+        type: AtomicQuery
+        desc: another atomic question with similar meaning
+
   # ===========================================================================
   # 4) ACTORS
   # ===========================================================================

@@ -1,0 +1,68 @@
+{
+  "id": "2da6fda7cd52a5ae",
+  "messages": [
+    {
+      "id": "2da6fda7cd52a5ae",
+      "snippet": "James, Elena, Good to be working with you. Attaching nothing yet but our DD request list will follow",
+      "subject": "Project Tempest — due diligence request list",
+      "sender": "oliver.jennings@birchallstone.com",
+      "toRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "eleanor.whitmore@marisdalegrowth.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "date": "2025-11-03T09:40:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "James, Elena,\n\nGood to be working with you. Attaching nothing yet but our DD request list will follow separately — could you confirm the data room is open and grant access to me and Deepa Kovac? Priority areas for us are IP ownership (the motor-controller patent), the customer contracts and the cap table.\n\nBest,\nOliver Jennings\nBirchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\">James, Elena,<br><br>Good to be working with you. Attaching nothing yet but our DD request list will follow separately — could you confirm the data room is open and grant access to me and Deepa Kovac? Priority areas for us are IP ownership (the motor-controller patent), the customer contracts and the cap table.<br><br>Best,<br>Oliver Jennings<br>Birchall Stone LLP</div>"
+    },
+    {
+      "id": "be714c2fe6dbb744",
+      "snippet": "Hi Oliver, Data room is open and you both now have access. The cap table (pre and post) is in folder",
+      "subject": "RE: Project Tempest — due diligence request list",
+      "sender": "elena.marchetti@whitfieldcarter.com",
+      "toRecipients": [
+        "oliver.jennings@birchallstone.com",
+        "deepa.kovac@birchallstone.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com"
+      ],
+      "date": "2025-11-03T15:05:00Z",
+      "labelIds": [
+        "SENT"
+      ],
+      "plaintextBody": "Hi Oliver,\n\nData room is open and you both now have access. The cap table (pre and post) is in folder 1; IP materials including the Hartington IP opinion are in folder 3. Do send the request list and we'll start working through replies.\n\nElena\n\n--\nWhitfield Carter LLP\n22 Bishopsgate, London EC2N 4BQ\nConfidential and may be legally privileged.\n\nOn Mon, Nov 3, 2025 at 9:40 AM, Oliver Jennings <oliver.jennings@birchallstone.com> wrote:\n> James, Elena,\n>\n> Good to be working with you. Attaching nothing yet but our DD request list will follow separately — could you confirm the data room is open and grant access to me and Deepa Kovac? Priority areas for us are IP ownership (the motor-controller patent), the customer contracts and the cap table.\n>\n> Best,\n> Oliver Jennings\n> Birchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Hi Oliver,<br><br>Data room is open and you both now have access. The cap table (pre and post) is in folder 1; IP materials including the Hartington IP opinion are in folder 3. Do send the request list and we&#x27;ll start working through replies.<br><br>Elena<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Nov 3, 2025 at 9:40 AM, Oliver Jennings &lt;oliver.jennings@birchallstone.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James, Elena,<br><br>Good to be working with you. Attaching nothing yet but our DD request list will follow separately — could you confirm the data room is open and grant access to me and Deepa Kovac? Priority areas for us are IP ownership (the motor-controller patent), the customer contracts and the cap table.<br><br>Best,<br>Oliver Jennings<br>Birchall Stone LLP</div></blockquote></div></div>"
+    },
+    {
+      "id": "591f6574eac52eb5",
+      "snippet": "Thanks Elena — access working. First query: we note a third-party observation on GB2410882.1 and a l",
+      "subject": "RE: Project Tempest — due diligence request list",
+      "sender": "deepa.kovac@birchallstone.com",
+      "toRecipients": [
+        "elena.marchetti@whitfieldcarter.com"
+      ],
+      "ccRecipients": [
+        "james.osei@whitfieldcarter.com",
+        "oliver.jennings@birchallstone.com"
+      ],
+      "date": "2025-11-10T12:30:00Z",
+      "labelIds": [
+        "INBOX",
+        "UNREAD",
+        "IMPORTANT",
+        "CATEGORY_PERSONAL"
+      ],
+      "plaintextBody": "Thanks Elena — access working. First query: we note a third-party observation on GB2410882.1 and a letter from Northstar Cell Technologies re firmware. Can you confirm both are being specifically disclosed and share counsel's view?\n\nOn Mon, Nov 3, 2025 at 3:05 PM, Elena Marchetti <elena.marchetti@whitfieldcarter.com> wrote:\n> Hi Oliver,\n>\n> Data room is open and you both now have access. The cap table (pre and post) is in folder 1; IP materials including the Hartington IP opinion are in folder 3. Do send the request list and we'll start working through replies.\n>\n> Elena\n>\n> --\n> Whitfield Carter LLP\n> 22 Bishopsgate, London EC2N 4BQ\n> Confidential and may be legally privileged.\n>\n> On Mon, Nov 3, 2025 at 9:40 AM, Oliver Jennings <oliver.jennings@birchallstone.com> wrote:\n> > James, Elena,\n> >\n> > Good to be working with you. Attaching nothing yet but our DD request list will follow separately — could you confirm the data room is open and grant access to me and Deepa Kovac? Priority areas for us are IP ownership (the motor-controller patent), the customer contracts and the cap table.\n> >\n> > Best,\n> > Oliver Jennings\n> > Birchall Stone LLP",
+      "htmlBody": "<div dir=\"ltr\"><div dir=\"ltr\">Thanks Elena — access working. First query: we note a third-party observation on GB2410882.1 and a letter from Northstar Cell Technologies re firmware. Can you confirm both are being specifically disclosed and share counsel&#x27;s view?</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Nov 3, 2025 at 3:05 PM, Elena Marchetti &lt;elena.marchetti@whitfieldcarter.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\"><div dir=\"ltr\">Hi Oliver,<br><br>Data room is open and you both now have access. The cap table (pre and post) is in folder 1; IP materials including the Hartington IP opinion are in folder 3. Do send the request list and we&#x27;ll start working through replies.<br><br>Elena<br><br>--<br>Whitfield Carter LLP<br>22 Bishopsgate, London EC2N 4BQ<br>Confidential and may be legally privileged.</div><br><br><div class=\"gmail_quote\"><div dir=\"ltr\" class=\"gmail_attr\">On Mon, Nov 3, 2025 at 9:40 AM, Oliver Jennings &lt;oliver.jennings@birchallstone.com&gt; wrote:<br></div><blockquote class=\"gmail_quote\" style=\"margin:0 0 0 .8ex;border-left:1px solid #ccc;padding-left:1ex\"><div dir=\"ltr\">James, Elena,<br><br>Good to be working with you. Attaching nothing yet but our DD request list will follow separately — could you confirm the data room is open and grant access to me and Deepa Kovac? Priority areas for us are IP ownership (the motor-controller patent), the customer contracts and the cap table.<br><br>Best,<br>Oliver Jennings<br>Birchall Stone LLP</div></blockquote></div></div></blockquote></div></div>"
+    }
+  ]
+}

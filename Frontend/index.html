@@ -518,15 +518,20 @@
 <script>
 "use strict";
 
-const UI_BUILD = "2026-07-09.7";
+const UI_BUILD = "2026-07-09.8";
 console.info("Lodestone UI build", UI_BUILD);
 
 /* ── config ──────────────────────────────────────────────────────────── */
-// Empty string => same origin (FastAPI serves this page at /ui, so
-// /query/stream needs no CORS). Override with window.LODESTONE_API_BASE.
+// Same-origin API base, derived from where this page is served so it works
+// both at the origin root (HTTP API / custom domain -> "") and under a stage
+// path prefix (REST API "prod" stage -> "/prod"). The page is served at
+// "<base>/ui[/...]", so stripping the trailing "/ui..." yields the base that
+// prefixes /query/stream etc. Override with window.LODESTONE_API_BASE.
 const API_BASE = (typeof window.LODESTONE_API_BASE === "string")
   ? window.LODESTONE_API_BASE
-  : (location.protocol === "file:" ? "http://localhost:8080" : "");
+  : (location.protocol === "file:"
+      ? "http://localhost:8080"
+      : location.pathname.replace(/\/ui(?:\/.*)?$/, ""));
 
 // Pipelines that stream visible reasoning; the trace panel is shown for these only.
 const REASONING_PIPELINES = new Set(["deep_thought", "kag_thinker"]);
