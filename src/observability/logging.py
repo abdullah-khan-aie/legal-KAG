@@ -6,7 +6,7 @@ import logging
 from logging.config import dictConfig
 from typing import Any
 
-from src.lodestone.config.settings import Settings
+from src.config import Settings
 
 # Human-readable line for local development: time | LEVEL | logger | file:line | func | message
 CONSOLE_FORMAT = "%(asctime)s | %(levelname)-8s | %(name)s | %(filename)s:%(lineno)d | %(funcName)s | %(message)s"

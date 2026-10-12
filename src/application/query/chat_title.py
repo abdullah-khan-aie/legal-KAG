@@ -3,8 +3,8 @@ from __future__ import annotations
 import re
 
 from kag.common.llm.anthropic_client import AnthropicLLMClient
-from src.lodestone.application.query.builder import _anthropic_credentials
-from src.lodestone.config.settings import Settings
+from src.application.query.builder import _anthropic_credentials
+from src.config import Settings
 
 _MAX_ANSWER_CHARS = 600
 _MAX_TITLE_CHARS = 48

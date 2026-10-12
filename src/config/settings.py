@@ -14,12 +14,12 @@ from pydantic_settings import (
 
 
 class Settings(BaseSettings):
-    """Application settings for the ingestion + query pipelines and their clients.
+    """Application settings for the ingestion and query pipelines.
 
-    Field ``foo_bar`` maps to the ``LODESTONE_FOO_BAR`` environment variable.
+    Field ``foo_bar`` maps to the ``FOO_BAR`` key in the secret.
     """
 
-    model_config = SettingsConfigDict(env_prefix="LODESTONE_", extra="ignore")
+    model_config = SettingsConfigDict(env_prefix="", extra="ignore")
 
     @classmethod
     def settings_customise_sources(
@@ -30,36 +30,17 @@ class Settings(BaseSettings):
         dotenv_settings: PydanticBaseSettingsSource,
         file_secret_settings: PydanticBaseSettingsSource,
     ) -> tuple[PydanticBaseSettingsSource, ...]:
-        """Load ALL application config solely from the AWS Secrets Manager secret.
+        """Load all config from one AWS Secrets Manager secret.
 
-        Secrets Manager is the single source of truth: there is deliberately NO
-        fallback to environment variables or a ``.env`` file for ``LODESTONE_*``
-        config -- the ``env``, ``.env`` and file-secret sources are dropped. Only
-        the bootstrap values needed to REACH the secret are read from the real
-        environment, and they are not app settings:
-
-        * AWS credentials -- an SSO profile / ``AWS_*`` keys locally, or the EC2
-          instance IAM role -- consumed by the boto3 client, not by pydantic.
-        * ``AWS_SECRETS_MANAGER_SECRET_ID`` -- the secret to load (e.g.
-          ``lodestone/env``); optionally ``AWS_SECRETS_MANAGER_REGION``.
-
-        The secret is one JSON object whose keys match the ``LODESTONE_``-prefixed
-        field names (the source inherits this model's ``env_prefix``).
-
-        ``init_settings`` is kept first so explicit ``Settings(...)`` construction
-        (e.g. in tests) still works; it contributes nothing at runtime since the
-        app builds ``Settings()`` with no args.
-
-        Raises:
-            RuntimeError: if ``AWS_SECRETS_MANAGER_SECRET_ID`` is unset. With no
-            fallback source, we fail fast rather than start mis-configured.
+        The env and .env sources are dropped on purpose, so only
+        AWS_SECRETS_MANAGER_SECRET_ID and AWS credentials come from the environment.
         """
         secret_id = os.getenv("AWS_SECRETS_MANAGER_SECRET_ID")
         if not secret_id:
             raise RuntimeError(
                 "AWS_SECRETS_MANAGER_SECRET_ID is not set. All configuration is "
                 "read exclusively from AWS Secrets Manager (no .env / env "
-                "fallback); set it to the secret id, e.g. 'lodestone/env'."
+                "fallback); set it to the secret id, e.g. 'env'."
             )
         aws_secrets = AWSSecretsManagerSettingsSource(
             settings_cls,
@@ -67,60 +48,41 @@ class Settings(BaseSettings):
             region_name=os.getenv("AWS_SECRETS_MANAGER_REGION")
             or os.getenv("AWS_DEFAULT_REGION")
             or os.getenv("AWS_REGION"),
-            # The source defaults to case_sensitive=True, so UPPER_CASE secret
-            # keys (LODESTONE_NEO4J_PASSWORD) would not bind to the lower-case field
-            # names. Match case-insensitively like normal env settings.
+            # Without this, UPPER_CASE secret keys never bind to the lower-case
+            # field names, because the source defaults to case_sensitive=True.
             case_sensitive=False,
         )
         return init_settings, aws_secrets
 
-    # NOTE ON DEFAULTS: configuration is loaded solely from AWS Secrets Manager
-    # (the ``lodestone/env`` secret). Most fields below carry NO in-code default, so
-    # a key missing from the secret fails startup loudly instead of silently
-    # falling back to a stale hardcoded value (e.g. a non-"global" model id). The
-    # fields that DO keep a default are called out inline below.
+    # Most fields below have no default, so a key missing from the secret fails
+    # startup loudly rather than running on a stale hardcoded value.
 
     schema_path: str
     llm_model: str
 
-    # Embeddings: called directly against Cohere's API (not Bedrock). embed_model
-    # is a bare Cohere Embed model id, e.g. "embed-v4.0". input_type is
-    # "search_document" for ingest ("search_query" for retrieval).
+    # Bare Cohere model id, e.g. "embed-v4.0". Ingest uses "search_document";
+    # retrieval switches to "search_query".
     embed_model: str
     embed_input_type: str
-    # Embedding length. Single source of truth: it's both requested from Cohere
-    # (output_dimension) and used to size the Neo4j vector indexes, so the indexed
-    # vectors and query vectors always match. 1536 is Embed v4's native (untruncated)
-    # size -- highest retrieval fidelity; 256/512/1024 are smaller Matryoshka
-    # truncations. Changing this after indexes exist requires dropping them first.
+    # Also sizes the Neo4j vector indexes, so query and indexed vectors always
+    # match. Changing it after the indexes exist means dropping them first.
     embed_dimension: int = 1536
 
-    # Anthropic API key for the direct (non-Bedrock) Claude client, read from the
-    # secret and passed as a SecretStr so it stays masked in logs (unwrapped only
-    # when the Anthropic SDK client is constructed). Leave unset to fall back to
-    # the SDK's ANTHROPIC_API_KEY environment variable.
+    # SecretStr keeps the key masked in logs. Unset falls back to the SDK's own
+    # ANTHROPIC_API_KEY / CO_API_KEY variables.
     anthropic_api_key: SecretStr | None = None
-
-    # Cohere API key for the direct (non-Bedrock) embedding client, read from the
-    # secret and passed as a SecretStr so it stays masked in logs (unwrapped only
-    # when the Cohere SDK client is constructed). Leave unset to fall back to the
-    # SDK's CO_API_KEY environment variable.
     cohere_api_key: SecretStr | None = None
 
-    # Neo4j graph store (the pipeline always persists + entity-links against it).
     neo4j_uri: str = "bolt://localhost:7687"
     neo4j_user: str = "neo4j"
     neo4j_password: SecretStr = "test1234"
     neo4j_database: str = "neo4j"
 
-    # Label namespace prefix (empty = labels used as-is, e.g. "Contract").
+    # Label prefix. Empty means labels are used as-is, e.g. "Contract".
     namespace: str
 
-    # Active KAG indices. Each name maps to a KAGIndexManager that contributes
-    # BOTH its extractor(s) at ingest time and its retriever(s) at query time,
-    # so ingestion and retrieval stay in lockstep. Set via LODESTONE_INDEX_LIST as
-    # a JSON array, e.g. '["summary_index","chunk_index","atomic_query_index"]'.
-    # NOT in the secret: kept defaulted. Add to the secret to make required.
+    # Each index contributes both an ingest extractor and a query retriever, so
+    # listing one here keeps ingestion and retrieval in lockstep.
     index_list: list[str] = [
         "spo_graph_index",
         "summary_index",
@@ -128,33 +90,26 @@ class Settings(BaseSettings):
         "atomic_query_index",
     ]
 
-    # Ingestion: local folder the directory scanner reads, and how many documents
-    # to ingest concurrently (bounded to respect Bedrock rate limits).
-    # scan_dir has a TEMPORARY default; note the secret's LODESTONE_SCAN_DIR (if
-    # present) still overrides it, so remove it from the secret to use this value.
     scan_dir: str = "ingest_docs"
     max_concurrency: int
 
-    # Global cap on how many chunk-extraction tasks run at once, shared across all
-    # in-flight documents: a single fixed-size pool of worker coroutines drains a
-    # bounded queue (see IngestionPipeline). NOTE: each extraction task fans out
-    # internally into ~4 concurrent LLM sub-calls (NER / relation / event /
-    # standardization), so true in-flight calls are roughly this x 4. On this
-    # low-quota Bedrock account keep it at 1; raise once the quota is increased.
+    # Caps concurrent chunk extractions across all in-flight documents. Each task
+    # fans out into several LLM sub-calls, so real in-flight calls are a multiple
+    # of this. Raise it only as far as the Anthropic rate limit allows.
     model_execute_num: int
 
     log_level: str
     log_format: Literal["console", "json"]
 
-    # Langfuse tracing (optional). Keys live in the secret; kept defaulted so a
-    # missing key doesn't fail startup and tracing stays OFF unless explicitly
-    # enabled. When enable_observability is True the three keys must be present.
+    # Tracing stays off unless explicitly enabled. When it is on, all three
+    # Langfuse keys must be present or the client cannot start.
     enable_observability: bool = False
     langfuse_public_key: SecretStr | None = None
     langfuse_secret_key: SecretStr | None = None
     langfuse_base_url: SecretStr | None = None
     environment: str = "dev"
 
+    # USD per single token, not per million. Used to price each traced call.
     llm_input_cost_per_token: float
     llm_output_cost_per_token: float
     embed_cost_per_token: float

@@ -3,7 +3,7 @@ from __future__ import annotations
 import os
 from typing import Any
 
-from src.lodestone.config.settings import Settings, get_settings
+from src.config import Settings, get_settings
 
 # Pipeline name -> yaml file under kag/solver/pipelineconf/.
 _PIPELINE_FILES = {
@@ -43,11 +43,10 @@ def vectorize_model_config(settings: Settings, input_type: str) -> dict[str, Any
 
 
 def _anthropic_credentials(settings: Settings) -> dict[str, Any]:
-    """Anthropic API key from settings, or empty to fall back to ANTHROPIC_API_KEY.
+    """Anthropic key for the client config, or empty to fall back to ANTHROPIC_API_KEY.
 
-    The ``SecretStr`` (not the plaintext) is placed in the client config, so the
-    value stays masked as ``**********`` in any logs; the client unwraps it only at
-    the point it constructs the Anthropic SDK client.
+    The SecretStr goes in rather than the plaintext, so the key stays masked if
+    the config is ever logged.
     """
     if settings.anthropic_api_key:
         return {"api_key": settings.anthropic_api_key}
@@ -55,11 +54,10 @@ def _anthropic_credentials(settings: Settings) -> dict[str, Any]:
 
 
 def _cohere_credentials(settings: Settings) -> dict[str, Any]:
-    """Cohere API key from settings, or empty to fall back to the SDK's CO_API_KEY.
+    """Cohere key for the client config, or empty to fall back to CO_API_KEY.
 
-    The ``SecretStr`` (not the plaintext) is placed in the client config, so the
-    value stays masked as ``**********`` in any logs; the model unwraps it only at
-    the point it constructs the Cohere SDK client.
+    The SecretStr goes in rather than the plaintext, so the key stays masked if
+    the config is ever logged.
     """
     if settings.cohere_api_key:
         return {"api_key": settings.cohere_api_key}
@@ -115,12 +113,10 @@ def _build_retriever_configs(
     llm_config: dict[str, Any],
     vectorize_config: dict[str, Any],
 ) -> list[dict[str, Any]]:
-    """Assemble the ``{retrievers}`` list from the active indices.
+    """Assemble the retriever list from the active indices.
 
-    For each index name, build its ``KAGIndexManager`` and collect that index's
-    retriever config(s). This is the query-side half of the extractor/retriever
-    symmetry: the retrievers that run are exactly the ones matching the indices
-    that were built at ingest time.
+    Mirrors the ingest side, so the retrievers that run are exactly the ones
+    whose indices were built.
     """
     from kag.indexer import KAGIndexManager
 
@@ -138,12 +134,10 @@ def _build_retriever_configs(
 
 
 def _inject_graph_store(node: Any, graph_store) -> None:
-    """Attach the live graph store to every Neo4j search/graph API in the config.
+    """Attach the live graph store to every Neo4j API node in the config.
 
-    The retrievers are built by the registry from config dicts several levels
-    deep, where a live ``Neo4jClient`` can't be expressed. Rather than a global,
-    we walk the resolved config and pass the store explicitly to each
-    ``neo4j_search_api`` / ``neo4j_graph_api`` node before it is constructed.
+    A live client cannot be expressed in a config dict, so we walk the tree and
+    inject it before construction rather than reaching for a global.
     """
     if isinstance(node, dict):
         if node.get("type") in ("neo4j_search_api", "neo4j_graph_api"):
@@ -160,18 +154,10 @@ def build_query_pipeline(
     settings: Settings | None = None,
     graph_store=None,
 ):
-    """Construct a KAG solver pipeline for the given pipeline definition.
+    """Build a solver pipeline ready to answer queries.
 
-    Args:
-        pipeline_name: Which ``pipelineconf`` definition to build (e.g. "retriever",
-            "deep_thought", "kag_thinker", "naive_rag").
-        settings: Settings to source model credentials and the active ``index_list``
-            from; defaults to the singleton.
-        graph_store: Live Neo4j graph store, injected into the config-built
-            ``neo4j_search_api`` / ``neo4j_graph_api`` retrievers.
-
-    Returns:
-        A ``SolverPipelineABC`` instance ready to answer queries.
+    pipeline_name selects the definition to load, such as "retriever",
+    "deep_thought", "kag_thinker" or "naive_rag".
     """
     from kag.interface import SolverPipelineABC
 

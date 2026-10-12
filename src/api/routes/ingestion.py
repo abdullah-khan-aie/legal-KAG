@@ -2,9 +2,9 @@ from __future__ import annotations
 
 from fastapi import APIRouter
 
-from src.lodestone.api.schemas import IngestFileResult, IngestResponse
-from src.lodestone.application.ingestion.runner import ingest_directory
-from src.lodestone.config.settings import get_settings
+from src.api.schemas import IngestFileResult, IngestResponse
+from src.application.ingestion.runner import ingest_directory
+from src.config import get_settings
 
 router = APIRouter(prefix="/ingest", tags=["ingestion"])
 
@@ -13,8 +13,8 @@ router = APIRouter(prefix="/ingest", tags=["ingestion"])
 async def ingest() -> IngestResponse:
     """Ingest every document in the configured scan folder.
 
-    No request body: the directory scanner reads ``LODESTONE_SCAN_DIR`` and the
-    documents are ingested concurrently (bounded by ``LODESTONE_MAX_CONCURRENCY``).
+    No request body: the directory scanner reads ``SCAN_DIR`` and the
+    documents are ingested concurrently (bounded by ``MAX_CONCURRENCY``).
     """
     settings = get_settings()
     summary = await ingest_directory(settings.scan_dir, settings.max_concurrency)

@@ -1,12 +1,12 @@
 """Accuracy evaluation for the query pipelines.
 
-Layer-1 of KAG's evaluation (metrics + LLM-judge), scoped to our own goldset and
-Bedrock stack -- not the public-benchmark dataset runners. Run with:
+Metrics and an LLM judge scored against our own goldset, not the public
+benchmark datasets. Run with:
 
-    python -m src.lodestone.evaluation.runner
+    python -m src.evaluation.runner
 """
 
-from src.lodestone.evaluation.metrics import (
+from src.evaluation.metrics import (
     contains_gold,
     exact_match_score,
     f1_score,

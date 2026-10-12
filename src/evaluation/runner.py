@@ -1,21 +1,12 @@
-"""Accuracy evaluation runner: sweep the goldset across query pipelines and score.
+"""Run the goldset across query pipelines and score the answers.
 
-Runs each gold question through one or more pipelines (``retriever`` / ``deep_thought``
-/ ``kag_thinker``) in-process, then scores each answer with:
-  * EM and token-F1 vs the gold answer,
-  * ``contains@1`` -- lenient: the gold answer appears in the (often verbose) answer,
-  * ``judge`` -- an LLM-as-judge correctness verdict (handles paraphrase/verbosity),
-  * ``ctx-recall`` -- proxy: the gold answer appears anywhere in the retrieved context
-    events (did retrieval surface the answer at all).
+Scores each answer four ways: exact match and token F1, a lenient substring
+check, an LLM judge that tolerates paraphrase, and whether retrieval surfaced
+the answer at all. Results are aggregated per pipeline and written as JSON, so
+changes can be A/B tested against a baseline.
 
-Aggregates per pipeline and per tier and writes a JSON results file. Use it to get a
-baseline and to A/B changes (e.g. adding chunk_index / raising top_k).
-
-Usage:
-    python -m src.lodestone.evaluation.runner \
-        --pipelines retriever deep_thought kag_thinker --out eval_results.json
-Requires the same environment as the server (AWS_SECRETS_MANAGER_SECRET_ID, Neo4j,
-Cohere/Bedrock creds) and an ingested graph.
+Needs the same environment as the server plus an already-ingested graph:
+    python -m src.evaluation.runner --pipelines retriever --out results.json
 """
 
 from __future__ import annotations
@@ -29,12 +20,12 @@ from typing import Any
 
 from kag.common.llm.anthropic_client import aclose_all_anthropic_clients
 from kag.interface import LLMClient
-from src.lodestone.application.query.builder import chat_llm_config
-from src.lodestone.application.query.streaming import stream_query_events
-from src.lodestone.bootstrap import initialize_graph_schema
-from src.lodestone.config import get_settings
-from src.lodestone.evaluation.judge import judge_answer
-from src.lodestone.evaluation.metrics import contains_gold, get_em_f1, rouge_l
+from src.application.query.builder import chat_llm_config
+from src.application.query.streaming import stream_query_events
+from src.bootstrap import initialize_graph_schema
+from src.config import get_settings
+from src.evaluation.judge import judge_answer
+from src.evaluation.metrics import contains_gold, get_em_f1, rouge_l
 
 _GOLDSET = Path(__file__).parent / "goldset.json"
 

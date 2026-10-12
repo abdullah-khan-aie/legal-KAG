@@ -7,8 +7,8 @@ from dataclasses import dataclass, field
 from pathlib import PurePath
 
 from kag.builder.component.scanner.directory_scanner import DirectoryScanner
-from src.lodestone.bootstrap import get_ingestion_pipeline
-from src.lodestone.observability import tracing as obs
+from src.bootstrap import get_ingestion_pipeline
+from src.observability import tracing as obs
 
 logger = logging.getLogger(__name__)
 
@@ -46,17 +46,8 @@ def _file_hash(path: str) -> str:
 async def ingest_directory(directory: str, max_concurrency: int = 4) -> IngestSummary:
     """Scan a directory and ingest its documents with bounded concurrency.
 
-    A producer feeds file paths onto a bounded ``asyncio.Queue`` and
-    ``max_concurrency`` long-lived consumers pull and run each through the
-    pipeline. The queue's ``maxsize`` applies backpressure, so memory stays flat
-    no matter how large the corpus grows (only N consumers and a bounded buffer
-    are alive). Documents are de-duplicated by content hash within the run.
-
-    For tracing, each document is its own Langfuse **trace** (named by the file)
-    under the fixed ``"ingestion"`` session, with the pipeline stages and LLM
-    token costs nested beneath it (see :mod:`src.lodestone.observability`). The
-    deployment environment is attached by the Langfuse client; no other grouping
-    metadata is added, so the model stays uniform across any data source.
+    Memory stays flat on any corpus size because only max_concurrency consumers
+    and a bounded queue are ever alive. Repeated content is skipped within a run.
     """
     scanner = DirectoryScanner()
     pipeline = get_ingestion_pipeline()
@@ -81,8 +72,7 @@ async def ingest_directory(directory: str, max_concurrency: int = 4) -> IngestSu
             return FileResult(path=path, status="failed", error=str(err))
 
     async def producer() -> None:
-        # find_files is blocking (os.walk); offload it so the event loop isn't
-        # stalled. Paths are then fed onto the bounded queue with backpressure.
+        # find_files walks the tree synchronously, so keep it off the event loop.
         paths = await asyncio.to_thread(scanner.find_files, directory)
         for path in paths:
             await queue.put(path)
@@ -95,8 +85,8 @@ async def ingest_directory(directory: str, max_concurrency: int = 4) -> IngestSu
             if path is None:
                 queue.task_done()
                 break
-            # One trace per document (named by file), under the "ingestion"
-            # session; the pipeline stages and LLM costs nest beneath it.
+            # One trace per document, named by file, so stages and token costs
+            # nest under it in the shared ingestion session.
             with obs.span(PurePath(path).name):
                 with obs.propagate(session_id=obs.INGESTION_SESSION):
                     result = await process(path)
@@ -115,5 +105,5 @@ async def ingest_directory(directory: str, max_concurrency: int = 4) -> IngestSu
         await queue.join()
         await asyncio.gather(*consumers)
     finally:
-        obs.flush()  # batch job: ensure all buffered spans are sent
+        obs.flush()  # batch job, so buffered spans must be sent before returning
     return summary

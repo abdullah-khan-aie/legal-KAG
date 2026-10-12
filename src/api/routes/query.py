@@ -5,10 +5,10 @@ from collections.abc import AsyncIterable
 from fastapi import APIRouter
 from fastapi.sse import EventSourceResponse, ServerSentEvent
 
-from src.lodestone.api.schemas import ChatTitleRequest, ChatTitleResponse, QueryRequest
-from src.lodestone.application.query.chat_title import generate_chat_title
-from src.lodestone.application.query.streaming import stream_query_events
-from src.lodestone.config import get_settings
+from src.api.schemas import ChatTitleRequest, ChatTitleResponse, QueryRequest
+from src.application.query.chat_title import generate_chat_title
+from src.application.query.streaming import stream_query_events
+from src.config import get_settings
 
 router = APIRouter(prefix="/query", tags=["query"])
 
@@ -28,12 +28,8 @@ async def chat_title(request: ChatTitleRequest) -> ChatTitleResponse:
 async def query_stream(request: QueryRequest) -> AsyncIterable[ServerSentEvent]:
     """Answer a query over Server-Sent Events.
 
-    Emits typed events as the pipeline runs:
-      - ``step``  : progress (planning, retrieval, thinking)
-      - ``token`` : an answer text delta ``{"delta": ...}``
-      - ``answer``: the full final answer ``{"answer": ...}``
-      - ``done``  : end-of-stream sentinel
-      - ``error`` : pipeline failure ``{"error": ...}``
+    Event types: step for progress, token for an answer delta, answer for the
+    final text, done as the end sentinel, and error on failure.
     """
     async for event in stream_query_events(request.query, request.pipeline.value):
         segment = event["segment"]

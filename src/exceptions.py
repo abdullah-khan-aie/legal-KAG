@@ -3,7 +3,7 @@ from __future__ import annotations
 from typing import Any
 
 
-class LodestoneError(Exception):
+class Error(Exception):
     """Base class for every application error.
 
     Args:
@@ -34,29 +34,29 @@ class LodestoneError(Exception):
         return {"error": self.code, "message": self.message, "details": self.details}
 
 
-class ConfigurationError(LodestoneError):
+class ConfigurationError(Error):
     """Invalid or missing configuration (settings, credentials, schema path)."""
 
 
-class DocumentReadError(LodestoneError):
+class DocumentReadError(Error):
     """A source document could not be read or parsed."""
 
 
-class ChunkingError(LodestoneError):
+class ChunkingError(Error):
     """Splitting a document into chunks failed."""
 
 
-class ExtractionError(LodestoneError):
+class ExtractionError(Error):
     """Entity, relation, or summary extraction failed."""
 
 
-class EmbeddingError(LodestoneError):
+class EmbeddingError(Error):
     """Vectorization / embedding generation failed."""
 
 
-class GraphStoreError(LodestoneError):
+class GraphStoreError(Error):
     """A graph-store (Neo4j) operation failed."""
 
 
-class IngestionError(LodestoneError):
+class IngestionError(Error):
     """A document failed to complete the ingestion pipeline."""

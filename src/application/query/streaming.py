@@ -5,7 +5,7 @@ from collections.abc import AsyncIterator
 from typing import Any
 
 from kag.solver.reporter.queue_reporter import DONE, QueueReporter
-from src.lodestone.bootstrap import get_query_pipeline
+from src.bootstrap import get_query_pipeline
 
 
 async def stream_query_events(

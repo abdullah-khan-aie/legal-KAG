@@ -8,18 +8,18 @@ from kag.common.llm.anthropic_client import AnthropicLLMClient
 from kag.common.vectorize_model.cohere_model import CohereVectorizeModel
 from kag.interface import LLMClient
 from kag.schema.client import SchemaClient
-from src.lodestone.application.ingestion.pipeline import IngestionPipeline
-from src.lodestone.application.query.builder import (
+from src.application.ingestion.pipeline import IngestionPipeline
+from src.application.query.builder import (
     _anthropic_credentials,
     _cohere_credentials,
     build_query_pipeline,
     chat_llm_config,
 )
-from src.lodestone.config.settings import Settings, get_settings
+from src.config import Settings, get_settings
 
 
 def _build_embedder(settings: Settings) -> CohereVectorizeModel:
-    """Build the direct Cohere embedder (Cohere API, not Bedrock)."""
+    """Build the Cohere embedder."""
     return CohereVectorizeModel(
         model=settings.embed_model,
         input_type=settings.embed_input_type,
@@ -29,41 +29,27 @@ def _build_embedder(settings: Settings) -> CohereVectorizeModel:
 
 
 def initialize_graph_schema(settings: Settings) -> None:
-    """Create the Neo4j vector/text indexes for the schema up front (idempotent).
+    """Create the schema's Neo4j indexes up front. Idempotent, so re-running is a no-op.
 
-    This mirrors the OpenSPG server's schema-registration step
-    (Neo4jSyncer.syncSchema -> Neo4jGraph.initializeSchema(spgTypes, dimensions)),
-    which the server runs on schema commit -- not on document writes. With a
-    static local schema, startup IS the registration moment, and the underlying
-    CREATE VECTOR INDEX ... IF NOT EXISTS makes re-running a no-op. Indexes are
-    sized to embed_dimension so they match the vectors Cohere produces.
-
-    This is also the composition root that seeds the vendored kag runtime config
-    from Settings. Settings stays the single source of truth; the kag
-    retriever/schema code reads ``KAG_PROJECT_CONF`` for BOTH the namespace and the
-    schema path (``LocalSchemaLoader.load`` needs the latter to build its label
-    map -- without it the schema map is empty and every label resolves bare). We
-    seed both here, before the pipelines are built, so the writer, indexes, and
-    retriever all agree on ``<namespace>.<Type>`` labels instead of drifting apart.
-
-    We also seed the default chat-LLM config into ``KAG_CONFIG.all_config`` so the
-    upstream fallback in ``get_default_chat_llm_config`` resolves to the real
-    Bedrock client. Some executors (e.g. ``KAGHybridRetrievalExecutor``'s summary
-    and context-select LLMs when ``enable_summary`` is on) aren't wired an llm in
-    the pipeline yaml and rely on this default; without the seed they'd fall back
-    to a bare base ``LLMClient`` whose sync call raises ``NotImplementedError``.
+    Also the composition root that seeds the vendored kag runtime from Settings,
+    which must happen before any pipeline is built.
     """
     KAG_PROJECT_CONF.namespace = settings.namespace
+    # Without schema_path the label map loads empty and every label resolves
+    # bare, so the writer, indexes and retriever quietly stop agreeing.
     KAG_PROJECT_CONF.schema_path = settings.schema_path
+    # Executors that are not given an llm in the pipeline yaml fall back to this
+    # default. Without it they get a base LLMClient whose sync call raises.
     KAG_CONFIG.all_config["chat_llm"] = chat_llm_config(settings)
     schema = SchemaClient(schema_path=settings.schema_path).load()
+    # Sized to embed_dimension so the indexes match the vectors Cohere returns.
     _build_graph_store(settings).initialize_schema(
         schema, vector_dimensions=settings.embed_dimension, namespace=settings.namespace
     )
 
 
 def _build_graph_store(settings: Settings) -> Neo4jClient:
-    """Build the Neo4j graph store (the password is a required setting)."""
+    """Build the Neo4j graph store."""
     return Neo4jClient(
         uri=settings.neo4j_uri,
         user=settings.neo4j_user,
@@ -73,24 +59,20 @@ def _build_graph_store(settings: Settings) -> Neo4jClient:
 
 
 def _build_extractors(settings: Settings) -> list:
-    """Assemble ingestion extractors from the active ``index_list``.
+    """Assemble ingestion extractors from the active index_list.
 
-    The ingestion half of the extractor/retriever symmetry: for each active
-    index, its ``KAGIndexManager`` contributes the extractor(s) that build that
-    index (``build_extractor_config`` -> ``ExtractorABC.from_config``). It is the
-    mirror of the query-side retriever assembly, so enabling an index wires both
+    Mirrors the query-side retriever assembly, so enabling an index wires both
     its ingest extractor and its query retriever at once.
     """
     from kag.common.registry import import_modules_from_path
     from kag.indexer import KAGIndexManager
     from kag.interface import ExtractorABC
-    from src.lodestone.application.query.builder import (
+    from src.application.query.builder import (
         chat_llm_config,
         vectorize_model_config,
     )
 
-    # Register index managers, builder extractors and their prompts so
-    # ``from_config`` can resolve every type referenced by the index_list.
+    # from_config can only resolve types that have been imported already.
     for path in ("kag/indexer", "kag/builder"):
         import_modules_from_path(path)
 
@@ -122,7 +104,7 @@ def build_ingestion_pipeline(
     namespace: str = "",
     model_execute_num: int = 1,
 ) -> IngestionPipeline:
-    """Build a pipeline from explicit collaborators (tests / custom wiring)."""
+    """Build a pipeline from explicit collaborators, for tests or custom wiring."""
     return IngestionPipeline(
         llm=llm,
         embedder=embedder,
@@ -138,8 +120,8 @@ def build_ingestion_pipeline(
 def get_ingestion_pipeline() -> IngestionPipeline:
     """Return the cached pipeline singleton, wired from settings."""
     settings: Settings = get_settings()
-    # AnthropicLLMClient is the pipeline's LLM client. Extraction throughput is
-    # bounded by the worker pool (model_execute_num), not a client-side rate limiter.
+    # Throughput is bounded by the extraction worker pool, not by any
+    # client-side rate limiter.
     llm = AnthropicLLMClient(
         model=settings.llm_model,
         **_anthropic_credentials(settings),
@@ -157,10 +139,9 @@ def get_ingestion_pipeline() -> IngestionPipeline:
 
 @lru_cache
 def get_query_pipeline(pipeline_name: str = "retriever"):
-    """Return the cached query (solver) pipeline for ``pipeline_name``, wired from settings.
+    """Return the cached query pipeline for pipeline_name, wired from settings.
 
-    Builds the Neo4j graph store and injects it into the config-driven
-    ``neo4j_search_api`` / ``neo4j_graph_api`` retrievers (no global state).
+    The graph store is injected into the config-driven retrievers, avoiding global state.
     """
     settings = get_settings()
     return build_query_pipeline(pipeline_name, settings, graph_store=_build_graph_store(settings))
