@@ -11,10 +11,5 @@ __pycache__
 infra/terraform/environments/terraform.tfstate*
 scratchpad
 reference
-material_ingest_cost_results.jsonl
 *.md
 !Frontend/README.md
-AWS_*.md
-LANGFUSE_*.md
-NEO4J_*.md
-AZURE_*.md
