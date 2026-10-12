@@ -1,5 +1,5 @@
 [project]
-name = "lodestone-graphrag"
+name = "legal-kag"
 version = "0.1.0"
 requires-python = ">=3.13"
 dependencies = [
@@ -39,7 +39,7 @@ dependencies = [
     "mcp",                   # MCP executor (external tool servers)
     "portalocker",           # LLMClient token-meter file locking
     "json_repair",           # LLMClient robust JSON parsing
-    # --- API layer (src/lodestone/main.py) ---
+    # --- API layer (src/main.py) ---
     "fastapi",               # HTTP API application
     "uvicorn[standard]",     # ASGI server
     "rouge>=1.0.1",
