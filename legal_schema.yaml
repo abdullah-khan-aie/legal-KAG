@@ -1,6 +1,6 @@
 # =============================================================================
 # Comprehensive legal knowledge-base schema ("rulebook") for a LAW FIRM domain.
-# Read by the kag SchemaClient for schema-constraint extraction. No OpenSPG server.
+# Read by the kag SchemaClient for schema-constraint extraction.
 # Path is configurable via INGEST_SCHEMA_PATH (or settings.schema_path).
 #
 # Scope: spans the four pillars a firm cares about —
