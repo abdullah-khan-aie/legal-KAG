@@ -1,17 +1,11 @@
-# Cohere Embed via Cohere's official API (direct, not Amazon Bedrock).
+# Cohere Embed via Cohere's own API.
 #
-# Async ``avectorize`` uses ``cohere.AsyncClientV2`` (native async I/O, no thread
-# bridge) -- this is the path ingestion drives through BatchVectorizer.ainvoke.
-# Sync ``vectorize`` uses ``cohere.ClientV2`` and is created lazily, only if a
-# blocking caller actually hits it (entity linking during post-processing, and
-# the query-time vector retrievers, which call the sync method). An async client
-# is bound to the event loop it runs on, so a sync caller cannot share it; the
-# lazy sync client mirrors the sync/async split of the Anthropic LLM client, for
-# the same reason -- but it is never constructed in a pure-async path.
+# The async client carries ingestion. A separate sync client is built lazily for
+# the few blocking callers (entity linking, query-time retrievers) because an
+# async client binds to the loop that created it and cannot be shared with them.
 #
-# Cohere is input-type aware: ingestion embeds the corpus with "search_document"
-# and retrieval embeds queries with "search_query". We accept kag's "document"/
-# "query" aliases too and normalize them.
+# Input type is not cosmetic: the corpus is embedded as "search_document" and
+# queries as "search_query", and mixing them degrades retrieval.
 
 import asyncio
 import contextlib
@@ -32,7 +26,7 @@ _INPUT_TYPE_ALIASES = {
 def _obs():
     """Lazily import the app's observability helpers (kag stays standalone)."""
     try:
-        from src.lodestone.observability import tracing as o
+        from src.observability import tracing as o
 
         return o
     except Exception:
@@ -64,21 +58,10 @@ class CohereVectorizeModel(VectorizeModelABC):
         vector_dimensions: int | None = None,
         **kwargs,
     ):
-        """Initialize the direct Cohere embedding client.
+        """Initialize the Cohere embedding client.
 
-        Args:
-            model: Cohere Embed model id (default "embed-v4.0").
-            input_type: "search_document" for ingest, "search_query" for
-                retrieval ("document"/"query" aliases are accepted).
-            output_dimension: Embedding length (256/512/1024/1536 for embed-v4).
-            vector_dimensions: Pre-declared dimensionality; defaults to
-                ``output_dimension`` so ``get_vector_dimensions`` never needs a
-                probe call.
-
-        The Cohere API key is passed via ``api_key`` (str or SecretStr, through
-        kwargs) -- passing it as a kwarg keeps a SecretStr unstringified through
-        the registry and masked in logs, and it is unwrapped only here. With no
-        key, the SDK falls back to the ``CO_API_KEY`` environment variable.
+        Declaring vector_dimensions up front avoids a probe call. api_key comes
+        through kwargs so a SecretStr survives the registry; unset uses CO_API_KEY.
         """
         api_key = _unwrap_secret(kwargs.pop("api_key", None))
         name = self.generate_key(model, input_type)
@@ -87,8 +70,7 @@ class CohereVectorizeModel(VectorizeModelABC):
         self.input_type = _INPUT_TYPE_ALIASES.get(input_type, input_type)
         self.output_dimension = output_dimension
         self._api_key = api_key
-        # One async client, reused across the server's event loop; the sync
-        # client is created lazily and only if a blocking caller needs it.
+        # Both built on first use, never eagerly.
         self._aclient: cohere.AsyncClientV2 | None = None
         self._client: cohere.ClientV2 | None = None
         self._aclient_lock = asyncio.Lock()

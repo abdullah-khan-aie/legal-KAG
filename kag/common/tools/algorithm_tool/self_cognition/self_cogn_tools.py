@@ -1,5 +1,3 @@
-import os
-
 from kag.common.conf import KAGConfigAccessor, KAGConstants
 from kag.common.config import get_default_chat_llm_config
 from kag.interface import LLMClient, PromptABC, ToolABC
@@ -23,25 +21,15 @@ class SelfCognExecutor(ToolABC):
             "self_cognition", self.kag_project_config.biz_scene
         )
 
+        # What the assistant says when asked what it is.
         self.docs_zh = [
-            "我是基于蚂蚁集团开源的专业领域知识服务框架KAG搭建的问答助手，我擅长逻辑推理、数值计算等任务，可以协助你解答相关问题、提供信息支持或进行数据分析。如果有具体需求，随时告诉我",
+            "我是一个基于知识图谱的问答助手，擅长逻辑推理与多跳检索，可以协助你分析文档并回答相关问题。",
         ]
-        doc_path_zh = (
-            f"{os.path.join(os.path.abspath(os.path.dirname(__file__)), './docs/kag_intro_zh.md')}"
-        )
-        with open(doc_path_zh) as f:
-            text = f.read()
-            self.docs_zh.append(text)
-
         self.docs_en = [
-            "I am based on the open-source professional domain knowledge service framework KAG by Ant Group. I specialize in tasks such as logical reasoning and numerical calculations. I can assist you in answering related questions, providing information support, or performing data analysis. If you have specific needs, feel free to let me know."
+            "I am a knowledge graph question answering assistant. I specialise in "
+            "logical reasoning and multi-hop retrieval over your documents, and can "
+            "help you analyse them and answer questions about their contents."
         ]
-        doc_path_en = (
-            f"{os.path.join(os.path.abspath(os.path.dirname(__file__)), './docs/kag_intro_en.md')}"
-        )
-        with open(doc_path_en) as f:
-            text = f.read()
-            self.docs_en.append(text)
 
     @property
     def category(self):

@@ -22,8 +22,8 @@ from kag.interface import Context, LLMClient, RetrieverABC, RetrieverOutput
 logger = logging.getLogger()
 
 
-@RetrieverABC.register("kg_fr_open_spg")
-class KgFreeRetrieverWithOpenSPGRetriever(RetrieverABC):
+@RetrieverABC.register("kg_fr_default")
+class KgFreeGraphRetriever(RetrieverABC):
     def __init__(
         self,
         path_select: PathSelect = None,

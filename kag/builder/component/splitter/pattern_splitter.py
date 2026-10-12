@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 # Dependency-free vendoring of kag/builder/component/splitter/pattern_splitter.py
-# (openspg-kag 0.8.0, Apache-2.0). Splitting logic VERBATIM except:
 #   - dropped SplitterABC base + @register decorators -> plain class
 #   - Chunk/generate_hash_id/Input/Output from local modules
 # No LLM, no server, no network — pure regex + string ops.

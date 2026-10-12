@@ -29,8 +29,8 @@ from kag.solver.executor.retriever.local_knowledge_base.kag_retriever.utils impo
 logger = logging.getLogger()
 
 
-@FlowComponent.register("rc_open_spg_legacy")
-class RCRetrieverOnOpenSPG(KagLogicalFormComponent):
+@FlowComponent.register("rc_default_legacy")
+class RCFlowRetriever(KagLogicalFormComponent):
     def __init__(
         self,
         top_k=10,

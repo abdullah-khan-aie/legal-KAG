@@ -1,7 +1,6 @@
 """Load the project schema from the local YAML into the shape ``SchemaUtils`` expects.
 
-Server-free replacement for kag's ``ReasonerClient.get_reason_schema()``, which
-fetched the schema from the OpenSPG reasoner server. This reads the local schema
+Server-free replacement for kag's ``ReasonerClient.get_reason_schema()``. Reads the local schema
 YAML (``INGEST_SCHEMA_PATH`` / ``KAG_PROJECT_CONF.schema_path``) via ``SchemaClient``
 and reshapes it into the lightweight type objects the solver's schema helpers
 consume -- no server, no project_id, no host_addr.

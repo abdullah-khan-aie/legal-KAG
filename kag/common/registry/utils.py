@@ -1,4 +1,4 @@
-# ruff: noqa  (vendored from openspg-kag; local fix: recursion guard, see below)
+# ruff: noqa
 # -*- coding: utf-8 -*-
 
 import importlib

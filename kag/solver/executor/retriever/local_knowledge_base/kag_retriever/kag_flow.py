@@ -41,7 +41,7 @@ class KAGFlow:
 
         self.default_flow_component = {
             "kg_cs": {
-                "type": "kg_cs_open_spg",
+                "type": "kg_cs_default",
                 "path_select": {"type": "exact_one_hop_select"},
                 "entity_linking": {
                     "type": "entity_linking",
@@ -51,7 +51,7 @@ class KAGFlow:
                 "llm": llm_client.to_config() if llm_client else None,
             },
             "kg_fr": {
-                "type": "kg_fr_open_spg",
+                "type": "kg_fr_default",
                 "top_k": 20,
                 "path_select": {
                     "type": "fuzzy_one_hop_select",
@@ -69,7 +69,7 @@ class KAGFlow:
                 "llm": llm_client.to_config(),
             },
             "rc": {
-                "type": "rc_open_spg",
+                "type": "rc_default",
                 "vector_chunk_retriever": {
                     "type": "vector_chunk_retriever",
                 },

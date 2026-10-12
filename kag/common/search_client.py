@@ -9,9 +9,8 @@ from kag.interface import SearchClientABC
 class Neo4jSearchClient(SearchClientABC):
     """``SearchClientABC`` backed by the extracted ``Neo4jClient`` graph store.
 
-    Reproduces knext ``SearchClient`` semantics without the OpenSPG server: the
-    request/REST round-trip is replaced by a direct ``GraphStore`` call, which is
-    the same query the server issued on the client's behalf.
+    Replaces the REST round-trip with a direct ``GraphStore`` call, which issues
+    the same query.
     """
 
     def __init__(self, graph_store):

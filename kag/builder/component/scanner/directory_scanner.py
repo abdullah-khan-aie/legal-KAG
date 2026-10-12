@@ -4,22 +4,16 @@ import os
 import re
 from collections.abc import Iterator
 
-# Suffixes MixReader can dispatch. MixReader raises on any other suffix, so the
-# scanner filters to these -- otherwise junk files (.DS_Store, images, .json,
-# and office lock files like ".~lock.foo.xlsx#") would crash the reader instead
-# of being ignored. The trailing "$" anchors the suffix, so "foo.xlsx#" (a lock
-# file) is NOT matched -- only real "foo.xlsx".
+# MixReader raises on any suffix it cannot dispatch, so anything outside this
+# list has to be filtered out here rather than crash the reader later.
 _DEFAULT_SUFFIXES = (".txt", ".pdf", ".docx", ".md", ".xlsx", ".json")
 
 
 class DirectoryScanner:
-    """List document files under a directory.
+    """List readable document files under a directory.
 
-    The ``os.walk`` + regex logic from kag's ``DirectoryScanner``
-    (``find_files_by_regex``), as a plain helper -- without the ``knext``
-    BuilderComponent / sharding machinery this project does not use. Like the
-    original it filters by pattern/suffix; the default matches the file types
-    MixReader can actually read.
+    A plain helper version of kag's scanner, without the sharding machinery this
+    project does not use.
     """
 
     def __init__(
@@ -34,12 +28,10 @@ class DirectoryScanner:
             self._regex = re.compile(rf".*({alternation})$", re.IGNORECASE)
 
     def find_files(self, directory: str) -> list[str]:
-        """Return the sorted paths of matching files under ``directory``.
+        """Return the sorted paths of readable files under directory.
 
-        Office/LibreOffice owner-lock and temp files (``~$Foo.xlsx``,
-        ``.~lock.Foo.docx#``, ``.DS_Store``) are skipped: ``~$Foo.xlsx`` ends in a
-        real suffix so it would otherwise match the filter and crash the reader,
-        since it is not a valid document.
+        Office lock files like ~$Foo.xlsx end in a real suffix, so they pass the
+        filter and reach the reader as invalid documents unless skipped here.
         """
         matched: list[str] = []
         for root, _dirs, files in os.walk(directory):

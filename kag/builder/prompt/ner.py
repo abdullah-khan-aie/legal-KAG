@@ -70,8 +70,7 @@ class OpenIENERPrompt(PromptABC):
         """
 
     def __init__(self, schema=None, **kwargs):
-        # schema is now supplied locally (a list of type names) instead of being
-        # loaded from the OpenSPG server via SchemaClient.
+        # schema is supplied locally as a list of type names, not fetched remotely.
         super().__init__(**kwargs)
         self.schema = schema or []
         self.template = Template(self.template).safe_substitute(schema=json.dumps(self.schema))

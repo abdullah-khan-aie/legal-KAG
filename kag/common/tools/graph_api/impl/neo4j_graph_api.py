@@ -1,6 +1,5 @@
 # Neo4j-backed GraphApiABC.
 #
-# The server impl (openspg_graph_api) routes graph ops through the Scala reasoner.
 # This server-free impl builds EntityData / RelationData / OneHopGraphData directly
 # from the Neo4j graph store (mirroring the MemoryGraphApi reference), so all graph
 # retrieval runs as plain Cypher with no reasoner / KGDSL. Specifically, on the
@@ -9,8 +8,7 @@
 #   * get_entity_one_hop  <- mirrors MemoryGraph.get_one_hop_graph
 #   * _create_entity_from_node    <- mirrors MemoryGraph._create_entity_from_vertex
 #   * _create_relation_from_edge  <- mirrors MemoryGraph._create_relation_from_edge
-#   * calculate_pagerank_scores   <- Neo4jClient.get_pagerank_scores ({id: score},
-#                                     the openspg_graph_api contract)
+#   * calculate_pagerank_scores   <- Neo4jClient.get_pagerank_scores ({id: score})
 #
 # The ONE adaptation vs the igraph reference: node *type* comes from the Neo4j
 # node labels (labels(n) minus "Entity") rather than a "label" property, because
@@ -115,8 +113,7 @@ class Neo4jGraphApi(GraphApiABC):
             # relationship to a (start, type, end) tuple and DROPS its properties,
             # so dict(row["r"]) would both lose the edge props and raise. Raw
             # records keep row["r"] a Relationship (a mapping of its properties)
-            # and row["s"]/row["n"] Nodes -- matching the OpenSPG Java store's
-            # relationship.asMap() semantics.
+            # and row["s"]/row["n"] Nodes, matching relationship.asMap() semantics.
             rows = list(session.run(query, sid=entity.biz_id))
         if not rows:
             return None
@@ -145,7 +142,7 @@ class Neo4jGraphApi(GraphApiABC):
     def calculate_pagerank_scores(
         self, target_vertex_type, start_nodes: list[dict], top_k=10
     ) -> dict:
-        # openspg_graph_api contract: {biz_id: score}
+        # contract: {biz_id: score}
         scored = self.graph_store.get_pagerank_scores(start_nodes, target_vertex_type)
         return {item["id"]: item["score"] for item in scored}
 

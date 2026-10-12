@@ -154,7 +154,7 @@ class SchemaClient:
         types: dict[str, SpgType] = {}
         data = {}
         if self.schema_path and os.path.isfile(self.schema_path):
-            import yaml  # local dependency; not the OpenSPG server
+            import yaml
 
             with open(self.schema_path, encoding="utf-8") as f:
                 data = yaml.safe_load(f) or {}

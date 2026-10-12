@@ -3,7 +3,6 @@
 # SchemaUtils reads only these attributes from the config object:
 #   - prefix             namespace prefix stripped/added to labels
 #   - schema_file_name   CSV schema path; "" selects the local-YAML loader
-# This carries those fields without the OpenSPG config/server framework.
 
 
 def get_default_chat_llm_config(task_id=None):

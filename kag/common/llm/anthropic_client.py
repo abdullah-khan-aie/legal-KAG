@@ -14,23 +14,20 @@ logger = logging.getLogger(__name__)
 
 
 def _obs():
-    """Lazily import the app's observability helpers.
+    """Import the app's tracing helpers, or None if the app layer is absent.
 
-    Kept lazy so the vendored ``kag`` tree stays importable on its own and there's
-    no import cycle with the application layer. Returns the module, or ``None`` if
-    the app layer isn't importable (then LLM calls are simply not traced).
+    Kept lazy so the vendored kag tree stays importable on its own.
     """
     try:
-        from src.lodestone.observability import tracing as o
+        from src.observability import tracing as o
 
         return o
     except Exception:
         return None
 
 
-# Live clients, so short-lived scripts (e.g. the eval runner) can close their
-# lazily-created AsyncAnthropic (httpx) sessions on the running loop and avoid an
-# "Unclosed client session" warning at interpreter shutdown.
+# Lets short-lived scripts close their httpx sessions on the running loop,
+# instead of warning about unclosed sessions at interpreter shutdown.
 _ASYNC_CLIENTS: weakref.WeakSet = weakref.WeakSet()
 
 
@@ -47,19 +44,10 @@ def _unwrap_secret(value):
 
 @LLMClient.register("anthropic")
 class AnthropicLLMClient(LLMClient):
-    """Anthropic Claude via Anthropic's own Messages API (official SDK).
+    """Claude via Anthropic's Messages API.
 
-    Native async is the hot path: ``acall`` / ``astream`` / ``astructured_output``
-    run on ``AsyncAnthropic`` (httpx, real async I/O -- no thread bridging), which
-    is what ingestion and the query pipelines drive. The synchronous ``__call__``
-    / ``structured_output`` are backed by the sync ``Anthropic`` client for the few
-    remaining blocking call sites (the kag-model hybrid executor's decision loop, a
-    graph retriever, the offline eval judge) and as a supported sync entry point.
-
-    Text only: this covers the ingestion extractors and the retriever /
-    deep_thought / kag_thinker generators. OpenAI-style function-calling (the
-    ``tools`` path used only by the MCP executor) is not implemented here;
-    schema-validated output goes through ``structured_output`` (Anthropic tool-use).
+    Async methods carry the pipelines; the sync ones serve the few blocking call
+    sites left in the solver. Text only, so use structured_output for schemas.
     """
 
     def __init__(
@@ -70,19 +58,10 @@ class AnthropicLLMClient(LLMClient):
         time_period: float = 1,
         **kwargs,
     ):
-        """Initialize the Anthropic Claude client.
+        """Initialize the client for one Anthropic model id.
 
-        Args:
-            model: Anthropic model id (e.g. "claude-sonnet-4-5-20250929").
-            temperature: Sampling temperature.
-            max_rate: Maximum number of requests allowed per time period.
-            time_period: Length of the rate-limiting window in seconds.
-
-        The Anthropic API key is passed via ``api_key`` (plain str or SecretStr,
-        through kwargs) -- passing it as a kwarg keeps a SecretStr unstringified
-        through the component registry and masked in logs, and it is unwrapped only
-        here. With no key, the SDK falls back to the ``ANTHROPIC_API_KEY``
-        environment variable.
+        api_key arrives through kwargs so a SecretStr survives the component
+        registry unstringified. Unset falls back to ANTHROPIC_API_KEY.
         """
         name = kwargs.pop("name", None)
         api_key = _unwrap_secret(kwargs.pop("api_key", None))
@@ -93,12 +72,9 @@ class AnthropicLLMClient(LLMClient):
         self.model = model
         self.temperature = temperature
         self._api_key = api_key
-        # Sync client for the blocking paths; created lazily so a pure-async
-        # process never opens a sync httpx pool it won't use.
+        # Both are lazy: a pure-async process never opens a sync pool, and httpx's
+        # async transport binds to the loop, so it must be built inside one.
         self._client: Anthropic | None = None
-        # Async client (AsyncAnthropic): native async I/O, no thread bridge. httpx's
-        # async transport is bound to the running loop, so it's created lazily on
-        # first use inside the loop, then reused for the life of the process.
         self._aclient: AsyncAnthropic | None = None
         self._aclient_lock = asyncio.Lock()
         _ASYNC_CLIENTS.add(self)
@@ -108,9 +84,6 @@ class AnthropicLLMClient(LLMClient):
             f"Initialize AnthropicLLMClient model={model} rate limit {max_rate} every {time_period}s"
         )
 
-    # ------------------------------------------------------------------ #
-    # Request construction / response parsing.
-    # ------------------------------------------------------------------ #
     def _build_messages(self, prompt: str, image_url: str, messages):
         """Map a prompt or OpenAI-style messages to Anthropic (system, messages).
 
@@ -187,9 +160,6 @@ class AnthropicLLMClient(LLMClient):
             finally:
                 self._aclient = None
 
-    # ------------------------------------------------------------------ #
-    # Plain text completion.
-    # ------------------------------------------------------------------ #
     def __call__(self, prompt: str = "", image_url: str = None, **kwargs):
         """Run a synchronous Messages request and return the text response."""
         if kwargs.get("tools"):
@@ -214,8 +184,7 @@ class AnthropicLLMClient(LLMClient):
         system, messages = self._build_messages(prompt, image_url, kwargs.get("messages"))
         token_meter = LLMClient.get_token_meter()
         client = await self._aget_client()
-        # Trace this call as a Langfuse generation (nested under whatever span is
-        # active, e.g. a document's "extract" span) with real Anthropic token cost.
+        # Records tokens and cost against whichever span is currently active.
         o = _obs()
         gen_cm = o.span("anthropic.messages", as_type="generation", model=self.model) if o else None
         with gen_cm if gen_cm is not None else contextlib.nullcontext() as gen:
@@ -235,13 +204,10 @@ class AnthropicLLMClient(LLMClient):
         return text
 
     async def astream(self, prompt: str = "", image_url: str = None, **kwargs):
-        """Stream text deltas via the Messages streaming helper over AsyncAnthropic.
+        """Yield text deltas as the model produces them.
 
-        ``messages.stream()`` yields text deltas directly -- no worker thread or
-        bridging queue. Token usage is read from the accumulated final message.
-
-        Yields:
-            str: The next text delta from the model.
+        Token usage only arrives on the accumulated final message, so it is read
+        after the stream is drained.
         """
         if kwargs.get("tools"):
             raise NotImplementedError(
@@ -271,21 +237,14 @@ class AnthropicLLMClient(LLMClient):
                     output="".join(text_parts),
                 )
 
-    # ------------------------------------------------------------------ #
-    # Structured output via Anthropic tool-use.
-    #
-    # Claude has no OpenAI-style ``response_format``; the equivalent (and what
-    # LangChain's ChatAnthropic does under the hood) is forced tool-use: expose the
-    # pydantic schema as a tool, force the model to "call" it, then validate its
-    # JSON arguments. A validation failure is fed back for one self-correction pass.
-    # ------------------------------------------------------------------ #
+    # Claude has no response_format, so schema-validated output is done by
+    # forcing a tool call: expose the pydantic schema as a tool, make the model
+    # call it, validate the JSON, and feed any error back for one retry.
     @staticmethod
     def _inline_defs(schema: dict) -> dict:
-        """Resolve ``$ref``/``$defs`` into a self-contained JSON schema.
+        """Inline $ref and $defs into a self-contained JSON schema.
 
-        Pydantic emits nested models as ``$defs`` + ``$ref``; inlining them keeps
-        the tool ``input_schema`` portable regardless of how strictly the API
-        validates references.
+        Pydantic nests models by reference, which the tool input_schema may reject.
         """
         defs = schema.get("$defs") or schema.get("definitions") or {}
 
@@ -331,8 +290,8 @@ class AnthropicLLMClient(LLMClient):
 
     @staticmethod
     def _append_correction(turns: list, error: Exception) -> list:
-        # Append the validation error to the last (user) turn so the retry keeps a
-        # single trailing user turn (the Messages API requires alternating roles).
+        # Appended to the last user turn rather than added as a new one, because
+        # the Messages API requires alternating roles.
         turns = copy.deepcopy(turns)
         turns[-1]["content"] += (
             f"\n\nYour previous result failed schema validation with:\n{error}\n"

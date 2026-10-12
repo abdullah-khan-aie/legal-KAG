@@ -1,4 +1,4 @@
-# ruff: noqa  (vendored verbatim from openspg-kag; kept byte-for-byte)
+# ruff: noqa
 from typing import List
 from kag.interface import IndexABC
 

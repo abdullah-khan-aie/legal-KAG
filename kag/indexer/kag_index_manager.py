@@ -1,4 +1,4 @@
-# ruff: noqa  (adapted from openspg-kag: openspg_search_api/openspg_graph_api swapped
+# ruff: noqa
 # to the server-free neo4j_search_api/neo4j_graph_api, and the display-only metadata
 # strings translated from Chinese to English. The build_* config logic is unchanged.)
 from typing import Dict
@@ -688,7 +688,7 @@ AtomicQuery (atomic question): IndexType
         kb_task_project_id = kwargs.get(KAGConstants.KAG_QA_TASK_CONFIG_KEY, None)
         return [
             {
-                "type": "kg_cs_open_spg",
+                "type": "kg_cs_default",
                 "path_select": {
                     "type": "exact_one_hop_select",
                     "vectorize_model": vectorize_model_config,
@@ -806,7 +806,7 @@ AtomicQuery (atomic question): IndexType
                 "kag_qa_task_config_key": kb_task_project_id,
             },
             {
-                "type": "rc_open_spg",
+                "type": "rc_default",
                 "search_api": {
                     "type": "neo4j_search_api",
                     "kag_qa_task_config_key": kb_task_project_id,

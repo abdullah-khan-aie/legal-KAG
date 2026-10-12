@@ -30,8 +30,8 @@ from kag.solver.executor.retriever.local_knowledge_base.kag_retriever.utils impo
 logger = logging.getLogger()
 
 
-@FlowComponent.register("kg_fr_open_spg_legacy")
-class KgFreeRetrieverWithOpenSPG(KagLogicalFormComponent):
+@FlowComponent.register("kg_fr_default_legacy")
+class KgFreeFlowRetriever(KagLogicalFormComponent):
     def __init__(
         self,
         path_select: PathSelect = None,

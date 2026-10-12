@@ -18,8 +18,8 @@ from kag.solver.executor.retriever.local_knowledge_base.kag_retriever.kag_compon
 )
 
 
-@FlowComponent.register("kg_cs_open_spg_legacy")
-class KgConstrainRetrieverWithOpenSPG(KagLogicalFormComponent):
+@FlowComponent.register("kg_cs_default_legacy")
+class KgConstrainFlowRetriever(KagLogicalFormComponent):
     def __init__(
         self, path_select: PathSelect = None, entity_linking=None, llm: LLMClient = None, **kwargs
     ):

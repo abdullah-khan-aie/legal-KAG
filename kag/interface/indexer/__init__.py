@@ -1,4 +1,4 @@
-# ruff: noqa  (vendored verbatim from openspg-kag; kept byte-for-byte)
+# ruff: noqa
 from kag.interface.indexer.index import IndexABC
 
 __all__ = ["IndexABC"]

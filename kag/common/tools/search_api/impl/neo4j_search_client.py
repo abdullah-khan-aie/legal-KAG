@@ -2,7 +2,7 @@
 #
 # KAGPostProcessor links entities by calling search_client.search_vector(...) and
 # connecting nodes whose name embedding is similar to an existing entity. KAG's
-# server impl routed this through OpenSPG's ElasticSearch SearchClient; server-free
+# the server impl routed this through an ElasticSearch client; server-free
 # we delegate to the same Neo4j vector search the retriever already uses
 # (Neo4jClient.vector_search). Its records are already shaped
 # {"node": {..., "__labels__": [...]}, "score": ...} -- exactly what _entity_link

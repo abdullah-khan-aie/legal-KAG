@@ -1,4 +1,4 @@
-# ruff: noqa  (vendored verbatim from openspg-kag; kept byte-for-byte)
+# ruff: noqa
 # -*- coding: utf-8 -*-
 import os
 import json

@@ -1,4 +1,3 @@
-# Shared primitives, dependency-free. (openspg-kag 0.8.0, Apache-2.0)
 #   - Input/Output: from knext.common.base.runnable (type vars)
 #   - generate_hash_id, processing_phrases, to_camel_case: from kag.common.utils
 #   - escape_single_quotes: from kag.common.utils

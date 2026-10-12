@@ -19,8 +19,8 @@ from kag.interface import Context, LLMClient, RetrieverABC, RetrieverOutput
 logger = logging.getLogger()
 
 
-@RetrieverABC.register("kg_cs_open_spg")
-class KgConstrainRetrieverWithOpenSPGRetriever(RetrieverABC):
+@RetrieverABC.register("kg_cs_default")
+class KgConstrainGraphRetriever(RetrieverABC):
     def __init__(
         self,
         path_select: PathSelect = None,

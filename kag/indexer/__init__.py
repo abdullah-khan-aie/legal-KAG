@@ -1,4 +1,4 @@
-# ruff: noqa  (vendored verbatim from openspg-kag; kept byte-for-byte)
+# ruff: noqa
 from kag.indexer.kag_index import (
     ChunkIndex,
     SummaryIndex,

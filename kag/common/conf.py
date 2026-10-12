@@ -25,7 +25,7 @@ class KAGGlobalConf:
         self.biz_scene = kwargs.get("biz_scene", "default")
         # server-free schema source for SchemaUtils (read via LocalSchemaLoader).
         # Set this (or INGEST_SCHEMA_PATH) to the local YAML schema so the solver
-        # / retrievers build their SchemaUtils without the OpenSPG reasoner server.
+        # / retrievers build their SchemaUtils locally.
         self.schema_path = kwargs.get("schema_path", os.environ.get("INGEST_SCHEMA_PATH", ""))
         for k, v in kwargs.items():
             setattr(self, k, v)

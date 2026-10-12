@@ -13,8 +13,8 @@ from kag.interface.solver.model.schema_utils import SchemaUtils
 logger = logging.getLogger()
 
 
-@RetrieverABC.register("rc_open_spg")
-class RCRetrieverOnOpenSPG(RetrieverABC):
+@RetrieverABC.register("rc_default")
+class RCChunkRetriever(RetrieverABC):
     def __init__(
         self,
         search_api: SearchApiABC,

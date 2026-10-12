@@ -77,19 +77,14 @@ class PDFReader(ReaderABC):
     def extract_content_from_outline(
         page_contents, page_contents_spaced, level_outlines
     ) -> list[Chunk]:
-        # ``page_contents`` is whitespace-stripped: section boundaries are located
-        # by fuzzy-matching outline titles against it space-insensitively (PDF
-        # extraction spacing is unreliable). ``page_contents_spaced`` is the same
-        # characters with whitespace preserved; we map the stripped offsets back
-        # onto it so the stored chunk text keeps its spaces (otherwise Latin text
-        # is run together, e.g. "atenantbreakatyear7").
+        # Titles are matched against the stripped text because PDF spacing is
+        # unreliable, but chunks are sliced from the spaced text, or words run
+        # together as "atenantbreakatyear7".
         total_content = "".join(page_contents)
         spaced_total = "".join(page_contents_spaced)
 
-        # Stripping only deletes characters, so ``total_content`` is a subsequence
-        # of ``spaced_total``; a two-pointer walk maps each stripped index to its
-        # readable index. The trailing sentinel lets an end-exclusive bound
-        # (``next_start`` or the string length) map cleanly.
+        # The stripped text is a subsequence of the spaced one, so a two-pointer
+        # walk maps between them. The sentinel makes end-exclusive bounds safe.
         index_map: list[int] = []
         j = 0
         for ch in total_content:
@@ -116,11 +111,9 @@ class PDFReader(ReaderABC):
                 page_contents[page_start : page_end + 1 if page_end != -1 else None]
             )
 
-            # normalize special characters in the title
             def normalize_text(text):
-                # convert the dash "—" to the Chinese numeral "一"
+                # some titles use a dash where the Chinese numeral one is meant
                 text = text.replace("—", "一")
-                # other Chinese/English punctuation normalizations can be added here
                 text = re.sub(r"［", "[", text)
                 text = re.sub(r"］", "]", text)
                 text = re.sub(r"（", "(", text)
@@ -140,19 +133,16 @@ class PDFReader(ReaderABC):
                         return i
                 return -1
 
-            # first try fuzzy matching using the original title
             title_with_spaces = outline[0].strip()
             fuzzy_match_pos = fuzzy_search(title_with_spaces, find_content)
             if fuzzy_match_pos != -1:
                 return previous_pages_length + fuzzy_match_pos
 
-            # if not found, try the title with all spaces removed
             title_no_spaces = title_with_spaces.replace(" ", "")
             find_content_no_spaces = find_content.replace(" ", "")
             fuzzy_match_pos = fuzzy_search(title_no_spaces, find_content_no_spaces)
 
             if fuzzy_match_pos != -1:
-                # compute the actual position in the original text
                 original_pos = 0
                 no_spaces_pos = 0
                 while no_spaces_pos < fuzzy_match_pos:
@@ -161,7 +151,6 @@ class PDFReader(ReaderABC):
                     original_pos += 1
                 return previous_pages_length + original_pos
 
-            # perform fuzzy matching within the expanded range
             extended_content = "".join(
                 page_contents[max(0, page_start - 1) : page_end if page_end != -1 else None]
             )
@@ -173,7 +162,6 @@ class PDFReader(ReaderABC):
                 )
                 return extended_previous_length + fuzzy_match_pos
 
-            # finally try the expanded content without spaces
             extended_content_no_spaces = extended_content.replace(" ", "")
             fuzzy_match_pos = fuzzy_search(title_no_spaces, extended_content_no_spaces)
             if fuzzy_match_pos != -1:
@@ -206,11 +194,8 @@ class PDFReader(ReaderABC):
                 content = readable_slice(start, -1)
                 final_content.append((outline[0], outline[1], start, -1, content))
 
-        # Capture any front-matter that precedes the first outline entry. The loop
-        # above only slices from the first bookmark onward, so a document's preamble
-        # (e.g. meeting attendance/quorum, party recitals, a cover block) sitting
-        # ahead of the first heading would otherwise be dropped entirely. Prepend it
-        # as its own chunk so that content is retrievable.
+        # The loop above starts at the first bookmark, so anything before it
+        # (recitals, attendance, cover blocks) would be dropped without this.
         if final_content:
             first_start = final_content[0][2]
             if isinstance(first_start, int) and first_start > 0:
@@ -227,7 +212,6 @@ class PDFReader(ReaderABC):
                 content=content,
                 sub_chunks=[],
             )
-            # Apply length splitter if configured and content is too long
             if self.length_splitter:
                 split_chunks = self.length_splitter.slide_window_chunk(
                     chunk,
@@ -253,7 +237,6 @@ class PDFReader(ReaderABC):
             if properties is None:
                 properties = {}
 
-            # Forward edge
             edges.append(
                 Edge(
                     _id="",
@@ -264,7 +247,6 @@ class PDFReader(ReaderABC):
                 )
             )
 
-            # Backward edge
             reverse_label = {
                 "hasChild": "hasParent",
                 "hasContent": "belongsToTitle",
@@ -280,7 +262,6 @@ class PDFReader(ReaderABC):
                 )
             )
 
-        # Create root node using filename
         basename = os.path.splitext(os.path.basename(self.fd.name))[0]
         root_node_id = f"node_root_{basename}"
         root_node = Node(_id=root_node_id, name=basename, label="Title", properties={"level": "0"})
@@ -291,7 +272,6 @@ class PDFReader(ReaderABC):
             created_chunks = create_chunk(title, content, basename)
             chunks.extend(created_chunks)
 
-            # Create title node
             title_node_id = f"node_{hash(title)}"
             if title_node_id not in node_map:
                 title_node = Node(
@@ -305,7 +285,6 @@ class PDFReader(ReaderABC):
             else:
                 title_node = node_map[title_node_id]
 
-            # Create chunk nodes and connect them to title
             for chunk in created_chunks:
                 chunk_node = Node(
                     _id=chunk.id,
@@ -318,23 +297,18 @@ class PDFReader(ReaderABC):
                 nodes.append(chunk_node)
                 chunk_nodes[chunk.id] = chunk_node
 
-                # Create bidirectional edges between title and chunk
                 add_bidirectional_edge(title_node, chunk_node, "hasContent")
 
-            # Connect to parent based on level
             if level == 0:
                 level_map[0] = chunks[-1]  # Use last chunk as level marker
-                # Connect level 0 titles to root
                 add_bidirectional_edge(root_node, title_node, "hasChild", {"level": "1"})
             else:
-                # Try to find parent in previous levels
                 parent_found = False
                 parent_level = level - 1
                 while parent_level >= 0:
                     if parent_level in level_map:
                         for chunk in created_chunks:
                             level_map[parent_level].sub_chunks.append(chunk)
-                        # Add title hierarchy relationship
                         parent_chunk = level_map[parent_level]
                         parent_title_node = node_map[
                             f"node_{hash(parent_chunk.name.split('#')[1])}"
@@ -349,7 +323,6 @@ class PDFReader(ReaderABC):
                         break
                     parent_level -= 1
 
-                # If no parent found, connect to root
                 if not parent_found:
                     add_bidirectional_edge(root_node, title_node, "hasChild", {"level": str(level)})
 
@@ -468,7 +441,6 @@ class PDFReader(ReaderABC):
             chunks = []
             basename, _ = os.path.splitext(os.path.basename(data))
 
-            # get outline
             try:
                 outlines = self.document.get_outlines()  # noqa
             except Exception as e:
@@ -502,11 +474,9 @@ class PDFReader(ReaderABC):
                                 content = content + element.get_text()
                         raw_pages.append(content)
 
-                # Stripped text (whitespace removed) -- used ONLY to locate section
-                # boundaries by fuzzy-matching outline titles. Kept byte-identical to
+                # Used only to locate section boundaries. Kept byte-identical to
                 # upstream so matching accuracy is unchanged.
                 page_contents = [content.replace("\n", "") for content in raw_pages]
-                # use a regex to remove all whitespace (spaces, tabs, newlines, etc.)
                 page_contents = [re.sub(r"\s+", "", content) for content in page_contents]
                 page_contents = [
                     re.sub(r"[\s\u200b\u200c\u200d\ufeff]+", "", content)
@@ -514,9 +484,8 @@ class PDFReader(ReaderABC):
                 ]
                 page_contents = ["".join(content.split()) for content in page_contents]
 
-                # Readable text (whitespace preserved; newlines -> spaces so words are
-                # not glued across line breaks). The stored chunk content is sliced
-                # from this, using offsets located on the stripped text above.
+                # What chunks are actually sliced from. Newlines become spaces so
+                # words are not glued together across line breaks.
                 page_contents_spaced = [content.replace("\n", " ") for content in raw_pages]
 
                 final_content = self.extract_content_from_outline(
