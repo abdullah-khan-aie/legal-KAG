@@ -22,7 +22,7 @@ variable "subnet_ids" {
 }
 
 variable "app_instance_id" {
-  description = "EC2 instance id running the Lodestone container to register behind the NLB."
+  description = "EC2 instance id running the App container to register behind the NLB."
   type        = string
 }
 

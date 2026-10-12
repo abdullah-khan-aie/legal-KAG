@@ -1,6 +1,6 @@
-# Lodestone / Lodestone — AWS Infrastructure
+# App / App — AWS Infrastructure
 
-Terraform for the **KAG RAG pipeline**: Neo4j graph store + Lodestone FastAPI app (ingest + query + `/ui`).
+Terraform for the **KAG RAG pipeline**: Neo4j graph store + App FastAPI app (ingest + query + `/ui`).
 
 | | |
 |---|---|
@@ -17,10 +17,10 @@ Terraform for the **KAG RAG pipeline**: Neo4j graph store + Lodestone FastAPI ap
                     Internet (egress only for EC2)
                               │
 ┌─────────────────────────────▼─────────────────────────────────┐
-│  VPC 10.20.0.0/16  (lodestone-poc)                            │
+│  VPC 10.20.0.0/16  (poc)                            │
 │                                                                 │
 │  ┌─────────────────────┐      ┌─────────────────────────────┐  │
-│  │  Neo4j EC2          │      │  Lodestone app EC2          │  │
+│  │  Neo4j EC2          │      │  App app EC2          │  │
 │  │  r7g.large (16 GiB) │◄─────│  t3.large (8 GiB)           │  │
 │  │  Bolt :7687         │ Bolt │  FastAPI :8080 + /ui        │  │
 │  │  GDS plugin         │      │  Bedrock via instance role   │  │
@@ -31,8 +31,8 @@ Terraform for the **KAG RAG pipeline**: Neo4j graph store + Lodestone FastAPI ap
 └─────────────────────────────────────────────────────────────────┘
          │                                    │
          ▼                                    ▼
-   SSM (admin shell)              Secrets Manager: lodestone/env
-   No SSH / no public Bolt         LODESTONE_* runtime config
+   SSM (admin shell)              Secrets Manager: env
+   No SSH / no public Bolt         * runtime config
 ```
 
 **Access model:** Neo4j and the app are **not** open to the internet by default. Admin access is via **SSM Session Manager**. The query UI is reachable only if you allow your IP or public HTTP in tfvars.
@@ -46,7 +46,7 @@ infra/
 ├── README.md                          ← this file
 ├── scripts/                           ← ops helpers (run from repo root)
 │   ├── check_terraform_prereqs.sh     pre-flight before terraform apply
-│   ├── bootstrap_secrets_lodestone.sh   push .env → Secrets Manager
+│   ├── bootstrap_secrets.sh   push .env → Secrets Manager
 │   ├── app_pull_and_restart.sh        git pull + restart on app EC2
 │   ├── enable_neo4j_gds_on_ec2.sh     manual GDS fix (usually not needed)
 │   └── migrate_legacy_terraform_state.sh
@@ -61,8 +61,8 @@ infra/
     └── modules/
         ├── network/                   VPC, subnets, internet gateway
         ├── neo4j/                     graph DB EC2 + EBS + GDS
-        ├── lodestone-app/             pipeline EC2 (8 GiB RAM)
-        └── lodestone-ecs/             future Fargate (not wired yet)
+        ├── app/             pipeline EC2 (8 GiB RAM)
+        └── ecs/             future Fargate (not wired yet)
 ```
 
 ### What each module does
@@ -71,8 +71,8 @@ infra/
 |--------|---------|--------|
 | **network** | VPC `10.20.0.0/16`, public + private subnet, IGW. No NAT (~$33/mo saved). | Live |
 | **neo4j** | `r7g.large`, 50 GB EBS, Docker Neo4j 5 + GDS, Bolt `7687` VPC-only | **Live — do not change** |
-| **lodestone-app** | `t3.large` (8 GiB), clones git repo, uvicorn on `:8080`, 20 GB ingest disk | Off until enabled |
-| **lodestone-ecs** | ECR + ECS skeleton for a later Docker migration | Not used |
+| **app** | `t3.large` (8 GiB), clones git repo, uvicorn on `:8080`, 20 GB ingest disk | Off until enabled |
+| **ecs** | ECR + ECS skeleton for a later Docker migration | Not used |
 
 ---
 
@@ -102,21 +102,21 @@ terraform init
 terraform plan    # expect: 0 to add, 0 to change, 0 to destroy
 ```
 
-> **Important:** Keep `env = "poc"` in tfvars. It matches the live resource names (`lodestone-poc`). Changing it would make Terraform **replace Neo4j**.
+> **Important:** Keep `env = "poc"` in tfvars. It matches the live resource names (`poc`). Changing it would make Terraform **replace Neo4j**.
 
 ---
 
-## Deploy the pipeline (Lodestone app EC2)
+## Deploy the pipeline (App app EC2)
 
 Neo4j is already running. To add the **ingest + query API**:
 
 **1. Enable in `terraform.tfvars`:**
 
 ```hcl
-lodestone_app_enabled       = true
-lodestone_app_instance_type = "t3.large"   # 8 GiB RAM
-lodestone_git_ref           = "feat/kag-rag-engine"
-# lodestone_allow_public_http = true        # only for short external /ui demos
+app_enabled       = true
+app_instance_type = "t3.large"   # 8 GiB RAM
+git_ref           = "feat/kag-rag-engine"
+# allow_public_http = true        # only for short external /ui demos
 ```
 
 **2. Apply:**
@@ -127,14 +127,14 @@ terraform plan
 terraform apply
 ```
 
-**3. Push runtime secrets** (from repo root `.env` with `LODESTONE_*` keys):
+**3. Push runtime secrets** (from repo root `.env` with `*` keys):
 
 ```bash
 AWS_PROFILE=sandbox AWS_REGION=eu-west-2 \
-  ./infra/scripts/bootstrap_secrets_lodestone.sh
+  ./infra/scripts/bootstrap_secrets.sh
 ```
 
-Required in `.env`: at minimum `LODESTONE_NEO4J_PASSWORD`. Bedrock uses the **instance role** on EC2 — no `AWS_PROFILE` on the box.
+Required in `.env`: at minimum `NEO4J_PASSWORD`. Bedrock uses the **instance role** on EC2 — no `AWS_PROFILE` on the box.
 
 ---
 
@@ -148,14 +148,14 @@ cd infra/terraform/environments
 terraform output -raw neo4j_bolt_uri
 terraform output -raw ssm_session_command              # Neo4j shell
 terraform output -raw ssm_bolt_port_forward_command    # local Bolt tunnel
-terraform output -raw lodestone_app_ssm_session_command
-terraform output -raw lodestone_app_url
+terraform output -raw app_ssm_session_command
+terraform output -raw app_url
 ```
 
 ### Ingest documents
 
 1. SSM into the app instance
-2. Copy files to `/data/ingest` (or `LODESTONE_SCAN_DIR`)
+2. Copy files to `/data/ingest` (or `SCAN_DIR`)
 3. Trigger ingest:
 
 ```bash
@@ -170,7 +170,7 @@ On the app EC2 (or via SSM):
 ./infra/scripts/app_pull_and_restart.sh
 ```
 
-Pulls latest `feat/kag-rag-engine` and restarts `lodestone-app.service`.
+Pulls latest `feat/kag-rag-engine` and restarts `app.service`.
 
 ### Query UI
 
@@ -182,16 +182,16 @@ After ingest completes, open `/ui/` on port `8080` (same origin as the API — n
 
 | Variable | Default | Notes |
 |----------|---------|-------|
-| `lodestone_app_enabled` | `false` | Set `true` to create pipeline EC2 |
-| `lodestone_app_instance_type` | `t3.large` | 2 vCPU / **8 GiB RAM** |
-| `lodestone_app_port` | `8080` | API + `/ui` |
-| `lodestone_git_ref` | `feat/kag-rag-engine` | Branch cloned on boot |
-| `lodestone_max_concurrency` | `1` | Lower = less Bedrock throttling |
-| `lodestone_secret_id` | `lodestone/env` | Secrets Manager JSON |
-| `lodestone_scan_dir` | `/data/ingest` | Ingest document folder |
+| `app_enabled` | `false` | Set `true` to create pipeline EC2 |
+| `app_instance_type` | `t3.large` | 2 vCPU / **8 GiB RAM** |
+| `app_port` | `8080` | API + `/ui` |
+| `git_ref` | `feat/kag-rag-engine` | Branch cloned on boot |
+| `max_concurrency` | `1` | Lower = less Bedrock throttling |
+| `secret_id` | `env` | Secrets Manager JSON |
+| `scan_dir` | `/data/ingest` | Ingest document folder |
 | `neo4j_instance_type` | `r7g.large` | **Leave as deployed** |
 
-App runtime env vars use the **`LODESTONE_`** prefix — see `src/lodestone/config/settings.py`.
+App runtime env vars use the **``** prefix — see `src/config/settings.py`.
 
 ---
 
@@ -224,7 +224,7 @@ Stop instances when idle; EBS volumes still bill (~$11/mo).
 
 | Item | Module / action |
 |------|-----------------|
-| Docker + Fargate | `modules/lodestone-ecs` |
+| Docker + Fargate | `modules/ecs` |
 | HTTPS + ALB | new ALB module |
 | Remote Terraform state | S3 + DynamoDB in `main.tf` |
 | Neo4j in private subnet | NAT Gateway or VPC endpoints |
@@ -241,11 +241,11 @@ aws sso login --profile sandbox
 cd infra/terraform/environments && terraform plan && terraform apply
 
 # Secrets
-AWS_PROFILE=sandbox ./infra/scripts/bootstrap_secrets_lodestone.sh
+AWS_PROFILE=sandbox ./infra/scripts/bootstrap_secrets.sh
 
 # Neo4j admin
 eval $(terraform output -raw ssm_session_command)
 
 # App admin
-eval $(terraform output -raw lodestone_app_ssm_session_command)
+eval $(terraform output -raw app_ssm_session_command)
 ```

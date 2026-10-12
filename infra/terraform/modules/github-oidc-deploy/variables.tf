@@ -12,7 +12,7 @@ variable "region" {
 }
 
 variable "github_repo" {
-  description = "GitHub repo in owner/name form, e.g. abdullah-khan-aie/lodestone-graphrag."
+  description = "GitHub repo in owner/name form, e.g. abdullah-khan-aie/legal-kag."
   type        = string
 }
 

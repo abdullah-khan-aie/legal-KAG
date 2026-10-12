@@ -1,5 +1,5 @@
-# Lodestone FastAPI + KAG pipeline on EC2 (POC / phase-1 prod).
-# Phase-2: replace with modules/lodestone-ecs (Fargate + ALB).
+# App FastAPI + KAG pipeline on EC2 (POC / phase-1 prod).
+# Phase-2: replace with modules/ecs (Fargate + ALB).
 
 data "aws_ami" "al2023_amd64" {
   count = var.enabled ? 1 : 0
@@ -22,7 +22,7 @@ resource "aws_security_group" "app" {
   count = var.enabled ? 1 : 0
 
   name        = "${var.name}-app-sg"
-  description = "Lodestone app: HTTP API + /ui"
+  description = "App app: HTTP API + /ui"
   vpc_id      = var.vpc_id
 
   ingress {
@@ -104,10 +104,10 @@ resource "aws_iam_role_policy" "app_bedrock_secrets" {
         Resource = "*"
       },
       {
-        Sid      = "ReadLodestoneSecret"
+        Sid      = "ReadAppSecret"
         Effect   = "Allow"
         Action   = ["secretsmanager:GetSecretValue", "secretsmanager:DescribeSecret"]
-        Resource = local.lodestone_secret_arns
+        Resource = local.secret_arns
       },
       {
         Sid      = "KmsDecryptSecrets"
@@ -151,15 +151,15 @@ resource "aws_iam_role_policy" "app_cloudwatch_logs" {
         "logs:DescribeLogStreams",
         "logs:PutLogEvents",
       ]
-      Resource = "${aws_cloudwatch_log_group.lodestone[0].arn}:*"
+      Resource = "${aws_cloudwatch_log_group.app[0].arn}:*"
     }]
   })
 }
 
-resource "aws_ecr_repository" "lodestone" {
+resource "aws_ecr_repository" "app" {
   count = var.enabled && var.ecr_enabled ? 1 : 0
 
-  name                 = "${var.name}-lodestone"
+  name                 = "${var.name}"
   image_tag_mutability = "MUTABLE"
   force_delete         = false
 
@@ -167,25 +167,25 @@ resource "aws_ecr_repository" "lodestone" {
     scan_on_push = true
   }
 
-  tags = { Name = "${var.name}-lodestone-ecr" }
+  tags = { Name = "${var.name}-ecr" }
 }
 
 locals {
-  ecr_image                 = var.enabled && var.ecr_enabled ? "${aws_ecr_repository.lodestone[0].repository_url}:${var.ecr_image_tag}" : ""
-  cloudwatch_log_group_name = "/${var.name}/lodestone"
-  lodestone_secret_arns = compact([
+  ecr_image                 = var.enabled && var.ecr_enabled ? "${aws_ecr_repository.app[0].repository_url}:${var.ecr_image_tag}" : ""
+  cloudwatch_log_group_name = "/${var.name}"
+  secret_arns = compact([
     "arn:aws:secretsmanager:${var.region}:*:secret:${var.secret_id}*",
     var.github_deploy_key_secret_id != "" ? "arn:aws:secretsmanager:${var.region}:*:secret:${var.github_deploy_key_secret_id}*" : "",
   ])
 }
 
-resource "aws_cloudwatch_log_group" "lodestone" {
+resource "aws_cloudwatch_log_group" "app" {
   count = var.enabled && var.cloudwatch_logs_enabled ? 1 : 0
 
   name              = local.cloudwatch_log_group_name
   retention_in_days = var.cloudwatch_log_retention_days
 
-  tags = { Name = "${var.name}-lodestone-logs" }
+  tags = { Name = "${var.name}-logs" }
 }
 
 resource "aws_iam_instance_profile" "app" {

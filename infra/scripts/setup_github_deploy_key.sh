@@ -9,10 +9,10 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 KEY_DIR="${ROOT}/.deploy-keys"
-KEY_FILE="${KEY_DIR}/lodestone-github-deploy"
+KEY_FILE="${KEY_DIR}/github-deploy"
 REGION="${AWS_REGION:-eu-west-2}"
 PROFILE="${AWS_PROFILE:-sandbox}"
-SECRET_ID="${GITHUB_DEPLOY_KEY_SECRET_ID:-lodestone/github-deploy-key}"
+SECRET_ID="${GITHUB_DEPLOY_KEY_SECRET_ID:/github-deploy-key}"
 
 aws_cli() { aws --profile "$PROFILE" --region "$REGION" "$@"; }
 log() { printf '[github-deploy-key] %s\n' "$*"; }
@@ -25,7 +25,7 @@ chmod 700 "$KEY_DIR"
 
 if [[ ! -f "$KEY_FILE" ]]; then
   log "Generating ed25519 key → $KEY_FILE"
-  ssh-keygen -t ed25519 -f "$KEY_FILE" -N "" -C "lodestone-ec2-deploy"
+  ssh-keygen -t ed25519 -f "$KEY_FILE" -N "" -C "ec2-deploy"
 else
   log "Using existing key → $KEY_FILE"
 fi
@@ -39,7 +39,7 @@ if aws_cli secretsmanager describe-secret --secret-id "$SECRET_ID" >/dev/null 2>
 else
   aws_cli secretsmanager create-secret \
     --name "$SECRET_ID" \
-    --description "GitHub deploy key (private) for Lodestone EC2 git clone" \
+    --description "GitHub deploy key (private) for App EC2 git clone" \
     --secret-string "$PRIVATE_KEY" >/dev/null
   log "Created Secrets Manager secret: $SECRET_ID"
 fi
@@ -47,13 +47,13 @@ fi
 log ""
 log "=== Add this PUBLIC key in GitHub ==="
 log "Repo → Settings → Deploy keys → Add deploy key"
-log "Title: lodestone-ec2-deploy   Allow write access: OFF (read-only)"
+log "Title: ec2-deploy   Allow write access: OFF (read-only)"
 log ""
 cat "${KEY_FILE}.pub"
 log ""
 log "Then set in terraform.tfvars:"
-log "  lodestone_github_deploy_key_secret_id = \"$SECRET_ID\""
-log "  lodestone_git_repo_url = \"git@github.com:YOUR_ORG/lodestone-graphrag.git\""
-log "  lodestone_deploy_with_docker = false"
+log "  github_deploy_key_secret_id = \"$SECRET_ID\""
+log "  git_repo_url = \"git@github.com:YOUR_ORG/legal-kag.git\""
+log "  deploy_with_docker = false"
 log ""
 log "Then: cd infra/terraform/environments && terraform apply"

@@ -7,7 +7,7 @@
 
 region      = "eu-west-2"
 aws_profile = "sandbox"
-env         = "poc"   # do not change — matches deployed Neo4j (lodestone-poc)
+env         = "poc"   # do not change — matches deployed Neo4j (poc)
 
 neo4j_password = "change-me-strong-password"
 
@@ -15,11 +15,11 @@ neo4j_password = "change-me-strong-password"
 # neo4j_instance_type  = "r7g.large"
 # neo4j_data_volume_gb = 50
 
-# Pipeline (Lodestone FastAPI + KAG) on EC2 t3.large (8 GiB RAM):
-# lodestone_app_enabled            = true
-# lodestone_git_repo_url           = "https://github.com/abdullah-khan-aie/lodestone-graphrag.git"
-# lodestone_git_ref                = "feat/kag-rag-engine"
-# lodestone_app_instance_type      = "t3.large"
-# lodestone_max_concurrency        = 1
-# lodestone_allow_public_http      = false
-# lodestone_public_ingress_cidrs   = ["203.0.113.10/32"]
+# Pipeline (App FastAPI + KAG) on EC2 t3.large (8 GiB RAM):
+# app_enabled            = true
+# git_repo_url           = "https://github.com/abdullah-khan-aie/legal-kag.git"
+# git_ref                = "feat/kag-rag-engine"
+# app_instance_type      = "t3.large"
+# max_concurrency        = 1
+# allow_public_http      = false
+# public_ingress_cidrs   = ["203.0.113.10/32"]

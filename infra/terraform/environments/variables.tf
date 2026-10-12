@@ -10,11 +10,11 @@ variable "aws_profile" {
 
 variable "project" {
   type    = string
-  default = "lodestone"
+  default = "app"
 }
 
 variable "env" {
-  description = "Resource name prefix (lodestone-{env}). Keep 'poc' — matches deployed Neo4j; do not change or Neo4j will be replaced."
+  description = "Resource name prefix ({env}). Keep 'poc' — matches deployed Neo4j; do not change or Neo4j will be replaced."
   type        = string
   default     = "poc"
 }
@@ -66,91 +66,91 @@ variable "neo4j_pagecache_size" {
   default = "9g"
 }
 
-# --- Lodestone app (FastAPI + KAG pipeline) ----------------------------------
+# --- App app (FastAPI + KAG pipeline) ----------------------------------
 
-variable "lodestone_app_enabled" {
+variable "app_enabled" {
   type    = bool
   default = false
 }
 
-variable "lodestone_app_instance_type" {
+variable "app_instance_type" {
   description = "Pipeline EC2 — t3.large (2 vCPU / 8 GiB RAM)."
   type        = string
   default     = "t3.large"
 }
 
-variable "lodestone_app_port" {
+variable "app_port" {
   type    = number
   default = 8080
 }
 
-variable "lodestone_git_repo_url" {
+variable "git_repo_url" {
   type    = string
-  default = "git@github.com:abdullah-khan-aie/lodestone-graphrag.git"
+  default = "git@github.com:abdullah-khan-aie/legal-kag.git"
 }
 
-variable "lodestone_github_deploy_key_secret_id" {
+variable "github_deploy_key_secret_id" {
   description = "Secrets Manager id for GitHub deploy key private key (see infra/scripts/setup_github_deploy_key.sh)."
   type        = string
-  default     = "lodestone/github-deploy-key"
+  default     = "github-deploy-key"
 }
 
-variable "lodestone_deploy_with_docker" {
+variable "deploy_with_docker" {
   type    = bool
   default = false
 }
 
-variable "lodestone_ecr_enabled" {
+variable "ecr_enabled" {
   type    = bool
   default = false
 }
 
-variable "lodestone_git_ref" {
+variable "git_ref" {
   type    = string
   default = "feat/kag-rag-engine"
 }
 
-variable "lodestone_bedrock_llm_model" {
+variable "bedrock_llm_model" {
   type    = string
   default = "anthropic.claude-sonnet-4-6"
 }
 
-variable "lodestone_bedrock_embed_model" {
+variable "bedrock_embed_model" {
   type    = string
   default = "cohere.embed-v4:0"
 }
 
-variable "lodestone_max_concurrency" {
+variable "max_concurrency" {
   type    = number
   default = 1
 }
 
-variable "lodestone_secret_id" {
+variable "secret_id" {
   type    = string
-  default = "lodestone/env"
+  default = "env"
 }
 
-variable "lodestone_scan_dir" {
+variable "scan_dir" {
   type    = string
   default = "/data/ingest"
 }
 
-variable "lodestone_data_volume_gb" {
+variable "data_volume_gb" {
   type    = number
   default = 20
 }
 
-variable "lodestone_allow_public_http" {
+variable "allow_public_http" {
   type    = bool
   default = false
 }
 
-variable "lodestone_public_ingress_cidrs" {
+variable "public_ingress_cidrs" {
   type    = list(string)
   default = []
 }
 
-variable "lodestone_public_api_enabled" {
+variable "public_api_enabled" {
   description = "Create public API Gateway -> VPC Link -> internal NLB -> app EC2."
   type        = bool
   default     = false
@@ -167,7 +167,7 @@ variable "github_deploy_enabled" {
 variable "github_repo" {
   description = "GitHub repo (owner/name) allowed to assume the deploy role."
   type        = string
-  default     = "abdullah-khan-aie/lodestone-graphrag"
+  default     = "abdullah-khan-aie/legal-kag"
 }
 
 variable "github_branch" {

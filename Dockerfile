@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-# Lodestone API + KAG pipeline.
+# App API + KAG pipeline.
 #
 # Base image is pinned via the PYTHON_IMAGE arg and shared by both stages so
 # they can't drift apart. For strict, auditable reproducibility, override it
@@ -70,7 +70,7 @@ RUN mkdir -p /data/ingest \
 
 # Bake the (small, static) ingest corpus into the image so it ships to EC2 via
 # ECR -- no host file transfer needed on the SSM-only instance. The directory
-# scanner reads this path at ingest time (scan_dir / LODESTONE_SCAN_DIR=/data/ingest).
+# scanner reads this path at ingest time (scan_dir / SCAN_DIR=/data/ingest).
 # Do NOT mount a volume over /data/ingest or it will shadow these files.
 COPY --chown=appuser:appuser ingest_docs/ /data/ingest/
 
@@ -81,4 +81,4 @@ EXPOSE 8080
 HEALTHCHECK --interval=30s --timeout=5s --start-period=60s --retries=3 \
     CMD curl -fsS http://127.0.0.1:8080/docs >/dev/null || exit 1
 
-CMD ["uvicorn", "src.lodestone.main:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["uvicorn", "src.main:app", "--host", "0.0.0.0", "--port", "8080"]

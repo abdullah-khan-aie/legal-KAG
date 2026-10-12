@@ -50,7 +50,7 @@ variable "instance_type" {
 variable "git_repo_url" {
   description = "SSH URL when using a GitHub deploy key, e.g. git@github.com:org/repo.git"
   type        = string
-  default     = "git@github.com:abdullah-khan-aie/lodestone-graphrag.git"
+  default     = "git@github.com:abdullah-khan-aie/legal-kag.git"
 }
 
 variable "git_ref" {
@@ -81,7 +81,7 @@ variable "max_concurrency" {
 
 variable "secret_id" {
   type    = string
-  default = "lodestone/env"
+  default = "env"
 }
 
 variable "scan_dir" {
@@ -111,7 +111,7 @@ variable "deploy_with_docker" {
 }
 
 variable "ecr_enabled" {
-  description = "Create ECR repository for the Lodestone image."
+  description = "Create ECR repository for the App image."
   type        = bool
   default     = false
 }
@@ -128,7 +128,7 @@ variable "cloudwatch_logs_enabled" {
 }
 
 variable "cloudwatch_log_retention_days" {
-  description = "Retention for Lodestone container logs in CloudWatch Logs."
+  description = "Retention for App container logs in CloudWatch Logs."
   type        = number
   default     = 7
 }

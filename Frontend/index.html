@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Lodestone · AI Search</title>
+<title>legal-KAG · AI Search</title>
 <script>
   // Apply persisted theme before first paint to avoid a flash.
   try {
-    const t = localStorage.getItem("lodestone.theme");
+    const t = localStorage.getItem("theme");
     if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
   } catch {}
 </script>
@@ -332,7 +332,7 @@
       <span class="mark" aria-hidden="true">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="6" cy="6" r="2.4"/><circle cx="18" cy="8" r="2.4"/><circle cx="10" cy="18" r="2.4"/><path d="M8.2 7 15.7 8M7 8.2l2.2 7.6M16.3 10l-4.6 6.3"/></svg>
       </span>
-      <b>Lodestone</b>
+      <b>legal-KAG</b>
     </div>
 
     <button class="new-chat-btn" id="newChat" type="button">
@@ -424,7 +424,7 @@
   <!-- ══ main ══ -->
   <div class="main">
     <header class="topbar">
-      <div class="mobile-brand"><span class="mark"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="6" cy="6" r="2.4"/><circle cx="18" cy="8" r="2.4"/><circle cx="10" cy="18" r="2.4"/><path d="M8.2 7 15.7 8M7 8.2l2.2 7.6M16.3 10l-4.6 6.3"/></svg></span><b>Lodestone</b></div>
+      <div class="mobile-brand"><span class="mark"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="6" cy="6" r="2.4"/><circle cx="18" cy="8" r="2.4"/><circle cx="10" cy="18" r="2.4"/><path d="M8.2 7 15.7 8M7 8.2l2.2 7.6M16.3 10l-4.6 6.3"/></svg></span><b>legal-KAG</b></div>
       <div class="crumb">Intelligence <span class="sep">/</span> <b>AI Search</b></div>
     </header>
 
@@ -519,16 +519,16 @@
 "use strict";
 
 const UI_BUILD = "2026-07-09.8";
-console.info("Lodestone UI build", UI_BUILD);
+console.info("App UI build", UI_BUILD);
 
 /* ── config ──────────────────────────────────────────────────────────── */
 // Same-origin API base, derived from where this page is served so it works
 // both at the origin root (HTTP API / custom domain -> "") and under a stage
 // path prefix (REST API "prod" stage -> "/prod"). The page is served at
 // "<base>/ui[/...]", so stripping the trailing "/ui..." yields the base that
-// prefixes /query/stream etc. Override with window.LODESTONE_API_BASE.
-const API_BASE = (typeof window.LODESTONE_API_BASE === "string")
-  ? window.LODESTONE_API_BASE
+// prefixes /query/stream etc. Override with window.API_BASE.
+const API_BASE = (typeof window.API_BASE === "string")
+  ? window.API_BASE
   : (location.protocol === "file:"
       ? "http://localhost:8080"
       : location.pathname.replace(/\/ui(?:\/.*)?$/, ""));
@@ -549,8 +549,8 @@ let ticker = null;
 let stick = true;        // auto-follow the stream unless the user scrolls up
 const titleRequests = new Map(); // chatId -> AbortController
 
-const CHATS_KEY = "lodestone.chats";
-const ACTIVE_CHAT_KEY = "lodestone.activeChat";
+const CHATS_KEY = "chats";
+const ACTIVE_CHAT_KEY = "activeChat";
 const MAX_CHATS = 50;
 
 /* ── theme ───────────────────────────────────────────────────────────── */
@@ -561,7 +561,7 @@ function syncThemeLabel() {
 $("themeBtn").addEventListener("click", () => {
   const next = document.documentElement.dataset.theme === "dark" ? "light" : "dark";
   document.documentElement.dataset.theme = next;
-  try { localStorage.setItem("lodestone.theme", next); } catch {}
+  try { localStorage.setItem("theme", next); } catch {}
   syncThemeLabel();
 });
 syncThemeLabel();
@@ -813,12 +813,12 @@ $("newChat").addEventListener("click", startNewChat);
 (function migrateRecents() {
   if (loadChats().length) return;
   let recents = [];
-  try { recents = JSON.parse(localStorage.getItem("lodestone.recent") || "[]"); } catch {}
+  try { recents = JSON.parse(localStorage.getItem("recent") || "[]"); } catch {}
   if (!recents.length) return;
   for (const q of recents.slice().reverse()) {
     if (typeof q === "string" && q.trim()) createChat(q.trim(), "retriever");
   }
-  try { localStorage.removeItem("lodestone.recent"); } catch {}
+  try { localStorage.removeItem("recent"); } catch {}
 })();
 
 activeChatId = loadActiveChatId();

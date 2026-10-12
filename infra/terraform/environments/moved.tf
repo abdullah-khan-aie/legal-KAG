@@ -78,40 +78,40 @@ moved {
 
 moved {
   from = aws_security_group.app[0]
-  to   = module.lodestone_app.aws_security_group.app[0]
+  to   = module.app.aws_security_group.app[0]
 }
 
 moved {
   from = aws_iam_role.app[0]
-  to   = module.lodestone_app.aws_iam_role.app[0]
+  to   = module.app.aws_iam_role.app[0]
 }
 
 moved {
   from = aws_iam_role_policy_attachment.app_ssm[0]
-  to   = module.lodestone_app.aws_iam_role_policy_attachment.app_ssm[0]
+  to   = module.app.aws_iam_role_policy_attachment.app_ssm[0]
 }
 
 moved {
   from = aws_iam_role_policy.app_bedrock_secrets[0]
-  to   = module.lodestone_app.aws_iam_role_policy.app_bedrock_secrets[0]
+  to   = module.app.aws_iam_role_policy.app_bedrock_secrets[0]
 }
 
 moved {
   from = aws_iam_instance_profile.app[0]
-  to   = module.lodestone_app.aws_iam_instance_profile.app[0]
+  to   = module.app.aws_iam_instance_profile.app[0]
 }
 
 moved {
   from = aws_ebs_volume.app_data[0]
-  to   = module.lodestone_app.aws_ebs_volume.app_data[0]
+  to   = module.app.aws_ebs_volume.app_data[0]
 }
 
 moved {
   from = aws_instance.app[0]
-  to   = module.lodestone_app.aws_instance.app[0]
+  to   = module.app.aws_instance.app[0]
 }
 
 moved {
   from = aws_volume_attachment.app_data[0]
-  to   = module.lodestone_app.aws_volume_attachment.app_data[0]
+  to   = module.app.aws_volume_attachment.app_data[0]
 }

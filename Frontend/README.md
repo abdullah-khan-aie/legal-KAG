@@ -1,6 +1,6 @@
-# Frontend — Lodestone AI Search
+# Frontend — App AI Search
 
-A single, dependency-free `index.html` that streams answers from the Lodestone
+A single, dependency-free `index.html` that streams answers from the App
 query API. No build step, no npm, no framework — it runs anywhere a browser can
 open it, and FastAPI serves it unchanged at `/ui`.
 
@@ -41,7 +41,7 @@ Frontend/
 
 ### The event contract it relies on
 
-`src/lodestone/api/routes/query.py` emits these SSE events; the UI handles each:
+`src/api/routes/query.py` emits these SSE events; the UI handles each:
 
 | event    | data                              | UI behaviour                                    |
 |----------|-----------------------------------|-------------------------------------------------|
@@ -56,7 +56,7 @@ anything containing `ERROR`/`FAIL` → error, everything else → running.
 
 ## How it's wired (already done)
 
-`src/lodestone/main.py` serves this folder as static files, so the page and the
+`src/main.py` serves this folder as static files, so the page and the
 API share an origin (no CORS needed):
 
 ```python
@@ -85,20 +85,20 @@ On the app EC2 instance, from the repo root (`v2/`):
 curl -LsSf https://astral.sh/uv/install.sh | sh
 uv sync --frozen
 
-# 2. Write .env (LODESTONE_ prefix; see ../.env.example)
+# 2. Write .env ( prefix; see ../.env.example)
 cat > .env <<'EOF'
-LODESTONE_NEO4J_URI=bolt://10.20.1.73:7687       # Neo4j box private IP (same VPC)
-LODESTONE_NEO4J_PASSWORD=<neo4j password>
-LODESTONE_BEDROCK_API_KEY=sigv4                  # "sigv4" = use the instance role (no key)
-LODESTONE_LLM_MODEL=anthropic.claude-sonnet-4-6
-LODESTONE_EMBED_MODEL=cohere.embed-english-v3
-LODESTONE_BEDROCK_REGION=eu-west-2
-LODESTONE_EMBED_REGION=eu-west-2
-LODESTONE_SCAN_DIR=ingest_docs
+NEO4J_URI=bolt://10.20.1.73:7687       # Neo4j box private IP (same VPC)
+NEO4J_PASSWORD=<neo4j password>
+BEDROCK_API_KEY=sigv4                  # "sigv4" = use the instance role (no key)
+LLM_MODEL=anthropic.claude-sonnet-4-6
+EMBED_MODEL=cohere.embed-english-v3
+BEDROCK_REGION=eu-west-2
+EMBED_REGION=eu-west-2
+SCAN_DIR=ingest_docs
 EOF
 
 # 3. Run it (serves API + UI). Use a process manager so it survives logout:
-nohup uv run uvicorn src.lodestone.main:app --host 0.0.0.0 --port 8080 \
+nohup uv run uvicorn src.main:app --host 0.0.0.0 --port 8080 \
   > app.log 2>&1 &
 ```
 
@@ -106,19 +106,19 @@ Required environment:
 
 | Variable                  | Purpose                                              |
 |---------------------------|------------------------------------------------------|
-| `LODESTONE_NEO4J_URI`       | `bolt://<neo4j-private-ip>:7687` (same VPC)          |
-| `LODESTONE_NEO4J_PASSWORD`  | Neo4j password                                       |
-| `LODESTONE_BEDROCK_API_KEY` | `sigv4` to use the EC2 instance role (no key needed) |
-| `LODESTONE_LLM_MODEL`       | `anthropic.claude-sonnet-4-6` (bare on-demand id)    |
-| `LODESTONE_EMBED_MODEL`     | `cohere.embed-english-v3`                            |
+| `NEO4J_URI`       | `bolt://<neo4j-private-ip>:7687` (same VPC)          |
+| `NEO4J_PASSWORD`  | Neo4j password                                       |
+| `BEDROCK_API_KEY` | `sigv4` to use the EC2 instance role (no key needed) |
+| `LLM_MODEL`       | `anthropic.claude-sonnet-4-6` (bare on-demand id)    |
+| `EMBED_MODEL`     | `cohere.embed-english-v3`                            |
 
 Two things that must be true for it to actually answer:
 
 1. **On EC2, leave `AWS_PROFILE` unset** — boto3 uses the instance role for
-   Bedrock automatically (that's what `LODESTONE_BEDROCK_API_KEY=sigv4` selects).
+   Bedrock automatically (that's what `BEDROCK_API_KEY=sigv4` selects).
    No `aws sso login` on the box. The instance role needs Bedrock + Neo4j access.
 2. **The graph must have data** — run ingestion first (put docs in
-   `LODESTONE_SCAN_DIR`, then `curl -X POST http://localhost:8080/ingest`), or the
+   `SCAN_DIR`, then `curl -X POST http://localhost:8080/ingest`), or the
    UI returns empty answers.
 
 ## Give it to test users (public URL)
@@ -153,11 +153,11 @@ port), point it at the API and enable CORS.
 
 1. Set the API base before the page's script runs:
    ```html
-   <script>window.LODESTONE_API_BASE = "http://your-api-host:8080";</script>
+   <script>window.API_BASE = "http://your-api-host:8080";</script>
    ```
    (When opened as `file://`, it already defaults to `http://localhost:8080`.)
 
-2. Allow that origin on the API — add to `src/lodestone/main.py`:
+2. Allow that origin on the API — add to `src/main.py`:
    ```python
    from fastapi.middleware.cors import CORSMiddleware
    app.add_middleware(
@@ -169,13 +169,13 @@ port), point it at the API and enable CORS.
 
 The UI only reads the graph — populate Neo4j before asking:
 
-- Put documents in `LODESTONE_SCAN_DIR` and call **`POST /ingest`**, or
+- Put documents in `SCAN_DIR` and call **`POST /ingest`**, or
 - run an ingestion script (see `../scratchpad/`).
 
 ## Customising
 
 - **Pipelines** — edit the `.seg` buttons in `index.html` to match
-  `PipelineName` in `src/lodestone/api/schemas.py`.
+  `PipelineName` in `src/api/schemas.py`.
 - **Examples** — edit the `.examples` chips.
 - **Look** — all styling is CSS variables at the top of `index.html`; dark mode
   follows the OS via `prefers-color-scheme`.

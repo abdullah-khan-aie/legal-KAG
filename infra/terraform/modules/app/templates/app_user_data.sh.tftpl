@@ -1,10 +1,10 @@
 #!/bin/bash
-# Bootstrap Lodestone app (FastAPI + KAG) on Amazon Linux 2023.
+# Bootstrap App app (FastAPI + KAG) on Amazon Linux 2023.
 # Config from Secrets Manager; repo via GitHub deploy key (SSH).
 set -euxo pipefail
 
-APP_DIR=/opt/lodestone/app
-ENV_FILE=/opt/lodestone/.env
+APP_DIR=/opt/app
+ENV_FILE=/opt/.env
 SCAN_DIR="${scan_dir}"
 SECRET_ID="${secret_id}"
 GITHUB_KEY_SECRET_ID="${github_deploy_key_secret_id}"
@@ -34,7 +34,7 @@ for _ in $(seq 1 30); do
   sleep 2
 done
 mkdir -p "$SCAN_DIR"
-chown -R ec2-user:ec2-user /opt/lodestone /data
+chown -R ec2-user:ec2-user /opt /data
 
 setup_github_ssh() {
   [[ -n "$GITHUB_KEY_SECRET_ID" ]] || return 0
@@ -77,9 +77,9 @@ EOF
 
 chmod 600 "$ENV_FILE"
 
-cat > /etc/systemd/system/lodestone-app.service <<UNIT
+cat > /etc/systemd/system/app.service <<UNIT
 [Unit]
-Description=Lodestone FastAPI (KAG ingest + query)
+Description=App FastAPI (KAG ingest + query)
 After=network-online.target
 Wants=network-online.target
 
@@ -89,7 +89,7 @@ User=root
 WorkingDirectory=$APP_DIR
 EnvironmentFile=$ENV_FILE
 Environment=PATH=/root/.local/bin:/usr/local/bin:/usr/bin
-ExecStart=/root/.local/bin/uv run uvicorn src.lodestone.main:app --host 0.0.0.0 --port $APP_PORT
+ExecStart=/root/.local/bin/uv run uvicorn src.main:app --host 0.0.0.0 --port $APP_PORT
 Restart=on-failure
 RestartSec=10
 
@@ -99,7 +99,7 @@ UNIT
 
 systemctl daemon-reload
 if [[ -f "$APP_DIR/pyproject.toml" ]]; then
-  systemctl enable --now lodestone-app.service
+  systemctl enable --now app.service
 else
-  echo "Skipping lodestone-app.service — no pyproject.toml at $APP_DIR" >&2
+  echo "Skipping app.service — no pyproject.toml at $APP_DIR" >&2
 fi

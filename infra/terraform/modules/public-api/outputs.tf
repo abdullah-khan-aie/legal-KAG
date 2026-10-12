@@ -1,5 +1,5 @@
 output "api_endpoint" {
-  description = "Public HTTPS URL for the Lodestone app (REST API stage invoke URL, e.g. https://<id>.execute-api.<region>.amazonaws.com/prod)."
+  description = "Public HTTPS URL for the App app (REST API stage invoke URL, e.g. https://<id>.execute-api.<region>.amazonaws.com/prod)."
   value       = var.enabled ? aws_api_gateway_stage.default[0].invoke_url : null
 }
 

@@ -21,8 +21,8 @@ permissions:
 
 env:
   AWS_REGION: eu-west-2
-  ECR_REPO: 123456789012.dkr.ecr.eu-west-2.amazonaws.com/lodestone-poc-lodestone
-  APP_NAME_TAG: lodestone-poc-app
+  ECR_REPO: 123456789012.dkr.ecr.eu-west-2.amazonaws.com/poc
+  APP_NAME_TAG: poc-app
   PUBLIC_URL: https://YOUR-API-ID.execute-api.REGION.amazonaws.com
 
 jobs:
@@ -70,26 +70,26 @@ jobs:
           cat > redeploy.sh <<'SCRIPT'
           set -euo pipefail
           REGION=eu-west-2
-          IMAGE=123456789012.dkr.ecr.eu-west-2.amazonaws.com/lodestone-poc-lodestone:latest
-          DEPLOY_DIR=/opt/lodestone
+          IMAGE=123456789012.dkr.ecr.eu-west-2.amazonaws.com/poc:latest
+          DEPLOY_DIR=/opt
           LOG_GROUP=$(cat "$DEPLOY_DIR/cloudwatch_log_group" 2>/dev/null || true)
           aws ecr get-login-password --region "$REGION" \
             | docker login --username AWS --password-stdin "${IMAGE%%/*}"
           docker pull "$IMAGE"
-          docker rm -f lodestone 2>/dev/null || true
+          docker rm -f app 2>/dev/null || true
           if [ -n "$LOG_GROUP" ]; then
-            docker run -d --name lodestone --restart unless-stopped \
+            docker run -d --name app --restart unless-stopped \
               -p 8080:8080 \
-              -e AWS_SECRETS_MANAGER_SECRET_ID=lodestone/env \
+              -e AWS_SECRETS_MANAGER_SECRET_ID=env \
               -e AWS_SECRETS_MANAGER_REGION="$REGION" \
               -e AWS_REGION="$REGION" --memory=6g \
               --log-driver awslogs --log-opt "awslogs-region=$REGION" \
               --log-opt "awslogs-group=$LOG_GROUP" --log-opt awslogs-create-group=false \
               "$IMAGE"
           else
-            docker run -d --name lodestone --restart unless-stopped \
+            docker run -d --name app --restart unless-stopped \
               -p 8080:8080 \
-              -e AWS_SECRETS_MANAGER_SECRET_ID=lodestone/env \
+              -e AWS_SECRETS_MANAGER_SECRET_ID=env \
               -e AWS_SECRETS_MANAGER_REGION="$REGION" \
               -e AWS_REGION="$REGION" --memory=6g \
               "$IMAGE"

@@ -15,7 +15,7 @@ variable "enabled" {
 
 variable "secret_id" {
   type    = string
-  default = "lodestone/env"
+  default = "env"
 }
 
 variable "ecr_image_tag" {

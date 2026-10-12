@@ -1,5 +1,5 @@
 variable "name" {
-  description = "Prefix for resource names and tags (e.g. lodestone-poc)."
+  description = "Prefix for resource names and tags (e.g. poc)."
   type        = string
 }
 

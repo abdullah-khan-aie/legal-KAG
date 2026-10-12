@@ -1,5 +1,5 @@
 output "ecr_repository_url" {
-  value = var.enabled ? aws_ecr_repository.lodestone[0].repository_url : null
+  value = var.enabled ? aws_ecr_repository.app[0].repository_url : null
 }
 
 output "ecs_cluster_name" {

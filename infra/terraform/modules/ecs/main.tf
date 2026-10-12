@@ -1,7 +1,7 @@
-resource "aws_ecr_repository" "lodestone" {
+resource "aws_ecr_repository" "app" {
   count = var.enabled ? 1 : 0
 
-  name                 = "${var.name}-lodestone"
+  name                 = "${var.name}"
   image_tag_mutability = "MUTABLE"
   force_delete         = false
 
@@ -9,20 +9,20 @@ resource "aws_ecr_repository" "lodestone" {
     scan_on_push = true
   }
 
-  tags = { Name = "${var.name}-lodestone-ecr" }
+  tags = { Name = "${var.name}-ecr" }
 }
 
 resource "aws_ecs_cluster" "main" {
   count = var.enabled ? 1 : 0
 
-  name = "${var.name}-lodestone"
+  name = "${var.name}"
 
   setting {
     name  = "containerInsights"
     value = "enabled"
   }
 
-  tags = { Name = "${var.name}-lodestone-cluster" }
+  tags = { Name = "${var.name}-cluster" }
 }
 
 resource "aws_iam_role" "ecs_task_execution" {

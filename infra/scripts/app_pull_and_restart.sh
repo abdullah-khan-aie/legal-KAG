@@ -6,13 +6,13 @@
 #
 # Optional overrides:
 #   APP_GIT_REF=feat/kag-rag-engine
-#   APP_DIR=/opt/lodestone/app
+#   APP_DIR=/opt/app
 
 set -euo pipefail
 
-APP_DIR="${APP_DIR:-/opt/lodestone/app}"
+APP_DIR="${APP_DIR:-/opt/app}"
 GIT_REF="${APP_GIT_REF:-feat/kag-rag-engine}"
-SERVICE="${APP_SERVICE:-lodestone-app.service}"
+SERVICE="${APP_SERVICE:-app.service}"
 
 [[ -d "$APP_DIR/.git" ]] || { echo "No git repo at $APP_DIR" >&2; exit 1; }
 

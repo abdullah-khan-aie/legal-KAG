@@ -1,4 +1,4 @@
-# Public access path for the Lodestone app:
+# Public access path for the App app:
 #   Internet -> API Gateway (REST API, response streaming) -> VPC Link
 #     -> internal NLB -> EC2 :8080
 #

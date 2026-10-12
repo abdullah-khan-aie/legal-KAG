@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Bootstrap Lodestone on EC2 with Docker (image from ECR — no git clone).
-# App config: AWS Secrets Manager at runtime (see src/lodestone/config/settings.py).
+# Bootstrap App on EC2 with Docker (image from ECR — no git clone).
+# App config: AWS Secrets Manager at runtime (see src/config/settings.py).
 # Container stdout/stderr → CloudWatch Logs via the Docker awslogs driver.
 set -euxo pipefail
 
-DEPLOY_DIR=/opt/lodestone
+DEPLOY_DIR=/opt
 REGION="${region}"
 SECRET_ID="${secret_id}"
 ECR_IMAGE="${ecr_image}"
@@ -35,7 +35,7 @@ done
 
 aws ecr get-login-password --region "$REGION" | docker login --username AWS --password-stdin "$${ECR_IMAGE%%/*}"
 docker pull "$ECR_IMAGE"
-docker rm -f lodestone 2>/dev/null || true
+docker rm -f app 2>/dev/null || true
 
 LOG_OPTS=()
 if [[ -n "$LOG_GROUP" ]]; then
@@ -47,7 +47,7 @@ if [[ -n "$LOG_GROUP" ]]; then
   )
 fi
 
-docker run -d --name lodestone --restart unless-stopped \
+docker run -d --name app --restart unless-stopped \
   -p "$APP_PORT":8080 \
   -v "$SCAN_DIR:$SCAN_DIR" \
   -e AWS_SECRETS_MANAGER_SECRET_ID="$SECRET_ID" \

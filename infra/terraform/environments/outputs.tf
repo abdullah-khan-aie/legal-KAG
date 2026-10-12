@@ -23,45 +23,45 @@ output "ssm_bolt_port_forward_command" {
   ])
 }
 
-# Lodestone app
-output "lodestone_app_enabled" {
-  value = module.lodestone_app.enabled
+# App app
+output "app_enabled" {
+  value = module.app.enabled
 }
 
-output "lodestone_app_instance_id" {
-  value = module.lodestone_app.instance_id
+output "app_instance_id" {
+  value = module.app.instance_id
 }
 
-output "lodestone_app_url" {
-  value = module.lodestone_app.url
+output "app_url" {
+  value = module.app.url
 }
 
-output "lodestone_app_ssm_session_command" {
-  value = module.lodestone_app.instance_id != null ? "aws ssm start-session --target ${module.lodestone_app.instance_id} --region ${var.region}" : null
+output "app_ssm_session_command" {
+  value = module.app.instance_id != null ? "aws ssm start-session --target ${module.app.instance_id} --region ${var.region}" : null
 }
 
-output "lodestone_app_ingest_curl" {
-  value = module.lodestone_app.instance_id != null ? "curl -X POST http://127.0.0.1:${module.lodestone_app.app_port}/ingest" : null
+output "app_ingest_curl" {
+  value = module.app.instance_id != null ? "curl -X POST http://127.0.0.1:${module.app.app_port}/ingest" : null
 }
 
-output "lodestone_ecr_repository_url" {
-  value = module.lodestone_app.ecr_repository_url
+output "ecr_repository_url" {
+  value = module.app.ecr_repository_url
 }
 
-output "lodestone_ecr_image" {
-  value = module.lodestone_app.ecr_image
+output "ecr_image" {
+  value = module.app.ecr_image
 }
 
-output "lodestone_cloudwatch_log_group" {
-  value = module.lodestone_app.cloudwatch_log_group_name
+output "cloudwatch_log_group" {
+  value = module.app.cloudwatch_log_group_name
 }
 
-output "lodestone_cloudwatch_logs_console_url" {
-  value = module.lodestone_app.cloudwatch_logs_console_url
+output "cloudwatch_logs_console_url" {
+  value = module.app.cloudwatch_logs_console_url
 }
 
-output "lodestone_public_api_url" {
-  value = module.lodestone_public_api.api_endpoint
+output "public_api_url" {
+  value = module.public_api.api_endpoint
 }
 
 output "github_deploy_role_arn" {
